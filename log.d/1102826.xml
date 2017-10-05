@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1102826</D:version-name>
+<D:comment>DERBY-5223 Thread's interrupted flag not always preserved after Derby returns from JDBC API call
+
+Patch DERBY-5223b: This fix moves the initialization of the variable
+"interruptedException" earlier in
+GenericLanguageConnectionContext#initialize and adds a missing
+reinitialization to resetFromPool as a precaution (if
+interruptedException is still non-null the connection should have
+throws 08000).
+
+The patch also changes the InterruptResilienceTest so that JUnit
+asserts in the worker threads will get propagated to the main test
+thread on completion, so any future errors in these invariants do not
+get overlooked.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-05-13T17:41:38.627025Z</S:date>
+</S:log-item>
+</S:log-report>

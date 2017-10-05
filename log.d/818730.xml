@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>818730</D:version-name>
+<D:comment>DERBY-4384
+
+Disabling the test fixture testDynamicArgsMetaData from running in JSR169 environment because it makes a call PreparedStatement.getParameterMetaData() which is unavailable in JSR169.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2009-09-25T06:08:31.760438Z</S:date>
+</S:log-item>
+</S:log-report>

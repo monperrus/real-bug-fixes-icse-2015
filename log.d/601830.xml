@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>601830</D:version-name>
+<D:comment>DERBY-3037
+
+This commit makes sure that EmbeddedResultSet.close() calls Language Resultset.close rather than Language 
+Resultset.finish. This change caused few tests to fail. The tests had runtime statistics on but the code to dump 
+the runtime statistics was in Language Resutlset.finish and not in Language Resultset.close. To fix this, I have 
+moved the code to dump runtime statistics from Language Resutlset.finish into Lanugage ResultSet.close This has 
+fixed the test failures. 
+
+As for the 2nd part of this jira entry which is to have activation.close() call Language Resultset.finish(). This
+already happens in impl.sql.execute.BaseActivation.close() and hence no work was needed for the 2nd part.
+
+Will merge this change into 10.3 codeline soon.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-12-06T19:47:40.121621Z</S:date>
+</S:log-item>
+</S:log-report>

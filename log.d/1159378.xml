@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1159378</D:version-name>
+<D:comment>SOLR-2654: Directorys used by a SolrCore are now closed when they are no longer used.
+SOLR-2654: The same Directory instance is now always used across a SolrCore so that
+it's easier to add other DirectoryFactory's without static caching hacks.</D:comment>
+<D:creator-displayname>markrmiller</D:creator-displayname>
+<S:date>2011-08-18T19:46:30.461017Z</S:date>
+</S:log-item>
+</S:log-report>

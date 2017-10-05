@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>588527</D:version-name>
+<D:comment>DERBY-3046
+This commit will ensure that setObject returns the same exception in both Network Server and Embedded WHEN the 
+PreparedStatement has no parameters associated with it at all. Without the changes that are going in this commit,
+following sql will return different exceptions in Embedded and Network Server (this test case is copied from 
+derbynet.PrepareStatementTest). 
+
+ps = prepareStatement("insert into WISH_LIST(WISH_ITEM) values ('bb')"); 
+ps.setObject(1,"cc",java.sql.Types.VARCHAR); 
+
+ps.setObject in Embedded will throw SQL State 07009 whereas in Network Server, it will throw SQL State XCL13. 
+As part of this commit, in the example case above, we will always throw SQL State 07009 in both Embedded and 
+Network Server. 
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-10-26T05:15:55.181313Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1068529</D:version-name>
+<D:comment>DERBY-4895 Thread local TableDescriptor#referencedColumnMap is not removed from
+app threads when Derby is shut down
+
+port from trunk revision 1033485 with some manual merge.
+Fix Contributed by Dag H. Wanvik
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2011-02-08T19:10:41.018443Z</S:date>
+</S:log-item>
+</S:log-report>

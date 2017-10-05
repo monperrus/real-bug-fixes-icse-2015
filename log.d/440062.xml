@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>440062</D:version-name>
+<D:comment>DERBY-1800 testSetBinaryStreamLengthLessOnBlobTooLong fails with Unexpected SQL state. Fix is to flush the BLOB data when there is an SQLException</D:comment>
+<D:creator-displayname>andreask</D:creator-displayname>
+<S:date>2006-09-04T13:05:32.834219Z</S:date>
+</S:log-item>
+</S:log-report>

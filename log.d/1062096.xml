@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1062096</D:version-name>
+<D:comment>DERBY-4973 NullPointerException in updatelocks.sql encryption tests on IBM 1.6
+
+Change Xact.getContextId() to just read xc value once to avoid possible NPE with lock table query.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2011-01-22T04:04:17.522281Z</S:date>
+</S:log-item>
+</S:log-report>

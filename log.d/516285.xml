@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>516285</D:version-name>
+<D:comment>DERBY-2380 (partial) Change language PreparedStatement to not implement the Provider
+interface from the DependencyManager. This is a step to cleaning up the life-cycle
+of a PreparedStatement so that it will act like a Java object, if one has a reference
+to it then it can be used. Remove the single use of any object being dependent
+on a PreparedStatement which was a PreparedStatement for a positioned delete/update
+being dependent on the current statement the cursor maps to. This is already handled
+in a more general case since the positioned statement must cope with the statement
+for the cursor changing completely without any invalidation. Also the positioned
+statement has its own dependency on the table being modified so will be recompiled
+through that mechanism if the table changes in any way.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-03-09T04:01:40.490286Z</S:date>
+</S:log-item>
+</S:log-report>

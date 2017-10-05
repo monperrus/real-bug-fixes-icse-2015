@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1382032</D:version-name>
+<D:comment>DERBY-5917: NoClassDefFoundErrors when running tests without derbynet.jar and derbyclient.jar
+
+Avoid attempts to load client classes when the client driver is not there.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-09-07T14:03:18.346638Z</S:date>
+</S:log-item>
+</S:log-report>

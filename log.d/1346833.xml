@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1346833</D:version-name>
+<D:comment>DERBY-2601: Server SQLException error codes are not returned to client
+
+Encode the error code in the SQLCODE value sent from the server. This
+value used to be -1 for all errors, but the client was OK with any
+negative value. Now it's a negative value equal to -(errorCode+1).</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-06-06T11:53:23.970968Z</S:date>
+</S:log-item>
+</S:log-report>

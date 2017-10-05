@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>388687</D:version-name>
+<D:comment>DERBY-446 (partial) Copy Attribute.java to the java/shared reference area and add in constants
+for the client JDBC attributes. Change the client code to use these constants as preparation to
+removing these constants from the user visible classes.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-03-25T01:38:37.052205Z</S:date>
+</S:log-item>
+</S:log-report>

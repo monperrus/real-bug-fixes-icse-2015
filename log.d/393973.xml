@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>393973</D:version-name>
+<D:comment>DERBY-438 (partial) Move ReaderToUTF8Stream.java from the JDBC implementation to the
+types package so that it can be used directly by SQLCLob. This class converts from
+a Reader (stream) format to the on-disk format for character types.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-04-13T23:35:50.561331Z</S:date>
+</S:log-item>
+</S:log-report>

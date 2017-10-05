@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>160426</D:version-name>
+<D:comment>Derby-176 (partial) - Added checks when the generated class file's format is created
+to ensure the structure is not corrupted by writing truncated values.
+E.g. a constant pool count N with N &gt;65535 now will throw an error rather
+than generate a class file with an apparent constant pool count of N % 65535.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-04-07T18:31:35.205192Z</S:date>
+</S:log-item>
+</S:log-report>

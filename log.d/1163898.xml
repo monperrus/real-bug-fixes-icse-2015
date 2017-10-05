@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1163898</D:version-name>
+<D:comment>Properly throw timeouts, decrement the count of waiters on timeout, fix off-by-one in taskCount
+patch by Stu Hood; reviewed by Ryan King for CASSANDRA-3096</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2011-09-01T03:14:12.465389Z</S:date>
+</S:log-item>
+</S:log-report>

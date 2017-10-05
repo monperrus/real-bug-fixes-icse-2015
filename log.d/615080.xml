@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>615080</D:version-name>
+<D:comment>Minor cleanup of DatabaseMetaDataTest:
+1) Remove double running of two fixtures
+2) Use DatabaseMetaData fields for scope in getBestRowIdentifier rather than 0,1,2
+3) For a number of DMD calls move the code that was testing the shape of the returned ResultSets into the useful methods that get the JDBC &amp; ODBC versions of the ResultSet. This puts the shape checking in one logical position and removes some amount of duplicated code where the asserts for the shape were called after the JDBC/ODBC utility method in many places.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2008-01-24T23:31:18.464917Z</S:date>
+</S:log-item>
+</S:log-report>

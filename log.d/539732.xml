@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>539732</D:version-name>
+<D:comment>LUCENE-883: consecutive calls to Spellchecker.indexDictionary() won't insert terms twice anymore. Fixes the test case failure.</D:comment>
+<D:creator-displayname>dnaber</D:creator-displayname>
+<S:date>2007-05-19T11:27:54.259983Z</S:date>
+</S:log-item>
+</S:log-report>

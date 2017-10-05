@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>449671</D:version-name>
+<D:comment>DERBY-1751: derbynet/testSecMec.java fails with ShutdownException in
+DerbyNetClient framework
+
+The attached patch avoids the problem seen in this issue by setting
+the console output of the network server to a file. This change in
+made to the following files:
+
+* functionTests/tests/jdbc4/TestConnectionMethods.java
+* functionTests/tests/derbynet/testSecMec.java
+* functionTests/tests/derbynet/dataSourcePermissions_net.java
+* junit/NetworkServerTestSetup.java
+
+It also changes DRDAProtocolException so that agent Errors will be
+printed to the network server console instead of System.out.
+
+Contributed by Fernanda Pizzorno.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-09-25T12:58:35.968774Z</S:date>
+</S:log-item>
+</S:log-report>

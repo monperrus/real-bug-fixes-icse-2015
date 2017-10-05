@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1456710</D:version-name>
+<D:comment>SOLR-4574: The Collections API will silently return success on an unknown ACTION parameter.
+SOLR-4576: Collections API validation errors should cause an exception on clients and otherwise act as validation errors with the Core Admin API.
+SOLR-4577: The collections API should return responses (success or failure) for each node it attempts to work with. </D:comment>
+<D:creator-displayname>markrmiller</D:creator-displayname>
+<S:date>2013-03-14T23:01:15.144678Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>394109</D:version-name>
+<D:comment>DERBY-438 (partial) Ensure internal conversions of JDBC objects to BLOBs provide the conversion
+using RawToBinaryFormatStream from the raw binary stream to the on-disk format stream as required
+by the data type api. Make RawToBinaryFormatStream encode the length of the value in the first
+bytes as defined in the format described in SQLBinary. Ensure the code handles this encoded lenght correctly.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-04-14T14:23:03.311907Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>413129</D:version-name>
+<D:comment>DERBY-1327 Identity column can be created with wrong and very large start with v
+alue with "J2RE 1.5.0 IBM Windows 32 build pwi32dev-20060412 (SR2)" with JIT on
+
+The fix for this issue would be to reduce the number of parameters required by the constructor to &lt;=10 in org.apache.derby.iapi.sql.dictionary.ColumnDescriptor class. While researching into this, I found that all the 3 constructors in the class have a parameter named autoinc and it is defined as a boolean. This parameter is always equal to (parameter named autoincInc != 0). In my patch (Derby1327WrongStartKeyPatch1CodelineTrunk.txt) which is attached to this JIRA, I have removed the autoinc parameter and inside the constructors, I use (parameter named autoincInc != 0) instead of relying on autoinc. This cleans up the constructor parameter passing for all the 3 constructors and also brings down the number of parameters to &lt;=10. The test program from the JIRA entry runs fine with this change and I have created a new test JitTest.java based on that test program. Hopefully this test can be a place holder for any future JIT issues. I also ran the test suites and there were no new failures.
+
+I also removed the import of org.apache.derby.iapi.sql.dictionary.ColumnDescriptor from some classes which didn't really use ColumnDescriptor.
+
+Contributed by Mamta Satoor
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-06-09T19:23:47.329174Z</S:date>
+</S:log-item>
+</S:log-report>

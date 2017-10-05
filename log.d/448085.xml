@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>448085</D:version-name>
+<D:comment>DERBY-1718 ( creating an after insert trigger with trigger action involving 
+xml datatype throws java.io.NottSerializableException)
+
+Patch contributed by Yip Ng.
+
+The fix basically implements the Formatable interface for SqlXmlUtil class. 
+Currently, it writes out the query expression string instead of the XPath 
+object(its serializable I think), and then later recompiles the query once 
+at evaluation time. The reason behind this is that I don't want the stored 
+form to be tied to a particular XML implementation.
+
+</D:comment>
+<D:creator-displayname>suresht</D:creator-displayname>
+<S:date>2006-09-20T06:14:29.596808Z</S:date>
+</S:log-item>
+</S:log-report>

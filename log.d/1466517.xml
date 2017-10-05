@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1466517</D:version-name>
+<D:comment>State change wait timeouts and missed notifications.
+
+Added a timeout when waiting for a subsystem state change when performing an operation. The timeout is 60 seconds and
+currently not configurable. Might be good to make it configurable in the future.
+
+Fixed an issue where there was a small window allowing a missed state change notification while waiting.</D:comment>
+<D:creator-displayname>jwross</D:creator-displayname>
+<S:date>2013-04-10T15:25:01.098695Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>492823</D:version-name>
+<D:comment>Added new "CachedFilter" feature to XML syntax enabling any queries or filters to be cached for better repeat performance. Added JUnit test and example XML file. Also fixed ClassCastException in DOMUtils which occured when getAttributeWithInheritance reached the root of a document without finding the required attribute.</D:comment>
+<D:creator-displayname>mharwood</D:creator-displayname>
+<S:date>2007-01-05T00:05:17.104508Z</S:date>
+</S:log-item>
+</S:log-report>

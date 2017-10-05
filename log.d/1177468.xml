@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1177468</D:version-name>
+<D:comment>DERBY-1046 JVMInfo is duplicated in derbyclient.jar
+DERBY-5431 If 10.7 or greater derbyclient.jar is in the classpath before an older release's server jars, derby fails to boot with NoSuchFieldError for JVMInfo.JAVA_SQL_TYPES_BOOLEAN
+
+Remove references to JVMInfo in xaHelper and sysinfo to get it out of 
+derbytools.jar and derbyclient.jar 
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2011-09-30T00:24:03.108882Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>633638</D:version-name>
+<D:comment>Add EnvTest and unitTests.junit._Suite to the junit-all target. Minor fix to the classpath for emma code coverage not to include derby.jar as it is included through derbynet.jar</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2008-03-04T21:00:28.688132Z</S:date>
+</S:log-item>
+</S:log-report>

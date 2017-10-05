@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>936954</D:version-name>
+<D:comment>DERBY-4619: PropertySetter fails due to an empty jre/lib directory 
+
+Skip JDK install directories which are empty / invalid (affects only the
+old detection algorithm, which is based on directory name recognition).
+
+Patch file: derby-4619-1a-fix_for_empty_libdir.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-04-22T16:50:58.491064Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>762384</D:version-name>
+<D:comment>DERBY-4122: java/testing/org/apache/derbyTesting/unitTests/junit/ReaderToUTF8StreamTest.java.
+Added mark/reset functionality to ReaderToUTF8Stream.
+Made SQLClob use mark/reset to rewind the data stream when too many bytes are
+read as part of the stream header parsing. This happens when reading Clobs
+written with the pre-10.5 header format, either in soft or hard upgraded
+databases.
+Added a new error message.
+Added unit tests for mark/reset.
+
+Patch file: derby-4122-4c-classcast_fix_mark_reset.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-04-06T15:13:44.828973Z</S:date>
+</S:log-item>
+</S:log-report>

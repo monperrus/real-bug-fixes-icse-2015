@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1582655</D:version-name>
+<D:comment>DERBY-5615: Permission problems with classpath subsubprotocol
+
+Wrap CPFile's privileged operations in doPrivileged() so that
+classpath databases can be accessed with a security manager.
+
+Make more of the test cases in DatabaseClassLoadingTest and
+NativeAuthenticationServiceTest run with a security manager.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2014-03-28T09:44:37.976328Z</S:date>
+</S:log-item>
+</S:log-report>

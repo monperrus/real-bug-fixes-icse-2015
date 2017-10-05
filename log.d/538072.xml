@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>538072</D:version-name>
+<D:comment>DERBY-2610: Queries in metadata.properties allow tablepattern for JDBC methods that do not allow patterns. Patterns are now disallowed, except for in one of the queries (see Jira issue for details).
+Patch file: DERBY-2610-1.diff
+
+Patch contributed by Jørgen Løland.
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2007-05-15T07:13:48.630945Z</S:date>
+</S:log-item>
+</S:log-report>

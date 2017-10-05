@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1063656</D:version-name>
+<D:comment>DERBY-4965: Boolean to char conversion results in integer
+
+- Remove reference to non-existent document and improve comments
+
+- Reduce number of calls to String.trim() in getBooleanFromString()</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-01-26T09:32:35.826705Z</S:date>
+</S:log-item>
+</S:log-report>

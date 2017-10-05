@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>326222</D:version-name>
+<D:comment>DERBY-522 - ERROR X0Y79 raised when adding comments using "--" before sql queries with Network Client
+
+merge fix from  trunk
+svn merge -r 325992:325993 https://svn.apache.org/repos/asf/db/derby/code/trunk
+
+Contributed by Army Brown (qozinx@sbcglobal.net)
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-10-18T20:32:10.783610Z</S:date>
+</S:log-item>
+</S:log-report>

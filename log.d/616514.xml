@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>616514</D:version-name>
+<D:comment>Fix mistake made in commit for DERBY-3350 where DatabaseMetaDataTest was only run for embedded. The fix to DERBY-3350 exposes a couple of more columns that are incorrect due to DERBY-3171.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2008-01-29T20:48:32.084186Z</S:date>
+</S:log-item>
+</S:log-report>

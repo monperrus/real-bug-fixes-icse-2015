@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>233308</D:version-name>
+<D:comment>Backport of DERBY-488
+DatabaseMetaData.getColumns() fails on iSeries JDK 1.4 with verfier error on generated class.
+contributed by Daniel Debrunner
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-08-18T11:07:30.798403Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>688427</D:version-name>
+<D:comment>SOLR-719 -- Persisting solr.xml through SolrJ does not handle relative pathes correctly. Now it is saved relative to the location of the original config file.</D:comment>
+<D:creator-displayname>shalin</D:creator-displayname>
+<S:date>2008-08-23T22:58:16.072436Z</S:date>
+</S:log-item>
+</S:log-report>

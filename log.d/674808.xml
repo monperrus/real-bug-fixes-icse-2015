@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>674808</D:version-name>
+<D:comment>DERBY-3736 Revoking a column level privilege from a user, a prepared statement relying on that privilege can still be executed
+
+Patch derby-3736b, which fixes this issue, and adds a new testcase.
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2008-07-08T13:05:51.906812Z</S:date>
+</S:log-item>
+</S:log-report>

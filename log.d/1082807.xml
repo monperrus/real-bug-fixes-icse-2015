@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1082807</D:version-name>
+<D:comment>fix comparator used for non-indexed secondary expressions inindex scan
+patch by Roland Gude and jbellis for CASSANDRA-2347</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2011-03-18T02:55:21.343586Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1001531</D:version-name>
+<D:comment>Execute TREE_RESPONSE verbs in the proper stage: fixes potential races in AES.rendezvous
+patch by Stu Hood; reviewed by jbellis for CASSANDRA-1511</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-09-26T21:53:44.524756Z</S:date>
+</S:log-item>
+</S:log-report>

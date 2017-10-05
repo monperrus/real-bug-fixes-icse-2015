@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>520684</D:version-name>
+<D:comment>DERBY-2456 (export file stream was not closed when export fails due 
+to an invalid codeset).
+
+This patch closes file streams correctly, if any exception occurs 
+while setting up the streams required to perform export. Re-enabled the test 
+case in ImportExportTest.java that was disabled earlier due to this bug.
+
+</D:comment>
+<D:creator-displayname>suresht</D:creator-displayname>
+<S:date>2007-03-21T00:42:16.560462Z</S:date>
+</S:log-item>
+</S:log-report>

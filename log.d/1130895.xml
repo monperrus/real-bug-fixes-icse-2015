@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1130895</D:version-name>
+<D:comment>DERBY-1482/DERBY-5121
+
+Rick Hillegas contributed a trigger test for DERBY-1482/DERBY-5121. With revision 1125453, that test was added to Changes10_8 but this test really is applicable for upgrades from all releases and should not be added into a specific version upgrade test. As a result, I am moving the test from Changes10_8.java to BasicSetup.java. This will ensure that the trigger test will get run for upgrades from all previous releases.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-06-03T04:12:28.320814Z</S:date>
+</S:log-item>
+</S:log-report>

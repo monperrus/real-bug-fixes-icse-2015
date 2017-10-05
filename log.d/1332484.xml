@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1332484</D:version-name>
+<D:comment>DERBY-5686; multiple intermittent errors in nightly tests during DriverMgrAuthenticationTest test. reason: An SQL data change is not permitted for a read-only connection, user or database. 
+  Another attempt to catch the error and print info - now if it happens in 
+  DatabasePropertyTestSetup.setUp.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2012-05-01T00:45:07.078215Z</S:date>
+</S:log-item>
+</S:log-report>

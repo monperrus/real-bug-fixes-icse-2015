@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>178803</D:version-name>
+<D:comment>Derby-265: In Network Server retrieving BLOB values with autocommit off causes NullPointerException in INSANE build / AssertFailure in  BaseContainerHandle.getTransaction in SANE Build
+
+Fix submitted by Sunitha Kambhampati (ksunithaghm@gmail.com)
+
+The problem
+-- Basically, in autocommit mode, when getBlob is called on a resultset after the transaction in which it was created is committed throws an NPE. Per the jdbc api and spec, getBlob is valid only for the duration of the transaction in which it was created.  So it is incorrect to call getBlob as in this repro for derby-265.
+-- On a getBlob for overflow columns,  we initiliaze the stream by reopening the container. In here, the transaction of the containerhandle ends up being null and an NPE is thrown.
+-- The problem is not specific to network server as such, but is reproducible in embedded mode also.
+
+
+Fix includes
+--    Adds check in  OverflowInputStream.initStream  to see if transaction of the container handle is null and throws a StandardException with SQLState.DATA_CONTAINER_CLOSED
+--    And at  the jdbc layer, this exception is wrapped with a user exception with an existing  SQLState XJ073             (SQLState.BLOB_ACCESSED_AFTER_COMMIT) for both getBlob and getClob.
+The error message corresponding to this sqlstate is  "The data in this Blob or Clob is no longer available. Possible reasons are that its transaction committed, or its  connection closed."
+--   Removed the ASSERT in BaseContainerHandle.getTransaction() 
+
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2005-05-27T18:00:37.760428Z</S:date>
+</S:log-item>
+</S:log-report>

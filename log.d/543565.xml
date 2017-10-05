@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>543565</D:version-name>
+<D:comment>DERBY-2040 Open the JarFile for the installed jar (in JarLoader) using a privileged block.
+Change various tests that failed with a security manager due to this issue to run with
+the security manager. </D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-06-01T18:17:20.340691Z</S:date>
+</S:log-item>
+</S:log-report>

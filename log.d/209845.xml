@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>209845</D:version-name>
+<D:comment>DERBY-447
+This patch implements getBoolean() method in BigIntegerDecimal, which is the class used for DECIMAL support
+in J2ME/CDC/Foundation. The method returns false for zero or null values and true for all other values.
+
+Contributed by Deepa Remesh dremesh@gmail.com
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-07-08T17:28:52.105530Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>209842</D:version-name>
+<D:comment>DERBY-331 This patch fixes a look-ahead problem in the parser: In the method DB2DefaultOption,
+the look-ahead for miscBuiltins is too liberal: it mistakenly thinks it has found a
+builtin in this case. I made the look-ahead more specific by adding a check against comma.
+
+Contributed by Dag H. Wanvik &lt;Dag.Wanvik@Sun.COM&gt;
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-07-08T16:54:01.404877Z</S:date>
+</S:log-item>
+</S:log-report>

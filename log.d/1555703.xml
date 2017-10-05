@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1555703</D:version-name>
+<D:comment>DERBY-5866: Triggers fire out of order
+
+In order to avoid ambiguities around switch from daylight saving time
+to standard time, and other time zone changes, store the trigger
+creation timestamps in Coordinated Universal Time (UTC) instead of the
+local time zone.
+
+Only use UTC if the database has been upgraded to 10.11 format, so
+that the change won't cause problems on downgrade.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2014-01-06T10:06:10.655665Z</S:date>
+</S:log-item>
+</S:log-report>

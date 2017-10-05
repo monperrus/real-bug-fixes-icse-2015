@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>784780</D:version-name>
+<D:comment>switch singleton implementation from double-checked-locking to synchronized (code is not performance-sensitive).  patch by Edward Ribeiro; reviewed by jbellis for CASSANDRA-228</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-06-15T13:42:30.996574Z</S:date>
+</S:log-item>
+</S:log-report>

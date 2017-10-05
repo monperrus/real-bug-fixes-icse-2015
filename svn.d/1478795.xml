@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1478795"/>
+<S:open-directory rev="1478794">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1478795/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1478795</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-03T13:58:09.674910Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="aries" rev="1478794">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1478795/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1478795</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-03T13:58:09.674910Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="tags" rev="1478794">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1478795/aries/tags</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1478795</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-03T13:58:09.674910Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="parent-1.1.0" bc-url="/repos/asf/!svn/bc/1478795/aries/tags/parent-1.1.0">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1478795/aries/tags/parent-1.1.0</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1478795</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-03T13:58:09.674910Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">.settings
+target
+.classpath
+.project
+</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/aries/branches/1.0-prototype/parent:1306564-1337594</S:set-prop>
+<S:add-file name="pom.xml" sha1-checksum="169555c2621ac2868d4818f5987a3067be815152">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1478795/aries/tags/parent-1.1.0/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1478794</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-03T13:57:40.402309Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/xml</S:set-prop>
+<S:set-prop name="svn:keywords">Rev Date</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>499496d0212406ecc87e6bd1e13afd7d</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="default-parent" bc-url="/repos/asf/!svn/bc/1478795/aries/tags/parent-1.1.0/default-parent">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1478795/aries/tags/parent-1.1.0/default-parent</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1478794</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-03T13:57:40.402309Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">.settings
+target
+.classpath
+.project
+bin
+</S:set-prop>
+<S:add-directory name="java5-parent" bc-url="/repos/asf/!svn/bc/1478795/aries/tags/parent-1.1.0/default-parent/java5-parent">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1478795/aries/tags/parent-1.1.0/default-parent/java5-parent</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1478794</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-03T13:57:40.402309Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">.settings
+target
+.classpath
+.project
+bin
+</S:set-prop>
+<S:add-file name="pom.xml" sha1-checksum="3717356e4099b42fbd2fe2d3bdd948fa2c929d18">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1478795/aries/tags/parent-1.1.0/default-parent/java5-parent/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1478794</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-03T13:57:40.402309Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/xml</S:set-prop>
+<S:set-prop name="svn:keywords">Rev Date</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>a4e71d57d563a4e682f64b475da1f370</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="java6-parent" bc-url="/repos/asf/!svn/bc/1478795/aries/tags/parent-1.1.0/default-parent/java6-parent">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1478795/aries/tags/parent-1.1.0/default-parent/java6-parent</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1478794</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-03T13:57:40.402309Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">.project
+
+target
+
+.settings
+</S:set-prop>
+<S:add-file name="pom.xml" sha1-checksum="5a76a87cb59ba3e709851b6d359428761ceb166e">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1478795/aries/tags/parent-1.1.0/default-parent/java6-parent/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1478794</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-03T13:57:40.402309Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:prop><V:md5-checksum>62547250489a304da66b26487c7d0e65</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-file name="pom.xml" sha1-checksum="e64511a77a0932d9d65af2d369ba8d247c6977e2">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1478795/aries/tags/parent-1.1.0/default-parent/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1478794</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-03T13:57:40.402309Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="svn:mime-type">text/xml</S:set-prop>
+<S:set-prop name="svn:keywords">Rev Date</S:set-prop>
+<S:prop><V:md5-checksum>dbbefa40409a1832d0797ac8c31828ec</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-file name="NOTICE" sha1-checksum="9af9e372e742384535051322ba9880c13ea9ae2b">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1478795/aries/tags/parent-1.1.0/NOTICE</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1081323</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-14T10:46:01.297930Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>d03eaa03c634f6e9266db32483130cde</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="LICENSE" sha1-checksum="5a7d7df655ba40478fae80a6abafc6afc36f9b6a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1478795/aries/tags/parent-1.1.0/LICENSE</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">917795</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-01T23:28:52.350416Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>b1e01b26bacfc2232046c90a330332b3</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

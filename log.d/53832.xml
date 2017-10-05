@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>53832</D:version-name>
+<D:comment>committed for tsuresh@Source-Zone.org
+
+problem :  In multi-threaded application when lot of threads are executing 
+commits in parallel, empty log files might be created. Recovery log scan
+does not expect  empty log files while scanning log records to undo incomplete 
+transactions..
+
+Fix:
+a)  prevent empty log switches by  rechecking the conditions that triggers the 
+    log switches inside synchronized blocks.
+b)  Make backward scans skip the empty log files.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2004-10-05T23:10:15.613542Z</S:date>
+</S:log-item>
+</S:log-report>

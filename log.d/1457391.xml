@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1457391</D:version-name>
+<D:comment>Fix AnalyzerFactoryTask to call ResourceLoaderAware.inform using the current directory if neither the 'work.dir' property value nor ./work/ are legit directories; also fix the english-porter-comparison.alg report task to be RepSumByNameRound instead of RepSumByName. (merged trunk r1457390)</D:comment>
+<D:creator-displayname>sarowe</D:creator-displayname>
+<S:date>2013-03-17T07:34:02.021129Z</S:date>
+</S:log-item>
+</S:log-report>

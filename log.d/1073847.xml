@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1073847</D:version-name>
+<D:comment>fix reversed slice queries on large rows
+patch by slebresne; reviewed by jbellis for CASSANDRA-2212</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2011-02-23T17:54:43.716853Z</S:date>
+</S:log-item>
+</S:log-report>

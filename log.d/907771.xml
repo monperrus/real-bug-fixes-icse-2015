@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>907771</D:version-name>
+<D:comment>Avoid deadlocks by creating all replication strategies when SS in instantiated. Patch by Gary Dusbabek, reviewed by Jonthan Ellis. CASSANDRA-778 (regression introduced in CASSANDRA-620).</D:comment>
+<D:creator-displayname>gdusbabek</D:creator-displayname>
+<S:date>2010-02-08T19:38:16.928523Z</S:date>
+</S:log-item>
+</S:log-report>

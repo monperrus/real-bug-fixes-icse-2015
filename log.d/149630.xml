@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>149630</D:version-name>
+<D:comment>Fixed Bug 4555. Possible NullPointerException when a short term with
+substitutions was being checked for a particle denotion. Length checking
+corrected, and sequence of resubstitution and removing particle denotion
+changed to prevent denoted term to pass through remove because of the
+reduced length.
+Corrected and improved documentation.
+Fix in WordlistLoader, files are not read correct, loosing a line.
+Fix in GermanStemFilter, typo in constructor with custom exclusion table as
+parameter, parameter was ignored.
+GermanStemFilter has two new Methods for setting stemmer and exclusion
+list after creating the filter object.
+</D:comment>
+<D:creator-displayname>gschwarz</D:creator-displayname>
+<S:date>2001-12-10T21:18:24.000000Z</S:date>
+</S:log-item>
+</S:log-report>

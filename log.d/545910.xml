@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>545910</D:version-name>
+<D:comment>DERBY-2770: testBlobAfterCommit(....jdbcapi.BlobClob4BlobTest) fails
+with 'Unexpected SQL state. expected:&lt;XJ[073]&gt; but was:&lt;XJ[215]&gt;'
+
+Changed error message to reflect that XJ215 is used both after free()
+has been called on a Lob and after the lob's transaction has been
+committed.
+
+Changed SQL state when locators are invalid from XJ073 to XJ215 on the
+client driver.
+
+Patch contributed by Øystein Grøvlen.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-06-10T17:14:48.782414Z</S:date>
+</S:log-item>
+</S:log-report>

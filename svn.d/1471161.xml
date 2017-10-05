@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1471161"/>
+<S:open-directory rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="db" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="derby" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="code" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="branches" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="10.8" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/db/derby/code/branches/10.7:1061570,1061578,1082235
+/db/derby/code/branches/10.9:1370647,1373148,1379219,1384397,1396606,1451023,1462304,1462677,1469552,1469868
+/db/derby/code/trunk:1088633,1089795,1091000,1091221,1091285,1092067,1092795,1094315,1094572,1094728,1095247,1096741,1096890,1096991,1097247,1097249,1097460,1097469,1097471,1098033,1101059,1101839,1102620,1102826,1103681,1103718,1103742,1104365,1125305,1126358,1126468,1127825,1127883,1128243,1128942,1129136,1129764,1129797,1130077,1130084,1130632,1130895,1131030,1131272,1132546,1132664,1132747,1132860,1132928,1133304,1133317,1133741,1133752,1134139,1136363,1136371,1136397,1136844,1137213,1138201,1138341,1138444,1138787,1138795,1139449,1139451,1140222,1140744,1141924,1142583,1142635,1145057,1146644,1146915,1146962,1147219,1147242,1147335,1148344,1148354,1148429,1148658,1149054,1149090,1149270,1149482,1149662,1151101,1151612,1158108,1160593,1160597,1161208,1162737,1163131,1163616,1164358,1164370,1164495,1165221,1166313,1167017,1167226,1167470,1169692,1170470,1171227,1171665,1171672,1173446,1173647,1174436,1174646,1176633,1176636,1177589,1179374,1179546,1180790,1180858,1181756,1183463,1183503,1183671,1186020,1186691,1189201,1189222,1203050,1203252,1204128,1207729,1208775,1210846,1212541,1213251,1228332,1228777,1229266,1230480,1230873,1231296,1236887,1239898,1241841,1242098,1242409,1242413,1242460,1242610,1242681,1243878,1244444,1245143,1245226,1290888,1290919,1291057,1291631,1291647,1292084,1292108-1292109,1292941,1293467,1293494,1294275,1294512,1294522,1294592,1295085,1298907,1300459,1301109,1301290,1303630,1305524,1306596,1306600,1309244,1311804,1328061,1329359,1330066,1330482,1330877,1331484,1333305,1334874,1334919,1335570,1335677,1341204,1341266,1345254,1345301,1346054,1350258,1351714,1351795,1352913,1353852,1354015,1356333,1356749,1356766,1359052,1364690,1365661,1371041,1371382,1378206,1379163,1381429,1384035,1390126,1392847,1394407,1394883,1395482,1398914,1399306,1406053,1406083,1406240,1411160,1412392,1413812,1430291,1430417,1440586,1442474,1461415,1464594,1464934,1465600,1467011,1467170,1468647,1469445</S:set-prop>
+<S:open-directory name="java" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="engine" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/engine</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/engine/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/engine/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="derby" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/engine/org/apache/derby</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="loc" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/engine/org/apache/derby/loc</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="messages_pl.properties" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/engine/org/apache/derby/loc/messages_pl.properties</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="5069851c9ac226a6b7ed2fdbee7867f4" sha1-checksum="52d63a3987e22d20969e665f9687bf37802be353"/>
+<S:prop><V:md5-checksum>1497818c53ecfdd2d3a475cf9b063037</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="messages_hu.properties" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/engine/org/apache/derby/loc/messages_hu.properties</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c97c862d030598eb16f8c2918f194c96" sha1-checksum="e8968b7928439d1c200bd2cbc1c6fd3437fecec1"/>
+<S:prop><V:md5-checksum>c6b3198f8c1aaf1a696c522a1061240a</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="messages_it.properties" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/engine/org/apache/derby/loc/messages_it.properties</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c8e67532484d4263d0d3c139d831e131" sha1-checksum="a871e5bbe9cc20655a982909f017d61670e30467"/>
+<S:prop><V:md5-checksum>e7d837d84b5a5fc888213a6f533a9168</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="messages_ja_JP.properties" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/engine/org/apache/derby/loc/messages_ja_JP.properties</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="8e3e02d53d1f98f8b13db5b05788283f" sha1-checksum="82d0f54527711eed3202e8e9fa522dbd971b5784"/>
+<S:prop><V:md5-checksum>4d4471391d50099b1d613b8bc7b056c7</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="messages.xml" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/engine/org/apache/derby/loc/messages.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c39f5b3ffe8570f400098469b562e0c6" sha1-checksum="5fbe086191fdd801da3de6f6228ec7a54403ac70"/>
+<S:prop><V:md5-checksum>fc911899455e72b28ce7310eaf7705d2</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="messages_ru.properties" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/engine/org/apache/derby/loc/messages_ru.properties</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="59e238c34e86261ead9a65e46d258ae6" sha1-checksum="f8946155f7f113e93995fdc3fa26ebc4bbcfaae4"/>
+<S:prop><V:md5-checksum>45d75c834ce9911f8caf359ab9588fa0</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="messages_zh_TW.properties" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/engine/org/apache/derby/loc/messages_zh_TW.properties</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="09087945b28b33dd0d816b16e5ae8104" sha1-checksum="a27922e7e42e9e6f4e0d57b613ebb33444d1a19d"/>
+<S:prop><V:md5-checksum>87bb1781f8ff5e220c51fa5307e62869</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="messages_de_DE.properties" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/engine/org/apache/derby/loc/messages_de_DE.properties</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="177705a8468d45cec67aa2680f4cc56e" sha1-checksum="6b73b3dec24e4b282f0395d523c22cb6e203f7af"/>
+<S:prop><V:md5-checksum>4ab3cea2ad2141237713eaa59faf6c3e</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="messages_zh_CN.properties" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/engine/org/apache/derby/loc/messages_zh_CN.properties</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="49e85f70637890ea4b304d6a206ac4b8" sha1-checksum="1c4a77e617602776a752052ba12060915cf283f6"/>
+<S:prop><V:md5-checksum>b99b39eefce6a3d64721433e0ce8c177</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="messages_cs.properties" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/engine/org/apache/derby/loc/messages_cs.properties</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="2774855c1819cac4fc7e1eaf47a01b27" sha1-checksum="49ca29d3977e7c183e6eafb7eab232cfcc8d128b"/>
+<S:prop><V:md5-checksum>1d3940e69f5064116cef951f3e4ab076</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="messages_ko_KR.properties" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/engine/org/apache/derby/loc/messages_ko_KR.properties</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c3038fa4ee75c25a6b811b202b615bef" sha1-checksum="651344cf1a01b48e0a22a8945c7fdcc4562b9f92"/>
+<S:prop><V:md5-checksum>b477440fe180dfa024619cce3a8ec97e</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="messages_pt_BR.properties" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/engine/org/apache/derby/loc/messages_pt_BR.properties</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="da2ca97e5e6859b842555cff2d44e1f1" sha1-checksum="1a09e2bb529b05ca712a1f4db83183d4303d0088"/>
+<S:prop><V:md5-checksum>d0ee4e0afcad3d70dd8da8552f9fa567</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="messages_es.properties" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/engine/org/apache/derby/loc/messages_es.properties</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="cfd9776980741e6c03b3f52c0a8a04dd" sha1-checksum="db2c71b1cb5c3350157bdfd33ecaea1405df133a"/>
+<S:prop><V:md5-checksum>c146febd39cd69e2c55cce44622c5220</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="messages_fr.properties" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/engine/org/apache/derby/loc/messages_fr.properties</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="678ee5bbd5178d08307197c0afe44034" sha1-checksum="8fbba37ff65bfd05ed791842fdeed3b01ed1bc34"/>
+<S:prop><V:md5-checksum>70f309dc559e780aacfdd3a4cb4d0581</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="testing" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/testing</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/testing/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/testing/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="derbyTesting" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/testing/org/apache/derbyTesting</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="functionTests" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/testing/org/apache/derbyTesting/functionTests</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="tests" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/testing/org/apache/derbyTesting/functionTests/tests</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lang" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/testing/org/apache/derbyTesting/functionTests/tests/lang</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="ErrorCodeTest.java" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/testing/org/apache/derbyTesting/functionTests/tests/lang/ErrorCodeTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c24cc1323586afbdf6dfe014bcccfc29" sha1-checksum="9933ba61f585deee9ab80a70a4fc5eea2b470d77"/>
+<S:prop><V:md5-checksum>a94eeed3d6ab5e5f9f4c1de20ae5d096</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="client" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/client</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/client/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/client/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="derby" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/client/org/apache/derby</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="client" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/client/org/apache/derby/client</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="net" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/client/org/apache/derby/client/net</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="NetCursor.java" rev="1471160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1471161/db/derby/code/branches/10.8/java/client/org/apache/derby/client/net/NetCursor.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1471161</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-23T21:42:03.636376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">myrnavl</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/db/derby/code/branches/10.7/java/client/org/apache/derby/client/net/NetCursor.java:1061570,1061578,1082235
+/db/derby/code/branches/10.9/java/client/org/apache/derby/client/net/NetCursor.java:1370647,1379219,1384397,1396606,1462304,1462677,1469552
+/db/derby/code/trunk/java/client/org/apache/derby/client/net/NetCursor.java:1063809,1088633,1089795,1091000,1091221,1091285,1092067,1092795,1094315,1094572,1094728,1095247,1096741,1096890,1096991,1097247,1097249,1097460,1097469,1097471,1098033,1101059,1101839,1102620,1102826,1103681,1103718,1103742,1104365,1125305,1126358,1126468,1127825,1127883,1128243,1128942,1129136,1129764,1129797,1130077,1130084,1130632,1130895,1131030,1131272,1132546,1132664,1132747,1132860,1132928,1133304,1133317,1133741,1133752,1134139,1136363,1136371,1136397,1136844,1137213,1138201,1138341,1138444,1138787,1138795,1139449,1139451,1140222,1140744,1141924,1142583,1142635,1145057,1145961,1146644,1146915,1146962,1147219,1147242,1147335,1148344,1148354,1148429,1148658,1149054,1149090,1149270,1149482,1149662,1151101,1151612,1158108,1160593,1160597,1161208,1162737,1163131,1163616,1164358,1164370,1164495,1165221,1167017,1167470,1169692,1171665,1171672,1173647,1174436,1176633,1176636,1177589,1179374,1179546,1180790,1180858,1181756,1183463,1183671,1186020,1186691,1203252,1210846,1213251,1230480,1239898,1241841,1242098,1242409,1242413,1242460,1242681,1243878,1244444,1291631,1291647,1292109,1294512,1294522,1294592,1295085,1298907,1300459,1300658,1301109,1301290,1303630,1305524,1306596,1306600,1311804,1328061,1330066,1330482,1330877,1331484,1333305,1334874,1334919,1335570,1335677,1345254,1346054,1353852,1354015,1359052,1371382,1384035,1390126,1406083,1411160,1412392,1413812,1440586</S:set-prop>
+<S:prop><V:md5-checksum>a303e00cef6a75277719fff54d3ddc5e</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

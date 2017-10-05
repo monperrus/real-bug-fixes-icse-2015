@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>558049</D:version-name>
+<D:comment>Merging fix for DERBY-2960 from main (revision 558036) into 10.3 codeline. The commit comments were as follows
+
+"select" query failed because we were generating SQLVarchar rather than CollatorSQLVarchar
+create table alltypes (c char(10), v varchar(50));
+insert into alltypes values ('duplicate', 'is duplicated');
+select substr(c||v, 1, 4), count(*) from alltypes group by substr(c||v, 1, 4) ;
+
+To fix the problem, I needed to override StringDataValue getNewVarchar() in CollatorSQLVarchar. Without this new method, we were generating SQLVarchar in territory based databased when the collation type was territory based.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-07-20T16:55:25.036124Z</S:date>
+</S:log-item>
+</S:log-report>

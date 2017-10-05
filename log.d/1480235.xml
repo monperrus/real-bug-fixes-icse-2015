@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1480235</D:version-name>
+<D:comment>Updates:
+
+* Added text_kr field type to schema.xml
+* Fixed Solr factories to load field type text_kr in the example
+* Updated javadoc so that it compiles cleanly (mostly removed illegal javadoc)
+* Updated various build things related to include Korean in the Solr distribution
+* Added placeholder stopwords file
+* Added services for arirang
+
+Korean analysis using field type text_kr seems to be doing the right thing out-of-the-box now, but some configuration options in the factories aren't working as of now.
+
+There are several other things that needs polishing up, but we're making progress.
+</D:comment>
+<D:creator-displayname>cm</D:creator-displayname>
+<S:date>2013-05-08T11:55:23.197585Z</S:date>
+</S:log-item>
+</S:log-report>

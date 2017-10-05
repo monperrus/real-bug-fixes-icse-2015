@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1207729</D:version-name>
+<D:comment>DERBY-5096 DisconnectException: "Connection was refused because the database DB was not found" when creating db for first time
+
+Patch adjusts the canonicalName after mkdirs() if it does not match getCanonicalPAth()
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2011-11-29T01:36:12.863197Z</S:date>
+</S:log-item>
+</S:log-report>

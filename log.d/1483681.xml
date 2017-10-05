@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1483681</D:version-name>
+<D:comment>Added javadocs to *Ref about clone() performing a shallow copy. I know, this is obvious and to be expected, but I fell a victim to this anyway, it's a damn thing to debug if you use clone() in hash maps etc. so perhaps it'll help somebody.</D:comment>
+<D:creator-displayname>dweiss</D:creator-displayname>
+<S:date>2013-05-17T08:02:59.481081Z</S:date>
+</S:log-item>
+</S:log-report>

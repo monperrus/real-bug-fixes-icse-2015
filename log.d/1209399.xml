@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1209399</D:version-name>
+<D:comment>fix potential race in AES when repair fails
+patch by slebresne; reviewed by amorton for CASSANDRA-3548
+</D:comment>
+<D:creator-displayname>slebresne</D:creator-displayname>
+<S:date>2011-12-02T10:52:57.283495Z</S:date>
+</S:log-item>
+</S:log-report>

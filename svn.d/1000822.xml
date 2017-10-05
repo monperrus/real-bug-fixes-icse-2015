@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1000822"/>
+<S:open-directory rev="1000821">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1000822/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1000822</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-24T11:49:18.115012Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">srowen</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="mahout" rev="1000821">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1000822/mahout</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1000822</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-24T11:49:18.115012Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">srowen</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="1000821">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1000822/mahout/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1000822</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-24T11:49:18.115012Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">srowen</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="conf" rev="1000821">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1000822/mahout/trunk/conf</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1000822</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-24T11:49:18.115012Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">srowen</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="driver.classes.props" rev="1000821">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1000822/mahout/trunk/conf/driver.classes.props</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1000822</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-24T11:49:18.115012Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">srowen</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="0b55a434a4b3c67e91a17a8f11beaff3" sha1-checksum="711722c6379f3d85d8cccd8d747ae41282bd0523"/>
+<S:prop><V:md5-checksum>dfaa3071155eca6bf0e248532255eeaf</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:add-directory name="mahout" bc-url="/repos/asf/!svn/bc/1000822/mahout/trunk/mahout">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1000822/mahout/trunk/mahout</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1000822</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-24T11:49:18.115012Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">srowen</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="conf" bc-url="/repos/asf/!svn/bc/1000822/mahout/trunk/mahout/conf">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1000822/mahout/trunk/mahout/conf</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1000822</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-24T11:49:18.115012Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">srowen</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="arff.vector.props" sha1-checksum="141bd88e02672a37b58a36248175b54af5eed266">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1000822/mahout/trunk/mahout/conf/arff.vector.props</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1000822</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-24T11:49:18.115012Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">srowen</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>10cf0c038df8b5536683dd3950370ccc</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

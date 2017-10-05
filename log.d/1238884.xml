@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1238884</D:version-name>
+<D:comment>Switch from assertion in MockTokenizer.readCodePoint() that test data does not containing character U+FFFF to a AssumptionViolatedException, so that randomly generated test data doesn't have to handle this case. (LUCENE-3743 is a pre-requisite for this, to properly handle multi-threaded tests.)</D:comment>
+<D:creator-displayname>sarowe</D:creator-displayname>
+<S:date>2012-02-01T00:47:49.480515Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1451296</D:version-name>
+<D:comment>Merged revision(s) 1451295 from lucene/dev/trunk:
+LUCENE-4797: For now disable javadoc-lint provided by JDK8, so we can enable recent JDK8 builds on jenkins. Our own doclint is already disabled, so the missing doc-files don't matter!
+To test and fix bugs with JDK8, run ant javadocs -Djavadoc.args=-Xdoclint:all</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2013-02-28T19:09:27.032380Z</S:date>
+</S:log-item>
+</S:log-report>

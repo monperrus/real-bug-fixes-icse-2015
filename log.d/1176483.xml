@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1176483</D:version-name>
+<D:comment>LUCENE-3471: don't close ES until after writer; add try/finally/success logic during warming so we close newly reopened but-not-swapped reader</D:comment>
+<D:creator-displayname>mikemccand</D:creator-displayname>
+<S:date>2011-09-27T17:29:40.619005Z</S:date>
+</S:log-item>
+</S:log-report>

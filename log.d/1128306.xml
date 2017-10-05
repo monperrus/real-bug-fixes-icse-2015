@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1128306</D:version-name>
+<D:comment>fix NPE	when bypassing commitlog during	memtable flush
+
+Patch by tjake;	 reviewed by Sylvain Lebresne for CASSANDRA-2718
+</D:comment>
+<D:creator-displayname>jake</D:creator-displayname>
+<S:date>2011-05-27T13:55:04.492699Z</S:date>
+</S:log-item>
+</S:log-report>

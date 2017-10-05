@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1162255</D:version-name>
+<D:comment>fix UnavailableException with writes at CL.EACH_QUORM
+patch by Patricio Echague; reviewed by jbellis for CASSANDRA-3082</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2011-08-26T21:06:12.597430Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>381375</D:version-name>
+<D:comment>DERBY-809 Incorrect documentation for NetworkServerControl.logConnections
+
+Patch contributed by Kristian Waagan
+
+This is a small patch for the javadoc of NetworkServerControl and
+NetworkServerControlImpl, removing the false statement that
+disconnections are logged to derby.log.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2006-02-27T16:37:54.035141Z</S:date>
+</S:log-item>
+</S:log-report>

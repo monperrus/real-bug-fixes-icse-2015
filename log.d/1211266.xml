@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1211266</D:version-name>
+<D:comment>DERBY-5521 JDBCMBeanTest#testAttributeDriverLevel uses Java assert in lieu of JUnit assert: no real testing happens
+
+Patch derby-5521b which fixes this issue.
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-12-07T01:44:41.987437Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>808942</D:version-name>
+<D:comment>Fixes to make BinaryMemtable useful.  Highlights are configurable threads for [binary]memtable flushing and flushAndShutdown JMX/nodeprobe directive.
+patch by Chris Goffinet; reviewed by jbellis for CASSANDRA-337</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-08-28T16:27:58.154261Z</S:date>
+</S:log-item>
+</S:log-report>

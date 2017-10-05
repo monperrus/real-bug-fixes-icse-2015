@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>375775</D:version-name>
+<D:comment>DERBY-750, committed on behalf of Suresh Thalamati
+
+ Problem was backup was trying to a read a pages from a container before the first
+ allocation page for it is created with a invalid page number. First allocation page
+ number is invalid only when first page is not created.
+
+ The reason backup sees containers in that state, backup finds the containers to
+ backup by scanning through the seg0 list files and gets access to the container
+ conglomerate cache, cache returns the handles after the container file is
+ created.
+
+ Fix is NOT to backup containers whose first allocation page not yet created. It is
+ safe to not backup containers in such case instead of waiting for container
+ creation to complete, redo of the log on restore will create them.
+
+ Renabled the test case that hit this problem in OnlineBackupTest1.java , which was commented
+ earlier. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-02-07T23:33:16.527400Z</S:date>
+</S:log-item>
+</S:log-report>

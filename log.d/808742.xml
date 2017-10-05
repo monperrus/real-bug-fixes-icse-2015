@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>808742</D:version-name>
+<D:comment>call doAntiCompaction in the tests the same way we do in the actual code -- by submitting it to the MinorCompactionManager so it serializes with other compaction tasks.  patch by Sandeep Tata; reviewed by jbellis for CASSANDRA-395</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-08-28T03:05:49.201243Z</S:date>
+</S:log-item>
+</S:log-report>

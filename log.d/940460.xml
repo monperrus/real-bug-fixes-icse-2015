@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>940460</D:version-name>
+<D:comment>DERBY-4582: Timestamps inserted with GMT calendar are 1 hour later
+when subsequently read with GMT calendar (Server Mode Only)
+
+Merged the remaining fixes from trunk (revisions 938547, 938796 and
+939231).
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-05-03T14:00:25.445715Z</S:date>
+</S:log-item>
+</S:log-report>

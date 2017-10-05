@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>988321</D:version-name>
+<D:comment>DERBY-4781 suites.All fails completely with Failed to invoke suite():java.lang.reflect.InvocationTargetException because of XplainStatisticsTest
+
+Change getADocument() to  return an Object instead of Document so weme does not fail to load the class.
+
+Contributed by Knut Anders Hatlen
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2010-08-23T21:39:42.242240Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>790162</D:version-name>
+<D:comment>DERBY-4245: Sorting a table containing a CLOB fails after upgrade to 10.5.
+Lowered the sort buffer to the minimum (through derby.storage.sortBufferMax),
+and the number of rows inserted in the test.
+
+Patch file: derby-4245-4a-adjust_sort_buffer_test.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-07-01T13:46:49.629447Z</S:date>
+</S:log-item>
+</S:log-report>

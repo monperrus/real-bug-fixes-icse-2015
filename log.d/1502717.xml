@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1502717</D:version-name>
+<D:comment>DERBY-6006: NullPointerException in INSERT INTO ... SELECT FROM ... ORDER BY
+
+backporting change #1417991 by kahatlen from 10.10 to 10.8 branch.
+
+A NormalizeResultSet should not expose generated ORDER BY columns to
+its parent.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2013-07-12T22:33:03.539953Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>640808</D:version-name>
+<D:comment>DERBY-3496: CallableStatement with output parameter leaves cursor open after exe
+cution
+
+Close the result set used to get the output parameter of
+an EmbedCallableStatement
+
+Merged to 10.3 with svn merge -r 640786:640787 ../derby-scratch
+No conflicts
+</D:comment>
+<D:creator-displayname>dyre</D:creator-displayname>
+<S:date>2008-03-25T13:39:16.214676Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1428256</D:version-name>
+<D:comment>DERBY-2516: Network Client allows execution of callable statement when one of the parameters is not set
+
+Check that INOUT parameters are set, not only registered with registerOutParam().</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-01-03T10:04:44.451776Z</S:date>
+</S:log-item>
+</S:log-report>

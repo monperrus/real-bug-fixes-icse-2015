@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>924495</D:version-name>
+<D:comment>jmx drain method to flush memtables and run through commit log prior to shutdown. patch by Gary Dusbabek, reviewed by Jonathan Ellis. CASSANDRA-880</D:comment>
+<D:creator-displayname>gdusbabek</D:creator-displayname>
+<S:date>2010-03-17T21:08:16.270161Z</S:date>
+</S:log-item>
+</S:log-report>

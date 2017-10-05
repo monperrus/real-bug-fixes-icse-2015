@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1180970</D:version-name>
+<D:comment>Fix places where uncompressed sstable size is used in place of the compressed one.
+patch by slebresne; reviewed by jbellis for CASSANDRA-3338
+</D:comment>
+<D:creator-displayname>slebresne</D:creator-displayname>
+<S:date>2011-10-10T13:56:27.639239Z</S:date>
+</S:log-item>
+</S:log-report>

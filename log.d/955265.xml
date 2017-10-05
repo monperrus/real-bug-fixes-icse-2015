@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>955265</D:version-name>
+<D:comment>r/m 'object count' abomination.  fix BF serialization to only use top-level columns (since those are the only ones it's ever checked for)
+patch by jbellis; reviewed by Stu Hood for CASSANDRA-16
+</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-06-16T15:26:53.419660Z</S:date>
+</S:log-item>
+</S:log-report>

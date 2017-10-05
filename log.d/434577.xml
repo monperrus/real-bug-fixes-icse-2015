@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>434577</D:version-name>
+<D:comment>DERBY-1708, contributed by yip ng
+
+Fixes the problem that the lock table statement is missing the logic to collect the required privilege at compilation phase; thus, it fails to enforce the required privilege needed by the statement at execution time. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-08-25T00:08:39.160723Z</S:date>
+</S:log-item>
+</S:log-report>

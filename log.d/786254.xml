@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>786254</D:version-name>
+<D:comment>DERBY-3887 Embedded Derby fails under JBoss because of JMX-related conflicts.
+First pass at making a regression test for this issue.  It is not ideal because it currently has to be run by itself to pop the issue without the fix.
+I will work to improve it if I get a clue how to do that.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2009-06-18T20:38:54.223838Z</S:date>
+</S:log-item>
+</S:log-report>

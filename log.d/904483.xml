@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>904483</D:version-name>
+<D:comment>DERBY-4529: BlobMemTest and ClobMemTest don't call super.tearDown()
+
+Removed the unneeded tearDown() methods so that the tests inherit
+BaseJDBCTestCase.tearDown() instead.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-01-29T12:52:23.808687Z</S:date>
+</S:log-item>
+</S:log-report>

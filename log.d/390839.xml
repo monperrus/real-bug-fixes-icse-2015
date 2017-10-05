@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>390839</D:version-name>
+<D:comment>DERBY-1085: Fix NullPointerException in SQLBinary.java that causes exception for all FOR BIT DATA types while getting length for NULL values.
+
+Submitted by Satheesh Bandaram (satheesh@sourcery.org)
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2006-04-02T15:54:53.633173Z</S:date>
+</S:log-item>
+</S:log-report>

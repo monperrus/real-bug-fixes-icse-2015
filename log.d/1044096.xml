@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1044096</D:version-name>
+<D:comment>DERBY-4874 Trigger does not recognize new size of VARCHAR column expanded with ALTER TABLE. It fails with ERROR 22001: A truncation error was encountered trying to shrink VARCHAR
+
+The trigger action associated with a trigger gets converted as shown in the example below. This transformation happens if the trigger action has REFERENCEs clause.
+	update xr.repositoryobjectversion set uname = upper( n.name )
+	  where name = n.name and uname &lt;&gt; upper( n.name );
+	turns into
+	update xr.repositoryobjectversion set uname = 
+	  upper( CAST (org.apache.derby.iapi.db.Factory::getTriggerExecutionContext().getNewRow().getObject(3) AS VARCHAR(128)) ) 
+	  where name = CAST (org.apache.derby.iapi.db.Factory::getTriggerExecutionContext().getNewRow().getObject(3) AS VARCHAR(128))
+As can be seen above, there is a CASTing involved which uses the length of the column in trigger table. 
+
+If say that length is changed by ALTER TABLE after the trigger has been created, that change in the length does not get reflected in the sql associated with the trigger action in the form on SPSDescriptor. In order to fix this, I have made changes which willcause us to regenerate the sql from the trigger action for the SPSDescriptor if we are working with an invalidated row level trigger which uses the REFERENCEs clause.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2010-12-09T19:19:42.984255Z</S:date>
+</S:log-item>
+</S:log-report>

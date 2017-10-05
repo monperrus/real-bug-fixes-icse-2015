@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>359833</D:version-name>
+<D:comment>DERBY-777 Remove use of java.io.InputStreamReader.getEncoding to get the
+platform's default encoding. Creating this reader on System.in was causing
+a hang on Z/OS.
+Now simply use the stream/reader constructors that do not take a encoding
+argument and thus use the default. With this Derby does not need to know
+the actual value of default encoding.
+
+Merge of 358137 from 10.1
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-12-29T16:10:33.748687Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>630036</D:version-name>
+<D:comment>DERBY-3243 (jdbc net client) exception during normal iteration through "ResultSet" of "select * from t"
+
+Add test retrieving more than 32K lobs. 
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-02-21T22:43:56.907218Z</S:date>
+</S:log-item>
+</S:log-report>

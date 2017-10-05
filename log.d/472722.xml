@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>472722</D:version-name>
+<D:comment>DERBY-2047 DERBY-1952 (partial) Implement the ability to run with the default connction coming from
+an XADataSource as a decorator via the utility method TestConfiguration.connectionXADecorator.
+This will replace the functionality driven by the property derbyTesting.xa.single.
+Improved jdbc4.ConnectionTest and PreparedStatementTest to also run their test fixtures with
+this XA decorator. This will replace the old harness suite jdbcxa40 which does not seem to be part
+of derbyall but the new runs are part of jdbc4._Suite.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-11-09T00:56:20.020650Z</S:date>
+</S:log-item>
+</S:log-report>

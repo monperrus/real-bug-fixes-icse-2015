@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>725662</D:version-name>
+<D:comment>DERBY-3978: Clob.truncate(long) in the client driver doesn't update the cached Clob length.
+Backported fix from 10.4 (revision 725620).
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-12-11T11:17:16.379761Z</S:date>
+</S:log-item>
+</S:log-report>

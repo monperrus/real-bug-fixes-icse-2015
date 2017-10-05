@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1476529</D:version-name>
+<D:comment>Merged revision(s) 1476526 from lucene/dev/trunk:
+LUCENE-4953: Fixed ParallelCompositeReader to inform ReaderClosedListeners of its synthetic subreaders. FieldCaches keyed on the atomic childs will be purged earlier and FC insanity prevented.  In addition, ParallelCompositeReader's toString() was changed to better reflect the reader structure.</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2013-04-27T08:35:31.230910Z</S:date>
+</S:log-item>
+</S:log-report>

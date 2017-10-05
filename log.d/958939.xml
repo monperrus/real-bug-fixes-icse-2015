@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>958939</D:version-name>
+<D:comment>DERBY-1595: Network server fails with DRDAProtocolException if a BLOB with size 2147483647 is streamed from client 
+
+Switched from int to long when dealing with scalar streams, which can be longer
+than Integer.MAX_VALUE and cause arithmetic overflow.
+Introduced 'nullIndicatorSize' to duplicate less code.
+
+Patch file: derby-1595-2a-client_int_overflow.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-06-29T11:46:16.921940Z</S:date>
+</S:log-item>
+</S:log-report>

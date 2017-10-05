@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>465122</D:version-name>
+<D:comment>DERBY-1967: UNION (ALL) constraint violation problem
+
+This patch was contributed by Yip Ng (yipng168@gmail.com)
+
+In the bind phase of ConditionalNode (NULLIF), the CAST node is
+generated on top of the untyped NULL and it gets the data type
+descriptor(DTD) of the left operand. However, the CAST node should
+have DTD where its value can be nullable.
+
+BinaryComparisonOperatorNode bcon = (BinaryComparisonOperatorNode)testCondition;
+
+QueryTreeNode cast = getNodeFactory().getNode(
+C_NodeTypes.CAST_NODE,
+thenElseList.elementAt(0),
+bcon.getLeftOperand().getTypeServices(), &lt;=== not nullable!
+getContextManager());
+
+The second query:
+
+select nullif('x','x') as f0, f1 from a
+   union all
+   select nullif('x','x') as f0, nullif(1,1) as f1 from b;
+
+works because it didn't generate a NormalizedResultSet on top of
+the PRN on the right hand side of the union since the datatype and
+length matches. So it didn't hit the path where it does additional
+checking at execution time.
+
+For the first query:
+
+select nullif('x','x') as f0, f1 from a
+   union all
+   select nullif('x','x') as f0, nullif('x','x') as f1 from b;
+
+The union result column's length does not match with the right hand
+side result column, so it generated a NormalizedResultSet on top of
+the RHS of the union. When the system retrieves the row from
+NormalizedResultSet at execution time, the normalize method is called
+on the DTD and checks if the source is NULL and whether its DTD
+is not nullable. In this case, the SQLSTATE 23502 is thrown. 
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2006-10-18T01:43:14.545223Z</S:date>
+</S:log-item>
+</S:log-report>

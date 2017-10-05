@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1331262</D:version-name>
+<D:comment>DERBY-5722: InternationalConnectTest forgets to call super.tearDown()
+
+- Call super.tearDown() from tearDown()
+
+- Close XAConnections and PooledConnections
+
+- Clear reference to ArrayList in tearDown() to allow it to be gc'ed</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-04-27T07:19:36.002599Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>492353</D:version-name>
+<D:comment>DERBY-2183: Trigger recompilation problem when not qualified with schema
+
+This patch was contributed by Yip Ng (yipng168@gmail.com)
+
+The problem was that the compilation schema for the SPS was never set
+during its recompilation, it was using the current schema to perform the
+recompilation which is not correct. It should have use the SPS's
+compilation schema to do the recompilation when we push the compiler context.
+
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2007-01-03T23:47:28.246919Z</S:date>
+</S:log-item>
+</S:log-report>

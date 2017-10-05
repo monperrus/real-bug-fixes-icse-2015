@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>536653</D:version-name>
+<D:comment>SOLR-227 -- rather then quietly overwrite an item in a Map&lt;String,xxx&gt;, this checks if an old value exists and adds a severe error if so.</D:comment>
+<D:creator-displayname>ryan</D:creator-displayname>
+<S:date>2007-05-09T20:53:31.287359Z</S:date>
+</S:log-item>
+</S:log-report>

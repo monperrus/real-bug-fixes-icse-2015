@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>642219</D:version-name>
+<D:comment>DERBY-3549:  Unable to start slave mode after authentication failure on a previous startSlave attempt
+Unboot database if startslave command fails on authentication.
+Contributed by Jorgen Loland
+</D:comment>
+<D:creator-displayname>oysteing</D:creator-displayname>
+<S:date>2008-03-28T13:10:38.896425Z</S:date>
+</S:log-item>
+</S:log-report>

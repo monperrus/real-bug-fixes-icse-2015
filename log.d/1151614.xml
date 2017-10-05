@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1151614</D:version-name>
+<D:comment>DERBY-5325 Checkpoint fails with ClosedChannelException in InterruptResilienceTest
+
+Back-ported from trunk as:
+
+  svn merge -c 1151612 https://svn.apache.org/repos/asf/db/derby/code/trunk
+
+Patch derby-5325-refactor-b, which refactors redundant code and cleans
+up some comments and Javadoc.
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-07-27T20:19:20.222640Z</S:date>
+</S:log-item>
+</S:log-report>

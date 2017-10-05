@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>890220</D:version-name>
+<D:comment>DERBY-4473: [patch] remove some allocated but unused objects
+Removed the allocation of a StringWriter and a StringBuffer object.
+
+Patch contributed by Dave Brosius (dbrosius at mebigfatguy dot com).
+
+Patch file: ds.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-12-14T08:29:59.584246Z</S:date>
+</S:log-item>
+</S:log-report>

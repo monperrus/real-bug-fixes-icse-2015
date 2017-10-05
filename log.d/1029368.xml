@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1029368</D:version-name>
+<D:comment>misc (de)bug rollup
+
+* propagate parse exceptions as avro InvalidRequestExceptions
+* use more reasonable defaults for col and row limits (else OOM)
+* working range query system test
+* actually set column timestamp in return results
+* validate keys in UPDATE
+* process row mutations exactly once
+* javadoc cleanup / updates
+* explicitly disabled nagle in python driver
+* query logging is brutal, move to trace
+* upgrade jetty to 6.1.24
+
+Patch by eevans</D:comment>
+<D:creator-displayname>eevans</D:creator-displayname>
+<S:date>2010-10-31T14:37:56.810468Z</S:date>
+</S:log-item>
+</S:log-report>

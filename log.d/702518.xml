@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>702518</D:version-name>
+<D:comment>DERBY-3728: Fix error handling in PrivilegedFileOpsForTests.
+Removed unnecessary throws clauses (replaced PrivilegedExceptionAction with PrivilegedAction) and the possibility for a ClassCastException.
+Fixed some documentation.
+Patch file: derby-3728-1a.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-10-07T15:27:28.842294Z</S:date>
+</S:log-item>
+</S:log-report>

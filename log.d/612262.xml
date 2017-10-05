@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>612262</D:version-name>
+<D:comment>DERBY-3316  Leak in client if ResultSet not closed
+
+The leak was in SectionManager.positionedUpdateCursorNameToResultSet_ which kept a reference to the ResultSet so it wouldn't get garbage collected. The solution was to use a WeakReference to the ResultSets in positionedUpdateCursorNameToResultSet_ so that they can be garbage collected.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-01-15T22:36:38.415369Z</S:date>
+</S:log-item>
+</S:log-report>

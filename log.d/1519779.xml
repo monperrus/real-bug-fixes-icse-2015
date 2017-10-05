@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1519779</D:version-name>
+<D:comment>SOLR-3852: Fixed ZookeeperInfoServlet so that the SolrCloud Admin UI pages will work even if ZK contains nodes with data which are not utf8 text (merge r1519763)</D:comment>
+<D:creator-displayname>hossman</D:creator-displayname>
+<S:date>2013-09-03T18:13:23.424194Z</S:date>
+</S:log-item>
+</S:log-report>

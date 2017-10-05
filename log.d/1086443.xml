@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1086443</D:version-name>
+<D:comment>DERBY-5152 Shutting down db, information that the thread received an interrupt will not be restored to thread's interrupt flag
+
+Patch derby-5152-b. When a thread receives an interrupt Derby detects
+this, it will reset the thread's flag and save the fact in its lcc
+(LanguageConnectionContext), if available. If not (e.g. during boot)
+it will save the information in a thread local variable. For
+performance reasons, we use the lcc when available. However, when
+shutting down the database, the lcc goes away, and when the JDBC call
+returns to the application, the thread's interrupt flag will not be
+reinstated as per our specification. This is because the lcc dies
+before we do the restoring (under shutdown). So, the information that
+the thread was interrupted is lost with the lcc going away.
+
+This patch copies the information from lcc over to the thread local
+variable when lcc is popped and adds a new test case to
+InterruptResilienceTest.
+
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-03-28T23:30:17.941247Z</S:date>
+</S:log-item>
+</S:log-report>

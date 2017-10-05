@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>475490</D:version-name>
+<D:comment>DERBY-1030 (partial) Add test cases to RoutineTest that demonstrate this bug, where
+a function declared as RETURNS NULL ON NULL INPUT can be called when its argument is NULL.
+Look for the comment with this bug number.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-11-15T23:22:26.616759Z</S:date>
+</S:log-item>
+</S:log-report>

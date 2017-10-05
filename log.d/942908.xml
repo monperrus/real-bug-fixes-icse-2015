@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>942908</D:version-name>
+<D:comment>DERBY-4343 ASSERT FAILED calling setTransactionIsolation checking isolation_ == level on pooled connection
+
+Contributed by Lily Wei lilywei at yahoo dot com
+
+This is just the test case for this issue. The issue itself was actually fixed with DERBY-4314. Also included is one DERBY-4314 test case to make sure piggybacking works ok after statement execution.
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2010-05-10T21:21:16.227186Z</S:date>
+</S:log-item>
+</S:log-report>

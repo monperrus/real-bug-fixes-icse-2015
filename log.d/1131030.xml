@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1131030</D:version-name>
+<D:comment>DERBY-5097: testMTSelect(org.apache.derbyTesting.functionTests.tests.store.AutomaticIndex StatisticsMultiTest)junit.framework.AssertionFailedError: failed to get statistics for table MTSEL (#expected=2, timeout=0) on AIX IBM JDK 1.5
+
+Added timeout to the system table query logic to stop the test from failing
+when the index statistic worker thread is starved. A starved worker thread
+won't be able to update the statistics soon enough in this test case, so we
+give it some time to do its thing after the test query threads have stopped.
+
+Patch file: derby-5097-1a-add_timeout.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-06-03T13:33:04.427167Z</S:date>
+</S:log-item>
+</S:log-report>

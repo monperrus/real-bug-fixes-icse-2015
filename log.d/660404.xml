@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>660404</D:version-name>
+<D:comment>DERBY-3690: EmbedPooledConnection doesn't reset schema when creating a new logical connection.
+Fixes the bug by resetting the schema in GLCC.resetFromPool, and adds two regression tests.
+Patch file: derby-3690-1b-reset_schema.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-05-27T06:50:25.138224Z</S:date>
+</S:log-item>
+</S:log-report>

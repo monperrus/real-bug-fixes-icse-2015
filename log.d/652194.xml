@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>652194</D:version-name>
+<D:comment>DERBY-3589, backported fix from trunk revision 644620 to 10.3.  
+
+AllocPage.createPage() doesn't initialize minimumRecordSize correctly
+Use an object with named fields (PageCreationArgs) instead of an array
+to pass in arguments when creating a new page. This resolves the
+problem with StoredPage and AllocPage expecting the same field to be
+found on different positions in the array.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2008-04-30T00:15:00.799446Z</S:date>
+</S:log-item>
+</S:log-report>

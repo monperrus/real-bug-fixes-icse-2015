@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>158076</D:version-name>
+<D:comment>Fix max word length issue (though don't know why anyone would limit long words in a more-like-this query).
+
+Also, modified to take into account all values of a field rather than just the first one.
+</D:comment>
+<D:creator-displayname>ehatcher</D:creator-displayname>
+<S:date>2005-03-18T15:03:00.089448Z</S:date>
+</S:log-item>
+</S:log-report>

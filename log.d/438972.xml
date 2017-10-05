@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>438972</D:version-name>
+<D:comment>Clean up some methods in BaseTestCase that were declared to throw PrivilegedActionException but actually had
+no code that would do so.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-08-31T16:15:07.595403Z</S:date>
+</S:log-item>
+</S:log-report>

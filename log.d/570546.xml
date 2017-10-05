@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>570546</D:version-name>
+<D:comment>DERBY-2910 SimpleStringOperatorNode in it's bindExpression method generates a character string CAST if required but does not set the correct collation.
+
+This change changes implicit casts in SimpleStringOperatorNode, ConcatenationOperatorNode, and TernaryOperatorNode to use the current schema collation when doing an implicit cast. Since the SQL Spec had no specific rules for implicit casts, I matched the explicit cast behavior described in 6.1.2 (10).
+
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-08-28T19:52:06.784585Z</S:date>
+</S:log-item>
+</S:log-report>

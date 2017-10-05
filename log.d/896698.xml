@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>896698</D:version-name>
+<D:comment>add --keep-going option to continue past exceptions (e.g. to keep hammering server after timeouts start).  check get return value and raise when expected key is not present (cassandra can skip missing keys really really fast but that is not what we want to measure here).  patch by Brandon Williams; reviewed by jbellis for CASSANDRA-676</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-01-06T22:33:32.062276Z</S:date>
+</S:log-item>
+</S:log-report>

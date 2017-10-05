@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1212541</D:version-name>
+<D:comment>DERBY-5526  on upgrade from 10.5 to 10.8.2 , getting ERROR XBM0A: The database directory 'C:\cygwin\home\debugfat\clientdb' exists.
+ However, it does not contain the expected 'service.properties' file.
+
+Change to only throw this message if there is a seg0 directory so  this looks
+like a partially created database
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2011-12-09T17:46:50.356056Z</S:date>
+</S:log-item>
+</S:log-report>

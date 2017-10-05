@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>369549</D:version-name>
+<D:comment>DERBY-170  Inserting large string value into non-existent table causes communication link failure over Network Server.
+
+ Attached is a proposed patch for DERBY-170, which teaches the skipDSS method how to handle segmented DDM objects. changes.html attached to DERBY-170  provides a bit of background and discussion for the reviewer. I have successfully run derbyall with this patch. The patch includes a new test, and new master output files. 
+
+Contributed by Bran Pendleton
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-01-16T19:19:26.216081Z</S:date>
+</S:log-item>
+</S:log-report>

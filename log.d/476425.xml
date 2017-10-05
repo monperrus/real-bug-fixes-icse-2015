@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>476425</D:version-name>
+<D:comment>DERBY-1849 - grantRevokeDDL and grantRevokeDDL2.sql fail with ibm wctme5.7_foundation (jdkJ2ME Spec v1.0)
+- accepting that triggers are not supported with this jvm
+- updated masters to latest syntax changes in test
+- stopped NPE by adding ij.dataSource properties to grantRevokeDDL2.out
+
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2006-11-18T03:26:40.043504Z</S:date>
+</S:log-item>
+</S:log-report>

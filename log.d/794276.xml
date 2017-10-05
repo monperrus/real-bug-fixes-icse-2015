@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>794276</D:version-name>
+<D:comment>DERBY-4307: testRunTests in RuntimeinfoTest fails periodically with Assertion failure checking output.
+Corrected mismatch between expected output and actual output by changing the
+output match string in the test. The error was triggered by a trivial text
+modification in one of the localized messages.
+
+Patch file: derby-4307-1a-test_fix.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-07-15T14:15:02.329234Z</S:date>
+</S:log-item>
+</S:log-report>

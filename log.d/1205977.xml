@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1205977</D:version-name>
+<D:comment>fix ConcurrentModificationException in Table.all()
+patch by Jonathan Ellis; reviewed by Pavel Yaskevich for CASSANDRA-3529</D:comment>
+<D:creator-displayname>xedin</D:creator-displayname>
+<S:date>2011-11-24T20:54:10.506956Z</S:date>
+</S:log-item>
+</S:log-report>

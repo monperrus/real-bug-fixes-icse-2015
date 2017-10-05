@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>530159</D:version-name>
+<D:comment>DERBY-2480: getConnection leaks memory when connecting to non-existent db
+
+This patch was contributed by Jeff Clary (jclary@actuate.com). The test
+program was contributed by John Embretsen (John.Embretsen@Sun.com) based
+on the original reproduction program contributed by Jeff Clary.
+
+The issue is that repeated calls to java.sql.DriverManager.getConnection(
+"jdbc:derby:C:\\DOES_NOT_EXIST") leak memory and eventually lead to an
+OutOfMemoryError.
+
+This bug is similar to DERBY-1947 in that ContextManager objects are not
+getting removed from the HashSet. 
+
+The change adds a call to cleanupOnError to EmbedConnection's constructor.
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2007-04-18T21:15:21.089867Z</S:date>
+</S:log-item>
+</S:log-report>

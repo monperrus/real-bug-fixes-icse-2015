@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>771927</D:version-name>
+<D:comment>This patch adds ColumnFamilyStore.forceflush to the mbean so that it can be activated through the management agent.  patch by Eric Evans; reviewed by jbellis for CASSANDRA-34</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-05-05T16:56:55.738318Z</S:date>
+</S:log-item>
+</S:log-report>

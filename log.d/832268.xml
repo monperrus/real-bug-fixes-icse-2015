@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>832268</D:version-name>
+<D:comment>fix NPE caused by getToken on endpoint that isn't member of ring yet.  add assert to prevent in the future.
+patch by jbellis for CASSANDRA-522</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-11-03T02:24:12.895245Z</S:date>
+</S:log-item>
+</S:log-report>

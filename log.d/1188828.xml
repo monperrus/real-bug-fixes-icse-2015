@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1188828</D:version-name>
+<D:comment>DERBY-5283: Crash / process termination during SYSCS_DISABLE_LOG_ARCHIVE_MODE can leave service.properties broken
+
+
+Updated test with two new errors; XBM0B and XBM0C.
+
+Patch file: derby-5283-2a-update_test_with_errorcodes.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-10-25T17:50:48.498404Z</S:date>
+</S:log-item>
+</S:log-report>

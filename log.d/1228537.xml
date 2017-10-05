@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1228537</D:version-name>
+<D:comment>DERBY-5559 AssertFailures (7, or 8) with ibm 1.6 and 1.5 on Windows XP in lang.NativeAuthProcs fixture testAll
+
+This change just adds explicit printout in the tests when the asserts fail,
+it does not fix the test failures.
+I added them to the 4 places I saw them failing in nightly runs as reported
+in the apache nightly test run site for the following report:
+http://people.apache.org/~myrnavl/derby_test_results/main/windows/testlog/ibm15/1227449-suites.All_diff.txt
+
+All the problem areas are asserts based on timestamps and the tests seem to 
+be waiting for some time such that these asserts will be true.  My guess is
+that this methodology is not portable with the current values and may need to
+be tuned more to work across all JVMs and hardware. 
+
+I am seeing errors on a XP laptop running ibm jvm 16.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2012-01-07T01:39:27.295582Z</S:date>
+</S:log-item>
+</S:log-report>

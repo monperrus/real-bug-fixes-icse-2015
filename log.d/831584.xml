@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>831584</D:version-name>
+<D:comment>DERBY-4151; java.net.ConnectionException in J2EEDataSourceTest with network server on IBM iseries;
+	adding some close() calls in 3 fixtures allowed for proper processing on cleanup
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2009-10-31T19:26:00.538747Z</S:date>
+</S:log-item>
+</S:log-report>

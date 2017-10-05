@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1488339</D:version-name>
+<D:comment>DERBY-6237(PreparedStatement.execute() fails starting 10.2 when multiple rows are updated and PreparedStatement.setCharacterStream(int, Reader, int) is used)
+
+In 10.1, setCharacterStream to update CLOB and varchar columns work even when update is going to update more than one row. The test added here is for testing CLOB column. Will add test for VARCHAR column as a separate commit.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-05-31T17:59:40.931548Z</S:date>
+</S:log-item>
+</S:log-report>

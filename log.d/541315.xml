@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>541315</D:version-name>
+<D:comment>DERBY-2618: EmbedClob.setAsciiStream does not handle non-ascii characters correctly. Now also and-ing bytes in write(byte[],int,int) with 0xff.
+Patch file: derby2618_partial_v5-ontopofv4.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2007-05-24T15:06:15.262347Z</S:date>
+</S:log-item>
+</S:log-report>

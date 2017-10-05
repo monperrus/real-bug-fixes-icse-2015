@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1000280</D:version-name>
+<D:comment>Added grouping key to ALR and CFL.  Added AUC classes to support grouping.
+Made pending records transient to save space in serialized models.
+Extended learning rate lower limit.
+Fixed rare corner case issue in OnlineSummarizer</D:comment>
+<D:creator-displayname>tdunning</D:creator-displayname>
+<S:date>2010-09-23T00:12:09.117756Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1136568</D:version-name>
+<D:comment>LUCENE-3208: Renamed protected IndexSearcher.createWeight() to expert public method IndexSearcher.createNormalizedWeight() as this better describes what this method does. The old method is still there for backwards compatibility. Query.weight() was deprecated and simply delegates to IndexSearcher</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2011-06-16T17:55:04.908769Z</S:date>
+</S:log-item>
+</S:log-report>

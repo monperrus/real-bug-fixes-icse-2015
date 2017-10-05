@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1212754</D:version-name>
+<D:comment>LUCENE-3630: Fixed naming of the internal method MultiReader.doOpenIfChanged(boolean doClone) that was overriding IndexReader.doOpenIfChanged(boolean readOnly), so changing the contract of the overridden method</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2011-12-10T09:48:52.087191Z</S:date>
+</S:log-item>
+</S:log-report>

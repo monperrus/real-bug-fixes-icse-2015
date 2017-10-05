@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>425385</D:version-name>
+<D:comment>DERBY-1586 (partial) The attributesAsPassword property doesn't work
+correctly with EmbeddedConnectionPoolDataSource
+
+This patch adds a JUnit test which reproduces the bug. The test is not
+run in any suite since the bug is not fixed.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-07-25T12:21:38.186851Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1428671</D:version-name>
+<D:comment>LUCENE-4656: Fix regression in IndexWriter to work with empty TokenStreams that have no TermToBytesRefAttribute (commonly provided by CharTermAttribute), e.g., oal.analysis.miscellaneous.EmptyTokenStream. Remove EmptyTokenizer from test-framework.</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2013-01-03T23:35:20.987219Z</S:date>
+</S:log-item>
+</S:log-report>

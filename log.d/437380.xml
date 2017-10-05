@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>437380</D:version-name>
+<D:comment>DERBY-1681
+contributed by Army Brown
+
+Adding extra tests for this issue, fix already committed.  
+
+Note that the test cases which were added for DERBY-1633 actually already 
+demonstrate the problem reported (and now fixed) in this issue. This checkin
+is a dedicated test case for this issue.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-08-27T15:10:06.791035Z</S:date>
+</S:log-item>
+</S:log-report>

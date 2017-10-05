@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1125453</D:version-name>
+<D:comment>DERBY-1482 / DERBY-5121
+
+Rick Hillegas contributed a very exhaustive trigger test which I am converting to junit and adding to the upgrade suite
+    // The test exhaustively walks through all subsets and permutations 
+    // of columns for a trigger which inserts into a side table based on 
+    // updates to a master table.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-05-20T16:33:28.340768Z</S:date>
+</S:log-item>
+</S:log-report>

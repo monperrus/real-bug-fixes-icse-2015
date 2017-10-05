@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>894732</D:version-name>
+<D:comment>CASSANDRA-651  TcpConnectionManager was holding on to disconnected connections, giving the false indication they were being used. Patch by Jonathan Ellis and Gary Dusbabek, reviewed by same. Merged from trunk.</D:comment>
+<D:creator-displayname>gdusbabek</D:creator-displayname>
+<S:date>2009-12-30T23:12:53.053180Z</S:date>
+</S:log-item>
+</S:log-report>

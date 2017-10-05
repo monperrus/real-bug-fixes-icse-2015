@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>583691</D:version-name>
+<D:comment>DERBY-3099: Pages not freed on rollback to savepoint
+
+Ensured that slotFieldSize and slotEntrySize are properly initialized
+before StoredPage.initSpace() is called.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-10-11T06:31:53.344441Z</S:date>
+</S:log-item>
+</S:log-report>

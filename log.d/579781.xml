@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>579781</D:version-name>
+<D:comment>DERBY-3081 cannot create instance of generated class because of java.lang.VerifyError in 4 tests on iseries
+Change ansiTrim argument from 
+- mb.upCast(leftInterfaceType);
+to
++ mb.cast(leftInterfaceType);
+
+to properly cast the argument to StringDataValue. Essentially what we were ending up with in the generated code was this:
+
+  public Object e2()
+        throws StandardException, Exception
+    {
+        ConcatableDataValue concatabledatavalue = ((StringDataValue)getColumnFromRow(2, 2)).substring(getDataValueFactory().getDataValue(1, null), getDataValueFactory().getDataValue(1, null), e3, 16);
+        e3 = concatabledatavalue;
+        StringDataValue stringdatavalue = ((StringDataValue)getColumnFromRow(2, 2)).ansiTrim(2, concatabledatavalue, e2);
+....
+
+So we were passing a ConcatableDataValue instead of a StringDataValue to ansiTrim. Changing from upCast to cast forces the cast so that ansiTrim gets called.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-09-26T20:00:53.127501Z</S:date>
+</S:log-item>
+</S:log-report>

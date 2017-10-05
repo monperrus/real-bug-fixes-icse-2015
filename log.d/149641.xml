@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>149641</D:version-name>
+<D:comment>Fix query parser (finally) to be much more lenient about queries that have funny characters; added new test cases to test new rules; added NullTokenizer/NullAnalyzer which just pass through space-separated tokens unmodified (mostly for testing purposes
+</D:comment>
+<D:creator-displayname>briangoetz</D:creator-displayname>
+<S:date>2002-01-17T02:49:22.000000Z</S:date>
+</S:log-item>
+</S:log-report>

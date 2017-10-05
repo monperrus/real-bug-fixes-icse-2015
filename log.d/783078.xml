@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>783078</D:version-name>
+<D:comment>apply rows atomically, rather than one-column-at-a-time.  this avoids exposing the bug in time-sorted
+columns discussed in #223.
+patch by jbellis; reviewed by Jun Rao for CASSANDRA-208</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-06-09T17:46:47.627358Z</S:date>
+</S:log-item>
+</S:log-report>

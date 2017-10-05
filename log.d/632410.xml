@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>632410</D:version-name>
+<D:comment>DERBY-3484 Remove an unused JDBC20Translation class and some unused JDBC translation constants. Note that the minimum JDBC level is JSR 169 which is a subset of JDBC 3. and includes most (but not all) of the constants from JDBC 3.0</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2008-02-29T19:05:41.364954Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>106329</D:version-name>
+<D:comment>Fix Derby-74, new format of BigDecimal.toString() in J2SE 5.0
+causes incorrect count of number of whole digits.
+
+Fix contributed by Jeremy Boynes
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2004-11-23T19:17:39.518156Z</S:date>
+</S:log-item>
+</S:log-report>

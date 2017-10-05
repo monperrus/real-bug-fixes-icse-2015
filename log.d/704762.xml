@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>704762</D:version-name>
+<D:comment>DERBY-3266 Not possible for non-db-owner to create a temporary table
+
+Patch derby-3266-2. With this patch, a non-dbo user can use temporary
+tables. A new testcase was added to GrantRevokeDDLTest.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2008-10-15T01:33:17.435468Z</S:date>
+</S:log-item>
+</S:log-report>

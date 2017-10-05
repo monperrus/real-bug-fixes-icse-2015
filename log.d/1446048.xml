@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1446048</D:version-name>
+<D:comment>DERBY-6045 (in list multi-probe by primary key not chosen on tables with &gt;256 rows)
+
+Added a new test scenario where we add about 10K rows into a table with primary key and check if we are still using index scan for the queries being tested
+
+Additionally, cleaned up the test a little bit.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-02-14T05:45:59.328545Z</S:date>
+</S:log-item>
+</S:log-report>

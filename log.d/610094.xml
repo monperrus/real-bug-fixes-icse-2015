@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>610094</D:version-name>
+<D:comment>DERBY-1368 EOFException when reading from blob's binary stream
+
+This patch just adds a  test. Bug was fixed previously with 10.2. I am not sure exactly which checkin fixed it.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-01-08T18:43:51.327866Z</S:date>
+</S:log-item>
+</S:log-report>

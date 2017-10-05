@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>902857</D:version-name>
+<D:comment>derby-4477 Selecting / projecting a column whose value is represented by a stream more than once fails
+
+Patch derby-4477-partial-2. This patch clones streamable columns in
+occurence 2..n in ProjectRestrictResultset if they occur more than
+once in the select list. It also adds the three repro test cases from
+DERBY-3645, DERBY-3646 and DERBY-2349 to BLOBTest. The patch is not
+complete and needs to be revisted when cloning of store streams is
+implemented. Currenly the cloning occurs via materialization and this
+will exhaust memory when lobs are large.  See FIXME in
+ProjectRestrictResultSet.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2010-01-25T16:24:35.962323Z</S:date>
+</S:log-item>
+</S:log-report>

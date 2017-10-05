@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>647465</D:version-name>
+<D:comment>DERBY-2892: Closing a resultset after retrieving a large &amp;gt; 32665 bytes value with Network Server does not release locks
+
+Merging the derby-2892-1b-alternative_fix_partial.diff patch to 10.4 with
+svn merge -r 646254:646255 ../derby-xact
+No conflicts.
+</D:comment>
+<D:creator-displayname>dyre</D:creator-displayname>
+<S:date>2008-04-12T16:22:05.747455Z</S:date>
+</S:log-item>
+</S:log-report>

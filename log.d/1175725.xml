@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1175725</D:version-name>
+<D:comment>Fix deadlock in commit log during flush
+patch by jbellis; reviewed by slebresne for CASSANDRA-3253
+</D:comment>
+<D:creator-displayname>slebresne</D:creator-displayname>
+<S:date>2011-09-26T09:03:19.720721Z</S:date>
+</S:log-item>
+</S:log-report>

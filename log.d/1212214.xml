@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1212214</D:version-name>
+<D:comment>DERBY-5096 DisconnectException: "Connection was refused because the database 
+DB was not found" when creating db for first time
+
+DERBY-5347 Derby loops filling logs and consuming all CPU with repeated error: 
+java.net.SocketException: EDC5122I Input/output error.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2011-12-09T01:56:24.625190Z</S:date>
+</S:log-item>
+</S:log-report>

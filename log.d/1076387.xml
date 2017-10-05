@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1076387</D:version-name>
+<D:comment>DERBY-5079 " DERBY-4984 caused a regression which will not allow users to drop a table if the table was involved in a trigger action rebind during ALTER TABLE DROP COLUMN
+
+Adding some commented out test cases to show the problem with drop table after ALTER TABLE DROP COLUMN and some combination of triggers. This is caused because the changes for DERBY-4984 used an incorrect current dependent for the dpendency system before doing a recompile of trigger action sql. Work is being done to use the correct dependent and recreate the dependencies in SYSDEPENDS correctly after a trigger action recompile is done following an ALTER TABLE DROP COLUMN.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-03-02T21:19:59.533134Z</S:date>
+</S:log-item>
+</S:log-report>

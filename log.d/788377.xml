@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>788377</D:version-name>
+<D:comment>DERBY-4154 DboPowersTest should not hard upgrade the system/wombat database
+
+The patch makes the hard upgrade fixture use another database than
+"system/wombat", by wrapping the offending test cases in a
+singleUseDatabaseDecorator.
+
+Merged from trunk as:
+svn merge -c 788369 https://svn.eu.apache.org/repos/asf/db/derby/code/trunk
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-06-25T15:04:37.395148Z</S:date>
+</S:log-item>
+</S:log-report>

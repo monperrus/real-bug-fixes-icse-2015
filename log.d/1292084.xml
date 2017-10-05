@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1292084</D:version-name>
+<D:comment>DERBY-2687 store/encryptDatabase.sql fails intermittently with ClassNotFoundException, Log Corrupted
+
+Patch derby-2687-2 + removed an additional unused line. This converts
+encryptDatabase.sql to JUnit and also makes the test ignore a hash
+collision case: the stored two byte digest of the secret key can in can
+1/2**16 cases match the the digest of bogus key gotten by decoding the
+encrypted key using the wrong bootpassword, thus allowing boot to
+proceed using a wrong encryption key, leading to a boot crash (the
+"boot issue").
+
+Another issue (less likely) can still make the test fail (the
+"bootpassword change issue"), but cf. the improvement issue DERBY-5622
+which would resolve that.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2012-02-21T23:52:15.447586Z</S:date>
+</S:log-item>
+</S:log-report>

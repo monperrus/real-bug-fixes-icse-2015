@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>774165</D:version-name>
+<D:comment>to avoid adding work to terminating executor (which will raise an exception) we need to check for threshold violated _first_, and move puts to the new memtable once flush has started.  patch by jbellis; reviewed by Eric Evans for CASSANDRA-165</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-05-13T02:17:23.675639Z</S:date>
+</S:log-item>
+</S:log-report>

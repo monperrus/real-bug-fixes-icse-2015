@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1068164</D:version-name>
+<D:comment>DERBY-4988 ALTER TABLE DROP COLUMN should make use of information in SYSTRIGGERS to detect column used through REFERENCING clause to find trigger dependencies
+
+Backporting 1066290 from trunk to 10.7 codeline
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-02-07T22:08:01.659285Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>441802</D:version-name>
+<D:comment>DERBY-1817: Race condition in network server's thread pool
+
+Instead of always putting new sessions in the run queue when there are
+free threads, the network server now compares the number of free
+threads and the size of the run queue. This is done to prevent the run
+queue from growing to a size greater than the number of free
+threads. Also, the server now synchronizes on runQueue until the
+session has been added to the queue. This is to prevent two threads
+from deciding that there are enough free threads and adding the
+session to the run queue, when there in fact only were enough free
+threads for one of them. With this patch, I am not able to reproduce
+DERBY-1757 on platforms where the failure was easily reproduced
+before.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-09-09T15:50:02.136219Z</S:date>
+</S:log-item>
+</S:log-report>

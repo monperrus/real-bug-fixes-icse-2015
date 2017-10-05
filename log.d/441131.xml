@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>441131</D:version-name>
+<D:comment>DERBY-1686 The original fix retrieves all the relevent providers such as table, view, and routine descriptor(s)
+of the given view at bind time and pass this information to runtime later
+for it to determine if the privilege is grantable or not by the grantor.
+Patch contributed by Yip Ng - yipng168@gmail.com</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-09-07T16:16:15.461801Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>764004</D:version-name>
+<D:comment>fix getCompactionBuckets -- something is broken in NonBlockingHashMap when removing and re-adding the same collection mid-iteration; it ends up with multiple references to that collection.  going back to ConcurrentHashMap fixes the problem.  (any additional overhead from CHM is negligible here.)  patch by jbellis; reviewed by Eric Evans for #57</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-04-10T19:08:27.433081Z</S:date>
+</S:log-item>
+</S:log-report>

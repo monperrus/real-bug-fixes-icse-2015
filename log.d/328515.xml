@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>328515</D:version-name>
+<D:comment>DERBY-647 Fix code in MultiTest to generate correct log file names
+when the path contains a dot. Previous code was trying to be too
+smart, simplified to pass in directory and file name required.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-10-26T00:34:12.861983Z</S:date>
+</S:log-item>
+</S:log-report>

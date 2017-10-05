@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1044450</D:version-name>
+<D:comment>correct ordering of drain operations so CL.recover is no longer necessary.  Patch by jbellis and brandonwilliams, reviewed by jbellis for CASSANDRA-1408</D:comment>
+<D:creator-displayname>brandonwilliams</D:creator-displayname>
+<S:date>2010-12-10T17:35:14.327845Z</S:date>
+</S:log-item>
+</S:log-report>

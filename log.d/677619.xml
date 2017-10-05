@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>677619</D:version-name>
+<D:comment>DERBY-3766 (partial): EmbedBlob.setPosition is highly ineffective for streams.
+A preparation patch for the main fix, addressing several minor issues:
+ a) Change type of 'myStream' from InputStream to PositionedStoreStream.
+    This includes removing superfluous casts.
+ b) Fixed typo in JavaDoc for 'streamLength'
+ c) Improved JavaDoc for 'read()'
+ d) Made exception in 'truncate' use the correct position argument.
+ e) Added/updated a few comments.
+Patch file: derby-3766-1a-preparations.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-07-17T15:47:02.806072Z</S:date>
+</S:log-item>
+</S:log-report>

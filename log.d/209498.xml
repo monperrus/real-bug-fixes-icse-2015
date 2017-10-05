@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>209498</D:version-name>
+<D:comment>Derby-406 - Sets the username to start with the default value ("APP")
+Derby-410 - Sets the server name to start with the default value ("localhost")
+Derby-409 - Adds a semi-colon in the connection class to avoid databasenames like
+myDBcreate=true resulting from no dividing semi-colon.
+- Add javadoced methods in the derbynet/dataSourcePermissions_net.java file to test this new functionality 
+
+Contributed by Philip Wilder &lt;050503w@acadiau.ca&gt;
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-07-06T18:52:10.127386Z</S:date>
+</S:log-item>
+</S:log-report>

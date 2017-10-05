@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>431603</D:version-name>
+<D:comment>DERBY-1688: ConsistencyToken.hashCode() is not thread safe
+
+Rewrite the method to use a thread-safe approach as suggested by The
+"Double-Checked Locking is Broken" Declaration.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-08-15T14:20:46.582559Z</S:date>
+</S:log-item>
+</S:log-report>

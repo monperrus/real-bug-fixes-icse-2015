@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>373291</D:version-name>
+<D:comment>DERBY-395  Server-side "trace on" and "trace off" commands do not appear to be working correctly.
+
+Contributed by Bryan Pendleton
+
+Attached is a proposed fix. derbyall passed. I put a small comment in the code. I didn't add any new tests, which is unfortunate, but I didn't have any brilliant inside about an easy way to add such tests. Testing with the server tracing is already somewhat of a PITA because the server tracing interacts poorly with things like the security manager.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-01-29T05:54:06.625820Z</S:date>
+</S:log-item>
+</S:log-report>

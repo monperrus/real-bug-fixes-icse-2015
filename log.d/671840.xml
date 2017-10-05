@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>671840</D:version-name>
+<D:comment>DERBY-3735: Incorrect position calculation in PositionedStoreStream with read(byte[],...).
+Fixed calculation by only adding positive integers (not allowing -1).
+Added a general test and a regression test.
+Made LoopingAlphabetStream implement Resetable to allow it to be used for testing where a resetable stream is expected.
+Patch file: derby-3735-1b.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-06-26T10:00:25.830859Z</S:date>
+</S:log-item>
+</S:log-report>

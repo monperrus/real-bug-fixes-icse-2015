@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>371603</D:version-name>
+<D:comment>DERBY-125 Network Server can send DSS greater than 32K to client, which breaks DRDA protocol.
+
+Fixes off by one error during segment shifting.
+Fixes continuation flag handling to not overwrite the length.
+
+See changes.html attached to DERBY-125 for more info
+
+Contributed by Bryan Pendleton
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-01-23T17:34:23.568073Z</S:date>
+</S:log-item>
+</S:log-report>

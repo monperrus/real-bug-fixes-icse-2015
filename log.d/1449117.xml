@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1449117</D:version-name>
+<D:comment>SOLR-4471: Replication occurs even when a slave is already up to date.
+  
+SOLR-4484: ReplicationHandler#loadReplicationProperties still uses Files rather than the Directory to try and read the replication properties files.
+
+SOLR-4488: Return slave replication details for a master if the master has also acted like a slave.</D:comment>
+<D:creator-displayname>markrmiller</D:creator-displayname>
+<S:date>2013-02-22T17:00:13.697645Z</S:date>
+</S:log-item>
+</S:log-report>

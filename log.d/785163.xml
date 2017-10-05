@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>785163</D:version-name>
+<D:comment>DERBY-4198 When using the FOR UPDATE OF clause with SUR (Scroll-insensive updatable result sets), the updateRow() method crashes
+
+Patch derby-4198-4. This is the second part of the solution for this
+issue. It solves the issue of column mapping in the presence of named
+columns in a FOR UPDATE OF clause. The original code was not general
+enough; ScrollInsensitiveResultSet.updateRow needs to make use of
+RowChanger to do the right thing.
+
+The patch also adds new test cases.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-06-16T11:15:39.794720Z</S:date>
+</S:log-item>
+</S:log-report>

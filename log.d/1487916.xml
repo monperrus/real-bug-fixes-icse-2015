@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1487916</D:version-name>
+<D:comment>Merged revision(s) 1487915 from lucene/dev/branches/branch_4x:
+SOLR-4877, LUCENE-5023: Removed SolrIndexSearcher#getDocSetNC()'s special case for handling TermQuery to prevent NullPointerException if reader does not have fields</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2013-05-30T16:24:53.566174Z</S:date>
+</S:log-item>
+</S:log-report>

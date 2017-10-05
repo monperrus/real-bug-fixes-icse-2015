@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>554073</D:version-name>
+<D:comment>Add test for verification of DERBY-255 fix that ResultSet.getString(), ResultSet.getCharacterStream(), ResultSet.getBytes(), and ResultSet.getBinaryStream() do not hold locks after the ResultSet is closed.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-07-06T22:11:12.792610Z</S:date>
+</S:log-item>
+</S:log-report>

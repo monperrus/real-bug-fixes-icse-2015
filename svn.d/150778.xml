@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="150778"/>
+<S:open-directory rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="sandbox" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="contributions" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="webcrawler-LARM" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="build.xml" sha1-checksum="5150b56cb731f2997ee9cec2239fc03d3ac550ae">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.1</S:set-prop>
+<S:set-prop name="svn:keywords">Author Date Id Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>d4b4ddae9ec7224cef824f9042f2239e</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="TODO.txt" sha1-checksum="10a38699b246916449065847efc09519f5ffa468">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/TODO.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.1</S:set-prop>
+<S:set-prop name="svn:keywords">Author Date Id Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>2af3498558226074a2c0a123178d5c91</V:md5-checksum></S:prop></S:add-file>
+<S:open-directory name="doc" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/doc</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="webcrawler_tech_overview.doc" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/doc/webcrawler_tech_overview.doc</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.2</S:set-prop>
+<S:fetch-file base-checksum="8b30f9eef77e2ac08a19bb159bfe1495" sha1-checksum="e768273e08f0fdb2317188342e354d94bde42e70"/>
+<S:prop><V:md5-checksum>fc7c3fd77c2a4191d99362cdb1659244</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-file name="CHANGES.txt" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/CHANGES.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.2</S:set-prop>
+<S:fetch-file base-checksum="b61d39f318050a6a1ed1c1a48bcc2e86" sha1-checksum="810bb574de0bea46e870a2845b9c9999c4579187"/>
+<S:prop><V:md5-checksum>fec886bdbf93394325bccce93dbd81d1</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="src" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="hplb" rev="150778"/>
+<S:open-directory name="de" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lanlab" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="larm" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="fetcher" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm/fetcher</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="URLVisitedFilter.java" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm/fetcher/URLVisitedFilter.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.3</S:set-prop>
+<S:fetch-file base-checksum="7d83187dfa24de3b2aaef3fdda8e3a81" sha1-checksum="fa4b7223d8584dc4bf2cd592f3aafd7ba4ddec99"/>
+<S:prop><V:md5-checksum>76698a65ebcb81dd5856675fa920b975</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="FetcherTask.java" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm/fetcher/FetcherTask.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.3</S:set-prop>
+<S:fetch-file base-checksum="518cad0a7ff6eb4161ea88c426b315b8" sha1-checksum="2864d23d4a17e5b09d71a14538405a94e8c7d21c"/>
+<S:prop><V:md5-checksum>daf7799b61229e0e3ff8bda78467717a</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="Fetcher.java" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm/fetcher/Fetcher.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.3</S:set-prop>
+<S:fetch-file base-checksum="3b416d8062f459356be662ccefea592a" sha1-checksum="ac3fd2699346c0c708704997f0d2d04935fc02f7"/>
+<S:prop><V:md5-checksum>f1f5cf3216426a672c8888a246ee59d6</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="MessageHandler.java" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm/fetcher/MessageHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.3</S:set-prop>
+<S:fetch-file base-checksum="b9e15da1dcd8f211aca7915f11b18ccf" sha1-checksum="71e9d92e555fa02204d64439c57ac0b79354f596"/>
+<S:prop><V:md5-checksum>a00525148e3f79c3ea8b72ed88eb7f9a</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="Filter.java" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm/fetcher/Filter.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.3</S:set-prop>
+<S:fetch-file base-checksum="a3fb73889464dcedc7b32e8de8486dbd" sha1-checksum="59effba8f7077469364637217a6b079e24f16bf1"/>
+<S:prop><V:md5-checksum>0b61e6508a10055ce34225aec623dc30</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="FetcherMain.java" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm/fetcher/FetcherMain.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.3</S:set-prop>
+<S:fetch-file base-checksum="0c489d63f42c3258fc097a3324b3e704" sha1-checksum="db701a289f2b97ffbbb2bc52bbb9318a774fb8bc"/>
+<S:prop><V:md5-checksum>3f94e07eb291baf9806cf2854e32eadf</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="storage" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm/storage</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="LinkStorage.java" sha1-checksum="5c6eb5d6dd1edccf10a87a848f7776112cff2589">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm/storage/LinkStorage.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.1</S:set-prop>
+<S:set-prop name="svn:keywords">Author Date Id Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>95a87c6ba9e5f097d95b86ecea254b22</V:md5-checksum></S:prop></S:add-file>
+<S:open-file name="DocumentStorage.java" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm/storage/DocumentStorage.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.3</S:set-prop>
+<S:fetch-file base-checksum="a91e695bf1ccc8c70130b36372148617" sha1-checksum="c66996754b316433de5f4ae5096e85b2b404c998"/>
+<S:prop><V:md5-checksum>693dfde1ac34399d4653d6b2425bce49</V:md5-checksum></S:prop></S:open-file>
+<S:add-file name="LinkLogStorage.java" sha1-checksum="472a4de1f80a3a158be850aa7200e0859169630b">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm/storage/LinkLogStorage.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.1</S:set-prop>
+<S:set-prop name="svn:keywords">Author Date Id Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>8bd7ca7b275f780ae4d5d479f76f87bc</V:md5-checksum></S:prop></S:add-file>
+<S:open-file name="LogStorage.java" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm/storage/LogStorage.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.3</S:set-prop>
+<S:fetch-file base-checksum="e7b20fca9409a23f9390035cb3d6982c" sha1-checksum="cc0dfeb10f9dc7af3e4e4a2609bae89b6b861400"/>
+<S:prop><V:md5-checksum>6adfccb04181c1febfb2e47ec4044ae1</V:md5-checksum></S:prop></S:open-file>
+<S:add-file name="StoragePipeline.java" sha1-checksum="a5c4c34859a4b9817c3ec346eeab450c95e717c1">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm/storage/StoragePipeline.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.1</S:set-prop>
+<S:set-prop name="svn:keywords">Author Date Id Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>88e8cd2a7c7982b80cdd21693b4d52f1</V:md5-checksum></S:prop></S:add-file>
+<S:open-file name="SQLServerStorage.java" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm/storage/SQLServerStorage.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.3</S:set-prop>
+<S:fetch-file base-checksum="aac13e0d7a1fc2341a70e2118b2083e4" sha1-checksum="f58da8c950131806b8b6b362fd91def7ba5bc494"/>
+<S:prop><V:md5-checksum>9d2a8b2a6c27604aa41a71367aa275e2</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="NullStorage.java" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm/storage/NullStorage.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.3</S:set-prop>
+<S:fetch-file base-checksum="67d02a2f218d0fa88bd0a5a17d184f65" sha1-checksum="8a1fcff24c5ff666eb6154c6e131c14731ae1ed7"/>
+<S:prop><V:md5-checksum>ed77614072a89c643605da78d20af787</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="parser" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm/parser</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="SimpleCharArrayWriter.java" sha1-checksum="3e21f90ed6d64ba0bcbfd119aff178e46033a4a9">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm/parser/SimpleCharArrayWriter.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.1</S:set-prop>
+<S:set-prop name="svn:keywords">Author Date Id Revision</S:set-prop>
+<S:prop><V:md5-checksum>b9b6995c5afdba12c4c2668d3722670c</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="EntityManager.java" sha1-checksum="f6968dde5e70847631a7b8b5e27a5d7812ec5342">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm/parser/EntityManager.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.1</S:set-prop>
+<S:set-prop name="svn:keywords">Author Date Id Revision</S:set-prop>
+<S:prop><V:md5-checksum>e41a142c2f6cfd1a4a5c197bc3251313</V:md5-checksum></S:prop></S:add-file>
+<S:open-file name="Tokenizer.java" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm/parser/Tokenizer.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.3</S:set-prop>
+<S:fetch-file base-checksum="17a583d8a820c5062b67651248150f46" sha1-checksum="1d7e92100a56b9ff9e65fb6896b24c56f6f4894f"/>
+<S:prop><V:md5-checksum>5cd662840a1215053d5a479d6e9a51b7</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="util" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm/util</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="WebDocument.java" rev="150777">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/src/de/lanlab/larm/util/WebDocument.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.3</S:set-prop>
+<S:fetch-file base-checksum="45199d073331894fdcd803b109323cb1" sha1-checksum="31767d658f724c5f727e75f33743125eb2bd6e94"/>
+<S:prop><V:md5-checksum>21734cd7bd4bab7fe3bc137eb0898885</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:add-directory name="libs" bc-url="/repos/asf/!svn/bc/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/libs">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/libs</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="placeholder" sha1-checksum="71dc4939a4c0a5d93484e0d5942d113390aec1cd">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/150778/lucene/java/trunk/sandbox/contributions/webcrawler-LARM/libs/placeholder</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">150778</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2002-06-01T18:55:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cmarschner</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:keywords">Author Date Id Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.1</S:set-prop>
+<S:prop><V:md5-checksum>6acb1f4d0f0f7057fdd5ae8be5151e82</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

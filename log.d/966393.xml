@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>966393</D:version-name>
+<D:comment>DERBY-4601 Shutting down just a single database should log a different message than shutting down the system
+
+Log the engine shutdown message in derby.log. The existing message logging for each individual connection close which happen because of engine shutdown will still be logged but they will now print the name of the database being shutdown. 
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2010-07-21T20:00:23.468335Z</S:date>
+</S:log-item>
+</S:log-report>

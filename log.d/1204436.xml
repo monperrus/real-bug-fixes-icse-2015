@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1204436</D:version-name>
+<D:comment>Add new backwards tests from 3.5 release branch. Also added a temporary 3.5 lucene-core.jar file.
+
+Once the release is out, changes to the backwards tests from the release branch will be merged to the backwards folder and the final/official JAR file is placed in lib folder. This also fixes the backwards compilation to respect new test-framework source layout.</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2011-11-21T10:32:06.549911Z</S:date>
+</S:log-item>
+</S:log-report>

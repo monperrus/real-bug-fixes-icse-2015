@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>344178</D:version-name>
+<D:comment>Merge revision 330290 to 10.1 branch. Build fix for buildjars target caused
+by svnversion -n problem adding a linefeed, which breaks manifest file
+generation.
+</D:comment>
+<D:creator-displayname>fuzzylogic</D:creator-displayname>
+<S:date>2005-11-14T18:35:24.322871Z</S:date>
+</S:log-item>
+</S:log-report>

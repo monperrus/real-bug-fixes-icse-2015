@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>567735</D:version-name>
+<D:comment>DERBY-2961
+This commit fixes the ASSERT failure thrown by the SELECT statement in following query
+CREATE TABLE T_MAIN1 (ID INT  GENERATED ALWAYS AS IDENTITY PRIMARY KEY, V XML);
+INSERT INTO T_MAIN1(V) VALUES NULL;
+SELECT ID, XMLSERIALIZE(V AS CLOB), XMLSERIALIZE(V AS CLOB) FROM T_MAIN1 ORDER BY 1;
+The SELECT statement was resulting in Assert Failure because the StringDataValue generated for V AS CLOB was not taking collation type into consideration ie it was always generating collation insensitive StringDataValue. I have fixed that problem by passing the current compilation schema's collation type to SqlXmlExecutor which then will get used in determining whether for instance we should generate SQLChar vs CollatorSQLChar. This collation information is required only for character string types.
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-08-20T16:02:39.998506Z</S:date>
+</S:log-item>
+</S:log-report>

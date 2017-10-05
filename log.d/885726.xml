@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>885726</D:version-name>
+<D:comment>DERBY-4457: 'Column value mismatch' in 'testDistinctInsertWithGeneratedColumn(...lang.DistinctTest)' on Jvm 1.5, 1.4, phoneME.
+
+SELECT DISTINCT may return rows in different order on different JVMs. Made the test independent of the actual ordering.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-12-01T10:55:12.062653Z</S:date>
+</S:log-item>
+</S:log-report>

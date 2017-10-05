@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>448691</D:version-name>
+<D:comment>DERBY-1776
+contributed by Army Brown
+patch:  d1776_reuseInt.patch
+
+In a review comment for a different issue someone mentioned that instead of creating new Integer() objects it'd be better to use the Derby ReuseFactory where possible to avoid excessive object creation. I get the feeling that's not a big deal with the _v1 patch for this issue, but I nonetheless thought it'd be a good idea to follow that advice with the changes.
+
+So I'm attaching a tiny patch, d1776_reuseInt.patch, that replaces the calls to "new Integer()" in the _v1 patch (which has already been committed) with calls to ReuseFactory.getInteger(). Functionally, the patch doesn't change anything. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-09-21T21:24:25.131744Z</S:date>
+</S:log-item>
+</S:log-report>

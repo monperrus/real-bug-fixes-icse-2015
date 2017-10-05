@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1476094</D:version-name>
+<D:comment>DERBY-6203: Intermittent assert failure in StoredPage.initSlotTable()
+when running upgrade tests on 10.9 branch
+
+Make BasicSetup run tests in the same order each time. This makes it
+less likely to hit DERBY-4577 by accident.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-04-26T08:12:29.321083Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>189606</D:version-name>
+<D:comment>Derby-217: Fix the problem introduced by fix for Derby-175. Set the SQLBlob correctly if the value is not null.
+
+A test case needs to be added later. I will keep the bug open till a test case is added.
+
+Submitted by Satheesh Bandaram (Satheesh@sourcery.org)
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2005-06-08T16:28:23.109858Z</S:date>
+</S:log-item>
+</S:log-report>

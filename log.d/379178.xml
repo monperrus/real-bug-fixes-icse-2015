@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>379178</D:version-name>
+<D:comment>DERBY-1009 Ensure EmbedResultSet.getStatement() returns the BrokeredStatement object
+the application used to create it, rather than the underlying physical statament.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-02-20T17:39:41.686719Z</S:date>
+</S:log-item>
+</S:log-report>

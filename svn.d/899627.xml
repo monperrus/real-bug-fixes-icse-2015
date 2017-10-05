@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="899627"/>
+<S:open-directory rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="CHANGES.txt" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/CHANGES.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="0671271b621d01c9205c8c9bb98810d4" sha1-checksum="e56361531b763e98f3cb891693ef1415d5651b19"/>
+<S:prop><V:md5-checksum>b17e5ac853115f1eefc492caec8289af</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="src" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/src/test/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/src/test/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/src/test/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="queryParser" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/src/test/org/apache/lucene/queryParser</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TestQueryParser.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/src/test/org/apache/lucene/queryParser/TestQueryParser.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="5e664fe3d9432fd9891c0b604bb00330" sha1-checksum="69e417601d7edb0eb7ffb9739404b0706b87b8dc"/>
+<S:prop><V:md5-checksum>1e10a03b2a5e8eb7bee43fb337cffcd1</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="analysis" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/src/test/org/apache/lucene/analysis</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="BaseTokenStreamTestCase.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/src/test/org/apache/lucene/analysis/BaseTokenStreamTestCase.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f2891bfa4f96d44e8633b28807193459" sha1-checksum="ed380f5f8d6339a4788413e7613c470e6136bf83"/>
+<S:prop><V:md5-checksum>70ddc5264567522654b59144f201a14a</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="TestCachingTokenFilter.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/src/test/org/apache/lucene/analysis/TestCachingTokenFilter.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="77ba20abc1f25f9cc2dd172781e512c3" sha1-checksum="3793ca3836d4a226f4388cbbfd527264a544249e"/>
+<S:prop><V:md5-checksum>ae05aece1d5ae17147ca6e70714ee23c</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="TestTeeSinkTokenFilter.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/src/test/org/apache/lucene/analysis/TestTeeSinkTokenFilter.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="1a4c66870c0720471b38a45ce58fafb4" sha1-checksum="e39634a2c0516e630d4d3cb2033b0f2f7a66bb75"/>
+<S:prop><V:md5-checksum>676a4c01aa92d5dfa88f5566466d5344</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="search" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/src/test/org/apache/lucene/search</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TestTermRangeQuery.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/src/test/org/apache/lucene/search/TestTermRangeQuery.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="5565b49c079d4e2dff6aa44b02348198" sha1-checksum="2c73746639a8c6a38ba1b63e3979d52989545de7"/>
+<S:prop><V:md5-checksum>eda0ab01a2db7113d0e01da232338c54</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="TestPositionIncrement.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/src/test/org/apache/lucene/search/TestPositionIncrement.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="d519fe4e153d81aaec233b646d867226" sha1-checksum="3850cd9f27e750a3eb4d46f6291e5a866f6f8c3c"/>
+<S:prop><V:md5-checksum>838387d4ec698c25fee3d4d79e384167</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="index" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/src/test/org/apache/lucene/index</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TestTermdocPerf.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/src/test/org/apache/lucene/index/TestTermdocPerf.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="a1b5cea89615c77da865d8d7d7562284" sha1-checksum="c864b316ca7e49bc790697cc9ad6c588e9a0ff44"/>
+<S:prop><V:md5-checksum>947d25f0c9ede4ea5a7ec4be79ba3eb9</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="TestDocumentWriter.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/src/test/org/apache/lucene/index/TestDocumentWriter.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e3c58a429ca94f0c5355650e2e995d54" sha1-checksum="f5ac7edb0c5e0b26ec68cffb5d932e1064fda81c"/>
+<S:prop><V:md5-checksum>48bbb5369ea1c36e676232a44bc7420a</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="TestPayloads.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/src/test/org/apache/lucene/index/TestPayloads.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f08b61e0be08ea29da750c46dca76f3e" sha1-checksum="9857ec74456720126e4d2e16996949570513438b"/>
+<S:prop><V:md5-checksum>dbb6025efad9650cc92898bfb7ab6522</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="TestTermVectorsReader.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/src/test/org/apache/lucene/index/TestTermVectorsReader.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="1ce5e53f6dadf10f8ca238153cafe23c" sha1-checksum="681689098273709d274bef027e96e1258a1b8d1b"/>
+<S:prop><V:md5-checksum>69858fcd10bc267cc05402a06a64187b</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="contrib" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="highlighter" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/highlighter</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/highlighter/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/highlighter/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/highlighter/src/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/highlighter/src/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/highlighter/src/java/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="search" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/highlighter/src/java/org/apache/lucene/search</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="highlight" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/highlighter/src/java/org/apache/lucene/search/highlight</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TokenStreamFromTermPositionVector.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/highlighter/src/java/org/apache/lucene/search/highlight/TokenStreamFromTermPositionVector.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="07ae9a9c23f0a11720c466e5d930e9d3" sha1-checksum="0eab667b20ed792ee6ea5ba8bfe1edc33925745d"/>
+<S:prop><V:md5-checksum>a32dc3c372dee6a632b445d8f0950c44</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="TokenSources.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/highlighter/src/java/org/apache/lucene/search/highlight/TokenSources.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c47bd70a3ffa632528ff36e652b2f1ae" sha1-checksum="76c167a30ad7e2c7210867fbf2060b590969d5ee"/>
+<S:prop><V:md5-checksum>224c8943e61560e08a56b9b92e82640c</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="test" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/highlighter/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/highlighter/src/test/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/highlighter/src/test/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/highlighter/src/test/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="search" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/highlighter/src/test/org/apache/lucene/search</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="highlight" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/highlighter/src/test/org/apache/lucene/search/highlight</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="HighlighterPhraseTest.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/highlighter/src/test/org/apache/lucene/search/highlight/HighlighterPhraseTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="782af0bb6584e411db9226bca8202714" sha1-checksum="b8606d54e9ff137921e79a18f5aecc86f244c2ef"/>
+<S:prop><V:md5-checksum>24a4d0832e8acc391626a1ec74d0b0ca</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="HighlighterTest.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/highlighter/src/test/org/apache/lucene/search/highlight/HighlighterTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="3e6e684f9590943faf66677d847ffdff" sha1-checksum="2741563597697f862d71068c58f54fe95fbc2403"/>
+<S:prop><V:md5-checksum>a8113e441e2df4331f53d5785440e4bb</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="wikipedia" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/wikipedia</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/wikipedia/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/wikipedia/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/wikipedia/src/test/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/wikipedia/src/test/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/wikipedia/src/test/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="wikipedia" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/wikipedia/src/test/org/apache/lucene/wikipedia</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="analysis" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/wikipedia/src/test/org/apache/lucene/wikipedia/analysis</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="WikipediaTokenizerTest.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/wikipedia/src/test/org/apache/lucene/wikipedia/analysis/WikipediaTokenizerTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="8fa87ff139c1d7222daa0128e0a7c246" sha1-checksum="f17b673acb9b85e6f839e81c08786bd9c87975e1"/>
+<S:prop><V:md5-checksum>228a55175a305be8b42c1d5c89338683</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="analyzers" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="common" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/java/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="analysis" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/java/org/apache/lucene/analysis</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="compound" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/java/org/apache/lucene/analysis/compound</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="CompoundWordTokenFilterBase.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/java/org/apache/lucene/analysis/compound/CompoundWordTokenFilterBase.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7ba4acb0298d1213cc15fb8c9eb463a8" sha1-checksum="a1888345ba4dcc451c06b02cd424e5cadf268775"/>
+<S:prop><V:md5-checksum>7f3124f968c696677b696f3e492261fc</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="shingle" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/java/org/apache/lucene/analysis/shingle</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="ShingleMatrixFilter.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/java/org/apache/lucene/analysis/shingle/ShingleMatrixFilter.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c4ef6ec9ce731bc7fa07f5a5b8f7b78e" sha1-checksum="1baed4f29454d014faf6a8b077e7a017fa254a11"/>
+<S:prop><V:md5-checksum>eeb6a3cac54a0728c148e06d8055c150</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="miscellaneous" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/java/org/apache/lucene/analysis/miscellaneous</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="PrefixAwareTokenFilter.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/java/org/apache/lucene/analysis/miscellaneous/PrefixAwareTokenFilter.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="8c8b76f8c4163cfc3ba92cb9a466104b" sha1-checksum="ad255e1777b117148e5ac1cbe3a296798617f0b2"/>
+<S:prop><V:md5-checksum>754379b2e365a4840c25dc7c28f18b76</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="ngram" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/java/org/apache/lucene/analysis/ngram</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="NGramTokenFilter.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/java/org/apache/lucene/analysis/ngram/NGramTokenFilter.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="696aafdce8b0ace86d16b9140862da97" sha1-checksum="1e533aa7f2442115bccc3f20013ba9712f6d0815"/>
+<S:prop><V:md5-checksum>e4d345d25f05ff16c2e23829765d1432</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="EdgeNGramTokenFilter.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/java/org/apache/lucene/analysis/ngram/EdgeNGramTokenFilter.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="651281498830fc47464a84013e052536" sha1-checksum="84492986200d64abdc6f3f62ab75455caa43079f"/>
+<S:prop><V:md5-checksum>b9d1347e17119d4c65f8ca5133c2b54a</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="test" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/test/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/test/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/test/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="analysis" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/test/org/apache/lucene/analysis</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="shingle" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/test/org/apache/lucene/analysis/shingle</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TestShingleMatrixFilter.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/test/org/apache/lucene/analysis/shingle/TestShingleMatrixFilter.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="8873221b2e583e890a609f9d7169b7df" sha1-checksum="c3dfb6a695994fa8f2dc19dd0989f70e36bf9590"/>
+<S:prop><V:md5-checksum>ac30d276d2056d62782a24232e154985</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="miscellaneous" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/test/org/apache/lucene/analysis/miscellaneous</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TestPrefixAndSuffixAwareTokenFilter.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/test/org/apache/lucene/analysis/miscellaneous/TestPrefixAndSuffixAwareTokenFilter.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="a5c33c9ea323412e9783fcd6c3312884" sha1-checksum="3d3055bcbe1b4fa3c931f0e13cae47973f4b3d05"/>
+<S:prop><V:md5-checksum>7a11b6c8d87c5eab6d6f710edbfad2b7</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="TestPrefixAwareTokenFilter.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/analyzers/common/src/test/org/apache/lucene/analysis/miscellaneous/TestPrefixAwareTokenFilter.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="0c8f4fcdfcd6f8b3c3125c83538cc788" sha1-checksum="ffe4280da4f4ec8c0f920ab0833e5bbb5ee8462f"/>
+<S:prop><V:md5-checksum>4cbd105eeadcbd2280bf3d4a65948c76</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="memory" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/memory</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/memory/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/memory/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/memory/src/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/memory/src/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/memory/src/java/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="index" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/memory/src/java/org/apache/lucene/index</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="memory" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/memory/src/java/org/apache/lucene/index/memory</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="MemoryIndex.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/memory/src/java/org/apache/lucene/index/memory/MemoryIndex.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e8696499065f4406764b2060015fd4ee" sha1-checksum="4e0ce056573554e3df7e5c730458921e417a77c0"/>
+<S:prop><V:md5-checksum>b3bac4c3a31ca93f3cce1445ddad612c</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="snowball" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/snowball</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/snowball/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/snowball/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/snowball/src/test/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/snowball/src/test/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/snowball/src/test/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="analysis" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/snowball/src/test/org/apache/lucene/analysis</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="snowball" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/snowball/src/test/org/apache/lucene/analysis/snowball</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TestSnowball.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/snowball/src/test/org/apache/lucene/analysis/snowball/TestSnowball.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="a46c5202c1f2fb4b18853ce1814c0ad4" sha1-checksum="28900ff3e34b02d4912ef7aed43a6110ab215815"/>
+<S:prop><V:md5-checksum>2f450a75bf92a6cd409522e4a7f57b71</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="queryparser" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/queryparser</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/queryparser/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/queryparser/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/queryparser/src/test/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/queryparser/src/test/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/queryparser/src/test/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="queryParser" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/queryparser/src/test/org/apache/lucene/queryParser</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="standard" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/queryparser/src/test/org/apache/lucene/queryParser/standard</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TestQPHelper.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/queryparser/src/test/org/apache/lucene/queryParser/standard/TestQPHelper.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="ee65346470d454dddbf6f66a1164cd3d" sha1-checksum="511fb744a9fd4224fb74d8b24361324e719d0e16"/>
+<S:prop><V:md5-checksum>18fa288b8b498e0e5755c49c51b76c8f</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="TestQueryParserWrapper.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/queryparser/src/test/org/apache/lucene/queryParser/standard/TestQueryParserWrapper.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="1fabd3be6a5c5b86eec3dab505f4a611" sha1-checksum="7fc3e79ffce630d964bc104418bfd6537d7dd2a6"/>
+<S:prop><V:md5-checksum>cf72fed7b471d7a9fcaf6124151c2664</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="fast-vector-highlighter" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/fast-vector-highlighter</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/fast-vector-highlighter/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/fast-vector-highlighter/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/fast-vector-highlighter/src/test/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/fast-vector-highlighter/src/test/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/fast-vector-highlighter/src/test/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="search" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/fast-vector-highlighter/src/test/org/apache/lucene/search</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="vectorhighlight" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/fast-vector-highlighter/src/test/org/apache/lucene/search/vectorhighlight</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="AbstractTestCase.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/fast-vector-highlighter/src/test/org/apache/lucene/search/vectorhighlight/AbstractTestCase.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="cedc5278c263b1018319ccecb77beb85" sha1-checksum="c773c4425495729c139220ed9e0ec7f9f634ff0a"/>
+<S:prop><V:md5-checksum>575269989b5971f73bac29ef49ac9f9a</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="misc" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/misc</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/misc/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/misc/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/misc/src/test/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/misc/src/test/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/misc/src/test/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="queryParser" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/misc/src/test/org/apache/lucene/queryParser</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="precedence" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/misc/src/test/org/apache/lucene/queryParser/precedence</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TestPrecedenceQueryParser.java" rev="899626">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/899627/lucene/java/trunk/contrib/misc/src/test/org/apache/lucene/queryParser/precedence/TestPrecedenceQueryParser.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">899627</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-15T13:42:18.237283Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="45ae38e37c8e3847d9d26a83f0799841" sha1-checksum="6ae57023346656ce33a88650750cacd806fec315"/>
+<S:prop><V:md5-checksum>7eac256dcf9289a7fcc552ac89152bfc</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

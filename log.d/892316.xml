@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>892316</D:version-name>
+<D:comment>DERBY-4463 JMX test in nightly test suite failed with: JMXTest:clientjava.lang.InterruptedException
+
+Patch derby-4463-except-non-sun-vm disables this test for non-Sun
+VMs. This is intended as a temporary measure until we understand why
+the test is not working correctly on IBM VMs.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-12-18T17:02:48.336203Z</S:date>
+</S:log-item>
+</S:log-report>

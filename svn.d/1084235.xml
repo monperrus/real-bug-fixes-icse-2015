@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1084235"/>
+<S:open-directory rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="mahout" rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="core" rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="resources" rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src/test/resources</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="retail.dat" sha1-checksum="207bef104fe600850df940e80bb1079568378f38">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src/test/resources/retail.dat</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>ec616a4222c9e688a10d0c7c2fb73896</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="retail_results_with_min_sup_100.dat" sha1-checksum="6c4684a6cadc360183699e0b831ac3d1fb919f18">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src/test/resources/retail_results_with_min_sup_100.dat</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>4463952d225277f569bbbdd7779e848e</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+<S:open-directory name="java" rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src/test/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src/test/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src/test/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="mahout" rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src/test/java/org/apache/mahout</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="fpm" rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src/test/java/org/apache/mahout/fpm</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="pfpgrowth" rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src/test/java/org/apache/mahout/fpm/pfpgrowth</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="FPGrowthRetailDataTest.java" sha1-checksum="d1bad231a227336e9b90bcd08cb88c7c7b7e2ab7">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src/test/java/org/apache/mahout/fpm/pfpgrowth/FPGrowthRetailDataTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>3a765e1bc7422892d03f0e0d4cb1b354</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="PFPGrowthRetailDataTest.java" sha1-checksum="3427b96efcc103a4f3b13175a5e8584804ad7955">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src/test/java/org/apache/mahout/fpm/pfpgrowth/PFPGrowthRetailDataTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>05a8cb36f068c0936f2cbcd96bb116ab</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="main" rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src/main/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src/main/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src/main/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="mahout" rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src/main/java/org/apache/mahout</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="fpm" rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src/main/java/org/apache/mahout/fpm</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="pfpgrowth" rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src/main/java/org/apache/mahout/fpm/pfpgrowth</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="fpgrowth" rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src/main/java/org/apache/mahout/fpm/pfpgrowth/fpgrowth</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="FPGrowth.java" rev="1084234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1084235/mahout/trunk/core/src/main/java/org/apache/mahout/fpm/pfpgrowth/fpgrowth/FPGrowth.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1084235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-22T16:15:41.978395Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">robinanil</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="02115b30ebbdd215af39c6e697d0171b" sha1-checksum="e3ae896c21cb4042cb98b3e80b993ee5133e2571"/>
+<S:prop><V:md5-checksum>820e7e13780f1cf9ecb3663c051f7d27</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

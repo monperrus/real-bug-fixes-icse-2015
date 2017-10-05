@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1134467</D:version-name>
+<D:comment>DERBY-1482
+
+This commit adds a new test case which creates a table with LOB column and insets large data into that column. There is a trigger defined on this table but the trigger does not need access to the LOB column. In 10.8 and prior releases, even though we don't need the LOB column to execute the trigger, we still read all the columns from the trigger table when the trigger fired. With 10.9, only the columns required by the firing triggers are read from the trigger table and hence for our test here, LOB column will not be materialized. In 10.8 and prior releases, the trigger defined in this test can run into OOM errors depending on how much heap is available to the upgrade test and hence the test will make sure that we do not fire the trigger is 10.8 and lower. But in 10.9 and higher, OOM won't happen for this test because LOB is never read into memory because it is not needed for the firing trigger.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-06-10T22:28:51.008446Z</S:date>
+</S:log-item>
+</S:log-report>

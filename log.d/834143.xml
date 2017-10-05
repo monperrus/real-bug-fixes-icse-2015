@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>834143</D:version-name>
+<D:comment>clean out unused code from TcpConnectionManager; split connections to a node into "command" and "ack", which will allow us to use backpressure on the command socket.  patch by gdusbabek; reviewed by jbellis for CASSANDRA-488</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-11-09T16:57:08.177930Z</S:date>
+</S:log-item>
+</S:log-report>

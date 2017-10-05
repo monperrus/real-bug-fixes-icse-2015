@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>763900</D:version-name>
+<D:comment>DERBY-2353: intermittent NPEs during DELETE ops in a reasonably large transaction
+
+When derby.language.logQueryPlan is true, don't try to print the query
+plan if the activation has been closed.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-04-10T09:59:39.489268Z</S:date>
+</S:log-item>
+</S:log-report>

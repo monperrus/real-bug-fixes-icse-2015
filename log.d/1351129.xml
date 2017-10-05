@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1351129</D:version-name>
+<D:comment>The base calculation in ReaderUtil.Gather is so complicated, add some assert to verify that it is still correct. The code lead to another bug I fixed in CompositeReaderContext long time ago (at least it explains why Simon did it wrong...)</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2012-06-17T17:22:28.005955Z</S:date>
+</S:log-item>
+</S:log-report>

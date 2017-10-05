@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>649007</D:version-name>
+<D:comment>DERBY-3616: TableFunctionTest fails under Ubuntu 7.10
+
+Removed all encoding/decoding of the table function's return type and
+instead stored it directly as a saved object in the compiled plan.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2008-04-17T08:47:41.076882Z</S:date>
+</S:log-item>
+</S:log-report>

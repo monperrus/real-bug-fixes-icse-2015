@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1492393</D:version-name>
+<D:comment>DERBY-4035 i18n tests fail with Lexical error on z/os
+
+Complete conversion of i18nTest suite.
+I18NImportExport change to ScriptTestCase
+iepnegativetests_ES changed to extend tools/ImportExportProcedureTest which has 
+conversion for iepnegativetests
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2013-06-12T19:30:50.376100Z</S:date>
+</S:log-item>
+</S:log-report>

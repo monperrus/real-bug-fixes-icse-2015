@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1071111</D:version-name>
+<D:comment>DERBY-4283: setEmbeddedCP should use return, not exit, on error
+
+backported change #826263 from trunk to 10.5
+
+Since the setEmbeddedCP script is designed to be called from another
+script, or sourced from the shell, it should use 'return' rather than
+'exit', to report an error.
+
+This change was contributed by Susumu Ishizuka (susumuishizuka at ieee dot org) 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2011-02-15T23:59:32.544931Z</S:date>
+</S:log-item>
+</S:log-report>

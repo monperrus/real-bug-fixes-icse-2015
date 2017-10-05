@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>672820</D:version-name>
+<D:comment>DERBY-3708 setting tracedirectory from the command line does not work
+
+Backporting code only. Tested manually.  There were problems with the automated tests which depend on changes to prevent spawned process from hanging. These changes are not in 10.3.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-06-30T16:52:56.262695Z</S:date>
+</S:log-item>
+</S:log-report>

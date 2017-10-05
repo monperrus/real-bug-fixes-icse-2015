@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1069799</D:version-name>
+<D:comment>ARIES-554 Updates to the way we find the caller bundle so:
+
+1. Ensure class space consistency, but searching based on the InitialContext class rather than class name in case their are two JNDI API providers in the system
+2. Look for the InitialContext or subclasses so we get InitialContext InitialDirContext and InitialLdapContext and any other subclass that might exist
+3. Search the whole stack, not just the InitialContext caller.</D:comment>
+<D:creator-displayname>not</D:creator-displayname>
+<S:date>2011-02-11T13:51:18.313449Z</S:date>
+</S:log-item>
+</S:log-report>

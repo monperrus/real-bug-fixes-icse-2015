@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>374548</D:version-name>
+<D:comment>DERBY-906: Fixed output to reflect that in jdk13 we are now appending
+the causing exception class and message since jdk13 doesn't support
+exception chaining
+</D:comment>
+<D:creator-displayname>davidvc</D:creator-displayname>
+<S:date>2006-02-03T00:22:50.413340Z</S:date>
+</S:log-item>
+</S:log-report>

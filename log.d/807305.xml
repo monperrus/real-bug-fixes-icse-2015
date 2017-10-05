@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>807305</D:version-name>
+<D:comment>allow blocking write to create hints if not enough of the "correct" nodes are live, but enough are to fulfil the requested consistency level.  patch by Sandeep Tata; reviewed by jbellis and Michael Greene for CASSANDRA-383</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-08-24T16:49:21.114206Z</S:date>
+</S:log-item>
+</S:log-report>

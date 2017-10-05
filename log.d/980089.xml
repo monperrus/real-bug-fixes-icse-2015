@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>980089</D:version-name>
+<D:comment>DERBY-4723: Using an instance lock to protect static shared data in EmbedPooledConnection 
+
+Removed code using incorrect syncronization, as it was used for tracing only
+and the hashCode() output should suffice for that.
+
+Patch file: derby-4723-1a-remove_code.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-07-28T15:17:35.616321Z</S:date>
+</S:log-item>
+</S:log-report>

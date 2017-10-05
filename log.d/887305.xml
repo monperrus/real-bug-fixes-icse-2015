@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>887305</D:version-name>
+<D:comment>DERBY-4461
+
+Committed fix which resets the interrupt flag in the test's
+application thread.  Not resetting it caused issues on Windows and
+Linux downstream (in teardown).
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-12-04T18:10:06.929842Z</S:date>
+</S:log-item>
+</S:log-report>

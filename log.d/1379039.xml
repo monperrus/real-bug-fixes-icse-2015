@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1379039</D:version-name>
+<D:comment>LUCENE-4337: Add a workaround for lucene.zones.apache.org's broken network configuration, also fix other possible misconfigurations of /etc/hosts: Solr sometimes connects to localhost, sometimes to 127.0.0.1, which may be different addresses.</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2012-08-30T17:56:15.579909Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1078608</D:version-name>
+<D:comment>DERBY-4915: test failure in OSReadOnlyTest in assertDirectoryDeleted
+
+Increase sleep time and number of deletion attempts.
+
+Patch file: derby-4915-2a-increased_sleep.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-03-06T22:31:15.043332Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>808850</D:version-name>
+<D:comment>DERBY-4348: Copy table content with "INSERT INTO table SELECT FROM (...)" statement leads to corrupt data
+
+NormalizeResultSet can in some cases replace a holder object in its
+DataValueDescriptor cache with a holder object that's also used in
+BulkTableScanResultSet's cache, and thereby corrupting
+BulkTableScanResultSet's fetch buffer when the holder object is
+modified. This patch makes NormalizeResultSet store the cached holder
+objects in a separate data structure to prevent them from being
+replaced.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-08-28T11:17:30.399808Z</S:date>
+</S:log-item>
+</S:log-report>

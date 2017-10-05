@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1471264</D:version-name>
+<D:comment>DERBY-6193: AutomaticIndexStatisticsTest doesn't delete its single-use database
+
+Delete the extra database on successful completion. Also wrap the test
+in a CleanDatabaseTestSetup so that it also cleans up the default
+database when it's done.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-04-24T07:03:35.199250Z</S:date>
+</S:log-item>
+</S:log-report>

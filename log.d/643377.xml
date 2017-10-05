@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>643377</D:version-name>
+<D:comment>DERBY-3526: AsynchronousLogShipper#workToDo is blocked while the log shipper sends a log chunk
+Use a different object to synchronize on while calling wait and notifying the log shipper thread.
+Contributed by V Narayanan
+
+Merged to 10.4 branch:
+svn merge -r642183:642184 https://svn.apache.org/repos/asf/db/derby/code/trunk/
+
+
+</D:comment>
+<D:creator-displayname>oysteing</D:creator-displayname>
+<S:date>2008-04-01T12:40:19.801794Z</S:date>
+</S:log-item>
+</S:log-report>

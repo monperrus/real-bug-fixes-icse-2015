@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1488627</D:version-name>
+<D:comment>MAHOUT-1200 - Mahout tests depend on writing to /tmp/hadoop-$user
+
+Change hadoop dependent tests to work out of a directory that is not under /tmp
+</D:comment>
+<D:creator-displayname>isabel</D:creator-displayname>
+<S:date>2013-06-01T22:24:03.198252Z</S:date>
+</S:log-item>
+</S:log-report>

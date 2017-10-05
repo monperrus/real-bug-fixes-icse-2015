@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>935868</D:version-name>
+<D:comment>DERBY-4582: Timestamps inserted with GMT calendar are 1 hour later
+when subsequently read with GMT calendar (Server Mode Only)
+
+Partial fix. This check-in makes the client do the conversion to the
+requested time zone correctly, and the correct timestamps will be sent
+to the server. There's still some incorrect handling of the values on
+the server, as well as when the client reads them back from the
+server, so the results may still end up being wrong.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-04-20T10:56:16.307094Z</S:date>
+</S:log-item>
+</S:log-report>

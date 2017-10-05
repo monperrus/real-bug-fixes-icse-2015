@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1488411</D:version-name>
+<D:comment>DERBY-6237(PreparedStatement.execute() fails starting 10.2 when multiple rows are updated and PreparedStatement.setCharacterStream(int, Reader, int) is used)
+
+Adding test for PreparedStatement.setCharacterStream on CLOB column and using that prepared statement to update more than one row of the table
+
+In 10.1, setCharacterStream to update CLOB and varchar columns work even when update is going to update more than one row but in 10.2, PreparedStatement.setCharacterStream on CLOB column fails when running in embedded mode. Client server case works fine on 10.2. I have commented out the test for embedded in 10.2 Once this jira is fixed in 10.2, we should uncomment these tests.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-05-31T22:12:51.627655Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1498052</D:version-name>
+<D:comment>DERBY-5774: Failures in UpdateStatisticsTest (order-dependent test cases)
+
+The test has changed quite a bit between 10.8 and trunk and hence svn merge ran into conflict so I hand backported the changes to 10.8. Also, did some minor cleanup by dropping the tables at the end of the test fixtures.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-06-30T02:24:57.489731Z</S:date>
+</S:log-item>
+</S:log-report>

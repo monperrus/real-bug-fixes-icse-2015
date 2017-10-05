@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>601746</D:version-name>
+<D:comment>DERBY-3238 When table contains large LOB values (&gt; ~32K) trigger execution fails for that row with ERROR XCL30: An IOException was thrown when reading a 'BLOB'
+
+merge from trunk revision 601110 and also merge DERBY-1417 revision 437980 to avoid materialization during SQLBlob.setWidth.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-12-06T14:40:12.754564Z</S:date>
+</S:log-item>
+</S:log-report>

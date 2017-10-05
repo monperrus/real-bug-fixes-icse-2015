@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>999078</D:version-name>
+<D:comment>Reverting change 990841 from trunk which had gone for DERBY-3644 (NetworkServerControl.ping() on trunk against 10.3.2.1 and older servers give 'DRDA_InvalidReplyHeader2.S:Invalid reply header from network server: Invalid string . Plaintext connection attempt to an SSL enabled server?'). The change is incomplete and will cause problems if it ever got backported by itself. I will checkin a complete fix soon which will address DERBY-3644 and DERBY-4786
+
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2010-09-20T19:28:49.847738Z</S:date>
+</S:log-item>
+</S:log-report>

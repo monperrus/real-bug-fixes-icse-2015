@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1005362</D:version-name>
+<D:comment>DERBY-4829: dblook fails if there is a column privilege on a table
+whose name contains a quote
+
+Properly quote strings and identifiers. Also add missing clause in the
+generated GRANT statement to prevent syntax errors when copying
+statements from the dblook output.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-10-07T08:43:49.112262Z</S:date>
+</S:log-item>
+</S:log-report>

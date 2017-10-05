@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>745866</D:version-name>
+<D:comment>DERBY-2991: Index split deadlock
+
+Added a JUnit test that exercises code paths that will be touched by
+the fix for the index split deadlock. The test is disabled until the
+fix has been checked in.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-02-19T13:49:28.680861Z</S:date>
+</S:log-item>
+</S:log-report>

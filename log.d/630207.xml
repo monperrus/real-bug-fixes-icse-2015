@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>630207</D:version-name>
+<D:comment>DERBY-3382: Slave must inform master if DBs are out of sync.
+Adds a check of the log files to the replication initialization so that replication does not start if the log files are out of synch. The master will be notified whether or not the log files are synched.
+Tidies up if starting of replication fails.
+Contributed by Jorgen Loland
+</D:comment>
+<D:creator-displayname>oysteing</D:creator-displayname>
+<S:date>2008-02-22T13:54:08.568175Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1522465</D:version-name>
+<D:comment>SOLR-5233: The deleteshard collections API doesn't wait for cluster state to update, can fail if some nodes of the deleted shard were down and had incorrect logging.</D:comment>
+<D:creator-displayname>shalin</D:creator-displayname>
+<S:date>2013-09-12T07:16:35.907920Z</S:date>
+</S:log-item>
+</S:log-report>

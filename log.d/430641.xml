@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>430641</D:version-name>
+<D:comment>DERBY-1130 Client should not allow databaseName to be set with setConnectionAttributes
+
+Attaching a patch 'd1130-client-v1.diff' which disallows databaseName attribute to be set using setConnectionAttributes method in client data sources. Tests added to jdbcapi/checkDataSource.java.
+
+
+Contributed by Deepa Remesh
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-08-11T03:34:22.085103Z</S:date>
+</S:log-item>
+</S:log-report>

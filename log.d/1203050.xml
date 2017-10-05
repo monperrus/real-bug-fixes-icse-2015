@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1203050</D:version-name>
+<D:comment>DERBY-5347 Derby loops filling logs and consuming all CPU with repeated error: java.net.SocketException: EDC5122I Input/output error.
+
+If accept does not block and continues to throw errors, retry and log the exception two more times  times at 1 second intervals and then if it still fails, shutdown the server.
+
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2011-11-17T05:08:32.488238Z</S:date>
+</S:log-item>
+</S:log-report>

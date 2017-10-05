@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1155163</D:version-name>
+<D:comment>DERBY-5374; converted ij5Test fails with weme6.2 (CDC/Foundation): junit.framework.ComparisonFailure: Output at line 1 expected:&lt;CONNECTION0* - jdbc:derby:wombat&gt; but was:&lt;ERROR XJ004: Database '' not found.&gt;
+  skipping the test with JSR169/CDC/Foundation.
+  Also correcting a comment.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2011-08-09T00:06:40.279748Z</S:date>
+</S:log-item>
+</S:log-report>

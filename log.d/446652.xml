@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>446652</D:version-name>
+<D:comment>DERBY-1729
+contributed by Yip Ng, yipng168@gmail.com
+
+Adding a jdk16 specific master.  This is an issue with exception handling in 
+jdk16. Reported as DERBY-1629. To temporarily resolve the regression test 
+failure a jdk, a jdk16 specific master is being added.  This was what was done 
+for procedureInTrigger test.
+
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-09-15T16:41:24.185646Z</S:date>
+</S:log-item>
+</S:log-report>

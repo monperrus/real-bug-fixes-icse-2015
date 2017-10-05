@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>541822</D:version-name>
+<D:comment>DERBY-2670
+
+Changed WorkHorseForCollatorDatatypes to not cache info about the collation
+elements across calls to like on the object.  This info needed to get 
+invalidated when object for a column was reused to process the next row.
+Added a test to CollationTest2 based on bug report.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2007-05-25T23:45:47.301164Z</S:date>
+</S:log-item>
+</S:log-report>

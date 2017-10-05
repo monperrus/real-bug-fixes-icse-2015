@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1368206</D:version-name>
+<D:comment>[ARIES-896] Deadlock with blueprint services
+Conflicts:
+
+	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/ExtendedBlueprintContainer.java
+	blueprint/blueprint-core/src/main/java/org/apache/aries/blueprint/container/AbstractServiceReferenceRecipe.java</D:comment>
+<D:creator-displayname>gnodet</D:creator-displayname>
+<S:date>2012-08-01T19:23:35.564637Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1526406</D:version-name>
+<D:comment>DERBY-6351: Syntax error on equal transition table name and correlation name in statement trigger
+
+Change how CreateTriggerNode.bindReferencesClause() checks for the
+lack of a correlation name. Instead of checking it indirectly (and
+unreliably) by seeing if the table name matches the base table name,
+check directly if the correlation name is null.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-09-26T07:48:06.862930Z</S:date>
+</S:log-item>
+</S:log-report>

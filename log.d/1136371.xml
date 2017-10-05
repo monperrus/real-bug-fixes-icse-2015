@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1136371</D:version-name>
+<D:comment>DERBY-5274: getColumns() doesn't work with auto generated identity
+columns that start with large numbers
+
+Removed hard-coded maximum length for the start value and increment in
+the meta-data query.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-06-16T10:54:33.800440Z</S:date>
+</S:log-item>
+</S:log-report>

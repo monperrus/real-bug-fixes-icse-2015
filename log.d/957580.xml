@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>957580</D:version-name>
+<D:comment>DERBY-728 Unable to create databases whose name containg Chinese characters through the client driver
+
+Incremental patches  DERBY-728_p2.diff, DERBY-728_p2-test.diff
+Add server side UTf8CcsidManager and unit test. 
+Change names of "convertXXXUCS2" methods to "convertXXXJavaString" for clarification.
+UNICODEMGR level negotiation to use the the code has not yet been added.
+
+contributed by Tiago R. Espinha tiago dot derby at yahoo dot co dot uk
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2010-06-24T15:16:41.908199Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1059026</D:version-name>
+<D:comment>DERBY-4856 At LockInterruptTest.runWaiter() line 150 with ps.executeUpdate, the test receive an interrupt and raise an error/exception "ERROR 08000: Connection closed by unknown interrupt". This is a session ending exception so set the property to avoid thread dump and diagnostic information.
+</D:comment>
+<D:creator-displayname>lilywei</D:creator-displayname>
+<S:date>2011-01-14T14:43:54.971723Z</S:date>
+</S:log-item>
+</S:log-report>

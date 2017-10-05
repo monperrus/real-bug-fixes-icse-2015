@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>535521</D:version-name>
+<D:comment>DERBY-2598
+
+Fixes upgrade bug in writeExternal of Heap, it was writing the wrong 
+conglomerate format id in the case of a hard upgrade accessing an 
+existing Heap from an old database.  It was writing out the hardcoded
+new format
+id when it should have been writing out the dynamic one in the class's
+state.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2007-05-05T13:27:06.200603Z</S:date>
+</S:log-item>
+</S:log-report>

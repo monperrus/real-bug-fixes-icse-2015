@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>544424</D:version-name>
+<D:comment>DERBY-1519: 'setAsciiStream' uses different encodings for embedded and client. Client changed to use ISO-8859-1 to comply with JDBC and the embedded driver. This change can cause incompatibilities for certain applications (see release notes).
+Patch file: derby-1519-1a.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2007-06-05T08:59:01.512591Z</S:date>
+</S:log-item>
+</S:log-report>

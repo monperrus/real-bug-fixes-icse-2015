@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>760422</D:version-name>
+<D:comment>DERBY-4119: Compress on a large table fails with IllegalArgumentException - Illegal Capacity
+
+Use long arithmetic to prevent overflow in intermediate results when
+increasing the capacity of NodeAllocator. Also make sure that the Node
+array does not exceed maxSize, and allow the sort to continue even if
+a larger array cannot be allocated.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-03-31T12:49:16.396253Z</S:date>
+</S:log-item>
+</S:log-report>

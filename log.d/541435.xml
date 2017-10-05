@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>541435</D:version-name>
+<D:comment>DERBY-1440: jdk 1.6 client driver omits SQLStates and chained exceptions in
+error messages
+
+While working on DERBY-2472 I found out what caused this difference between
+the JDBC 3.0 driver and the JDBC 4.0 driver. There are three
+problems. Firstly, StandardException.unexpectedUserException() doesn't
+recognize that an SQLException is generated Derby since it is not an
+EmbedSQLException. Secondly, TransactionResourceImpl.wrapInSQLException()
+invokes SQLException.setNextException() explicitly so that the required
+chaining/ferrying logic in the exception factory and in EmbedSQLException's
+constructor is not used. Thirdly,
+SQLException40.wrapArgsForTransportAcrossDRDA() puts a standard
+SQLException, not an EmbedSQLException, in the argument ferry's
+next-exception chain, which prevents the network server from seeing it as a
+Derby exception.
+
+The attached patch fixes the problem by
+
+  1) using SQLExceptionFactory.getArgumentFerry() to find out whether the
+     exception is a Derby exception in unexpectedUserException()
+
+  2) using factory methods instead of setNextException() to do the chaining
+     in wrapInSQLException()
+
+  3) improving Util.javaException() so that it sets up a next-exception
+     chain if the Java exception contains nested exceptions
+
+  4) changing wrapArgsForTransportAcrossDRDA() to create an argument ferry
+     whose next exception is the argument ferry of the main exception's next
+     exception
+
+This patch also fixes all the JUnit tests that contain code looking like this:
+
+    assertStatementError(JDBC.vmSupportsJDBC4() ? "38000" : "42X62", cSt);
+
+Now, the check for JDBC level is not needed anymore for those tests.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-05-24T21:21:27.910062Z</S:date>
+</S:log-item>
+</S:log-report>

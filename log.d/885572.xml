@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>885572</D:version-name>
+<D:comment>skip the system table (keyspace) for cleanup, it's local-only.  patch by jbellis; reviewed by Stu Hood for CASSANDRA-579</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-11-30T20:00:04.391508Z</S:date>
+</S:log-item>
+</S:log-report>

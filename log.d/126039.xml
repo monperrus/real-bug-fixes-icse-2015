@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>126039</D:version-name>
+<D:comment>Fix Derby-130 - IDENTITY_VAL_LOCAL not reset when EmbedConnection object re-used from pool.
+Added generic resetFromPool method to handle future situations.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-01-22T16:11:05.269307Z</S:date>
+</S:log-item>
+</S:log-report>

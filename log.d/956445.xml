@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>956445</D:version-name>
+<D:comment>DERBY-4776 BootLock test failure.
+
+Fix problem with check in.  For some reason checked in file was still checking for port argument.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2010-06-21T02:34:29.765595Z</S:date>
+</S:log-item>
+</S:log-report>

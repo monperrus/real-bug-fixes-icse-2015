@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>687967</D:version-name>
+<D:comment>DERBY-3745 : Backporting revisions 679620, 685674 and 686296 from the trunk into 10.4 codeline
+
+derbyall tests ran fine. I ran junit test suites with classes and with jar files after backporting these changes to my 10.4 client. With classes, I ran into DERBY-3836 but didn't run into DERBY-3836 with jar files. I did run into some out of memory issues but I think it might be local to my machine because of all the other processes running on the machine and probably not enough memory to the junit tests when I specified -Xmx1024m. I will keep an eye on the 10.4 test runs after I commit the changes.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2008-08-22T06:20:47.941117Z</S:date>
+</S:log-item>
+</S:log-report>

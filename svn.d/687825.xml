@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="687825"/>
+<S:open-directory rev="687824">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/687825/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">687825</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-08-21T18:37:44.855868Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">koji</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="687824">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/687825/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">687825</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-08-21T18:37:44.855868Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">koji</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="solr" rev="687824">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/687825/lucene/solr</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">687825</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-08-21T18:37:44.855868Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">koji</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="687824">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/687825/lucene/solr/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">687825</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-08-21T18:37:44.855868Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">koji</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lib" rev="687824">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/687825/lucene/solr/trunk/lib</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">687825</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-08-21T18:37:44.855868Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">koji</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="lucene-spellchecker-2.4-dev.jar" rev="687824">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/687825/lucene/solr/trunk/lib/lucene-spellchecker-2.4-dev.jar</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">687825</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-08-21T18:37:44.855868Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">koji</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f016c39e38a5fcd0d402e250312465ba" sha1-checksum="8a2ab01981ef5f5695c0d15ac12b17bc27e199e0"/>
+<S:prop><V:md5-checksum>1ec73bf92889f9eb4de1257028e317d5</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="lucene-analyzers-2.4-dev.jar" rev="687824">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/687825/lucene/solr/trunk/lib/lucene-analyzers-2.4-dev.jar</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">687825</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-08-21T18:37:44.855868Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">koji</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="6f807a8f53662be5774373fbd71e1546" sha1-checksum="3d46b6cbe120bb1daa3deb9261a98cc24350804b"/>
+<S:prop><V:md5-checksum>334497139972947829775a1fbb854266</V:md5-checksum></S:prop></S:open-file>
+<S:add-file name="lucene-memory-2.4-dev.jar" sha1-checksum="81f702a9b95ddd6899e7fc5c3266bcbc872edbec">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/687825/lucene/solr/trunk/lib/lucene-memory-2.4-dev.jar</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">687825</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-08-21T18:37:44.855868Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">koji</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>b3d626a5a7861fd50409ea151948a5fe</V:md5-checksum></S:prop></S:add-file>
+<S:open-file name="lucene-queries-2.4-dev.jar" rev="687824">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/687825/lucene/solr/trunk/lib/lucene-queries-2.4-dev.jar</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">687825</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-08-21T18:37:44.855868Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">koji</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="a46ecdcd574bfee58bb7c3e30f80d83e" sha1-checksum="2275f374071283459152dd6d51d843b004a5e364"/>
+<S:prop><V:md5-checksum>3f346f9de450c88ee85c106bc14c3acd</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="lucene-snowball-2.4-dev.jar" rev="687824">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/687825/lucene/solr/trunk/lib/lucene-snowball-2.4-dev.jar</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">687825</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-08-21T18:37:44.855868Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">koji</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="2d38d92d148ca28a3e793fbb8ad4644a" sha1-checksum="8e231a091996cb41f6d09ae2f7f0b5bd092f5734"/>
+<S:prop><V:md5-checksum>cd1d5a3d2d19812a35ff3ac2daab359e</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="lucene-core-2.4-dev.jar" rev="687824">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/687825/lucene/solr/trunk/lib/lucene-core-2.4-dev.jar</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">687825</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-08-21T18:37:44.855868Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">koji</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="deb5b5118af393f0b868c2d471ed90cb" sha1-checksum="2ec2f99e3e8b01d79fe825e5bf7d79225d322675"/>
+<S:prop><V:md5-checksum>39eab6568de2852a1902f2d17b8f59e7</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="lucene-highlighter-2.4-dev.jar" rev="687824">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/687825/lucene/solr/trunk/lib/lucene-highlighter-2.4-dev.jar</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">687825</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-08-21T18:37:44.855868Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">koji</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="4cadf4b57ce0a3cc0d22a924e50e7fcc" sha1-checksum="5071c65c4e906462a8dd077a35a8780fa305acee"/>
+<S:prop><V:md5-checksum>b7dd387573ac09cbd6ae4c69d77d4ee0</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="src" rev="687824">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/687825/lucene/solr/trunk/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">687825</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-08-21T18:37:44.855868Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">koji</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="687824">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/687825/lucene/solr/trunk/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">687825</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-08-21T18:37:44.855868Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">koji</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="687824">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/687825/lucene/solr/trunk/src/test/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">687825</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-08-21T18:37:44.855868Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">koji</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="687824">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/687825/lucene/solr/trunk/src/test/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">687825</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-08-21T18:37:44.855868Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">koji</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="solr" rev="687824">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/687825/lucene/solr/trunk/src/test/org/apache/solr</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">687825</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-08-21T18:37:44.855868Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">koji</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="highlight" rev="687824">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/687825/lucene/solr/trunk/src/test/org/apache/solr/highlight</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">687825</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-08-21T18:37:44.855868Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">koji</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="HighlighterTest.java" rev="687824">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/687825/lucene/solr/trunk/src/test/org/apache/solr/highlight/HighlighterTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">687825</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-08-21T18:37:44.855868Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">koji</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e6c736e4a3ea8bd2e15fac0596915447" sha1-checksum="67e3d89d5079ebdc77cfaa13f6706459717fa01e"/>
+<S:prop><V:md5-checksum>ef5703bed4d230e493bd120bc7329c4b</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

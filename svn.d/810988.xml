@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="810988"/>
+<S:open-directory rev="810987">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/810988/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">810988</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-09-03T15:14:50.256535Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="incubator" rev="810987">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/810988/incubator</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">810988</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-09-03T15:14:50.256535Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra" rev="810987">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/810988/incubator/cassandra</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">810988</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-09-03T15:14:50.256535Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="branches" rev="810987">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/810988/incubator/cassandra/branches</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">810988</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-09-03T15:14:50.256535Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra-0.4" rev="810987">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/810988/incubator/cassandra/branches/cassandra-0.4</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">810988</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-09-03T15:14:50.256535Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="contrib" bc-url="/repos/asf/!svn/bc/810988/incubator/cassandra/branches/cassandra-0.4/contrib">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/810988/incubator/cassandra/branches/cassandra-0.4/contrib</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">810988</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-09-03T15:14:50.256535Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="bmt_example" bc-url="/repos/asf/!svn/bc/810988/incubator/cassandra/branches/cassandra-0.4/contrib/bmt_example">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/810988/incubator/cassandra/branches/cassandra-0.4/contrib/bmt_example</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">810988</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-09-03T15:14:50.256535Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="CassandraBulkLoader.java" sha1-checksum="d4f414da075d6af569a96ebbf00227a1ab9bd1ff">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/810988/incubator/cassandra/branches/cassandra-0.4/contrib/bmt_example/CassandraBulkLoader.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">810988</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-09-03T15:14:50.256535Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>62c85c0fee3031994f99c787ad4a2c99</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+<S:open-file name="CHANGES.txt" rev="810987">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/810988/incubator/cassandra/branches/cassandra-0.4/CHANGES.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">810988</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-09-03T15:14:50.256535Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="5f5c5f321c386193985ff90160fe9a9f" sha1-checksum="509a9bc995cd4e34b16eb72214bdf405c7492c4c"/>
+<S:prop><V:md5-checksum>3d1e945eb76b43c8b6af1a2404386fd5</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

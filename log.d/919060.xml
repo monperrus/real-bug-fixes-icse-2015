@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>919060</D:version-name>
+<D:comment>LUCENE-2283: use shared byte[] pool to buffer pending stored fields &amp; term vectors during indexing; fixes excessive memory usage for mixed tiny &amp; big docs with many threads</D:comment>
+<D:creator-displayname>mikemccand</D:creator-displayname>
+<S:date>2010-03-04T16:46:18.523478Z</S:date>
+</S:log-item>
+</S:log-report>

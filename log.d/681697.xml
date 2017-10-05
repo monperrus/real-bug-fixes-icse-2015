@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>681697</D:version-name>
+<D:comment>DERBY-3799: NullPointerException when accessing a clob through a pooled connection.
+Backported revision 681694 (derby-3799-1a-checkIfClosed.diff) from trunk.
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-08-01T13:59:07.345711Z</S:date>
+</S:log-item>
+</S:log-report>

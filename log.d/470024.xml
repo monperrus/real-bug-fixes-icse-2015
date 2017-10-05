@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>470024</D:version-name>
+<D:comment>DERBY-1974 Add utility method TestConfiguration.sqlAuthorizationDecorator to change the default
+database to one that has SQL authorization mode enabled. Have PrepareExecuteDDL use this decorator
+and add this test to lang._Suite. Fix a bug in assertDrainResults() where the wrong variable
+was being used to check an assert.
+
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-11-01T18:32:58.129486Z</S:date>
+</S:log-item>
+</S:log-report>

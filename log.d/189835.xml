@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>189835</D:version-name>
+<D:comment>Derby-337: Declare newly added field to RoutineAliasInfo as transient. Though I don't think there is a need to do this, it at least marks the only transient field as such.
+
+Submitted by Army Brown. (qozinx@sbcglobal.net)
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2005-06-09T22:10:41.109860Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>381883</D:version-name>
+<D:comment>DERBY-709, committing on behalf of Suresh Thalamati
+
+This patch (derby-709_latest.diff) fixes the problems appreared with earlier
+patch when tests are run againest JARS.
+
+--- correctly catch the Security Exception when there is no permission to get
+a canonical path.
+--- Modified the deryb_tests.plocy to allow deltes in
+${user.dir}${/}extinout${/}- .,
+It is needed because, backup tests deletes the old copy of the backup at the
+backup location.
+--- set noSecurityManager = true for the tests that can not be run under
+security manager due to bug : 1066
+--- changes st_1 properties to use external tests dirs , so that tests does not
+required "user.dir" permission to create parent directories for the backup
+paths.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-03-01T03:01:55.834323Z</S:date>
+</S:log-item>
+</S:log-report>

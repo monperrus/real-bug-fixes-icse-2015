@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>604976</D:version-name>
+<D:comment>DERBY-3037
+
+EmbedStatement.executeStatement at line 1276 was calling finish rather than close on the Language Resultset. I fixed
+that to make a call to close. In addition, I also had to move the code for collecting the stats from finish to
+close method in NoRowsResultSetImpl.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-12-17T19:40:13.014949Z</S:date>
+</S:log-item>
+</S:log-report>

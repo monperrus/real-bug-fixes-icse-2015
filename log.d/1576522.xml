@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1576522</D:version-name>
+<D:comment>Merged revision(s) 1576521 from lucene/dev/trunk:
+Prevent stupid unchecked warning in Java 7's javac. This is a bug in javac, but we also don't need the SuppressWarnings on the whole ctor.</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2014-03-11T22:10:37.865721Z</S:date>
+</S:log-item>
+</S:log-report>

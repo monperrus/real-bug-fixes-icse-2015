@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>798273</D:version-name>
+<D:comment>fix bug in comparing-to-empty-array; realize that we need compare-to-empty-array to specify start/finish of slices.
+patch by jbellis; reviewed by Stu Hood for CASSANDRA-119</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-07-27T20:19:53.575502Z</S:date>
+</S:log-item>
+</S:log-report>

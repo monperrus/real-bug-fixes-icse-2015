@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1169692</D:version-name>
+<D:comment>DERBY-5236: Client driver silently truncates strings that exceed 32KB
+
+Third argument in call to greaterThanOrEqualTo() should be DRDA
+maintenance version, not the third digit in the client's version number.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-09-12T11:13:37.005198Z</S:date>
+</S:log-item>
+</S:log-report>

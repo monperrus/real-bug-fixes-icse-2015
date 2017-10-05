@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1555702</D:version-name>
+<D:comment>DERBY-5866: Triggers fire out of order
+
+Make sure the creation timestamp of a newly created trigger is higher
+than the timestamps of the existing triggers on the same table. If it
+is not higher, the triggers may fire in the wrong order. If the
+current timestamp is not higher than the timestamp of the previous
+trigger defined on the table, the new trigger now gets a creation
+timestamp that is one millisecond higher than the creation timestamp
+of the previous trigger.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2014-01-06T10:05:35.607680Z</S:date>
+</S:log-item>
+</S:log-report>

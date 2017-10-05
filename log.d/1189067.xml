@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1189067</D:version-name>
+<D:comment>DERBY-5406: Intermittent failures in CompressTableTest and TruncateTableTest
+
+If GenericActivationHolder determines that a recompile is needed, it now
+throws an exception to signal that to the caller instead of doing the
+recompilation itself. This way, if the statement is invalidated again
+during the recompilation, the already existing retry logic in the caller
+(that is, GenericPreparedStatement.executeStmt()) will be used to detect
+that the recompilation must be retried.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-10-26T08:08:47.971721Z</S:date>
+</S:log-item>
+</S:log-report>

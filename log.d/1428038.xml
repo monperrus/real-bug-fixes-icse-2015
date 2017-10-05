@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1428038</D:version-name>
+<D:comment>[ARIES-992] Get an IllegalStateException in BundleEventHook.handleExplicitlyInstalledBundleBundleContext
+
+This happens when explicitly installing or uninstalling bundles while the subsystems bundle is deactivating.
+The bundle event hook must be blocked while the root subsystem is being stopped. The blocked events then proceed
+once deactivation is complete which results in the exception since the activator instance is no longer valid.
+Events are now queued while subsystems is shutting down, as they are during initialization. Once the shutdown is
+complete and the event hook has been unregistered, any remaining events are processed prior to returning from the
+BundleActivator.stop() method.</D:comment>
+<D:creator-displayname>jwross</D:creator-displayname>
+<S:date>2013-01-02T21:02:22.315210Z</S:date>
+</S:log-item>
+</S:log-report>

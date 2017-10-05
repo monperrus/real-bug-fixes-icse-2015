@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>896722</D:version-name>
+<D:comment>DERBY-4110: Deleting from a table with its synonym throws an exception
+
+When building the ResultColumnList that is used to tie together the
+search results from the WHERE clause with the processing of the DELETE,
+the result columns will be bound against the exposed table name of the
+table named in the DELETE statement, so if the statement used a
+synonymTableName, then the result column list should manufacture column
+references which use a synonymTableName as well. 
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2010-01-07T00:09:28.160439Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>393798</D:version-name>
+<D:comment>DERBY-614 Protocol error when entire result set is not retrieved.
+
+Port from trunk:
+
+355689 - Fixes the split logic when data passes the blksize boundary.
+Details of the fix are in spec.html attached to DERBY-614
+
+378552 - clear splitQRYTDA field for reuse of the resultset
+
+Contributed by Bryan Pendleton
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-04-13T13:14:26.453451Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>190415</D:version-name>
+<D:comment>Fix for DERBY-302, committing on behalf of 
+
+DERBY-302 - Insert on Clob of 500k of data using streams takes long time. 
+It takes 3 mins on a sun jvm1.4.2 and 20 seconds with ibm jvm 1.4.2. 
+The following fix improves the performance of insert into a 500k blob from 20 
+seconds to around 1 second.  Note that by changing just the test program 
+time was reduced from 3 minutes to avg around 20 seconds.
+
+Currently in derby,  for an insert on a clob using setCharacterStream what will
+happen is , the entire stream will be materialized into a char array and sent 
+to store for the insert.  ( we should not have to stream here. I will file 
+another jira issue for this and put in all information I learnt)
+
+Given this is how inserts for large clobs are happening, the performance issue 
+analysis is as follows:
+--  profiler run shows that most time is spent in SQLChar.readExternal which 
+is where the materialization into a char array for the user's input stream 
+happens.  The growth of this array happens gradually till the entire stream 
+is materialized into the array.  Below code snippet shows by how much the 
+array is grown each time when it realizes it has to read more bytes from the 
+stream.
+
+The dvd hierarchy for clob is  -  SQLClob ( dvd) extends SQLVarChar 
+extends SQLChar.
+
+So in SQLChar.readExternal
+........
+int growby = in.available();
+if(growby &lt; 64)
+growby = 64
+and then an allocation and an arraycopy to the new allocated array.
+
+--  In the code snippet,  'in' is the wrapper around the user's stream which is
+ReaderToUTF8Stream.   ReaderToUTF8Stream extends InputStream and does not 
+override available() method . As per the spec, InputStream.available() 
+returns 0.
+
+-- Thus each time, the array growth is by 64 bytes which is obviously not 
+performant.  so for a 500k clob insert, this would mean allocation &amp; 
+arraycopy steps happen  ~8000 times.
+
+-- The ReaderToUTF8Stream that has the user's stream reads from the stream and
+does the utf8 conversion and puts it in a 4k array.  I think it is reasonable 
+to have a 32k buffer to store this information for clobs.
+
+Although I think there seems to be more possible optimizations in this area,  
+I prefer the incremental approach too :)  so this patch  is a first step 
+towards fixing the insert clob performance in the current system.
+
+Fix includes:
+-- enhanced the way the array was grown to keep the original  64 bytes for 
+char ( seems reasonable given the upper limit for char) but override it to 
+have  4k for varchar and clobs.
+
+-- OVERRIDE AVAILABLE() IN READERTOUTF8STREAM TO RETURN A BETTER ESTIMATE OF 
+HOW MANY BYTES CAN BE READ. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2005-06-13T15:18:51.191367Z</S:date>
+</S:log-item>
+</S:log-report>

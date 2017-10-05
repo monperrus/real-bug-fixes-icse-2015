@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>688027</D:version-name>
+<D:comment>DERBY-3786: Assert failure in CacheEntry.unkeepForRemove when running stress.multi
+
+Made sure GenericLanguageConnectionContext didn't call
+CacheManager.remove() without the proper synchronization dictated by
+CacheManager's javadoc.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2008-08-22T08:54:18.778002Z</S:date>
+</S:log-item>
+</S:log-report>

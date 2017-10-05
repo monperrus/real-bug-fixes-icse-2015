@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1396606</D:version-name>
+<D:comment>DERBY-5937: File handle is leaked when a Slave replication is shutdown with failover=true
+
+Merged revisions 1392847, 1394407 and 1395482 from trunk, and manually
+copied a missing method in TestConfiguration from trunk.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-10-10T14:03:00.534855Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1185298</D:version-name>
+<D:comment>DERBY-5427 Unauthorized shutdown should not generate thread dump and javacore. AuthenticationTest dumps over 20 javacores with IBM JVM for normal user errors
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2011-10-17T17:33:23.392342Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>789880</D:version-name>
+<D:comment>DERBY-4142  java.lang.VerifyError causing java.sql.SQLException: Cannot create an instance of generated class ... in lang.GeneratedColumnsTest and GeneratedColumnsPermsTest on IBM iseries
+
+patch d4142-kah-noField.diff contributed by Knut Anders Hatlen (knut dot hatlen at sun dot com) an improvement on earlier patch from Myrna van Lunteren (m dot v dot lunteren at gmail dot com). This solution removes the mis-typed ExecRow field and keeps the current row on the stack.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2009-06-30T19:03:40.867993Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>954544</D:version-name>
+<D:comment>DERBY-4677
+
+We were not transferring unique nullable properties from the system catalog to the store layer during compress table and bulk insert. Because of that, after those operations, we started allowing duplicate rows those causing db corruption. With this checkin, we will be transferring unique nullable properties from sql layer to store layer. System catalogs have the information correct, but unique nullability information was not getting transferred to store during btree recreation in case of compress table and bulk insert operations.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2010-06-14T16:29:09.591962Z</S:date>
+</S:log-item>
+</S:log-report>

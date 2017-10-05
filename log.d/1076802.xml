@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1076802</D:version-name>
+<D:comment>DERBY-5088: ShutdownException raised in istat thread during factory call
+
+Refactored outer-level error handling, and moved context service factory call
+inside try/catch.
+
+Patch file: derby-5088-1a-shutdownexception_refactor.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-03-03T21:28:02.190386Z</S:date>
+</S:log-item>
+</S:log-report>

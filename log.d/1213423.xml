@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1213423</D:version-name>
+<D:comment>fix assertion when dropping a columnfamily with no sstables
+patch by jbellis; reviewed by slebresne and tested by Andrew Suffield for CASSANDRA-3614</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2011-12-12T20:31:13.436090Z</S:date>
+</S:log-item>
+</S:log-report>

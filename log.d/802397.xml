@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>802397</D:version-name>
+<D:comment>DERBY-4310 Closing a prepared statement with an embedded XAConnection can cause the statement to be reprepared and errors related to missing dependencies. This can interfere with network server closeSession()
+
+DERBY-4155 jdbcapi/XATest.java doesn't seem to be running anywhere
+
+Merge from trunk:
+svn merge -r 793088:793089 https://svn.apache.org/repos/asf/db/derby/code/trunk
+svn merge -r 800522:800523 https://svn.apache.org/repos/asf/db/derby/code/trunk
+svn merge -r 794105:794106 https://svn.apache.org/repos/asf/db/derby/code/trunk
+
+Contributed by Tiago R Espinha (tiago at espinhas dot net)
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2009-08-08T15:40:41.699414Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1570490</D:version-name>
+<D:comment>DERBY-4753: "ERROR 42X01: Syntax error: FALSE." during call to java.sql.DatabaseMetaData.getIndexInfo
+
+When recompiling a meta-data query after detecting that its plan is
+stale, pass down a flag to the compiler to say that it's a meta-data
+query and that use of internal syntax is allowed.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2014-02-21T08:39:24.946463Z</S:date>
+</S:log-item>
+</S:log-report>

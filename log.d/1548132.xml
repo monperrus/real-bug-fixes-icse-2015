@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1548132</D:version-name>
+<D:comment>DERBY-6362: CHECK constraint uses wrong schema for unqualified routine invocations
+
+Part 3:
+
+- Refactor code that rewrites trigger actions so that it can be reused
+  for rewriting CHECK constraints.
+
+- Rewrite CHECK constraints and make all identifiers schema qualified
+  before storing them in the dictionary.
+
+- Make the parser preserve the TableName node for the target type in
+  CAST expressions for user-defined types, so that they get detected
+  by the rewrite logic.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-12-05T13:26:42.035355Z</S:date>
+</S:log-item>
+</S:log-report>

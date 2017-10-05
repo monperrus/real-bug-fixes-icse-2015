@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>473366</D:version-name>
+<D:comment>DERBY-2047 Remove TestDataSourceFactory and clean up associated code. Functionality
+has been replaced by JDBCDataSource and J2EEDataSource which allows clean separation
+for JSR169 which does not include the XA and connection pooling data sources.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-11-10T15:26:58.668506Z</S:date>
+</S:log-item>
+</S:log-report>

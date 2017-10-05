@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>527339</D:version-name>
+<D:comment>Fix testclientij in some environments. The script is loaded by getResourceAsStream, so need to use all forward slashes instead of File.separator to specify the
+file name. Also get a couple of ij properties using util.getSystemProperty instead of putting the access in their own priv blocks. 
+</D:comment>
+<D:creator-displayname>fuzzylogic</D:creator-displayname>
+<S:date>2007-04-10T23:36:32.609392Z</S:date>
+</S:log-item>
+</S:log-report>

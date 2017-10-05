@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1096991</D:version-name>
+<D:comment>DERBY-4443: Wrap rollback in exception handlers in try-catch
+
+This patch was contributed by Houx Zhang (houxzhang at gmail dot com)
+
+The patch modifies the error handling in SystemProcedures.java so that
+secondary exceptions during rollback are chained to the primary exception.
+Also, EmbedSQLException's wrapping behavior is adjusted so that the
+StandardException logic doesn't try to unwrap the chained exceptions.
+
+A new test is added to the tools suite; it simulates rollback errors
+using a special mock driver and mock connection, and verifies that
+the exceptions are chained properly.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2011-04-27T04:28:20.375333Z</S:date>
+</S:log-item>
+</S:log-report>

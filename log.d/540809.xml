@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>540809</D:version-name>
+<D:comment>DERBY-1465 NetworkServerControl.start() should throw an exception and not just print exceptions if the server fails to start
+
+Backout change until changes from review comments from Dan can be incorporated.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-05-23T02:36:47.270167Z</S:date>
+</S:log-item>
+</S:log-report>

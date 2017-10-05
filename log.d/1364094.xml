@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1364094</D:version-name>
+<D:comment>[ARIES-584] Go synchronized through most of the updated() method on the service factory to make sure we don't risk two services with the same pid, and a bit of extra testing</D:comment>
+<D:creator-displayname>cumminsh</D:creator-displayname>
+<S:date>2012-07-21T13:49:05.698166Z</S:date>
+</S:log-item>
+</S:log-report>

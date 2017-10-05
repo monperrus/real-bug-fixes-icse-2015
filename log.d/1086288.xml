@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1086288</D:version-name>
+<D:comment>LUCENE-2996: addIndexes(IndexReader) does not flush before adding the new indexes, and as a consequence, deletes are applied on the incoming indexes too</D:comment>
+<D:creator-displayname>shaie</D:creator-displayname>
+<S:date>2011-03-28T15:54:39.740518Z</S:date>
+</S:log-item>
+</S:log-report>

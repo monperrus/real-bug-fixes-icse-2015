@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1126409"/>
+<S:open-directory rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="aries" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="application" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="application-distro" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-distro</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-distro/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="55f242aa08a53198c8f91a1b65ef0d89" sha1-checksum="f306a5fd412dd64f48644b4a9be51063cfb5765a"/>
+<S:prop><V:md5-checksum>09fff1188af414c5573de85d5ca70e74</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="application-isolated-distro" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-isolated-distro</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-isolated-distro/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="52ab0156c6831f07c8630482f4bf6ed0" sha1-checksum="f370b37873e0484503c2ca68758a7d49ee24d152"/>
+<S:prop><V:md5-checksum>9e5c2841abf3df34b4b8563df3ac51dc</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="application-api" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="main" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="aries" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="application" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries/application</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="management" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries/application/management</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="spi" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries/application/management/spi</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="framework" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries/application/management/spi/framework</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="packageinfo" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries/application/management/spi/framework/packageinfo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7b20c278eafa431e30b9dd86b50cb765" sha1-checksum="0374897892429ea868fb51d649ec95f2e4f146ea"/>
+<S:prop><V:md5-checksum>dee6bacf03d37e76f31193fe57975cf5</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="repository" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries/application/management/spi/repository</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="packageinfo" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries/application/management/spi/repository/packageinfo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="005949052a116f5b0caf88875af86ebc" sha1-checksum="9ad88b1c0405d029d45feb468e66291346f58cbf"/>
+<S:prop><V:md5-checksum>7b20c278eafa431e30b9dd86b50cb765</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="resolve" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries/application/management/spi/resolve</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="packageinfo" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries/application/management/spi/resolve/packageinfo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7b20c278eafa431e30b9dd86b50cb765" sha1-checksum="0374897892429ea868fb51d649ec95f2e4f146ea"/>
+<S:prop><V:md5-checksum>dee6bacf03d37e76f31193fe57975cf5</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="convert" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries/application/management/spi/convert</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="packageinfo" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries/application/management/spi/convert/packageinfo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7b20c278eafa431e30b9dd86b50cb765" sha1-checksum="0374897892429ea868fb51d649ec95f2e4f146ea"/>
+<S:prop><V:md5-checksum>dee6bacf03d37e76f31193fe57975cf5</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="update" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries/application/management/spi/update</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="packageinfo" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries/application/management/spi/update/packageinfo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7b20c278eafa431e30b9dd86b50cb765" sha1-checksum="0374897892429ea868fb51d649ec95f2e4f146ea"/>
+<S:prop><V:md5-checksum>dee6bacf03d37e76f31193fe57975cf5</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="runtime" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries/application/management/spi/runtime</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="packageinfo" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries/application/management/spi/runtime/packageinfo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7b20c278eafa431e30b9dd86b50cb765" sha1-checksum="0374897892429ea868fb51d649ec95f2e4f146ea"/>
+<S:prop><V:md5-checksum>dee6bacf03d37e76f31193fe57975cf5</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+<S:open-file name="packageinfo" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries/application/management/packageinfo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7b20c278eafa431e30b9dd86b50cb765" sha1-checksum="0374897892429ea868fb51d649ec95f2e4f146ea"/>
+<S:prop><V:md5-checksum>dee6bacf03d37e76f31193fe57975cf5</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-file name="packageinfo" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries/application/packageinfo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7b20c278eafa431e30b9dd86b50cb765" sha1-checksum="0374897892429ea868fb51d649ec95f2e4f146ea"/>
+<S:prop><V:md5-checksum>dee6bacf03d37e76f31193fe57975cf5</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="modelling" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries/application/modelling</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="packageinfo" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries/application/modelling/packageinfo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7b20c278eafa431e30b9dd86b50cb765" sha1-checksum="0374897892429ea868fb51d649ec95f2e4f146ea"/>
+<S:prop><V:md5-checksum>dee6bacf03d37e76f31193fe57975cf5</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="utils" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries/application/modelling/utils</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="packageinfo" rev="1126408">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1126409/aries/trunk/application/application-api/src/main/java/org/apache/aries/application/modelling/utils/packageinfo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1126409</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-23T09:46:31.073454Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7b20c278eafa431e30b9dd86b50cb765" sha1-checksum="0374897892429ea868fb51d649ec95f2e4f146ea"/>
+<S:prop><V:md5-checksum>dee6bacf03d37e76f31193fe57975cf5</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

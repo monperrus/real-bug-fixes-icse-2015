@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>293585</D:version-name>
+<D:comment>Fixes DERBY-579 by not storing the timeout value in the
+GenericPreparedStatement class, just passing it through.
+
+SetQueryTimeoutTest updated, now uses a server-side function to delay
+queries. This gives predictability and because of that, the running
+time of the test has been significantly reduced. Also, the test now
+uses the same tables in multiple statements, in order to hit the
+statement cache and check that the timeout affects only the right
+statements.
+
+</D:comment>
+<D:creator-displayname>bakksjo</D:creator-displayname>
+<S:date>2005-10-04T11:05:26.911586Z</S:date>
+</S:log-item>
+</S:log-report>

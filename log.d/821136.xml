@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>821136</D:version-name>
+<D:comment>option (default to false) to snapshot sstables before each compaction.  this provides a "safety net" in case anything goes wrong during compaction.  patch by jbellis; tested by molinaro for CASSANDRA-426</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-10-02T19:22:58.939506Z</S:date>
+</S:log-item>
+</S:log-report>

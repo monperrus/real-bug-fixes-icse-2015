@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>990491</D:version-name>
+<D:comment>MAHOUT-491 - Made OnlineAuc be deterministic for tests.  Required it be moved
+to core from math due to new dependency on RandomUtils.</D:comment>
+<D:creator-displayname>tdunning</D:creator-displayname>
+<S:date>2010-08-29T05:15:21.003147Z</S:date>
+</S:log-item>
+</S:log-report>

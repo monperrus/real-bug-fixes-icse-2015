@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>495136</D:version-name>
+<D:comment>Fix broken link to empty.jar. Needs to be fixed due to new build.sysclasspath
+behavior in Ant 1.7.0, which would prefix the jvm classpath to javac tasks if the sysclasspath behavior is not overridden.
+</D:comment>
+<D:creator-displayname>fuzzylogic</D:creator-displayname>
+<S:date>2007-01-11T06:13:50.556455Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1085078</D:version-name>
+<D:comment>DERBY-5141 SSLTest fails with java.net.SocketException: Default SSL
+context init failed: null
+
+Add some verbosity to NetworkServerTestSetup to show the server start
+command with -Dderby.tests.debug=true.  This does not fix the issue.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2011-03-24T19:13:13.008134Z</S:date>
+</S:log-item>
+</S:log-report>

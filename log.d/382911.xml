@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>382911</D:version-name>
+<D:comment>DERBY-1055 Security.AccessControlException in client under SecurityManager when trying to connect using EUSRIDPWD security mechanism
+
+Contributed by Sunitha Kambhampati
+
+Patch
+- removes the unnecessary addProvider call in EncryptionManager that was causing
+the Security.AccessControlException.
+- enables test to connect using EUSRIDPWD mechanism and updates necessary masters
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-03-03T18:55:58.595176Z</S:date>
+</S:log-item>
+</S:log-report>

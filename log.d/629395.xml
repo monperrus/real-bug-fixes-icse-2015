@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>629395</D:version-name>
+<D:comment>DERBY-3422: Embedded returns wrong value for DatabaseMetaData.autoCommitFailureClosesAllResultSets()
+
+Return the correct value (true) and update the test so that it is able
+to detect differences between returned value and actual behaviour.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2008-02-20T09:34:56.801279Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1088022</D:version-name>
+<D:comment>ARIES-623: Refactor synchronization policy of the Blueprint container to use futures instead of a single global lock, so that listeners and bean life cycle methods can be called with no lock held.</D:comment>
+<D:creator-displayname>mahrwald</D:creator-displayname>
+<S:date>2011-04-02T13:33:02.804047Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>759213</D:version-name>
+<D:comment>add deletion marker support to Column (boolean isMarkedForDelete), SuperColumn, and ColumnFamily (change boolean isMarkedForDelete to long markedForDeleteAt).  Column is also made immutable to avoid confusion as to how to handle merging different versions of Columns (you don't, you replace the old one with the new).  This also makes concurrency bugs impossible, which remove will rely on.  Removed old broken remove/delete support in prepartion for working new code.</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-03-27T16:36:31.239489Z</S:date>
+</S:log-item>
+</S:log-report>

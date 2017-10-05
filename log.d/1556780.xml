@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1556780</D:version-name>
+<D:comment>DERBY-6437 testLockingWithRollback failing on trunk with AssertionFailedError - isolation levels: 4 2
+
+Added information about which exception caused the assertNull errors
+in ConstraintCharacteristicsTest#executeThreads to help debugging.</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2014-01-09T10:33:12.976463Z</S:date>
+</S:log-item>
+</S:log-report>

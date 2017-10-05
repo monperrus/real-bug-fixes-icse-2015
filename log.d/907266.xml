@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>907266</D:version-name>
+<D:comment>adding sstables to tracker via constructor was inconsistent with add() method.  r/m constructor code path, forcing use of add() for consistency.  patch by Stu Hood; reviewed by jbellis for CASSANDRA-772</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-02-06T18:22:22.532907Z</S:date>
+</S:log-item>
+</S:log-report>

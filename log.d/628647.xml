@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>628647</D:version-name>
+<D:comment>DERBY-2559: recreating a datasource using javax.naming.Reference from a ClientDataSource40 fails.
+A followup patch to avoid throwing an exception when the input arguments are not as expected. The point is to allow another factory to try recreating the object, which will not happen if an exception is thrown. Null will now be returned for null objects and objects whose class does not start with "org.apache.derby.jdbc.Client".
+Patch file: derby-2559-2a-defenses.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-02-18T08:48:46.648481Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>150736</D:version-name>
+<D:comment>New BooleanScorer implemented by Paul Elschot
+(Patch 31785) that implements skipTo and delivers
+documents in correct order. Furthermore a small bug
+in ConjunctionScorer skipTo (if called without a
+preceeding next) is eliminated.
+</D:comment>
+<D:creator-displayname>goller</D:creator-displayname>
+<S:date>2005-01-24T19:21:01.000000Z</S:date>
+</S:log-item>
+</S:log-report>

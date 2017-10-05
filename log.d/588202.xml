@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>588202</D:version-name>
+<D:comment>DERBY-3093: Intermittent transaction failure caused by internal duplicate savepoint name for triggers
+
+Use LanguageConnectionContext.getUniqueSavepointName() to get a name
+that is unique within the transaction instead of a globally unique
+name. This removes a global synchronization point.
+
+Contributed by James F. Adams.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-10-25T11:26:24.942646Z</S:date>
+</S:log-item>
+</S:log-report>

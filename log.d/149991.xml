@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>149991</D:version-name>
+<D:comment>Fix so that lock files created in /tmp are removed when a directory is
+re-created.  This way attempts to create a new index after a crashed
+indexing run no longer have to manually remove lock files from /tmp.
+</D:comment>
+<D:creator-displayname>cutting</D:creator-displayname>
+<S:date>2003-05-29T20:18:18.000000Z</S:date>
+</S:log-item>
+</S:log-report>

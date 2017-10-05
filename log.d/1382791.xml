@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1382791</D:version-name>
+<D:comment>DERBY-5917: NoClassDefFoundErrors when running tests without derbynet.jar and derbyclient.jar
+
+Stop using client classes in XATransactionTest and CacheSessionDataTest
+when running with the embedded driver.
+
+Skip compatibility tests when client or server is not available.
+
+Skip test case for server command in derbyrunjartest if the server
+is not available.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-09-10T12:17:44.607561Z</S:date>
+</S:log-item>
+</S:log-report>

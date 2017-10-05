@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>387905</D:version-name>
+<D:comment>DERBY-1125 : Revert putting JVMInfo into the shared area, as it causes
+jar sealing issues
+</D:comment>
+<D:creator-displayname>davidvc</D:creator-displayname>
+<S:date>2006-03-22T18:14:30.714056Z</S:date>
+</S:log-item>
+</S:log-report>

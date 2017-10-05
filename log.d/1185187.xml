@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1185187</D:version-name>
+<D:comment>DERBY-5468: Assertion failed in AutomaticIndexStatisticsMultiTest.testMTSelectWithDDL (expected:&lt;0&gt; but was:&lt;1&gt;)
+
+Improves the error reporting such that the cause of the error is reported.
+
+Patch file: derby-5468-1a-error_reporting.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-10-17T14:07:35.130520Z</S:date>
+</S:log-item>
+</S:log-report>

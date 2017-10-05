@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>709132</D:version-name>
+<D:comment>DERBY-3818: client Insert/retrieval of 18MB Clob is extremely slow in MultiByteClobTest.
+Re-enabled client tests, as the performance problems seem to have been fixed (see issues DERBY-3825 and DERBY-3769).
+Patch file: derby-3818-1a-enable_client_test.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-10-30T10:12:21.018499Z</S:date>
+</S:log-item>
+</S:log-report>

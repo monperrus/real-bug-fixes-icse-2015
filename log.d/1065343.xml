@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1065343</D:version-name>
+<D:comment>LUCENE-1253: LengthFilter (and Solr's KeepWordTokenFilter) now require up front specification of enablePositionIncrement. Together with StopFilter they have a common base class (FilteringTokenFilter) that handles the position increments automatically. Implementors only need to override an accept() method that filters tokens</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2011-01-30T18:30:34.495903Z</S:date>
+</S:log-item>
+</S:log-report>

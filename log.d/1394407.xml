@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1394407</D:version-name>
+<D:comment>DERBY-5937: File handle is leaked when a Slave replication is shutdown with failover=true
+
+Recovery should close current log file before opening a new one.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-10-05T08:40:58.342102Z</S:date>
+</S:log-item>
+</S:log-report>

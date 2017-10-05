@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>697549</D:version-name>
+<D:comment>maven build fix:
+example tests depends on core tests. this patch will package a core-tests jar that the examples will load.</D:comment>
+<D:creator-displayname>kalle</D:creator-displayname>
+<S:date>2008-09-21T17:00:54.828138Z</S:date>
+</S:log-item>
+</S:log-report>

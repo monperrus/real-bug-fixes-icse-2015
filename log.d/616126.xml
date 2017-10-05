@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>616126</D:version-name>
+<D:comment>DERBY-3279: Add logic for execution-time sorting of IN list values
+into DESCENDING order when required.  This is necessary when doing
+IN-list "multi-probing" on some column C for which a DESC sort has
+been eliminated (by the optimizer). In such a case the row values
+will come back in the order in which they appear in the IN List,
+which means the IN list values must themselves be sorted in the
+correct (descending) order.
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2008-01-29T00:58:37.419154Z</S:date>
+</S:log-item>
+</S:log-report>

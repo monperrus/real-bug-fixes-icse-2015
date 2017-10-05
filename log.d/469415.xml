@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>469415</D:version-name>
+<D:comment>DERBY-1991: Misleading stack traces for exceptions raised by the JDBC
+4.0 embedded driver
+
+Merged fix from trunk (svn merge -r 469409:469410 ../trunk).
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-10-31T08:44:27.591994Z</S:date>
+</S:log-item>
+</S:log-report>

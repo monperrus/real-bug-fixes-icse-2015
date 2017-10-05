@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>789465</D:version-name>
+<D:comment>add test catching buggy update of header on flush; refactor so there is only one version of code doing those writes (the correct one).
+patch by jbellis; reviewed by Jun Rao for CASSANDRA-264</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-06-29T22:07:49.265207Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>530863</D:version-name>
+<D:comment>DERBY-2296 - reinstating setShutdownDB in JDBCDataSource after implementing it for ClientDataSource; simplifying *AuthenticationTest by removing if(usingEmbedded()) and usingDerbyNetClient()) blocks for shutdown is now possible.
+
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2007-04-20T17:32:34.801811Z</S:date>
+</S:log-item>
+</S:log-report>

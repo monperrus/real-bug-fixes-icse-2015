@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>448456</D:version-name>
+<D:comment>DERBY-1811 Ensure embedded ResultSet.getTimestamp on a TIME column returns a java.sql.Timestamp with a date portion
+equal to the current date at the time the getTimestamp method is called.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-09-21T04:28:14.388788Z</S:date>
+</S:log-item>
+</S:log-report>

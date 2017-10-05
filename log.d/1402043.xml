@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1402043</D:version-name>
+<D:comment>DERBY-4323: test failure in lang.ErrorMessageTest with IBM iseries IBM 1.5
+
+Make the two threads that race for locks do as little as possible in order
+to reduce the risk of missing the two-second window for constructing the
+deadlock. That is, move query compilation and thread startup out so that
+the participating threads only perform query execution.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-10-25T09:37:37.700075Z</S:date>
+</S:log-item>
+</S:log-report>

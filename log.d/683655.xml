@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>683655</D:version-name>
+<D:comment>don't trust Jetty to do the right thing when the example war is updated, purge the work directory explicitly (SOLR-677 is an example of the confusion this can cause otherwise)</D:comment>
+<D:creator-displayname>hossman</D:creator-displayname>
+<S:date>2008-08-07T17:27:52.748339Z</S:date>
+</S:log-item>
+</S:log-report>

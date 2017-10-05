@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>544155</D:version-name>
+<D:comment>Reduced derby.locks.waitTimeout for UpdatableResultSetTest because one
+of the test cases gets a lock timeout in an internal transaction
+(compilation of a trigger statement). The hang is probably caused by
+DERBY-177.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-06-04T14:45:07.302409Z</S:date>
+</S:log-item>
+</S:log-report>

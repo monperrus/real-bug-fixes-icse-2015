@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>672284</D:version-name>
+<D:comment>DERBY-3735: Incorrect position calculation in PositionedStoreStream with read(byte[],...).
+Fixed bug introduced by earlier commit. 0 is a valid return value for 'read()', and the position must be incremented. Also changed the condition for 'read(byte[],int,int)' for consistency.
+Patch file: derby-3735-2a.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-06-27T14:37:03.931908Z</S:date>
+</S:log-item>
+</S:log-report>

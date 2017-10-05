@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1179653</D:version-name>
+<D:comment>DERBY-5044 ALTER TABLE DROP COLUMN will not detect triggers defined on other tables with their trigger action using the column being dropped
+
+Backporting to 10.8
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-10-06T14:51:10.575769Z</S:date>
+</S:log-item>
+</S:log-report>

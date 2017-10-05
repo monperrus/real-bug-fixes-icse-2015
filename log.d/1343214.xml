@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1343214</D:version-name>
+<D:comment>LUCENE-4078: PatternReplaceCharFilter assertion error caused by malformed
+utf-16. This is most likely a bug in the JDK because a
+Pattern("").replaceAll("x") is inserted in between surrogate pair
+characters and corrupts strings.
+
+A temporary fix is to check for this at random pattern generator and pick
+again if detected.</D:comment>
+<D:creator-displayname>dweiss</D:creator-displayname>
+<S:date>2012-05-28T12:00:24.878909Z</S:date>
+</S:log-item>
+</S:log-report>

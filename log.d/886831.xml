@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>886831</D:version-name>
+<D:comment>DERBY-151 Thread termination -&gt; XSDG after operation is 'complete'
+
+This patch catches the exception seen by RAFContainer4
+readFull/Write/full when the embedding application thread sees an
+interrupt, and asks the user to inspect the app to find the cause.
+Before this patch, the symptoms were puzzling to the user, suggesting
+that the disk might be full.
+
+The database level error seen is XSDG9:
+"Derby thread received an interrupt during a disk I/O operation, please check your application for the source of the interrupt. "
+
+A new store test, Derby151Test, checks this behavior.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-12-03T15:53:02.111076Z</S:date>
+</S:log-item>
+</S:log-report>

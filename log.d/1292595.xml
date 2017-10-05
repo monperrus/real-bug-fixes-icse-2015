@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1292595</D:version-name>
+<D:comment>DERBY-5624 System can run out of stack space while processing DropOnCommit requests.
+
+Only run the testDERBY_5624 in largedata on windows until linux issue resolved.
+
+Currently on linux with 1024 file descriptors per user this test fails.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2012-02-23T00:25:06.909383Z</S:date>
+</S:log-item>
+</S:log-report>

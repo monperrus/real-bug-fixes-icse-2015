@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>478622</D:version-name>
+<D:comment>DERBY-1089: NPE inserting a join into a table with a generated column
+DERBY-2015: NPE in INSERT .. SELECT with IDENTITY column
+
+When an INSERT ... SELECT statement inserts a GENERATED ALWAYS identity
+column, the identity column's column reference is NULL, since that
+column does not have a corresponding column in the SELECT list. This
+NULL expression needs to be skipped over when remapping column references
+from the SELECT column list to the INSERT column list. 
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2006-11-23T17:27:39.303929Z</S:date>
+</S:log-item>
+</S:log-report>

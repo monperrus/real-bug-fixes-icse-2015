@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1234206</D:version-name>
+<D:comment>fix how leader was asking replicas to sync back itself
+dont fail sync if replicas could not be reached due to connection issues</D:comment>
+<D:creator-displayname>markrmiller</D:creator-displayname>
+<S:date>2012-01-20T23:41:32.718594Z</S:date>
+</S:log-item>
+</S:log-report>

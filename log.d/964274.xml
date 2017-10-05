@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>964274</D:version-name>
+<D:comment>make framed transport the default so malformed requests can't OOM the server.  patch by Nate McCall; reviewed by jbellis for CASSANDRA-475</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-07-15T01:37:40.049416Z</S:date>
+</S:log-item>
+</S:log-report>

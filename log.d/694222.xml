@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>694222</D:version-name>
+<D:comment>fix wordnet's Syns2Index to not fiddle with mergeFactor &amp; maxBuffereDocs (the latter was hitting an exception)</D:comment>
+<D:creator-displayname>mikemccand</D:creator-displayname>
+<S:date>2008-09-11T12:11:03.935242Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1341204</D:version-name>
+<D:comment>DERBY-4631 Wrong join column returned by right outer join with NATURAL or USING and territory-based collation 
+
+To recap this issue, SQL:2003 says that the join columns in a natural join or in a named columns join should be added to the select list by coalescing the column from the left table with the column from the right table 
+
+Derby has it's on logic to retrieve the join column values. It always picks up join column's value from the left table when we are working with natural left outer join and it picks up the join column's value from the right table when we are working with natural right outer join. 
+
+But this logic does not work for all cases for right outer join. The fix provided in this patch will pick the join column's value based on following logic(this logic mimics the functionality of COALESCE) 
+1)if the left table's column value is null then pick up the right table's column's value. 
+2)If the left table's column value is non-null, then pick up that value 
+
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2012-05-21T21:02:27.727821Z</S:date>
+</S:log-item>
+</S:log-report>

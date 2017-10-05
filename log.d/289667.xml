@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>289667</D:version-name>
+<D:comment>DERBY-518
+Data type mismatch error for boolean to DECIMAL conversion in J2ME
+merge from trunk
+
+svn merge -r 264944:264945 https://svn.apache.org/repos/asf/db/derby/code/trunk
+svn merge -r 265042:265043 https://svn.apache.org/repos/asf/db/derby/code/trunk
+svn merge -r 279925:279926 https://svn.apache.org/repos/asf/db/derby/code/trunk
+	Contributed by Deepa Remesh
+	
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-09-16T22:25:39.953128Z</S:date>
+</S:log-item>
+</S:log-report>

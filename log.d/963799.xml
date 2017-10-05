@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>963799</D:version-name>
+<D:comment>Merging DERBY-4120 (derbyclient.jar is not a complete OSGi bundle) and 
+  DERBY-4574 (derby.jar not a valid R4 OSGi bundle) to 10.5.  
+  Merge commands:
+    svn merge -c 918152 https://svn.apache.org/repos/asf/db/derby/code/trunk
+    svn merge -c 830545 https://svn.apache.org/repos/asf/db/derby/code/trunk
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2010-07-13T17:39:52.755374Z</S:date>
+</S:log-item>
+</S:log-report>

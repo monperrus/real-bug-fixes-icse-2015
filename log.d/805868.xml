@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>805868</D:version-name>
+<D:comment>use the subcomparator when toStringing slice commands on subcolumns.  this exposes a couple bugs: fix getString in non-string types to accept byte[0], and fix a test to send a long to a LongType subcolumn.  patch by jbellis and Evan Weaver for CASSANDRA-377</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-08-19T16:27:20.456056Z</S:date>
+</S:log-item>
+</S:log-report>

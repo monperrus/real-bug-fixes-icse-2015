@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1066707</D:version-name>
+<D:comment>DERBY-4741 Make embedded Derby work reliably in the presence of thread interrupts
+
+Patch derby-4741-testBatchInterrupt-b:
+
+It tests that an interrupt will stop a batch of statements by throwing
+08000 just before we execute the next statement in the batch.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-02-03T00:20:25.409604Z</S:date>
+</S:log-item>
+</S:log-report>

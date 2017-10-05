@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1367174</D:version-name>
+<D:comment>Break out SolrCoreState locks to avoid deadlock
+SOLR-3659: on replication, rollback old writer rather than closing it
+randomly turn on auto soft commit in monkey test</D:comment>
+<D:creator-displayname>markrmiller</D:creator-displayname>
+<S:date>2012-07-30T16:58:00.670241Z</S:date>
+</S:log-item>
+</S:log-report>

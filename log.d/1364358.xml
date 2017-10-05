@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1364358</D:version-name>
+<D:comment>SOLR-3658: Adding thousands of docs with one UpdateProcessorChain instance can briefly create spikes of threads in the thousands. </D:comment>
+<D:creator-displayname>markrmiller</D:creator-displayname>
+<S:date>2012-07-22T16:57:37.533150Z</S:date>
+</S:log-item>
+</S:log-report>

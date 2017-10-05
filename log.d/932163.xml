@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>932163</D:version-name>
+<D:comment>LUCENE-2074: Refactor StandardTokenizer to have separate JFlex files per matchVersion. Also reset zzBuffer to initial size on reset(Reader) and clean up reset methods.</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2010-04-08T22:56:23.719124Z</S:date>
+</S:log-item>
+</S:log-report>

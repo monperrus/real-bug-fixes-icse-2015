@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>597865</D:version-name>
+<D:comment>DERBY-3216
+
+If btree post commit thread can not get table level lock for row cleanup and
+possible tree merging, then instead attempt just row level row purging.  Without
+this change some stress tests were seeing post commit queue continuous grow
+as there was always some thread with a lock on the index, and thus the items
+could never get executed.
+
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2007-11-24T15:47:03.779642Z</S:date>
+</S:log-item>
+</S:log-report>

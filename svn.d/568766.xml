@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="568766"/>
+<S:open-directory rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="lucene-core-pom.xml" rev="568766"/>
+<S:delete-entry name="lucene-parent-pom.xml" rev="568766"/>
+<S:delete-entry name="lucene-contrib-pom.xml" rev="568766"/>
+<S:delete-entry name="lucene-demos-pom.xml" rev="568766"/>
+<S:add-file name="lucene-demos-pom.xml.template" sha1-checksum="0029d94a9e08a05a9564a6f1b874a1ab256445ca">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/lucene-demos-pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>98a747dcc7694a382815aeea3eb8acb4</V:md5-checksum></S:prop></S:add-file>
+<S:open-file name="common-build.xml" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/common-build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="de4f75e1095dfab0a1af1288ceb855da" sha1-checksum="012a2ef7db8fae3a0792fe27aed3d3af40fa4d93"/>
+<S:prop><V:md5-checksum>87387c90391f1c09e55cabe64bb5303c</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="CHANGES.txt" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/CHANGES.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="31c468143c0b3046f910cac7248e49a0" sha1-checksum="418eae7a9876dd6ff98fb998c7138b7e13c3cca3"/>
+<S:prop><V:md5-checksum>24d197ed8a045ec649d27cd2a1b7082a</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="src" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="demo" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/src/demo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="demo-build.template" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/src/demo/demo-build.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="512766d3700d224b5a580967ce4338b0" sha1-checksum="3eb1c2f2f9bccc7db3dae570e2f10da84104ca8a"/>
+<S:prop><V:md5-checksum>8667f0566a6bb4c99338c11a9dfd9efa</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+<S:open-file name="build.xml" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="ad4caeeffac73f5405a157eb345113c8" sha1-checksum="0935b41945249f47c27d412699ce9edc13f3d6a0"/>
+<S:prop><V:md5-checksum>50186d213ed03c815c8ec07eff8e1214</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="contrib" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="queries" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/queries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="pom.xml" rev="568766"/>
+<S:add-file name="pom.xml.template" sha1-checksum="bdffddd3f0ebd0d558d49b9cd05342325cbb1192">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/queries/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>9976272150cd85bf6ca7fb7c0929fe36</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+<S:open-directory name="surround" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/surround</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="pom.xml" rev="568766"/>
+<S:add-file name="pom.xml.template" sha1-checksum="27fd0f76019924a069ac584140cc963b150c7f58">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/surround/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>7725f1c3d836808d77536aeaaffd5f51</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+<S:open-directory name="snowball" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/snowball</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="pom.xml" rev="568766"/>
+<S:open-file name="build.xml" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/snowball/build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="cf25c67471f2ff0fbf54270e39bdc4c9" sha1-checksum="25df5f4517512fde6eeae0b4abd909290773a0d3"/>
+<S:prop><V:md5-checksum>5b429b97effe6688a6604586d3134ae5</V:md5-checksum></S:prop></S:open-file>
+<S:add-file name="pom.xml.template" sha1-checksum="a8554bce02c08d4d2275be068e94ffc03eff1425">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/snowball/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>f68669d710592c5f7fb0b33f08cbeb4a</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+<S:open-directory name="wordnet" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/wordnet</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="pom.xml" rev="568766"/>
+<S:add-file name="pom.xml.template" sha1-checksum="891f16d3e08d6ecdedfe67c5485e5f3553991082">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/wordnet/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>124b5d46f76402761498c7a84619a3bc</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+<S:open-directory name="ant" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/ant</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="pom.xml" rev="568766"/>
+<S:add-file name="pom.xml.template" sha1-checksum="7f8efe328cff2c0b2582d072cc51ac67b20ce5fa">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/ant/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>8c07cb6162f950ea3a9073fba93bb124</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+<S:open-directory name="db" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/db</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="bdb" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/db/bdb</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="pom.xml" rev="568766"/>
+<S:add-file name="pom.xml.template" sha1-checksum="ead6d6b06c4c0ea398f1e84a3a585af21e74b19b">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/db/bdb/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>61a7cdd8d43f7e5f38540f23b1d75f9e</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+<S:open-directory name="bdb-je" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/db/bdb-je</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="pom.xml" rev="568766"/>
+<S:add-file name="pom.xml.template" sha1-checksum="fd9f902318b1104609ff12cecd56ec207156d89e">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/db/bdb-je/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>81d96097dfdeebce8c999ca1ac515a9c</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="similarity" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/similarity</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="pom.xml" rev="568766"/>
+<S:add-file name="pom.xml.template" sha1-checksum="fc375f98e14e61e406a2730d3d99726e9ea216fc">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/similarity/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>81e0f7a20e2847be9c433bc01e59cacc</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+<S:open-directory name="swing" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/swing</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="pom.xml" rev="568766"/>
+<S:add-file name="pom.xml.template" sha1-checksum="d95dabb2d1fd604bd48aecfc565b0a64241fe433">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/swing/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>781d1e66c6b10985bb37977ac5d5f085</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+<S:open-directory name="benchmark" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/benchmark</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="pom.xml" rev="568766"/>
+<S:add-file name="pom.xml.template" sha1-checksum="6852eee5de2b2da42ea4e906700ef92dda622b4b">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/benchmark/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>de6aa67ad1ba06b57bf24212ebf9b296</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+<S:open-file name="contrib-build.xml" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/contrib-build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f4020f2903894695411d15ea91df16fd" sha1-checksum="fefcebc7e873855e8228476ad573334f6e4474c5"/>
+<S:prop><V:md5-checksum>693d2e709257b4c303ba54eee9d54296</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="xml-query-parser" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/xml-query-parser</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="pom.xml" rev="568766"/>
+<S:add-file name="pom.xml.template" sha1-checksum="3cd7e79a74bc7ab0e50888e3c7aa3f6c8493ab4c">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/xml-query-parser/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>d320dc09ad1090d0a763f1a732901bba</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+<S:open-directory name="highlighter" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/highlighter</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="pom.xml" rev="568766"/>
+<S:add-file name="pom.xml.template" sha1-checksum="7f93940479e7f7c47bdc1eb4ae36b8e622a94090">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/highlighter/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>cd81af567c38c2598846813f42caa834</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+<S:open-directory name="miscellaneous" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/miscellaneous</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="pom.xml" rev="568766"/>
+<S:add-file name="pom.xml.template" sha1-checksum="b3f7dc2bd516cf285358fa98fac59c5804587f3c">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/miscellaneous/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>248491eba27ba655d152bea1f007e9fc</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+<S:open-directory name="spellchecker" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/spellchecker</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="pom.xml" rev="568766"/>
+<S:add-file name="pom.xml.template" sha1-checksum="030e095582d497be42689810e5413597d5d915b3">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/spellchecker/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>627fb52de75113ce72517b8939eb5da8</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+<S:open-directory name="memory" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/memory</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="pom.xml" rev="568766"/>
+<S:add-file name="pom.xml.template" sha1-checksum="e69baa1f70623a5a1d998ee3eecbc67d55dd07e5">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/memory/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>7e7ad0929ce77e9753057011f50779fb</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+<S:open-directory name="lucli" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/lucli</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="pom.xml" rev="568766"/>
+<S:open-file name="build.xml" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/lucli/build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="6ee01a92a96b06b3fdf8fbaad63832e8" sha1-checksum="14efaa65d19c2c1cb26873895a0951a107a505b4"/>
+<S:prop><V:md5-checksum>d8a08fa7bb23b026aa9e21111fc940f2</V:md5-checksum></S:prop></S:open-file>
+<S:add-file name="pom.xml.template" sha1-checksum="1dcbf0842fbfaa1515367dec7c5268b026f73886">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/lucli/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>2d16e4b95ad3c9194040329a3e9041c8</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+<S:open-directory name="analyzers" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/analyzers</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="pom.xml" rev="568766"/>
+<S:add-file name="pom.xml.template" sha1-checksum="ef61bf3fdb0f86ba1e1ee6883ac2b242dd031357">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/analyzers/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>ff7188c0120ebe159d6f233698202c07</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+<S:open-directory name="regex" rev="568765">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/regex</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="pom.xml" rev="568766"/>
+<S:add-file name="pom.xml.template" sha1-checksum="175f4845e3643402c77e6d5a0189dc7ac4b50887">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/contrib/regex/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>59c8e73bb39306d96220ecc796db37a7</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+</S:open-directory>
+<S:add-file name="lucene-core-pom.xml.template" sha1-checksum="cb18829d2366e494d5009dd9ce096e5efb50c824">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/lucene-core-pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>a7a77ecf2750eaf4a72ec9e113d68d9b</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="lucene-parent-pom.xml.template" sha1-checksum="0c3b19b49b971c66ddce7713291b6af3d64ab8d1">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/lucene-parent-pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>a5c3f33549a9d472e342513074c41ad0</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="lucene-contrib-pom.xml.template" sha1-checksum="caae05ee3f1d59a87dd91df38df2c844bcd62a19">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/568766/lucene/java/trunk/lucene-contrib-pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">568766</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-08-22T23:16:48.708638Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">buschmi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>8902b028ddc78e6fed77787b8d38e498</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

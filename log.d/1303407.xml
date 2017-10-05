@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1303407</D:version-name>
+<D:comment>LUCENE-3896: CharacterUtils.fill must call Reader.read again if it only got a single high surrogate char on the first read</D:comment>
+<D:creator-displayname>rmuir</D:creator-displayname>
+<S:date>2012-03-21T14:30:34.803989Z</S:date>
+</S:log-item>
+</S:log-report>

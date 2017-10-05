@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1365365</D:version-name>
+<D:comment>SOLR-3652: Fixed range faceting to error instead of looping infinitely when 'gap' is zero -- or effectively zero due to floating point arithmetic underflow (merge r1365363)</D:comment>
+<D:creator-displayname>hossman</D:creator-displayname>
+<S:date>2012-07-25T00:29:31.921015Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>542005</D:version-name>
+<D:comment>DERBY-2686: Brushed up two skip methods; one to return 0 when a negative amount to skip is passed in, the other one will now break when 0 is returned from the underlying stream. No assumption is made about EOF, this is still up to the higher level streams, but the skip method will no longer hang forever if there is less bytes than requested in skip. Also removed some unused imports.
+Patch file: derby-2686-3a.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2007-05-27T17:22:35.329931Z</S:date>
+</S:log-item>
+</S:log-report>

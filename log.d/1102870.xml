@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1102870</D:version-name>
+<D:comment>ARIES-613 Improvements to the exception messages for problems calling the destroy method.
+
+1) Use LOGGER.error rather than info
+2) When the destroy method does not exist do not treat it as an exception condition
+3) When the destroy method throws an exception output a nice error message.</D:comment>
+<D:creator-displayname>not</D:creator-displayname>
+<S:date>2011-05-13T19:08:16.346662Z</S:date>
+</S:log-item>
+</S:log-report>

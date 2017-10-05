@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>951346</D:version-name>
+<D:comment>DERBY-2532: Client does not return SQLException on XAConnection.getXAResource() on a closed connection, Embedded does 
+Made ClientXAConnection.getXAResources throw an exception if the underlying
+connection has been closed.
+
+Patch contributed by Sabari S Kumar (swordfish1987 at iwanttobeme dot in).
+
+Patch file: derby-2532-1a-getxares_on_closed_conn.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-06-04T09:49:30.427348Z</S:date>
+</S:log-item>
+</S:log-report>

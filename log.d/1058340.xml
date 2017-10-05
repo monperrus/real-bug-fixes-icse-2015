@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1058340</D:version-name>
+<D:comment>Added property to make TriggerTests dump the full lock table in case
+of a lock timeout. For debugging a test failure seen after DERBY-4874.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-01-12T22:21:29.599894Z</S:date>
+</S:log-item>
+</S:log-report>

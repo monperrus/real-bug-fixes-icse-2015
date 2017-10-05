@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>447011</D:version-name>
+<D:comment>DERBY-1707
+contributed by       Mamta A. Satoor
+
+Basically, FromBaseTable.verifyProperties method had following if condition
+
+if (constraintSpecified)
+{
+    ConglomerateDescriptor cd =
+    dDictionary.getConglomerateDescriptor(
+    consDesc.getConglomerateId());
+    String indexName = cd.getConglomerateName();
+    tableProperties.remove("constraint");
+    tableProperties.put("index", indexName);
+}
+
+
+The if condition above did not do null check for consDesc. In Sunitha's case, 
+her sql statement looked as follows 
+SELECT * FROM t1 --DERBY-PROPERTIES constraint=null;
+When null value is supplied for constraint property, consDesc will be null and the code inside the if condition above should not be executed. I changed the if condition above as follows
+if (constraintSpecified &amp;&amp; consDesc != null)
+and now constraint=nulll does not result in null pointer exception. I added a 
+test case for this in lang/optimizerOverrides.sql and noticed that 
+constraint=null resulted in an index scan. There is already a test which 
+checks for index=null and that property results in a table scan. This behavior 
+seems to be in line with the documentation in Tuning Derby Guide for 10.2 
+(section name Overriding the default optimizer behavior) which says that if 
+null is specified for property index, a table scan will be performed on the 
+table. It does not say anything about a table scan for constraint=null
+                                      
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-09-17T03:57:05.311555Z</S:date>
+</S:log-item>
+</S:log-report>

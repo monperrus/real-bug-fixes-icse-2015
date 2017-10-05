@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>420436</D:version-name>
+<D:comment>DERBY-1393: PreparedStatement.setObject(int,Object,int) should throw
+SQLFeatureNotSupportedException for unsupported types
+
+Description of the patch:
+
+  The new setObject() methods call checkForSupportedDataType() to
+  check whether targetSqlType is supported.
+
+  Added a new error message "The data type ''{0}'' is not supported."
+  with SQL state 0A000 (which ensures that the exception is converted
+  to SQLFeatureNotSupportedException). This error message is used when
+  targetSqlType is not supported.
+
+  Added more JDBC 4.0 constants (from java.sql.Types) to
+  JDBC40Translation and created a test JDBC40TranslationTest which
+  tests that the constants are correct (the values of the constants
+  are hard coded, so we don't get the compile-time check as with
+  JDBC{2,3}0Translation).
+
+  New test case SetObjectUnsupportedTest which is run as part of
+  PreparedStatementTest and CallableStatementTest in the jdbc40 suite.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-07-10T06:31:33.781827Z</S:date>
+</S:log-item>
+</S:log-report>

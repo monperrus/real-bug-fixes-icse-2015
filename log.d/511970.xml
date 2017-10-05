@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>511970</D:version-name>
+<D:comment>SOLR-173 - fix for 'too many open files' - close requests at end of SolrDispatchFilter, and only get Searcher in response writers if it's actually needed.</D:comment>
+<D:creator-displayname>hossman</D:creator-displayname>
+<S:date>2007-02-26T19:42:21.957903Z</S:date>
+</S:log-item>
+</S:log-report>

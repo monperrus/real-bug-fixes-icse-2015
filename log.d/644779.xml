@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>644779</D:version-name>
+<D:comment>Migrating revision 643292 for DERBY-3320 from trunk into 10.4 codeline. Following is a brief
+description of changes. More can be found by checking the commit comments for 643292.
+
+DERBY-3320 This commit will ensure that if the Collator support does not exist during
+a territory based database creation, then we will throw an exception saying Collator
+support does not exist. In case of subsequent boot of a successfully created territory
+based database, we will check for the Collator support from JVM at the time first collation
+related operation is run on the database. This can happen if the database recovery needs
+to be done at the boot time or it can happen after the database has booted and user has
+issued a SQL which requires Collator support.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2008-04-04T17:13:32.388704Z</S:date>
+</S:log-item>
+</S:log-report>

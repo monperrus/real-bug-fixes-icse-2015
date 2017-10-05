@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="760464"/>
+<S:open-directory rev="760463">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/760464/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">760464</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-03-31T14:41:55.897450Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="incubator" rev="760463">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/760464/incubator</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">760464</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-03-31T14:41:55.897450Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra" rev="760463">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/760464/incubator/cassandra</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">760464</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-03-31T14:41:55.897450Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="760463">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/760464/incubator/cassandra/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">760464</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-03-31T14:41:55.897450Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="build.xml" rev="760463">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/760464/incubator/cassandra/trunk/build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">760464</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-03-31T14:41:55.897450Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="778160da22eb572026d331766da87bca" sha1-checksum="1548a4fea6c42b8325465c293d161e9365357bbc"/>
+<S:prop><V:md5-checksum>ed78f669512215dc8a6137fe0bbcfd68</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="test" rev="760463">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/760464/incubator/cassandra/trunk/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">760464</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-03-31T14:41:55.897450Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="conf" bc-url="/repos/asf/!svn/bc/760464/incubator/cassandra/trunk/test/conf">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/760464/incubator/cassandra/trunk/test/conf</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">760464</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-03-31T14:41:55.897450Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="storage-conf.xml" sha1-checksum="9622024770b0d65c18ef6ef3150af3fbe6188f12">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/760464/incubator/cassandra/trunk/test/conf/storage-conf.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">760464</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-03-31T14:41:55.897450Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>2a79d1c575dc4b722688737ae204733c</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

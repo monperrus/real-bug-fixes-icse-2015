@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>542449</D:version-name>
+<D:comment>DERBY-2714: SecureServerTest spends five minutes waiting for a server to start
+
+Abort waiting for the server to come up if the server process has terminated.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-05-29T07:53:54.660955Z</S:date>
+</S:log-item>
+</S:log-report>

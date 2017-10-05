@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>633743</D:version-name>
+<D:comment>OE system test improvements - Ensure that the Checks text fixtures for the OETest actually cause a failure if they find a problem, previously they were just printing an error since that's what the core class OEChecks was doing. Adding a simple class HandleCheckError to allow OEChecks to be isolated from JUnit but allow the JUnit Checks class to use Assert.fail() to report issues found by OEChecks.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2008-03-05T01:28:49.763346Z</S:date>
+</S:log-item>
+</S:log-report>

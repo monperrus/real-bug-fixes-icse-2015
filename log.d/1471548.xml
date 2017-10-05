@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1471548</D:version-name>
+<D:comment>Disable tests for compat testing.
+
+DERBY-5493 - Boost the size of preallocated sequence range - SequenceGeneratorTest.  Verified release note.
+
+DERBY-6033 - Remove limit on the numbe rof params for Routine - dbManagerLimits.java. Low risk expansion of capability,no release note needed.
+
+DERBY-3790 Investigate cases where update statistics can be skipped. - UpdateStatisticsTest
+Non-functional change. No release note needed
+
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2013-04-24T17:23:43.523599Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>434309</D:version-name>
+<D:comment>DERBY-1500: PreparedStatement#setObject(int parameterIndex, Object x)
+throws SQL Exception when binding Short value in embedded mode
+
+setObject(int, Byte) is translated to setByte(int, byte)
+setObject(int, Short) is translated to setShort(int, short)
+
+Added test cases in jdbcapi/parameterMapping.java.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-08-24T06:11:32.275617Z</S:date>
+</S:log-item>
+</S:log-report>

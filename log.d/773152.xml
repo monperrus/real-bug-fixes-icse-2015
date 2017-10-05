@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>773152</D:version-name>
+<D:comment>fix CME during range queries -- keyset call needs to go on the memtable exector.
+patch by jbellis; tested by Tv for CASSANDRA-153</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-05-09T01:40:16.971004Z</S:date>
+</S:log-item>
+</S:log-report>

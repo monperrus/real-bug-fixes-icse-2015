@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1465041</D:version-name>
+<D:comment>LUCENE-4899: FastVectorHighlihgter failed with StringIndexOutOfBoundsException if a single highlight phrase or term was greater than the fragCharSize producing negative string offsets</D:comment>
+<D:creator-displayname>simonw</D:creator-displayname>
+<S:date>2013-04-05T16:49:46.975483Z</S:date>
+</S:log-item>
+</S:log-report>

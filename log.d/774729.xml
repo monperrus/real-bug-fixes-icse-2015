@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>774729</D:version-name>
+<D:comment>DERBY-4199: Write exceptions to file in the fail directory as they occur with JUnit tests.
+Write exceptions being thrown during JUnit testing to file as soon as they
+happen. The output file is called 'error-stacktrace.out' and is located under
+the fail-directory. If the output file already exists, the new output is
+appended.
+Added a new method for opening a file in append mode (in a privileged block).
+Patch file: derby-4199-1a-writeExceptionsToFile.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-05-14T11:14:08.327187Z</S:date>
+</S:log-item>
+</S:log-report>

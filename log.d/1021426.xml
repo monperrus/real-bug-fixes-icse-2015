@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1021426</D:version-name>
+<D:comment>DERBY-4835 Trigger plan does not recompile with upgrade from 10.5.3.0 to 10.6.1.0 causing java.lang.NoSuchMethodError
+
+The problem was that the clearing of stored statements during the upgrade was conditional. The clearing should happen unconditionally during upgrade. Unconditional clearing of SPSes has fixed the problem with this jira. 
+
+Also, added a test in upgrade suite for triggers. The test has been added to BasicSetup.java which will ensure that this trigger test will automatically get run with even future releases. 
+
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2010-10-11T16:51:15.015028Z</S:date>
+</S:log-item>
+</S:log-report>

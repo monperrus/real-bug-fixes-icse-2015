@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>905621</D:version-name>
+<D:comment>DERBY-4477 Selecting / projecting a column whose value is represented by a stream more than once fails
+
+Follow-up patch for an intermittet bug caused by previous insert, due
+to newly filed DERBY-4531: derby-4477-lowmem-followup.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2010-02-02T13:17:43.619363Z</S:date>
+</S:log-item>
+</S:log-report>

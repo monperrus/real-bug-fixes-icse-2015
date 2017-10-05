@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1032589"/>
+<S:open-directory rev="1032588">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1032589/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1032589</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-11-08T14:49:34.971920Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">ejiang</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="incubator" rev="1032588">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1032589/incubator</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1032589</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-11-08T14:49:34.971920Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">ejiang</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="aries" rev="1032588">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1032589/incubator/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1032589</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-11-08T14:49:34.971920Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">ejiang</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="1032588">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1032589/incubator/aries/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1032589</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-11-08T14:49:34.971920Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">ejiang</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="application" rev="1032588">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1032589/incubator/aries/trunk/application</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1032589</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-11-08T14:49:34.971920Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">ejiang</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="application-twitter4j" bc-url="/repos/asf/!svn/bc/1032589/incubator/aries/trunk/application/application-twitter4j">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1032589/incubator/aries/trunk/application/application-twitter4j</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1032589</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-11-08T14:49:34.971920Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">ejiang</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="pom.xml" sha1-checksum="372b61470bd3e28bd86c70c33843ebdf5d4bb9e0">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1032589/incubator/aries/trunk/application/application-twitter4j/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1032589</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-11-08T14:49:34.971920Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">ejiang</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>445fcf11d81cde09716d597abeb9d585</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:open-file name="pom.xml" rev="1032588">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1032589/incubator/aries/trunk/application/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1032589</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-11-08T14:49:34.971920Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">ejiang</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="809a05a43d68173ecbdf0e2453edc63a" sha1-checksum="923d245d595e3303bfa939d3f728d98895fe59d7"/>
+<S:prop><V:md5-checksum>bd24be107c1c2d6034df7ebedfa1d6dd</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

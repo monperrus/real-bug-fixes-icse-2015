@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>782991</D:version-name>
+<D:comment>DERBY-3719 ...replication.buffer.LogBufferFullException' causes failover to fail w/ 'XRE07, SQLERRMC: Could not perform operation because the database is not in replication master mode.
+
+Patch derby-3719-1 fixes a race condition in the logic that throttles
+log production if shipping can't keep up. The bug made replication stop.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-06-09T13:09:10.155434Z</S:date>
+</S:log-item>
+</S:log-report>

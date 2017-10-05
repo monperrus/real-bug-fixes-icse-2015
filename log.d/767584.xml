@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>767584</D:version-name>
+<D:comment>DERBY-3926
+
+I have worked on writing a junit test which is currently going to fail because we are returning the data in incorrect order. I thought it would be useful to have the test for people to quickly run the test if they wanted to. This junit test will not be part of any suite currently since the bug is not fixed yet. Putting it in the suite is going to make it fail everytime because the test is asserting that the data be returned in the correct order. It was painful to convert the setup script provided for this jira into a junit test. The script is huge. I was able to use Army's test converter DERBY-2151(it was extremely helpful because it atleast converted half of the script into junit test. My understanding is that the converter works on the older canon based master file. I think it takes sql delimited by ; from the canon file and assumes that next line is the output of that sql. So, the converter skipped every other sql from my setup script. I ended up hand putting every other line which was skipped by the converter. ) 
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2009-04-22T16:26:42.214074Z</S:date>
+</S:log-item>
+</S:log-report>

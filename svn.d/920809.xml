@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="920809"/>
+<S:open-directory rev="920808">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920809</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T11:28:03.753282Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="incubator" rev="920808">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920809</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T11:28:03.753282Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="aries" rev="920808">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920809</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T11:28:03.753282Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="920808">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920809</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T11:28:03.753282Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="samples" rev="920808">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920809</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T11:28:03.753282Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="blog-sample" rev="920809"/>
+<S:add-directory name="blog" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920809</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T11:28:03.753282Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">target
+</S:set-prop>
+<S:add-directory name="blog-persistence-jpa" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920779</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T10:35:03.232785Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="src" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920047</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-07T17:51:24.321811Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="main" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920047</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-07T17:51:24.321811Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="java" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/java">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919550</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T19:27:25.868296Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/java/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919550</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T19:27:25.868296Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/java/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919550</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T19:27:25.868296Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/java/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/java/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919550</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T19:27:25.868296Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="samples" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/java/org/apache/aries/samples">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/java/org/apache/aries/samples</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919550</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T19:27:25.868296Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="blog" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/java/org/apache/aries/samples/blog">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/java/org/apache/aries/samples/blog</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919550</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T19:27:25.868296Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="persistence" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/java/org/apache/aries/samples/blog/persistence">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/java/org/apache/aries/samples/blog/persistence</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919550</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T19:27:25.868296Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="BlogPersistenceServiceImpl.java" sha1-checksum="849c744b083b1a88e708a27f80d6cb02f07c75ce">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/java/org/apache/aries/samples/blog/persistence/BlogPersistenceServiceImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">918451</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-03T12:52:03.455825Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>65f0b17d6b2d8188f1fa7ad7d07fa16c</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="entity" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/java/org/apache/aries/samples/blog/persistence/entity">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/java/org/apache/aries/samples/blog/persistence/entity</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919550</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T19:27:25.868296Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="EntryImpl.java" sha1-checksum="dbc559958fc011a8304cc1b1db6c3249fdc72e2a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/java/org/apache/aries/samples/blog/persistence/entity/EntryImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919550</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T19:27:25.868296Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>b4dabdfe630dc829a4af8162404320a3</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="AuthorImpl.java" sha1-checksum="20e698b01c2cb56b6020a74348ef81de05060ec3">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/java/org/apache/aries/samples/blog/persistence/entity/AuthorImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">918451</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-03T12:52:03.455825Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>742c42f2659f5a6add0ec73b31924c1b</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="resources" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/resources">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/resources</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920047</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-07T17:51:24.321811Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="OSGI-INF" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/resources/OSGI-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/resources/OSGI-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920047</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-07T17:51:24.321811Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="blueprint" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/resources/OSGI-INF/blueprint">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/resources/OSGI-INF/blueprint</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920047</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-07T17:51:24.321811Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="blueprint.xml" sha1-checksum="85712448063f38d53ab940609b28c03b5c4e6c94">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/resources/OSGI-INF/blueprint/blueprint.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920047</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-07T17:51:24.321811Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>65755d8f062b6aee6987c98d74db87a2</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="META-INF" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/resources/META-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/resources/META-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919535</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T18:34:31.307376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="persistence.xml" sha1-checksum="58ac4b9f050ba91a3afb50043bd2ef3497f30160">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/src/main/resources/META-INF/persistence.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919535</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T18:34:31.307376Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>b41d41eda23054650eb80f533c01f333</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-file name="pom.xml" sha1-checksum="0dd70a389b6b3574b126a5e1cdb25747603deb0b">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jpa/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920779</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T10:35:03.232785Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>9407ffab1b11820a155380637d3fddef</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="blog-web" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-web">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920779</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T10:35:03.232785Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">target
+</S:set-prop>
+<S:add-directory name="src" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-web/src">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">910881</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-17T09:32:46.199946Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">irobins</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="main" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-web/src/main">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">910881</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-17T09:32:46.199946Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">irobins</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="java" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907419</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T13:23:18.179404Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907419</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T13:23:18.179404Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907419</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T13:23:18.179404Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907419</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T13:23:18.179404Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="samples" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache/aries/samples">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache/aries/samples</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907419</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T13:23:18.179404Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="blog" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache/aries/samples/blog">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache/aries/samples/blog</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907419</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T13:23:18.179404Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="web" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache/aries/samples/blog/web">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache/aries/samples/blog/web</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907419</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T13:23:18.179404Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="EditAuthor.java" sha1-checksum="7a7deed35dfd35e4d373264a5d5143e688a6f0b7">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache/aries/samples/blog/web/EditAuthor.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907408</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T10:01:10.481991Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>9b2c60fa728a58b2d9205e8ee4830be0</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="CreateBlogEntry.java" sha1-checksum="e4ff7efc62c1d6cef2d88320ac49eead8d9abb3f">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache/aries/samples/blog/web/CreateBlogEntry.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907408</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T10:01:10.481991Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>cc428e95d547b8ed741cb9a8bd2e1f96</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="AddComment.java" sha1-checksum="6dd14ccf1b1c5eb5c641eefa4aa5ada9ba40e9e4">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache/aries/samples/blog/web/AddComment.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907408</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T10:01:10.481991Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>7087e2d32c7ee1ed6f1b3ebb25c22810</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="EditAuthorForm.java" sha1-checksum="ee28b68d075c58805c7ed6aea8ca06cc2b66311a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache/aries/samples/blog/web/EditAuthorForm.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907408</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T10:01:10.481991Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>508bd1fc2489220d455253a025229777</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="CreateBlogEntryForm.java" sha1-checksum="08df5ef3aa66fa11e0cdf6f15fa3ae7f80e79d20">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache/aries/samples/blog/web/CreateBlogEntryForm.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907408</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T10:01:10.481991Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>8e7d49acf2b09ab90afc6fe4a9519fd1</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ViewAuthor.java" sha1-checksum="138cd46b81f01b6ad727e7d0aa902f08f00a9e8d">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache/aries/samples/blog/web/ViewAuthor.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907419</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T13:23:18.179404Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>1472262e054c5f03159307509401077f</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="util" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache/aries/samples/blog/web/util">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache/aries/samples/blog/web/util</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907419</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T13:23:18.179404Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="JNDIHelper.java" sha1-checksum="e75aa807f4093133abca505c3adc5bc1cf6a4182">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache/aries/samples/blog/web/util/JNDIHelper.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907408</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T10:01:10.481991Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>7a9a0ab0dc144c9ea4022e92e904a390</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="HTMLOutput.java" sha1-checksum="f3771750ee21e9e6cd227d8bd739a0b1e39f0e3f">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache/aries/samples/blog/web/util/HTMLOutput.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907419</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T13:23:18.179404Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>2930e265e2a497ff97ac3e6f4ba8b608</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="FormServlet.java" sha1-checksum="6cb21ef1f18bf940ca102c46f1ef43e77650e006">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache/aries/samples/blog/web/util/FormServlet.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>2f70fd1bf0eaac65aef9b9219ddd7d08</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-file name="ViewBlog.java" sha1-checksum="4d8d67b0bdf163898e30c44108dc88e2dc4bc2e3">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache/aries/samples/blog/web/ViewBlog.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907408</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T10:01:10.481991Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>ec47e93c2cb08b584a9ced79a6127730</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="AddCommentForm.java" sha1-checksum="62b4ea7d372778438fee57ea027b13843d8cb07c">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/java/org/apache/aries/samples/blog/web/AddCommentForm.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907408</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T10:01:10.481991Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>4ccda0bf2dda963341c5670c659e9611</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="resources" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">910881</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-17T09:32:46.199946Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">irobins</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="style" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources/style">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources/style</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907419</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T13:23:18.179404Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="blog.css" sha1-checksum="c0ccad22cb56a5d2a5efb8410433e95924587f57">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources/style/blog.css</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907419</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T13:23:18.179404Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>a712805210219838bb74fa5618ebe2f6</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="images" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources/images">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources/images</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">910881</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-17T09:32:46.199946Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">irobins</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="left-box-bottom.png" sha1-checksum="ba9476777fe756f0eebecaf1c9d92e583b1a4d2f">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources/images/left-box-bottom.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>3a9d616eac0e145c60657cdb23f9b49a</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="apache-incubator-logo.png" sha1-checksum="52cb6bbfdeb92ca741ca7ca1efa2f75efcb06986">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources/images/apache-incubator-logo.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>08e2e4cf30c9c12356541cae3af583bb</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="bg02-white-left-nogr.png" sha1-checksum="187e64205bb9185685c0674588999ea3df8b429d">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources/images/bg02-white-left-nogr.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>3cf8c7c56d62278a7fd917b2ffac064e</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="bg02-white-right-nogr.png" sha1-checksum="eb20bd6d66f6447d918929332e292c90265ebc23">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources/images/bg02-white-right-nogr.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>a04b0736d5c459d519d7a6b896b67f4b</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="bg02-purple-left.png" sha1-checksum="ed010a0123789cb7bb89c6647c5224093cd9e4dc">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources/images/bg02-purple-left.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>a4192dea9b52f99a77af25d3fa7bf222</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="bg.png" sha1-checksum="61f8a031019ee689a4ed1da6334d9f40f8786ed5">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources/images/bg.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>3b04d5230abf7618a72c3f65659cde4a</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="BigBullet.png" sha1-checksum="db493d371ea6498475330b38094d62349ae1eb10">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources/images/BigBullet.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>7817f7d11bfda729320b388e57cfdefb</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="bg02-purple-right.png" sha1-checksum="a893525679149a38129ec49294454654c07e2769">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources/images/bg02-purple-right.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>8cd362a2fda67977d3445ba39811ed93</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="left-box-right.png" sha1-checksum="9e47804148070bff752cf0f32a3357fa310439b3">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources/images/left-box-right.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>79d05a1153d9dc4f6e0db29067b1cfbd</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="Arieslogo_Horizontal.gif" sha1-checksum="9d6b586a864969e972d2a96677b038873665c729">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources/images/Arieslogo_Horizontal.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>812b0c827177ac454caddfe4cadeb178</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="left-box-top.png" sha1-checksum="62378ba80a175e8a43d7d100f5260c1c7fd6c71e">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources/images/left-box-top.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>248d9464e8d98d660e418aa7ce855e96</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="WEB-INF" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources/WEB-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources/WEB-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907408</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T10:01:10.481991Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="web.xml" sha1-checksum="697f75e84bb66247da1f0161cf132537986ca1b1">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources/WEB-INF/web.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907408</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T10:01:10.481991Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>d01d0a29157c7ec9c1c2034d2ccdba86</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-file name="index.html" sha1-checksum="aec30dd5187c16db228356e5f5b0332c98b79c99">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/src/main/resources/index.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">910184</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-15T09:13:08.250175Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>ceb37db47a42cdf6f4eba3efd1b472df</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-file name="pom.xml" sha1-checksum="05c15e026f0fd5726f6d26663e1163cdc540112f">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-web/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920779</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T10:35:03.232785Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>d4b9980026a685fcd688521bd59f2f84</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="blog-assembly" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-assembly">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-assembly</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920779</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T10:35:03.232785Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">target
+</S:set-prop>
+<S:add-file name="pom.xml" sha1-checksum="eac30cbb58d10bdb7e0288f8dc1ccb5266020380">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-assembly/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920779</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T10:35:03.232785Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>f33ab09e75df0f3ede45e11930da427e</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name=".settings" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-assembly/.settings">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-assembly/.settings</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919835</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-06T20:04:39.426669Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+</S:add-directory>
+<S:add-directory name="src" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-assembly/src">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-assembly/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919835</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-06T20:04:39.426669Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="main" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-assembly/src/main">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-assembly/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919835</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-06T20:04:39.426669Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="filtered-resources" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-assembly/src/main/filtered-resources">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-assembly/src/main/filtered-resources</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919835</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-06T20:04:39.426669Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="configuration" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-assembly/src/main/filtered-resources/configuration">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-assembly/src/main/filtered-resources/configuration</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919835</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-06T20:04:39.426669Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="config.ini" sha1-checksum="e66022a38eb3840a2e3107210c959fe9d0bd8597">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-assembly/src/main/filtered-resources/configuration/config.ini</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919835</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-06T20:04:39.426669Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>18a3ac96aeb3a10b1a7967e2274c2015</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="resources" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-assembly/src/main/resources">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-assembly/src/main/resources</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">918891</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-04T08:35:56.451751Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="blogDB.sql" sha1-checksum="35799d0f31f3b69b59ec4fee0542654ded806d9c">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-assembly/src/main/resources/blogDB.sql</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907406</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:57:13.997212Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>da1e4353bb48bd32efc5789cd9f92b8f</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="blog-jpa-eba" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-jpa-eba">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-jpa-eba</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920779</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T10:35:03.232785Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="pom.xml" sha1-checksum="e03458e45625555a138921b47b20e9ac31073fe7">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-jpa-eba/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920779</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T10:35:03.232785Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>adc6e560f55330f532c74da82dfea4b9</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-file name="NOTICE" sha1-checksum="97c92650e1f9ce20b0b9e82b6effb9653f0d5541">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/NOTICE</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">914990</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-22T17:56:51.878662Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hughesj</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>89f87b8f96661ac6a52bc30c3ed02573</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="LICENSE" sha1-checksum="5a7d7df655ba40478fae80a6abafc6afc36f9b6a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/LICENSE</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">914990</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-22T17:56:51.878662Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hughesj</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>b1e01b26bacfc2232046c90a330332b3</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="blog-biz" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-biz">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920779</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T10:35:03.232785Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">target
+</S:set-prop>
+<S:add-directory name="src" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-biz/src">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907404</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:53:02.322203Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="main" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907404</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:53:02.322203Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="resources" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/resources">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/resources</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907404</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:53:02.322203Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="OSGI-INF" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/resources/OSGI-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/resources/OSGI-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907404</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:53:02.322203Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="blueprint" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/resources/OSGI-INF/blueprint">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/resources/OSGI-INF/blueprint</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907404</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:53:02.322203Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="blueprint.xml" sha1-checksum="40e8375f50b325371c73be09291f7938facf1b2d">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/resources/OSGI-INF/blueprint/blueprint.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907404</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:53:02.322203Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>6acbea98b0cb2eeba8ca6516d419d72a</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="java" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/java">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907404</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:53:02.322203Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/java/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907404</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:53:02.322203Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/java/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907404</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:53:02.322203Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/java/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/java/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907404</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:53:02.322203Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="samples" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/java/org/apache/aries/samples">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/java/org/apache/aries/samples</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907404</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:53:02.322203Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="blog" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/java/org/apache/aries/samples/blog">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/java/org/apache/aries/samples/blog</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907404</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:53:02.322203Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="BlogEntryManagerImpl.java" sha1-checksum="fb9b06f8524070e7bc8dc53465118c538b937318">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/java/org/apache/aries/samples/blog/BlogEntryManagerImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907404</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:53:02.322203Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>82064af49293d544dc6eb3facaa9f3f0</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="BlogAuthorManagerImpl.java" sha1-checksum="d87fbe621502ccb53a48c83452a6087736d4b694">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/java/org/apache/aries/samples/blog/BlogAuthorManagerImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907404</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:53:02.322203Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>e53459ae84adf70040009db5effcd585</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="BlogCommentManagerImpl.java" sha1-checksum="53452114a849c7b35ea8cf6f504cdf33a9e94e7e">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/java/org/apache/aries/samples/blog/BlogCommentManagerImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907404</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:53:02.322203Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>2f2c46cacefa0506d69a3a34a2163364</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="BlogImpl.java" sha1-checksum="f2f012e0fd4188d5bf51ed884c4b2a5c6118d0ba">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/java/org/apache/aries/samples/blog/BlogImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907404</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:53:02.322203Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>031e2150fbd74f0e8a00928a396669ad</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="BlogEntryImpl.java" sha1-checksum="0e1d6ab31ed3c5d970150f76b80f0770062f1acb">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/java/org/apache/aries/samples/blog/BlogEntryImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907404</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:53:02.322203Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>5178e0d4d411d81a8fe6222f92b285dc</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="BlogAuthorImpl.java" sha1-checksum="0eebdae67b1aba7ff151f0805102fb697512b698">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/java/org/apache/aries/samples/blog/BlogAuthorImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907404</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:53:02.322203Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>26b9d689285e1932e3c5f5651cc2d939</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="BlogCommentImpl.java" sha1-checksum="1e138963ddc445bb32a7350e6ad4d3685cf2a891">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/java/org/apache/aries/samples/blog/BlogCommentImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907404</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:53:02.322203Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>290ff07b33d504d516f4901292719c16</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="BloggingServiceImpl.java" sha1-checksum="2a86dbd7c0876c0b4d2df42d008332eb1cc7e463">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz/src/main/java/org/apache/aries/samples/blog/BloggingServiceImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907404</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:53:02.322203Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>b97703f61a29f7a38d09ddf0ebf90159</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-file name="pom.xml" sha1-checksum="18cc5f9a2b8ad76290d327055da1dc1c971003f5">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-biz/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920779</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T10:35:03.232785Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>03a636fb68348f190fe2bc946ee292aa</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="blog-persistence-jdbc" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920779</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T10:35:03.232785Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">target
+</S:set-prop>
+<S:add-directory name="src" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">915800</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-24T14:26:33.102676Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="main" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">915800</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-24T14:26:33.102676Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="resources" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/resources">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/resources</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">915049</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-22T20:33:33.562151Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="OSGI-INF" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/resources/OSGI-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/resources/OSGI-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">915049</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-22T20:33:33.562151Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="blueprint" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/resources/OSGI-INF/blueprint">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/resources/OSGI-INF/blueprint</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">915049</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-22T20:33:33.562151Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="blueprint.xml" sha1-checksum="97082c43313aa96c1c1939fc14ab4a593b5c66c9">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/resources/OSGI-INF/blueprint/blueprint.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">915049</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-22T20:33:33.562151Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>d43e47f7c76e8d49fc753edc9dada29d</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="META-INF" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/resources/META-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/resources/META-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">915049</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-22T20:33:33.562151Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="java" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/java">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">915800</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-24T14:26:33.102676Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/java/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">915800</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-24T14:26:33.102676Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/java/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">915800</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-24T14:26:33.102676Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/java/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/java/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">915800</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-24T14:26:33.102676Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="samples" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/java/org/apache/aries/samples">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/java/org/apache/aries/samples</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">915800</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-24T14:26:33.102676Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="blog" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/java/org/apache/aries/samples/blog">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/java/org/apache/aries/samples/blog</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">915800</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-24T14:26:33.102676Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="persistence" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/java/org/apache/aries/samples/blog/persistence">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/java/org/apache/aries/samples/blog/persistence</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">915800</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-24T14:26:33.102676Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="BlogPersistenceServiceImpl.java" sha1-checksum="5d2bfd4345fdf725edfcb8ce42bfeac3eda2934a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/java/org/apache/aries/samples/blog/persistence/BlogPersistenceServiceImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">915800</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-24T14:26:33.102676Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>6c6c2f793530e4c60b2f653ea112e3e2</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="entity" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/java/org/apache/aries/samples/blog/persistence/entity">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/java/org/apache/aries/samples/blog/persistence/entity</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">915049</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-22T20:33:33.562151Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="EntryImpl.java" sha1-checksum="2c3da4bc5b3228aceb649068e3cf0be120023632">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/java/org/apache/aries/samples/blog/persistence/entity/EntryImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">915049</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-22T20:33:33.562151Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>bfaada74438a0c05d2e307d5f180ef0a</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="AuthorImpl.java" sha1-checksum="7b1814bfc4c031b63bb729e977ad065fdf619df2">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/src/main/java/org/apache/aries/samples/blog/persistence/entity/AuthorImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">915049</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-22T20:33:33.562151Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>d8d92bb3736c513f21846ff5fab542bf</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-file name="pom.xml" sha1-checksum="ff9937ff4efe7946f2182de458cc0f95f4916a85">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-persistence-jdbc/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920779</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T10:35:03.232785Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>d17225359da9f070b1a20561afa68198</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="blog-jdbc-eba" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-jdbc-eba">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-jdbc-eba</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920784</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T10:43:43.494003Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="pom.xml" sha1-checksum="c0a827fae2f4ffb695a89e11130aa70c2fa86340">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-jdbc-eba/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920784</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T10:43:43.494003Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>72cd5800459ab873b8f651fd56c1e0dd</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="blog-api" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-api">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920779</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T10:35:03.232785Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">target
+</S:set-prop>
+<S:add-directory name="src" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-api/src">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="main" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-api/src/main">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="java" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="samples" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="blog" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="persistence" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/persistence">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/persistence</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="api" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/persistence/api">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/persistence/api</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="Entry.java" sha1-checksum="61c2ad6b3a1e3dc85f1cfff59b9590ff5db0c861">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/persistence/api/Entry.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>df9b444420d8981e5b0c0a1206dee4bc</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="Author.java" sha1-checksum="51dae5d0a58105e359b8597f9d2c45ce2ac224c4">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/persistence/api/Author.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>96284343958d357e5d069cf8f8fdd1fe</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="BlogPersistenceService.java" sha1-checksum="ed1397966e5f136edc9ac8fbe609f20847c862d9">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/persistence/api/BlogPersistenceService.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>3a09ca520bac6f8242c8b46b7b839c23</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="api" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/api">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/api</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="BlogEntryManager.java" sha1-checksum="d5fcaef5291ffddbfa3a28e878b9aba3820cdd10">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/api/BlogEntryManager.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>25a6ca7b2343e202d82acec5f1b99b4b</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="BlogAuthorManager.java" sha1-checksum="ff9a93038cdf5816239482b3600a402d101cab2b">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/api/BlogAuthorManager.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>41f7ae646d48c282135abc2e933d79da</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="BlogCommentManager.java" sha1-checksum="d89d1f12f3ac714c57ab7f6caba1c44d36b7e535">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/api/BlogCommentManager.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>18344080d542f4a0605328c4546f18a0</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="Blog.java" sha1-checksum="dcf771bf4cc35897349a8772ff01eff4e17f3810">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/api/Blog.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>1c13b4e2c6021d6e9eff5a8d6d7a76c8</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="BlogEntry.java" sha1-checksum="6a8a65ad7a3cd7c0bc5a858c6ff87a6c91f38db5">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/api/BlogEntry.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>7bb3fe1d5cd515310c87178338736fbe</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="BlogAuthor.java" sha1-checksum="27254f98dc5358de02bdc7c2fdea3fd9354f50da">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/api/BlogAuthor.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>2969239ec2c40fb9aebe1a8b1b515916</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="BlogComment.java" sha1-checksum="b3307e012ca4004b44b997fba45c5e9869c0c952">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/api/BlogComment.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>0d3dcb88d68e71024c125d02da8e2945</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="BloggingService.java" sha1-checksum="1869891668aa4541ec64ce5b0be0c5c2af3d5913">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/api/BloggingService.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>f3dea6ad05f46af6081aed745539a67d</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="comment" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/comment">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/comment</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="persistence" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/comment/persistence">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/comment/persistence</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="api" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/comment/persistence/api">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/comment/persistence/api</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="Comment.java" sha1-checksum="f261aa66bec9529cb014b3a78c7a67a131ed1ba8">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/comment/persistence/api/Comment.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>fdca941912e015c701d7cc0aaf6d21aa</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="BlogCommentService.java" sha1-checksum="12543bb7c6a21bcbd256c651c4e2dbef84ef9406">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/src/main/java/org/apache/aries/samples/blog/comment/persistence/api/BlogCommentService.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">907405</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-07T09:56:17.808492Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>d1272b693e6f65fed8f201aaa98e270a</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-file name="pom.xml" sha1-checksum="30af07f1be854b4e39e5b7998011ec3847d5c8fb">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-api/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920779</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T10:35:03.232785Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>f57cb23b52db9b951ca9d9b032e6a261</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-file name="pom.xml" sha1-checksum="5b56524e018be20aaab99a39b332928810c5f291">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920784</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T10:43:43.494003Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>48145986d3f4dc9f26c0f64e9f703302</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="blog-datasource" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-datasource">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-datasource</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920779</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T10:35:03.232785Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="src" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-datasource/src">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-datasource/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919651</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T22:23:55.706865Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="main" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919651</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T22:23:55.706865Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="resources" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/resources">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/resources</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919651</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T22:23:55.706865Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="OSGI-INF" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/resources/OSGI-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/resources/OSGI-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919651</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T22:23:55.706865Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="blueprint" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/resources/OSGI-INF/blueprint">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/resources/OSGI-INF/blueprint</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919651</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T22:23:55.706865Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="dataSource.xml" sha1-checksum="fa7baceadf4c7a32a2c1b065658aa7972f72cc3c">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/resources/OSGI-INF/blueprint/dataSource.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919651</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T22:23:55.706865Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>dbb8528af009a311ca78e2c5834e05fe</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="java" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/java">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919650</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T22:23:05.721230Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/java/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919650</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T22:23:05.721230Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/java/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919650</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T22:23:05.721230Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/java/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/java/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919650</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T22:23:05.721230Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="samples" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/java/org/apache/aries/samples">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/java/org/apache/aries/samples</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919650</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T22:23:05.721230Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="blog" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/java/org/apache/aries/samples/blog">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/java/org/apache/aries/samples/blog</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919650</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T22:23:05.721230Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="datasource" bc-url="/repos/asf/!svn/bc/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/java/org/apache/aries/samples/blog/datasource">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/java/org/apache/aries/samples/blog/datasource</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919650</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T22:23:05.721230Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="ConnectionWrapper.java" sha1-checksum="468123f19b9eb9c1a423d3b649a91837730ce28e">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/java/org/apache/aries/samples/blog/datasource/ConnectionWrapper.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919650</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T22:23:05.721230Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>3fd2183f15c44c6342eaf99ee16e6fb7</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="XADatasourceEnlistingWrapper.java" sha1-checksum="c6539c60666de8f37d44a170c890edd99b9d3397">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-datasource/src/main/java/org/apache/aries/samples/blog/datasource/XADatasourceEnlistingWrapper.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">919650</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-05T22:23:05.721230Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>bb191002bccac1e78f3aa44fbd1d5ff5</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-file name="pom.xml" sha1-checksum="e583e68e38d00d2441e10b6fd243f39377f7a596">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/920809/incubator/aries/trunk/samples/blog/blog-datasource/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">920779</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-09T10:35:03.232785Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>6f4089f58aa4e45798a309c138e6f207</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

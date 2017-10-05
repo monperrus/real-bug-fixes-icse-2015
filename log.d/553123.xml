@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>553123</D:version-name>
+<D:comment>DERBY-2891: Clob.getCharacterStream(long,long) ignores position
+parameter for large (&gt;32k) CLOBs
+
+Merged fix from trunk (revision 553111).
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-07-04T08:24:50.391153Z</S:date>
+</S:log-item>
+</S:log-report>

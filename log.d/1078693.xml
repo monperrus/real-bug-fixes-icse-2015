@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1078693</D:version-name>
+<D:comment>DERBY-5079 (DERBY-4984 caused a regression which will not allow users to drop a table if the table was involved in a trigger action rebind during ALTER TABLE DROP COLUMN)
+
+Trigger action sql should be rebound using the statement and not the trigger table. Also, dependency between the trigger table and trigger action SPS should be established.
+
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-03-07T06:30:50.400458Z</S:date>
+</S:log-item>
+</S:log-report>

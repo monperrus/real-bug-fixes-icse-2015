@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>432569</D:version-name>
+<D:comment>Fixed bug in setUp causing it to only start server when running in embedded mode. Removed import of ..functionalTests.util package.</D:comment>
+<D:creator-displayname>andreask</D:creator-displayname>
+<S:date>2006-08-18T13:05:45.147324Z</S:date>
+</S:log-item>
+</S:log-report>

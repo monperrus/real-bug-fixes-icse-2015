@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1384589</D:version-name>
+<D:comment>DERBY-5638; intermittent test failure in test_05_ClobNegative when running full largedata._Suite; LobLimitsTestjava.sql.SQLException: Table/View 'BLOBTBL' already exists in Schema 'APP'.
+  backporting revision 1298907, 1300459, 1301109, 1303630 and 1305524 from trunk.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2012-09-13T22:52:57.668661Z</S:date>
+</S:log-item>
+</S:log-report>

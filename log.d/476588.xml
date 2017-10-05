@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>476588</D:version-name>
+<D:comment>DERBY-1850 - jdbcapi/SURTest_ij.sql fails on IBM WCTME 5.7 Foundation (jdkJ2ME Spec v1.0)
+- added the required ij.dataSource settings 
+- added sedding of first CONNECTION line, to avoid extra master
+
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2006-11-18T19:02:54.635663Z</S:date>
+</S:log-item>
+</S:log-report>

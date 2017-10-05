@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>509419</D:version-name>
+<D:comment>DERBY-2295 Change DropDatabaseSetup to be explicit about which database it is removing and
+ensure that database is shutdown first. Does not assume the current database
+is the one to be shutdown.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-02-20T03:24:12.975082Z</S:date>
+</S:log-item>
+</S:log-report>

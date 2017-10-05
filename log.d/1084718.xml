@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1084718</D:version-name>
+<D:comment>DERBY-5121 Data corruption when executing an UPDATE trigger
+
+Committing changes to back out DERBY-1482 out of trunk(10.8 codeline). The changes have already been backed out of 10.7). In addition to engine code backport, it will also disable the tests that were added for DERBY-1482.
+
+With DERBY-1482, these tests would not read in large object columns into memory because the triggers didn't need them. But now that DERBY-1482 changes are being backed out, the large object columns will be read in which can cause the test to run out of memory depending on how much heap is available to it. I will disable the tests from 10.7 too.
+
+This commit also has a comment in DataDictionaryImpl:getTriggerActionString explaining the code changes for backout. I will add that comment in 10.7 too.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-03-23T20:16:31.480878Z</S:date>
+</S:log-item>
+</S:log-report>

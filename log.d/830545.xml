@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>830545</D:version-name>
+<D:comment>DERBY-4120: derbyclient.jar is not a complete OSGi bundle
+
+OSGi bundles are JAR files with special information in their manifest to
+enable the OSGi class loader to provide dynamic load/unload functionality.
+
+This change adds some additional information to the manifest of
+derbyclient.jar to support its use as an OSGi bundle. In particular,
+it marks the org.apache.derby.jdbc package as exported, since that package
+contains the ClientDriver and ClientDataSource classes which applications
+are likely to use directly.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2009-10-28T13:59:27.193996Z</S:date>
+</S:log-item>
+</S:log-report>

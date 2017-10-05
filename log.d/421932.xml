@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>421932</D:version-name>
+<D:comment>DERBY-836 Fix metadata information for DECIMAL columns.
+There are 3 possible cases with respect to finding the correct maximum width for DECIMAL type.
+
+1. If scale = 0, only sign should be added to precision to compute max width.
+2. scale = precision, in this case 3 should be added to precision for sign, decimal and an additional char '0'.
+3. precision &gt; scale &gt; 0, 2 shoud be added to precision for sign and decimal. 
+
+Patch submitted by Mayuresh Nirhali - Mayuresh.Nirhali@Sun.COM
+
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-07-14T16:04:03.053958Z</S:date>
+</S:log-item>
+</S:log-report>

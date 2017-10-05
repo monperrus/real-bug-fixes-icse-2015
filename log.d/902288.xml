@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>902288</D:version-name>
+<D:comment>DERBY-4524: Incorrect DROP FUNCTION logic in AccessTest's tearDown() method
+
+Removed the tearDown() method since it did not do anything (DROP
+FUNCTION would always fail with no connection) and was not
+needed (a CleanDatabaseTestSetup decorator already took care of
+dropping the function).</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-01-22T21:43:24.838734Z</S:date>
+</S:log-item>
+</S:log-report>

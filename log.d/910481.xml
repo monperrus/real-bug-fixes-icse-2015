@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>910481</D:version-name>
+<D:comment>DERBY-3844: ASSERT failure in BasePage.unlatch() when running LobStreamsTest 
+
+Rewrote test to only call getX once per column per row, as calling for instance
+getBlob twice on a given column on the same row will be disallowed.
+Also removed some unused code.
+
+Patch file: derby-3844-2a-jdbcdriver_test_rewrite.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-02-16T11:28:19.318358Z</S:date>
+</S:log-item>
+</S:log-report>

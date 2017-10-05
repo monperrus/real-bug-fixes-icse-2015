@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>887481</D:version-name>
+<D:comment>Change convertFromDiskFormat to use substring splitting vs using split operation (slow). patch by goffinet; reviewed by stuhood for CASSANDRA-581</D:comment>
+<D:creator-displayname>goffinet</D:creator-displayname>
+<S:date>2009-12-05T01:44:41.167743Z</S:date>
+</S:log-item>
+</S:log-report>

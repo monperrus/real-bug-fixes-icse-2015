@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1164358</D:version-name>
+<D:comment>DERBY-5390: NPE in BasicDatabase.stop in replication slave mode (dd.clearSequenceCaches)
+
+Added check to see if the data dictionary is available.
+
+Patch file: derby-5390-1a_check_for_null.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-09-02T06:32:53.548511Z</S:date>
+</S:log-item>
+</S:log-report>

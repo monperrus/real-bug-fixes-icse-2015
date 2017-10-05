@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>615458</D:version-name>
+<D:comment>DERBY-3343: Subsequent calls to PreparedStatement cause SQLIntegrityConstraintViolationException on column that is "Generated always"
+
+Modifies the logic in ResultColumn.getOrderableVariantType() so that it behaves
+correctly even when a default column is explicitly mentioned in an insert statement.
+
+Merged with svn merge -r 615202:615203 ../derby-commit
+
+Simple merge with no conflicts; no additional changes were necessary.
+</D:comment>
+<D:creator-displayname>dyre</D:creator-displayname>
+<S:date>2008-01-26T16:06:23.636754Z</S:date>
+</S:log-item>
+</S:log-report>

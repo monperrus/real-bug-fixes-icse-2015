@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>588698</D:version-name>
+<D:comment>DERBY-3148: Fix JUnit test code that searches for Xalan version to
+avoid "Malformed \uxxxx encoding" errors when the user's classpath
+has "\u.." in it.
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2007-10-26T16:13:25.325247Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>619772</D:version-name>
+<D:comment>DERBY-3304
+
+Some code cleanup in GenericLanguageConnectionContext.endTransactionActivationHandling so the code is more readable.
+No functionality change, just consolidated various if statements and used some local variables to replace repeated
+method calls like a.getResultSet() and a.getResultSet().returnsRows()
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2008-02-08T05:42:05.718868Z</S:date>
+</S:log-item>
+</S:log-report>

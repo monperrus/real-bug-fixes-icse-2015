@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>961271</D:version-name>
+<D:comment>DERBY-1425: testProtocol hangs with 10.1 client talking to 10.2 server
+
+Clear more fields in DDMReader's initialize() method to prevent old
+state from being kept and affecting subsequent sessions.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-07-07T07:32:55.373309Z</S:date>
+</S:log-item>
+</S:log-report>

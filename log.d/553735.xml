@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>553735</D:version-name>
+<D:comment>DERBY-2777
+
+TernaryOperatorNode was incorrectly setting up collation for non-character string type. Collation only applies to character
+string types. Also, fixed a comment to be more meaningful.
+
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-07-06T05:13:13.133893Z</S:date>
+</S:log-item>
+</S:log-report>

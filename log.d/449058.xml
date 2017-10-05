@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>449058</D:version-name>
+<D:comment>DERBY-1854
+contributed by suresht
+merging change from trunk to 10.1 codeline.
+
+DERBY-1854 (SYSCS_COMPRESS_TABLE corrupts table with a single column which is bo
+th a primary key and a foreign key)
+
+Problem was all the conglomerate descriptor entries in sys.sysconglomerates
+were not getting updated with new conglomerate number generated for an index
+during compress/bulk-insert, when an index is shared. Update code was assuming
+conglomerate id is common when an index is shared, but that is not correct.
+ConglomerateID's in sys.sysconglomerates are unique.
+
+This patch modifies the update conglomerate descriptor code to update each
+conglomerate descriptor separately using conglomerateID as the key, when
+there are more than one conglomerate descriptor referring to the same
+conglomerate(conglomerate number).
+
+This patch also adds a test-case to test import into a table that has the same c
+olumn as a primary key and foreign key,  import was also causing corruption beca
+use of the same problem.  See DERBY-1641 , for details.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-09-22T19:17:47.490236Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>517131</D:version-name>
+<D:comment>DERBY-2220: Uncommitted transactions executed through XAResource will
+hold locks after the application terminates (or crashes during the
+transaction).
+
+Abort the global transaction on a derby server when the network socket
+is closed.
+
+Patch contributed by Julius Stroffek.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-03-12T08:40:06.298032Z</S:date>
+</S:log-item>
+</S:log-report>

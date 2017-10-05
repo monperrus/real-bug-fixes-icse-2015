@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>376804</D:version-name>
+<D:comment>DERBY-907 regression test failure in RecoveryAfterBackup on wssd5.6 ibm jvm (j2me)
+
+* Modifies app_properties files to add ij.dataSource properties. Also changed 'database' to 'ij.database' property. Removed usedefaults to avoid conflict with default property.
+* Adds a method getConnection to TestUtil to get connection using different set of attributes than what is specified in _app.properties file.
+* Changes the test store/RecoveryAfterBackup to use the above method to shutdown and get connection. I'll change other tests to use the new method in a later patch.
+
+With the patch, I ran the RecoveryAfterBackup tests with Sun JDK1.4.2, j9 and j9 foundation vm. 
+
+Contributed by Deepa Remesh
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-02-10T19:22:37.829083Z</S:date>
+</S:log-item>
+</S:log-report>

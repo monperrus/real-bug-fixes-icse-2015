@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>377609</D:version-name>
+<D:comment>DERBY-176 DERBY-776 Add the initial utility code and split algorithm
+to split a single generated method that execeeds the java virtual
+machine limit of 65535 bytes of instructions. Allows the byte-code api
+caller to generate code without worrying about exceeding the limit.
+The initial split algorithm is the ability to split methods
+that consist of multiple independent statements, seen by the stack
+depth dropping to zero after a statement.
+In the largeCodeGen test this change allowed the number of parameters
+in the IN list query to increase from 3,400 to 97,000. The limit hit
+at 98,000 was the number of constant pool entries.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-02-14T04:20:11.468033Z</S:date>
+</S:log-item>
+</S:log-report>

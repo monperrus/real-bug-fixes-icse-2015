@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>535548</D:version-name>
+<D:comment>fixing a request parsing bug.  When posting "application/x-www-form-urlencoded" and including a charset, application/x-www-form-urlencoded; charset=utf-8, the parser would treat the body as raw content.
+
+This includes tests to repeat the error.
+
+It also adds easymock.jar to lib, and excludes it from distribution.</D:comment>
+<D:creator-displayname>ryan</D:creator-displayname>
+<S:date>2007-05-05T17:14:22.744423Z</S:date>
+</S:log-item>
+</S:log-report>

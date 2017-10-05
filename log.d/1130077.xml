@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1130077</D:version-name>
+<D:comment>DERBY-5253: Engine code references org.apache.derby.shared.common.sanity.SanityManager
+
+Replaced references to common.sanity with iapi.services.sanity.
+
+Patch file: derby-5253-1a-engine_imports.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-06-01T10:01:29.045277Z</S:date>
+</S:log-item>
+</S:log-report>

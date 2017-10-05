@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1353852</D:version-name>
+<D:comment>DERBY-5830: Make DoubleProperties.propertyNames() thread-safe
+
+Don't store the property values in the intermediate Hashtable as they
+are not needed. They may be null if the Properties instances are
+modified after the recursive calls to Properties.propertyNames(), and
+trying to store a null value in a Hashtable results in a
+NullPointerException, causing issues such as DERBY-4269.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-06-26T08:11:58.636326Z</S:date>
+</S:log-item>
+</S:log-report>

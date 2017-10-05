@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>901930</D:version-name>
+<D:comment>Ignore non-members in hinted location search. Find hint location based on proximity, not token order. Patch by jaakko, reviewed by jbellis. CASSANDRA-722</D:comment>
+<D:creator-displayname>jaakko</D:creator-displayname>
+<S:date>2010-01-22T00:00:07.495853Z</S:date>
+</S:log-item>
+</S:log-report>

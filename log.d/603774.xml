@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>603774</D:version-name>
+<D:comment>DERBY-3244
+
+backport svn 603375 from trunk to 10.3.
+
+In the case of a wait for a latch while traveling left at leaf level, and
+a subsequent wait for either a lock or another latch while looking for row
+to lock then one path through the code would get a null pointer.  The code
+was trying to release a latch that had already been released and was tracked
+by "current_leaf == null".
+
+I could not get this to fail in my environment, but did force it by code
+inspection and changing the path through the code by hand to mimic latch
+waits.  My assumption is that intermittently on some platforms this single
+threaded test is competing for these latches with background deleted row
+cleaner thread, probably on a fast multiple processor machine.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2007-12-12T23:14:59.570615Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>710070</D:version-name>
+<D:comment>DERBY-3825: StoreStreamClob.getReader(charPos) performs poorly.
+Backported patches 1a, 2b and 3a (revisions 689803, 704547 and 710033) from trunk to the 10.4 branch.
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-11-03T14:43:05.821870Z</S:date>
+</S:log-item>
+</S:log-report>

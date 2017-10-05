@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>961903</D:version-name>
+<D:comment>DERBY-4738: correct error prompt for nonpositive length in Blob.setBytesX()
+
+Move declaration and initialization of the length variable later so that
+bugs of this kind could be detected at compile time.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-07-08T19:46:36.262189Z</S:date>
+</S:log-item>
+</S:log-report>

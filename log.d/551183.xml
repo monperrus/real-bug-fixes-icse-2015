@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>551183</D:version-name>
+<D:comment>DERBY-2809 (partial) Cleanup the handling of nodes under UnaryOperatorNode to ensure
+parameters (nodes requiring type to be set from the context) are handled consistently.
+This includes moving logic to the node (UnaryArithmeticOperatorNode) that "owns" it rather than having it in the
+parent class (UnaryOperatorNode).</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-06-27T14:50:44.661222Z</S:date>
+</S:log-item>
+</S:log-report>

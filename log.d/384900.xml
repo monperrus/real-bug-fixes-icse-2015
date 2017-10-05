@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>384900</D:version-name>
+<D:comment>DERBY-1095 (partial) Ensure on a close connection/session contexts are popped off the
+context manager. This ensures that references to database wide objects
+are not maintained after a close connection.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-03-10T19:10:49.499274Z</S:date>
+</S:log-item>
+</S:log-report>

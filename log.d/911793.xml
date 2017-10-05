@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>911793</D:version-name>
+<D:comment>DERBY-3844: ASSERT failure in BasePage.unlatch() when running LobStreamsTest 
+
+Disallows calling getBlob or getClob more than once on a given LOB column
+(on the same result set row). See release note for details, this change may
+break existing applications.
+
+Patch file: derby-3844-1c-disallow_multiple_accesses.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-02-19T12:15:16.298743Z</S:date>
+</S:log-item>
+</S:log-report>

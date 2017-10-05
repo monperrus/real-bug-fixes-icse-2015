@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>432645</D:version-name>
+<D:comment>DERBY-244: with linux, depending on env setting $LANG and console
+encoding, some i18n tests fail
+
+  * Run the i18n tests run with -Dfile.encoding=UTF-8 and
+    -Dconsole.encoding=UTF-8
+  * Use UTF-8 encoding in ProcessStreamResult for the i18n tests
+  * Make Sed.java read result files from i18n tests using UTF-8 encoding
+  * Respect the derby.ui.codeset setting in i18n tests, and use UTF-8 if it
+    is not specified.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-08-18T17:15:37.661632Z</S:date>
+</S:log-item>
+</S:log-report>

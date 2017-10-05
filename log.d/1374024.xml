@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1374024</D:version-name>
+<D:comment>Merged revision(s) 1374022 from lucene/dev/trunk:
+Better verbosity, also fix bug in while loop with char==0.
+I have one explanation for this: Maybe Apaches SVN server returns something (like error message) that's not UTF8?</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2012-08-16T19:56:09.412946Z</S:date>
+</S:log-item>
+</S:log-report>

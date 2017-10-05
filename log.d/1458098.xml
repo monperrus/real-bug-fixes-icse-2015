@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1458098</D:version-name>
+<D:comment>SOLR-4578: CoreAdminHandler#handleCreateAction gets a SolrCore and does not close it in SolrCloud mode when a core with the same name already exists.</D:comment>
+<D:creator-displayname>markrmiller</D:creator-displayname>
+<S:date>2013-03-19T03:05:47.629248Z</S:date>
+</S:log-item>
+</S:log-report>

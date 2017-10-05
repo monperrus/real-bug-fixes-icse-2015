@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>545709</D:version-name>
+<D:comment>DERBY-2777
+Earlier checkins 543266 and 542646 were incorrectly trying to set collation for DATA and TIME DataTypeDescriptors. With this checkin, I am
+removing that code. Collation only applies to character string types. 
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-06-09T08:08:13.939201Z</S:date>
+</S:log-item>
+</S:log-report>

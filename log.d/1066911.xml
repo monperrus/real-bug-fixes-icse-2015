@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1066911</D:version-name>
+<D:comment>DERBY-5001 Intermittent bug in InterruptResilienceTest
+
+Fix to allow for lock interrupts during writing in the MT RAF test fixture.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-02-03T19:11:29.488024Z</S:date>
+</S:log-item>
+</S:log-report>

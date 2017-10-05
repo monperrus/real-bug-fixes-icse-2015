@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>642339</D:version-name>
+<D:comment>LUCENE-1251: be sure to close the descriptor even if super.close() hits an exception, in FSIndexOutput.close</D:comment>
+<D:creator-displayname>mikemccand</D:creator-displayname>
+<S:date>2008-03-28T19:10:58.662436Z</S:date>
+</S:log-item>
+</S:log-report>

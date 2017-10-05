@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>603980</D:version-name>
+<D:comment>Merging changes from trunk(603823) into 10.3 codeline for DERBY-3261 and part of DERBY-3037 
+
+The commit comments for trunk were as follows
+
+The outerjoin.sql was failing because the part of the runtime statistcis info was getting erased before LanguageResultSet.close() code collected it all. I moved the erasing of runtime stat code so that it happened once the stat was collected successfully. 
+
+In addition, I removed redundant code of closing and finishing the LanguageResultSet from EmbedResultSet.java because these steps happen as part of activation.close 
+
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-12-13T18:59:08.257813Z</S:date>
+</S:log-item>
+</S:log-report>

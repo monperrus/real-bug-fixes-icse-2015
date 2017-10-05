@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>726695</D:version-name>
+<D:comment>DERBY-3977: Clob.truncate with a value greater than the Clob length raises different exceptions in embedded and client driver.
+Changed the exception thrown in the embedded driver when calling Clob.truncate with a length greater than the Clob length from XJ076 to XJ079 (see also release note).
+The client and the embedded driver behavior is now consistent.
+Updated tests.
+
+Patch file: derby-3977-1a-change_emb_exception.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-12-15T13:47:59.972773Z</S:date>
+</S:log-item>
+</S:log-report>

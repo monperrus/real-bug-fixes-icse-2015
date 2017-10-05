@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>55075</D:version-name>
+<D:comment>Separate some JDBC 2 code from the JSR169 classes.
+
+1) BrokeredConnections are only used for pooling connections,
+   thus should not be referenced by the Driver169 class.
+
+2) Simple fix to stop the BasicDatabase referencing XA classes
+through an import of ResourceAdapter.
+
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2004-10-19T17:05:22.445997Z</S:date>
+</S:log-item>
+</S:log-report>

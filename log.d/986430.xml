@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>986430</D:version-name>
+<D:comment>separate CFS dir cleanup from CFS instantiation. fixes race condition. patch by gdusbabek, reviewed by jbellis. CASSANDRA-1382
+</D:comment>
+<D:creator-displayname>gdusbabek</D:creator-displayname>
+<S:date>2010-08-17T18:10:26.928981Z</S:date>
+</S:log-item>
+</S:log-report>

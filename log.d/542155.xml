@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>542155</D:version-name>
+<D:comment>DERBY-2701: many sealing violation errors in ibm142 and ibm15 jvm test
+runs of junit tests
+
+Sealed org.apache.derby.iapi.error and org.apache.derby.impl.jdbc in
+derby.jar.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-05-28T08:45:43.480158Z</S:date>
+</S:log-item>
+</S:log-report>

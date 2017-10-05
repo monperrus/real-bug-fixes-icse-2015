@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>408502</D:version-name>
+<D:comment>Put setIO permission back for derbyTesting.jar and codeclasses. Nist runs with
+useprocess=false, so the harness needs this permission to change the system
+out and error streams in execTestNoProcess(). Also remove some empty files
+left by previous DERBY-892 checkin.
+</D:comment>
+<D:creator-displayname>fuzzylogic</D:creator-displayname>
+<S:date>2006-05-21T22:01:29.684729Z</S:date>
+</S:log-item>
+</S:log-report>

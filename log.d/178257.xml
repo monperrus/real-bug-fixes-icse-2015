@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>178257</D:version-name>
+<D:comment>Derby-229: Return first matching column name, instead of last column in the select list for getter methods.
+
+Column names supplied to getter [updater] methods are case insensitive.
+If a select list contains the same column more than once, the first instance
+of the column will be returned [updated]. Derby returns or updates the last
+column in the select list, not the first. 
+
+Submitted by Shreyas Kaushik. (Shreyas.Kaushik@Sun.COM)
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2005-05-24T19:37:28.844870Z</S:date>
+</S:log-item>
+</S:log-report>

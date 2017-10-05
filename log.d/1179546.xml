@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1179546</D:version-name>
+<D:comment>DERBY-5444: SpawnedProcess.complete may fail to destroy the process when a timeout is specified
+
+Rewrote loop logic to ensure that the process is destroyed when a timeout is specified and exceeded.
+
+Patch file: derby-5444-1c-destroy_on_timeout.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-10-06T09:22:29.687864Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1132626</D:version-name>
+<D:comment>DERBY-3870: Concurrent Inserts of rows with XML data results in an exception
+
+Merged fix from trunk (revisions 1101839, 1125305, 1126358, 1127883
+and 1132546).
+
+Bumped last digit in version number on the branch so that stored
+prepared statements will be invalidated (needed in case they use XML
+operators since the format of query plans using those operators has
+changed).
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-06-06T13:18:54.903347Z</S:date>
+</S:log-item>
+</S:log-report>

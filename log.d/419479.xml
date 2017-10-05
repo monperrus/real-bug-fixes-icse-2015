@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>419479</D:version-name>
+<D:comment>DERBY-989: unit/daemonService.unit fails intermittently: 'ran out of time'
+
+Two test fixes (in T_DaemonService.java)
+
+  1) Clear the list of clients before each iteration of the test. This
+     makes the failure be exposed earlier (10 minutes instead of one
+     hour) because t_checkStatus() doesn't have to wait for
+     unsubscribed clients to be serviced.
+
+  2) Make the test accept that a client is serviced once after it has
+     unsubscribed. This could happen if the client is being serviced
+     when unsubscribe() is called.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-07-06T08:04:01.354829Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>492741</D:version-name>
+<D:comment>DERBY-2195: Trigger problems after maximum trigger count exception
+
+This patch was contributed by Yip Ng (yipng168@gmail.com)
+
+The system is not cleaning up the statement context properly. The
+cleanup should have been performed in GenericTriggerExecutor's executeSPS
+exception handler. The GenericTriggerExecutor is responsible to make sure
+the SPS execution is cleanup correctly.
+
+In addition, there is another potential problem with the exception
+handling logic in executeSPS() where it assumes that the SPS has executed
+and therefore will have a new statement context and pops it off from
+the LCC. This is somewhat dangerous as StandardException can occur before
+pushing the new statement context to the stack; hence, this might
+result in popping the wrong statement context. So the patch
+also addresses this issue.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2007-01-04T21:06:44.182441Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1190220</D:version-name>
+<D:comment>DERBY-5406: Intermittent failures in CompressTableTest and TruncateTableTest
+
+Push retry logic down to GenericStatement.prepare() so that it also
+covers the code path from Connection.prepareStatement(). The previous
+location only covered compilations requested by the execute methods.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-10-28T09:29:14.633626Z</S:date>
+</S:log-item>
+</S:log-report>

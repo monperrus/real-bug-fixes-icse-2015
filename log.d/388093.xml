@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>388093</D:version-name>
+<D:comment>DERBY-1095 (partial): Closing an embedded connection does not seem to
+close associated EmbedStatements
+
+This patch makes EmbedResultSet.isClosed() return the correct result
+when the connection is closed.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-03-23T07:58:53.412216Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1220685</D:version-name>
+<D:comment>DERBY-5507: Orderly shutdown fails if you are using BUILTIN authentication and turn on derby.database.propertiesOnly
+
+Make sure passwords are mapped to a hashed token before they are stored
+in the database, also if the password is already defined in a system
+property.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-12-19T11:02:42.400058Z</S:date>
+</S:log-item>
+</S:log-report>

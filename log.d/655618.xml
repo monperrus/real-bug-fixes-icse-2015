@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>655618</D:version-name>
+<D:comment>DERBY-3602 If derbytesting.jar is in a different directory than the derby jars SystemPrivilegesPermissionTest fails with java.security.AccessControlException
+
+Fixed test specific policy file to point to testing jar instead of all jars in the codejar directory for test specific permissions like setSecurityManager
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-05-12T19:44:21.268207Z</S:date>
+</S:log-item>
+</S:log-report>

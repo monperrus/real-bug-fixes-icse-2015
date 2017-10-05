@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>126267</D:version-name>
+<D:comment>Fix for Derby-114 - jar target name in target buildworld was incorrect.
+Fix for Derby-88 - RunSuite rounds incorrectly, use Math.ceil and Math.floor
+                   for better rounding of test pass/fail statistics.
+Partial fix for Derby-68 - Fix JDK revision typo in BUILDING.txt
+</D:comment>
+<D:creator-displayname>fuzzylogic</D:creator-displayname>
+<S:date>2005-01-24T07:39:22.842277Z</S:date>
+</S:log-item>
+</S:log-report>

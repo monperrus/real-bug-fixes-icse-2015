@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1233536</D:version-name>
+<D:comment>DERBY-5547: NSSecurityMechanismTest.testNetworkServerSecurityMechanism() fails intermittently
+
+backporting svn #1222155 from trunk to 10.8 branch.
+
+Wait for previous network server to stop before starting a new one. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2012-01-19T19:06:31.657262Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="921576"/>
+<S:open-directory rev="921575">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/921576/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">921576</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-10T21:22:27.838088Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gnodet</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="incubator" rev="921575">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/921576/incubator</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">921576</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-10T21:22:27.838088Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gnodet</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="aries" rev="921575">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/921576/incubator/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">921576</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-10T21:22:27.838088Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gnodet</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="921575">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/921576/incubator/aries/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">921576</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-10T21:22:27.838088Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gnodet</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="application" rev="921575">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/921576/incubator/aries/trunk/application</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">921576</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-10T21:22:27.838088Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gnodet</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="application-bundle" bc-url="/repos/asf/!svn/bc/921576/incubator/aries/trunk/application/application-bundle">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/921576/incubator/aries/trunk/application/application-bundle</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">921576</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-10T21:22:27.838088Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gnodet</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="pom.xml" sha1-checksum="c5ca43e270eb72898b3d0058c554bf042bf4101e">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/921576/incubator/aries/trunk/application/application-bundle/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">921576</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-10T21:22:27.838088Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gnodet</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>535d0cb4a2f9ddd2d09b9b5cb11ad1bf</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:open-file name="pom.xml" rev="921575">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/921576/incubator/aries/trunk/application/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">921576</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-10T21:22:27.838088Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gnodet</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="151b6b2f1e6027af108e190665aabe55" sha1-checksum="c75a16e906884ecb7247ac6fe6d28a1c825aa60e"/>
+<S:prop><V:md5-checksum>6a460af82dbcc3d6672e86ec6b18171f</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="blueprint" rev="921575">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/921576/incubator/aries/trunk/blueprint</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">921576</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-10T21:22:27.838088Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gnodet</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="blueprint-bundle" rev="921575">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/921576/incubator/aries/trunk/blueprint/blueprint-bundle</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">921576</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-10T21:22:27.838088Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gnodet</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml" rev="921575">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/921576/incubator/aries/trunk/blueprint/blueprint-bundle/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">921576</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-10T21:22:27.838088Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gnodet</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="fa459747e5992d2379d1e752aa5c17da" sha1-checksum="a810e7539c4269a26697630fd37db7c8a073b2ce"/>
+<S:prop><V:md5-checksum>85fffaf071fb043a1b12f563e4ea74c4</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

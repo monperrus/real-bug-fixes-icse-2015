@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>806545</D:version-name>
+<D:comment>Fix a small-but-vital bug in the new JDBC data model implementation. Selecting user IDs in place of item IDs in one case. Oops.</D:comment>
+<D:creator-displayname>srowen</D:creator-displayname>
+<S:date>2009-08-21T13:29:47.042803Z</S:date>
+</S:log-item>
+</S:log-report>

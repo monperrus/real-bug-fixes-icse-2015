@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>553837</D:version-name>
+<D:comment>Merging revision 553834 from main into Derby 10.3.1.1 codeline. commit comments are as follows
+
+DERBY-2725 
+
+If both the character string operands involved in DataTypeDescriptor.comparable() have collation derivation of NONE, then 
+such 2 DTDs can't be compared. I am adding code to implement that behavior and added a test case for this. 
+
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-07-06T11:18:11.700648Z</S:date>
+</S:log-item>
+</S:log-report>

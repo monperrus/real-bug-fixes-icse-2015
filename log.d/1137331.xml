@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1137331</D:version-name>
+<D:comment>LUCENE-3197: must also count the segment being produced by an in-flight merge as original (as of when optimize starts) to ensure all deletions against that segment are also merged away</D:comment>
+<D:creator-displayname>mikemccand</D:creator-displayname>
+<S:date>2011-06-19T10:36:24.472031Z</S:date>
+</S:log-item>
+</S:log-report>

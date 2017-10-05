@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1337434</D:version-name>
+<D:comment>Fix breakage on windows with spaces in path to lucene checkout. ALWAYS ever use &lt;arg value=".."/&gt; for every parameter. line depends on local parameter parsing of the shell.</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2012-05-12T02:45:05.670365Z</S:date>
+</S:log-item>
+</S:log-report>

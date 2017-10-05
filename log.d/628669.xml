@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>628669</D:version-name>
+<D:comment>DERBY-3301, merging to 10.3: Follow-up patch to fix comments in 
+subqueryFlattening.sql so that they match/explain the printed query plans, 
+which changed slightly as a result of DERBY-3301. 
+
+Merged with svn merge -r 619590:619591 ../derby-repro
+
+Simple merge with no conflicts; no additional changes were necessary.
+</D:comment>
+<D:creator-displayname>dyre</D:creator-displayname>
+<S:date>2008-02-18T09:42:42.706875Z</S:date>
+</S:log-item>
+</S:log-report>

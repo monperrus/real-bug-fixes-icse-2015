@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>645438</D:version-name>
+<D:comment>DERBY-3571: LOB locators are not released if the LOB columns are not accessed by the client.
+Merge from trunk revision 643819 (derby-3571-2a-simple_release.diff).
+The patch added the client side LOB state tracking, used to release LOB locators in a timely manner.
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-04-07T10:03:01.296552Z</S:date>
+</S:log-item>
+</S:log-report>

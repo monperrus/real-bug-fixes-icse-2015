@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1469243</D:version-name>
+<D:comment>DERBY-6184: Clean up warnings in XA transaction id classes
+
+- simplify existing cloning of arrays by using clone() instead of
+  calling new and arraycopy
+
+- reduce visibility of array-returning methods in GlobalXactId to make
+  it clearer for code analysis tools that they are not called from
+  outside of the package in which the class lives
+
+- remove said methods from the GlobalTransactionId to allow them to be
+  non-public
+
+- make the public, array-returning methods in XAXactId return copies
+  of the internal arrays to protect the internal state, as instances
+  of this class may be returned all the way out to the user</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-04-18T09:29:00.287173Z</S:date>
+</S:log-item>
+</S:log-report>

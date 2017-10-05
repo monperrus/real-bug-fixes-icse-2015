@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>106931</D:version-name>
+<D:comment>Fix Derby 83
+
+Patch which makes SQLDecimal use BigDecimal.toPlainString() on JDK1.5 so that generated text is the same as in prior versions.
+
+This uses reflection to invoke toPlainString() allowing the code to be compiled on earlier VMs.
+
+Fix contributed by Jeremy Boynes &lt;jboynes@apache.org&gt;
+Test case contributed by Dan Debrunner djd@debrunners.com
+
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2004-11-29T17:35:55.412105Z</S:date>
+</S:log-item>
+</S:log-report>

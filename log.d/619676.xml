@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>619676</D:version-name>
+<D:comment>LUCENE-1169: Fixed bug in IndexSearcher.search(): searching with a filter might miss some hits because scorer.skipTo() is called without checking if the scorer is already at the right position.</D:comment>
+<D:creator-displayname>buschmi</D:creator-displayname>
+<S:date>2008-02-07T22:46:37.007380Z</S:date>
+</S:log-item>
+</S:log-report>

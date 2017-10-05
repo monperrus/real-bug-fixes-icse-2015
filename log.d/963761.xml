@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>963761</D:version-name>
+<D:comment>Backport DERBY-4615 (EmbedCallableStatement ignores Calendar in getDate, getTime and getTimestamp) to 10.5 codeline with this checkin.
+
+Had to change the test to not look for nanosec granularity. for that to work, we will need the fix for DERBY-2602 but backporting 
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2010-07-13T15:29:31.214656Z</S:date>
+</S:log-item>
+</S:log-report>

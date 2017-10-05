@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1038440</D:version-name>
+<D:comment>DERBY-4741 Make Derby work reliably in the presence of thread interrupts
+
+Patch derby-4741-b-04-nio, which adds container recovery to NIO
+RAFContainer4.  The old test Derby151Test has been decommissioned, and
+a new one, InterruptResilienceTest has been added. Currently it only
+tests the basic recovery case in a two thread scenario. Should add
+more tests. The debug flag "RAF4" can be used with sane builds to
+observe recovery events.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2010-11-24T02:00:32.825687Z</S:date>
+</S:log-item>
+</S:log-report>

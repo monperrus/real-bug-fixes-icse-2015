@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>782731</D:version-name>
+<D:comment>r/m 'touch' code that populates a cache that is never used (and never updated on compaction either, so it's buggy too).
+patch by jbellis; reviewed by goffinet for CASSANDRA-222</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-06-08T19:18:18.455796Z</S:date>
+</S:log-item>
+</S:log-report>

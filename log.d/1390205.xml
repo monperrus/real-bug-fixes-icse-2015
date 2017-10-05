@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1390205</D:version-name>
+<D:comment>DERBY-5933 SQL sorting error
+
+Patch "d5933-remap+test", which fixes a problem in column reference
+remapping in connection with flattening of a left outer join with a
+base table. See the Javadoc for the new test case
+JoinTest#testDerby_5933 for details.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2012-09-25T22:56:00.645421Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>910383</D:version-name>
+<D:comment>allow relaxing desired bloom filter buckets/element when there is no other way to fit it in a BitSet.  patch by Stu Hood; reviewed by jbellis for CASSANDRA-790</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-02-16T03:36:45.862176Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>906255</D:version-name>
+<D:comment>MAHOUT-273 RandomSeedGenerator doesnt estimate cluster centers when input path is a directory. Now iterates over the all the files in the input directory to generate sample vectors</D:comment>
+<D:creator-displayname>robinanil</D:creator-displayname>
+<S:date>2010-02-03T21:36:51.970856Z</S:date>
+</S:log-item>
+</S:log-report>

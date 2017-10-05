@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>393656</D:version-name>
+<D:comment>DERBY-900 Remove use of String(byte[]) and String(byte[], int, int) constructors in network client leading to non-portable behaviour
+
+-- use UTF8 encoding in bytes2String. 
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-04-12T23:27:52.935080Z</S:date>
+</S:log-item>
+</S:log-report>

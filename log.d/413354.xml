@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>413354</D:version-name>
+<D:comment>DERBY-1327 Identity column can be created with wrong and very large start with value with "J2RE 1.5.0 IBM Windows 32 build pwi32dev-20060412 (SR2)" with JIT on
+
+Contributed by Mamta Satoor
+
+Attaching the patch for 10.1 codeline after doing a merge from main and hand fixing some of the conflicts. (The derbyall test suite ran fine with jdk13)
+svn merge -r 413128:413129 https://svn.apache.org/repos/asf/db/derby/code/trunk/
+
+One thing to note though is that in 10.1 codeline, the number of parameters to ColumnDescriptor constructors are 10 and not &gt;10. So, from the bug diagnosis as mentioned in this JIRA entry, the bug should not have manifested in 10.1 codeline (the main codeline does have ColumnDscriptor constructor with &gt;10 parameters).
+
+
+Kathey verified that the issue reproduced without the patch and did not reprodcue after the patch BUT this issue should be left unresolved until we get clarification on the conditions where the JIT bug is triggered and know that this is a reliable workaround for the problem.
+
+
+Kathey also manually merged the test which did not seem to merge properly with the patch.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-06-10T19:10:35.075204Z</S:date>
+</S:log-item>
+</S:log-report>

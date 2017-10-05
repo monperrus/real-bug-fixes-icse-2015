@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>691694</D:version-name>
+<D:comment>LUCENE-1374: fix test case to close reader/writer in try/finally; add assert b!=null in RAMOutputStream.writeBytes (matches FSIndexOutput which hits NPE)</D:comment>
+<D:creator-displayname>mikemccand</D:creator-displayname>
+<S:date>2008-09-03T17:34:29.542678Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1200473"/>
+<S:open-directory rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="branches" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra-1.0" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/cassandra/branches/cassandra-0.6:922689-1052356,1052358-1053452,1053454,1053456-1131291
+/cassandra/branches/cassandra-0.7:1026516-1183000
+/cassandra/branches/cassandra-0.7.0:1053690-1055654
+/cassandra/branches/cassandra-0.8:1090934-1125013,1125019-1199259,1199284,1200226,1200471
+/cassandra/branches/cassandra-0.8.0:1125021-1130369
+/cassandra/branches/cassandra-0.8.1:1101014-1125018
+/cassandra/branches/cassandra-1.0:1167106,1167185
+/cassandra/branches/cassandra-1.0.0:1167104-1181093,1181741,1181816,1181820,1182951,1183243
+/cassandra/tags/cassandra-0.7.0-rc3:1051699-1053689
+/cassandra/tags/cassandra-0.8.0-rc1:1102511-1125020
+/cassandra/trunk:1167085-1167102,1169870
+/incubator/cassandra/branches/cassandra-0.3:774578-796573
+/incubator/cassandra/branches/cassandra-0.4:810145-834239,834349-834350
+/incubator/cassandra/branches/cassandra-0.5:888872-915439
+/incubator/cassandra/branches/cassandra-0.6:911237-922688</S:set-prop>
+<S:open-file name="CHANGES.txt" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0/CHANGES.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="3f5ec735687d657db9f3aa7eaec3b972" sha1-checksum="da5018aef2396c1cf0bb36f032b2bd27cc8b1e77"/>
+<S:prop><V:md5-checksum>c7f33e54e0e0a9c9665e62521b8f837f</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="src" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0/src/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0/src/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0/src/java/org/apache/cassandra</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="hadoop" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0/src/java/org/apache/cassandra/hadoop</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="ColumnFamilyRecordReader.java" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0/src/java/org/apache/cassandra/hadoop/ColumnFamilyRecordReader.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="1957c879692df632249026048762f674" sha1-checksum="2a156fb9b0f0dab10cc2d7a9bc7c52c0ace13f33"/>
+<S:prop><V:md5-checksum>0a669a89db4abc99a36806be1e6eaf74</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="contrib" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0/contrib</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/cassandra/branches/cassandra-0.6/contrib:922689-1052356,1052358-1053452,1053454,1053456-1068009
+/cassandra/branches/cassandra-0.7/contrib:1026516-1183000
+/cassandra/branches/cassandra-0.7.0/contrib:1053690-1055654
+/cassandra/branches/cassandra-0.8/contrib:1090934-1125013,1125019-1199259,1199284,1200226,1200471
+/cassandra/branches/cassandra-0.8.0/contrib:1125021-1130369
+/cassandra/branches/cassandra-0.8.1/contrib:1101014-1125018
+/cassandra/branches/cassandra-1.0/contrib:1167106,1167185
+/cassandra/branches/cassandra-1.0.0/contrib:1167104-1181093,1181741,1181816,1181820,1182951,1183243
+/cassandra/tags/cassandra-0.7.0-rc3/contrib:1051699-1053689
+/cassandra/tags/cassandra-0.8.0-rc1/contrib:1102511-1125020
+/cassandra/trunk/contrib:1167085-1167102,1169870
+/incubator/cassandra/branches/cassandra-0.3/contrib:774578-796573
+/incubator/cassandra/branches/cassandra-0.4/contrib:810145-810987,810994-834239,834349-834350
+/incubator/cassandra/branches/cassandra-0.5/contrib:888872-915439
+/incubator/cassandra/branches/cassandra-0.6/contrib:911237-922688</S:set-prop>
+</S:open-directory>
+<S:open-directory name="interface" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0/interface</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="thrift" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0/interface/thrift</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="gen-java" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0/interface/thrift/gen-java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0/interface/thrift/gen-java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0/interface/thrift/gen-java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0/interface/thrift/gen-java/org/apache/cassandra</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="thrift" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0/interface/thrift/gen-java/org/apache/cassandra/thrift</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="Cassandra.java" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0/interface/thrift/gen-java/org/apache/cassandra/thrift/Cassandra.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/cassandra/branches/cassandra-0.6/interface/thrift/gen-java/org/apache/cassandra/thrift/Cassandra.java:922689-1052356,1052358-1053452,1053454,1053456-1131291
+/cassandra/branches/cassandra-0.7/interface/thrift/gen-java/org/apache/cassandra/thrift/Cassandra.java:1026516-1183000
+/cassandra/branches/cassandra-0.7.0/interface/thrift/gen-java/org/apache/cassandra/thrift/Cassandra.java:1053690-1055654
+/cassandra/branches/cassandra-0.8/interface/thrift/gen-java/org/apache/cassandra/thrift/Cassandra.java:1090934-1125013,1125019-1199259,1199284,1200226,1200471
+/cassandra/branches/cassandra-0.8.0/interface/thrift/gen-java/org/apache/cassandra/thrift/Cassandra.java:1125021-1130369
+/cassandra/branches/cassandra-0.8.1/interface/thrift/gen-java/org/apache/cassandra/thrift/Cassandra.java:1101014-1125018
+/cassandra/branches/cassandra-1.0/interface/thrift/gen-java/org/apache/cassandra/thrift/Cassandra.java:1167106,1167185
+/cassandra/branches/cassandra-1.0.0/interface/thrift/gen-java/org/apache/cassandra/thrift/Cassandra.java:1167104-1181093,1181741,1181816,1181820,1182951,1183243
+/cassandra/tags/cassandra-0.7.0-rc3/interface/thrift/gen-java/org/apache/cassandra/thrift/Cassandra.java:1051699-1053689
+/cassandra/tags/cassandra-0.8.0-rc1/interface/thrift/gen-java/org/apache/cassandra/thrift/Cassandra.java:1102511-1125020
+/cassandra/trunk/interface/thrift/gen-java/org/apache/cassandra/thrift/Cassandra.java:1167085-1167102,1169870
+/incubator/cassandra/branches/cassandra-0.3/interface/gen-java/org/apache/cassandra/service/Cassandra.java:774578-796573
+/incubator/cassandra/branches/cassandra-0.4/interface/gen-java/org/apache/cassandra/service/Cassandra.java:810145-834239,834349-834350
+/incubator/cassandra/branches/cassandra-0.5/interface/gen-java/org/apache/cassandra/service/Cassandra.java:888872-903502
+/incubator/cassandra/branches/cassandra-0.6/interface/thrift/gen-java/org/apache/cassandra/thrift/Cassandra.java:911237-922688
+/incubator/cassandra/trunk/interface/gen-java/org/apache/cassandra/service/Cassandra.java:749219-768588
+/incubator/cassandra/trunk/interface/thrift/gen-java/org/apache/cassandra/thrift/Cassandra.java:749219-904544</S:set-prop>
+<S:prop><V:md5-checksum>faeeda7ccb9ee2dd171b2ef19e716c0d</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="NotFoundException.java" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0/interface/thrift/gen-java/org/apache/cassandra/thrift/NotFoundException.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/cassandra/branches/cassandra-0.6/interface/thrift/gen-java/org/apache/cassandra/thrift/NotFoundException.java:922689-1052356,1052358-1053452,1053454,1053456-1131291
+/cassandra/branches/cassandra-0.7/interface/thrift/gen-java/org/apache/cassandra/thrift/NotFoundException.java:1026516-1183000
+/cassandra/branches/cassandra-0.7.0/interface/thrift/gen-java/org/apache/cassandra/thrift/NotFoundException.java:1053690-1055654
+/cassandra/branches/cassandra-0.8/interface/thrift/gen-java/org/apache/cassandra/thrift/NotFoundException.java:1090934-1125013,1125019-1199259,1199284,1200226,1200471
+/cassandra/branches/cassandra-0.8.0/interface/thrift/gen-java/org/apache/cassandra/thrift/NotFoundException.java:1125021-1130369
+/cassandra/branches/cassandra-0.8.1/interface/thrift/gen-java/org/apache/cassandra/thrift/NotFoundException.java:1101014-1125018
+/cassandra/branches/cassandra-1.0/interface/thrift/gen-java/org/apache/cassandra/thrift/NotFoundException.java:1167106,1167185
+/cassandra/branches/cassandra-1.0.0/interface/thrift/gen-java/org/apache/cassandra/thrift/NotFoundException.java:1167104-1181093,1181741,1181816,1181820,1182951,1183243
+/cassandra/tags/cassandra-0.7.0-rc3/interface/thrift/gen-java/org/apache/cassandra/thrift/NotFoundException.java:1051699-1053689
+/cassandra/tags/cassandra-0.8.0-rc1/interface/thrift/gen-java/org/apache/cassandra/thrift/NotFoundException.java:1102511-1125020
+/cassandra/trunk/interface/thrift/gen-java/org/apache/cassandra/thrift/NotFoundException.java:1167085-1167102,1169870
+/incubator/cassandra/branches/cassandra-0.3/interface/gen-java/org/apache/cassandra/service/NotFoundException.java:774578-796573
+/incubator/cassandra/branches/cassandra-0.4/interface/gen-java/org/apache/cassandra/service/NotFoundException.java:810145-834239,834349-834350
+/incubator/cassandra/branches/cassandra-0.5/interface/gen-java/org/apache/cassandra/service/NotFoundException.java:888872-903502
+/incubator/cassandra/branches/cassandra-0.6/interface/thrift/gen-java/org/apache/cassandra/thrift/NotFoundException.java:911237-922688
+/incubator/cassandra/trunk/interface/gen-java/org/apache/cassandra/service/NotFoundException.java:749219-768588</S:set-prop>
+<S:prop><V:md5-checksum>f4a29fd6323f272a504448f522841999</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="SuperColumn.java" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0/interface/thrift/gen-java/org/apache/cassandra/thrift/SuperColumn.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/cassandra/branches/cassandra-0.6/interface/thrift/gen-java/org/apache/cassandra/thrift/SuperColumn.java:922689-1052356,1052358-1053452,1053454,1053456-1131291
+/cassandra/branches/cassandra-0.7/interface/thrift/gen-java/org/apache/cassandra/thrift/SuperColumn.java:1026516-1183000
+/cassandra/branches/cassandra-0.7.0/interface/thrift/gen-java/org/apache/cassandra/thrift/SuperColumn.java:1053690-1055654
+/cassandra/branches/cassandra-0.8/interface/thrift/gen-java/org/apache/cassandra/thrift/SuperColumn.java:1090934-1125013,1125019-1199259,1199284,1200226,1200471
+/cassandra/branches/cassandra-0.8.0/interface/thrift/gen-java/org/apache/cassandra/thrift/SuperColumn.java:1125021-1130369
+/cassandra/branches/cassandra-0.8.1/interface/thrift/gen-java/org/apache/cassandra/thrift/SuperColumn.java:1101014-1125018
+/cassandra/branches/cassandra-1.0/interface/thrift/gen-java/org/apache/cassandra/thrift/SuperColumn.java:1167106,1167185
+/cassandra/branches/cassandra-1.0.0/interface/thrift/gen-java/org/apache/cassandra/thrift/SuperColumn.java:1167104-1181093,1181741,1181816,1181820,1182951,1183243
+/cassandra/tags/cassandra-0.7.0-rc3/interface/thrift/gen-java/org/apache/cassandra/thrift/SuperColumn.java:1051699-1053689
+/cassandra/tags/cassandra-0.8.0-rc1/interface/thrift/gen-java/org/apache/cassandra/thrift/SuperColumn.java:1102511-1125020
+/cassandra/trunk/interface/thrift/gen-java/org/apache/cassandra/thrift/SuperColumn.java:1167085-1167102,1169870
+/incubator/cassandra/branches/cassandra-0.3/interface/gen-java/org/apache/cassandra/service/superColumn_t.java:774578-792198
+/incubator/cassandra/branches/cassandra-0.4/interface/gen-java/org/apache/cassandra/service/SuperColumn.java:810145-834239,834349-834350
+/incubator/cassandra/branches/cassandra-0.5/interface/gen-java/org/apache/cassandra/service/SuperColumn.java:888872-903502
+/incubator/cassandra/branches/cassandra-0.6/interface/thrift/gen-java/org/apache/cassandra/thrift/SuperColumn.java:911237-922688
+/incubator/cassandra/trunk/interface/gen-java/org/apache/cassandra/service/SuperColumn.java:749219-794428
+/incubator/cassandra/trunk/interface/gen-java/org/apache/cassandra/service/superColumn_t.java:749219-768588
+/incubator/cassandra/trunk/interface/thrift/gen-java/org/apache/cassandra/thrift/SuperColumn.java:749219-904544</S:set-prop>
+<S:prop><V:md5-checksum>8d30c68d029eaa2ba5c4382679a9292d</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="InvalidRequestException.java" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0/interface/thrift/gen-java/org/apache/cassandra/thrift/InvalidRequestException.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/cassandra/branches/cassandra-0.6/interface/thrift/gen-java/org/apache/cassandra/thrift/InvalidRequestException.java:922689-1052356,1052358-1053452,1053454,1053456-1131291
+/cassandra/branches/cassandra-0.7/interface/thrift/gen-java/org/apache/cassandra/thrift/InvalidRequestException.java:1026516-1183000
+/cassandra/branches/cassandra-0.7.0/interface/thrift/gen-java/org/apache/cassandra/thrift/InvalidRequestException.java:1053690-1055654
+/cassandra/branches/cassandra-0.8/interface/thrift/gen-java/org/apache/cassandra/thrift/InvalidRequestException.java:1090934-1125013,1125019-1199259,1199284,1200226,1200471
+/cassandra/branches/cassandra-0.8.0/interface/thrift/gen-java/org/apache/cassandra/thrift/InvalidRequestException.java:1125021-1130369
+/cassandra/branches/cassandra-0.8.1/interface/thrift/gen-java/org/apache/cassandra/thrift/InvalidRequestException.java:1101014-1125018
+/cassandra/branches/cassandra-1.0/interface/thrift/gen-java/org/apache/cassandra/thrift/InvalidRequestException.java:1167106,1167185
+/cassandra/branches/cassandra-1.0.0/interface/thrift/gen-java/org/apache/cassandra/thrift/InvalidRequestException.java:1167104-1181093,1181741,1181816,1181820,1182951,1183243
+/cassandra/tags/cassandra-0.7.0-rc3/interface/thrift/gen-java/org/apache/cassandra/thrift/InvalidRequestException.java:1051699-1053689
+/cassandra/tags/cassandra-0.8.0-rc1/interface/thrift/gen-java/org/apache/cassandra/thrift/InvalidRequestException.java:1102511-1125020
+/cassandra/trunk/interface/thrift/gen-java/org/apache/cassandra/thrift/InvalidRequestException.java:1167085-1167102,1169870
+/incubator/cassandra/branches/cassandra-0.3/interface/gen-java/org/apache/cassandra/service/InvalidRequestException.java:774578-796573
+/incubator/cassandra/branches/cassandra-0.4/interface/gen-java/org/apache/cassandra/service/InvalidRequestException.java:810145-834239,834349-834350
+/incubator/cassandra/branches/cassandra-0.5/interface/gen-java/org/apache/cassandra/service/InvalidRequestException.java:888872-903502
+/incubator/cassandra/branches/cassandra-0.6/interface/thrift/gen-java/org/apache/cassandra/thrift/InvalidRequestException.java:911237-922688
+/incubator/cassandra/trunk/interface/gen-java/org/apache/cassandra/service/InvalidRequestException.java:749219-768588
+/incubator/cassandra/trunk/interface/thrift/gen-java/org/apache/cassandra/thrift/InvalidRequestException.java:749219-904544</S:set-prop>
+<S:prop><V:md5-checksum>6700d5025dd03bab3ed65eaacba3a0b8</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="Column.java" rev="1200472">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1200473/cassandra/branches/cassandra-1.0/interface/thrift/gen-java/org/apache/cassandra/thrift/Column.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200473</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T18:43:20.816541Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/cassandra/branches/cassandra-0.6/interface/thrift/gen-java/org/apache/cassandra/thrift/Column.java:922689-1052356,1052358-1053452,1053454,1053456-1131291
+/cassandra/branches/cassandra-0.7/interface/thrift/gen-java/org/apache/cassandra/thrift/Column.java:1026516-1183000
+/cassandra/branches/cassandra-0.7.0/interface/thrift/gen-java/org/apache/cassandra/thrift/Column.java:1053690-1055654
+/cassandra/branches/cassandra-0.8/interface/thrift/gen-java/org/apache/cassandra/thrift/Column.java:1090934-1125013,1125019-1199259,1199284,1200226,1200471
+/cassandra/branches/cassandra-0.8.0/interface/thrift/gen-java/org/apache/cassandra/thrift/Column.java:1125021-1130369
+/cassandra/branches/cassandra-0.8.1/interface/thrift/gen-java/org/apache/cassandra/thrift/Column.java:1101014-1125018
+/cassandra/branches/cassandra-1.0/interface/thrift/gen-java/org/apache/cassandra/thrift/Column.java:1167106,1167185
+/cassandra/branches/cassandra-1.0.0/interface/thrift/gen-java/org/apache/cassandra/thrift/Column.java:1167104-1181093,1181741,1181816,1181820,1182951,1183243
+/cassandra/tags/cassandra-0.7.0-rc3/interface/thrift/gen-java/org/apache/cassandra/thrift/Column.java:1051699-1053689
+/cassandra/tags/cassandra-0.8.0-rc1/interface/thrift/gen-java/org/apache/cassandra/thrift/Column.java:1102511-1125020
+/cassandra/trunk/interface/thrift/gen-java/org/apache/cassandra/thrift/Column.java:1167085-1167102,1169870
+/incubator/cassandra/branches/cassandra-0.3/interface/gen-java/org/apache/cassandra/service/column_t.java:774578-792198
+/incubator/cassandra/branches/cassandra-0.4/interface/gen-java/org/apache/cassandra/service/Column.java:810145-834239,834349-834350
+/incubator/cassandra/branches/cassandra-0.5/interface/gen-java/org/apache/cassandra/service/Column.java:888872-903502
+/incubator/cassandra/branches/cassandra-0.6/interface/thrift/gen-java/org/apache/cassandra/thrift/Column.java:911237-922688
+/incubator/cassandra/trunk/interface/gen-java/org/apache/cassandra/service/Column.java:749219-794428
+/incubator/cassandra/trunk/interface/gen-java/org/apache/cassandra/service/column_t.java:749219-768588
+/incubator/cassandra/trunk/interface/thrift/gen-java/org/apache/cassandra/thrift/Column.java:749219-904544</S:set-prop>
+<S:prop><V:md5-checksum>57051582e721a7df2f96dda536355217</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

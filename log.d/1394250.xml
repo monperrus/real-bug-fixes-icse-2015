@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1394250</D:version-name>
+<D:comment>DERBY-5889: tests.compatibility._Suite has AccessControlException errors on Windows
+
+Relaxed the criteria casuing the test to be disabled on Windows such that it
+will only be disabled if at least one of the releases is located on an UNC path.
+
+Patch file: derby-5889-1b-disable_test_relaxed.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2012-10-04T20:28:27.117220Z</S:date>
+</S:log-item>
+</S:log-report>

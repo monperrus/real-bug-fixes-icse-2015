@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1236370</D:version-name>
+<D:comment>DERBY-5574 encryption test in encryption nightly suite test fails with ERROR XBM0S: Unable to rename file error
+
+Catch errors on rename, and retry hoping that error is caused by some 
+temporary file system resource issue.  Similar methodology that other
+parts of the system uses on read and write errors.  Worst case system
+retries 5 times and still throws the error, best case a subsequent retry
+succeeds and user application is never aware an error was encountered.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2012-01-26T19:59:44.443599Z</S:date>
+</S:log-item>
+</S:log-report>

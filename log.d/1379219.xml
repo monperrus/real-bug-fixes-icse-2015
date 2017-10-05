@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1379219</D:version-name>
+<D:comment>DERBY-5912; testIsValidImplemented fails for NetworkServer in some slow running machines/configurations
+  Backport revision 1379163 from trunk, changing the timeout value
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2012-08-30T23:21:04.764142Z</S:date>
+</S:log-item>
+</S:log-report>

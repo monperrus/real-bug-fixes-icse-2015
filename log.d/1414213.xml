@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1414213</D:version-name>
+<D:comment>[ARIES-972] Subsystem install fails with NPE if no subsystem manifest is contained in an ESA
+
+The specification does not require implementations to generate symbolic names, so the failure was intentional, although
+a more informative exception could have been used. The specification does not prohibit implementations from generating
+them, however. A symbolic name with the pattern org.apache.aries.subsystem.&lt;subsystem_id&gt; will now be automatically
+generated as a last resort rather than failing the installation.
+
+Added new tests.</D:comment>
+<D:creator-displayname>jwross</D:creator-displayname>
+<S:date>2012-11-27T14:42:41.769408Z</S:date>
+</S:log-item>
+</S:log-report>

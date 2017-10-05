@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>601044</D:version-name>
+<D:comment>Add JDBC.assertGeneratedKeyResultSet() to verify the type and concurrency of ResultSets returned by Statement.getGeneratedKeys. Add a commented out test case in AutoGenJDBC30Test.java that shows the bug DERBY-3249.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-12-04T19:15:13.613170Z</S:date>
+</S:log-item>
+</S:log-report>

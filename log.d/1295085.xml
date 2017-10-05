@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1295085</D:version-name>
+<D:comment>DERBY-5614: NullPointerException with INSERT INTO [global temporary table] SELECT ... FROM [VTI]
+
+Disables bulk-insert for GTTs when selecting from a VTI.
+Added a new test case.
+Added SampleVTI, which is an incomplete (only supports a few getters) VTI
+intended for basic testing.
+
+Patch file: derby-5614-1b-disable_bulkinsert_gtt.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2012-02-29T13:07:23.650148Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>384661</D:version-name>
+<D:comment>DERBY-1042: committed on behalf of Suresh Thalamati
+
+I could not reproduce this problem on my machine. By looking at the code I
+found backup is getting unblocked before the post commit work is done.
+This may cause the error that is reported, if the jar files to copied to the
+backup is deleted by the post commit. Attached patch unblocks the backup
+only after the post commit work that is schedules to run in the same
+transaction is done. While scanning the code for this problem, I also noticed
+couple of other small issues, this patch addresses them also.
+
+
+DERBY-1042:
+
+-- unblock the backup only after the post commit work to be done on the same
+transaction is complete.
+-- when backup is in progress drop stub files are not deleted during
+checkpoint. These are necessary to perform recovery starting from the
+backup checkpoint.
+-- synchronized getContaineNames() that gets the containers to be written to
+the backup. This method need to be synchronized so that other privileged
+actions does not run in parallel and vice versa.
+
+-- Modified the OnlineBackupTest1.java and OnlineBackupTest3.java tests to
+abort if there is a error during the backup instead of waiting incorrectly
+for the failed backup to complete forever.
+
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-03-10T01:00:23.240369Z</S:date>
+</S:log-item>
+</S:log-report>

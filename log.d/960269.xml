@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>960269</D:version-name>
+<D:comment>avoid frequent autoboxing by leaving cfId an Integer, and similar optimizations.  patch by Folke Behrens; reviewed by jbellis for CASSANDRA-1247</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-07-03T20:59:04.164724Z</S:date>
+</S:log-item>
+</S:log-report>

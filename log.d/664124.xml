@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>664124</D:version-name>
+<D:comment>DERBY-3701 java.lang.Exception: DRDA_UnableToAccept.S:Unable to accept connections and client hang if tracing is turned on but traceDirectory does not exist
+
+- attempt to create directory if it does not exist.
+- log an error but do not hang the client if session tracing file cannot be created.
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-06-06T21:04:31.696029Z</S:date>
+</S:log-item>
+</S:log-report>

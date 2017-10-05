@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>149618</D:version-name>
+<D:comment>Changed so that PrefixQuery is used in preference to WildcardQuery
+when there's only an asterisk at the end of the term.  Previously
+PrefixQuery would never be used.
+
+Also removed some unused token rules.
+</D:comment>
+<D:creator-displayname>cutting</D:creator-displayname>
+<S:date>2001-11-01T18:21:02.000000Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1038813</D:version-name>
+<D:comment>DERBY-4911 restoreIntrFlagIfSeen may throw ShutdownException causing confusing console stack trace at server shutdown
+
+Patch derby-4911, which makes restoreIntrFlagIfSeen ignore
+ShutdownException when trying to find lcc. We sometimes saw a
+ShutdownException stack dump on the console when stopping the network
+server. restoreIntrFlagIfSeen does nothing useful when we are closing
+down anyway, so we can safely ignore the exception.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2010-11-24T20:55:35.803264Z</S:date>
+</S:log-item>
+</S:log-report>

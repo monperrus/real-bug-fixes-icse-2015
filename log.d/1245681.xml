@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1245681</D:version-name>
+<D:comment>DERBY-1913 storetests/st_reclaim_longcol.java fails intermittently
+
+backported fix #1243622 from 10.8 branch to 10.6 branch.
+
+The test was counting on being able to control the number of FREE pages,
+but the number is very dependent on ability of background thread to run
+in a timely manner. Changed the test to check number of allocated pages,
+which at least correctly tests that what we think should be background reclaimed
+eventually is. Still needs some wait logic which I think will work better
+now. I tested against knut's patch to delay the daemon 1 second for every
+piece of work and the old test always failed and the new test succeeded. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2012-02-17T17:50:33.647744Z</S:date>
+</S:log-item>
+</S:log-report>

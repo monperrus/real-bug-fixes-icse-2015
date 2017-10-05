@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>688274</D:version-name>
+<D:comment>DERBY-3693: Deadlocks accessing DB metadata
+
+Make sure that the nested transaction used to recompile meta-data
+queries does not wait for locks to prevent hangs when there's a lock
+conflict between the nested transaction and the user transaction.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2008-08-23T07:35:47.589974Z</S:date>
+</S:log-item>
+</S:log-report>

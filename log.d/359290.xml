@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>359290</D:version-name>
+<D:comment>DERBY-445 Ensure client data sources do not lose the value of their
+connectionAttributes property during serialization. Added data source
+test that stores DataSource instances using Serialization and Reference
+and checks they are restored correctly.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-12-27T21:44:37.173325Z</S:date>
+</S:log-item>
+</S:log-report>

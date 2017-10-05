@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>888864</D:version-name>
+<D:comment>Rename BootstrapMetadata and friends to StreamRequest* as that is what those essentially are. Move them to cassandra.io where rest of streaming stuff resides.  patch by Jaakko Laine; reviewed by jbellis for CASSANDRA-564</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-12-09T16:36:31.129835Z</S:date>
+</S:log-item>
+</S:log-report>

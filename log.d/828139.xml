@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>828139</D:version-name>
+<D:comment>add -XX:SurvivorRatio=128 -XX:MaxTenuringThreshold=0 to default gc options.  patch by Brandon Williams; reviewed by jbellis for CASSANDRA-504</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-10-21T18:47:35.110601Z</S:date>
+</S:log-item>
+</S:log-report>

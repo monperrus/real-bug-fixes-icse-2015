@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1466362</D:version-name>
+<D:comment>DERBY-6092: IOException when closing LOBFile at end of transaction
+
+A bug in Java 5 may cause IOException if two threads attempt to
+close the same RandomAccessFile at the same time.
+
+Avoid this situation by removing the LOBFile from the list of open
+files before closing it from LOBStreamControl's finalizer. Then the
+cleanup code at the end of the transaction won't find the file and
+try to close it if the finalizer is about to close it.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-04-10T08:04:52.287809Z</S:date>
+</S:log-item>
+</S:log-report>

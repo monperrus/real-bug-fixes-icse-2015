@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1064174</D:version-name>
+<D:comment>DERBY-4741 Make Derby work reliably in the presence of thread interrupts
+
+Patch derby-4741-raf-stresstest-4. This patch adds a new test fixture to
+InterruptResilienceTest: multi-threaded read/write test under an interrupt
+shower.  This exercises primarily the random access file recovery
+(RAFContainer4#recoverContainerAfterInterrupt), but since the interrupt can
+arrive at any time during query execution, higher levels of the embedded code
+are also exposed (jdbc, language, store).
+
+The new test case is InterruptResilienceTest#testRAFReadWriteMultipleThreads.
+
+I also found I had to add Class.forName(&lt;driver&gt;) to
+DriverManagerConnector#getConnectionByAttributes and a new public method
+BasicJDBCTestCase#openDefaultConnection(TestConfiguration). The latter makes it
+possible use the main thread's test configuration in the server threads (when
+runnin the test in client-server mode), cf. "thisConfig" member in
+InterruptResilienceTest.
+
+The test now runs in its own database, with derby.system.durability=test for
+speed.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-01-27T16:10:19.449224Z</S:date>
+</S:log-item>
+</S:log-report>

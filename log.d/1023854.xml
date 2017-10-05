@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1023854</D:version-name>
+<D:comment>merge from trunk:
+Reenable the test: The bug was that all classes (even test classes) were handled as SolrInfoMBeans, so the test loaded all classes. Some tests initialized statics at the wrong time. This patch adds a check, that only build/solr classes are loaded by classloader.
+If there are still problems, we may have solr core classes, that initialize statics in a wrong way. In this case we have to fix those, these are real bugs!</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2010-10-18T15:35:21.016413Z</S:date>
+</S:log-item>
+</S:log-report>

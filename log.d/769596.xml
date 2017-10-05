@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>769596</D:version-name>
+<D:comment>DERBY-3417 slave side stop in a client server mode results in SQLState printed without proper error message
+
+Patch derby-3417-2.
+
+A set of replication errors have been made session level (they are),
+also having the effect of preformatting the error message strings on
+the server, solving this issue. Also removed usage of
+org.apache.derby.shared.common.reference.SQLState's strings in the
+replication tests to make them self contained.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-04-29T00:14:20.989591Z</S:date>
+</S:log-item>
+</S:log-report>

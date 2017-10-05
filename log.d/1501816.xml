@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1501816</D:version-name>
+<D:comment>DERBY-6040(Incorrect row order returned for an ORDER BY on a join of two table functions)
+
+Hand backported(svn merge was running into conflicts) revision 1433031 from trunk to 10.9 without junit test since junit test is using feature not available in 10.9
+
+
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-07-10T16:03:28.945652Z</S:date>
+</S:log-item>
+</S:log-report>

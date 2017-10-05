@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>629578</D:version-name>
+<D:comment>DERBY-3430 Inconsistency in JDBC autogen APIs between Connection.prepareStatement(...) and Statement.execute(...)
+
+Change prepareStatement to treat empty arrays for columnNames or columnIndexes as NO_GENERATED_KEYS
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-02-20T19:18:32.676332Z</S:date>
+</S:log-item>
+</S:log-report>

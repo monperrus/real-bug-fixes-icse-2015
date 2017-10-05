@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>904661</D:version-name>
+<D:comment>avoid setting up completion handler for no-op stream in non-bootstrap mode.  patch by jbellis; reviewed by gdusbabek for CASSANDRA-750</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-01-29T23:16:13.562387Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1074762</D:version-name>
+<D:comment>DERBY-5069 Since Feb 7,2011 weme 6.2 Junit tests have failed to run completely with Failed to invoke suite():java.lang.reflect.InvocationTargetException
+
+Prevent Driver tests from running under J2ME which were preventing suites.All from running. The problem was introduced with revision 1067954 with some additions to DriverTest. It is not really clear when  JDBC.vmSupportsJSR169() needs to be called in the the individual test vs the suite calling the test.  In order to get the tests running again, this change moves the DriverTest check for JSR169 to the suite.  Also added stack traces to the output when an invocation error occurs to make it easier to track down.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2011-02-26T00:35:24.159855Z</S:date>
+</S:log-item>
+</S:log-report>

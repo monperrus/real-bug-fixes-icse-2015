@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1330206</D:version-name>
+<D:comment>DERBY-5715: InbetweenTest holds on to resources after completion
+
+Use local variables instead of instance variables to prevent objects
+from being held after the test completes.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-04-25T11:22:30.708889Z</S:date>
+</S:log-item>
+</S:log-report>

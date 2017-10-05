@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>753176</D:version-name>
+<D:comment>DERBY-4073: Creation/configuration of ClientXDataSource fails because of two setSsl methods.
+Removed the method setSsl(int).
+Added constants for the valid values for setSsl(String).
+Documented setSsl(String) and some other methods.
+Patch file: derby-4073-1a-add_docs_and_remove_setSsl_int.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-03-13T09:01:22.553767Z</S:date>
+</S:log-item>
+</S:log-report>

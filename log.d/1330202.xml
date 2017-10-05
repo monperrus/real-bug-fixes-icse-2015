@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1330202</D:version-name>
+<D:comment>DERBY-5718: UniqueConstraintSetNullTest calls super.tearDown() too early
+
+Call super.tearDown() last in tearDown(), and use framework helper methods
+in setUp() and tearDown() to simplify and make resources freed automatically.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-04-25T11:21:09.435457Z</S:date>
+</S:log-item>
+</S:log-report>

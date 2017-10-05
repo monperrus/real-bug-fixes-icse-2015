@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>919578</D:version-name>
+<D:comment>use iter.remove() to avoid CME in segment discard.  patch by gabriele renzi; reviewed by jbellis for CASSANDRA-853</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-03-05T20:10:55.647619Z</S:date>
+</S:log-item>
+</S:log-report>

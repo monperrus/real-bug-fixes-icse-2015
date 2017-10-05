@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1172663</D:version-name>
+<D:comment>Fix streamOutSession keeping sstables references forever if the remote end dies
+patch by slebresne; reviewed by jbellis for CASSANDRA-3216
+</D:comment>
+<D:creator-displayname>slebresne</D:creator-displayname>
+<S:date>2011-09-19T15:31:35.060731Z</S:date>
+</S:log-item>
+</S:log-report>

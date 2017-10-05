@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>687155</D:version-name>
+<D:comment>DERBY-48 A connection request that has a default schema that is being created by another transaction will fail to connect
+
+Patch derby-48-10_4-1, which is a backport of the two trunk patches in this issue.
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2008-08-19T21:04:33.129793Z</S:date>
+</S:log-item>
+</S:log-report>

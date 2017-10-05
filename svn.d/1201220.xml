@@ -1,0 +1,1458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1201220"/>
+<S:open-directory rev="1201219">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="aries" rev="1201219">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="1201219">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="util" rev="1201219">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="src" rev="1201220"/>
+<S:add-directory name="util-r42" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="src" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="main" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="resources" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main/resources">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/resources</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1154523</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-06T14:12:42.383368Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main/resources/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/resources/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1154523</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-06T14:12:42.383368Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main/resources/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/resources/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1154523</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-06T14:12:42.383368Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main/resources/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/resources/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1154523</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-06T14:12:42.383368Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="util" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main/resources/org/apache/aries/util">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/resources/org/apache/aries/util</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1154523</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-06T14:12:42.383368Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="messages" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main/resources/org/apache/aries/util/messages">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/resources/org/apache/aries/util/messages</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1154523</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-06T14:12:42.383368Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="UTILmessages.properties" sha1-checksum="892ca59fba41a1c483f1f9fbc2ef950e7fd76873">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/resources/org/apache/aries/util/messages/UTILmessages.properties</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1154523</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-06T14:12:42.383368Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>32170f144e0f995173aee04fe75d9e92</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="OSGi-INF" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main/resources/OSGi-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/resources/OSGi-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1027900</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-10-27T10:33:58.039060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="permissions.perm" sha1-checksum="8896e42f8436dd1cdaf765b057979bb447b7df62">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/resources/OSGi-INF/permissions.perm</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1027900</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-10-27T10:33:58.039060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>0e2635ba11aa151b4b5b0a7e8a5e7171</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="java" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main/java">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main/java/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main/java/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="util" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="filesystem" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/filesystem">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/filesystem</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1154523</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-06T14:12:42.383368Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="IDirectory.java" sha1-checksum="970e9300f7274b418cadd6be74faf8725708f1bd">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/filesystem/IDirectory.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127101</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T14:58:35.188196Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>184558a190c6c1182185c270c36a0d66</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="FileUtils.java" sha1-checksum="7b35f73ecd09e3df8981376fbc661f367b21eee5">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/filesystem/FileUtils.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127101</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T14:58:35.188196Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>86c3811fce49e8665bd7844deb2feee5</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="impl" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/filesystem/impl">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/filesystem/impl</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1154523</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-06T14:12:42.383368Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="NestedZipDirectory.java" sha1-checksum="a3f0fc509cb7e61a3f9285c554ab618c770bfbb6">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/filesystem/impl/NestedZipDirectory.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1145930</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-13T09:31:38.694722Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>fdecec1e776ca1acbdbe3da92708190f</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="CloseableDirectory.java" sha1-checksum="4ded7a676faf161756c7c5f4866157d48d2f84c7">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/filesystem/impl/CloseableDirectory.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1154523</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-06T14:12:42.383368Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>fed0b30821bbeee0ef8d680fce430fc1</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="FileImpl.java" sha1-checksum="9cf71e068128d5d001f1c5dda9cc58adf876196a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/filesystem/impl/FileImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1145930</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-13T09:31:38.694722Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>9698e1165cd1755ef7a4f51544a51c4f</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="NestedCloseableDirectory.java" sha1-checksum="29fcbd5deb8606575efc1b36446d840cf9ef77c8">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/filesystem/impl/NestedCloseableDirectory.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1137671</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-20T15:54:15.383872Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>78296634ce01c383a7a031d737cd883c</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ZipCloseableDirectory.java" sha1-checksum="ee00f3a7ceb036c00fd4a0ed689f47d33d459c21">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/filesystem/impl/ZipCloseableDirectory.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1137671</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-20T15:54:15.383872Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>b4e4146f6c41d04d4c33b144bbcd7aac</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ZipFileImpl.java" sha1-checksum="72024f5675ec58b0b594f864bcc2f07311cd1856">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/filesystem/impl/ZipFileImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1152737</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-01T11:06:03.482431Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:prop><V:md5-checksum>0012ce4d69a4a42e7e1a049aff6a942c</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="InputStreamClosableDirectory.java" sha1-checksum="3c880efa69bd025d967aa43831c1d27e9d6839f9">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/filesystem/impl/InputStreamClosableDirectory.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1152120</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-29T06:32:27.054522Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>38daf5117bc798b74898d5c36ec29373</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="NestedZipFile.java" sha1-checksum="810aa65a4fb8d06642987be1b670bb55b6482e82">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/filesystem/impl/NestedZipFile.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1145930</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-13T09:31:38.694722Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>3e314f26e34abeffe90dc2008deaf4ef</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="DirectoryImpl.java" sha1-checksum="7d50be1fd7c5eebaab1d044028021c77d994d5bb">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/filesystem/impl/DirectoryImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1145930</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-13T09:31:38.694722Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>cf49f82c6ff27904f17f685c9e074816</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="FileSystemImpl.java" sha1-checksum="c6efeb52ca7b3760eab553fdec452e8d300d69b4">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/filesystem/impl/FileSystemImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1152120</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-29T06:32:27.054522Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>7edbec44a22f8cb65600a273bd3167a4</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ZipDirectory.java" sha1-checksum="87a060f9b63115a69f8dd07dee2fef61783864b0">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/filesystem/impl/ZipDirectory.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1145930</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-13T09:31:38.694722Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>7defb8018454ba88d40efe887698b2fa</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-file name="FileSystem.java" sha1-checksum="701171346472e1fbe758ebc791af2fa5a83724c2">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/filesystem/FileSystem.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1152120</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-29T06:32:27.054522Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>8ef4439c38b53a9d38d1e1444cc6e61e</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ICloseableDirectory.java" sha1-checksum="466433762f2c34e291bca39b96599320c4061782">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/filesystem/ICloseableDirectory.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127101</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T14:58:35.188196Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>7b5f41046e8205265acdd0b2e7329a44</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="packageinfo" sha1-checksum="0f5dc630fb4bd61a3ea3abcf97d69f3b27d4271e">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/filesystem/packageinfo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127101</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T14:58:35.188196Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>a9b85fdbb2993348a75e0f01ba6d4d20</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="IFile.java" sha1-checksum="50fcac635436001629e4bb9bc1708fe6922ccdbb">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/filesystem/IFile.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1138057</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-21T15:41:11.760782Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:prop><V:md5-checksum>59233a4489cfa541a58e7cb15b346682</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="manifest" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/manifest">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/manifest</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1181049</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-10-10T16:08:14.881815Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hughesj</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="ManifestProcessor.java" sha1-checksum="576670d014a473e398066a418a68b4894a941039">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/manifest/ManifestProcessor.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1137671</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-20T15:54:15.383872Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>05e070ebe8bc735f5bbd2bac87c2ad64</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="packageinfo" sha1-checksum="0f5dc630fb4bd61a3ea3abcf97d69f3b27d4271e">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/manifest/packageinfo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1180068</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-10-07T15:11:30.329927Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>a9b85fdbb2993348a75e0f01ba6d4d20</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="Constants.java" sha1-checksum="089f579c0d5cf012766550faa0dca72a518697eb">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/manifest/Constants.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1181049</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-10-10T16:08:14.881815Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hughesj</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>70cfe711d4cf5d4b44030e0c74590c33</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ManifestHeaderProcessor.java" sha1-checksum="fb935af5e1c60d527c6913a9b0c05a52f3ac50b8">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/manifest/ManifestHeaderProcessor.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1131077</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-03T15:40:25.005135Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>ef87d7336810f356e3db2a499b3d52ea</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="BundleManifest.java" sha1-checksum="8a972e50f07c812d7b7de89a818ca2a0a69d82cc">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/manifest/BundleManifest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1137671</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-20T15:54:15.383872Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:prop><V:md5-checksum>1d029fc369523e21ff41ea717862e904</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="io" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/io">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/io</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1181049</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-10-10T16:08:14.881815Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hughesj</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="packageinfo" sha1-checksum="84e42064a705fa971fcc15f554d3a56012f85144">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/io/packageinfo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1144092</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-07T23:13:12.588126Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>da30e8a00ff6ac266d42065ce9d0a4bc</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="IOUtils.java" sha1-checksum="d5fc6afbc9453547fff0792e6948bbadcc191b5a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/io/IOUtils.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1137671</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-20T15:54:15.383872Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>f980953fb8081732936f7283ef588a5e</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="RememberingInputStream.java" sha1-checksum="81d03b4653115d3d043b7a4f518298fd2343a81d">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/io/RememberingInputStream.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1181049</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-10-10T16:08:14.881815Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hughesj</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>85419143d1fc502b1f173c45061d2cfe</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-file name="packageinfo" sha1-checksum="a315812ac6f513cf8d834c8261e128130cdeffab">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/packageinfo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1135256</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-13T20:09:27.750464Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>b36203d43622eba38465cafc0efdab3e</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="FragmentBuilder.java" sha1-checksum="b46e5a3ffc537a64bf241b237da1e73368118b45">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/FragmentBuilder.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1027900</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-10-27T10:33:58.039060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>4c8f525b87a94521b464e1e37cd3ebac</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="tracker" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/tracker">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/tracker</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="packageinfo" sha1-checksum="9ad88b1c0405d029d45feb468e66291346f58cbf">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/tracker/packageinfo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1080523</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-11T11:06:36.159571Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>7b20c278eafa431e30b9dd86b50cb765</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="InternalRecursiveBundleTracker.java" sha1-checksum="a0f2f2ceb817d0e56623ffcdd1773ba1e1ffb8e5">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/tracker/InternalRecursiveBundleTracker.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1069511</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-10T18:26:17.955291Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>115c698bc4fb0017a8b2e73693e276be</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="BundleTrackerFactory.java" sha1-checksum="efd007e7237cb86f97c17ce7d6de42136cd8e84f">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/tracker/BundleTrackerFactory.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1062018</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-01-21T20:43:13.176405Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:prop><V:md5-checksum>318d3a596a9e32477982bb7f1d46b9b1</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="SingleServiceTracker.java" sha1-checksum="e887c4b03ac8de2385c52c7de2e8d75829e1ec0d">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/tracker/SingleServiceTracker.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1151229</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-26T20:35:42.341895Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>102674ea59c8a05ee771207f81c54197</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="internal" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/internal">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/internal</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="BundleToClassLoaderAdapter.java" sha1-checksum="5d5e81ea1964c2a735ccad3b4d79d298b906fc59">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/internal/BundleToClassLoaderAdapter.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1145930</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-13T09:31:38.694722Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>f62c021e15c2c27efe4ac1c720f72aa1</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="DefaultWorker.java" sha1-checksum="1a5279686d38b9c343c1c63e84f85fcaca5d152b">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/internal/DefaultWorker.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>0087086b55cc8e3b2d193b577a6af41b</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="FelixWorker.java" sha1-checksum="0fff852e19cf1b37a3a509bf6825adc5a8728ce0">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/internal/FelixWorker.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1144092</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-07T23:13:12.588126Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>4fd99884d2f12b3e228e771cd5bdea75</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="EquinoxWorker.java" sha1-checksum="5291f2b3399bb2b794dca2567406bb9bb9beb784">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/internal/EquinoxWorker.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1082850</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-18T08:58:20.935051Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>c18e19913748435f11468334e9703ef8</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="MessageUtil.java" sha1-checksum="f26e8e65d3a6f56a3e7e228941298b09011f4a86">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/internal/MessageUtil.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">927119</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-24T17:01:17.772586Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gawor</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>adcaf194bdfd5d2790d51e6f8ed98243</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="FrameworkUtilWorker.java" sha1-checksum="94b28d5b2939b47125ba8796475d9d6a9ea27e57">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/internal/FrameworkUtilWorker.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1028928</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-10-29T22:08:20.374158Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>11f9fafffbe7deaaf15ce996ecc1dc4e</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="nls" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/nls">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/nls</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1141867</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-01T08:32:08.412508Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="packageinfo" sha1-checksum="0374897892429ea868fb51d649ec95f2e4f146ea">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/nls/packageinfo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1083059</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-18T20:47:07.373572Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>dee6bacf03d37e76f31193fe57975cf5</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="MessageUtil.java" sha1-checksum="79aac8e22be851ec734d25cedce83a8be273d224">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/nls/MessageUtil.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1141867</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-01T08:32:08.412508Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>3f1289f4745a44c62f3a03bd87130de5</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-file name="AriesFrameworkUtil.java" sha1-checksum="5484e45eb6eebdb4e6370765a0421cbcbad34e1a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/AriesFrameworkUtil.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1200216</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-10T08:41:06.785120Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>e088d4aca02f96d29fa813b377432814</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ManifestHeaderUtils.java" sha1-checksum="f259e74b8ff0a7dd3101d53432c3e4f58396ebdc">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/ManifestHeaderUtils.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">999635</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-21T20:56:34.629912Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>31351398af7877e8c7d24480fd7dd763</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="service" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/service">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/service</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1180068</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-10-07T15:11:30.329927Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="registry" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/service/registry">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/service/registry</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1180068</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-10-07T15:11:30.329927Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="packageinfo" sha1-checksum="84e42064a705fa971fcc15f554d3a56012f85144">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/service/registry/packageinfo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1180068</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-10-07T15:11:30.329927Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>da30e8a00ff6ac266d42065ce9d0a4bc</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ServicePair.java" sha1-checksum="ed4cb054c4276c58d18a42e01d51014365caaca1">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/service/registry/ServicePair.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1103430</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-15T15:30:24.476753Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>45ec2774ad32fd66bd67a4dab66179d2</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+<S:add-file name="VersionRange.java" sha1-checksum="7c1e40216dd09a80dccc6444e5b2d4d283c3d1fb">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/main/java/org/apache/aries/util/VersionRange.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127101</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T14:58:35.188196Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>d94ac77503657bc366ce4d72bfcc8cb5</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="test" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="resources" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/resources">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="bundles" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/resources/bundles">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/bundles</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="exploded.jar" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/resources/bundles/exploded.jar">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/bundles/exploded.jar</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="META-INF" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/resources/bundles/exploded.jar/META-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/bundles/exploded.jar/META-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="MANIFEST.MF" sha1-checksum="c32ad748d671992acdf801bad8f519c22942fb8e">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/bundles/exploded.jar/META-INF/MANIFEST.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>843694dec2ef098c2972d7e757fbe9a9</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="beforeManifest.file" sha1-checksum="3b5984ffe4f7dc04154426c8cd308d3d3bc4d114">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/bundles/exploded.jar/META-INF/beforeManifest.file</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>1e7c85f526e2d6cebb60cf17d013816a</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="META-INF" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/resources/META-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/META-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="APPLICATION4.MF" sha1-checksum="ad3bb3e9d02427fcb7844c67d7a2fa7e56d8c4b0">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/META-INF/APPLICATION4.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>0a80caec2c10aa81dfc02fba9f4a234d</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="DEPLOYMENT.MF" sha1-checksum="26bb77cc6674af8ab991bfdfc603bb208062e085">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/META-INF/DEPLOYMENT.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>d4d0f2d5f012cb3fcd296108bad66916</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="APPLICATION.MF" sha1-checksum="f44e06aafe3b6ed17ed02517058454fd3a47a8fb">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/META-INF/APPLICATION.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>6d0ab2de699abf38137116e81c920afc</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="APPLICATION2.MF" sha1-checksum="1bac32104408b61f5ff1c5530d57d61b79d2f3d1">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/META-INF/APPLICATION2.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>ae5fbe01a869b0c40d92d53512551baa</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="APPLICATION3.MF" sha1-checksum="9c42bb6bae94a5babd17d4a9c50ec8cb8a80644b">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/META-INF/APPLICATION3.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>cdde87b6a4b5d08553760c27d81578b2</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="app1" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/resources/app1">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/app1</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="META-INF" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/resources/app1/META-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/app1/META-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="DEPLOYMENT.MF" sha1-checksum="aed1c94fc8a32dcb62e1f17136711b97e7c8ffbc">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/app1/META-INF/DEPLOYMENT.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>cd3e862bce7e06a16d8de1c42463a20c</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="APPLICATION.MF" sha1-checksum="fa3a4f8bd351994450d2eb22f96d0ebdbd410d7c">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/app1/META-INF/APPLICATION.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>412a43e2f8c3ad8746d74fdfc00b0f79</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="zip" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/resources/zip">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/zip</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="subdir" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/resources/zip/subdir">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/zip/subdir</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="someFile.txt" sha1-checksum="8b267f61b9309b282ac890b501674f7e8ae3dfab">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/zip/subdir/someFile.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>d832bef8d3798656241f4a2f64f9c524</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="bundles" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/resources/zip/bundles">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/zip/bundles</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="exploded.jar" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/resources/zip/bundles/exploded.jar">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/zip/bundles/exploded.jar</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="META-INF" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/resources/zip/bundles/exploded.jar/META-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/zip/bundles/exploded.jar/META-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="MANIFEST.MF" sha1-checksum="c32ad748d671992acdf801bad8f519c22942fb8e">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/zip/bundles/exploded.jar/META-INF/MANIFEST.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>843694dec2ef098c2972d7e757fbe9a9</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="beforeManifest.file" sha1-checksum="3b5984ffe4f7dc04154426c8cd308d3d3bc4d114">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/zip/bundles/exploded.jar/META-INF/beforeManifest.file</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>1e7c85f526e2d6cebb60cf17d013816a</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-file name="file.txt" sha1-checksum="594e99fc26a6c5edd69d11c4b6f6b0dcecd9ecb3">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/zip/file.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>9bdb40e567ed45db06a605d46d2efa0e</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="META-INF" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/resources/zip/META-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/zip/META-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="APPLICATION.MF" sha1-checksum="f44e06aafe3b6ed17ed02517058454fd3a47a8fb">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/zip/META-INF/APPLICATION.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>6d0ab2de699abf38137116e81c920afc</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="APPLICATION2.MF" sha1-checksum="1bac32104408b61f5ff1c5530d57d61b79d2f3d1">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/zip/META-INF/APPLICATION2.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>ae5fbe01a869b0c40d92d53512551baa</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="APPLICATION3.MF" sha1-checksum="9c42bb6bae94a5babd17d4a9c50ec8cb8a80644b">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/zip/META-INF/APPLICATION3.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>cdde87b6a4b5d08553760c27d81578b2</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="APPLICATION4.MF" sha1-checksum="ad3bb3e9d02427fcb7844c67d7a2fa7e56d8c4b0">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/zip/META-INF/APPLICATION4.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>0a80caec2c10aa81dfc02fba9f4a234d</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="DEPLOYMENT.MF" sha1-checksum="26bb77cc6674af8ab991bfdfc603bb208062e085">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/zip/META-INF/DEPLOYMENT.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>d4d0f2d5f012cb3fcd296108bad66916</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="app1" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/resources/zip/app1">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/zip/app1</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="META-INF" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/resources/zip/app1/META-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/zip/app1/META-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="DEPLOYMENT.MF" sha1-checksum="aed1c94fc8a32dcb62e1f17136711b97e7c8ffbc">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/zip/app1/META-INF/DEPLOYMENT.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>cd3e862bce7e06a16d8de1c42463a20c</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="APPLICATION.MF" sha1-checksum="fa3a4f8bd351994450d2eb22f96d0ebdbd410d7c">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/resources/zip/app1/META-INF/APPLICATION.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>412a43e2f8c3ad8746d74fdfc00b0f79</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="java" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/java">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/java/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/java/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/java/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/java/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="util" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/java/org/apache/aries/util">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/java/org/apache/aries/util</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="SingleServiceTrackerTest.java" sha1-checksum="ec57c6aefaad5399b9e6ed176e92af7ba319943d">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/java/org/apache/aries/util/SingleServiceTrackerTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1135256</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-13T20:09:27.750464Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>7bb42c91f81d43ce57d126139dd8c9c0</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="VersionRangeTest.java" sha1-checksum="a87e2138d0eab367b9462d691a8ea49607e48f69">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/java/org/apache/aries/util/VersionRangeTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">927119</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-24T17:01:17.772586Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gawor</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo"></S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:prop><V:md5-checksum>afb00056a46c10881c68228d01941763</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="FragmentUtilsTest.java" sha1-checksum="179073cb728facb5ee3f10d9b05d95a8437024f5">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/java/org/apache/aries/util/FragmentUtilsTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948611</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-26T22:04:15.697138Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gawor</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>1288f070e64a961b563362110dac0d68</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="filesystem" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/java/org/apache/aries/util/filesystem">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/java/org/apache/aries/util/filesystem</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1152120</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-29T06:32:27.054522Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="FileUtilsTest.java" sha1-checksum="2c20d8591659c742f3f92bf2fff13cc596809ccc">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/java/org/apache/aries/util/filesystem/FileUtilsTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1137671</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-20T15:54:15.383872Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>4ac579bfc7b2b21dabd710f324410929</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="FileSystemTest.java" sha1-checksum="989400ac46aadca3f5b33b51e9a79fc87161e19e">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/java/org/apache/aries/util/filesystem/FileSystemTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1152120</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-29T06:32:27.054522Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>4b0dbecef6a95b5b1f372ea6d013e3d7</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="IOUtilsTest.java" sha1-checksum="e1883bb6eb27c6aeacfc0e25b5c52636d8d90de4">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/java/org/apache/aries/util/filesystem/IOUtilsTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1137671</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-20T15:54:15.383872Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>c023b01a2aa0d4d06a9e2869a139dbef</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="manifest" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util-r42/src/test/java/org/apache/aries/util/manifest">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/java/org/apache/aries/util/manifest</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1137671</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-20T15:54:15.383872Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="ManifestHeaderProcessorTest.java" sha1-checksum="22e2849490299fc49ac68a759619dfca60ccb3f0">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/java/org/apache/aries/util/manifest/ManifestHeaderProcessorTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1131077</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-03T15:40:25.005135Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>c85ef2d98d7b2c5a8a6493865dd8e9e9</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="BundleManifestTest.java" sha1-checksum="3a36e1f409aaa7cd2769b3785bfc551c7ed09e60">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/java/org/apache/aries/util/manifest/BundleManifestTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1137671</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-20T15:54:15.383872Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>48856890f96b816e0e1843d6dad90661</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-file name="BundleToClassLoaderAdapterTest.java" sha1-checksum="c0c796140dd7feac6de9e5b082cfc59b8b14318e">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/src/test/java/org/apache/aries/util/BundleToClassLoaderAdapterTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1181049</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-10-10T16:08:14.881815Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hughesj</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>9a43f60f5f4323cc2f62c4e918a9f469</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-file name="pom.xml" sha1-checksum="e6b49c86e2bd0353214cf2a3302da04e59612336">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util-r42/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/xml</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>2a5728645314925f5b511c6cd12eb079</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:open-file name="pom.xml" rev="1201219">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="2223f26034b475566a9dbe03c995ffaa" sha1-checksum="e53943433c58b8f8ae10818b69b729af68254b66"/>
+<S:prop><V:md5-checksum>6b7acaf0cbfe734f29aac55a65f351dd</V:md5-checksum></S:prop></S:open-file>
+<S:add-directory name="util" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="src" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="test" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/test">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="java" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/test/java">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/test/java/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/test/java/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/test/java/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/java/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="util" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/test/java/org/apache/aries/util">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/java/org/apache/aries/util</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="RecursiveBundleTrackerTest.java" sha1-checksum="da43bc7adb8f20c12d4930a79c51280fd4d086f7">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/java/org/apache/aries/util/RecursiveBundleTrackerTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1069511</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-10T18:26:17.955291Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>a295efe420a84bfa0966a9409bffe0e6</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="resources" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/test/resources">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="META-INF" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/test/resources/META-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/META-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="DEPLOYMENT.MF" sha1-checksum="26bb77cc6674af8ab991bfdfc603bb208062e085">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/META-INF/DEPLOYMENT.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>d4d0f2d5f012cb3fcd296108bad66916</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="APPLICATION.MF" sha1-checksum="f44e06aafe3b6ed17ed02517058454fd3a47a8fb">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/META-INF/APPLICATION.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>6d0ab2de699abf38137116e81c920afc</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="APPLICATION2.MF" sha1-checksum="1bac32104408b61f5ff1c5530d57d61b79d2f3d1">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/META-INF/APPLICATION2.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>ae5fbe01a869b0c40d92d53512551baa</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="APPLICATION3.MF" sha1-checksum="9c42bb6bae94a5babd17d4a9c50ec8cb8a80644b">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/META-INF/APPLICATION3.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>cdde87b6a4b5d08553760c27d81578b2</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="APPLICATION4.MF" sha1-checksum="ad3bb3e9d02427fcb7844c67d7a2fa7e56d8c4b0">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/META-INF/APPLICATION4.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>0a80caec2c10aa81dfc02fba9f4a234d</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="app1" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/test/resources/app1">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/app1</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="META-INF" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/test/resources/app1/META-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/app1/META-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="DEPLOYMENT.MF" sha1-checksum="aed1c94fc8a32dcb62e1f17136711b97e7c8ffbc">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/app1/META-INF/DEPLOYMENT.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>cd3e862bce7e06a16d8de1c42463a20c</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="APPLICATION.MF" sha1-checksum="fa3a4f8bd351994450d2eb22f96d0ebdbd410d7c">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/app1/META-INF/APPLICATION.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>412a43e2f8c3ad8746d74fdfc00b0f79</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="zip" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/test/resources/zip">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/zip</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="META-INF" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/test/resources/zip/META-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/zip/META-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="DEPLOYMENT.MF" sha1-checksum="26bb77cc6674af8ab991bfdfc603bb208062e085">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/zip/META-INF/DEPLOYMENT.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>d4d0f2d5f012cb3fcd296108bad66916</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="APPLICATION.MF" sha1-checksum="f44e06aafe3b6ed17ed02517058454fd3a47a8fb">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/zip/META-INF/APPLICATION.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>6d0ab2de699abf38137116e81c920afc</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="APPLICATION2.MF" sha1-checksum="1bac32104408b61f5ff1c5530d57d61b79d2f3d1">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/zip/META-INF/APPLICATION2.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>ae5fbe01a869b0c40d92d53512551baa</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="APPLICATION3.MF" sha1-checksum="9c42bb6bae94a5babd17d4a9c50ec8cb8a80644b">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/zip/META-INF/APPLICATION3.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>cdde87b6a4b5d08553760c27d81578b2</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="APPLICATION4.MF" sha1-checksum="ad3bb3e9d02427fcb7844c67d7a2fa7e56d8c4b0">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/zip/META-INF/APPLICATION4.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>0a80caec2c10aa81dfc02fba9f4a234d</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="app1" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/test/resources/zip/app1">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/zip/app1</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="META-INF" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/test/resources/zip/app1/META-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/zip/app1/META-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="DEPLOYMENT.MF" sha1-checksum="aed1c94fc8a32dcb62e1f17136711b97e7c8ffbc">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/zip/app1/META-INF/DEPLOYMENT.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>cd3e862bce7e06a16d8de1c42463a20c</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="APPLICATION.MF" sha1-checksum="fa3a4f8bd351994450d2eb22f96d0ebdbd410d7c">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/zip/app1/META-INF/APPLICATION.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>412a43e2f8c3ad8746d74fdfc00b0f79</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="subdir" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/test/resources/zip/subdir">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/zip/subdir</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="someFile.txt" sha1-checksum="8b267f61b9309b282ac890b501674f7e8ae3dfab">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/zip/subdir/someFile.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>d832bef8d3798656241f4a2f64f9c524</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="bundles" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/test/resources/zip/bundles">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/zip/bundles</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="exploded.jar" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/test/resources/zip/bundles/exploded.jar">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/zip/bundles/exploded.jar</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="META-INF" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/test/resources/zip/bundles/exploded.jar/META-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/zip/bundles/exploded.jar/META-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="MANIFEST.MF" sha1-checksum="c32ad748d671992acdf801bad8f519c22942fb8e">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/zip/bundles/exploded.jar/META-INF/MANIFEST.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>843694dec2ef098c2972d7e757fbe9a9</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="beforeManifest.file" sha1-checksum="3b5984ffe4f7dc04154426c8cd308d3d3bc4d114">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/zip/bundles/exploded.jar/META-INF/beforeManifest.file</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>1e7c85f526e2d6cebb60cf17d013816a</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-file name="file.txt" sha1-checksum="594e99fc26a6c5edd69d11c4b6f6b0dcecd9ecb3">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/zip/file.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>9bdb40e567ed45db06a605d46d2efa0e</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="bundles" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/test/resources/bundles">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/bundles</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="exploded.jar" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/test/resources/bundles/exploded.jar">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/bundles/exploded.jar</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="META-INF" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/test/resources/bundles/exploded.jar/META-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/bundles/exploded.jar/META-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="MANIFEST.MF" sha1-checksum="c32ad748d671992acdf801bad8f519c22942fb8e">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/bundles/exploded.jar/META-INF/MANIFEST.MF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>843694dec2ef098c2972d7e757fbe9a9</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="beforeManifest.file" sha1-checksum="3b5984ffe4f7dc04154426c8cd308d3d3bc4d114">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/test/resources/bundles/exploded.jar/META-INF/beforeManifest.file</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1127116</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-24T15:27:08.462292Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>1e7c85f526e2d6cebb60cf17d013816a</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="main" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/main">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="resources" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/main/resources">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/resources</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1154523</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-06T14:12:42.383368Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/main/resources/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/resources/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1154523</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-06T14:12:42.383368Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/main/resources/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/resources/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1154523</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-06T14:12:42.383368Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/main/resources/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/resources/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1154523</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-06T14:12:42.383368Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="util" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/main/resources/org/apache/aries/util">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/resources/org/apache/aries/util</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1154523</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-06T14:12:42.383368Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="messages" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/main/resources/org/apache/aries/util/messages">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/resources/org/apache/aries/util/messages</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1154523</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-06T14:12:42.383368Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="UTILmessages.properties" sha1-checksum="892ca59fba41a1c483f1f9fbc2ef950e7fd76873">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/resources/org/apache/aries/util/messages/UTILmessages.properties</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1154523</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-06T14:12:42.383368Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:prop><V:md5-checksum>32170f144e0f995173aee04fe75d9e92</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="OSGi-INF" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/main/resources/OSGi-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/resources/OSGi-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1027900</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-10-27T10:33:58.039060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="permissions.perm" sha1-checksum="8896e42f8436dd1cdaf765b057979bb447b7df62">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/resources/OSGi-INF/permissions.perm</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1027900</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-10-27T10:33:58.039060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>0e2635ba11aa151b4b5b0a7e8a5e7171</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="java" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/main/java">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/main/java/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/main/java/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/main/java/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/java/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="util" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/main/java/org/apache/aries/util">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/java/org/apache/aries/util</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="packageinfo" sha1-checksum="a315812ac6f513cf8d834c8261e128130cdeffab">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/java/org/apache/aries/util/packageinfo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1135256</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-13T20:09:27.750464Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mahrwald</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>b36203d43622eba38465cafc0efdab3e</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="tracker" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/main/java/org/apache/aries/util/tracker">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/java/org/apache/aries/util/tracker</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="hook" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/main/java/org/apache/aries/util/tracker/hook">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/java/org/apache/aries/util/tracker/hook</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="BundleHookBundleTracker.java" sha1-checksum="dd7f4d1d76827d3bc81d69a8943838c832492ebd">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/java/org/apache/aries/util/tracker/hook/BundleHookBundleTracker.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>26f28b880f89240864809fba66f726a4</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-file name="packageinfo" sha1-checksum="9ad88b1c0405d029d45feb468e66291346f58cbf">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/java/org/apache/aries/util/tracker/packageinfo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1080523</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-11T11:06:36.159571Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>7b20c278eafa431e30b9dd86b50cb765</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="RecursiveBundleTracker.java" sha1-checksum="b3dc21b508368e52db3e13dcb634669eb704b69a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/java/org/apache/aries/util/tracker/RecursiveBundleTracker.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:prop><V:md5-checksum>db4fa451b490a323d6ae89336f105bac</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="internal" bc-url="/repos/asf/!svn/bc/1201220/aries/trunk/util/util/src/main/java/org/apache/aries/util/internal">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/java/org/apache/aries/util/internal</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="R43Worker.java" sha1-checksum="b242b4facfee7b3c5eb30bb773b9843e312e8032">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/java/org/apache/aries/util/internal/R43Worker.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:prop><V:md5-checksum>465bd9cef2ae2c9c5ec6fa05b7bb447a</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-file name="AriesFrameworkUtil.java" sha1-checksum="c44ce65e78395e7b55f9bf8c5042cf4eaf46f465">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/src/main/java/org/apache/aries/util/AriesFrameworkUtil.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>0480130dd3d0ea90eead0a9bcfe2736e</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-file name="pom.xml" sha1-checksum="6eb7d1a77c83b066e2111df4891f12e1a6cd0372">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1201220/aries/trunk/util/util/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1201220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-12T08:00:33.081557Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="svn:mime-type">text/xml</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:prop><V:md5-checksum>4bce33e2dff58d598dbb036d766c6c73</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

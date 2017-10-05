@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>321124</D:version-name>
+<D:comment>DERBY-624 Remove requirement for the permission accessDeclaredMembers to be granted to all code in the stack when running the embedded engine. Changed calls to use Class.getConstructor/getMethod where possible instead of the getDeclared versions that require the permission.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-10-14T13:59:46.661844Z</S:date>
+</S:log-item>
+</S:log-report>

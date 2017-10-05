@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1066459</D:version-name>
+<D:comment>ARIES-559 : Another attempt at a fix. This will only refresh our cached bundles if they have changed underneath. We need to keep the cache as this caches bundles passed in - which may not be pure equinox bundles.</D:comment>
+<D:creator-displayname>cwilkin</D:creator-displayname>
+<S:date>2011-02-02T13:21:45.904186Z</S:date>
+</S:log-item>
+</S:log-report>

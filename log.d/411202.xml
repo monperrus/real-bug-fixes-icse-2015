@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>411202</D:version-name>
+<D:comment>DERBY-1148 Client XA getTransactionIsolation() does not return the correct isolation level when rejoining a global transaction
+
+Contributed by Deepa Remesh
+
+Attaching a patch "derby-1148_10.1.diff" for 10.1 branch. There were conflicts with a direct merge, hence attaching a patch. With the patch, I ran derbynetclientmats using Sun jdk1.4.2 on Windows XP. No failures.  
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-06-02T16:15:08.670623Z</S:date>
+</S:log-item>
+</S:log-report>

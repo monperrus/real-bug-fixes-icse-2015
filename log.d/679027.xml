@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>679027</D:version-name>
+<D:comment>DERBY-3784: ImportExportTest doesn't detect lack of expected errors
+
+Added calls to fail() to ensure that the tests fail if the expected
+exceptions are not thrown.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2008-07-23T08:38:00.561122Z</S:date>
+</S:log-item>
+</S:log-report>

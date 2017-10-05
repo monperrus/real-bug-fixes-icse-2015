@@ -1,0 +1,1734 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="799331"/>
+<S:open-directory rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="incubator" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="build.xml" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="a88810dbeaa3de1b593569f170d2831c" sha1-checksum="82b3098944e200fe2013c2d20685442f3d987a8d"/>
+<S:prop><V:md5-checksum>2ad52372b38d551833014f724f4a6ac0</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="test" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="unit" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/test/unit</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/test/unit/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/test/unit/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/test/unit/org/apache/cassandra</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="db" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/test/unit/org/apache/cassandra/db</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TableTest.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/test/unit/org/apache/cassandra/db/TableTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="243cf20a01b737238f110b523740363c" sha1-checksum="021ed1b7ee50a60657abfe37f0b2d3ec4e39141d"/>
+<S:prop><V:md5-checksum>90b5e7562174805b38c50e7222867809</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="gms" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/test/unit/org/apache/cassandra/gms</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="GossipDigestTest.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/test/unit/org/apache/cassandra/gms/GossipDigestTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="3f3d3c7ea800fcaa098554f4776309d3" sha1-checksum="8265e418a0f11d6badefbd428a4e2d587a046dfc"/>
+<S:prop><V:md5-checksum>064aa279fa8f71011f074bbd082434e5</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="src" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="dht" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/dht</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="BootstrapMetadataMessage.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/dht/BootstrapMetadataMessage.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="02c70af8ad11536d472fe13dac9394cf" sha1-checksum="aac32366b2747b22b30057e3d73fce41d3420eb8"/>
+<S:prop><V:md5-checksum>62260c5f773e516eb0d0cce12f36f4d5</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BootStrapper.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/dht/BootStrapper.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="8dfa96a16767a2aa21cffb38cd29de47" sha1-checksum="1f19f73d796f2af6c3e75360639a07b1a07f3a47"/>
+<S:prop><V:md5-checksum>325492a5b73b70aca6b7e6981877c9c1</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BootstrapSourceTarget.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/dht/BootstrapSourceTarget.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="86ac544c45a174cdb5623f9fc2081d3e" sha1-checksum="04074c0376b286484148f5b5fac33200e38fb02f"/>
+<S:prop><V:md5-checksum>72a6f5fd069d2135ee98def97f5db27c</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BootstrapInitiateMessage.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/dht/BootstrapInitiateMessage.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="8ef88b8ab9ddccb6b6b070a5f483b611" sha1-checksum="4908a7a20b2b3a6d771f26cb0a0c756ab2775ed1"/>
+<S:prop><V:md5-checksum>f9cfc8019a37d9bdb1b46c005d6d018d</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="IPartitioner.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/dht/IPartitioner.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="1c241e0d6de105ac13af2212abc94263" sha1-checksum="0bd2c0e20d8a14dba69cda9567de89c4c248ed52"/>
+<S:prop><V:md5-checksum>c24769a98032567ab75e89bf29ef5872</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BootstrapMetadataVerbHandler.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/dht/BootstrapMetadataVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c5c3d21db0fc451440d5e0441bc98f5c" sha1-checksum="42c02dfd967a80e0fa17df38cc9b1bc1c592b853"/>
+<S:prop><V:md5-checksum>31e8844b791b0d204833c9edea08892b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="Range.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/dht/Range.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c7f6597293bb80d52443a757ce366119" sha1-checksum="c7d2ff1381657b1d884f83db25ee400d38568815"/>
+<S:prop><V:md5-checksum>113729a5b4f3bd60b83e9a3bb644555d</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BootstrapMetadata.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/dht/BootstrapMetadata.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="d776817795ced584507b9be80814459c" sha1-checksum="1047bc601de13ea9517c5dc46a7244e7d4377836"/>
+<S:prop><V:md5-checksum>a456e9e4732e6928a1b72b64c48a2d9e</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="LeaveJoinProtocolHelper.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/dht/LeaveJoinProtocolHelper.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="d9f50c368fa123536ce754d203e75dac" sha1-checksum="f2487e40f6339f0d3195614696fda620ae85e68a"/>
+<S:prop><V:md5-checksum>d696e23d1afe8c7650e122338b0d33ab</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="LeaveJoinProtocolImpl.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/dht/LeaveJoinProtocolImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="b05c4800276100bccefe055b72155b84" sha1-checksum="484ca60f041f4c12ac0ea3cfd77472ada4d513c8"/>
+<S:prop><V:md5-checksum>3f1b48021134ce333466969dc97987e0</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="OrderPreservingPartitioner.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/dht/OrderPreservingPartitioner.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="ce3930d6f3ff689c68eec6b7749bc6d3" sha1-checksum="739589efcbb14d2ecc19dfd18c61550d06b9c9b7"/>
+<S:prop><V:md5-checksum>f00d2f4770bff00f6cab602adea6683d</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="RandomPartitioner.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/dht/RandomPartitioner.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="4ddb3924529dd1c6d4e1e63a3b89263b" sha1-checksum="4916c73e1501281febba1696c8e59ad07472a87c"/>
+<S:prop><V:md5-checksum>d87f697210c86fdd8915a3f2fe6a7b0c</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="concurrent" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/concurrent</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="IContinuable.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/concurrent/IContinuable.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="16e4b5e12992c7643911ec2c17f95832" sha1-checksum="c6a61c7d1b2457f159f53b34fd4991b88e94ce7c"/>
+<S:prop><V:md5-checksum>7b34351b520186f44d3cd2d45900c77b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="IStage.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/concurrent/IStage.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="60048b5c4e5eea9ac5cfab17d4729193" sha1-checksum="fe6f7044ed3be5de45b3f8249f9965b8eaa05e6a"/>
+<S:prop><V:md5-checksum>5d540f70a0735da0e2ca835bae9ea83d</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ContinuationContext.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/concurrent/ContinuationContext.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c70d4d2c22ca5721ec1242a9528e96cd" sha1-checksum="f80d0ed74163cbf4cc977d25ad7068bae7caa56e"/>
+<S:prop><V:md5-checksum>bc67f515dbd4153152d68b27dd532574</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="MultiThreadedStage.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/concurrent/MultiThreadedStage.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="9ebfcf4027222523e5cf2473ed81a515" sha1-checksum="7687cb60f8a45814346f7c0d2547c1915634cdc2"/>
+<S:prop><V:md5-checksum>cee877ea43fd9d5aa63c81e63cdc48fd</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ThreadFactoryImpl.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/concurrent/ThreadFactoryImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="20ea82d3ed21d6becc3933bd8a8037ac" sha1-checksum="c42932caaefa8f62c64851ef694f3ff3d7c91664"/>
+<S:prop><V:md5-checksum>cb3ecc3f33da1722d1ee804bcf879121</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="DebuggableThreadPoolExecutor.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/concurrent/DebuggableThreadPoolExecutor.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="26cbbc6141d926d835621aee09856352" sha1-checksum="d66b23b1597a39e8f87640c9221ac1a09d6ed222"/>
+<S:prop><V:md5-checksum>e4daffb86632f1f4d850144f8800cb80</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="Context.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/concurrent/Context.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="b29cd619bbb042af48375f8a14de6e8b" sha1-checksum="5a3e883c77c64ef28dbfc7e5584995dc5ff44c42"/>
+<S:prop><V:md5-checksum>4f36a4b40fb2d4f4102c704960f4fdb4</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ThreadLocalContext.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/concurrent/ThreadLocalContext.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="b95bcefec5e723ebdbeec0d58b496bfa" sha1-checksum="5056c1f287baf5f70e96e88509aa747e61d5a9b5"/>
+<S:prop><V:md5-checksum>aaf3f8e33bd4d4dd6d06d5624fefff58</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ContinuationStage.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/concurrent/ContinuationStage.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="5fe6cdb1acd784fe11a8da856dd30b70" sha1-checksum="72cee77024a6d3160fcf24e46ebd3ba7a76c664c"/>
+<S:prop><V:md5-checksum>c4ff0d675c9ba2b24d7143adff82d6de</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="StageManager.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/concurrent/StageManager.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="96d066760e2f8128737a5850201c7e56" sha1-checksum="799ad51938078f5b2238cbcbcc82ad6243c7d1a1"/>
+<S:prop><V:md5-checksum>7f8587f50ecaae263144d36b08420a36</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="SingleThreadedContinuationStage.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/concurrent/SingleThreadedContinuationStage.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="df24d136d304089f9c4f45241c71183d" sha1-checksum="f0a733be710729d76505a4001059cc8894a2dc50"/>
+<S:prop><V:md5-checksum>c09d45b07311f72262cfd0bf5f1616fa</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="DebuggableScheduledThreadPoolExecutor.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/concurrent/DebuggableScheduledThreadPoolExecutor.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="ba5b407b22f587225e4dc36bb88b1af5" sha1-checksum="ad7a65bd22afc3d81b14c474fd4b5a86f80c8ec2"/>
+<S:prop><V:md5-checksum>7d09bf9e37994f547a00604a1a424ac1</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="SingleThreadedStage.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/concurrent/SingleThreadedStage.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="53991261a0355efbf5ea431bb6c38a4e" sha1-checksum="fde00aea4b48d8892c6e1c302f97e531011e79e5"/>
+<S:prop><V:md5-checksum>4865764066c34cd73113b800cc1345a0</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="RejectedExecutionHandler.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/concurrent/RejectedExecutionHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="32d34d272da6ecce75ed2a7d31a6803f" sha1-checksum="837d34febd62fbbbcfd7738ad23d86760b8addad"/>
+<S:prop><V:md5-checksum>c72c8717104880731d6ef976e22e1ab8</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="AIOExecutorService.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/concurrent/AIOExecutorService.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="fc43fbba8ae7b20fa6e84c30d58e19c8" sha1-checksum="ad723d68c64996935194aea82344e5b81f5236a2"/>
+<S:prop><V:md5-checksum>63babac4102c05b53527ebd13f301063</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="db" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="Scanner.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/Scanner.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f25924c0e3356ff19876f0b04e2bb89a" sha1-checksum="6e4b9d16ad0b6040e1cc075912f1bcedd43fa91f"/>
+<S:prop><V:md5-checksum>cb41ab578d4fdb8d6c8d3cc5afd07ad4</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="CommitLog.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/CommitLog.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f03e71e243ffcea1c019dde2b32d0a4e" sha1-checksum="8f878f86722bb77ac07f666c60a1aa4eb6b7476e"/>
+<S:prop><V:md5-checksum>0fa8047faaa433cc973763fea631e596</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="MinorCompactionManager.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/MinorCompactionManager.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="6d6571f593d9d1d7e7199fe439bde582" sha1-checksum="cc3d4bbb2c9056a2834e14cdfba624130219cf97"/>
+<S:prop><V:md5-checksum>1a1e3d0d2d1ded6dd5af6883594c5a06</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="CalloutManager.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/CalloutManager.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="8ee1d155b5e6b3cb31486156aedf0219" sha1-checksum="917af57978738d657e7ce4d9e7c11f5b81dfa8ee"/>
+<S:prop><V:md5-checksum>dfd8f1d15049e6c3e68910766b244891</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="IScanner.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/IScanner.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="28f4c09cf88f01a16a4d3db61046a8ef" sha1-checksum="7baa9bcbb3204cea64508b43a677266492a36ddf"/>
+<S:prop><V:md5-checksum>4c89864cc1c291804e3de4b3c11b90ce</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="IColumn.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/IColumn.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="89396f8733dc36be3574891acc33a820" sha1-checksum="cfe85002d1efe3b0224d597a72333a45b45c4ca9"/>
+<S:prop><V:md5-checksum>1b27f56e2d8c3278acbc34ab3c1a42b1</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="Row.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/Row.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c400f01b4c80949679584183540ccae9" sha1-checksum="2581b66fab88e7bd4acd6a912a9237db84d5b7d4"/>
+<S:prop><V:md5-checksum>935d70de98addcd4378dfd5f03483eae</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="CompactSerializerInvocationHandler.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/CompactSerializerInvocationHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="3ff66d6df1fd5a61d18541834879f773" sha1-checksum="8e1dc3b40e2243f10837121767a0ad3304452047"/>
+<S:prop><V:md5-checksum>b57118619978cd31bc772f3afb59e57a</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="SliceByNamesReadCommand.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/SliceByNamesReadCommand.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="d7256899c6225463b674c0d97c7e1a74" sha1-checksum="c47748c88c311dcf02c2534a1d68ffdb27d88ded"/>
+<S:prop><V:md5-checksum>01e72af679c713975c7c234fc0c7ff52</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="FileStructComparator.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/FileStructComparator.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="9e8ec16aec55cf84693086197f2e2b29" sha1-checksum="2d92e7a5179edd48c51ceb72317f0cbbf5c2d645"/>
+<S:prop><V:md5-checksum>cf766c369a1259fd8677379509347cf3</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ColumnFamilyStore.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/ColumnFamilyStore.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="fca3117218a1d24e8279866b90c59dda" sha1-checksum="292d02a04e92d02658a5d1243611585264ab6679"/>
+<S:prop><V:md5-checksum>eed331a82a9def06e2a562c3ebab5f4a</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ColumnIndexer.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/ColumnIndexer.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f8aafd357105f967b6114c9f5f1efbca" sha1-checksum="e99e60c152c08048b9c2273c30cebfb9ca541c09"/>
+<S:prop><V:md5-checksum>dbeaf36a76d1786a79f45798102872f1</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="SuperColumn.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/SuperColumn.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="8c49d8eb091d75f17ff9270d5c0c2822" sha1-checksum="9a3baa03db4ded56c662d4352716fa8fc755da02"/>
+<S:prop><V:md5-checksum>7f83220e5860267c2b3060e87a938270</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="CalloutDeployMessage.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/CalloutDeployMessage.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="d63b7572eb6c270cc755e91c3ca78d65" sha1-checksum="da877e2b73dad2023a6b8a63ce60c7b7e9da9345"/>
+<S:prop><V:md5-checksum>e599cfd156ed22c2528ff39ba0f1229a</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="Memtable.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/Memtable.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="df3930eb8a09c39dbfde38f61834a897" sha1-checksum="4226afc8fcb9aa01a8d09eefc672319b3982555c"/>
+<S:prop><V:md5-checksum>df51fd26c4f903c4b07831476ed52ca1</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BinaryMemtableManager.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/BinaryMemtableManager.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="ed5c6e86c278e32d89ab104cb696319c" sha1-checksum="6e93b0ab161a0a8a075227e2d0cac336a27a311b"/>
+<S:prop><V:md5-checksum>cd3caeabbf2aacfc1d3da5ef0a2abfb1</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ReadVerbHandler.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/ReadVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="9d24e4912ff65f24cb3b00f306ce0316" sha1-checksum="ca4eabe7fb765f7006426581f4d19a9c015cfa08"/>
+<S:prop><V:md5-checksum>25f1325e8f6b6115fa51b49f0d1102f5</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="RecoveryManager.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/RecoveryManager.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="57e5892c40ab3fb51e2493ecf95b59c5" sha1-checksum="711f48dfdac8f3629dc9fade1a3cc6da1a3e9d81"/>
+<S:prop><V:md5-checksum>c3c04321dab73deef64b592a5577082f</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ReadResponse.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/ReadResponse.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="982bd730c39fdef42ff2b3273f95dc2e" sha1-checksum="2e2ae604db70290e6a5037c95855fd3e0c901a03"/>
+<S:prop><V:md5-checksum>94baa97378404516a4203f32502f4eef</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BinaryMemtable.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/BinaryMemtable.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="2eba369a58268f074c1260a01b77bb2a" sha1-checksum="91a5dac6e911cc9d88f8543a5e41bff9b551a81d"/>
+<S:prop><V:md5-checksum>420afea0e1f702d3e1ab8d3d327e1247</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="PeriodicFlushManager.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/PeriodicFlushManager.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e20f6dfc781478c5c0a6875f9525e4e1" sha1-checksum="ad35dccbf69c7c054d868cd9d8f370d9abff851c"/>
+<S:prop><V:md5-checksum>c628f04c80c2916b4990f9e1d8972606</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ReadRepairVerbHandler.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/ReadRepairVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="3145ca3d9c1894947cd70d0e6e39e9bb" sha1-checksum="7356dabac7aa50a919ee1badab935bf8b19e500b"/>
+<S:prop><V:md5-checksum>e82a49653fc84def7f9cb999e0a156aa</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="HintedHandOffManager.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/HintedHandOffManager.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7ec23cdc5a316016e062656b39a835c5" sha1-checksum="a3481504e3139195a1a95536cc7a41f8fe2ab2c1"/>
+<S:prop><V:md5-checksum>3ee6c4c0d5a37a4305f4d35f9994d4c8</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="LoadVerbHandler.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/LoadVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e6f83b6a03334c85c85502a6006993af" sha1-checksum="e1d55a9e6da61d09c834d67fa4ce4a9636083b93"/>
+<S:prop><V:md5-checksum>cd788e1d551a1087201fde7bae64e5c2</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="SystemTable.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/SystemTable.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="b5b43820d2b43f09cb71e0afef9536e1" sha1-checksum="dc7af3ad7487fc197f4bdba20166445a89feb124"/>
+<S:prop><V:md5-checksum>88490abeb0a3e2c1c16efa158999a3fd</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="CalloutDeployVerbHandler.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/CalloutDeployVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="4847438bbf760b7ae2b8eba112800782" sha1-checksum="540f034c43d59e2744f7e106856413fdb5ffcc9e"/>
+<S:prop><V:md5-checksum>e13b781c9704b27221ccc784b627a202</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="Column.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/Column.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="71238bf7e8a9c6978674a8115c75ce3a" sha1-checksum="04b49aaf66ae67b38e4ba5d09cb9690dde673e0b"/>
+<S:prop><V:md5-checksum>ab81fad2b068301b0ce7b178057d085b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="RowMutationMessage.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/RowMutationMessage.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f47fc14afa9d298561b04b5d023acaaa" sha1-checksum="e33e1d078a8ea8b10b8051e99e476cfae0eea43a"/>
+<S:prop><V:md5-checksum>0188b7ea3379507be4448b177c419b29</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ColumnFamily.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/ColumnFamily.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e5527bb49f0f77c4e15a990775d3eb98" sha1-checksum="1566ab1020b383fc7a53e105d359975917341f97"/>
+<S:prop><V:md5-checksum>6965469fe5c64769cc88bff39d5969df</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BinaryVerbHandler.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/BinaryVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="d75e8de43600fbb166a8aafcdf25a2db" sha1-checksum="60ab7c9598714b1453276ea9c9ae59e808dbb679"/>
+<S:prop><V:md5-checksum>efa6e015e8dceb42128a791c79c1cdd3</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="CommitLogHeader.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/CommitLogHeader.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="a234c7dcbfc9b80e303054f32d6b94d0" sha1-checksum="4f67ba2484f1b9606f54182e0572f28bb149838a"/>
+<S:prop><V:md5-checksum>9ef8f7a6302d73911581a33b8e6f85c4</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="RowMutationVerbHandler.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/RowMutationVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="b52c1cd727837e88261579d62a7d852a" sha1-checksum="36028730df36f1852dcf7f0a3a3d3748bd0183d1"/>
+<S:prop><V:md5-checksum>31311f0f880e7b567802b6b189a76c58</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="FileNameComparator.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/FileNameComparator.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="cc10cac6cc2d59c455971d8d6d95dd11" sha1-checksum="555c387b47f2430aa16966d9372b48f3ffbc2cae"/>
+<S:prop><V:md5-checksum>149a1e5b2dada36b84922a75960d1802</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="WriteResponse.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/WriteResponse.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="354a87970825c98c2b2e504d36254353" sha1-checksum="a311a28f1a19340be66de1feaffe01cdb293fc18"/>
+<S:prop><V:md5-checksum>73005c6c15d9b93de58fb0327304a27a</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ReadCommand.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/ReadCommand.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="4a98b273647743e40230bbcaceac1a8f" sha1-checksum="42976e84246cf9f70635291ad9acbd7b3f696df9"/>
+<S:prop><V:md5-checksum>32a566f6e38ac3f37600b7d7aebe165c</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ColumnFamilyNotDefinedException.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/ColumnFamilyNotDefinedException.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="b6b95f8f3974b024560da824f57f6b64" sha1-checksum="9f33d4781c7fc60c573266add00aae2a8e26f334"/>
+<S:prop><V:md5-checksum>c1d99d3359a6a0e93904eb0d13075687</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="SliceFromReadCommand.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/SliceFromReadCommand.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="41f6a4b6138ec52ccf532398bcf1b45f" sha1-checksum="a98a249960d805647736c33a3354063e524bd5a2"/>
+<S:prop><V:md5-checksum>6ff208f649bb4cc30684c9d69e45b0b3</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="DBConstants.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/DBConstants.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7f82c019c1b30c0276b0df7a5c7df2a4" sha1-checksum="5b9d1389b187dd597d1ea818b553f661087e5c0e"/>
+<S:prop><V:md5-checksum>e32f17bd0bc1d16fc0c81ef68a6525d0</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="DataFileVerbHandler.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/DataFileVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f3f93b8198b180ce1cdee1ad033c3af9" sha1-checksum="bb97147054de6b7deda390e78122f980587d785b"/>
+<S:prop><V:md5-checksum>0bafcb93ffcc444aa0108a8df7dabb7b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="Table.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/Table.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="2eac60354b34e6c3b624c3ecf3d768a4" sha1-checksum="93c9c0102815099ba5c35e06fef33bdae78b2cb0"/>
+<S:prop><V:md5-checksum>020a420060944fc852d6c3223e45e63d</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="RowMutation.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/db/RowMutation.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c67892dbda301a9385af3c3dbe82a041" sha1-checksum="5ae443cfcbd84526276023d05859911b5e1e8f39"/>
+<S:prop><V:md5-checksum>b6068b820fb28102d8a615d3704570a7</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="gms" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/gms</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="PureRandom.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/gms/PureRandom.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="ee1bff91e7b0d064fa04994c3c2f80ef" sha1-checksum="1fbaea2ff53cb43b2c715001357455d1e8cc9462"/>
+<S:prop><V:md5-checksum>4b3ff6f5e3d021c3ad24d3eca4e4854f</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="IEndPointStateChangePublisher.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/gms/IEndPointStateChangePublisher.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="37f2a277cd9505907306e24b8818aeab" sha1-checksum="c4744e1063e3c3f5f33119fdfc64433e90e7c62a"/>
+<S:prop><V:md5-checksum>b6bd2ded8b1f1d9e2bb5b7489364821e</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="EndPointState.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/gms/EndPointState.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="6ad1651ae86f149fa5d61e88b31126cb" sha1-checksum="5cd2907fa7c7060f0e0e6e70fd8d753e58849ac8"/>
+<S:prop><V:md5-checksum>97d82e38afbecb8a9bb9b0c7537d08bf</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="FailureDetector.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/gms/FailureDetector.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f4ba1ae7098fe0d2dd53853fa6e690e1" sha1-checksum="be9f066c5f8125c201619a946f23c79a69d3c26d"/>
+<S:prop><V:md5-checksum>e1c74ebf46662124c591faf565784f9a</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="FailureDetectorMBean.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/gms/FailureDetectorMBean.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c8f13186c615f0c982e776c57c758243" sha1-checksum="180ef07fc96583e79699157d5b3aca1d42834a36"/>
+<S:prop><V:md5-checksum>61d668bfe0276ffffb93d693475946da</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="IEndPointStateChangeSubscriber.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/gms/IEndPointStateChangeSubscriber.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="45b2b83fa817392dee5a987a0c6f90ab" sha1-checksum="569bae79eeb314f61aa233c1f3575c120846edec"/>
+<S:prop><V:md5-checksum>5384d083c8457a406398f56c37833b24</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="GossipDigestAckMessage.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/gms/GossipDigestAckMessage.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="04057b5d8c5904e051bfeb5246fd7a83" sha1-checksum="6b72773606549307e7f92ff5d0bd180347e40f38"/>
+<S:prop><V:md5-checksum>1f1f58179a308c6e1686db5eb2c24d00</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="IFailureDetector.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/gms/IFailureDetector.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="32c03c3a1497b87fc3214340547d6df6" sha1-checksum="925b7d26abfe5244f0f80fc3d2d00495f3cd37f8"/>
+<S:prop><V:md5-checksum>f46f2ec68f41632e44db1ff297a79f0a</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="Gossiper.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/gms/Gossiper.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f3496a9baf3a7d7ec835a324ec056fff" sha1-checksum="e31341ee5331fe0682f0e71e4a5b782238671512"/>
+<S:prop><V:md5-checksum>785bf2ac4a0cdebe63929033c8a507d6</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="VersionGenerator.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/gms/VersionGenerator.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="70d70faf60231965dc3c8437a8e3f8a9" sha1-checksum="0ecce084696acf087b1524c1c4c5336ecde7d01a"/>
+<S:prop><V:md5-checksum>a9c7b997baa85aea57890bf1d9e26edf</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="HeartBeatState.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/gms/HeartBeatState.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="ca9bdb520645b49713c13a625e241889" sha1-checksum="df3b92e05ac150f836b512e819a5270565217dbe"/>
+<S:prop><V:md5-checksum>9d28290ef87acc643d66087591c1ed0c</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="GossipDigestSynMessage.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/gms/GossipDigestSynMessage.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c6f7cee8846c4975c7dc278fa8843ffc" sha1-checksum="e3a715743afd0cff3f73fcb0478bd122ce15362c"/>
+<S:prop><V:md5-checksum>2a3c8960f5fc142d09eef4975787e2cd</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="JoinMessage.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/gms/JoinMessage.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="19f63e5267f5c26fad2d0e81b3e6c35e" sha1-checksum="2b6a59e1e02dfd1f991aafbd82eee994847a985e"/>
+<S:prop><V:md5-checksum>d89a7443524dd078c11a82679fd23a7c</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="GossipDigest.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/gms/GossipDigest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="31337667f60f98a8d5efb59ef7da27d0" sha1-checksum="e7e7aee2eebc4cdc52b3401a5de0951d04f3571b"/>
+<S:prop><V:md5-checksum>d67f1b93a7f52ca0e665ea423e6c5e19</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ApplicationState.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/gms/ApplicationState.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e8627fca7dab5acf4b1ae9c1ce220acf" sha1-checksum="24e3821b2f69b482f18832cf500fcc5c006cf816"/>
+<S:prop><V:md5-checksum>5f8383821b9aa33da635726ba64c0f5e</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="IFailureDetectionEventListener.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/gms/IFailureDetectionEventListener.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="11d85a8fb4edbb6982eef4059879f5d1" sha1-checksum="510a22d5f221cddf89f469ff47952952e16a43ca"/>
+<S:prop><V:md5-checksum>3d0e458209847f126c79451a18253363</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="IFailureNotification.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/gms/IFailureNotification.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="ba1dc8009ec9761edb9cc93db638dd87" sha1-checksum="186c5b252de91ff2df58b3549fe6cac0d5b380ac"/>
+<S:prop><V:md5-checksum>23f25fb06ff5f2f23906876f999317f4</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="GossipDigestAck2Message.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/gms/GossipDigestAck2Message.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="29737bb90f1313bffb746a3e9e6a82b7" sha1-checksum="227d40415658a2e2eb586ecc51963a7748cb8533"/>
+<S:prop><V:md5-checksum>a370feb06075e78232cce24686ddb3c5</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="net" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="IVerbHandler.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/IVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="6b2a1c178ba0c6c30e56e1fc4bf3871e" sha1-checksum="3c42b9ccd3a42b137850715d61b51751da82bfe6"/>
+<S:prop><V:md5-checksum>80447634a09e00189a82322a42c6df09</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="MessageSerializationTask.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/MessageSerializationTask.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7ca892d72a8358918b8f126183c5f09a" sha1-checksum="e87ad68a4948360ddcc7e6bd687e17cc76902afc"/>
+<S:prop><V:md5-checksum>a9e9ac5d3605db8cdd3b67fff46395e9</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="TcpConnection.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/TcpConnection.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="9dd4dfaf61de2eef056edd0134807520" sha1-checksum="813a4aa10b46eece7343aad1afb25413b03ce393"/>
+<S:prop><V:md5-checksum>ef244d4f7b907507512c1c777cda86d6</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="IMessagingService.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/IMessagingService.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="d00eda2afdb81f83e6d911464c13b96c" sha1-checksum="b97d353c52fc6797b5346d4da7405231dc2ff9e0"/>
+<S:prop><V:md5-checksum>662b536829054b5e083facd61bdc60a5</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="UdpConnection.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/UdpConnection.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c40621d9f006a93bd5c8aeb09ae84530" sha1-checksum="1dd6e1f7fc964666a71dfd67192f526dbe2f8def"/>
+<S:prop><V:md5-checksum>775360ad9ae844c57b8262bfaa4ea8e3</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ProtocolHeader.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/ProtocolHeader.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="ffc367d79e4196271b9be87dac4abe6c" sha1-checksum="ce922885a82fc49c6d5d3f039eb8f392155ee06a"/>
+<S:prop><V:md5-checksum>baa1da68a211bf44f89ecfec90cb2011</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ConnectionStatistics.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/ConnectionStatistics.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c47c4b2d72320735a86f745e72ace6cd" sha1-checksum="f9f5fe6efd14798935da4842ae688fe2dd3573a5"/>
+<S:prop><V:md5-checksum>cccf9d632e8339291cdf0949b7f628fc</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ResponseVerbHandler.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/ResponseVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="68ca48a1dd55cee5d89ee2b751a6841c" sha1-checksum="76afe1ae610f54aaaa36922a5f4cde7cba7c0359"/>
+<S:prop><V:md5-checksum>1c2ae0b2028dc2903d84c34ed56d6b31</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="MessageDeliveryTask.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/MessageDeliveryTask.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="69ab80273028685dd09460f37b70ed6f" sha1-checksum="37f01eaf84ba225f237755d09758d899e8080ee4"/>
+<S:prop><V:md5-checksum>b4a9a0bc8bf96ee5bb25397114c3f617</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="SelectorManager.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/SelectorManager.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="3dd0ddd3328432d8970f543a6544201d" sha1-checksum="2443a7ad9c4a989b42031143f2bcf7533225eb0d"/>
+<S:prop><V:md5-checksum>32901dce0098f8613db311f48b1387d3</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="AsyncResult.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/AsyncResult.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="d80ed50eceed35886422391864c45864" sha1-checksum="b2512df8dc42e5e259233807e9718d57362548ef"/>
+<S:prop><V:md5-checksum>cb3b1d4750be54da444be6b81afdb111</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="HeaderTypes.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/HeaderTypes.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="0581511584304d3f6b861f9798d0f17b" sha1-checksum="34f0eca81919646b5b3069d5d5dc12b7d41d2bce"/>
+<S:prop><V:md5-checksum>f930e895ab302f264d9f74b4d392b60b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="MessageDeserializationTask.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/MessageDeserializationTask.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="aaecc8505d029675247c35b12f79d79f" sha1-checksum="5e9ce26ec66ccea6d5c648bcd4dbe2d47357a82b"/>
+<S:prop><V:md5-checksum>60c14cb7d0a959ae5bcf40beaaf70b22</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="FileStreamTask.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/FileStreamTask.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="bcb5bde87a914829a27d26764b71c939" sha1-checksum="7fc02f88b76b4e96f38656121330adb43f1d6335"/>
+<S:prop><V:md5-checksum>0ff5f6e164a5cd4646c6bdd2a3bfc61f</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="EndPoint.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/EndPoint.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="4614d09d7da279f00a0e4b05d072cb8c" sha1-checksum="dcf5b0e1670696276e47f80c7472b6f5512e2333"/>
+<S:prop><V:md5-checksum>c57447a450df3b3efdfa61e77953355a</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="Message.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/Message.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="5d016361333a166ab35589a3df377462" sha1-checksum="4e8f7de23839c3a7550da0ab038089bf51051e12"/>
+<S:prop><V:md5-checksum>92c0985552007aadd764402d89d7cf46</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="sink" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/sink</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="SinkManager.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/sink/SinkManager.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7d2c3eb0f3fdafa25fddd88b25d00e62" sha1-checksum="e92cb7c28b8317be63eedf48c1f2743be7f1988a"/>
+<S:prop><V:md5-checksum>e15c77f169827e0a9d0d87ace2c813c7</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="IMessageSink.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/sink/IMessageSink.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="b0e102161c4442725f4e69cf2f3a5fbb" sha1-checksum="d718b54770067207b44070569b0f5f783e048348"/>
+<S:prop><V:md5-checksum>0e105a36e439da6a087321055f452026</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-file name="IAsyncResult.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/IAsyncResult.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="5e928f6a85cb75d7a7cd2fc59ec38c37" sha1-checksum="74c1713e5a2e7f798ab544b3f544f190533e4a54"/>
+<S:prop><V:md5-checksum>9cff57adae226356da409237d42ec595</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="CompactEndPointSerializationHelper.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/CompactEndPointSerializationHelper.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="d282640c872349be059d0a163ba36791" sha1-checksum="ac91b74deea2daaa18cc0906c4578fb0ab59889c"/>
+<S:prop><V:md5-checksum>83dfaa3e9ea7e2bbc62f36e6133c1d41</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="MultiAsyncResult.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/MultiAsyncResult.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="484463a2d8d641b9fd348e11b303bbc7" sha1-checksum="1f0a98dde8653d7a059c4fe10896ec6c184e4166"/>
+<S:prop><V:md5-checksum>88af232da99ae9872707f04d578b6b36</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="io" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/io</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="ContentStreamState.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/io/ContentStreamState.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="8ac1ccaee3065188b9ac02834afa7136" sha1-checksum="d633dca3f32522fe9bc601aacbf58375d8e8d075"/>
+<S:prop><V:md5-checksum>eba557f9329ca5fcc443a9f3474386ad</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="FastSerializer.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/io/FastSerializer.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="1c580717eafa07d1b9ce657277ed3e60" sha1-checksum="0bcef2610699c47058dba3aeb1bf05fc0ac8541a"/>
+<S:prop><V:md5-checksum>3a3a186ef4ab9ee4dee6f5889a6ca682</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="TcpReader.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/io/TcpReader.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="92656cb6ec6a1b31360b82712cc4b058" sha1-checksum="9650b9e0bda8e22c939adf56f0b16d9114d98188"/>
+<S:prop><V:md5-checksum>a58c1fda549d46a56b86bd7882c10139</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ContentState.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/io/ContentState.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="fb44a06464324600c76dbe916a3d4845" sha1-checksum="6af25ab3bb4819a36881bbd348172bbdaa15df92"/>
+<S:prop><V:md5-checksum>8c517d78fdf2fce21317871867fc74b7</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ProtocolHeaderState.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/io/ProtocolHeaderState.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="3d0bcacb929f4ea6478bd49e8d67ac84" sha1-checksum="09d1aa446075c10efcdc64540e1d948962400f65"/>
+<S:prop><V:md5-checksum>4c3e9246d0545feac6633fbb44abfff0</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="SerializerType.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/io/SerializerType.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="6c4407f417357d4d9b53bb928cd20c97" sha1-checksum="7298a687429e26fbbf4b45a7ee43d2073921baeb"/>
+<S:prop><V:md5-checksum>e859a9331017ecef51ac7f35c405fc79</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="StreamContextManager.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/io/StreamContextManager.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="bd3c43cadb1abb5498ce61a97b674168" sha1-checksum="51fef65c6754e484e8aa22a796be16edc57bc24f"/>
+<S:prop><V:md5-checksum>68f5d1eca192a73f3cd7af92d002d34b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ContentLengthState.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/io/ContentLengthState.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="845ec299a23bf8aa5d1de3a6a9f2f8ae" sha1-checksum="0b9cfc94b85a5522dd5e8299a597b887224002f6"/>
+<S:prop><V:md5-checksum>13a951cd09ee871ca54f0d727906995e</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="IStreamComplete.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/io/IStreamComplete.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="5a833ec2c54aea694bfaf8b5e980b689" sha1-checksum="10b9a5abb5150424497ee969d6303b45aa0a44f9"/>
+<S:prop><V:md5-checksum>2cf35c71e3cd6e5d6351b1f3fcf53ea1</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="SerializerAttribute.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/io/SerializerAttribute.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="1edc7032d94cce5a85f14e538be4d21d" sha1-checksum="f2828e993e480ab36c6a7f7f08521ee85f6c616c"/>
+<S:prop><V:md5-checksum>d2f08f7207934de216c0dd070adc1caf</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="StartState.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/io/StartState.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="71023c50fce0a8d32603555c39cfdd60" sha1-checksum="856eb1808947e5c9a8a996b8fb616e8a8ab0a808"/>
+<S:prop><V:md5-checksum>a20cfd7e399c039c78f3e953e34ddc8c</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ISerializer.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/io/ISerializer.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c763c0603bf376fc5dbb77ad1382991b" sha1-checksum="ec08f77a5f305a8b8f6ad788097155f0ceaed736"/>
+<S:prop><V:md5-checksum>a164a0511283b0b611ca9f2ddd84c341</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ProtocolState.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/io/ProtocolState.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="b6adbeb64b4479449bcce93dfcc24c45" sha1-checksum="c31edaf3211e3f2d7a1e4670157cb02290b1ba23"/>
+<S:prop><V:md5-checksum>fb86193dd7f106005ba492e6e51a456c</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ReadNotCompleteException.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/io/ReadNotCompleteException.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="447ced9164663e2beb78ca70e28f1469" sha1-checksum="f186b07d736faa0b190733c6101858fba9e0be04"/>
+<S:prop><V:md5-checksum>8e8d919220dbe90f9d04270f0c4e74ab</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="DoneState.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/io/DoneState.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="1244b89701890d3723c2b5c55ee0652f" sha1-checksum="ca641cf68b44710a7f19741321c034cbab57c261"/>
+<S:prop><V:md5-checksum>45721a7bdb0e1abede39310cf4ef6000</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-file name="Header.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/Header.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="277283c7bd438a40f36e429aff6af7f1" sha1-checksum="2f7fe36ca87be53cc2da8a7e6334c29744993932"/>
+<S:prop><V:md5-checksum>e763f893493d16ad8cd8978a1738d15c</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="SelectionKeyHandler.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/SelectionKeyHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="51237b5aa5ca253039c6b411b4b443e3" sha1-checksum="38e1950ec1f1ea3f9013942b05edd45c12994608"/>
+<S:prop><V:md5-checksum>e29dc00fc3fa8b9885418ad8ab41989d</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="MessagingService.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/MessagingService.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f8cadfbe87ace002a217e30129973aa0" sha1-checksum="fda2707acd955fa427f94289d15a2705ecca1f63"/>
+<S:prop><V:md5-checksum>d3427d1f272f64679a09a63e1912b894</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="TcpConnectionManager.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/TcpConnectionManager.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="0edebfd3919f0cd112c4fde1152ade32" sha1-checksum="1267ed11200d6b2803db4a9378343d30a3ae7798"/>
+<S:prop><V:md5-checksum>0c2cef1153cd8eda0572432a6a2c9fac</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="IAsyncCallback.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/IAsyncCallback.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="098bd4a60012b6384b20b1adbaabd2f5" sha1-checksum="86f8dcfbc8a18bac0aba44fe220cf24fca8734dd"/>
+<S:prop><V:md5-checksum>f4209f8022774c52eeab29f0c861e12b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="MessagingConfig.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/MessagingConfig.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="304f6b41cd7e174abb23ac1b9848d6c9" sha1-checksum="06a19f111176a8af3c9e5de95156429f66be6798"/>
+<S:prop><V:md5-checksum>7fac0741cb15dc1f96e6b5bb6b22913f</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="TcpConnectionHandler.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/net/TcpConnectionHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="d0d62e350116846356b547ecb4529567" sha1-checksum="3c1c4a2617af7435805e66c8533d9b4c6e4c8a91"/>
+<S:prop><V:md5-checksum>763e91d793df240add40097497ce7d42</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="utils" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/utils</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="FileUtils.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/utils/FileUtils.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="9dc4a126a3823ca29d45b1bb1ece4022" sha1-checksum="1718f0ae529327021768acd7e34703a18ce122d1"/>
+<S:prop><V:md5-checksum>2b5f2872ef2a290bd945f5e8da8fe0e2</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BloomCalculations.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/utils/BloomCalculations.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f7a667b12d0f350829c227d6d5bb5ad5" sha1-checksum="f354449ea62da269d313849fa7da5a5aecb79762"/>
+<S:prop><V:md5-checksum>e2b4ae488598c2c87e50682d0505bdf5</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="Cachetable.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/utils/Cachetable.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="82fcc97f8e2d0335133ef8b239bfc7a4" sha1-checksum="fedf6c0cb642afa23d6501301ac5f1a6cc2eaa21"/>
+<S:prop><V:md5-checksum>2934473cddfb6fb1066782f65e37f096</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BasicUtilities.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/utils/BasicUtilities.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="74a9f0e4b8a8f30fb98efcff0755d862" sha1-checksum="199bc4aad9f59ea747277e983314b3a42c6e507a"/>
+<S:prop><V:md5-checksum>fdd8cb79a3dc0af41d16e6c103d297c5</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BloomFilter.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/utils/BloomFilter.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="06f98f0f09fed70cb65c6c8fdc415225" sha1-checksum="3970db910df6761dc3ebce65088d4022d45a50f2"/>
+<S:prop><V:md5-checksum>2596b23832209537e734e657a977f886</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="LogUtil.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/utils/LogUtil.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="2bd8d511ff8ed2c719ff07193cd32ad4" sha1-checksum="5dee8277dc397580ce5aea21a60bf9323da19fe7"/>
+<S:prop><V:md5-checksum>1231eb1e400e48c4f3ae5b12a963ab1f</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="Log4jLogger.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/utils/Log4jLogger.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="704489c2c4e3f3d76a2d46f449d77fdc" sha1-checksum="b652a2a68359d26bf587be73bdf57faef7889e1d"/>
+<S:prop><V:md5-checksum>943e75bfc6d6b10191a96118e8aa8078</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="SafeMessageDigest.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/utils/SafeMessageDigest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="cf32ebef45d596057edc86232990884f" sha1-checksum="16a6adb807cd6b7fbec544cd305832b0af363259"/>
+<S:prop><V:md5-checksum>28d3212a6eef0cbcb2d9edd5c7a870e2</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="FBUtilities.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/utils/FBUtilities.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="fe5fe700a0c7d53a048c59c00139e859" sha1-checksum="2e14cec34046c5be0b7e1721bcf7ec806cbf1a6b"/>
+<S:prop><V:md5-checksum>1ce3bc1a85d01b131bba64f00b491093</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ICachetable.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/utils/ICachetable.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f38d8979ad69c04936812ba4a8421aae" sha1-checksum="91e54a51d4a7998bf7d4a44696f2bce1428a5c32"/>
+<S:prop><V:md5-checksum>f3bf7405c8f77542938d06c144574c66</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="FastLinkedHashMap.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/utils/FastLinkedHashMap.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="de0ddbd156bda35bb9f04af2b586b70c" sha1-checksum="b8732a3728762d70b29f3eacf59eaf379af6971e"/>
+<S:prop><V:md5-checksum>d436a3f968056b950d2890a1c3306899</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="HashingSchemes.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/utils/HashingSchemes.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="89093c3a0c50eb4abb56d8acb6a6481c" sha1-checksum="fc772ab7e7c84f5d8332e97d53a1ff980ac870e8"/>
+<S:prop><V:md5-checksum>120823a2df1e1865ddc63de0070657e1</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ICacheExpungeHook.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/utils/ICacheExpungeHook.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="45bcc5ba3503ecc4214dc32df519b616" sha1-checksum="36caa65e7d0372fb1d2f92d85b6b841c4909cf45"/>
+<S:prop><V:md5-checksum>30ca84de75c790381720086e42b1e0e1</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="GuidGenerator.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/utils/GuidGenerator.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="1c6e4faaa507021dda765ce5e1934ebd" sha1-checksum="66793801ef9e31d8869ab40a5d8ab2a541278312"/>
+<S:prop><V:md5-checksum>4c48e20249e870f5fb5113565a8b2a31</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="service" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/service</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="StorageService.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/service/StorageService.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="1f590ddbda7f5d4de22b17cf540b0965" sha1-checksum="4a88a35c3c6b3abab95bc95d7404e748838a1de7"/>
+<S:prop><V:md5-checksum>a4d80be23e38eb65668f1011ace77535</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="StreamManager.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/service/StreamManager.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="6cef09b5ee642bf3ddff1d9d84a3c97a" sha1-checksum="f1c9d7430c695d578d83e269db3ca79ca77f038f"/>
+<S:prop><V:md5-checksum>aea6c9d58f205490ecf520ecdd30f673</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="StorageServiceMBean.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/service/StorageServiceMBean.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e6f18294cd3a3bbc5ac434db0abb85c0" sha1-checksum="b6f46605a9f4ddc86a6bfc39c28ffd0b1a0b0231"/>
+<S:prop><V:md5-checksum>dc038ada6deb928237ae2dfb4657a80b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="IResponseResolver.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/service/IResponseResolver.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="97a1683215402b92cfe27da65bb6e50d" sha1-checksum="631c9892e7e5dc3bf0e731836e59f115b53a3fc6"/>
+<S:prop><V:md5-checksum>e5b5a9bdd986041f0fc370f4687436bb</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="WriteResponseResolver.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/service/WriteResponseResolver.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="9b83226dd47756662ca10f6e791094ea" sha1-checksum="4c6472c376060d6786d8eb4d3aaa764c84661da6"/>
+<S:prop><V:md5-checksum>d2852fe0a77d54d118d39b0d438abf3b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="LoadInfo.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/service/LoadInfo.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="6cdd40d5f2f94c1904ad697f7d407e00" sha1-checksum="7570d4a68ba75b46eac4ef78cacd92f1c4dcaad7"/>
+<S:prop><V:md5-checksum>79edd90de3ebc7aab766922dc33b2013</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ConsistencyManager.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/service/ConsistencyManager.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="3a13691be8b1947965439c7afba81d0a" sha1-checksum="7c1d8f82b91eea14ff68223e9a72cfad29658aee"/>
+<S:prop><V:md5-checksum>5c314b55037ed7f4b74dd3f82f04e68f</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="StorageLoadBalancer.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/service/StorageLoadBalancer.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c6596d7f7c9cb3454f5bb14b7d07f919" sha1-checksum="ba7edd7dea0d934cfa69f5d84312fa5c2d62164b"/>
+<S:prop><V:md5-checksum>dcc5738802fab3f43cf9b596950f8390</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="TokenUpdateVerbHandler.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/service/TokenUpdateVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="6af9bf33d98e85c767584cf87b14aee1" sha1-checksum="2426b30a07e2deb01d8130aa22960c78c40045e8"/>
+<S:prop><V:md5-checksum>64361339c06b9f3386f17509af8fe7aa</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="LoadDisseminator.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/service/LoadDisseminator.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="4d3ed35974daebf2ae900ab70994376c" sha1-checksum="671d7f03e12438cfd67a4209862d5f31170f7c9c"/>
+<S:prop><V:md5-checksum>976a14bab212b8fad67f81f22f7de839</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="QuorumResponseHandler.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/service/QuorumResponseHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="53dd04d073b402b9a4a406ed369aeef7" sha1-checksum="890ac14b21e84715d517aee4553a2d3b332229cd"/>
+<S:prop><V:md5-checksum>992ceda123f995a3af39d6c85cde8faa</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="StorageProxy.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/service/StorageProxy.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="091c24c88bbee2fe4c0c29e4386b06b8" sha1-checksum="8a7b8554a02e82679c4577be92188299e3e3dd5b"/>
+<S:prop><V:md5-checksum>8b4b145337194f0b6a22ad740c751799</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ReadRepairManager.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/service/ReadRepairManager.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="495b40d673b75b93c741b6018067b716" sha1-checksum="5e328cd2a4896f3074616a24abcfc5f01efbc1dc"/>
+<S:prop><V:md5-checksum>04371a669f7b3db4ca179fe5ce5762d5</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ReadResponseResolver.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/service/ReadResponseResolver.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="637165dc9a54c20772748b7db9fc133f" sha1-checksum="ae81a5237a8648bf1f7cca1dff0dd8538faddc8d"/>
+<S:prop><V:md5-checksum>25d444eeb06fb4bfbefe60a34fc0d723</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="MultiQuorumResponseHandler.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/service/MultiQuorumResponseHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="265181adb40591baa0abfe84f95637f3" sha1-checksum="cd2fc6b4b357bd561a5080dbf73a8eea17a2ef81"/>
+<S:prop><V:md5-checksum>b4e2ee1d828231691e1f4ac2a2b5d1a0</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="DigestMismatchException.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/service/DigestMismatchException.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="9dd4578029f64ca227a4e5376c3e30f2" sha1-checksum="6fba80e13c416ff6ad9935f666770ba54085bb6e"/>
+<S:prop><V:md5-checksum>4e86203b70db4a0a1f266964eae190e0</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="tools" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/tools</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="ThreadListBuilder.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/tools/ThreadListBuilder.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="d21403e2e358d0ccf37530138e8e6372" sha1-checksum="56a623036e35ddbfab33992551d2913e2b61e72f"/>
+<S:prop><V:md5-checksum>db42c5a1a1bcc1a354e674f5d1675ae2</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="KeyChecker.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/tools/KeyChecker.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="1788df3cfd92239b038d8c287c31e517" sha1-checksum="2ab5eb2ce0e2330a1ea14757cd2bfc640d93ab2a"/>
+<S:prop><V:md5-checksum>46b303dd802ced5ae91326dc84ac4954</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="TokenUpdateVerbHandler.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/tools/TokenUpdateVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="4f90c54258c6d1f9c5dfcc8fce0a5b24" sha1-checksum="fac7a06aba85bf7adee4074befe5155f7731db0f"/>
+<S:prop><V:md5-checksum>92df7bd0c702a92678a664d259c2db99</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="MembershipCleanerVerbHandler.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/tools/MembershipCleanerVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="a65c55e5b5be1e3eecfeaa3757b51bdd" sha1-checksum="321b285331c8deadfb9d55d6d1ffbb03c964574b"/>
+<S:prop><V:md5-checksum>0423aa78180f79585c40bc1da22eac3b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="MembershipCleaner.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/tools/MembershipCleaner.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c008d40cd410596a055e9307fe613414" sha1-checksum="ab62433481f986c88ff99cfa717b912baacc6c22"/>
+<S:prop><V:md5-checksum>93c91183495ac99a7c10847e2b186cad</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="TokenUpdater.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/tools/TokenUpdater.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="cb1bb98731faab21a0e8e75643c3d33b" sha1-checksum="a6f7100f235807d451eb98b850a1884fd84ce306"/>
+<S:prop><V:md5-checksum>93b49f1ad91c6c9861ef00d721f64029</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="locator" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/locator</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TokenMetadata.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/locator/TokenMetadata.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="63c111bee605dab57a314f051eca6003" sha1-checksum="6312d0cb0ad99130ea122dad38f66a94b9947e32"/>
+<S:prop><V:md5-checksum>278a82bb47f7f0432e5607c613e18eb5</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="IEndPointSnitch.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/locator/IEndPointSnitch.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="74b5dea49005f7ada446cc407e02ab4c" sha1-checksum="76f2ff962772ca85766bcbdbccd05c23908acaba"/>
+<S:prop><V:md5-checksum>b1259744e47509084989e2a250ff6d38</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="RackAwareStrategy.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/locator/RackAwareStrategy.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="b23fb3453eabde742b07272986c09902" sha1-checksum="24c1cafbf331eb037dbf95378ef25c6fe92fdc7b"/>
+<S:prop><V:md5-checksum>a83c802adcd387e4b85e1ebd87e7cab3</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="IReplicaPlacementStrategy.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/locator/IReplicaPlacementStrategy.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="ec8075987fde6af9033694018478bded" sha1-checksum="3c52f254ad11ed634e60378062bfb3aa3ec94b84"/>
+<S:prop><V:md5-checksum>d84a0fb59f395fb001b2fd3914f3bf91</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="AbstractStrategy.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/locator/AbstractStrategy.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f4130df0ed9160c7d2e92c9759741f79" sha1-checksum="9eaa2f0f4f1bf7a921663221970132c8c0d86758"/>
+<S:prop><V:md5-checksum>b74e29b460315d5673c47120e41669d4</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="RackUnawareStrategy.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/locator/RackUnawareStrategy.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="bbcc8d5a18f10643a745dc64bbda39fc" sha1-checksum="109088a89cf76d1060a566684f1357a85242c33e"/>
+<S:prop><V:md5-checksum>d9aaa66a0fdc84a9365ca1b90eac755a</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="EndPointSnitch.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/locator/EndPointSnitch.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="48f8098cccdfca426a2c6f46e0d2aac1" sha1-checksum="2e51a922872c7e37d747fd414dc97a58d1217bb8"/>
+<S:prop><V:md5-checksum>cb458bc9dd58dcb31d1149be08e63343</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="config" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/config</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="DatabaseDescriptor.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/config/DatabaseDescriptor.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="8f04b49b9fa79c988a758d113d99c426" sha1-checksum="7b22b754df14d179fddf4515af8a45305fba6332"/>
+<S:prop><V:md5-checksum>26874a9f0b83ea8398a460e2068afb8a</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="io" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/io</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="SSTableReader.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/io/SSTableReader.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="b49e21e16dd8776af59d0f1d0ef1f9ee" sha1-checksum="f9ac197190504381dc18bae1b7ffc229506a48fd"/>
+<S:prop><V:md5-checksum>3d1ca1b390ff5220327d6639506769c4</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="DataInputBuffer.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/io/DataInputBuffer.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="8d0c7fae73fcb680d611509bff5db8a8" sha1-checksum="4ff3abba4c8554ba462d624df9374b7b2398a5b9"/>
+<S:prop><V:md5-checksum>257249836fb935eb803acbe72946cbb2</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="DataOutputBuffer.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/io/DataOutputBuffer.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="4a71d6beff9f786b40ad56c6c95eef0c" sha1-checksum="6725722bb84e8f67329caae5ccae61bb749047b2"/>
+<S:prop><V:md5-checksum>5c3a396264401cc56127b6810788b62f</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="FileStruct.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/io/FileStruct.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="a74d694f4fd1e32befafd984603e476a" sha1-checksum="4a30829122408246db416fee317329fa66dd55ad"/>
+<S:prop><V:md5-checksum>460f3de0d319519cc777b9d2d92b5aa3</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BufferedRandomAccessFile.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/io/BufferedRandomAccessFile.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="d71e31a2be3599ee6f85b060c98026be" sha1-checksum="dd6b2420f5d44cbcde31b1e2c8d633de3e66f26c"/>
+<S:prop><V:md5-checksum>c70dcd849f8dff2e206035b8e7a0fff6</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="Coordinate.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/io/Coordinate.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="5bddfc6a0efe4650f24bb46b304fde6f" sha1-checksum="fe31924117789755f844348c98490f660c781c8a"/>
+<S:prop><V:md5-checksum>8abd191cb9073ad8d05ec75dc47b34d6</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="IndexHelper.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/io/IndexHelper.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="dbddee3a50086593ca81e92f00b2cee8" sha1-checksum="c81b5971b7ffaf7464942af2cc3643e2bfee1820"/>
+<S:prop><V:md5-checksum>6464c084713e840cf53614027f56f7ef</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="SequenceFile.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/io/SequenceFile.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c1fb3586a672ffdd13f15dec4c94f120" sha1-checksum="1671a9ab2e0f6c7647ed618d6cb723f330bdb0cd"/>
+<S:prop><V:md5-checksum>9e18305206e2b8f38f3a16e852f9b1d9</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ICompactSerializer.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/io/ICompactSerializer.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="86de8784f75e596a50824d64d6a2da61" sha1-checksum="6b3e08999128aaa2a240f89748d3be0cdaa6d9e8"/>
+<S:prop><V:md5-checksum>b7a19e063797f3114383d80ae6b8982b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="IFileReader.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/io/IFileReader.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="56b1a528c55bf701cc0ca3cb188ec2ce" sha1-checksum="aab69e6840f00515abf10ca6f24c82b13d44a1f1"/>
+<S:prop><V:md5-checksum>cb8f7e9d8aa933363a0ccc93a23b269e</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="FastBufferedInputStream.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/io/FastBufferedInputStream.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="b5e0e5cb4f41fcd81b42734d1f4d0430" sha1-checksum="ea15a7a63736e9dc1abcd25e32a6917cc63d4a32"/>
+<S:prop><V:md5-checksum>661a72eb6b953b5836a008dfdbfc4d5f</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="FastBufferedOutputStream.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/io/FastBufferedOutputStream.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e64b736f5d52b496ba320bcb9282e17e" sha1-checksum="1bed27c0050729513897fe39d0749b64fecb1f57"/>
+<S:prop><V:md5-checksum>232f477a83b422905220fc35d1bc82cd</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="SSTable.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/io/SSTable.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="3c5561eea64f82f48e474bcd0de3b438" sha1-checksum="b5c9c8d81a6f64b9a8d559ece6eb62d53492d634"/>
+<S:prop><V:md5-checksum>a2e2a8ab7663f5024a7897d23d3feff5</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="procedures" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/procedures</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="GroovyScriptRunner.java" rev="799330">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/799331/incubator/cassandra/trunk/src/java/org/apache/cassandra/procedures/GroovyScriptRunner.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">799331</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-07-30T15:30:21.088731Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="9f05a5d28814f1564e9634195d9691d9" sha1-checksum="62e971a179d20794b90790d847da67318491aab2"/>
+<S:prop><V:md5-checksum>1fc66795e57e5903de0188c61fcb354c</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

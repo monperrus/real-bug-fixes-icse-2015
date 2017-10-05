@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1167017</D:version-name>
+<D:comment>DERBY-5236: Client driver silently truncates strings that exceed 32KB
+
+Add a java.sql.DataTruncation warning to the result if a string was
+truncated.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-09-09T06:47:30.436308Z</S:date>
+</S:log-item>
+</S:log-report>

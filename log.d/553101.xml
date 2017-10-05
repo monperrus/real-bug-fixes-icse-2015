@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>553101</D:version-name>
+<D:comment>DERBY-2689: Deadlock with GenericPreparedStatement
+
+Move logic that closes unused activations out of region synchronized
+on the GenericPreparedStatement.
+
+Contributed by Manish Khettry.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-07-04T06:54:28.730133Z</S:date>
+</S:log-item>
+</S:log-report>

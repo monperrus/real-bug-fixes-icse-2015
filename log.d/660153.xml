@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>660153</D:version-name>
+<D:comment>DERBY-3682: SYSCS_BULK_INSERT doesn't quote identifiers or strings properly
+
+Ensure proper quoting of SQL identifiers and string literals by using
+utility functions in StringUtil and IdUtil. VTITest has been updated
+to test SYSCS_BULK_INSERT with a table containing single quotes and
+double quotes in its name.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2008-05-26T10:05:38.278299Z</S:date>
+</S:log-item>
+</S:log-report>

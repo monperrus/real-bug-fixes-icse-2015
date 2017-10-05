@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1466225</D:version-name>
+<D:comment>DERBY-6122 -  InterruptResilienceTest fails with: junit.framework.ComparisonFailure: Database shutdown expected:&lt;[08006]&gt; but was:&lt;[XBDA0]&gt; 
+
+The core problem that led to this assert was that an attempt by the
+test to shutdown the database timed out with:
+Caused by: java.sql.SQLException: Login timeout exceeded. 
+
+The test had set a 10 second timeout assuming that was large enough such that
+no timeout would be encountered, but failed a few times in public IBM lab 
+nightly regression runs.  Raising the number to 1000.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2013-04-09T20:48:16.293724Z</S:date>
+</S:log-item>
+</S:log-report>

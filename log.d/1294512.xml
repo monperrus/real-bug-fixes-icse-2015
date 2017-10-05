@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1294512</D:version-name>
+<D:comment>DERBY-5603: EmbedConnection.clearLOBMapping() incorrectly clears lobFiles causing a ConcurrentModificationException 
+
+Rewrote map iteration code.
+Fixed incorrect comment.
+Made getlobHMObj private.
+
+Patch file: derby-5603-1a-avoid_concurrentmodification.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2012-02-28T08:01:18.454877Z</S:date>
+</S:log-item>
+</S:log-report>

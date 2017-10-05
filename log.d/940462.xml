@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>940462</D:version-name>
+<D:comment>DERBY-4610: Error attempting delete with cascade and triggers
+
+Backed out the fix for DERBY-3049 (four commits) using this command:
+
+    svn merge -c -601395,-600678,-598739,-572753 .
+
+Additionally, two import statements that had been removed in later
+commits had to be reintroduced manually in
+BasicNoPutResultSetImpl.java and TemporaryRowHolderImpl.java.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-05-03T14:10:58.280611Z</S:date>
+</S:log-item>
+</S:log-report>

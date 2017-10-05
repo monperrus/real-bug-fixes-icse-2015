@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1488624</D:version-name>
+<D:comment>MAHOUT-1201 Fix mahout jobs that do do not pass user supplied conf
+
+Some (KMeansDriver, MeanShiftCanopyDriver, FuzzyKMeansDriver, CanopyDriver,
+ClusterClassificationDriver, PFPGrowth, DistributedConjugateGradientSolver,
+InformationGain and InformationGainRatio) did not pass user supplied
+configuration object to sub jobs
+</D:comment>
+<D:creator-displayname>isabel</D:creator-displayname>
+<S:date>2013-06-01T22:13:24.590382Z</S:date>
+</S:log-item>
+</S:log-report>

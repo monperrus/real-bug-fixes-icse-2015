@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1177352</D:version-name>
+<D:comment>DERBY-5413 NetworkServerControl#main can exit with status 1 without printing an error message to console
+
+Patch DERBY-5413, which makes sure the server doesn't die silently
+even if the debug flag has not been set. 
+
+Backported cleanly as "svn merge -c 1177324 &lt;trunkrepo&gt;"
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-09-29T16:33:32.619337Z</S:date>
+</S:log-item>
+</S:log-report>

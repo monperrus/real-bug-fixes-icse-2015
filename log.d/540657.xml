@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>540657</D:version-name>
+<D:comment>DERBY-2549
+contributed by Mayuresh Nirhali
+
+Fix null pointer when running inplace compress.  Change code to correctly
+handle when more than 100 rows are moved from a single page.  The new code
+returns to the caller after processing the 100 rows, and the next trip 
+through the loop picks up the scan where it left off on that same page.
+Test case was added to existing test.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2007-05-22T17:34:04.889886Z</S:date>
+</S:log-item>
+</S:log-report>

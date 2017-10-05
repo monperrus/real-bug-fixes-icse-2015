@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>475330</D:version-name>
+<D:comment>DERBY-2057
+contributed by Yip Ng
+patch:  derby2057-trunk-diff02.txt
+
+Fixed SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE() implementation to match
+documentation.  Arguments should treat non-zero as "true", previous to this
+fix only "1" was treated as true.
+
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-11-15T17:53:45.628980Z</S:date>
+</S:log-item>
+</S:log-report>

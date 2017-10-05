@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>354911</D:version-name>
+<D:comment>Build fix for gump. Set source property on javac task if using jikes to work
+around jikes 1.22 problem. Also remove empty compatibilty directory from
+previous move of compatibility tests to the junitTests directory.
+</D:comment>
+<D:creator-displayname>fuzzylogic</D:creator-displayname>
+<S:date>2005-12-07T23:47:34.516689Z</S:date>
+</S:log-item>
+</S:log-report>

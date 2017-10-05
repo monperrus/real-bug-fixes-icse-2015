@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1021775</D:version-name>
+<D:comment>MAHOUT-524: Moved numEigensWritten initialization out of loop. SpectralKMeans now runs to completion but display routing is expecting a 2-d vector and is getting a 5-d vector. Not clustering the original input points. More to test but CleanEigensJob is working.</D:comment>
+<D:creator-displayname>jeastman</D:creator-displayname>
+<S:date>2010-10-12T13:50:26.937273Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>150498</D:version-name>
+<D:comment>Fix ArrayIndexOutOfBoundsExceptions
+This patch is common to several patches
+for QueryParser see e.g. Bug 9110 and it cannot have any
+negative side effects.
+</D:comment>
+<D:creator-displayname>goller</D:creator-displayname>
+<S:date>2004-09-08T13:31:55.000000Z</S:date>
+</S:log-item>
+</S:log-report>

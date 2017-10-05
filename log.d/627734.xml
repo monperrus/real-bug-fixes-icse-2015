@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>627734</D:version-name>
+<D:comment>DERBY-3415: 'DataSourceSerializationTestjunit.framework.AssertionFailedError' on Windows.
+Added closing of the FileInputStream to the test. Without it, the test failed on Windows platforms during tear down, and it is of course good practice to always clean up :)
+Patch file: derby-3415-1a.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-02-14T13:18:05.833344Z</S:date>
+</S:log-item>
+</S:log-report>

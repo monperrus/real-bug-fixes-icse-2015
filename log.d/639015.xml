@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>639015</D:version-name>
+<D:comment>javadoc fix.  I could not figure out how to get this one fixed, and just
+removed the @see.  I tried expanding it.  I also tried including an import
+of the expanded class but that import caused the build to fail, but did fix
+the javadoc error.  
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2008-03-19T20:58:44.781778Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1129797</D:version-name>
+<D:comment>DERBY-5243 assert failure in test testRAFReadWriteMultipleThreads: interrupted flag cleared
+
+Patch DERBY-5243-1: It moves the setting of the interrupted flag to
+just before CONN_INTERRUPT exception is thrown as an SQLException back
+to the user application, i.e. as late as possible. Previously, we set
+the interrupted flag when we first threw the internal
+StandardException. The new placement means that we are done with IO to
+derby.log which may be behind the problem we are seeing on older
+VMs. I ran the new version 100 times on Linux/JDK 5 without seeing the
+error, which previously appeared in ca 20% of the runs.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-05-31T16:47:36.879673Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>617492</D:version-name>
+<D:comment>DERBY-2559: recreating a datasource using javax.naming.Reference from a ClientDataSource40 fails. Incremental commit, which enables the factory to create all Derby (client) datasources. However, some mechanisms to avoid throwing exceptions must be added, for instance if a null object is passed. The test that was disabled has been enabled again.
+Patch file: derby-2559-1a.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-02-01T13:06:22.548310Z</S:date>
+</S:log-item>
+</S:log-report>

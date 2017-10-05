@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>639073</D:version-name>
+<D:comment>DERBY-3513 NullPointerException in newBrokeredStatement in app server environment
+
+Put in change to assign jdbcLevel to local variable.  This seemed to reduce the
+frequency of this issue in IBM 1.5.  
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-03-19T23:27:47.960446Z</S:date>
+</S:log-item>
+</S:log-report>

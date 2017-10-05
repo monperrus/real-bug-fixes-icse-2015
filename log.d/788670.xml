@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>788670</D:version-name>
+<D:comment>DERBY-2074: NullPointerException when two threads load sort factory concurrently
+
+Added a flag in ModuleInstance that tells whether the module is fully
+booted. This flag is checked when we go through the list of modules,
+so that we can avoid using partly booted instances.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-06-26T12:16:13.603019Z</S:date>
+</S:log-item>
+</S:log-report>

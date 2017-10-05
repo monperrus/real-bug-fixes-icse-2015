@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1244250</D:version-name>
+<D:comment>DERBY-1913 storetests/st_reclaim_longcol.java fails intermittently
+
+backported fix from trunk to 10.8 branch.
+
+disabling test2, still machine dependent. test1 covers the original intended
+code path to verify that blobs are marked for post commit immediately, rather
+than waiting for all rows on a page to be deleted. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2012-02-14T22:39:27.979416Z</S:date>
+</S:log-item>
+</S:log-report>

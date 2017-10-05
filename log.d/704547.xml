@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>704547</D:version-name>
+<D:comment>DERBY-3825: StoreStreamClob.getReader(charPos) performs poorly.
+Added repositioning functionality to UTF8Reader - ordered after increasing cost:
+ a) Reposition within current character buffer (small hops forwards and potentially backwards - in range 1 char to 8K chars)
+ b) Forward stream from current position (hops forwards)
+ c) Reset stream and skip data (hops backwards) 
+In addition the new method getInternalReader was added to InternalClob. It takes advantage of the repositioning capability of UTF8Reader.
+Clob.getSubString uses the new functionality when the Clob is represented by a StoreStreamClob.
+Previously only mechanism c) was used.
+Patch file: derby-3825-2b-internalReader_repositioning.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-10-14T14:17:11.944675Z</S:date>
+</S:log-item>
+</S:log-report>

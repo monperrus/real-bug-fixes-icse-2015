@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1133304</D:version-name>
+<D:comment>DERBY-5108: Intermittent failure in AutomaticIndexStatisticsTest.testShutdownWhileScanningThenDelete on Windows 
+
+Shut down the istat daemon thread at an earlier stage when the database is
+being shut down (user initiated or due to a severe error). This should avoid
+the problem where file containers are reopened by the istat daemon after the
+container cache has been shut down.
+
+Patch file: derby-5108-2a-early_istats_shutdown_broad.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-06-08T09:25:31.197724Z</S:date>
+</S:log-item>
+</S:log-report>

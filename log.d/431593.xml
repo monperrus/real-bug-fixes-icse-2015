@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>431593</D:version-name>
+<D:comment>DERBY-1574: NullPointerException in UPDATE with COALESCE and subquery
+
+This patch
+- adds a preprocess method to CoalesceFunctionNode to override the one
+  in ValueNode, thus making sure the arguments get handled.
+- adds a printSubNodes method to CoalesceFunctionNode (was missing
+  too, I discovered, when I was trying to look at the parse tree after
+  binding).
+- adds a new test case to coalesceTests.java and an updated master
+
+Patch contributed by Dag H. Wanvik.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-08-15T12:46:30.581460Z</S:date>
+</S:log-item>
+</S:log-report>

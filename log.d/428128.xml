@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>428128</D:version-name>
+<D:comment>DERBY-1629 - Added comment to lang/procedureInTrigger.sql to indicate a 
+known bug is being encountered, and added a jdk16-specific output file.  
+Note that the j9 run of procedureInTrigger.sql will probably fail, but I 
+can't fix this as I don't have a j9 VM.
+</D:comment>
+<D:creator-displayname>davidvc</D:creator-displayname>
+<S:date>2006-08-02T20:16:35.258233Z</S:date>
+</S:log-item>
+</S:log-report>

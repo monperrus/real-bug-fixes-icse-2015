@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1300475</D:version-name>
+<D:comment>DERBY-5643: Occasional hangs in replication tests on Linux
+
+Increase startup timeout to 4 minutes in NetworkServerTestSetup to work
+around http://bugs.sun.com/view_bug.do?bug_id=6483406. Make replication
+tests and compatibility tests use NetworkServerTestSetup's helper methods
+to check if the server is up.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-03-14T07:42:55.084779Z</S:date>
+</S:log-item>
+</S:log-report>

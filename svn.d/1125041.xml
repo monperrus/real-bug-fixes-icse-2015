@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1125041"/>
+<S:open-directory rev="1125040">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1125041/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1125041</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-19T18:20:25.446001Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra" rev="1125040">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1125041/cassandra</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1125041</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-19T18:20:25.446001Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="branches" rev="1125040">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1125041/cassandra/branches</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1125041</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-19T18:20:25.446001Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra-0.8.0" rev="1125040">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1125041/cassandra/branches/cassandra-0.8.0</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1125041</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-19T18:20:25.446001Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="debian" rev="1125040">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1125041/cassandra/branches/cassandra-0.8.0/debian</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1125041</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-19T18:20:25.446001Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="init" rev="1125040">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1125041/cassandra/branches/cassandra-0.8.0/debian/init</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1125041</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-19T18:20:25.446001Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="10625d499ab80e368517e688fffc2849" sha1-checksum="b3d117423a3541584b5ba0f48246bc0d1204884a"/>
+<S:prop><V:md5-checksum>e58bc48df6bf610f32c7d74bdd528428</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="cassandra.install" rev="1125040">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1125041/cassandra/branches/cassandra-0.8.0/debian/cassandra.install</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1125041</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-19T18:20:25.446001Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="00b1d1cfbe52ed8bade3680acb916df5" sha1-checksum="8ca607332287f71f28603805c5fb6ae783d1d7b7"/>
+<S:prop><V:md5-checksum>5610d6868261d4c4e431de2ac6577edf</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="cassandra.in.sh" rev="1125040">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1125041/cassandra/branches/cassandra-0.8.0/debian/cassandra.in.sh</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1125041</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-19T18:20:25.446001Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="075c6758c7237faa7795b1a2984eb38a" sha1-checksum="e9120243d4bf5c088a6a327b8a05d97a75cb6aac"/>
+<S:prop><V:md5-checksum>84db1fba77bb5c221f5261684ec32c5d</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="dirs" rev="1125040">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1125041/cassandra/branches/cassandra-0.8.0/debian/dirs</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1125041</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-19T18:20:25.446001Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="2707c3a25c93ca127ec9091e3901dce2" sha1-checksum="7c580ee3e2a4da3cb60e1997eca9064f505b4aec"/>
+<S:prop><V:md5-checksum>c34031ede8990242fae900750f549579</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-file name="CHANGES.txt" rev="1125040">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1125041/cassandra/branches/cassandra-0.8.0/CHANGES.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1125041</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-05-19T18:20:25.446001Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="2748d0c74606b664e8a3c94ae676acfb" sha1-checksum="1785d1c4cf16734a117f3cb724950d5be400dc0b"/>
+<S:prop><V:md5-checksum>e4cd8052bd9e97d094812b7805a2d738</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

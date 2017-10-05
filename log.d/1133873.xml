@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1133873</D:version-name>
+<D:comment>fix removing columns and subcolumns that are supressed by a row orsupercolumn tombstone during replica resolution
+patch by Aaron Morton and jbellis; reviewed by slebresne for CASSANDRA-2590</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2011-06-09T13:50:27.338448Z</S:date>
+</S:log-item>
+</S:log-report>

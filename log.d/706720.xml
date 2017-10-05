@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>706720</D:version-name>
+<D:comment>DERBY-876  DatabaseMetaData.getSchemas() is not JDBC 3.0 compliant
+Added missing column to the result set returned by
+DatabaseMetaData.getSchemas(). 
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-10-21T18:51:13.083543Z</S:date>
+</S:log-item>
+</S:log-report>

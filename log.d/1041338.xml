@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1041338</D:version-name>
+<D:comment>DERBY-3258: 'Unexpected row count: expected:&lt;0&gt; but was:&lt;3&gt;' in testReleaseCompileLocks
+
+Wait for post-commit work to complete before checking the contents of
+the lock table.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-12-02T11:43:11.383856Z</S:date>
+</S:log-item>
+</S:log-report>

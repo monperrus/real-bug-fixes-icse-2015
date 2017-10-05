@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>385857</D:version-name>
+<D:comment>DERBY-1080: Connection reset when using security mechanism=EUSRIDPWD results in protocol error
+
+Patch contributed by Sunitha Kambhampati
+
+For eusridpwd case, the client sends the encrypted userid and password
+sectkns as part of SECCHK. The protocol error was happening because we
+only read the 2 sectkns if the database.decryptedUserId ,
+database.decryptedPassword is null, otherwise we think we have already
+read this. Thus on a connection reset,if the decryptedUserId and
+decryptedPassword are not reset, server assumes we have seen more SECTKN's
+and thus we throw error too many codepoints.
+
+Patch adds
+-- code to reset the security mechanism related variables on a connection re-use
+-- regression test to testSecMec.java 
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2006-03-14T19:11:46.229622Z</S:date>
+</S:log-item>
+</S:log-report>

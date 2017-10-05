@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="950282"/>
+<S:open-directory rev="950281">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/950282/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950282</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T22:02:02.785343Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hossman</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="950281">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/950282/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950282</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T22:02:02.785343Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hossman</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="solr" rev="950281">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/950282/lucene/solr</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950282</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T22:02:02.785343Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hossman</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="branches" rev="950281">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/950282/lucene/solr/branches</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950282</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T22:02:02.785343Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hossman</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="branch-1.4" rev="950281">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/950282/lucene/solr/branches/branch-1.4</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950282</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T22:02:02.785343Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hossman</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="common-build.xml" rev="950281">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/950282/lucene/solr/branches/branch-1.4/common-build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950282</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T22:02:02.785343Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hossman</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="45999d7af7023429b30e96930c855a33" sha1-checksum="12d8736225ff66e182cebab8bb2095613bc2f112"/>
+<S:prop><V:md5-checksum>273765b51183aef41b292e2604322781</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="CHANGES.txt" rev="950281">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/950282/lucene/solr/branches/branch-1.4/CHANGES.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950282</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T22:02:02.785343Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hossman</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="350291d60b13b6acbf5dfacdd65fa869" sha1-checksum="20e805048fda4fa13cb2d48383317e61c996ed9b"/>
+<S:prop><V:md5-checksum>ffdd9442569626eb3d3e91ba0d2199b4</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="lib" rev="950281">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/950282/lucene/solr/branches/branch-1.4/lib</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950282</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T22:02:02.785343Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hossman</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="lucene-highlighter-2.9.1.jar" rev="950282"/>
+<S:delete-entry name="lucene-spellchecker-2.9.1.jar" rev="950282"/>
+<S:delete-entry name="lucene-memory-2.9.1.jar" rev="950282"/>
+<S:delete-entry name="lucene-analyzers-2.9.1.jar" rev="950282"/>
+<S:delete-entry name="lucene-queries-2.9.1.jar" rev="950282"/>
+<S:delete-entry name="lucene-snowball-2.9.1.jar" rev="950282"/>
+<S:delete-entry name="lucene-core-2.9.1.jar" rev="950282"/>
+<S:delete-entry name="lucene-misc-2.9.1.jar" rev="950282"/>
+<S:add-file name="lucene-snowball-2.9.2.jar" sha1-checksum="58ec64c840198756cb1bc983820fdc5e6f09d2e6">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/950282/lucene/solr/branches/branch-1.4/lib/lucene-snowball-2.9.2.jar</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950282</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T22:02:02.785343Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hossman</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>e7808146883bb6006d0e797dc5d7360f</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="lucene-core-2.9.2.jar" sha1-checksum="f49e282f4b454165c4b62982caecd64fa6ad5767">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/950282/lucene/solr/branches/branch-1.4/lib/lucene-core-2.9.2.jar</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950282</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T22:02:02.785343Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hossman</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>aade6cfee70956746b97af249c81c465</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="lucene-misc-2.9.2.jar" sha1-checksum="210f6e2fad96f0fd9bc863bbda4e7e0d653d61cb">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/950282/lucene/solr/branches/branch-1.4/lib/lucene-misc-2.9.2.jar</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950282</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T22:02:02.785343Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hossman</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>9a388f882b99b2b8daaafe839ad20031</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="lucene-highlighter-2.9.2.jar" sha1-checksum="68339eba93eb1afb2e90d252ed5298f9f2866b7b">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/950282/lucene/solr/branches/branch-1.4/lib/lucene-highlighter-2.9.2.jar</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950282</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T22:02:02.785343Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hossman</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>73a4437e66efaed20e8d182a7425af06</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="lucene-spellchecker-2.9.2.jar" sha1-checksum="674d83686aa01fd3afff0c76eed6ae8b45c739ef">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/950282/lucene/solr/branches/branch-1.4/lib/lucene-spellchecker-2.9.2.jar</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950282</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T22:02:02.785343Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hossman</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>9e58dc7809a49bbe4c1c527e46b1e50a</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="lucene-analyzers-2.9.2.jar" sha1-checksum="99426090d1c19e25e4817d9f8a86711652381cef">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/950282/lucene/solr/branches/branch-1.4/lib/lucene-analyzers-2.9.2.jar</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950282</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T22:02:02.785343Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hossman</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>f43c2297f6d36d66d134661298658b0e</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="lucene-memory-2.9.2.jar" sha1-checksum="86a626c05fc1cc72b26a1168c04233c763f2a57d">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/950282/lucene/solr/branches/branch-1.4/lib/lucene-memory-2.9.2.jar</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950282</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T22:02:02.785343Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hossman</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>7ac86d1185a8c38665f73d9bc4c6dbc7</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="lucene-queries-2.9.2.jar" sha1-checksum="dcbd0537f58b27f5c49a2581b1b2ced09cff5eaf">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/950282/lucene/solr/branches/branch-1.4/lib/lucene-queries-2.9.2.jar</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950282</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T22:02:02.785343Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hossman</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>903a23482b9eefcd8fa1c614d7d8dc76</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+<S:open-directory name="src" rev="950281">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/950282/lucene/solr/branches/branch-1.4/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950282</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T22:02:02.785343Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hossman</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="maven" rev="950281">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/950282/lucene/solr/branches/branch-1.4/src/maven</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950282</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T22:02:02.785343Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hossman</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="solr-core-pom.xml.template" rev="950281">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/950282/lucene/solr/branches/branch-1.4/src/maven/solr-core-pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950282</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T22:02:02.785343Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hossman</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="4ffdc7da1e4964d02bd1feb097ee6ddb" sha1-checksum="b146a46eb3974a8ce4f17ca2d7078f84b1a76f48"/>
+<S:prop><V:md5-checksum>cbc7b8b2af25a7989bf2763ec807ed9d</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

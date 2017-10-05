@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1306596</D:version-name>
+<D:comment>DERBY-5377; AssertionFailedError in testCaseCS4595B_NonUniqueIndex in AccessTest
+  Adjusting the test to not check for pages visited in assertStatsOK method if
+  'null' is passed in for the expPages parameter, and passing in 'null' with the
+  three queries that have shown to hit this issue.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2012-03-28T21:18:37.774959Z</S:date>
+</S:log-item>
+</S:log-report>

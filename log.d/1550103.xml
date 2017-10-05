@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1550103</D:version-name>
+<D:comment>DERBY-5416: SYSCS_COMPRESS_TABLE causes an OutOfMemoryError when the
+heap is full at call time and then gets mostly garbage collected later
+on.
+
+Improve the accuracy of the code that estimates the memory requirement
+of the sort buffer. When it detects that the current memory usage is
+lower than the initial memory usage, it now records the current usage
+and uses that value instead of the initial memory usage in future
+calculations.
+
+This compensates to some degree, but not fully, for the skew in the
+estimates due to garbage collection happening after the initial memory
+usage. The memory requirement will not be as badly underestimated, and
+the likelihood of OutOfMemoryErrors is reduced.
+
+There is no regression test case for this bug, since the only
+reliable, reproducible test case that we currently have, needs too
+much time, disk space and memory to be included in the regression test
+suite.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-12-11T10:57:34.779804Z</S:date>
+</S:log-item>
+</S:log-report>

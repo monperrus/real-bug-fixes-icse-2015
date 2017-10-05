@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>901902</D:version-name>
+<D:comment>ensure that all files for a single sstable are streamed to the same directory. Patch by Gary Dusbabek, reviewed by Jonathan Ellis. CASSANDRA-716</D:comment>
+<D:creator-displayname>gdusbabek</D:creator-displayname>
+<S:date>2010-01-21T22:43:30.486077Z</S:date>
+</S:log-item>
+</S:log-report>

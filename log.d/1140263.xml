@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1140263</D:version-name>
+<D:comment>ERBY-5289 Unable to boot 10.5.1.1 database - fails during soft/hard upgrade process for a new version number while trying to drop jdbc metadata
+
+Checking in testcase for DERBY-5289. In 10.8  theDERBY-3870 fix contributed by Knut Anders Hatlen fixed the issue so no code change is needed. Just the portion of DERBY-3870 that is relevant to DERBY-5289 will be backported to the other branches.
+
+Script for testcase contribued by Brett Mason
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2011-06-27T18:44:52.537317Z</S:date>
+</S:log-item>
+</S:log-report>

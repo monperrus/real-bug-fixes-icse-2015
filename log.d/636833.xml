@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>636833</D:version-name>
+<D:comment>DERBY-3508:Log receiver thread fails with NPE at failover when master has died
+The NPE was caused by the log receiver thread trying to get the port from a closed down ReplicationMessageReceive.
+Contributed by Jorgen Loland
+</D:comment>
+<D:creator-displayname>oysteing</D:creator-displayname>
+<S:date>2008-03-13T18:57:22.644524Z</S:date>
+</S:log-item>
+</S:log-report>

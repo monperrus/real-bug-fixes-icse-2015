@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1540913</D:version-name>
+<D:comment>DERBY-6356; java.security.AccessControlException in i18n.LocalizedDisplayScriptTest
+  backport of the fix to make use of the TimeZoneTestSetup which has privileged code for TimeZone.setDefault()
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2013-11-12T01:34:31.108644Z</S:date>
+</S:log-item>
+</S:log-report>

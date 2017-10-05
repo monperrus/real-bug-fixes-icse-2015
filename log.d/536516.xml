@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>536516</D:version-name>
+<D:comment>DERBY-2584: Creating a database with JPOX SchemaTool sometimes gives
+ArrayIndexOutOfBoundsException when getIndexInfo() is called
+
+Make sure meta-data queries are properly written to the database when
+the first attempt to compile them fails with a lock timeout.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-05-09T13:30:51.280519Z</S:date>
+</S:log-item>
+</S:log-report>

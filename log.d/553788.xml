@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>553788</D:version-name>
+<D:comment>DERBY-2777
+
+No changes required for SUBSTR because SUBSTR has only one character string operand and hence if that character string
+operand is a parameter, it's context for collation will be the current compilation schema. 
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-07-06T08:32:54.919273Z</S:date>
+</S:log-item>
+</S:log-report>

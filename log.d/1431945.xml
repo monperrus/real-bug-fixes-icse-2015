@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1431945</D:version-name>
+<D:comment>DERBY-6038: Intermittent failure in LangProcedureTest: cannot drop table because of open ResultSet
+
+Explicitly close the non-dynamic result set in the regression test case
+for DERBY-3304. Also update the comments to reflect that DERBY-3304 only
+affected the internal CallStatementResultSet and its dynamic result sets.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-01-11T09:22:14.359821Z</S:date>
+</S:log-item>
+</S:log-report>

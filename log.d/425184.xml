@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>425184</D:version-name>
+<D:comment>Fix a typo in sqlgrammar. REVOKE statement needs DD_VERSION_DERBY_10_2 or higher not 10_1 as in the code. Other GRANT/REVOKE statements correctly require DD_VERSION_DERBY_10_2 in the code.
+
+Submitted by Satheesh Bandaram(bandaram@gmail.com)
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2006-07-24T20:59:04.069976Z</S:date>
+</S:log-item>
+</S:log-report>

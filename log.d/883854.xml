@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>883854</D:version-name>
+<D:comment>Moved leaving ring code to a separate helper function and call it right away if rangesMM is empty.  patch by Jaakko Laine; reviewed by jbellis for CASSANDRA-573</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-11-24T20:27:02.769114Z</S:date>
+</S:log-item>
+</S:log-report>

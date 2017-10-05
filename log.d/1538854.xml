@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1538854</D:version-name>
+<D:comment>DERBY-6383(Update trigger defined on one column fires on update of other columns)
+
+Following old harness tests need their master files updated after the code changes for DERBY-6383. Now the behavior of these master match those of 10.6 codeline where DERBY-6383 regression does not exist.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-11-05T02:04:30.742476Z</S:date>
+</S:log-item>
+</S:log-report>

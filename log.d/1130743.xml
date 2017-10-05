@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1130743</D:version-name>
+<D:comment>DERBY-4795 Starting network server with -ssl turns SSL off
+
+Fixes silently taking -ssl without arguments whilst keeping SSL mode disabled.
+
+After this patch, with the -ssl switch a mode must be specified. Otherwise an error is shown.
+
+Contributed by Siddharth Srivastava &lt;akssps011@gmail.com&gt;
+
+</D:comment>
+<D:creator-displayname>tiago</D:creator-displayname>
+<S:date>2011-06-02T19:11:07.579194Z</S:date>
+</S:log-item>
+</S:log-report>

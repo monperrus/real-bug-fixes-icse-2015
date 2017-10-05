@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>770517</D:version-name>
+<D:comment>avoid raising an exception in SequenceFile.next when a key does not exist (e.g. when bloom filter gives a false positive).  patch by Jun Rao; reviewed by jbellis for CASSANDRA-126</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-05-01T02:24:10.893396Z</S:date>
+</S:log-item>
+</S:log-report>

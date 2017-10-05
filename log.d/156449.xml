@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>156449</D:version-name>
+<D:comment>Fix broken QueryParser.jj and generated code.  Removed inadvertent debugging &lt;echo&gt; from build.xml.  
+Added (currently failing) test cases for new PrecedenceQueryParser as a target for enhancement.
+
+</D:comment>
+<D:creator-displayname>ehatcher</D:creator-displayname>
+<S:date>2005-03-07T21:46:39.179861Z</S:date>
+</S:log-item>
+</S:log-report>

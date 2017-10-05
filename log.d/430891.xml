@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>430891</D:version-name>
+<D:comment>Backout change for 
+
+DERBY-1130 Client should not allow databaseName to be set with setConnectionAttributes
+
+To address concerns with the patch
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-08-11T20:50:29.701552Z</S:date>
+</S:log-item>
+</S:log-report>

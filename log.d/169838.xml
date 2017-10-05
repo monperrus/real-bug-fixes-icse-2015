@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>169838</D:version-name>
+<D:comment>Fix Derby-189
+
+
+I have a new patch for this bug which also fixes the problem you
+brought up with sql select * from a.t as X. The fix for this required
+change in impl.sql.compile.FromBaseTable's method genResultColList().
+I changed the code such that we set the TableDescriptor on the
+ColumnDescriptor instance. This TableDescriptor is later used by
+ResultColumn.getTableName to get the base table name of the column. In
+addition to that, I changed ColumnReference.getSourceTableName and
+ColumnReference.getSourceSchemaName so that they don't look at the
+user supplied correlation name (if any) to fetch the base table/schema
+name.
+
+Patch contributed by Mamta Satoor msatoor@gmail.com
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-05-12T15:53:20.142394Z</S:date>
+</S:log-item>
+</S:log-report>

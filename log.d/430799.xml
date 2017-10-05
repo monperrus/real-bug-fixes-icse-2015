@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>430799</D:version-name>
+<D:comment>DERBY-1660, submitted by Sunitha Kambhampati
+
+This patch adds two new classes WarehouseVTI and TableVTI.
+adds a new test case to test SYSCS_BULK_INSERT. This testcase is added to the existing optimizerOverrides.sql.
+updates master files for embedded and network server. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-08-11T14:35:00.794790Z</S:date>
+</S:log-item>
+</S:log-report>

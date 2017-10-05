@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>545347</D:version-name>
+<D:comment>DERBY-2777
+Fixed the combination of COALESCE and parameters so that the parameters take their collation from the context and not from the current
+compilation schema
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-06-07T23:24:40.491703Z</S:date>
+</S:log-item>
+</S:log-report>

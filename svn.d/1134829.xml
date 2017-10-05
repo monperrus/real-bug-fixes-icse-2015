@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1134829"/>
+<S:open-directory rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="dev" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/lucene/dev/branches/branch_3x:949730,957490,961612,979161,980654,982195,987811,988512,1025544,1026614,1034080,1039151,1050654,1056762,1060014,1060438,1060784,1061035,1063880,1063934,1065324,1066771,1067699,1067764,1070818,1075044,1079376,1079381,1080071,1081052,1083240,1083534,1083726,1083789,1083812,1085811,1090423,1091501,1092373,1095519,1098770,1099210,1100407,1100480,1100494,1100515,1101106,1103086,1128215,1128227,1128462,1129419,1129435,1130612,1132581,1132978,1134823
+/lucene/dev/branches/bulkpostings:1069647,1069925
+/lucene/dev/branches/docvalues:1021634-1134288
+/lucene/dev/branches/lucene_solr_3_1:1081856,1083239,1085499,1085511,1085532,1085809,1101103
+/lucene/dev/branches/lucene_solr_3_2:1128223,1128247,1129418,1129472
+/lucene/dev/branches/preflexfixes:967125-979432
+/lucene/dev/branches/realtime_search:953476-1097796</S:set-prop>
+<S:open-directory name="solr" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/solr</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/lucene/dev/branches/branch_3x/solr:949730,957490*,961612,979161,980654,982195,987811,988512,1025544,1026614,1034080,1039151,1050654,1056762,1060014,1060438,1060784,1061035,1063880,1063934,1065324,1070818,1075044,1079376,1079381,1080071,1081052,1083240,1085811,1090423,1091501,1092373,1095519,1098770,1099210,1100407,1100480,1100494,1100515,1101106,1103086,1128215,1128227,1128462,1129419,1129435,1130612,1132581,1132978,1134823
+/lucene/dev/branches/bulkpostings/solr:1069647,1069925
+/lucene/dev/branches/docvalues/solr:1021634-1134288
+/lucene/dev/branches/lucene_solr_3_1/solr:1081856,1083239,1085499,1085511,1085532,1085809,1101103
+/lucene/dev/branches/lucene_solr_3_2/solr:1128223,1128247,1129418,1129472
+/lucene/dev/branches/preflexfixes/solr:967125-979432
+/lucene/dev/branches/realtime_search/solr:953476-1097796
+/lucene/java/branches/lucene_2_4/solr:748824
+/lucene/java/branches/lucene_2_9/solr:817269-818600,825998,829134,829881,831036,896850,909334
+/lucene/java/branches/lucene_2_9_back_compat_tests/solr:818601-821336
+/lucene/java/branches/lucene_3_0/solr:880793,896906
+/lucene/solr/branches/newtrunk/solr:924462
+/lucene/solr/trunk:922950-923910,923912-925091</S:set-prop>
+</S:open-directory>
+<S:open-directory name="lucene" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/lucene/dev/branches/branch_3x/lucene:943137,949730,957490,960490,961612,979161,980654,982195,987811,988512,1025544,1026614,1034080,1039151,1050654,1056762,1060014,1060438,1060784,1061035,1063880,1063934,1065324,1066771,1067699,1067764,1070818,1075044,1079376,1079381,1080071,1081052,1083240,1083534,1083726,1083789,1083812,1085811,1090423,1091501,1092373,1095519,1098770,1099210,1100407,1100480,1100494,1100515,1101106,1103086,1128215,1128227,1128462,1129419,1129435,1130612,1132581,1132978,1134823
+/lucene/dev/branches/bulkpostings/lucene:1069647,1069925
+/lucene/dev/branches/docvalues/lucene:1021634-1134288
+/lucene/dev/branches/lucene_solr_3_1/lucene:1081856,1083239,1085499,1085511,1085532,1085809,1101103
+/lucene/dev/branches/lucene_solr_3_2/lucene:1128223,1128247,1129418,1129472
+/lucene/dev/branches/preflexfixes/lucene:967125-979432
+/lucene/dev/branches/realtime_search/lucene:953476-1097796
+/lucene/java/branches/flex_1458:824912-931101
+/lucene/java/branches/lucene_2_4:748824
+/lucene/java/branches/lucene_2_9:817269-818600,829134,829881,831036,896850,909334,948516
+/lucene/java/branches/lucene_2_9_back_compat_tests:818601-821336
+/lucene/java/branches/lucene_3_0:880793,896906,1098765
+/lucene/java/trunk:924483-924731,924781,925176-925462
+/lucene/solr/branches/newtrunk/lucene:924462-924482</S:set-prop>
+<S:open-directory name="src" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/src/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/src/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/src/java/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="index" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/src/java/org/apache/lucene/index</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="CheckIndex.java" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/src/java/org/apache/lucene/index/CheckIndex.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="6e04ef45b500172fc396286e0f511718" sha1-checksum="ba2b1f9ac55a103287d213587d82798ed00c130d"/>
+<S:prop><V:md5-checksum>3d01921dc606006b909f3afc2f77b4a0</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="contrib" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/contrib</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="CHANGES.txt" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/contrib/CHANGES.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e3943ea926a87fa6d0f7fed16f8c0106" sha1-checksum="3fa65f9f4c03d9119afea1b9ed3c1c69b72b3419"/>
+<S:prop><V:md5-checksum>ee7beb493e9b922fd1942a1a5d8db1c6</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="misc" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/contrib/misc</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/contrib/misc/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/contrib/misc/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/contrib/misc/src/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/contrib/misc/src/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/contrib/misc/src/java/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="index" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/contrib/misc/src/java/org/apache/lucene/index</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="IndexSplitter.java" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/contrib/misc/src/java/org/apache/lucene/index/IndexSplitter.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="ea0d2cd7b045f14368ad516cb3fcc3ae" sha1-checksum="06940b11bb57d9c1dfc932eccc901b6622c3824c"/>
+<S:prop><V:md5-checksum>8b097542b67be7546ed85a9fda80deda</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="test" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/contrib/misc/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/contrib/misc/src/test/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/contrib/misc/src/test/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/contrib/misc/src/test/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="index" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/contrib/misc/src/test/org/apache/lucene/index</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TestIndexSplitter.java" rev="1134828">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1134829/lucene/dev/trunk/lucene/contrib/misc/src/test/org/apache/lucene/index/TestIndexSplitter.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1134829</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-06-11T23:39:03.989916Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="40371e26dc07eea3a99cceb51321a31e" sha1-checksum="a80f073fec9ef4ef5e8620b47d6b919ffd14578c"/>
+<S:prop><V:md5-checksum>9cec4a0fdc5d878405ab096ae61066cc</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

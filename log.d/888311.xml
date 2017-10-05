@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>888311</D:version-name>
+<D:comment>DERBY-4442: Default value and identity in an INSERT result set evaluated too early
+
+Back out the fix for DERBY-4419 and DERBY-4425, since the fix is no
+longer necessary after the changes that added a ProjectRestrictNode on
+top of the original insert source. The test cases for those bugs are
+still part of the regression test suite.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-12-08T10:24:20.323194Z</S:date>
+</S:log-item>
+</S:log-report>

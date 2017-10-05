@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>967183</D:version-name>
+<D:comment>Double flush AE_SERVICE_STAGE to ensure that tasks triggered by existing tasks are cleared.  patch by Stu Hood; reviewed by jbellis for CASSANDRA-1028</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-07-23T18:03:13.452706Z</S:date>
+</S:log-item>
+</S:log-report>

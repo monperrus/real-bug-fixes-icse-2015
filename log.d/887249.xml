@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>887249</D:version-name>
+<D:comment>DERBY-4387 Infinite loop in PredicateList.joinClauseTransitiveClosure()
+
+This patch, derby-4387, fixes a corner case of the closure code in
+which the outer and the inner table is the same. This led to adding
+the same, new predicate twice to the same table, causing the infinite
+loop. The patch also adds a test case, which, without the fix, shows
+the infinite loop.
+
+Backported from trunk with:
+
+svn merge -c 887246 https://svn.apache.org/repos/asf/db/derby/code/trunk
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-12-04T16:17:29.604544Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>398944</D:version-name>
+<D:comment>DERBY-900  Remove use of String(byte[]) and String(byte[], int, int) constructors in network client leading to non-portable behaviour
+
+This patch derby900.p2_encodingChange.diff.txt makes the encoding related change to remove the non portable String.getBytes() method.
+Additonal patch for cleanup will follow
+
+Contributed by Sunitha Kambhampati
+
+-- use correct encoding UTF8 for sqlstate in NetConnectionReply.::parseSQLDCGRP(Sqlca[] rowsetSqlca, int lastRow)
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-05-02T14:39:25.296390Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>772090</D:version-name>
+<D:comment>DERBY-4193: ASSERT FAILED Scan position already saved with multi-threaded insert/update/delete
+
+Forget about the current position before trying to reposition on the
+end point of a scan. Then the ASSERT won't be confused if it needs to
+save the position again (it fails if it finds that a position is
+already saved).
+
+BTreeScan.positionAtStartForBackwardScan() also had this problem, but
+since it doesn't have any callers, this method was removed instead of
+being fixed.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-05-06T07:53:32.977838Z</S:date>
+</S:log-item>
+</S:log-report>

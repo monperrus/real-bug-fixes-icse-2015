@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>545553</D:version-name>
+<D:comment>DERBY-2788 (quick fix) Make acceptsURL return false if the driver has been shutdown.
+Quick fix because I think there are some issues with the behaviour of this class.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-06-08T16:29:44.647301Z</S:date>
+</S:log-item>
+</S:log-report>

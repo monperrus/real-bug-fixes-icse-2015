@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>150572</D:version-name>
+<D:comment>FuzzyQuery is now using a default prefix length of 2 in
+order to become usable for big indices. Furthermore, it
+no longer throws TooManyClausesException.
+</D:comment>
+<D:creator-displayname>goller</D:creator-displayname>
+<S:date>2004-10-06T16:19:52.000000Z</S:date>
+</S:log-item>
+</S:log-report>

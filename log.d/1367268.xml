@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1367268</D:version-name>
+<D:comment>ARIES-892: Within verifyNoUnexpectedBundlesProvisioned, changed the expected number of bundles from 23 to 25. The two additional bundles are:
+
+wrap_mvn_org.ops4j.pax.exam_pax-exam-junit
+org.apache.aries.subsystem.itest.interfaces</D:comment>
+<D:creator-displayname>jwross</D:creator-displayname>
+<S:date>2012-07-30T20:26:32.242561Z</S:date>
+</S:log-item>
+</S:log-report>

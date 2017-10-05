@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>686159</D:version-name>
+<D:comment>SOLR-701: be explicit about Locale when parsing/formating milliseconds.  Also: refactor usages of TimeZone and Locale so it's clear when UTC and Locale.US are used for various purposes in case someone considers modifying them.</D:comment>
+<D:creator-displayname>hossman</D:creator-displayname>
+<S:date>2008-08-15T06:48:32.783898Z</S:date>
+</S:log-item>
+</S:log-report>

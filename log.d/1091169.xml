@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1091169</D:version-name>
+<D:comment>DERBY-4544: Don't use the SQLClob.getLength() optimization on non-resetable streams--this fixes a data corruption.</D:comment>
+<D:creator-displayname>rhillegas</D:creator-displayname>
+<S:date>2011-04-11T19:14:39.476935Z</S:date>
+</S:log-item>
+</S:log-report>

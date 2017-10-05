@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1476159</D:version-name>
+<D:comment>LUCENE-4955: Fix NGramTokenizer and NGramTokenFilter, and remove them from TestRandomChains' exclusion list (merged from r1476135).
+
+In addition to the trunk changes, I had to fix SlowSynonymFilterFactory to reset the token stream before consuming it.
+</D:comment>
+<D:creator-displayname>jpountz</D:creator-displayname>
+<S:date>2013-04-26T12:14:42.804400Z</S:date>
+</S:log-item>
+</S:log-report>

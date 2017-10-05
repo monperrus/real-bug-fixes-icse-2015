@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1299573</D:version-name>
+<D:comment>DERBY-5643: Occasional hangs in replication tests on Linux
+
+Make sure the forked processes have terminated completely before
+starting the next test case.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-03-12T07:54:36.274349Z</S:date>
+</S:log-item>
+</S:log-report>

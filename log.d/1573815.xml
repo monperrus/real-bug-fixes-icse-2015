@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1573815</D:version-name>
+<D:comment>DERBY-896: Allow casts from DATE and TIME to TIMESTAMP
+
+backported change #1568924 from trunk to 10.10.   Backport needed minor
+    hand editing to get it to compile in 10.10 because of use of java5
+        syntax in the test changes.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2014-03-03T23:48:57.401348Z</S:date>
+</S:log-item>
+</S:log-report>

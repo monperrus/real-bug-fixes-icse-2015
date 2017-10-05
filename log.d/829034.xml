@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>829034</D:version-name>
+<D:comment>DERBY-4410: NullPointerException when USING clause contains all columns in both join tables
+
+Adjust index properly when looping through the result columns and
+expanding *. The old code didn't expect the number of columns to
+decrease after the expansion and could therefore potentially skip
+the processing of some of the columns.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-10-23T12:46:12.362217Z</S:date>
+</S:log-item>
+</S:log-report>

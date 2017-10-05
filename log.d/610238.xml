@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>610238</D:version-name>
+<D:comment>DERBY-3305 Ensure that a processing a ResultSet into a dynamic result marks the application statment result set as the correct one, based upon the statement the result set is transferred to. Add asserts to jdbcapi.ProcedureTest to check that ResultSet.getStatement returns the correct Statement object.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2008-01-09T00:07:34.403957Z</S:date>
+</S:log-item>
+</S:log-report>

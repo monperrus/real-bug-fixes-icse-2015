@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>934661</D:version-name>
+<D:comment>load cassandra-rack.properties from classpath; clean up configuration loading to throw ConfigurationException on error.  patch by Erick Tryzelaar and jbellis for CASSANDRA-984</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-04-16T01:38:33.989933Z</S:date>
+</S:log-item>
+</S:log-report>

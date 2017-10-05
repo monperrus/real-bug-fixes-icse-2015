@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>896388</D:version-name>
+<D:comment>DERBY-4496 Column list size mismatch with ORDER BY in INSERT statement
+
+Fixed this issue which was due to missed occurences of RCL.size() that
+now (with ORDER BY in subqueries) need to be generalized to
+RCL.visibleSize to be able to ignore synthesized columns. Added a new
+test case for the failing repro. Also wired the OrderByInSubqueries
+test into the regression suite.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2010-01-06T11:09:29.098128Z</S:date>
+</S:log-item>
+</S:log-report>

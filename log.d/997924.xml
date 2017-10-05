@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>997924</D:version-name>
+<D:comment>DERBY-4471 Left outer join reassociation rewrite gives wrong result
+
+Merged back to 10.6 branch as
+svn merge -c 990292 https://svn.apache.org/repos/asf/db/derby/code/trunk
+
+Patch derby-4471-1d. This patch changes logic for determining if right
+deep nested (left) outer join can reassiciated to left deep, i.e.
+
+   OJ1                        OJ1
+  /  \                        / \
+ /    \                      /   t3
+t1    OJ2          =&gt;       /
+      /  \                 OJ2
+     /    \               /   \
+    t2    t3           t1     t2 
+
+The old behavior was both too liberal (this issue showed a query being
+reordered erroneously), and too restrictive. The patch removes the
+"too liberal" hole, and also opens up for some new valid cases.
+
+For further details, refer to the JIRA issue and the code comments
+especially the javadoc for the methods HalfOuterJoinNode#LOJ_reorderable and
+HalfOuterJoinNode#isNullRejecting.
+
+As a part of the patch, the old harness based test lojreorder.sql has been converted
+into the JUnit based LojReorderTest equivalent.
+
+For further details, refer to the JIRA issue and the code comments.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2010-09-16T20:57:47.644797Z</S:date>
+</S:log-item>
+</S:log-report>

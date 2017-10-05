@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1062743</D:version-name>
+<D:comment>DERBY-4965: Boolean to char conversion results in integer
+
+Made JDBC level conversion from boolean to character types result in
+"true" and "false" instead of "1" and "0".
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-01-24T11:53:38.500271Z</S:date>
+</S:log-item>
+</S:log-report>

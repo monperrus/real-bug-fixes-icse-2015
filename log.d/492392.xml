@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>492392</D:version-name>
+<D:comment>DERBY-2202: DROP PROCEDURE depends on SET SCHEMA
+
+This patch was contributed by Yip Ng (yipng168@gmail.com)
+
+This change includes derby2202-10.2-diff01.txt as prepared by Yip Ng, and
+also includes svn merge -r 492252:492253 to pick up Myrna's j9 fix.
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2007-01-04T03:00:59.649467Z</S:date>
+</S:log-item>
+</S:log-report>

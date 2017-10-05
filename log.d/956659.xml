@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>956659</D:version-name>
+<D:comment>DERBY-4667 BootLockTest.testBootLock() sometimes fails with connection refused.
+
+Change test to check service.properties in additon to db.lck file so that it won't fail with a directory already exists message.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2010-06-21T18:10:39.571840Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>179867</D:version-name>
+<D:comment>XA end() fails with Connection is closed error
+
+For the client there were multiple problems associated with the tracking
+of XA_STATE in the client. The approach for this patch is to remove as
+much of the client state as possible.
+
+This patch removes all the client XA state except for
+    XA_GLOBAL - In an active global transaction 
+    XA_LOCAL - No active global transaction.
+
+For Network Server there was a bug that the connection was not being
+reset properly when a connection
+reset request came from the client. Changed it so that if an ACCRDB
+is sent and a connection has already been established it will reset.
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-06-03T19:35:33.468509Z</S:date>
+</S:log-item>
+</S:log-report>

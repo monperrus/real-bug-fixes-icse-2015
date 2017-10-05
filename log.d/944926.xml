@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>944926</D:version-name>
+<D:comment>add Collections.shuffle(splits) so Hadoop doesn't send all the jobs to the same nodes at once.  patch by Joost Ouwerkerk; reviewed by jbellis for CASSANDRA-1096</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-05-16T22:26:47.917657Z</S:date>
+</S:log-item>
+</S:log-report>

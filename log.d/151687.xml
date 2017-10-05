@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>151687</D:version-name>
+<D:comment>Build fix for gump. Exclude JDBCBoot.java as it pulls in JDBC 2.0 classes
+during the JSR169 iapi build target.
+</D:comment>
+<D:creator-displayname>fuzzylogic</D:creator-displayname>
+<S:date>2005-02-07T06:21:45.229474Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1170702"/>
+<S:open-directory rev="1170701">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1170702/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1170702</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-09-14T16:12:53.812606Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">srowen</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="mahout" rev="1170701">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1170702/mahout</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1170702</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-09-14T16:12:53.812606Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">srowen</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="1170701">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1170702/mahout/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1170702</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-09-14T16:12:53.812606Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">srowen</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="examples" rev="1170701">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1170702/mahout/trunk/examples</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1170702</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-09-14T16:12:53.812606Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">srowen</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="bin" rev="1170701">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1170702/mahout/trunk/examples/bin</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1170702</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-09-14T16:12:53.812606Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">srowen</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="build-reuters.sh" rev="1170701">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1170702/mahout/trunk/examples/bin/build-reuters.sh</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1170702</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-09-14T16:12:53.812606Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">srowen</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="07bfb1241aff099367d1de99aaa4057c" sha1-checksum="9f26718833526179970efe6f51eb190f049cde21"/>
+<S:prop><V:md5-checksum>d6cb5ed35501a500a65a83338f1d0c7b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="build-cluster-syntheticcontrol.sh" rev="1170701">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1170702/mahout/trunk/examples/bin/build-cluster-syntheticcontrol.sh</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1170702</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-09-14T16:12:53.812606Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">srowen</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="d43972346c60099409c1731c5a9eea2b" sha1-checksum="5702f16b9e8c464a67ebe948534b640d74e7fef7"/>
+<S:prop><V:md5-checksum>67d9c532bfca92919fd32e47abe33798</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="build-20news-bayes.sh" rev="1170701">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1170702/mahout/trunk/examples/bin/build-20news-bayes.sh</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1170702</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-09-14T16:12:53.812606Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">srowen</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="245051fff808b068b880ed26a8b95899" sha1-checksum="d63a4cd64ad1d268f1a2769cd81c18d7e088df5c"/>
+<S:prop><V:md5-checksum>ac216d743807dd5618d4972d9345035f</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="factorize-movielens-1M.sh" rev="1170701">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1170702/mahout/trunk/examples/bin/factorize-movielens-1M.sh</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1170702</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-09-14T16:12:53.812606Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">srowen</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="b9db89dd3ee4d7856b2d0e3fe3c6313a" sha1-checksum="8f468fe2dcc759b6c51dd2218e5c3e4351df1796"/>
+<S:prop><V:md5-checksum>12ca011ba4d442f33236bf298bf8a9eb</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

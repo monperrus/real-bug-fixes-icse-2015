@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>425703</D:version-name>
+<D:comment>DERBY-1571: NetworkServerControlImpl.consoleExceptionPrintTrace()
+prints stack trace even when logWriter is null
+
+Made NetworkServerControlImpl.shutdown() set logWriter to a silent
+stream instead of null to avoid printing stack traces of expected
+exceptions during shutdown.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-07-26T11:12:32.899162Z</S:date>
+</S:log-item>
+</S:log-report>

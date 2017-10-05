@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>918112</D:version-name>
+<D:comment>DERBY-4491: The network client changes UDTs into Strings and returns their type as LONGVARBINARY.
+
+Made NetDatabaseMetaData.serverSupportsUDTs return the correct value.
+
+Patch file: derby-4491-02-aa-supportsUDTs.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-03-02T17:08:07.517347Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1368258</D:version-name>
+<D:comment>fix TestShardSearching to make a new _TestUtil.getTempDir for each shard, so it does not reuse dirs across test runs when you fix the seed</D:comment>
+<D:creator-displayname>mikemccand</D:creator-displayname>
+<S:date>2012-08-01T21:29:38.896390Z</S:date>
+</S:log-item>
+</S:log-report>

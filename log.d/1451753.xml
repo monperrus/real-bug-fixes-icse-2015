@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1451753</D:version-name>
+<D:comment>Null osgi.wiring.bundle attribute and static multiplicity.
+
+Fixed issue where the osgi capability adapted from the felix capability always presented with a null value for the osgi.wiring.bundle attribute.
+
+Fixed issue where the felix requirement adapted from the osgi requirement always presented a single cardinality (or false multiplicity).</D:comment>
+<D:creator-displayname>jwross</D:creator-displayname>
+<S:date>2013-03-01T22:46:29.328002Z</S:date>
+</S:log-item>
+</S:log-report>

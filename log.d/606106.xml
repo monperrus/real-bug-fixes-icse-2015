@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>606106</D:version-name>
+<D:comment>DERBY-3037
+With this commit, I am removing the Language Resultset.finish from AlterTableConstantAction. In addition, since
+what's being created in this part of AlterTableConstantAction is a single use activation it should be closed when 
+its language Resultset is closed. In order to achieve that, I have added following code in NoRowsResultSetImpl.close
+to take care of the activation 
++ if (activation.isSingleExecution()) 
++ activation.close(); 
+
+The derbyall and junit tests have run with no problems. Will merge this into 10.3 codeline later.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-12-21T06:00:06.027488Z</S:date>
+</S:log-item>
+</S:log-report>

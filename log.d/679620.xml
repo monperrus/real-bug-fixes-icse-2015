@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>679620</D:version-name>
+<D:comment>DERBY-3745 Derby can leak classloaders in an app server environment
+Cleanup change to set context class loader for newly created threads 
+directly rather than setting the context classloader of the current 
+thread before creation.
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-07-25T00:03:03.364894Z</S:date>
+</S:log-item>
+</S:log-report>

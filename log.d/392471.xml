@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>392471</D:version-name>
+<D:comment>DERBY-1144 With client PooledConnection.getConnection() does not reset holdability and isolation state properly
+DERBY-1044  [xa] client XAConnection.getConnection() does not have the correct default isolation level if set by an earlier connection obtained from the same XAConnection
+
+
+merge from trunk.  This part is just the code change.
+Test change will follow once checkDataSource hang is resolved on trunk.
+Verified fix manually.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-04-08T01:16:59.133542Z</S:date>
+</S:log-item>
+</S:log-report>

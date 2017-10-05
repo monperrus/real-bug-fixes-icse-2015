@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>957785</D:version-name>
+<D:comment>DERBY-1482 (Update triggers on tables with blob columns stream blobs into memory even when the blobs are not referenced/accessed.)
+
+Reduced the size of LOBs in the test to 50MB since junit-lowmem gets run with 16MB and hence no need to read unnecessarily larger LOB(the test was testing with 300MB lobs). 
+
+Also, some subset of tests are relying on DriverManager which is not available with J2ME. I have disabled those subset of tests to not run under J2ME framework.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2010-06-25T02:36:56.974778Z</S:date>
+</S:log-item>
+</S:log-report>

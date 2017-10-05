@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>826916</D:version-name>
+<D:comment>Fix using non-utf8-aware comparison as a sanity check in SC.putColumn.  patch by jbellis; tested by Edmond Lau for CASSANDRA-493</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-10-20T00:28:11.907676Z</S:date>
+</S:log-item>
+</S:log-report>

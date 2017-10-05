@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>189829</D:version-name>
+<D:comment>Derby-314: improve Eclipse plugin network server process handling.
+
+The fix changes the behaviour to the following:
+
+1) Only one network server can be started per project.
+
+2) Once a network server is started for a project it must be stopped before any
+   of it's settings (port, host and derby.system.home) can be changed.
+
+3) If a user tries to change these settings when the network server is running
+   they will be notified that they cannot change them, and the text fields
+   become uneditable. 
+
+Committed for Susan Cline &lt;home4slc@pacbell.net&gt;
+</D:comment>
+<D:creator-displayname>fuzzylogic</D:creator-displayname>
+<S:date>2005-06-09T21:58:36.871165Z</S:date>
+</S:log-item>
+</S:log-report>

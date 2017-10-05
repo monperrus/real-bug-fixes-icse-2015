@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>150481</D:version-name>
+<D:comment>Fix toString() to print the escaped version of a query. Adapt some test cases, also comment in some test cases again, but there's still a TODO which someone should have a look at.
+PR: 30985
+</D:comment>
+<D:creator-displayname>dnaber</D:creator-displayname>
+<S:date>2004-09-03T21:12:22.000000Z</S:date>
+</S:log-item>
+</S:log-report>

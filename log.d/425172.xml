@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>425172</D:version-name>
+<D:comment>applying patch on behalf of Sunitha Kambhampati
+
+backporting fix to DERBY-1373 from trunk into 10.1 branch.
+
+This patch fixes the bug where one could not boot an encrypted database when
+using the jar subprotocol.  The original patch did:
+This patch makes the following changes:
+1) Instead of using RandomAccessFile, the verifyKey.dat is read as a InputStream.
+
+2) Add a new test (encryptionKey_jar.sql) for booting encrypted database using encryptionKey via classpath, and jar subprotocol.
+Please note, as already mentioned in an earlier comment - There are existing test (encryptionKey.sql) that test cases for encryptionKey. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-07-24T20:05:34.279066Z</S:date>
+</S:log-item>
+</S:log-report>

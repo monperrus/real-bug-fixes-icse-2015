@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>593696</D:version-name>
+<D:comment>DERBY-3183 Error starting tracing' in testTraceCommands(org.apache.derbyTesting.functionTests.tests.derbynet.NetworkServerControlApiTest) on Windows...
+Replace / with ${/} in test specific policy file.
+
+DERBY-3174 NetworkServerControlApiTest fails with java.security.AccessControlException if not run as first test
+
+Change SecurityManager Setup to perform a policy refresh after changing the policy file so that the new policy file gets loaded properly.
+
+Merge revision 593676 from trunk
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-11-10T00:02:52.379097Z</S:date>
+</S:log-item>
+</S:log-report>

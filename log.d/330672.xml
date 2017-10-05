@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>330672</D:version-name>
+<D:comment>DERBY-675: The "readLine" method in ODBCMetadataGenerator.java was treating
+single backslashes as "end-of-line" markers and hence was not recognizing
+escaped sequences like "\n".  It turns out that the check for backslashes in
+that method is unnecessary, so this patch removes it.  I ran the metadata.java
+and odbc_metadata.java tests with this patch and they ran okay, so I think it 
+should be safe.  I still want to run some more tests tonight, just to be sure,
+but I thought I'd post the patch now since it is affecting another developer's
+current work (Mamta's).
+
+Submitted by Army Brown (qozinx@sbcglobal.net)
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2005-11-04T00:39:09.565454Z</S:date>
+</S:log-item>
+</S:log-report>

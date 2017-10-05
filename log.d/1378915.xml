@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1378915</D:version-name>
+<D:comment>Merged revision(s) 1378914 from lucene/dev/trunk:
+LUCENE-4337: Add a SecurityManager to run tests using a custom policy file, disallowing write/delete access outside ${build.dir} and listening network sockets on any other address than 127.0.0.1:1024-. This also fixes failing Solr tests because of creating index in example folder or listening on 0.0.0.0 (JMX)</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2012-08-30T12:58:13.044255Z</S:date>
+</S:log-item>
+</S:log-report>

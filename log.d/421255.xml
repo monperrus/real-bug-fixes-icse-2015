@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>421255</D:version-name>
+<D:comment>DERBY-1476: PreparedStatement.setNull(int,int) should throw
+SQLFeatureNotSupportedException for unsupported types
+
+derby-1476-v1.diff adds a call to checkForSupportedDataType() in
+setNull(). It also moves that call in setObject() after 'if (obj ==
+null) { setNull(pos, type); return; }' in order to avoid double
+checking. New test cases have been added to SetObjectUnsupportedTest
+so that it tests setObject(int,Object,int),
+setObject(int,Object,int,int), setNull(int,int) and
+setNull(int,int,String).
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-07-12T12:24:18.373206Z</S:date>
+</S:log-item>
+</S:log-report>

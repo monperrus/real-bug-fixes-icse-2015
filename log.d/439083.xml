@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>439083</D:version-name>
+<D:comment>DERBY-1315 This patch adds a small amount of logic to remove entries from an Optimizable's "best plan" HashMap when they are no longer needed. For more on when this is possible, see the discussion here:
+http://article.gmane.org/gmane.comp.apache.db.derby.devel/26051
+Patch contributed by "A B" qozinx@gmail.com</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-08-31T22:57:32.484816Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>833430</D:version-name>
+<D:comment>DERBY-4365
+
+For JOIN, we were doing a no-op in the method bindUntypedNullsToResultColumns(ResultColumnList) rather than checking for untyped nulls for the left and right resultsets. The changes through this commit now checks for untyped nulls for joins. Added couple more tests (including where a CAST of NULL values should work fine). The derbyall and junit suites ran fine with the exception of known intermittent (DERBY-3757) 'ASSERT FAILED transaction table has null entry when running new StressMultiTest 
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2009-11-06T15:08:35.006081Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>157861</D:version-name>
+<D:comment>committing change by Jack Klebanoff (klebanoff-derby@sbcglobal.net).
+
+Fix for DERBY-106
+
+This change fixes the BackingStoreHashTable class to actually spill
+over to disk when necessary.  Prior to this fix it was possible for
+hash joins to fail with out of memory errors, when they should instead
+have spilled to disk.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2005-03-17T02:35:44.905961Z</S:date>
+</S:log-item>
+</S:log-report>

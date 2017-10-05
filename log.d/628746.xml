@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>628746</D:version-name>
+<D:comment>DERBY-3425: J2EEDataSourceTest throws away stack trace for many errors
+
+Preserve stack trace on error by throwing the original exception
+instead of using fail() to report the error.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2008-02-18T13:58:23.566646Z</S:date>
+</S:log-item>
+</S:log-report>

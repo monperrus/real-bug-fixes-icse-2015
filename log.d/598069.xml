@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>598069</D:version-name>
+<D:comment>DERBY-3119  Derby does not resolve functions to methods with Integer return type.
+
+Committed DERBY-3119-10_3.diff, which is a modified version of svn
+589766, since that patch didn't apply cleanly due to other changes on
+trunk (VTIs). I verified that the new test in RoutineTest failed
+without the patch in MethodCallNode and worked when it was applied. 
+
+Original patch contributed by James F. Adams.
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2007-11-25T22:11:15.208869Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1137711</D:version-name>
+<D:comment>fix repair hanging if a neighbor has nothing to send
+patch by slebresne; reviewed by jbellis for CASSANDRA-2797
+</D:comment>
+<D:creator-displayname>slebresne</D:creator-displayname>
+<S:date>2011-06-20T17:22:49.997632Z</S:date>
+</S:log-item>
+</S:log-report>

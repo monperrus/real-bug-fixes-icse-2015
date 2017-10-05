@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1428160</D:version-name>
+<D:comment>DERBY-6009 Need stricter checking of ORDER BY clause in VALUES expressions
+
+This patch, derby-6009c, improves on the restriction that ORDER BY for
+VALUES be limited to column numbers (SQL-92 style) only. It should now
+give an understandable error message if anything else is tried. It
+adds a new error message, "4287B" and test cases.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2013-01-03T03:58:41.339579Z</S:date>
+</S:log-item>
+</S:log-report>

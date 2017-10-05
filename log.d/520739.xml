@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>520739</D:version-name>
+<D:comment>Clean up error messages for new JDBC.assertParameterTypes() to indicate a problem
+with parameters and not columns if a failure occurs. This will just reduce confusion
+for anyone debugging a test failure.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-03-21T04:07:20.808809Z</S:date>
+</S:log-item>
+</S:log-report>

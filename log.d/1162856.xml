@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1162856</D:version-name>
+<D:comment>ARIES-738: [subsystems] The subsystem resolver hook modifies a collection it's iterating over.
+
+Changed the for:each loop into a for loop using an Iterator. The Iterator.remove method is then used to remove candidates when necessary.</D:comment>
+<D:creator-displayname>jwross</D:creator-displayname>
+<S:date>2011-08-29T15:21:18.564340Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1127883</D:version-name>
+<D:comment>DERBY-3870: Concurrent Inserts of rows with XML data results in an exception
+
+Remove the unneeded indirection via SqlXmlExecutor. This reduces the
+amount of code and removes one object allocation per row when using an
+XML operator.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-05-26T12:18:59.965019Z</S:date>
+</S:log-item>
+</S:log-report>

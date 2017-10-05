@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>449869</D:version-name>
+<D:comment>DERBY-1858
+contributed by Yip Ng
+patch: derby1858-trunk-diff02.txt
+
+Fixes problem that DropSchemaNode's bind phase did not add the required schema 
+privilege for it to check at runtime.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-09-26T00:10:45.631751Z</S:date>
+</S:log-item>
+</S:log-report>

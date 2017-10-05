@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>448258</D:version-name>
+<D:comment>DERBY-1775
+contributed by Army Brown
+committing  d1775_v2.patch
+
+Attaching a patch that does the following:
+
+1. Updates the 2200M message text to be more generic,
+as suggested in the description of this issue.
+
+2. Replaces "see next exception" with the in-lined
+error message while continuing to do exception
+chaining as usual.
+
+3. Also replaces "see next exception" with in-line
+error messages for a couple of other SQL/XML
+errors--namely UNEXPECTED_XML_ERROR and
+XML_QUERY_ERROR. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-09-20T16:35:09.793865Z</S:date>
+</S:log-item>
+</S:log-report>

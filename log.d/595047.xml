@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>595047</D:version-name>
+<D:comment>DERBY-3172
+
+Change the Network Server code so that when the Network Server is shutdown, any api on Connection object will 
+raise a Connection error event (similar to what is done in embedded mode). This also required me changing the
+disconnectError from -4999 to 40000(to match embedded). This change was made client.am.SqlCode. I have added tests
+for all the apis on Connection object in DataSourceTest. Had to change couple tests which were testing for
+-4999. Now they look for 40000. I will merge this change into 10.3 and run tests there before committing the changes
+in 10.3 codeline.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-11-14T20:50:34.549599Z</S:date>
+</S:log-item>
+</S:log-report>

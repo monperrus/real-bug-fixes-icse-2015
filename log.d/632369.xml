@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>632369</D:version-name>
+<D:comment>DERBY-3428: Doing a replication failover should shutdown the database and the connection should no longer be available
+The shutdown exception needs to be a StandardException in order to shut down the database (SQLException does not work)
+After failove, unfreeze the database before trying shutdown.
+Contributed by V Narayanan
+
+
+</D:comment>
+<D:creator-displayname>oysteing</D:creator-displayname>
+<S:date>2008-02-29T16:06:30.216120Z</S:date>
+</S:log-item>
+</S:log-report>

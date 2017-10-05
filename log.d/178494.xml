@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>178494</D:version-name>
+<D:comment>small fix to make sure that log buffers are switched are correctly when the are 
+full, when the log checksum  feature is disabled due to a  soft upgrade.
+
+committed on behalf of: suresh.thalamati@gmail.com
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2005-05-25T17:25:07.707785Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1148344</D:version-name>
+<D:comment>DERBY-5312 InterruptResilienceTest failed with ERROR 40XD1: Container was opened in read-only 
+
+Patch derby-5312-simplify-reopen-1. It fixes the race condition by
+reducing the amount of work done under reopening the container, thus
+side stepping the issue by no longer updating the state variable that
+caused the race.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-07-19T14:10:22.847513Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>179592</D:version-name>
+<D:comment>DERBY-320 - Failed test: derbyall/derbynetclientmats/derbynetmats.fail:lang/updatableResultSet.java
+created a sed file to filter out
+the cursor name.  I did this only for DerbyNetClient as this has not been
+an issue for embedded.
+				Contributed by David Van Couvering 
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-06-02T14:43:05.844778Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>651612</D:version-name>
+<D:comment>DERBY-3613: SELECT DISTINCT with GROUP BY produces wrong results
+
+Merged revision 650728 from the trunk. There were merge conflicts
+in GroupByTest.java, which was hand-edited to produce the desired diff.
+
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2008-04-25T14:10:44.726024Z</S:date>
+</S:log-item>
+</S:log-report>

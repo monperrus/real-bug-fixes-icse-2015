@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1161228</D:version-name>
+<D:comment>javadoc fix: final class can't be subclassed, and even if it could the subclass can't call a method that doesn't exist</D:comment>
+<D:creator-displayname>hossman</D:creator-displayname>
+<S:date>2011-08-24T18:47:54.313063Z</S:date>
+</S:log-item>
+</S:log-report>

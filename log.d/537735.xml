@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>537735</D:version-name>
+<D:comment>DERBY-2556: Code paths for db restore do not use doPrivileged-calls, causing SecurityException. Modified patch by correcting a few spelling errors of mine and deleted a blank line.
+Patch file: derby-2556-4a_alternative-patch.diff (M)
+
+Patch contributed by Kathey Marsden and Kristian Waagan.
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2007-05-14T06:57:23.640163Z</S:date>
+</S:log-item>
+</S:log-report>

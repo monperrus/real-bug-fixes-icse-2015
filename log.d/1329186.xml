@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1329186</D:version-name>
+<D:comment>DERBY-5489: getBinary() returns incorrect data after getObject() call on BLOB column
+
+Added a test for the expected behavior of valid getters invoked on LOB columns. 
+A restriction has been put in place to allow for only one getter invocation on
+a given field, with the possible exception of getBytes and getString (iff
+invoked as the first getter on the field).
+
+Patch file: derby-5489-1b-test.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2012-04-23T11:20:29.355233Z</S:date>
+</S:log-item>
+</S:log-report>

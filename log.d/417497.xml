@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>417497</D:version-name>
+<D:comment>DERBY-137: Derby metadata always returns JDBC 2 result sets, even when
+JDBC 3 result sets are required.
+
+Summary of the changes:
+
+  DatabaseMetaData:
+
+    - getProcedureColumns: modified VTI to return an int instead of a
+      short for the DATA_TYPE column
+    - getTables: new columns: TYPE_CAT, TYPE_SCHEM, TYPE_NAME,
+      SELF_REFERENCING_COL_NAME, REF_GENERATION (all null since Derby
+      doesn't support typed tables)
+    - getColumns: DATA_TYPE changed from SMALLINT to INTEGER. New
+      columns: SCOPE_CATLOG, SCOPE_SCHEMA, SCOPE_TABLE,
+      SOURCE_DATATYPE (all null since Derby doesn't support the REF or
+      DISTINCT data types)
+    - getVersionColumns: SCOPE, DECIMAL_DIGITS and PSEUDO_COLUMN
+      changed from INTEGER to SMALLINT
+    - getPrimaryKeys: KEY_SEQ changed from INTEGER to SMALLINT (the
+      new query is ODBC compliant so getPrimaryKeysForODBC was removed)
+    - getTypeInfo: DATA_TYPE changed from SMALLINT to INTEGER, NULLABLE, 
+      SEARCHABLE, MINIMUM_SCALE and MAXIMUM_SCALE changed from INTEGER to
+      SMALLINT
+    - getIndexInfo: ORDINAL_POSITION changed from INTEGER to SMALLINT
+    - getBestRowIdentifier: DATA_TYPE changed from SMALLINT to INTEGER
+    - getUDTs: new columm: BASE_TYPE (null since Derby doesn't support
+      the DISTINCT type or SELF_REFERENCING_COLUMN)
+
+  ODBCMetadataGenerator:
+
+    - cast DATA_TYPE columns to SMALLINT (as defined by ODBC)
+    - don't cast columns that already are SMALLINT to SMALLINT
+
+  Tests:
+
+    - updated master files for metadata, odbc_metadata,
+      bestrowidentifier, declareGlobalTempTableJava and
+      Upgrade_10_1_10_2 (new columns and modified data types)
+    - odbc_metadata.java: added information about nullability for some
+      of the new columns to avoid ArrayIndexOutOfBoundsException
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-06-27T16:18:43.028387Z</S:date>
+</S:log-item>
+</S:log-report>

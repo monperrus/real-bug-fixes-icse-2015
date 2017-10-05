@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1467416</D:version-name>
+<D:comment>merge from r1467413
+
+* SOLR-4680: Correct example spellcheck configuration's queryAnalyzerFieldType and
+  use "text" field instead of narrower "name" field (ehatcher, Mark Bennett)
+
+* SOLR-4702: Fix example /browse "Did you mean?" suggestion feature. (ehatcher, Mark Bennett)
+
+(note, I don't have JDK7 available currently, but merge from 4x r1467413 looks good)
+
+</D:comment>
+<D:creator-displayname>ehatcher</D:creator-displayname>
+<S:date>2013-04-12T19:01:18.401334Z</S:date>
+</S:log-item>
+</S:log-report>

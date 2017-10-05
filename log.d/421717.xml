@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>421717</D:version-name>
+<D:comment>DERBY-1459: Commit bug1459_v04.diff. This introduces a dummy jdbc driver so that JDBC4 driver autoloading will play well with the engine booting which happens when the public embedded driver classloads.</D:comment>
+<D:creator-displayname>rhillegas</D:creator-displayname>
+<S:date>2006-07-13T22:22:25.981389Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1087636</D:version-name>
+<D:comment>DERBY-5153: Intermittent ASSERT FAILED Internal Error-- statistics not found in selectivityForConglomerate when running InterruptResilienceTest
+
+Added regression test case that reproduces the bug. Disabled for now.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-04-01T10:07:41.833789Z</S:date>
+</S:log-item>
+</S:log-report>

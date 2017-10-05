@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>225581</D:version-name>
+<D:comment>Fix a problem building with -Dsane=false. The ensuresanitystate target
+would cause sanity to be set to true even though sane=false and the correct
+SanityState.java and state.properties were generated. Also update BUILDING.txt
+to remove the mention of the property 'sanity' which should only be set from
+state.properties.
+</D:comment>
+<D:creator-displayname>fuzzylogic</D:creator-displayname>
+<S:date>2005-07-27T19:19:58.093007Z</S:date>
+</S:log-item>
+</S:log-report>

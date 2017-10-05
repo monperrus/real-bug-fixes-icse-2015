@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>651631</D:version-name>
+<D:comment>DERBY-2892  Closing a resultset after retrieving a large &gt; 32665 bytes value with Network Server does not release locks
+
+DERBY-3571 LOB locators are not released if the LOB columns are not accessed by the client
+
+port from trunk revisions, 642974,643819,646255,647680
+patches contributed by Kristian Waagan (Kristian dot Waagan at Sun dot com)
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-04-25T15:46:58.415145Z</S:date>
+</S:log-item>
+</S:log-report>

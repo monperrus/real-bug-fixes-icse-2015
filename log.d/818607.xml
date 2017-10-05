@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>818607</D:version-name>
+<D:comment>CommitLog and Table.apply/applyNow/load paths use RMs directly instead of converting to Rows first.  patch by Sandeep Tata; reviewed by jbellis for CASSANDRA-456</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-09-24T19:55:10.028420Z</S:date>
+</S:log-item>
+</S:log-report>

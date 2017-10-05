@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1085027</D:version-name>
+<D:comment>DERBY-5108 Intermittent failure in AutomaticIndexStatisticsTest.testShutdownWhileScanningThenDelete on Windows
+
+Follow-up patch DERBY-5108-2 which makes the join with the daemon
+retry in the case the thread gets interrupted, also note the fact in
+InterruptStatus to follow our new pattern for interrupt handling.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-03-24T16:21:13.056202Z</S:date>
+</S:log-item>
+</S:log-report>

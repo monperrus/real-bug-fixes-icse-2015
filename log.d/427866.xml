@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>427866</D:version-name>
+<D:comment>DERBY-1619: Decode encoded characters in path URLs in sysinfo. Prevents
+duplicate entries for jar files from appearing in the output when the path
+contains a character which gets encoded when passed as a URL.
+</D:comment>
+<D:creator-displayname>fuzzylogic</D:creator-displayname>
+<S:date>2006-08-02T03:06:16.259649Z</S:date>
+</S:log-item>
+</S:log-report>

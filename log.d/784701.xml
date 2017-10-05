@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>784701</D:version-name>
+<D:comment>DERBY-4245 (partial): Sorting a table containing a CLOB fails after upgrade to 10.5.
+Fixes the NPE bug for both clean 10.5 databases and upgraded databases. Note
+that there is a remaining bug for upgraded databases that will be fixed with a
+subsequent patch under this issue.
+
+Patch file: derby-4245-2a-sqlclob_fix.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-06-15T09:35:07.061315Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1545957</D:version-name>
+<D:comment>DERBY-6380; Rolling log files do not get copied in failed directory when a junit test fails
+   removing two 'fail' commands left over from debugging, and streamlining clean up in ErrorStreamTest
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2013-11-27T08:16:03.402269Z</S:date>
+</S:log-item>
+</S:log-report>

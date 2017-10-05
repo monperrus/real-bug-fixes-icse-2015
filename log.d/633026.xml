@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>633026</D:version-name>
+<D:comment>DERBY-3454:All the public methods of ReplicationMessageTransmit and ReplicationMessageReceive should
+ensure that the socket connection exists (is not null) before performing the respective operations. 
+Contributed by V Narayanan
+
+</D:comment>
+<D:creator-displayname>oysteing</D:creator-displayname>
+<S:date>2008-03-03T10:16:56.881623Z</S:date>
+</S:log-item>
+</S:log-report>

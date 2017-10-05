@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>420656</D:version-name>
+<D:comment>DERBY-1142 (partial) Make EmbedResultSet close its activation in the close method when it is
+single use ResultSet (e.g. from a Statement.executeQuery()). Otherwise the close of the activation
+would be delayed until the EmbedResultSet was garbage collected and subsequent activity on the connection.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-07-10T23:12:31.893071Z</S:date>
+</S:log-item>
+</S:log-report>

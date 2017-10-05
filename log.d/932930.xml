@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>932930</D:version-name>
+<D:comment>DERBY-4582: Timestamps inserted with GMT calendar are 1 hour later when subsequently read with GMT calendar (Server Mode Only)
+
+Added test case that exposes the bug. The test case currently only
+passes with the embedded driver and is therefore not enabled in any
+test suites.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-04-11T16:26:18.686899Z</S:date>
+</S:log-item>
+</S:log-report>

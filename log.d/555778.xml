@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>555778</D:version-name>
+<D:comment>DERBY-2931
+
+In soft upgrade mode the format id of the new heap format was being written
+out along with the old format metadata.  On reboot system would try to read
+new format and fail.  Problem was that wrong format id was associated with
+the soft upgrade version of the heap conglomerate class (Heap_v10_2.java).
+
+The code change is just changing that format id from 
+StoredFormatIds.ACCESS_HEAP_V3_ID to StoredFormatIds.ACCESS_HEAP_V2_ID.  The
+rest of the changes is comments in the code and updates to the upgrade test
+suite.  The changes to the upgrade suite showed the problem before the fix in
+both 10.3 branch and trunk and then passed once the fix was applied.  Adding
+those tests actually caused some other tests in the upgrade suite to fail 
+which passed previously, and those cases were also fixed by this change.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2007-07-12T21:36:37.371614Z</S:date>
+</S:log-item>
+</S:log-report>

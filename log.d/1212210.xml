@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1212210</D:version-name>
+<D:comment>DERBY-5521 JDBCMBeanTest#testAttributeDriverLevel uses Java assert in lieu of JUnit assert: no real testing happens
+
+Patch derby-5521-followup fixes a small issue with the regexp (JDK
+name varied over time: J2SE -&gt; Java SE) used in the test.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-12-09T01:23:13.262988Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1492094</D:version-name>
+<D:comment>DERBY-6114: OOME in XAMemTest.testDerby4137_TransactionTimeoutSpecifiedNotExceeded
+
+Periodically run purge() on the cancellation timer to reclaim the
+space occupied by cancelled tasks.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-06-12T07:35:40.463189Z</S:date>
+</S:log-item>
+</S:log-report>

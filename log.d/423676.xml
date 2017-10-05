@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>423676</D:version-name>
+<D:comment>Mark test jdbc4/TestQueryObject as failing with the SecurityManager due to DERBY-1540
+Remove disablein of SecurityManager for derbynet/testProtocol as it passes with the SecurityManager.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-07-20T00:20:05.707386Z</S:date>
+</S:log-item>
+</S:log-report>

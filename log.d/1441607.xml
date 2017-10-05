@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1441607</D:version-name>
+<D:comment>[ARIES-1012] Properly isolate the subsystems core bundle.
+
+Private packages are no longer exported. The itests now attach a fragment to the core bundle in order to get
+access to those private packages.</D:comment>
+<D:creator-displayname>jwross</D:creator-displayname>
+<S:date>2013-02-01T19:46:50.831495Z</S:date>
+</S:log-item>
+</S:log-report>

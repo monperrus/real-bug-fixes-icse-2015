@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>676819</D:version-name>
+<D:comment>DERBY-3764: Union Query fail on Derby 10.4.1.3
+
+Only look at the visible columns when checking that the expressions in
+a UNION query are compatible. This prevents
+ArrayIndexOutOfBoundsException from being thrown when preparing some
+queries that contain GROUP BY clauses. It is only a partial fix, since
+some of the queries run into other problems later in the execution.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2008-07-15T07:35:08.429752Z</S:date>
+</S:log-item>
+</S:log-report>

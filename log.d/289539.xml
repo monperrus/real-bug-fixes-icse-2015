@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>289539</D:version-name>
+<D:comment>DERBY-557 
+Client driver gets OutOfMemoryError when re-executing statement without closing ResultSet 
+
+Attached a patch which fixes the bug. The patch ensures that the ResultSets associated with a Statement/PreparedStatement are removed from CommitAndRollbackListeners_ in org.apache.derby.client.am.Connection when the statement is re-executed.
+
+I have run derbyall with only one error (wrong length of encryption key, not related to the patch). I have also run the program in the problem description (both with Statement and PreparedStatement), and the memory usage doesn't increase over time.
+
+		Contributed by Knut Anders Hatlen
+	
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-09-16T13:52:14.956197Z</S:date>
+</S:log-item>
+</S:log-report>

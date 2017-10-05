@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>629535</D:version-name>
+<D:comment>DERBY-3303: Fix OrderByColumn.java to account for "pulled" GROUP BY columns
+when a) checking to see if the user has specified a valid ORDER BY column,
+and b) trying to resolve "pulled" ORDER BY columns to their underlying values.
+Also, add some relevant test cases to the existing lang/orderby.sql test.
+
+Port to 10.3 using "d3303_10_3_merge.patch" as attached to the Jira.  No
+additional changes were necessary.
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2008-02-20T17:01:05.508532Z</S:date>
+</S:log-item>
+</S:log-report>

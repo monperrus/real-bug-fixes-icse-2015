@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1055601</D:version-name>
+<D:comment>Backporting the changes for DERBY-4874 to 10.6 codeline. 
+DERBY-4874 Trigger does not recognize new size of VARCHAR column expanded with ALTER TABLE. It fails with ERROR 22001: A truncation error was encountered trying to shrink VARCHAR 
+
+Had to hand do these changes rather than a simple migration from trunk 
+because the changes in trunk depended on DERBY-1482. DERBY-1482 can't be backported to 10.6 and earlier because it had required 
+system level changes which can't be backported to pre-released Derby products. 
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-01-05T19:39:02.492896Z</S:date>
+</S:log-item>
+</S:log-report>

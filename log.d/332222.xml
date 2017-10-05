@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>332222</D:version-name>
+<D:comment>DERBY-569 Derby network server is printing connection activity on System.out instead of logging it to derby.log
+
+This patch changes derby.drda.logConnections also turn off logging of connections to console.
+
+Contributed by  Bryan Pendleton
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-11-10T04:42:01.133711Z</S:date>
+</S:log-item>
+</S:log-report>

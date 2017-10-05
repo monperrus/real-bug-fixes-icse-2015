@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>330290</D:version-name>
+<D:comment>Build fix for Gump. Subversion 1.1.x and earlier have a bug in svnversion -n
+which attaches the newline character to the version if the version is 'exported'
+meaning that the subversion metadata is not available for the current directory.
+This causes the manifest generation for derby.jar to fail because it introduces
+a newline character in between the Bundle-Version and the first Sealed
+attribute. Because this would cause the Sealed attribute to be its own manifest
+section that does not start with a Name attribute, Ant declares the manifest
+invalid and stops the build.
+
+Presumably this problem would also be hit by anyone using the affected versions
+of Subversion and attempting to build the jars from one of our -src
+distributions.
+</D:comment>
+<D:creator-displayname>fuzzylogic</D:creator-displayname>
+<S:date>2005-11-02T17:28:34.553083Z</S:date>
+</S:log-item>
+</S:log-report>

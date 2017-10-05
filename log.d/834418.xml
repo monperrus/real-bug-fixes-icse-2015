@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>834418</D:version-name>
+<D:comment>DERBY-4432: Memory leak when attempting to boot non-existing database with the in-memory back end.
+Fixed memory leak happening when trying to boot non-existing databases by using a dummy store to handle operations that don't require a proper store.
+Added a regression test (must be run with a small Java heap).
+Also changed the existing test by using a discarding log writer to avoid writing a huge log file to disk (a message is logged for each failed boot).
+
+Patch file: derby-4432-1a-mem_leak_fix.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-11-10T10:43:14.089784Z</S:date>
+</S:log-item>
+</S:log-report>

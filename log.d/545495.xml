@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>545495</D:version-name>
+<D:comment>DERBY-2711: If large blob is updated after InputStream is fetched (using getBinaryStream), the stream continues to point ot old data. Stream will now point to new data.
+Patch file: derby-2711v2.diff
+
+Patch contributed by Anurag Shekhar.
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2007-06-08T12:46:25.317968Z</S:date>
+</S:log-item>
+</S:log-report>

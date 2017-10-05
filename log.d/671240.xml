@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>671240</D:version-name>
+<D:comment>DERBY-3734
+
+Changing the undocumented property derby.storage.fileCacheSize to allow
+any maximum setting, previously it limited the setting to a maximum of 100.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2008-06-24T16:43:56.677899Z</S:date>
+</S:log-item>
+</S:log-report>

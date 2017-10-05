@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>778871</D:version-name>
+<D:comment>short circuits sending a message if the mutation's destination is the local node.  does not implement hint handling; takes the full message route if hints are involved.  patch by Sandeep Tata; reviewed by jbellis for CASSANDRA-132</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-05-26T20:23:16.553332Z</S:date>
+</S:log-item>
+</S:log-report>

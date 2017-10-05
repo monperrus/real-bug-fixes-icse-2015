@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>629661</D:version-name>
+<D:comment>DERBY-3443 With IBM 1.6 derbynet/sysinfo.java,
+derbynet/sysinfo_withproperties and derbynet/getCurrentProperties fail
+with missing line "listing properties"
+
+Added sed file to delete the line and updated masters.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-02-21T00:04:37.315052Z</S:date>
+</S:log-item>
+</S:log-report>

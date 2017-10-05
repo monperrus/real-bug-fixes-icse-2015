@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>666006</D:version-name>
+<D:comment>DERBY-3709
+
+Changes the replication test to ensure that the failure due
+to failover being started before replication is booted is
+not hidden
+
+Patch Contributor: Ole Soldberg
+</D:comment>
+<D:creator-displayname>vnarayanan</D:creator-displayname>
+<S:date>2008-06-10T08:30:41.299916Z</S:date>
+</S:log-item>
+</S:log-report>

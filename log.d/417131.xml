@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>417131</D:version-name>
+<D:comment>DERBY-1455: Intermittent failure in derbynet/runtimeinfo.java
+
+The problem occurs when the test has opened four connections, closes
+three of them and runs getRuntimeInfo() on the server. The test
+expects that there is one active session on the server, but in some
+cases, the network server has not had enough time to clean up after
+the closed connections, and more sessions are listed as active.
+
+The patch solves this timing issue by invoking Thread.sleep(1000)
+before calling getRuntimeInfo().
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-06-26T06:45:01.040091Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1429829</D:version-name>
+<D:comment>[ARIES-996] JPA does not work for bundles that are constituents of subsystems.
+
+A bundle tracker was added to track the region context bundles of subsystems. When a context is registered, these bundles are
+examined to see if one is visible to the client bundle. If so, that region context bundle is used to establish the relationship
+with a persistence context manager. If no subsystem region context bundles are present, the behavior is the same as before.
+Composite bundle frameworks are still supported as well.</D:comment>
+<D:creator-displayname>jwross</D:creator-displayname>
+<S:date>2013-01-07T15:05:40.080325Z</S:date>
+</S:log-item>
+</S:log-report>

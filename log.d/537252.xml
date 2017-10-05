@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>537252</D:version-name>
+<D:comment>DERBY-889 with client getTimestamp on a TIME column will print the date 1900-01-01 instead of the current date
+
+Committed Bryan's fix unchanged and enabled test cases in TimeHandlingTest
+Contributed by Bryan Pendleton
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-05-11T18:06:16.455258Z</S:date>
+</S:log-item>
+</S:log-report>

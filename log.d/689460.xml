@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>689460</D:version-name>
+<D:comment>DERBY-3561: testStartStopManagementFromApplication fails with "expected:&lt;2&gt; but was:&lt;5&gt;"
+ - applying same change to ServerPropertiesTest.policy's section for classes as
+   revision 644248 did to its section for derby.jar.
+ - that is, added permission which allows ServerPropertiesTest's JVM to unregister 
+   MBeans that are automatically registered upon Derby boot by that test or previous 
+   tests.
+</D:comment>
+<D:creator-displayname>johnemb</D:creator-displayname>
+<S:date>2008-08-27T12:37:13.527217Z</S:date>
+</S:log-item>
+</S:log-report>

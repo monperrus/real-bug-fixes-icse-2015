@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>382319</D:version-name>
+<D:comment>DERBY-965: DatabaseMetadata method supportsResultSetConcurrency
+returns wrong result on network client
+
+The DatabaseMetaData method supportsResultSetConcurrency erroneously
+returns false on the network client for all arguments combination. The
+embedded client returns correct results.
+
+Patch contributed by Dag H. Wanvik &lt;Dag.Wanvik@Sun.COM&gt;.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-03-02T08:25:28.155269Z</S:date>
+</S:log-item>
+</S:log-report>

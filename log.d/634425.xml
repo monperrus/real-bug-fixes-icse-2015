@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>634425</D:version-name>
+<D:comment>DERBY-3504 Fix timeout errors in management._Suite when running with classes. Was due to the spawned vm to execute the server failing as installing the policy file requires jars. Changed the decorator to add the -noSecurityManager flag if classes is being used with comments indicating if tests need a different behaviour they need to provide it.
+Added a SpawnedProcess utilitly class that correctly handles the output streams written by a spawned process by having two background threads that read from the streams into a buffer. This stops the change the process hangs due to being blocked writing stdout or stderr. Used this utility class in one more location where a vm was being spawned. Ideally the spawning of a java process should be in a single utility not scattered around multple tests, separate cleanup issue. </D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2008-03-06T21:30:48.818102Z</S:date>
+</S:log-item>
+</S:log-report>

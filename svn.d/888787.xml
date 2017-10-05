@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="888787"/>
+<S:open-directory rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="contrib" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk/contrib</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="snowball" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk/contrib/snowball</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="build.xml" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk/contrib/snowball/build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="5b429b97effe6688a6604586d3134ae5" sha1-checksum="bd977e79e84e0c0ac9c2c1337fa2e558139fc486"/>
+<S:prop><V:md5-checksum>30ed979c1d352c908803542d4cd30389</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="pom.xml.template" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk/contrib/snowball/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e9f057b6f99f195909be15cb188bd06c" sha1-checksum="a38bec7d3b55806ae1477d0612ef9641192a6a39"/>
+<S:prop><V:md5-checksum>40e05194c0a727c5d4b17454451d2a93</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="src" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk/contrib/snowball/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk/contrib/snowball/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk/contrib/snowball/src/test/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk/contrib/snowball/src/test/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk/contrib/snowball/src/test/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="analysis" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk/contrib/snowball/src/test/org/apache/lucene/analysis</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="snowball" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk/contrib/snowball/src/test/org/apache/lucene/analysis/snowball</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TestSnowball.java" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk/contrib/snowball/src/test/org/apache/lucene/analysis/snowball/TestSnowball.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f561f7096d17d51ae70d75a9c9bf6478" sha1-checksum="2b37494742ce96f4ea47c655f9d2ba4ebf0484b3"/>
+<S:prop><V:md5-checksum>b5d1ba48edf679fe9b2cc8bde080a7dc</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="java" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk/contrib/snowball/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk/contrib/snowball/src/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk/contrib/snowball/src/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk/contrib/snowball/src/java/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="analysis" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk/contrib/snowball/src/java/org/apache/lucene/analysis</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="snowball" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk/contrib/snowball/src/java/org/apache/lucene/analysis/snowball</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="SnowballAnalyzer.java" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk/contrib/snowball/src/java/org/apache/lucene/analysis/snowball/SnowballAnalyzer.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="21cfabe4eb95b4a75f3e48e1619eb922" sha1-checksum="49acd8698ab03ea3fe0e7b089ebebd25401407c7"/>
+<S:prop><V:md5-checksum>38feb5106c1b668f7d35bef71ef1a923</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="SnowballFilter.java" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk/contrib/snowball/src/java/org/apache/lucene/analysis/snowball/SnowballFilter.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="1bbd42265994e80c2c1e796ce192ba9c" sha1-checksum="c2a6b175a1e6d485e754b6d7f94a17801e867f93"/>
+<S:prop><V:md5-checksum>7022581915e87be66f486fb49c8cdfc5</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-file name="CHANGES.txt" rev="888786">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/888787/lucene/java/trunk/contrib/CHANGES.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">888787</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-09T12:47:37.532401Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">simonw</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e52daa929826a014ab3546de757a6a21" sha1-checksum="6d0bcf4dfc4279217fe0e3444b4535bdc56fa02c"/>
+<S:prop><V:md5-checksum>cf57c976ba7fa81b993fc8f7278111dd</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

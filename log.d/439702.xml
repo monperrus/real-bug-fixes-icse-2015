@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>439702</D:version-name>
+<D:comment>DERBY-1810
+
+Bumping the time to wait for server to start in this test.  In my environment
+this test is failing consistently (and bad error handling in the test then 
+causes this test to hang forever).  Bumping the timeout so far has made it 
+pass (I tried it 10 times), where before it failed 10 times.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-09-03T02:28:35.715113Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>627836</D:version-name>
+<D:comment>DERBY-3299 (incremental: Changes/additions to CreateIndexConstantAction.java
+so that it can support the creation of "replacement" conglomerates, which
+will be necessary when the physical conglomerate for an index has been
+dropped but the index descriptor still exists.  This can happen if multiple
+indexes share a physical conglomerate but then the conglomerate is dropped
+as part of "drop index" processing for one of the indexes. (Note that
+"indexes" here includes indexes which were created to back constraints).
+In that case we'll need to create a new "replacement" physical conglomerate
+to support the existing descriptor.
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2008-02-14T18:42:24.860376Z</S:date>
+</S:log-item>
+</S:log-report>

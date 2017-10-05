@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>833414</D:version-name>
+<D:comment>DERBY-4438 - 'Table/View 'T1' already exists in Schema 'APP'' in lang.DropTableTest on phoneME/cvm
+Add some clean up to allow any execution order of tests. phoneME/cvm executes tests in a different order than other jvms, which caused problems.
+</D:comment>
+<D:creator-displayname>ole</D:creator-displayname>
+<S:date>2009-11-06T14:39:07.655963Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1381731</D:version-name>
+<D:comment>DERBY-5912; testIsValidImplemented fails for NetworkServer in some slow running machines/configurations
+  This commits the following changes:
+  - changes the timeout in ConnectionMethodsTest from isValid(1) to isValid(200) and adds a comment
+  - updates the comment in ConnectionTest so it refers to ConnectionMethodsTest
+  - has commented out sleep code in DRDAConnThread that can be uncommented to test this
+  - adds a fixture, testIsValidWithTimeout, that is disabled by having an 'x' in front of it, to ConnectionTest. 
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2012-09-06T19:45:37.630926Z</S:date>
+</S:log-item>
+</S:log-report>

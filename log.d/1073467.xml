@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1073467</D:version-name>
+<D:comment>DERBY-4984 ALTER TABLE DROP COLUMN may leave triggers invalid even if they are not using the column getting dropped.
+
+Backporting from trunk to 10.7
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-02-22T19:37:12.447419Z</S:date>
+</S:log-item>
+</S:log-report>

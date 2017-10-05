@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>516286</D:version-name>
+<D:comment>DERBY-2380 (partial) Add the test changes for the change of PreparedStatement no longer bing a provider.
+(missed from last commit). Changes are as a result of there is no such state as a closed
+cursor, only open or non-existent, so no longer throw a cursor is closed message, but
+instead a cursor not found error.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-03-09T04:08:16.636323Z</S:date>
+</S:log-item>
+</S:log-report>

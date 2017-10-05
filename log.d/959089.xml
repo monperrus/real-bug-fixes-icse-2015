@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>959089</D:version-name>
+<D:comment>DERBY-728 Unable to create databases whose name containg Chinese characters through the client driver (partial)
+
+Fix SanityManger usage to be wrapped in if (SanityManager.DEBUG) blocks.
+Contrubuted by Tiago R. Espinha ( tiago dot derby at yahoo dot co dot uk )
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2010-06-29T19:58:12.636436Z</S:date>
+</S:log-item>
+</S:log-report>

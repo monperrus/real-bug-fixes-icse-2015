@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1127825</D:version-name>
+<D:comment>DERBY-5247: Warnings regarding XPath displayed when generating JavaDoc 
+
+Primary change is adding java/tools/xml-apis.jar to the classpath when
+building JavaDocs to get rid of warnings.
+Secondary cleanup changes:
+ o renamed jars.extra to jars.javadoc
+ o added osgi to jars.javadoc
+ o removed definitions/usages for JCC (IBM driver)
+
+Patch file: derby-5247-1b-xpath_javadoc.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-05-26T08:50:01.115498Z</S:date>
+</S:log-item>
+</S:log-report>

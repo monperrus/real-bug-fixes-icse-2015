@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>636120</D:version-name>
+<D:comment>checking in fixes to allow a 50 user by 59 minute configuration of the
+stress test to be run.  I ran this once so far on a 4 way, XP box and it
+passed.  In the past this test has sometimes found bugs that the shorter
+and less users stress test did not uncover - I seem to remember it mostly
+being useful for statement cache issues.  Note on my machine each run
+eats up around 11 gig - mostly from the .out files of each of the test runners.
+
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2008-03-11T21:54:43.758984Z</S:date>
+</S:log-item>
+</S:log-report>

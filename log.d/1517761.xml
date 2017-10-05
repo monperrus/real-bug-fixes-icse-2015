@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1517761</D:version-name>
+<D:comment>DERBY-6314: Upgrade from 10.10 fails with ClassCastException
+
+Make ExecRowBuilder implement the Formatable interface so that any
+Formatable instances referenced from its fields are stored using
+Formatable logic instead of Serializable logic.
+
+Add type checking in FormatIdInputStream's error handlers to prevent
+the underlying exception from being shadowed by a ClassCastException
+under certain circumstances.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-08-27T08:16:00.715278Z</S:date>
+</S:log-item>
+</S:log-report>

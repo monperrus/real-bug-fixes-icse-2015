@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1159780</D:version-name>
+<D:comment>Fix sstable file scan when one ColumnFamily starts with the name of another
+patch by Pavel Yaskevich; reviewed by Jonathan Ellis for CASSANDRA-3040</D:comment>
+<D:creator-displayname>xedin</D:creator-displayname>
+<S:date>2011-08-19T20:44:51.436428Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>506276</D:version-name>
+<D:comment>Change BatchUpdateTest to use the new utility method to check the number of rows in the table
+rather than repeating the same code in many fixtures. Clean up with some additional closing
+of opened statements.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-02-12T04:36:10.792083Z</S:date>
+</S:log-item>
+</S:log-report>

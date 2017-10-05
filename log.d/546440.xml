@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>546440</D:version-name>
+<D:comment>DERBY-2657: Performance regression after check-in of svn 531971
+
+Fixed regression by making Xact.getDataValueFactory() return the value
+of the dataValueFactory field instead of calling
+Monitor.findServiceModule().
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-06-12T09:45:17.323058Z</S:date>
+</S:log-item>
+</S:log-report>

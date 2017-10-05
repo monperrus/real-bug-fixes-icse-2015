@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1387304</D:version-name>
+<D:comment>ARIES-925: Fixed issue in org.apache.aries.subsystem.itests.util.BundleInfoImpl where JarFile objects were being created but not closed. This class is used during the generation of the repository.xml which consists of a large number of bundle files. I then realized the repository.xml generation itself is no longer needed for the itests. So I removed it altogether.
+
+Also fixed a potential issue in org.apache.aries.subsystem.core.internal.BundleResourceInstaller where an input stream might be left open.
+
+org.apache.aries.subsystem.core.internal.BundleResource was refactored as part of this work to make the code cleaner and easier to read.</D:comment>
+<D:creator-displayname>jwross</D:creator-displayname>
+<S:date>2012-09-18T18:24:59.322148Z</S:date>
+</S:log-item>
+</S:log-report>

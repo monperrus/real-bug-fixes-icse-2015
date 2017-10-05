@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>675673</D:version-name>
+<D:comment>Fix parseQueryStrings to use extensible parsing syntax, not just SolrQueryParser.  This function is currently only used by the MoreLikeThis handler.</D:comment>
+<D:creator-displayname>ehatcher</D:creator-displayname>
+<S:date>2008-07-10T18:43:34.312481Z</S:date>
+</S:log-item>
+</S:log-report>

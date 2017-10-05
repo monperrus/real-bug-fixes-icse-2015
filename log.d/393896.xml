@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>393896</D:version-name>
+<D:comment>DERBY-990
+DERBY-1210
+
+Removed piece of this test that is machine/jvm/thread timing dependent on 
+the background space reclamation work.  
+Filed a new issue DERBY-1213, to rewrite this testing in a more reproducible
+manner.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-04-13T19:19:29.083178Z</S:date>
+</S:log-item>
+</S:log-report>

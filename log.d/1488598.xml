@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1488598</D:version-name>
+<D:comment>DERBY-6237(PreparedStatement.execute() fails starting 10.2 when multiple rows are updated and PreparedStatement.setCharacterStream(int, Reader, int) is used)
+
+Separating the testing of setCharacterStream on CLOB and VARCHAR as two separate tests so failure of one data type does not prevent testing of the other data type. 
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-06-01T20:55:10.794791Z</S:date>
+</S:log-item>
+</S:log-report>

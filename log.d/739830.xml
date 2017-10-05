@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>739830</D:version-name>
+<D:comment>DERBY-4042: org.apache.derby.impl.load.Import needs to escape single quotes
+
+Made sure that the export and import procedures properly quoted string
+literals and SQL identifiers when constructing internal SQL
+statements. Achieved by using the helper methods in StringUtil and
+IdUtil.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-02-01T20:44:06.806326Z</S:date>
+</S:log-item>
+</S:log-report>

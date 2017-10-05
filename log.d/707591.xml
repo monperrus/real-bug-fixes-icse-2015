@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>707591</D:version-name>
+<D:comment>DERBY-3878: Replication: stopSlave does not close serversocket when master has crashed
+
+Use try/finally to ensure that the sockets are closed when closing the
+socket streams fails.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2008-10-24T09:52:05.604115Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1154369</D:version-name>
+<D:comment>refactorings and corner-case bug fixes:
+- avoid modifying the List of rows after passing it to a LazilyCompactedRow
+- account for possibility that all data compacted by LCR has expired
+- clean up code duplication around shouldPurge cleanup
+patch by jbellis; reviewed by slebresne for CASSANDRA-2901</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2011-08-05T20:19:45.886379Z</S:date>
+</S:log-item>
+</S:log-report>

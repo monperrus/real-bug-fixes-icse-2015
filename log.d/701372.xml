@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>701372</D:version-name>
+<D:comment>DERBY-3871: EmbedBlob.setBytes returns incorrect insertion count.
+Made EmbedBlob.setBytes return the number of bytes inserted, instead of returning the Blob position after the insert.
+Improved some JavaDoc comments.
+Added regression tests.
+Patch file: derby-3871-1a_insertion_count.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-10-03T13:14:40.088778Z</S:date>
+</S:log-item>
+</S:log-report>

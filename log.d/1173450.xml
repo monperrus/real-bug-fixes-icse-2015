@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1173450</D:version-name>
+<D:comment>DERBY-5418 Network server session's close method neglects to close down any open trace file
+
+Added fix to close any open trace file when a session closes. Patch
+derby-5418.diff. Backported cleanly from trunk, svn 1173446.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-09-21T01:10:36.769095Z</S:date>
+</S:log-item>
+</S:log-report>

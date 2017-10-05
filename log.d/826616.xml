@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>826616</D:version-name>
+<D:comment>DERBY-4407: StringIndexOutOfBoundsException in ij when result has no columns
+
+Raise a compile-time error if a query returns no columns.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-10-19T09:30:00.506592Z</S:date>
+</S:log-item>
+</S:log-report>

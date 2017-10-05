@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1404886</D:version-name>
+<D:comment>DERBY-5964: Timestamp comparison failure in AutomaticIndexStatisticsTest.testStatisticsCorrectness
+
+Run test in GMT timezone to prevent instabilities around transition
+to or from DST.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-11-02T07:31:14.185403Z</S:date>
+</S:log-item>
+</S:log-report>

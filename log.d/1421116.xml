@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1421116</D:version-name>
+<D:comment>[ARIES-984] When shutting down, the JMX agent should wait for threads to be terminated
+
+Conflicts:
+	jmx/jmx-core/src/main/java/org/apache/aries/jmx/agent/JMXAgentImpl.java</D:comment>
+<D:creator-displayname>gnodet</D:creator-displayname>
+<S:date>2012-12-13T08:12:18.382318Z</S:date>
+</S:log-item>
+</S:log-report>

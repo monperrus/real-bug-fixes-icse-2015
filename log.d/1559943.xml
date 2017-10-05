@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1559943</D:version-name>
+<D:comment>DERBY-6456: Infinite loop in NetworkServerControlImpl when reply &gt;= 32k
+
+Make sure the reply buffer in NetworkServerControlImpl is able to hold
+the longest possible reply that it could see.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2014-01-21T08:58:12.448886Z</S:date>
+</S:log-item>
+</S:log-report>

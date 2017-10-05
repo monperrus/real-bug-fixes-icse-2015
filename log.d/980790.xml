@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>980790</D:version-name>
+<D:comment>use reflection to avoid compile dependency on sun classes. do not start thread when sun classes are not present at runtime. patch by gdusbabek, reviewed by brandonwilliams. CASSANDRA-1061</D:comment>
+<D:creator-displayname>gdusbabek</D:creator-displayname>
+<S:date>2010-07-30T13:46:50.945682Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1128845</D:version-name>
+<D:comment>LUCENE-2834: don't use MD5 to make lock id for foreign lock file (it spawns thread on OS X)</D:comment>
+<D:creator-displayname>mikemccand</D:creator-displayname>
+<S:date>2011-05-29T09:30:31.031539Z</S:date>
+</S:log-item>
+</S:log-report>

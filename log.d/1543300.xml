@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1543300</D:version-name>
+<D:comment>SOLR-5465: SolrCmdDistributor retry logic has a concurrency race bug. 
+SOLR-5464: ConcurrentSolrServer does not stream pure delete by id requests.
+SOLR-5452: Do not attempt to proxy internal update requests.</D:comment>
+<D:creator-displayname>markrmiller</D:creator-displayname>
+<S:date>2013-11-19T03:16:39.940856Z</S:date>
+</S:log-item>
+</S:log-report>

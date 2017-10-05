@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>776714</D:version-name>
+<D:comment>OneCompactionTest is failing occasionally because 500 keys per CFS is actually triggering an automatic compaction (since test flush threshold is only 20) and we were doing a non-threadsafe doCompaction for convenience: the failure occurs when our manual compaction begins mid-run of an automatic one, and the automatic deletes the original sstable file first.  Fix by (a) dropping the number of keys so that OneCompactionTest lives up to its name (more are tested in "CompactionsTest") and (b) making the compactions call threadsafe by refactoring to allow a threshold parameter to MCM.submit.
+patch by jbellis; reviewed by Jun Rao for CASSANDRA-184</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-05-20T14:40:27.615809Z</S:date>
+</S:log-item>
+</S:log-report>

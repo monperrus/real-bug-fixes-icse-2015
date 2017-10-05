@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>264128</D:version-name>
+<D:comment>DERBY-213 - ResultSet.next() after last row of FORWARD_ONLY cursor throws an SQL Exception with Network Server
+
+- Additional tests in jdbcapi/resultset.java
+- Change to special flag to fix a small NullPointerException
+- modified output files for resultset.out, updatableResultSet.out, holdCursorJDBC30, forupdate.out
+- Changes to ResultSet, Statement and Connection in the org.apache.derby.client.am package. These changes have the following effects:
+      * FORWARD_ONLY ResultSets will no longer close implicitly after the last ResultSet has been retrieved.
+      * Checks to see if an auto-commit should be performed have been moved to Statement to mimic embedded functionality.
+      * Multiple ResultSets will now auto-commit if all ResultSets are closed if auto-commit is turned on.
+
+	
+Contributed by Philip Wilder
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-08-29T12:35:43.542828Z</S:date>
+</S:log-item>
+</S:log-report>

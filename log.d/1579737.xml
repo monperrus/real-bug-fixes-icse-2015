@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1579737</D:version-name>
+<D:comment>DERBY-6374 Bulk insert of data with nullable UNIQUE constraint fails to detect duplicates
+
+Backported to 10.10, had to do major surgery since the original fix
+was part of a DERBY-532 patch.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2014-03-20T21:03:44.854579Z</S:date>
+</S:log-item>
+</S:log-report>

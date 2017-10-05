@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1526172</D:version-name>
+<D:comment>DERBY-5610 ServerPropertiesTest prints .java.net.SocketException: Connection reset to console but test passes 
+
+Remove e.printStackTrace() of error if log writer is null, unless derby.drda.debug is true
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2013-09-25T13:34:36.954607Z</S:date>
+</S:log-item>
+</S:log-report>

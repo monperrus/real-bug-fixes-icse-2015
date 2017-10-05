@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>632221</D:version-name>
+<D:comment>DERBY-3094: Grouping by expressions causes NullPointerException
+
+This change modifies GroupByNode.addUnAggColumns to process the expressions
+in the GROUP BY list in descending order of complexity, as measured by the
+number of column references in the GROUP BY list element. This ensures
+that when we are matching up expressions in the SELECT list with expressions
+in the GROUP BY list, that we choose the best match, and don't erroneously
+match a sub-expression.
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2008-02-29T04:24:17.370916Z</S:date>
+</S:log-item>
+</S:log-report>

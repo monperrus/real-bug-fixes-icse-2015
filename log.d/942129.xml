@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>942129</D:version-name>
+<D:comment>In ColumnFamilyRecordReader keep Thrift connection alive between calls to fetch data. Patch by johan, review by jbellis. CASSANDRA-1017</D:comment>
+<D:creator-displayname>johan</D:creator-displayname>
+<S:date>2010-05-07T15:41:07.796843Z</S:date>
+</S:log-item>
+</S:log-report>

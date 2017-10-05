@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>552534</D:version-name>
+<D:comment>Merging change 552531 from main into 10.3.1.1 codeline. The commit comments for the main were as follows
+
+DERBY-2879 
+
+Derby currently requires all the character columns in a table to have the same collation as the collation of the schema in 
+which the table is getting defined. In order to implement this behavior, CreateTableNods's bind method will check the 
+collation of it's character columns against the schema's collation and if there is a mismatch, an exception will be thrown. 
+
+In addition, this patch does minor cleanup. The string constants for the 2 collation types in Derby were declared in both 
+StringDataValue.java and Property.java I have removed it from StringDataValue so we don't have duplicate constants. 
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-07-02T16:29:16.208723Z</S:date>
+</S:log-item>
+</S:log-report>

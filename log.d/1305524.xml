@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1305524</D:version-name>
+<D:comment>DERBY-5638 intermittent test failure in test_05_ClobNegative when running full largedata._Suite; LobLimitsTestjava.sql.SQLException: Table/View 'BLOBTBL' already exists in Schema 'APP'.
+
+Now that we truncate the tables and shutdown the databases after the large data suite run, we do not need to have a clean database test setup for network server run. I have run large data suite multiple times on my machine with the changes in this revision, and then all finished succesffuly with a fairly small wombat db size(3.9MB) and I did not see any lock timeouts in derby.log
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2012-03-26T19:59:47.767018Z</S:date>
+</S:log-item>
+</S:log-report>

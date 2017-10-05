@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1165221</D:version-name>
+<D:comment>DERBY-5402: Assignment instead of comparison in Driver20.getPropertyInfo
+
+Removed incorrect assignment-operation (which always evaluated as true) in
+if-statement.
+
+Patch file: n/a
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-09-05T09:31:07.197799Z</S:date>
+</S:log-item>
+</S:log-report>

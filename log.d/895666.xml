@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>895666</D:version-name>
+<D:comment>DERBY-4500: setNetworkClientCP should use return, not exit, on error
+
+Since the setNetworkClientCP and setNetworkServerCP scripts are designed
+to be called from another script, or sourced from the shell, they should
+use 'return' rather than 'exit', to report an error.
+
+This change was contributed by John Storta, Jr. (js at storta dot net).
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2010-01-04T15:38:24.308477Z</S:date>
+</S:log-item>
+</S:log-report>

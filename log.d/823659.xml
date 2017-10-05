@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>823659</D:version-name>
+<D:comment>DERBY-4326
+
+Rather than quiting out of ClientThread for InterruptedException and IOException, we should first check if the exceptions aree raised because of server being shutdown. If yes, then we should quit out of ClientThread. Otherwise, we should log the exception and close the client socket that got the exception and go back to the infinite loop waiting for next client connection.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2009-10-09T18:44:11.994289Z</S:date>
+</S:log-item>
+</S:log-report>

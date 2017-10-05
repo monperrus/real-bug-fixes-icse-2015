@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>641329</D:version-name>
+<D:comment>DERBY-3382: Adds regression test for out of sync checking between master and slave.
+Contributed by Jorgen Loland
+
+Merged to 10.4 branch with command:
+svn merge -r641220:641221 https://svn.apache.org/repos/asf/db/derby/code/trunk/
+
+</D:comment>
+<D:creator-displayname>oysteing</D:creator-displayname>
+<S:date>2008-03-26T14:41:02.451378Z</S:date>
+</S:log-item>
+</S:log-report>

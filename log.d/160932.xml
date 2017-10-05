@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>160932</D:version-name>
+<D:comment>Derby-176 (partial)
+Reduce the number of code instructions generated for a putField() followed by an endStatement()
+by providing a setField() method that sets a field with the top value of the stack but does not
+leave the field's contents on the stack. The use of putField() mimicing the Java language field=value;
+lead to many cases where the value on the stack was not required and immediately popped using endStatement().
+This lead to two extra instructions per field assignment (dup and pop), providing a setField() removes the
+need for the endStatement() as it never performs the dup.
+
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-04-11T18:36:20.318756Z</S:date>
+</S:log-item>
+</S:log-report>

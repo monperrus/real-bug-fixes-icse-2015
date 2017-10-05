@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>464215</D:version-name>
+<D:comment>DERBY-630: CREATE TRIGGER fails with null pointer exception
+
+This patch was contributed by Yip Ng (yipng168@gmail.com)
+
+The current implementation for CREATE TRIGGER needs to handle null compilation
+schema. A compilation schema with null value indicates that the
+trigger action statement text does not depend on the current schema. This means:
+
+1. It is safe to compile this statement in any schema since there is no dependency with
+    the CURRENT SCHEMA. i.e.: All relevent fields are qualified with a specific schema.
+
+2. The statement cache mechanism can utilize this piece of information to enable
+    better statement plan sharing across different schemas; thus, avoiding unnecessary
+    statement compilation.
+
+ 
+So the proposal is:
+
+a) Allow null compilation schema. The system catalog first needs to change the
+   compiliation schema id column of SYS.SYSSTATEMENTS and SYS.SYSVIEWS system
+   table's nullability to true. This would also require a soft upgrade for the
+   previous versions of Derby. This step will resolve the NPE problem of this jira.
+
+b) Handle null compilation schema in statement preparation logic. This can be filed
+   as a separate jira as improvement. It may require some work on the SQL parser to
+   determine whether the compiled statement depends on the CURRENT SCHEMA or not, so
+   that the compilation schema can be properly set. 
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2006-10-15T15:35:27.225596Z</S:date>
+</S:log-item>
+</S:log-report>

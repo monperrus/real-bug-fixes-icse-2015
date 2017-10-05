@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>432493</D:version-name>
+<D:comment>DERBY-1710: Unchecked casts from SQLException to EmbedSQLException
+cause ClassCastException in NetworkServerControlImpl when running
+Java SE 6
+
+The attached patch makes NetworkServerControlImpl use
+SQLException.getSQLState() instead of EmbedSQLException.getMessageId()
+where possible. Where it is not possible, check that the exception is
+EmbedSQLException before casting, and fall back to a more generic
+approach if it is not.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-08-18T05:47:07.804366Z</S:date>
+</S:log-item>
+</S:log-report>

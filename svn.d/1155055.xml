@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1155055"/>
+<S:open-directory rev="1155054">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1155055/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1155055</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-08T18:46:22.942858Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra" rev="1155054">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1155055/cassandra</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1155055</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-08T18:46:22.942858Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="drivers" rev="1155054">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1155055/cassandra/drivers</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1155055</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-08T18:46:22.942858Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="py" rev="1155054">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1155055/cassandra/drivers/py</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1155055</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-08T18:46:22.942858Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cql" rev="1155054">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1155055/cassandra/drivers/py/cql</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1155055</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-08T18:46:22.942858Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="cursor.py" rev="1155054">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1155055/cassandra/drivers/py/cql/cursor.py</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1155055</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-08T18:46:22.942858Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="8add94b1070017f6057b51ed8a592644" sha1-checksum="a06949340cdfc2eedd7caa3f70687688da6e6832"/>
+<S:prop><V:md5-checksum>36111a4f2fe07244659a5c09a9164ec3</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="test" rev="1155054">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1155055/cassandra/drivers/py/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1155055</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-08T18:46:22.942858Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="test_regex.py" sha1-checksum="f65d8987c2e2de4e2d447c9a77253802d02ed27f">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1155055/cassandra/drivers/py/test/test_regex.py</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1155055</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-08-08T18:46:22.942858Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>9976db4b1b274c6c5453d57fd5b80e8b</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

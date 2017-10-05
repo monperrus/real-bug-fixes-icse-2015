@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>392304</D:version-name>
+<D:comment>DERBY-1184: registerOutParameter(int,int,String) should throw exception
+
+Patch contributed by Kristian Waagan (Kristian.Waagan@Sun.com)
+
+The method 'CallableStatement.registerOutParameter(int,int,String)'
+does nothing in the client driver. As stated in DERBY-447, the method throws
+a not-implemented exception in the embedded driver. The method should be
+changed to do this on the client side as well.
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2006-04-07T14:32:48.835344Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>219980</D:version-name>
+<D:comment>Merge trunk change 209498 to 10.1 branch.
+
+DERBY-406 - Sets the username to start with the default value ("APP")
+DERBY-410 - Sets the server name to start with the default value ("localhost")
+DERBY-409 - Adds a semi-colon in the connection class to avoid databasenames like myDBcreate=true resulting from no dividing semi-colon.
+
+Submitted by Satheesh Bandaram (satheesh@sourcery.org)
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2005-07-21T01:52:49.759908Z</S:date>
+</S:log-item>
+</S:log-report>

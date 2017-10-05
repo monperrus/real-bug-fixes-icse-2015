@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>152681</D:version-name>
+<D:comment>Add more tests and test support for network
+client.  There is no change to the actual function of the tests but
+direct references to the IBM Driver have been taken out of the tests
+themselves.  With this patch, there are methods in TestUtil which will
+perform the desired action based on the framework.
+
+public static void loadDriver() throws Exception
+public static String getJdbcUrlPrefix()
+public static javax.sql.DataSource getDataSource(Properties attrs)
+public static javax.sql.XADataSource getXADatasource(Properties attrs)
+public static javax.sql.ConnectionPoolDataSource
+getConnectionPoolDataSource(Properties attrs)
+
+This change also adds a new property to RunTest to determine whether the
+test will start newtork server.
+
+startServer={true|false}
+
+Defaults to true for DerbyNet and DerbyNetClient. Not relevant for the
+embedded framework.
+
+This property is useful for tests which require the framework in order
+to load the right driver but start their own server.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-02-08T18:04:07.624526Z</S:date>
+</S:log-item>
+</S:log-report>

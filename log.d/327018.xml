@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>327018</D:version-name>
+<D:comment>DERBY-375 - Specification of incomplete server properties on command line causes NPE with NetworkServerControl when starting the server.
+merge from trunk
+DERBY-613 - Change default tracing location to derby.system.home
+
+svn merge -r 321273:321274 https://svn.apache.org/repos/asf/db/derby/code/trunk
+svn merge -r 326288:326289 https://svn.apache.org/repos/asf/db/derby/code/trunk
+
+Contributed by Deepa Remesh
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-10-20T22:39:09.682932Z</S:date>
+</S:log-item>
+</S:log-report>

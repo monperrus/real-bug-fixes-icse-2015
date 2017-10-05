@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>409438</D:version-name>
+<D:comment>DERBY-1325 Isolation level of local connection does not get reset after exiting a global transaction if the isolation level was changed using SQL
+
+Committing patch 'derby-1325-10.1.diff' which ports this fix to 10.1 branch.
+
+Contributed by Deepa Remesh
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-05-25T19:22:20.500889Z</S:date>
+</S:log-item>
+</S:log-report>

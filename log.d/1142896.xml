@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1142896</D:version-name>
+<D:comment>DERBY-5090: Retrieving BLOB fields sometimes fails
+
+Make Derby close open streams obtained from the result set when the next
+get-call is invoked (as dictated by JDBC standard). This was done for some
+streams, but not all. What happened was also different for the client and the
+embedded driver.
+Added CloseFilterInputStream (modeled after existing class in the client).
+Removed NewByteArrayInputStream, used Java API class instead.
+
+Patch file: derby-5090-1b-fix.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-07-05T05:58:13.637773Z</S:date>
+</S:log-item>
+</S:log-report>

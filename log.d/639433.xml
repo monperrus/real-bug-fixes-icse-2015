@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>639433</D:version-name>
+<D:comment>DERBY-3544 If the network server fails to shutdown in NetworkServerTestSetup.teardown() then destory the process if it was run as a spearate jvm. Otherwise a chance of a hang existed when the executing the wait for on the process object.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2008-03-20T19:58:36.420276Z</S:date>
+</S:log-item>
+</S:log-report>

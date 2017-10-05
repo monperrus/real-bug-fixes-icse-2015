@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1215365</D:version-name>
+<D:comment>DERBY-5533 Client differs from embedded when rs.updateInt overflows: 22015 vs 22003
+
+Patch derby-5533b. Changes the client driver to throw SQL state 22003
+as does the embedded driver.  Also adds tests for over- and underflow
+conditions with ResultSet#updateXXX and ResultSet#getXXX, which were
+seen to be lacking in our coverage.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-12-17T00:24:38.814733Z</S:date>
+</S:log-item>
+</S:log-report>

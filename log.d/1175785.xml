@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1175785</D:version-name>
+<D:comment>DERBY-5406: Intermittent failures in CompressTableTest and TruncateTableTest
+
+Detect if a statement is invalidated while it is being recompiled and
+retry the compilation.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-09-26T10:53:11.459042Z</S:date>
+</S:log-item>
+</S:log-report>

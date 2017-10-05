@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>798700</D:version-name>
+<D:comment>DERBY-4175 Instability in some replication tests under load, since tests don't wait long enough for final state or anticipate intermediate states
+
+Backported fix to 10.5 branch as 
+
+svn merge -c 769602  https://svn.eu.apache.org/repos/asf/db/derby/code/trunk
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-07-28T20:27:54.770398Z</S:date>
+</S:log-item>
+</S:log-report>

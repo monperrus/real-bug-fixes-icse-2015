@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1127636</D:version-name>
+<D:comment>fix potential stack overflow during compaction
+patch by Shotaro Kamio and jbellis; reviewed by mdennis for CASSANDRA-2626</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2011-05-25T19:09:38.425015Z</S:date>
+</S:log-item>
+</S:log-report>

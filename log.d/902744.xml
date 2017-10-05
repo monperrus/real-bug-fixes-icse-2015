@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>902744</D:version-name>
+<D:comment>modify removetoken to remove node from gossip. remove fat clients automatically after 1h of inactivity. patch by jaakko, reviewed by jbellis. CASSANDRA-644</D:comment>
+<D:creator-displayname>jaakko</D:creator-displayname>
+<S:date>2010-01-25T09:26:01.722836Z</S:date>
+</S:log-item>
+</S:log-report>

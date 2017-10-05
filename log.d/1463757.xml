@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1463757</D:version-name>
+<D:comment>DERBY-6138 org.apache.derbyTesting.functionTests.tests.store.ClassLoaderBootTest fails with sealing violation: package org.apache.derby.iapi.services.sanity is sealed depending on classpath order
+
+Correct import to use shared SanityManager
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2013-04-02T21:15:37.194346Z</S:date>
+</S:log-item>
+</S:log-report>

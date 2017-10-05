@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>831319</D:version-name>
+<D:comment>DERBY-4425: NPE with INSERT .. SELECT .. UNION and generated expressions
+
+This patch adds a test which confirms that DERBY-4425 is fixed. The code
+change which resolved DERBY-4425 was performed as part of fixing DERBY-4419,
+since the same code change fixes both symptoms, so this is a test-only patch.
+
+subversion revision 831304 contains the DERBY-4419 code change.
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2009-10-30T15:08:10.959511Z</S:date>
+</S:log-item>
+</S:log-report>

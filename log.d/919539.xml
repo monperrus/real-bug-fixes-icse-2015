@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>919539</D:version-name>
+<D:comment>Adding a few useful cases where throwing IndexException with the new constructor leads to easier debugging.  This should be expanded to all uses of this exception, IMO.
+</D:comment>
+<D:creator-displayname>jmannix</D:creator-displayname>
+<S:date>2010-03-05T18:51:28.519259Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>966039</D:version-name>
+<D:comment>DERBY-4735 prepare of an XA read only transaction with a declared global temporary table gets and ASSERT in SANE mode.
+
+Fixing test case in the junit XATtest.java test.  Changed it to not try and
+do an xa commit after preparing a read only transaction.  The test case still
+gives an ASSERT, and in my run caused a subsequent error in the testDerby966
+test, which I assume came from bad error processing of the ASSERT.
+
+To enable test just remove the x from "public void xtestXATempTableD4735_Assert()"
+
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2010-07-20T22:28:19.367237Z</S:date>
+</S:log-item>
+</S:log-report>

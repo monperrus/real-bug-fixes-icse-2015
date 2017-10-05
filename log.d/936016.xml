@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>936016</D:version-name>
+<D:comment>replace isOnSameRack and isInSameDataCenter with getRack and getDatacenter (replacing getLocation).  patch by Erick Tryzelaar; reviewed by jbellis for CASSANDRA-994</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-04-20T18:01:09.251612Z</S:date>
+</S:log-item>
+</S:log-report>

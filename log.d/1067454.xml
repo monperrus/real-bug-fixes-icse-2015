@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1067454</D:version-name>
+<D:comment>DERBY-4052: SQLChar.copyState() doesn't copy localeFinder
+
+Patch contributed by Yun Lee &lt;yun.lee.bj@gmail.com&gt;. 
+
+backported change (#961892) from trunk to 10.6 codeline.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2011-02-05T15:07:21.834867Z</S:date>
+</S:log-item>
+</S:log-report>

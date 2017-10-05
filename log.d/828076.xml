@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>828076</D:version-name>
+<D:comment>ignore hidden files in commitlog directory (useful for users on OS X, which likes to add files like ".DS_Store").  patch by gdusbabek; reviewed by jbellis for CASSANDRA-503</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-10-21T16:09:08.002989Z</S:date>
+</S:log-item>
+</S:log-report>

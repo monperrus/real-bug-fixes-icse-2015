@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>150980</D:version-name>
+<D:comment>Didn't actually log what major changes were introduced in previous version:
+Distinction between term modifiers and group modifiers.
+Support for non-field specific searching.
+Fixed bug in trim (word boundaries don't apply to characters like + and -).
+Added feature of disabling grouping via NO_MODIFIER.
+Refactorings here and there.
+</D:comment>
+<D:creator-displayname>kelvint</D:creator-displayname>
+<S:date>2004-05-17T13:28:11.000000Z</S:date>
+</S:log-item>
+</S:log-report>

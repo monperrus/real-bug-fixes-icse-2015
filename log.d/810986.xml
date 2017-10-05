@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>810986</D:version-name>
+<D:comment>Always generate sstable generation numbers by atomic increment instead of leaving 'holes' that compaction uses.  Sometimes, bucketing is not perfect and the holes method will overwrite one of the being-compacted files.  Since #223 it has not been important to keep compacted files lower in generation number than newly created ones so this is both simpler and more correct.  Patch by Sammy Yu; reviewed by jbellis for CASSANDRA-418</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-09-03T15:11:06.237656Z</S:date>
+</S:log-item>
+</S:log-report>

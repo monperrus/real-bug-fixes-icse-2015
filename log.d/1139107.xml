@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1139107</D:version-name>
+<D:comment>DERBY-5284 A derby crash at exactly right time during a btree split can cause a
+corrupt db which can not be booted.
+
+backport fix #1139085 from 10.4 branch to 10.2 branch. clean merge by doing
+merge of the 10.4 conflict resolved change.
+
+Fixed a problem during BTREE split.  The first phase of btree split sees
+if it can reclaim space from committed deleted rows.  If it finds any
+it purges these rows in a nested internal transaction.  It needs to hold
+the latch on the page until end of transaction, but did not.  This allowed
+a very small window of a few instructions where another insert could use
+the space on the page and then a system crash could cause the purges to undo
+but fail due to the insert.
+
+The fix was to hold the latch and let commit release it.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2011-06-23T22:43:44.068308Z</S:date>
+</S:log-item>
+</S:log-report>

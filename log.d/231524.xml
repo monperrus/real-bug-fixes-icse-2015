@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>231524</D:version-name>
+<D:comment>Quick patch submitted based on Kristian Waagan's feedback.  I did not feel
+a JIRA id was necessary for this fix.
+
+From Kristian:
+
+Today I was setting up the environment to be able to build Derby on a
+new machine. I quickly browsed through the BUILDING.txt file, and by
+mistake I set both 'j13lib' and 'j14lib' to 'JDK1?_HOME/lib' instead of
+'JDK1?_HOME/jre/lib'. After a short moment of temporary confusion, I
+realized why I did the mistake. In the section that describes what kind
+of slashes to use in path names on Windows, the example value for
+'j13lib' is 'c:/jdk1.3.1_15/lib'. This section comes in front of the
+sections that actually describe what the values should be.
+
+Although this is a tiny, tiny "improvement", I suggest setting the
+example value to 'c:/jdk1.3.1_15/jre/lib' to avoid unnecessary errors
+caused by not reading the documentation carefully
+</D:comment>
+<D:creator-displayname>davidvc</D:creator-displayname>
+<S:date>2005-08-11T21:31:41.266485Z</S:date>
+</S:log-item>
+</S:log-report>

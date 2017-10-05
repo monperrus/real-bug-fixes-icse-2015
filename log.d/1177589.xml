@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1177589</D:version-name>
+<D:comment>DERBY-5438: Empty MAPS table in toursdb
+
+- Let insertMaps.main() throw exceptions instead of just printing them
+  to make errors stop the build
+
+- Change URL in insertMaps to match the URL in build.xml
+
+- Change directory for the process running insertMaps so that it finds
+  the gif files</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-09-30T10:56:15.718615Z</S:date>
+</S:log-item>
+</S:log-report>

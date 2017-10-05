@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>785131</D:version-name>
+<D:comment>DERBY-4246 .replicationTests.ReplicationRun_Local_3_p5).testReplication_Local_3_p5_DERBY_3878()' fails w/ "Could not perform operation 'stopSlave' because the database '...' has not been booted
+
+Patch derby-4246-2 adds extra logic to the stop slave action after the
+master is killed. This logic anticipates the slave's state changes
+before its down. This logic was also present in
+ReplicationRun_Local_StateTest_part1_1, so this patch factors this out
+into a new method to stopSlave in ReplicationRun.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-06-16T09:50:21.292164Z</S:date>
+</S:log-item>
+</S:log-report>

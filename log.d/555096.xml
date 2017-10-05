@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>555096</D:version-name>
+<D:comment>DERBY-2351: Certain ORDER BY clauses should be rejected as invalid
+
+This change modifies the ORDER BY clause so that it rejects certain
+queries as invalid: specifically, queries which:
+a) specify the set quantifier DISTINCT,
+b) and also contain an ORDER BY clause which refers to a column
+or expression which is not in the query result.
+
+The problem with such queries is that we are told to return only
+a single instance of the DISTINCT columns, but since the ORDER BY
+clause refers to columns which are not in the DISTINCT set, if there
+should be multiple candidate rows from which we choose the DISTINCT
+result, we don't know which of those rows to use for the ORDER BY
+processing.
+
+When the DISTINCT and ORDER BY clauses are in conflict, Derby should
+reject the query. This change modifies Derby to do so.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2007-07-10T22:06:02.695913Z</S:date>
+</S:log-item>
+</S:log-report>

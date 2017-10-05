@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>548822</D:version-name>
+<D:comment>DERBY-2809 (cleanup) Rename bind method to bindOperand() in UnaryOperatorNode since that correctly
+reflects its role. Change sub-classes to call the node correctly. Move some of the logic from
+UnaryOperatorNode.bindOperator() to the actual sub-classes where it logically lives.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-06-19T18:46:35.242900Z</S:date>
+</S:log-item>
+</S:log-report>

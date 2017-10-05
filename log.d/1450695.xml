@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1450695</D:version-name>
+<D:comment>DERBY-6017: IN lists with mixed types may return wrong results
+
+Make the test check numeric values rather than the string
+representation of the values. This should make the test less likely
+to fail if the string representation of floating point numbers is
+different on a platform.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-02-27T09:45:32.176663Z</S:date>
+</S:log-item>
+</S:log-report>

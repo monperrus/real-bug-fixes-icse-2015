@@ -1,3 +1,23 @@
+language: python
+
 script:
-  - python analyze-lists.py
-  - ./cassandra-dl-svn.sh
+  - echo ========= number of referred JIRA
+  - cat *orig.txt | egrep -o "(ARIES|MAHOUT|DERBY|CASSANDRA|LUCENE)-[0-9]+" | sort -u | wc -l
+  - echo ========= creating shell files for downloading
+  - python 01-create-shell-files-for-download.py
+  - mkdir -p svn.d
+  - mkdir -p jira.d  
+  - mkdir -p target  
+  - # bash aries-dl-svn.sh
+  - # bash cassandra-dl-svn.sh
+  - # bash derby-dl-svn.sh
+  - # bash lucene-dl-svn.sh
+  - # bash mahout-dl-svn.sh
+  - # bash aries-dl-jira.sh  
+  - # bash cassandra-dl-jira.sh	
+  - # bash derby-dl-jira.sh  
+  - # bash lucene-dl-jira.sh  
+  - # bash mahout-dl-jira.sh
+  - echo ========= creating final json file
+  - python 02-create-dataset.py
+

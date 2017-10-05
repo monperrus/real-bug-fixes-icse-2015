@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1449199</D:version-name>
+<D:comment>Add dynamic imports to sharing policy when Import-Package absent.
+
+Fixes an issue where dynamic package imports added to a woven class were not added to a subsystem's sharing policy
+if the subsystem had no Import-Package header, resulting in a NoClassDefFoundError.</D:comment>
+<D:creator-displayname>jwross</D:creator-displayname>
+<S:date>2013-02-22T20:25:40.396837Z</S:date>
+</S:log-item>
+</S:log-report>

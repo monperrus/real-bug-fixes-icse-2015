@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>796020</D:version-name>
+<D:comment>DERBY-4312 SQLException XJ215 on insert with setCharacterStream() and autocommit off in mailjdbc test
+
+DERBY-4224 Commit after setAsciiStream() makes execution fail with the client driver
+
+Use of a stream after performing commit was  incorrectly causing an exception.  Also fixes setBinaryStream();
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2009-07-20T21:26:04.815111Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>439128</D:version-name>
+<D:comment>DERBY-1783 (opening of file even on jvms with support for "rwd" mode incorrectly maps to "rw" mode). 
+
+Patch that fixes the logical code error by adding parentheses around the OR clause. In addition one minor fix to the javadoc for the method is done.
+
+Patch Contributed by Olav Sandstaa.
+
+</D:comment>
+<D:creator-displayname>suresht</D:creator-displayname>
+<S:date>2006-09-01T01:19:50.465457Z</S:date>
+</S:log-item>
+</S:log-report>

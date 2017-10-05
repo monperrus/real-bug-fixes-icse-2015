@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>634831</D:version-name>
+<D:comment>LUCENE-1208: if exception is hit after marking flushPending but before flushing, clear flushPending to prevent deadlock</D:comment>
+<D:creator-displayname>mikemccand</D:creator-displayname>
+<S:date>2008-03-07T21:47:15.061573Z</S:date>
+</S:log-item>
+</S:log-report>

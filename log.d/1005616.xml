@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1005616</D:version-name>
+<D:comment>clean up NTS and remove DSS-&gt;NTS migration since replicas chosen may be different (see #1103).  patch by jbellis; reviewed by Stu Hood for CASSANDRA-1593</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-10-07T20:32:52.414905Z</S:date>
+</S:log-item>
+</S:log-report>

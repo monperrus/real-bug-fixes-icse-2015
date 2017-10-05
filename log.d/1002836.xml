@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1002836</D:version-name>
+<D:comment>MAHOUT-513:
+- replaced RunningSumsGaussianAccumulator with OnlineGaussianAccumulator in CDbwEvaluator
+- updated unit tests to new metric values
+- added a test to ignore empty lines in synthetic control input mappers</D:comment>
+<D:creator-displayname>jeastman</D:creator-displayname>
+<S:date>2010-09-29T20:27:46.694106Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>734585</D:version-name>
+<D:comment>DERBY-4006: ALTER COLUMN .. WITH DEFAULT NULL does not change the default
+
+Merged the trunk revision 733401 to the 10.4 branch. Modified the change
+by removing the tests for generated columns, which are not present in 10.4.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2009-01-15T00:38:33.931308Z</S:date>
+</S:log-item>
+</S:log-report>

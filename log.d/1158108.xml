@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1158108</D:version-name>
+<D:comment>DERBY-5271: Client may hang if the server crashes due to a java.lang.Error
+
+Tries to ensure that if the network server crashes due to a condition
+raising java.lang.Error, the client socket will be closed on the server
+side. Note that even if one of the worker threads crashes, the network
+server itself may remain operational. If the JVM process dies, the
+sockets will be closed anyway.
+
+Patch file: derby-5271-1a-inital_fix_proposal.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-08-16T05:46:48.129058Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1308434</D:version-name>
+<D:comment>DERBY-5677: ClassNotFoundException when running suites.All without derbynet.jar
+
+Exclude tests that cannot run without derbynet.jar if the network server
+classes are not available on the classpath.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-04-02T17:22:47.180489Z</S:date>
+</S:log-item>
+</S:log-report>

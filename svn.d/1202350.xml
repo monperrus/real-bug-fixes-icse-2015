@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1202350"/>
+<S:open-directory rev="1202349">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1202350/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1202350</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-15T18:16:00.019618Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="aries" rev="1202349">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1202350/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1202350</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-15T18:16:00.019618Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="1202349">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1202350/aries/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1202350</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-15T18:16:00.019618Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="quiesce" rev="1202349">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1202350/aries/trunk/quiesce</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1202350</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-15T18:16:00.019618Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml" rev="1202349">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1202350/aries/trunk/quiesce/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1202350</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-15T18:16:00.019618Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="00c59dda4b9476c761bcd3772b342f4d" sha1-checksum="f1f5c70e466af609c9c495fdf8c3df4439740b66"/>
+<S:prop><V:md5-checksum>6fe29a3615c5cccbc67b8bb79e9f540c</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="application" rev="1202349">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1202350/aries/trunk/application</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1202350</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-15T18:16:00.019618Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="application-modeller" rev="1202349">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1202350/aries/trunk/application/application-modeller</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1202350</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-15T18:16:00.019618Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml" rev="1202349">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1202350/aries/trunk/application/application-modeller/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1202350</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-11-15T18:16:00.019618Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e373a95515ca02e25ff1c2ad06c501ed" sha1-checksum="36d82a633ae07a3e0bd444e26b8734b9407b63c2"/>
+<S:prop><V:md5-checksum>c98d7a42e617abff2208c5b8f8ae9203</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

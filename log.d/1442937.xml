@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1442937</D:version-name>
+<D:comment>DERBY-4480: "No suitable driver found" when attempting to connect while other thread is auto-loading the driver
+
+Add test case to verify that it does not affect Java 7 and newer.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-02-06T12:49:38.293343Z</S:date>
+</S:log-item>
+</S:log-report>

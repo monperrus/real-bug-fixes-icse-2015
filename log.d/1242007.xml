@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1242007</D:version-name>
+<D:comment>DERBY-3823 NullPointerException in stress.multi test
+
+backported changes #1183192 and #1182570 from trunk to 10.8
+
+This patch fixes a race condition in
+EmbedPreparedStatement#getMetaData: if we are trying to retrieve the
+metadata for a prepared statement while it is being recompiled there
+is a time window during which the activation class is null. The
+existing code could therefore cause an NPE. The new code plugs the
+race condition. This NPE led to intermittent errors in
+stressTestMulti. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2012-02-08T17:44:09.300934Z</S:date>
+</S:log-item>
+</S:log-report>

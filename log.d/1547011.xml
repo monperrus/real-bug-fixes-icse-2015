@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1547011</D:version-name>
+<D:comment>SOLR-5520: Backports of:
+- SOLR-4881 (Fix DocumentAnalysisRequestHandler to correctly use EmptyEntityResolver to prevent loading of external entities like UpdateRequestHandler does)
+- SOLR-3895 (XML and XSLT UpdateRequestHandler should not try to resolve external entities)
+- SOLR-3614 (Fix XML parsing in XPathEntityProcessor to correctly expand named entities, but ignore external entities)
+</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2013-12-02T13:13:11.347273Z</S:date>
+</S:log-item>
+</S:log-report>

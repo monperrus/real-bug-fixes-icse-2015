@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>469410</D:version-name>
+<D:comment>DERBY-1991: Misleading stack traces for exceptions raised by the JDBC
+4.0 embedded driver
+
+Don't set the stack trace of the SQLException to the stack trace of
+the dummy exception in SQLExceptionFactory40.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-10-31T08:28:26.740899Z</S:date>
+</S:log-item>
+</S:log-report>

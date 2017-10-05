@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>391369</D:version-name>
+<D:comment>DERBY-1144 With client PooledConnection.getConnection() does not reset holdability and isolation state properly
+
+
+This patch addresses this issue by changing PooledConnection.getConnection() to reset the connection to the datasource defaults.
+
+Code changes:
+Just a small code change in ClientPooledConnection to pass true to the reset method to reset the defaults.
+
+This change has the side effect of making DERBY- 1173 harder to reproduce. But I don't think it fixes that bug. With the change, the checkDataSource test hangs only very intermittently. The fixer of that bug will have to go back to a previous version to get a easily reproducable case.
+
+
+Tests -
+Changed the checkDataSource30.java test to test holdability,isolation, and autocommit reset.
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-04-04T17:17:34.268692Z</S:date>
+</S:log-item>
+</S:log-report>

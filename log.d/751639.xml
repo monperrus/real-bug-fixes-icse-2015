@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>751639</D:version-name>
+<D:comment>DERBY-4060: Blob.getBinaryStream(long,long) is off by one for the pos+len check.
+Backported doc fix from trunk (revision 751637).
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-03-09T09:52:11.869786Z</S:date>
+</S:log-item>
+</S:log-report>

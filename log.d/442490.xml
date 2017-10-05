@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>442490</D:version-name>
+<D:comment>DERBY-803: derbynet/DerbyNetAutoStart.java test fails intermittently
+with org.apache.derby.iapi.services.context.ShutdownException
+
+Let the test wait between closing client connections and shutting down
+the engine. This way, the server threads get time to close the
+connections cleanly before the engine is taken down.
+
+Patch contributed by Fernanda Pizzorno.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-09-12T06:55:44.884974Z</S:date>
+</S:log-item>
+</S:log-report>

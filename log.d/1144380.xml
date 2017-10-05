@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1144380</D:version-name>
+<D:comment>fix possibility of spuriousUnavailableException for LOCAL_QUORUM reads with dynamic snitch and read repair disabled
+patch by jbellis; reviewed by slebresne for CASSANDRA-2870</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2011-07-08T16:37:37.018678Z</S:date>
+</S:log-item>
+</S:log-report>

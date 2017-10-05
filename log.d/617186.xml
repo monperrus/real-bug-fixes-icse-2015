@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>617186</D:version-name>
+<D:comment>DERBY-3365 Network Server stores a duplicate entry in the lob hash map for every lob
+
+Change network server to use existing lob hash map entry instead of creating a second entry.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-01-31T18:48:30.999824Z</S:date>
+</S:log-item>
+</S:log-report>

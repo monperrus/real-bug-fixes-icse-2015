@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1364069</D:version-name>
+<D:comment>fix bugs in DirectPF's lowFreq d-and-p-enum, set payload.bytes/offset/length in getPayload, also skip payload pointer correctly when scanning over deleted docs in nextDoc</D:comment>
+<D:creator-displayname>rmuir</D:creator-displayname>
+<S:date>2012-07-21T12:12:37.561968Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>824694</D:version-name>
+<D:comment>DERBY-4391: NullPointerException when comparing indexed column with result from a set operation
+
+Prevent PredicateList.markReferencedColumns() from walking down to the
+source of a ColumnReference if it is null.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-10-13T11:14:29.652554Z</S:date>
+</S:log-item>
+</S:log-report>

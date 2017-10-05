@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>345304</D:version-name>
+<D:comment>DERBY-280: Prevent multiple columns from having same result column name in select-list, if it has a group by/having clause also. Current Derby rewrite of these queries could lead to wrong results.
+
+Submitted by Rick Hillegas (Richard.Hillegas@Sun.COM)
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2005-11-17T18:55:30.272548Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1132546</D:version-name>
+<D:comment>DERBY-3870: Concurrent Inserts of rows with XML data results in an exception
+
+Allow databases that contain triggers with XML operators to be
+upgraded from a version without the fix for this issue to a fixed
+version. It used to fail because it couldn't deserialize the old plan
+for the trigger. Fix it by not trying to deserialize the plan before
+invalidating it.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-06-06T08:31:51.806351Z</S:date>
+</S:log-item>
+</S:log-report>

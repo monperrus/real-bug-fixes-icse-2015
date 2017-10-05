@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1539074</D:version-name>
+<D:comment>DERBY-6383(Update trigger defined on one column fires on update of other columns)
+
+Backporting following 2 revisions from trunk to 10.10. Had to hand do the changes because of conflicts during svn merge.
+1537593, 1538854 
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-11-05T17:23:59.763832Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>529417</D:version-name>
+<D:comment>Fixed Junit failure due to recent change in QueryParser default behaviour. Needed to explicitly require old style of RangeQuery implementation rather than new default of RangeFilters</D:comment>
+<D:creator-displayname>mharwood</D:creator-displayname>
+<S:date>2007-04-16T22:04:07.174154Z</S:date>
+</S:log-item>
+</S:log-report>

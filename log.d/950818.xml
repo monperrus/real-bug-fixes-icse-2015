@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>950818</D:version-name>
+<D:comment>DERBY-4667 BootLockTest.testBootLock() sometimes fails with connection refused.
+
+Move the vm logic for Derby151Test outside of the fixture so network server won't start if no tests are run.  This may not correct the problem and even if it does may be a fragile fix, but it giving it a try to see if the prior test Derby151Test is interfering if no fixtures are run but network server is stopped and started.
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2010-06-02T23:24:15.324259Z</S:date>
+</S:log-item>
+</S:log-report>

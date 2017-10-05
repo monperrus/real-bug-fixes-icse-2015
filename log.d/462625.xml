@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>462625</D:version-name>
+<D:comment>DERBY-1785
+contributed by Myrna van Lunteren
+patch: DERBY-1785_102_20061007.diff
+
+I've decided to do the same thing as for the trunk for the foundation setup; 
+but do a crude skip for all junit tests when run through 
+the harness against the other j9 versions. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-10-10T22:52:31.608264Z</S:date>
+</S:log-item>
+</S:log-report>

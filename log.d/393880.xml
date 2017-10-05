@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>393880</D:version-name>
+<D:comment>DERBY-438 (partial) Consistwnt handling of binary streams for updateXXX, namely check
+the length correctly if it is greater than the 2Gb supported by Derby. Add some comments
+to SQLBinary to clarify the format. Save the length when reading a binary stream from the
+store into an application, will be used in a subsequent checkin. Ensure eof handling
+when reading the binary value length in the on-disk format is handled correctly.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-04-13T18:21:48.799619Z</S:date>
+</S:log-item>
+</S:log-report>

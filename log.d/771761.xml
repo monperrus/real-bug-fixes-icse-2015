@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>771761</D:version-name>
+<D:comment>use `block` flag instead of separate _blocking methods.  throw exception on error instead of returning bool for success.  patch by jbellis; reviewed by Eric Evans for CASSANDRA-131</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-05-05T14:54:05.758868Z</S:date>
+</S:log-item>
+</S:log-report>

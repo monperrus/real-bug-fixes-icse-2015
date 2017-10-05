@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>397959</D:version-name>
+<D:comment>DERBY-1258 Change the generated code for a new/old column in a row trigger to access columns
+by position and not name to avoid the case-insensitive name lookup specified by JDBC.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-04-28T17:25:02.540529Z</S:date>
+</S:log-item>
+</S:log-report>

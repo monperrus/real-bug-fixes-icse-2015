@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1334313</D:version-name>
+<D:comment>DERBY-5686: multiple intermittent errors in nightly tests during DriverMgrAuthenticationTest test. reason: An SQL data change is not permitted for a read-only connection, user or database.
+
+Make assertDirectoryDeleted accept if the root directory disappears under it
+even if it couldn't delete all the files inside. The prime example is when
+db.lck is the only file that can't be deleted. The reason is that Derby hasn't
+shut down before the deletion of the database directory starts. Depending on
+timing, assertDirectoryDeleted may be able to delete all files (including the
+root directory) except the lock file, and the lock file is deleted by Derby
+itself.
+
+This patch doesn't fix this JIRA issue, it's a general improvement to the
+deletion logic only.
+
+Patch file: DERBY-5686_3.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2012-05-05T04:22:01.734271Z</S:date>
+</S:log-item>
+</S:log-report>

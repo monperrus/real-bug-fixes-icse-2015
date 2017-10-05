@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>219207</D:version-name>
+<D:comment>Fix for DERBY-437.
+
+Currently for compress procedure to work incase of case-sensitive table name, 
+schema names, they  needs to be passed in quotes like 
+(  call SYSCS_UTIL.SYSCS_COMPRESS_TABLE('APP' , '"Order"'  ,1). 
+This behaviour is not consitent with other procedures and the docs.
+This patch makes compress procedure  parameters  for table names,
+schema name should be passed in the case-sensitive form
+if they are quoted identfiers and in upper case if they are not quoted SQL 
+identifiers, similar to other system procedures.  Compress procedure
+generates   ALTER COMPRESS  statement.with quoted table name and  schema name.
+
+Committed on behalf of: Suresh Thalamati
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2005-07-15T15:25:33.297633Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>788691</D:version-name>
+<D:comment>DERBY-4287 call to System.getProperty in BCClass.java is not wrapped in a priv block so may fail when running under SecurityManager
+
+Also wrapped creation of FileOutputStream
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2009-06-26T13:21:50.593677Z</S:date>
+</S:log-item>
+</S:log-report>

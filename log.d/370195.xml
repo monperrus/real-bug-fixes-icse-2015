@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>370195</D:version-name>
+<D:comment>Fix for DERBY-810, contributed by Oystein Grovlen
+
+Removes spurious diffs for RecoveryAfterBackup test by testing for shutdown
+SQL State rather than printing a stack trace.
+</D:comment>
+<D:creator-displayname>davidvc</D:creator-displayname>
+<S:date>2006-01-18T17:25:09.605193Z</S:date>
+</S:log-item>
+</S:log-report>

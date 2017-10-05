@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>898973</D:version-name>
+<D:comment>assumption that all single-threaded executors have an unbounded queue is no longer valid. provide a policy for dealing with single thread executors w/ a full queue.  patch by jbellis; tested by Ryan Daum for CASSANDRA-694</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-01-13T22:23:44.087693Z</S:date>
+</S:log-item>
+</S:log-report>

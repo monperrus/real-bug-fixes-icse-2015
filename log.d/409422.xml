@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>409422</D:version-name>
+<D:comment>DERBY-438 Support statement triggers for BLOB and CLOB types. Change the trigger
+virtual tables to implement PreparedStatement instead of ResultSet. This allows
+the mechanism to use the java.sql.ResultSet generated from the language internal
+ResultSet directly, rather than through a wrapper. The wrapper approach caused
+issues when the wrapper's JDBC version does not match the version running in the
+engine. BLOB/CLOB caused problems with statement triggers as the wrapper
+only supported JDBC 1.2. Add tests for BLOB (will add CLOB in subsequent patch),
+also add upgrade tests across release boundaries to ensure trigger modifications
+in 10.2 do not break in soft upgrade mode.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-05-25T18:23:57.360714Z</S:date>
+</S:log-item>
+</S:log-report>

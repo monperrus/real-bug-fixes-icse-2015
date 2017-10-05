@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>430467</D:version-name>
+<D:comment>DERBY-1660, submitted by Sunitha Kambhampati
+
+This patch fixes the sql query used in the SYSCS_BULK_INSERT procedure to 
+correctly use the optimizer hints using --DERBY-PROPERTIES clause instead of 
+PROPERTIES.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-08-10T18:11:46.530219Z</S:date>
+</S:log-item>
+</S:log-report>

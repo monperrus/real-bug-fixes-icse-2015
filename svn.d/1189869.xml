@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1189869"/>
+<S:open-directory rev="1189868">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1189869/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1189869</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-10-27T16:56:29.220223Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra" rev="1189868">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1189869/cassandra</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1189869</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-10-27T16:56:29.220223Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="branches" rev="1189868">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1189869/cassandra/branches</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1189869</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-10-27T16:56:29.220223Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra-1.0" rev="1189868">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1189869/cassandra/branches/cassandra-1.0</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1189869</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-10-27T16:56:29.220223Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="bin" rev="1189868">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1189869/cassandra/branches/cassandra-1.0/bin</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1189869</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-10-27T16:56:29.220223Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="daemon" rev="1189869"/>
+</S:open-directory>
+<S:open-file name="README.txt" rev="1189868">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1189869/cassandra/branches/cassandra-1.0/README.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1189869</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-10-27T16:56:29.220223Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="d974b84e2ec8602b221ce4f1dbf6c422" sha1-checksum="cb4446526c5f86e41e74558780e8e9207044c71f"/>
+<S:prop><V:md5-checksum>763c25de48afdf6590b79a4f830fbd98</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="CHANGES.txt" rev="1189868">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1189869/cassandra/branches/cassandra-1.0/CHANGES.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1189869</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-10-27T16:56:29.220223Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f1c253f439c310b5f231dee56972a3a7" sha1-checksum="b41c3556d4492a4bacbff00b6b1ff485f46e82dd"/>
+<S:prop><V:md5-checksum>b6e9ae93f6785fe344a3b4d1672865a0</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="build.xml" rev="1189868">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1189869/cassandra/branches/cassandra-1.0/build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1189869</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-10-27T16:56:29.220223Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="42730b89b7c8a144e642caff022dc39a" sha1-checksum="78ff1fca2cf7afb8cff6e7083823f1a4bfe58e71"/>
+<S:prop><V:md5-checksum>674315c543d4ea54cd4b2bde8417639f</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

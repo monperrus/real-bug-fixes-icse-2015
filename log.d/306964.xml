@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>306964</D:version-name>
+<D:comment>DERBY-504
+SELECT DISTINCT returns duplicates when selecting from subselects
+Merged from trunk with
+svn merge -r 267238:267239 https://svn.apache.org/repos/asf/db/derby/code/trunk
+
+Contributed by Knut Anders Hatlen
+
+I (Kathey) also ran j9 tests and  updated the j9 masters for changes due to DERBY-392
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-10-06T23:52:27.135622Z</S:date>
+</S:log-item>
+</S:log-report>

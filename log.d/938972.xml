@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>938972</D:version-name>
+<D:comment>DERBY-4531: Client setCharacterStream closes its Reader argument stream in finalizer
+
+Added a work-around for the issue where the SQLState differs depending on
+whether the finalizer has been run or not.
+Can be removed when DERBY-4531 has been fixed properly.
+
+Patch file: derby-4531-1a-test_workaround.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-04-28T12:45:21.930915Z</S:date>
+</S:log-item>
+</S:log-report>

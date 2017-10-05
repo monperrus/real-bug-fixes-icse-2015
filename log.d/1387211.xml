@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1387211</D:version-name>
+<D:comment>DERBY-5663 (Getting NPE when trying to set derby.language.logStatementText property to true inside a junit suite.)
+
+Backporting changes(without the test changes) into 10.5.3.2. The test changed(largedata/LobLimitsTest.java) does not exist in 10.7 and earlier releases 
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2012-09-18T15:03:33.180708Z</S:date>
+</S:log-item>
+</S:log-report>

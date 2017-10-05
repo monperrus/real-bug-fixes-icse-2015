@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>634206</D:version-name>
+<D:comment>DERBY-3427: setting transaction isolation level to read committed raise ERROR X0X03: Invalid transaction state - held cursor requires same isolation level
+
+Made the network server use the requested holdability when preparing calls.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2008-03-06T10:00:35.404518Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>759155</D:version-name>
+<D:comment>DERBY-4122: ClassCastException in SQLClob when running in soft upgrade mode (10.4.2.0 -&gt; 10.5.1.0).
+Fixed typo/error in the test, where two different selects were performed
+against the same table. The test was introduced in DERBY-1895.
+
+Patch file: derby-4122-2a-bc4btest.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-03-27T14:40:47.283764Z</S:date>
+</S:log-item>
+</S:log-report>

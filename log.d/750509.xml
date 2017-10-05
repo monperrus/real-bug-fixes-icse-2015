@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>750509</D:version-name>
+<D:comment>DERBY-4050 Multithreaded clob update causes growth in table that does not get reclaimed
+
+Fix test so we don't get 
+ClobReclamationTest:embeddedjunit.framework.AssertionFailedError: shutdown engine not implemened
+on J2ME on 10.3
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2009-03-05T16:49:58.483546Z</S:date>
+</S:log-item>
+</S:log-report>

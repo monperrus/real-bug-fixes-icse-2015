@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>745571</D:version-name>
+<D:comment>DERBY-4040: SQLChar.getLength returns wrong length for some data values.
+Backported from trunk. Changes equal revision 742357, but since the
+method InputStreamUtil.skipFully doesn't exist on the 10.4 branch, I chose
+to simply use InputStream.skip instead.
+
+Patch file: derby-4040-2a-backport.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-02-18T16:59:25.156881Z</S:date>
+</S:log-item>
+</S:log-report>

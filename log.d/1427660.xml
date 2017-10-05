@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1427660</D:version-name>
+<D:comment>DERBY-5988 Instability in DataSourceTest: some test fixture orderings makes test_jdbc4_1 fail 
+
+Patch derby-5988: temporary measure to avoid tests failing
+intermittently.  Could be removed when the issue is fixed, but IMHO
+running fixtures in in a predicatable order is good anyway.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2013-01-02T05:44:25.709187Z</S:date>
+</S:log-item>
+</S:log-report>

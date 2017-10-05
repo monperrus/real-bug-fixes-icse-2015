@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1030630</D:version-name>
+<D:comment>DERBY-4741 Make Derby work reliably in the presence of thread interrupts
+
+Patch derby-4741-a-04-api-interruptstatus. This patch contains the new
+helper class InterruptStatus and inserts calls to
+restoreIntrFlagIfSeen in before API methods' return and in the
+exception handling (TransactionResourceImpl#handleException).
+
+In addition, execution of EmbedStatement#executeBatch checks for
+interrupts between each statement in the batch and throws the
+exisisting 08000 (CONN_INTERRUPT - session level severity) error if
+interrupts are seen.
+
+Note: Still, the machinery of InterruptStatus isn't really used to
+save any interrupts, that follows in (a) later patch(es), so this
+patch doesn't change behavior. The focus here is on the correct
+placement of calls to restoreIntrFlagIfSeen in the API.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2010-11-03T19:40:32.363933Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1355552</D:version-name>
+<D:comment>DERBY-5750 Sending an empty string as table name to compress table procedure or empty string as index name to update statistics procedure makes the parser throw an exception. 
+
+
+Committing changes for DERBY-5750 which will provide following functionality 
+a)if schema name is provided as an empty string, we will throw SQLState.LANG_SCHEMA_DOES_NOT_EXIST
+b)if table name is provided as an empty string, we will throw SQLState.LANG_TABLE_NOT_FOUND
+c)if index name is provided as an empty string(this is for update and drop statistics procedures), we will throw 
+	SQLState.LANG_INDEX_NOT_FOUND
+d)if schema name is null, we will use current schema to resolve the table name
+e)if table name is null, we will throw SQLState.LANG_TABLE_NOT_FOUND
+f)if index name is null, we will drop/update statisitcs for all the indexes for the given table.
+
+I have added few test cases for each of these procedures. 
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2012-06-29T20:24:20.142349Z</S:date>
+</S:log-item>
+</S:log-report>

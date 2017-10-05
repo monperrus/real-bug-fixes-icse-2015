@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>471459</D:version-name>
+<D:comment>DERBY-2014: NullPointerException with NULLIF in GROUP BY clause
+
+This change was contributed by Yip Ng (yipng168@gmail.com)
+
+The NPE happens in isEquivalent() method where it does not handle
+value is null. (same symptom as DERBY-2008) and the patch addresses
+this + additonal testcases.
+
+The isEquivalent() method is used to compare the select column
+against the group by with expression. Note that it is comparing
+the structural form of the two expressions for equivalence at bind phase
+and not comparing the actual row values at runtime to produce a result.
+
+This patch converts all the tests in the previous patch into junit.
+Also the javadoc for ValueNode.isEquivalent() method has been updated.
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2006-11-05T16:45:24.665762Z</S:date>
+</S:log-item>
+</S:log-report>

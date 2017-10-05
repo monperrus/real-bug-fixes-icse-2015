@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>566359</D:version-name>
+<D:comment>DERBY-3000 - getTables() call with 10.3 causes java.sql.SQLException: The parameter position '8' is out of range. The number of parameters for this prepared statement is '7'.
+
+DERBY-1790 - DatabaseMetaData.getTables() with passed in table type of SYNONYM returns system tables and not SYNONYMS
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-08-15T22:21:32.115260Z</S:date>
+</S:log-item>
+</S:log-report>

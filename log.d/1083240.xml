@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1083240</D:version-name>
+<D:comment>LUCENE-2975: A hotspot bug corrupts IndexInput#readVInt()/readVLong() if the underlying readByte() is inlined (which happens e.g. in MMapDirectory). The loop was unwinded which makes the hotspot bug disappear.</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2011-03-19T17:58:20.943428Z</S:date>
+</S:log-item>
+</S:log-report>

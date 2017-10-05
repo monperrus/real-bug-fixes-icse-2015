@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>533978</D:version-name>
+<D:comment>minor security fix.  This makes sure you can't call paths that start with "/" from /select
+
+This way, if you register a handler with "/path" and use path based authentication, you can not sneak into it using:
+
+ http://localhost:8983/solr/select/?qt=/update&amp;stream.body=...</D:comment>
+<D:creator-displayname>ryan</D:creator-displayname>
+<S:date>2007-05-01T09:02:08.197348Z</S:date>
+</S:log-item>
+</S:log-report>

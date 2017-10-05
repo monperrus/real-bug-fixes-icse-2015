@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>357105</D:version-name>
+<D:comment>DERBY-649: Improve predicate check added in the previous checkin for this bug.
+
+We may be incorrectly allowing predicates like b=a+5 for the Union predicate
+push down optimization, when the code can't yet handle it.
+
+Many thanks to Dan for catching this case.
+
+Submitted by Satheesh Bandaram (satheesh@sourcery.org)
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2005-12-16T02:13:07.259936Z</S:date>
+</S:log-item>
+</S:log-report>

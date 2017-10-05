@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1529135</D:version-name>
+<D:comment>LUCENE-5254: don't hold ref to original SR from SCR, to avoid bounded leak of things like live docs bitset</D:comment>
+<D:creator-displayname>mikemccand</D:creator-displayname>
+<S:date>2013-10-04T11:52:52.102834Z</S:date>
+</S:log-item>
+</S:log-report>

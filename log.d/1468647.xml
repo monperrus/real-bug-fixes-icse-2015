@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1468647</D:version-name>
+<D:comment>DERBY-6157; text for message XSLA4 might encouraging people to delete part of the transaction log.
+  replacing the message in English with a more elaborate one.
+  adding translations to de_DE, fr, es and it, removing from all other translated files so
+  the English message will pop up.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2013-04-16T22:32:28.243922Z</S:date>
+</S:log-item>
+</S:log-report>

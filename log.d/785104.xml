@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>785104</D:version-name>
+<D:comment>DERBY-4245: Sorting a table containing a CLOB fails after upgrade to 10.5.
+A regression test using LOBs in a sort. The sort should be external, but if the
+test is run with a large enough JVM heap it won't be. There are two options to
+fix that: reduce the heap size or increase the number of rows in the test table.
+
+Patch file: derby-4245-1c-test.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-06-16T07:52:30.939154Z</S:date>
+</S:log-item>
+</S:log-report>

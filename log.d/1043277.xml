@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1043277</D:version-name>
+<D:comment>LUCENE-2802: NRT DirectoryReader returned incorrect values from getVersion, isOptimized, getCommitUserData, getIndexCommit and isCurrent due to a mutable reference to the IndexWriters SegmentInfos</D:comment>
+<D:creator-displayname>simonw</D:creator-displayname>
+<S:date>2010-12-08T02:02:02.793457Z</S:date>
+</S:log-item>
+</S:log-report>

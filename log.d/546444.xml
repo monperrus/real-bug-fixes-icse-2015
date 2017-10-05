@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>546444</D:version-name>
+<D:comment>DERBY-2802: LOBStreamControl.replaceBytes can throw null pointer exception while trying to access databytes after calling init.
+Patch file: derby-2802.diff
+
+Patch contributed by Anurag Shekhar.
+--ThiB line, and those below, will be ignored--
+
+M    LOBStreamControl.java
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2007-06-12T10:01:27.659974Z</S:date>
+</S:log-item>
+</S:log-report>

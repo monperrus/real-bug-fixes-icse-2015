@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1245770</D:version-name>
+<D:comment>Fix test failure, the wrapping really found a bug. It's the same like in SlowCompositeReaderWrapper:
+ant test -Dtestcase=TestReaderClosed -Dtestmethod=test -Dtests.seed=-7c9f33395d707a4a:9a8a104377eade3:-6839e18852fad654 -Dtests.multiplier=3 -Dtests.nightly=true -Dargs="-Dfile.encoding=ISO8859-1"
+Was found by Jenkins!</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2012-02-17T21:29:12.106684Z</S:date>
+</S:log-item>
+</S:log-report>

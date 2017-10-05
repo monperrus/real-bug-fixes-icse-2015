@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>784682</D:version-name>
+<D:comment>DERBY-4171: Connections to on-disk db go to in-memory db if in-memory db with same name is booted.
+Fixed incorrect handling of colon in paths with the Windows drive letter specification.
+Patch file: derby-4171-2a.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-06-15T08:12:32.555158Z</S:date>
+</S:log-item>
+</S:log-report>

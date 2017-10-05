@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>390176</D:version-name>
+<D:comment>DERBY-1149 : Fix failures in StatementTest.java.  I also added
+a new constants file for testing that contains all the standard
+SQL State strings.  Derby-specific SQL States can be added as
+needed.
+
+Passes derbyall, except for the sysinfo tests, which is a known regression
+when running against the classes directory.
+
+</D:comment>
+<D:creator-displayname>davidvc</D:creator-displayname>
+<S:date>2006-03-30T16:56:25.202651Z</S:date>
+</S:log-item>
+</S:log-report>

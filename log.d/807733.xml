@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>807733</D:version-name>
+<D:comment>DERBY-3819 ; 'Expected Table Scan ResultSet for T3' in test_predicatePushdown(....PredicatePushdownTest)
+  Causing a number of asserts to be skipped when using a 64 bit platform.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2009-08-25T18:00:25.593131Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>675777</D:version-name>
+<D:comment>DERBY-3776 testGetBytes under BlobClob4BlobTest failed on Zos with encoding issue
+
+Fix String created from blob bytes read to use US-ASCII, to match encoding used for insert.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-07-10T21:58:18.023238Z</S:date>
+</S:log-item>
+</S:log-report>

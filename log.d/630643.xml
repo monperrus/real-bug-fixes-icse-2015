@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>630643</D:version-name>
+<D:comment>Cleanup related to DERBY-3310. Simplify ResultSetNode.genNormalizeResultSetNode to always work on itself by producing a NormalizeResultSetNode that wraps it. That is how the function worked and was imlemented.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2008-02-24T17:52:29.131242Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>617548</D:version-name>
+<D:comment>DERBY-3279: Add logic for execution-time sorting of IN list values
+into DESCENDING order when required.
+
+This is a follow-up patch to add an implementation of the
+adjustForSortElimination(RequiredRowOrdering) to IndexToBaseRowNode,
+which was missing from the previous commit (svn # 616126).  This
+commit also adds more test cases to InListMultiProbeTest.java.
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2008-02-01T16:26:32.803478Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1508603</D:version-name>
+<D:comment>fix test not to generate nullreaders &gt; 10, since it always asserts bulk reads from that position</D:comment>
+<D:creator-displayname>rmuir</D:creator-displayname>
+<S:date>2013-07-30T20:18:21.385815Z</S:date>
+</S:log-item>
+</S:log-report>

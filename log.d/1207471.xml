@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1207471</D:version-name>
+<D:comment>DERBY-5514 SecureServerTest (and others) don't play nice with EMMA: AccessControlException
+
+Patch derby-5514-2:
+
+- fixes the usa of String#contains,
+- adds -Demma.verbosity.level=silent to RuntimeInfoTest
+- adds the convenience method runsWithEmma to BaseTestCase
+- adds fixes to NetworkServerTestSetup to
+  a) always use Emma verbosity silent when spawning a server in separate VM, and also
+  b) refrains from starting the server with the security manager when running with Emma since the default server policy doesn't contain permissions for Emma, and finally
+- skips the assertion for the security manager being used in
+  SecureServerTest (it is not, see preceding item) 
+
+With patch d5514-emma-permissions-to-all, Emma now runs OK with "ant
+emma-all" and suites.All.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-11-28T17:20:58.092977Z</S:date>
+</S:log-item>
+</S:log-report>

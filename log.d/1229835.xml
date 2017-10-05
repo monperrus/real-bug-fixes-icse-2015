@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1229835</D:version-name>
+<D:comment>DERBY-5559 AssertFailures (7, or 8) with ibm 1.6 and 1.5 on Windows XP in lang.NativeAuthProcs fixture testAll
+
+Adding longer waits and some additional waits to fix problems on my laptop with
+this test.  Before this change the test would expect the timestamp to have
+moved forward after some password manipulation operations, but instead the
+timestamp would be the same as before.  I believe this is just a problem with
+the known issue of JVM/machine caching of time, and not an actual problem
+with the password mechanism.
+
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2012-01-11T00:49:51.263041Z</S:date>
+</S:log-item>
+</S:log-report>

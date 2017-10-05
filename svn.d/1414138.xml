@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1414138"/>
+<S:open-directory rev="1414137">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1414138/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1414138</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-11-27T12:02:25.564263Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hughesj</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="aries" rev="1414137">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1414138/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1414138</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-11-27T12:02:25.564263Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hughesj</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="1414137">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1414138/aries/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1414138</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-11-27T12:02:25.564263Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hughesj</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="versioning" rev="1414137">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1414138/aries/trunk/versioning</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1414138</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-11-27T12:02:25.564263Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hughesj</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="org.apache.aries.versioning.plugin" rev="1414138"/>
+<S:add-directory name="versioning-plugin" bc-url="/repos/asf/!svn/bc/1414138/aries/trunk/versioning/versioning-plugin">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1414138/aries/trunk/versioning/versioning-plugin</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1414138</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-11-27T12:02:25.564263Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hughesj</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">target
+</S:set-prop>
+<S:add-directory name="src" bc-url="/repos/asf/!svn/bc/1414138/aries/trunk/versioning/versioning-plugin/src">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1414138/aries/trunk/versioning/versioning-plugin/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1235854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-01-25T17:57:43.982556Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="main" bc-url="/repos/asf/!svn/bc/1414138/aries/trunk/versioning/versioning-plugin/src/main">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1414138/aries/trunk/versioning/versioning-plugin/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1235854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-01-25T17:57:43.982556Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="java" bc-url="/repos/asf/!svn/bc/1414138/aries/trunk/versioning/versioning-plugin/src/main/java">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1414138/aries/trunk/versioning/versioning-plugin/src/main/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1235854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-01-25T17:57:43.982556Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/1414138/aries/trunk/versioning/versioning-plugin/src/main/java/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1414138/aries/trunk/versioning/versioning-plugin/src/main/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1235854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-01-25T17:57:43.982556Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/1414138/aries/trunk/versioning/versioning-plugin/src/main/java/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1414138/aries/trunk/versioning/versioning-plugin/src/main/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1235854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-01-25T17:57:43.982556Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/1414138/aries/trunk/versioning/versioning-plugin/src/main/java/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1414138/aries/trunk/versioning/versioning-plugin/src/main/java/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1235854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-01-25T17:57:43.982556Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="versioning" bc-url="/repos/asf/!svn/bc/1414138/aries/trunk/versioning/versioning-plugin/src/main/java/org/apache/aries/versioning">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1414138/aries/trunk/versioning/versioning-plugin/src/main/java/org/apache/aries/versioning</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1235854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-01-25T17:57:43.982556Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="mojo" bc-url="/repos/asf/!svn/bc/1414138/aries/trunk/versioning/versioning-plugin/src/main/java/org/apache/aries/versioning/mojo">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1414138/aries/trunk/versioning/versioning-plugin/src/main/java/org/apache/aries/versioning/mojo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1235854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-01-25T17:57:43.982556Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="CLVersionCheckerMojo.java" sha1-checksum="b94a1cfdd7245112290057c853d0d4c531e42bc8">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1414138/aries/trunk/versioning/versioning-plugin/src/main/java/org/apache/aries/versioning/mojo/CLVersionCheckerMojo.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1235854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-01-25T17:57:43.982556Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:prop><V:md5-checksum>3a619c0833c9ea325fb91574a05acd87</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="VersionCheckerMojo.java" sha1-checksum="811846404fad64ec8a4ed0c33b8a4bbb10134862">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1414138/aries/trunk/versioning/versioning-plugin/src/main/java/org/apache/aries/versioning/mojo/VersionCheckerMojo.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1235854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-01-25T17:57:43.982556Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/plain</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>4acaea4cf6c9697fa7ba5b00df74144a</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-file name="pom.xml" sha1-checksum="10178c6efc06aabf4bfea5bb73aaf5006906a91a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1414138/aries/trunk/versioning/versioning-plugin/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1303658</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-22T05:36:17.974632Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">djencks</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/xml</S:set-prop>
+<S:set-prop name="svn:keywords">Date Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>5292d4c22d4b03d637ec44418c0348ca</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:open-directory name="versioning-checker" rev="1414137">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1414138/aries/trunk/versioning/versioning-checker</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1414138</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-11-27T12:02:25.564263Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hughesj</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml" rev="1414137">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1414138/aries/trunk/versioning/versioning-checker/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1414138</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-11-27T12:02:25.564263Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hughesj</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="cfbaa434701333ea3c95e4fde2984de9" sha1-checksum="d451d021356fcced81f3f027fe7a05becf4c95c0"/>
+<S:prop><V:md5-checksum>340a4c248007487fcf6e0a13556e8339</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-file name="pom.xml" rev="1414137">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1414138/aries/trunk/versioning/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1414138</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-11-27T12:02:25.564263Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hughesj</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="90b1935369a59fb65b676cf15047329d" sha1-checksum="5839dc7f47204178cb0cbebd128023a02303a1dc"/>
+<S:prop><V:md5-checksum>5ecaea51ce55f63aea7421680b7274ca</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

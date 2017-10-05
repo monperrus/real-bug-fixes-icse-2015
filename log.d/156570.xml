@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>156570</D:version-name>
+<D:comment>Fix for DERBY-158 PRIMARY KEY does not imply NOT NULL
+Columns specified in a PRIMARY KEY constraint in CREATE TABLE 
+are implicitly set to NOT NULL per the SQL spec. 
+
+If a PRIMARY KEY constraint is added using ALTER TABLE then all
+columns must also be NOT NULL. Similarly, columns
+specified in a UNIQUE constraint must still be explictly NOT NULL.</D:comment>
+<D:creator-displayname>jboynes</D:creator-displayname>
+<S:date>2005-03-08T21:22:59.703757Z</S:date>
+</S:log-item>
+</S:log-report>

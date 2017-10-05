@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>565078</D:version-name>
+<D:comment>DERBY-2902: Can't use Long.MIN_VALUE as start value for identity column.
+
+Merged the fix from the trunk by svn merge -r 554995:554996 
+
+This change ensures that the "-" sign, if present, is passed to the
+Long.parseLong call.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2007-08-12T15:07:27.270218Z</S:date>
+</S:log-item>
+</S:log-report>

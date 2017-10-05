@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1454915</D:version-name>
+<D:comment>SOLR-4475: Fix various places that still assume File based paths even when not using a file based DirectoryFactory.
+SOLR-4551: CachingDirectoryFactory needs to create CacheEntry's with the fullpath not path.</D:comment>
+<D:creator-displayname>markrmiller</D:creator-displayname>
+<S:date>2013-03-10T20:26:31.243338Z</S:date>
+</S:log-item>
+</S:log-report>

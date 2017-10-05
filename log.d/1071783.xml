@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1071783</D:version-name>
+<D:comment>DERBY-5040: On Windows, cascade of errors after failed test AutomaticIndexStatisticsTest
+
+Rewrote failing test (deleting the database directory fails) to use a separate
+database instead of the default db wombat. This should eliminate the cascade
+of errors.
+
+Patch file: derby-5040-1a-use_separate_db.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-02-17T21:00:07.179159Z</S:date>
+</S:log-item>
+</S:log-report>

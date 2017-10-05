@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>673165</D:version-name>
+<D:comment>DERBY-3625
+
+backporting fix (change #672834) from trunk to 10.4 branch.
+
+Adding space check to case where we try to move row to a new page. I could
+not come up with a repro for this case, but seems safer to check for space
+than not. The case the code is trying to avoid is a free page that has been
+reclaimed with a nextid that requires more space than the row on the source
+page.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2008-07-01T18:35:43.166528Z</S:date>
+</S:log-item>
+</S:log-report>

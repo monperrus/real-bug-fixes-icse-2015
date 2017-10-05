@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1205426</D:version-name>
+<D:comment>DERBY-5459 Result set metadata are out of sync on client after underlying table is altered
+
+Patch derby-5459-3. We now resend the result set metadata to the
+client when the cursor is opened if the prepared statement gets
+recompiled due to it being out of date when the server tries to
+execute it (DRDAConnThread line 871). To detect this we introduce a
+version counter which is incremented each time a statement is
+(re)compiled and make a note which version's metadata gets sent to the
+client as part of the explicit prepare. That version is compared with
+the current version when we execute to make the decision whether to
+resend metadata or not.
+
+This also fixes DERBY-2402, a duplicate.
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-11-23T15:03:19.616787Z</S:date>
+</S:log-item>
+</S:log-report>

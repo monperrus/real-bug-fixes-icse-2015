@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>471089</D:version-name>
+<D:comment>DERBY-2043 (partial) Cleanup some of the connection methods in TestConfiguration to allow easier
+transition of the DataSource code into the junit package. Add a utility shutdownDatabase() method
+to TestConfiguration rather than using a getConnection with shutdown=true and duplicated code
+for catching the exception and asserting its SQL state.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-11-04T01:08:34.499017Z</S:date>
+</S:log-item>
+</S:log-report>

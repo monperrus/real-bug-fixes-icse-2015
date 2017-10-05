@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>535910</D:version-name>
+<D:comment>DERBY-1054: NetServlet does not allow binding to non localhost interface
+
+This change modifies the NetServlet.java class to allow for a "host"
+parameter to be passed in via the web.xml file. That way we can control
+the listening interface. The sample web.xml is enhanced with additional
+information about how to set the host parameter.
+
+Note that there are security implications to setting a non-localhost
+value for the host. Such a server should be properly configured so that
+access to it is authenticated and secured. A separate docs patch enhances
+the NetServlet documentation to note these considerations.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2007-05-07T15:41:42.818074Z</S:date>
+</S:log-item>
+</S:log-report>

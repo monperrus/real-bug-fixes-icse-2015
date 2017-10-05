@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>802908</D:version-name>
+<D:comment>CASSANDRA-296 fix grammar breakage
+
+Changeset ada820 was an attempt to make hostname parsing less stupid,
+(i.e. don't allow underscores; do allow hyphens; allow IP addresses).
+It didn't entirely fix the problems it set out to and it broke
+parsing of anything that used the "Identifier" lexer, (for example
+the thrift {get,set} ... commands).
+
+This changeset partially reverts ada820 until a proper fix to
+hostname parsing can be found.</D:comment>
+<D:creator-displayname>eevans</D:creator-displayname>
+<S:date>2009-08-10T19:34:38.735185Z</S:date>
+</S:log-item>
+</S:log-report>

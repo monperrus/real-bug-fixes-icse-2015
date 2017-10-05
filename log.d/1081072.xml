@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1081072</D:version-name>
+<D:comment>DERBY-5105: NoSuchMethodError in upgrade tests (testTriggerBasic)
+
+Disable the post soft upgrade phase for the versions that suffer from
+DERBY-4835.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-03-13T10:42:53.438465Z</S:date>
+</S:log-item>
+</S:log-report>

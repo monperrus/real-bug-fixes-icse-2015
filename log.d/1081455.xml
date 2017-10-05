@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1081455</D:version-name>
+<D:comment>DERBY-3980: Conflicting select then update with REPEATABLE_READ gives lock timeout instead of deadlock
+DERBY-5073: Derby deadlocks without recourse on simultaneous correlated subqueries
+
+Improve the deadlock detection algorithm by
+
+  1) fixing a bug that made it misrepresent the wait graph in a way
+     that made the chosen victim refuse to die
+
+  2) making it understand that two transactions waiting for the same
+     lock are not blocking each other if the two lock requests are
+     compatible
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-03-14T16:38:50.030931Z</S:date>
+</S:log-item>
+</S:log-report>

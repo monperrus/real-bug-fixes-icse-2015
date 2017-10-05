@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1422911</D:version-name>
+<D:comment>[ARIES-986] Make sure the extender receives all stopping events, even if still in the initial tracking phase, avoid some processing in the container when it is stopping, stop containers when the proxy manager has been lost. Add additional checks before creating the container</D:comment>
+<D:creator-displayname>gnodet</D:creator-displayname>
+<S:date>2012-12-17T12:48:38.550804Z</S:date>
+</S:log-item>
+</S:log-report>

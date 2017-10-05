@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1448025</D:version-name>
+<D:comment>DERBY-6017: IN lists with mixed types may return wrong results
+
+Cast the left operand to the dominant type if it isn't already of
+that type. This ensures the dominant type is always used in all the
+comparison operations when evaluating an IN predicate.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-02-20T07:57:49.469486Z</S:date>
+</S:log-item>
+</S:log-report>

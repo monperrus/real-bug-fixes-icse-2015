@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>799099</D:version-name>
+<D:comment>DERBY-4246 '.replicationTests.ReplicationRun_Local_3_p5).testReplication_Local_3_p5_DERBY_3878()' fails w/ "Could not perform operation 'stopSlave' because the database '...' has not been booted".
+
+Backported to 10.5 branch with:
+
+svn merge -c 785131  https://svn.eu.apache.org/repos/asf/db/derby/code/trunk
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-07-29T22:17:09.461290Z</S:date>
+</S:log-item>
+</S:log-report>

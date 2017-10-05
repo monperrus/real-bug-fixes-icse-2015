@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1484649</D:version-name>
+<D:comment>DERBY-6214 (PreparedStatement.setObject(int, Object, Types.CLOB) fail with DerbyNet)
+
+Adding junit test to set CLOB column value using setObject and setString. The test has been disabled when updating more than one row and 
+1)using setObject to set the value since it runs into closed stream error
+2)using setString with large string(test works fine for smaller strings) since it runs into closed stream error
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-05-21T03:07:09.054481Z</S:date>
+</S:log-item>
+</S:log-report>

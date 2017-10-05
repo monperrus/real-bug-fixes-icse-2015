@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>599201</D:version-name>
+<D:comment>Remove the workaround in the test clean database code for fetching SYNONYMS from DatabaseMetaData.getTables() since DERBY-1790 has been fixed in 10.3 branch. Partial merge of 566692 from 10.3 branch</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-11-28T23:32:33.881779Z</S:date>
+</S:log-item>
+</S:log-report>

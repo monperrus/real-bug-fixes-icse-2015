@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>643399</D:version-name>
+<D:comment>DERBY-3447: Shutdown on a database without stopping replication hangs
+ - Set replication threads to be daemon threads.
+ - Implement ModuleControl#stop for MasterController
+ - Adjust test to new behavior
+Contributed by V Narayanan
+
+Merged to 10.4 branch with command:
+svn merge -r642190:642191 https://svn.apache.org/repos/asf/db/derby/code/trunk/
+</D:comment>
+<D:creator-displayname>oysteing</D:creator-displayname>
+<S:date>2008-04-01T13:49:26.121295Z</S:date>
+</S:log-item>
+</S:log-report>

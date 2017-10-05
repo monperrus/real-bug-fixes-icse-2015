@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>470294</D:version-name>
+<D:comment>DERBY-2027: JUnit suite All crashes with OutOfMemoryError when running
+LobLengthTest
+
+Use LoopingAlphabetStream instead of ByteArrayInputStream to reduce
+memory usage. Patch contributed by Kristian Waagan.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-11-02T09:43:04.273301Z</S:date>
+</S:log-item>
+</S:log-report>

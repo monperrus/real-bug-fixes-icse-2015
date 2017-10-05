@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1549701</D:version-name>
+<D:comment>LUCENE-5364: Replace hard-coded Version.LUCENE_XY that doesn't have to be hard-coded (because of back-compat testing or version dependent behavior, or demo code that should exemplify pinning versions in user code), with Version.LUCENE_CURRENT in non-test code, or with LuceneTestCase.TEST_VERSION_CURRENT in test code; upgrade hard-coded Version.LUCENE_XY constants that should track the next release version to the next release version if they aren't already there, and put a token near them so that they can be found and upgraded when the next release version changes: ':Post-Release-Update-Version.LUCENE_XY:'</D:comment>
+<D:creator-displayname>sarowe</D:creator-displayname>
+<S:date>2013-12-09T22:53:38.513834Z</S:date>
+</S:log-item>
+</S:log-report>

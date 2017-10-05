@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>666712</D:version-name>
+<D:comment>DERBY-3704   If an IOException is encountered during establishment of the connection, Network Server should print the root exception to the console instead of a generic message
+
+DERBY-3701 java.lang.Exception: DRDA_UnableToAccept.S:Unable to accept connections and client hang if tracing is turned on but traceDirectory does not exist
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-06-11T15:41:19.131825Z</S:date>
+</S:log-item>
+</S:log-report>

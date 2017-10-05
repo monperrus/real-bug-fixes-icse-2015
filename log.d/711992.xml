@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>711992</D:version-name>
+<D:comment>DERBY-3840 The test code executes java processes by just executing java instead of using a full path. This may cause the wrong java to be picked up.
+
+fixed one missed case in execJavaCmd
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-11-06T22:22:27.622190Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>545639</D:version-name>
+<D:comment>DERBY-2777
+I realized that there are no negative test case for parameter inside XMLSERIALIZE funciton. Adding them as part of this checkin. Parameters
+are not supported inside XMLSERIALIZE and that's what the new test cases are checking. No collation involved for parameter inside this
+function because parameter inside XMLSERIALIZE will fail at compilation time.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-06-08T21:41:10.785448Z</S:date>
+</S:log-item>
+</S:log-report>

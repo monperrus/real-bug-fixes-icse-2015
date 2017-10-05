@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1068474</D:version-name>
+<D:comment>DERBY-5002 In case of checksum error, insure correct error reported to user.
+
+backported change #1067357 from trunk to 10.6 branch, some manual merging
+required.
+
+Changed the order of sanity page checking to make sure that if there is a
+checksum error on reading the page from disk, then it is the error reported.
+Before this change certain page inconsistencies would be found before doing
+the checksum check and would report different kinds of errors depending on
+where the corruption happened on the page. The main error case checksums
+try to catch is partially written page where because a derby page is made up
+of multiple OS/drive blocks some blocks can make it to disk before others and
+in the case of a hardware crash an incomplete page may be written. In this
+case, the current derby implementation can not recover from log as it needs
+a valid page to look at in order to apply log records. The db must be
+recovered from derby backup in this case. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2011-02-08T16:45:14.353577Z</S:date>
+</S:log-item>
+</S:log-report>

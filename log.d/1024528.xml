@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1024528</D:version-name>
+<D:comment>DERBY-4601 Shutting down just a single database should log a different message than shutting down the system
+
+Make the shutdown message in the log file more readable.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2010-10-20T05:44:52.032652Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>755147</D:version-name>
+<D:comment>DERBY-4097: BatchUpdateException in NullableUniqueConstraintTest
+
+Improve error reporting when a BatchUpdateException is thrown by the
+client driver. Use initCause() to put the underlying exception in the
+chain of exceptions printed by printStackTrace(). Note that there may
+be more than one underlying exception for a BatchUpdateException and
+only one of them will be printed by printStackTrace(). To see the rest
+of the exceptions, getNextException() has to be used (as before).
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-03-17T08:26:24.658849Z</S:date>
+</S:log-item>
+</S:log-report>

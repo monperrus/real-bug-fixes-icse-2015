@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>747371</D:version-name>
+<D:comment>DERBY-2991: Index split deadlock
+
+Added comment to IndexSplitDeadlockTest describing missing test cases
+for BTreeScan.reposition().
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-02-24T13:13:58.821523Z</S:date>
+</S:log-item>
+</S:log-report>

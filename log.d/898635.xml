@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>898635</D:version-name>
+<D:comment>DERBY-4191
+
+Require minimum select privilege from the tables in the SELECT sql if no column is selected from the table by the user eg
+select count(*) from root.t; 
+select 1 from root.t; 
+For the query above, Derby was letting the user execute the select even if the user had no select privilege available on root.t With this fix, Derby will check if there is atleast one column on which the user has select privilege available to it or if the user select privilege at the table level. If yes, only then the user will be able to select from another user's table.
+
+select myTable.a from myTable, admin.privateTable
+for the query above, since no column is selected specifically from admin.privateTable, Derby will now see if there is table level select privilege or atleast one column level select privilege available on admin.privatTable
+
+One other problem scenario was
+update ruth.t_ruth set a = ( select max(c) from ruth.v_ruth ); 
+For the query above, prior to fix for DERBY-4191, we were not looking for select privilege for the subquery. That has also been fixed with fix for DERBY-4191
+
+All the existing tests passed with no regression. Added few tests for the fixes involved in this jira.
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2010-01-13T03:24:52.255105Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1040569</D:version-name>
+<D:comment>DERBY-4849: Re-compilation may cause duplicate entries in the XPLAIN table
+
+Merged fix from trunk (revision 1028716).
+Note that XplainStatisticsTest was manually modified due to merge conflicts
+(code for the plan visualizer which doesn't exist on this branch).
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-11-30T15:08:12.511899Z</S:date>
+</S:log-item>
+</S:log-report>

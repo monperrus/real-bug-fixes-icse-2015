@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>365785</D:version-name>
+<D:comment>DERBY-746 Fix NullPointerException on passing an invalid format as encryptionKey on a JDBC URL
+* JCECipherFactory.boot() now checks the output from the fromHexString-method and throws an exception if it is invalid.
+* Added 2 new SQLStates and messages (only English)
+* Added 2 new test cases (invalid char in encryption key and encryption key of with odd length).
+* Updated master file. 
+Patch contributed by Kristian Waagan (Kristian.Waagan@Sun.com)
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-01-04T00:48:38.293646Z</S:date>
+</S:log-item>
+</S:log-report>

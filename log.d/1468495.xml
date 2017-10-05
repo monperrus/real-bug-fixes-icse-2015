@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1468495</D:version-name>
+<D:comment>Fix stale state written to deployment manifest.
+
+There was a small window where a previous state could be written to a deployment manifest due
+to holding a stale copy of the deployment manifest. This included *ING states so that subsequent
+operations would end up waiting for a state change the would never occur.</D:comment>
+<D:creator-displayname>jwross</D:creator-displayname>
+<S:date>2013-04-16T16:30:06.116254Z</S:date>
+</S:log-item>
+</S:log-report>

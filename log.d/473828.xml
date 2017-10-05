@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>473828</D:version-name>
+<D:comment>DERBY-537 (partial) Fix the reading of the jar file (through a URL or file name) for sqlj.install_jar
+and replace_jar to be under a privileged block. Switched the order of lookup from the jar path to
+be URL and then as a file name. Otherwise a security exception is thrown trying to open the URL
+path as a file name.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-11-11T23:11:56.318505Z</S:date>
+</S:log-item>
+</S:log-report>

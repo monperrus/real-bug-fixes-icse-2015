@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1138787</D:version-name>
+<D:comment>DERBY-5280: Large batch of DDL in a database procedure dies on a transaction severity error
+
+Backed out the fix for DERBY-5161 since it's causing a regression and
+shouldn't be needed after DERBY-5157.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-06-23T09:25:58.420181Z</S:date>
+</S:log-item>
+</S:log-report>

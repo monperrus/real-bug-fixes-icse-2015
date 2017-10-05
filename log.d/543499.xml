@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>543499</D:version-name>
+<D:comment>Change ValueNode.setCollationUsingCompilationSchema() to use the getSchemaDescriptor() method
+that does not fail if the schema does not exist, e.g. when preparing statements the current
+user's schema and that schema does not exist. Fixes the failures in AuthenticationTest.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-06-01T15:02:38.444867Z</S:date>
+</S:log-item>
+</S:log-report>

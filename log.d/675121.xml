@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>675121</D:version-name>
+<D:comment>DERBY-3736 Revoking a column level privilege from a user, a prepared statement relying on that privilege can still be executed
+
+Merged pacth derby-3736b as
+
+svn merge -c 674808 https://svn.apache.org/repos/asf/db/derby/code/trunk
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2008-07-09T08:58:08.903716Z</S:date>
+</S:log-item>
+</S:log-report>

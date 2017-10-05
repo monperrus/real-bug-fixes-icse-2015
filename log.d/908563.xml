@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>908563</D:version-name>
+<D:comment>DERBY-4477 Selecting / projecting a column whose value is represented by a stream more than once fails
+
+Patch derby-4477-useCloning: Uses the new stream cloning referred to
+earlier as a coming follow-up for this issue: derby-4477-useCloning.
+
+It also bumps the lob size in the lowmem suite's test cases added for
+this issue in ClobMemTest and BlobMemTest, which will run out of
+memory without this cloning used by this patch.
+
+Note:
+
+The "length-materialization optimization" (code that was commented out
+earlier, and removed by the latest patch) hasn't been implemented
+yet. However, we think it is better placed inside the various
+cloneValue-methods and hope to get to it at a later time.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2010-02-10T16:12:40.372031Z</S:date>
+</S:log-item>
+</S:log-report>

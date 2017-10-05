@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>356961</D:version-name>
+<D:comment>Submitting a temporary fix to disable defaultConnectionMode of sqlStandard until two failed tests are resolved.
+
+I will reenable the mode soon and also make derbylang run grantRevoke.sql test. A new test was added, but I forgot to include it in the derbylang suite.
+
+Submitted by Satheesh Bandaram (satheesh@sourcery.org)
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2005-12-15T00:29:30.873047Z</S:date>
+</S:log-item>
+</S:log-report>

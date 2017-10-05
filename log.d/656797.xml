@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>656797</D:version-name>
+<D:comment>DERBY-3674
+
+Inplace compress test in store/TransactionTable.sql started failing after the checkin for DERBY-1062.
+Prior to the fix for DERBY-1062, an inplace compress request on VTI would return with no exception
+although the code just ignored the compress request on VTI. After DERBY-1062 fix, Derby started
+throwing exception. With the changes going through this commit, I am restoring the behavior to no-op
+on inplace compress on VTI. I am doing this by making the check for VTI in SystemProcedure and returning
+from it if it is a VTI. All the other inplace compress request get fulfilled through internal
+generation of ALTER TABLE sql.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2008-05-15T19:21:30.174390Z</S:date>
+</S:log-item>
+</S:log-report>

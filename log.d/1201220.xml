@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1201220</D:version-name>
+<D:comment>ARIES-777, ARIES-778 R43 code to get the classloader for a bundle, and a 'recursive' bundle tracker that works with hook-based isolation.  This builds utils in two parts, one for R42 code and a few classes in a new module using R43, and pulling the R42 code in using the bundle plugin</D:comment>
+<D:creator-displayname>djencks</D:creator-displayname>
+<S:date>2011-11-12T08:00:33.081557Z</S:date>
+</S:log-item>
+</S:log-report>

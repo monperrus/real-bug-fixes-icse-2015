@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>917939</D:version-name>
+<D:comment>Performance fix: Matrix in LDA was getting re-allocated for everydocument, added a reset code to reset/create the matrix values.</D:comment>
+<D:creator-displayname>robinanil</D:creator-displayname>
+<S:date>2010-03-02T10:00:36.140321Z</S:date>
+</S:log-item>
+</S:log-report>

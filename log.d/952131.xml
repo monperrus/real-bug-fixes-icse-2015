@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>952131</D:version-name>
+<D:comment>DERBY-4083: BTreeScan.delete() throws AM_RECORD_NOT_FOUND if record is found
+
+Changed the logic so that the exception is thrown if the record is not found.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-06-07T08:04:42.210284Z</S:date>
+</S:log-item>
+</S:log-report>

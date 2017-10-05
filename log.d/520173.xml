@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>520173</D:version-name>
+<D:comment>DERBY-1620: Changes to look more closely at the "then" and "else" nodes
+of an SQL CASE statement and, in situations where one or more SQL NULLs
+exist, to cast the NULLs to an appropriate type (instead of just casting
+them to CHAR, which is what Derby did previously).
+
+Contributed by: John Peterson (john.peterson@pega.com)
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2007-03-19T23:31:20.460307Z</S:date>
+</S:log-item>
+</S:log-report>

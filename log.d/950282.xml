@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>950282</D:version-name>
+<D:comment>SOLR-1934: upgraded to Lucene 2.9.2 for testing (although the 1.4.1 release will hold off until 2.9.3) ... this involved updating the solr-core-pom.xml.template but i made it a template so future changes on this branch only need to update common-build.xml and CHANGES.txt</D:comment>
+<D:creator-displayname>hossman</D:creator-displayname>
+<S:date>2010-06-01T22:02:02.785343Z</S:date>
+</S:log-item>
+</S:log-report>

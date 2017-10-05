@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1199673</D:version-name>
+<D:comment>DERBY-5492 Restrictive file permissions: permissions removed also for owner on NTFS if Acl does not contain explicit entry for owner
+
+Patch derby-5492-2 which solves this issue plus make one other
+adjustment, see item two below.
+
+- Construct a new AclEntry for the owner with all rights, and removed
+  existing ones (NTFS). This should handle the error seen in Oracle's
+  regressions.
+
+- For Solaris/ZFS and similar file systems which support both Posix
+  file attributes view and ACLs, don't touch the ACLs but stick to the
+  Posix flags.
+
+ For the latter my rationale is as follows: Principle of least
+ surprise: most users never touch the ACLs but use the more familiar
+ Posix file masks. It turned out the existing Derby implementation,
+ although protecting the file adequately, showed a "+" in the ls(1)
+ listing indicating that the settings could not be directly mapped
+ onto the Posix model. The reason was that we removed more permissions
+ than the plain read,write, and execute. Since ZFS internally builds
+ on ACLs, the ls(1) listing would should that Derby had been tinkering
+ with the non-mappable ACL permissions. I think it is better to stick
+ to the Posix permissions by default. If people are using ACL
+ functionality they are likely more than average concerned with
+ security and can run with default file permissions and take full
+ responsibility of the permissions fo created filed.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-11-09T09:35:15.092787Z</S:date>
+</S:log-item>
+</S:log-report>

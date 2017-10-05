@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>835286</D:version-name>
+<D:comment>DERBY-4102: Assert failure or ClassCastException in EmbedBlob when retrieving BLOB &gt;= 32K.
+Made Derby store the stream content to a temporary location when it knows the stream isn't resetable. Small streams (&lt; 32K) will be stored in memory, larger streams will be written to disk (the switch happens transparently).
+Added the repro as a regression test.
+
+Patch file: derby-4102-1a.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-11-12T07:48:09.683279Z</S:date>
+</S:log-item>
+</S:log-report>

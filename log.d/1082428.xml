@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1082428</D:version-name>
+<D:comment>DERBY-5101: TruncateTableTest depends on implicit ordering of test cases
+
+Added a workaround for DERBY-5139 so that the test doesn't fail when testSelfReferencing runs first.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-03-17T08:51:40.044545Z</S:date>
+</S:log-item>
+</S:log-report>

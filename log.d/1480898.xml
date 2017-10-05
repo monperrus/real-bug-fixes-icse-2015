@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1480898</D:version-name>
+<D:comment>SOLR-4797: Shard splitting creates sub shards which have the wrong hash range in cluster state. This happens when numShards is not a power of two and router is compositeId</D:comment>
+<D:creator-displayname>shalin</D:creator-displayname>
+<S:date>2013-05-10T07:12:23.198241Z</S:date>
+</S:log-item>
+</S:log-report>

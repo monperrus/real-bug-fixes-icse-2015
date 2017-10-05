@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1230480</D:version-name>
+<D:comment>DERBY-5562: A read-only XA transaction that has a timeout never has the timer canceled when the transaction is complete
+
+Cancel the timer when a read-only transaction is prepared and implicitly committed.
+
+Based on a fix contributed by Brett Bergquist.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-01-12T10:50:54.790737Z</S:date>
+</S:log-item>
+</S:log-report>

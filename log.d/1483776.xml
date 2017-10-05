@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1483776</D:version-name>
+<D:comment>MAHOUT-1217: Nearest neighbor searchers sometimes fail to remove points
+
+This fixes FastProjectionSearch's searchFirst() which was not also searching
+through pendingAdditions. I think I replicated the bug in the new testRemove()
+in SearchSanityTest that now passes.
+
+</D:comment>
+<D:creator-displayname>dfilimon</D:creator-displayname>
+<S:date>2013-05-17T12:49:52.092673Z</S:date>
+</S:log-item>
+</S:log-report>

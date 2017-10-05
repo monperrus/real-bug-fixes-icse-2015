@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1573548</D:version-name>
+<D:comment>DERBY-6408: EXISTS returns NULL instead of FALSE
+
+Make sure EXISTS subqueries are wrapped in an IsNullNode to convert
+NULL to a BOOLEAN. Before, only NOT EXISTS subqueries were wrapped.
+
+Make RowResultSetNode.preprocess() invoke preprocess() on the result
+columns instead of directly on the subquery nodes. Calling it directly
+on the subquery nodes prevented the result columns from seeing the
+added IsNullNode.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2014-03-03T12:50:08.401338Z</S:date>
+</S:log-item>
+</S:log-report>

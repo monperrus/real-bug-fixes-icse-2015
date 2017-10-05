@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1328061</D:version-name>
+<D:comment>DERBY-5692; intermittent test failure in storetests/st_derby715.java
+  added st_derby715_derby.properties to change derby.locks.waitTimeout from
+  the default (1, in default_derby.properties) to 60 seconds.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2012-04-19T18:12:52.958224Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>382759</D:version-name>
+<D:comment>DERBY-965: DatabaseMetadata method supportsResultSetConcurrency
+returns wrong result on network client
+
+This patch (derby965b-v1) updates the master for phaseTester.java.
+This test is not part of derbyall and the master must be manually
+compared with the output of the phase tests, cf description in
+DERBY-573.
+
+phaseTester runs metadata_test.java as part of its work, so the master
+needs to be updated whenever metadata_test.java changes (as this issue
+does).
+
+Note: Even with this patch, phaseTester when run as described,
+failed. I noticed the following:
+
+- the shell script driving it is WIndows specific (";" as classpath
+  delimiter)
+
+- in the soft upgrade phase, the metadata test fails (table not
+  found), when performing a stored procedure: 'CALL
+  SYSIBM.SQLCOLPRIVILEGES' (in odbc_metadata#getMetadataRS).
+  
+This patch lessens the diff between the master and the "current"
+output, though, so i think it should be committed.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-03-03T11:13:25.229280Z</S:date>
+</S:log-item>
+</S:log-report>

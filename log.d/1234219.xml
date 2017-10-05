@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1234219</D:version-name>
+<D:comment>Added a junit test scope dependency in the grandparent POM to work around a Maven 2.2.X bug in which transitive test dependency resolution omits junit as duplicate everywhere it occurs, resulting in the absence of the junit jar from the test classpath, and then test compilation failure.  This manifested only in Solr's clustering contrib, but I'm putting it in the grandfather POM to insure it doesn't happen elsewhere.  Under Maven 3.0.4, this behavior no longer occurs, so when we upgrade the minimum Maven version to 3.0.4+, the junit test scope dependency in the grandfather POM can be removed.</D:comment>
+<D:creator-displayname>sarowe</D:creator-displayname>
+<S:date>2012-01-21T00:31:03.790106Z</S:date>
+</S:log-item>
+</S:log-report>

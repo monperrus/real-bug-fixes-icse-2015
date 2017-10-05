@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>509349</D:version-name>
+<D:comment>small bug fix from Ryan over email...
+
+: If you commit a document while the updater is autocommiting, it is
+: likely to immediatly start another autocommit (unless you are also
+: using maxDocs).
+: 
+: Here is the one line patch to fix it:
+</D:comment>
+<D:creator-displayname>hossman</D:creator-displayname>
+<S:date>2007-02-19T21:54:58.470971Z</S:date>
+</S:log-item>
+</S:log-report>

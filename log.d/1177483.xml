@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1177483</D:version-name>
+<D:comment>DERBY-5413 NetworkServerControl#main can exit with status 1 without printing an error message to console
+
+Undo the backported patch for this issue, turned out to be mistaken,
+cf explanation on issue.  It led to unwanted protocol output in some
+cases.
+
+svn merge -r 1177352:1177351  https://svn.apache.org/repos/asf/db/derby/code/branches/10.8
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-09-30T02:23:36.550316Z</S:date>
+</S:log-item>
+</S:log-report>

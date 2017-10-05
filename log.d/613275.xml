@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>613275</D:version-name>
+<D:comment>DERBY-3323  ComparisonFailure in derbyStress
+
+The test intentionally does not close ResultSets to test for a leak, but this 
+was causing an error dropping the table. Changed the test to close the last ResultSet and gc() to avoid the drop table error.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-01-18T21:15:55.232905Z</S:date>
+</S:log-item>
+</S:log-report>

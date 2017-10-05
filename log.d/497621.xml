@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>497621</D:version-name>
+<D:comment>DERBY-2228 Ensure that the J2SE data value factory is not booted with J2ME/CDC/Foundation 1.1
+which does include java.math.BigDecimal. The J2SE DVF also assumes that JDBC 2.0 is supported
+in that it calls setBigDecimal and getBigDecimal methods. Check also that java.sql.Driver is
+supported which indicates that JDBC 2.0 or higher is supported.
+Merge of revision 496567 from trrunk
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-01-18T23:01:28.903371Z</S:date>
+</S:log-item>
+</S:log-report>

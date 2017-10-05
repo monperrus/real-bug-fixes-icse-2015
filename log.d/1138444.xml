@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1138444</D:version-name>
+<D:comment>DERBY-3689: 'PrivilegedActionException: javax.management.InstanceNotFoundException' in '*(VersionMBeanTest / NetworkServerMBeanTest)'
+
+Register MBeans before starting the client thread so that the MBeans
+can be accessed by the tests once they detect the network server is
+up and running.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-06-22T12:58:54.520879Z</S:date>
+</S:log-item>
+</S:log-report>

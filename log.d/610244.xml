@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>610244</D:version-name>
+<D:comment>Cleanup CollationTest2 to use utility methods to make it clear it is a simple single connection test (for each fixture). Includes adding a utility method to BaseJDBCTestCase to read a database property.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2008-01-09T00:41:43.537020Z</S:date>
+</S:log-item>
+</S:log-report>

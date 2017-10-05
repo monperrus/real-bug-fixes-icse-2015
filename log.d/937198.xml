@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>937198</D:version-name>
+<D:comment>DERBY-2017: Client driver can insert and commit partial data when a LOB stream throws IOException or does not match the specified length
+
+Remove workaround for DERBY-2017 (the test accepted a row that shouldn't
+have been committed).
+
+Patch file: derby-2017-4a-remove_test_workaround.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-04-23T09:05:12.630197Z</S:date>
+</S:log-item>
+</S:log-report>

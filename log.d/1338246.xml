@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1338246</D:version-name>
+<D:comment>[ARIES-626] Part 1 - Set the systemId of the StreamSource so that schemas with relative includes can resolve the relative includes. Solves the "simple" issue, the external includes still needs a LOT more work.
+</D:comment>
+<D:creator-displayname>dkulp</D:creator-displayname>
+<S:date>2012-05-14T15:13:19.475306Z</S:date>
+</S:log-item>
+</S:log-report>

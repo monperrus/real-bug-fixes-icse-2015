@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>414853</D:version-name>
+<D:comment>DERBY-1392 - merged and resolved conflicts change by Anders Morken from trunk 
+to 10.1 line.
+
+RAFContainer.java#writePage(...) will
+attempt to retry a write if an IOException is thrown on the first attempt.
+However, the next attempt does not add container header data to the first page,
+nor does it encrypt the data if the database is encrypted as the wrong buffer
+is used in the catch block.
+
+I'd expect this bug to be case silent corruption of encrypted databases if the
+code path was actually exercised. The fact that this bug still lives and
+nobody has discovered it is possibly an indication of how uncommon this code
+path is. Since the comment in the code says nothing about exactly what
+platforms the workaround was intended for, I don't know if these platforms are
+still supported for Derby.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-06-16T15:57:49.193834Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>961746</D:version-name>
+<D:comment>Renaming core/.../VectorTest to core/.../VectorWritableTest as eclipse keeps bugging 'class already defined' when both core and math projects are loaded. New name is much more appropriate for the class</D:comment>
+<D:creator-displayname>robinanil</D:creator-displayname>
+<S:date>2010-07-08T12:57:30.018560Z</S:date>
+</S:log-item>
+</S:log-report>

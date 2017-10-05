@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>962848</D:version-name>
+<D:comment>DERBY-4211 derbyall/encryptionAll/storemats.fail:store/updatelocksJDBC30.sql' fails with unexpected locks
+
+merged fix #962716 from trunk to 10.6 codeline.
+
+The problem was the timing of post commit cleanup of deleted rows. If the
+test beat the post commit thread then it would "see" the deleted rows and
+need to lock them. By waiting after the commit of the deleted rows the
+results should now be consistent in the rows seen after the commit of the
+delete.
+
+Before the fix it repro'd 3 out of 100 runs. After the fix it passed 300 out
+of 300 times, so assuming it is fixed. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2010-07-10T14:20:42.076824Z</S:date>
+</S:log-item>
+</S:log-report>

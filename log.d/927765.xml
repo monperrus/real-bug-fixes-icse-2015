@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>927765</D:version-name>
+<D:comment>LUCENE-2333: Fix failures during contrib builds, when classes in core were changed without ant clean. This fix also optimizes the dependency management between contribs by a new ANT macro</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2010-03-26T10:44:25.203554Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1066701</D:version-name>
+<D:comment>DERBY-4741 Make embedded Derby work reliably in the presence of thread interrupts
+
+Patch derby-4741-testQueryInterrupt. 
+
+* adds a new test case: InterruptResilienceTest#testLongQueryInterrupt
+  which tests that a query will check for the interrupt flag and throw
+  08000 (CONN_INTERRUPT) at the same time is checks for query
+  time-out.
+
+* adds a missing piece of code in InterruptStatus#throwIf
+
+* I also adjusted an existing test (for RAF recovery) to handle the
+  case that we could see 08000 (CONN_INTERRUPT) when performing a
+  query as part of that test, depending on when the interrupt happens.
+
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-02-03T00:08:20.130458Z</S:date>
+</S:log-item>
+</S:log-report>

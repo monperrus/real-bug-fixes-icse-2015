@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>546831</D:version-name>
+<D:comment>DERBY-2712: If large Clob is updated after getting a Reader, the reader continues to point to old data.
+Patch file: derby-2712v3.diff
+
+Patch contributed by Anurag Shekhar.
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2007-06-13T11:59:34.531586Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>930177</D:version-name>
+<D:comment>DERBY-4604: test lang.CollationTest.testSwedishCaseInsensitiveCollation fails with IBM's weme6.2/1.4.2. &amp; Sun's 1.4.2
+
+Disable test case when the JVM suffers from this bug:
+http://bugs.sun.com/view_bug.do?bug_id=4804273
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-04-02T06:52:38.165304Z</S:date>
+</S:log-item>
+</S:log-report>

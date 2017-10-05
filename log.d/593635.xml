@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>593635</D:version-name>
+<D:comment>DERBY-2903 ; adding init() to sysinfo.Main.java's call to 
+   LocalizedResource.getInstance() ensures that if sysinfo has a clean 
+   one that does not get affected by any earlier calls to init.
+   After this, the redirections of system.out work correctly in a loop, so
+   adjusting the test to do away with the hoky annotating and unraveling of
+   the output; also now sequence of tests in tools._Suite no longer matters.
+
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2007-11-09T19:39:48.176119Z</S:date>
+</S:log-item>
+</S:log-report>

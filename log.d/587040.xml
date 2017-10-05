@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>587040</D:version-name>
+<D:comment>DERBY-2065 Network and embedded difference in SQLSTATE and message when Connection.close() with open transaction
+
+Patch derby-2065_1. As a result of this patch
+SQLState.LANG_INVALID_TRANSACTION_STATE and the testsing framework's
+equivalent SQLStateConstants.INVALID_TRANSACTION_STATE_NO_SUBCLASS are
+now unused, but I leave them declared since the constant 25000 is defined
+in the standard and may find some future use.
+
+Patch committed by Jorgen Loland.
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2007-10-22T08:53:21.147559Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>522262</D:version-name>
+<D:comment>LUCENE-846: don't corrupt IndexWriter instance on hitting exception (eg disk full) during addIndexes(*) when writer is opened with autoCommit=false</D:comment>
+<D:creator-displayname>mikemccand</D:creator-displayname>
+<S:date>2007-03-25T13:18:55.646082Z</S:date>
+</S:log-item>
+</S:log-report>

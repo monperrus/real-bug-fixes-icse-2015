@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>800523</D:version-name>
+<D:comment>DERBY-4310 jdbcapi.XATest passes but shows Table/View 'APP.FOO' does not exist. under logs/serverConsoleOutput.log
+
+DERBY-4155 jdbcapi/XATest.java doesn't seem to be running anywhere
+
+The problem was actually an embedded issue that close() tried to reprepare the statement which would fail if dependencies had been dropped.  This caused a failur in proper shutdown of network server which could cause a hang after running  XATest.
+
+Contributed by Tiago Espinha (tiago at espinhas dot net)
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2009-08-03T20:09:58.843634Z</S:date>
+</S:log-item>
+</S:log-report>

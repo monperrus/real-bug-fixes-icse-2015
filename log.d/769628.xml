@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>769628</D:version-name>
+<D:comment>fix propagating SuperColumn tombstones from Memtable to caller.
+patch by jbellis; reviewed by Eric Evans for #101</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-04-29T02:01:49.058503Z</S:date>
+</S:log-item>
+</S:log-report>

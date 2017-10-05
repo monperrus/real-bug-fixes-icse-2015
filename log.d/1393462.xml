@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1393462</D:version-name>
+<D:comment>DERBY-5942: Assert failure in derbynet.NetworkServerControlClientCommandTest.testPingWithWrongHost
+
+Bring invalid host name in accordance with RFC 2606.
+
+Patch file: derby-5942-1a-rfc2606.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2012-10-03T12:39:46.112739Z</S:date>
+</S:log-item>
+</S:log-report>

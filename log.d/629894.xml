@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>629894</D:version-name>
+<D:comment>DERBY-3306 (+DERBY-3412): jdbc4.StatementEventsTest cannot be run individually in a clean environment.
+This commit backs out the previous patch committed for this issue (revision 620480). Manual work was required because J2EEDataSourceTest has been split off DataSourceTest in the mean time.
+This patch also fixes StatementEventsTest by setting the createDatabase to create.
+Patch file: derby-3306-2a-backout_and_alternative_fix.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-02-21T17:52:49.070635Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>808504</D:version-name>
+<D:comment>DERBY-3478 Simple column names specified as part of "AS" clause in a table expression are ignored if the table expression is a view.
+
+Patch DERBY-3478 fixes this issue and adds a new test case.
+
+The fix adds a call to propagateDCLInfo also for views in
+FromBaseTable.bindNonVTITables which seems to have been always
+missing.
+
+Backported from trunk as:
+
+svn merge -c 808494 https://svn.eu.apache.org/repos/asf/db/derby/code/trunk
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-08-27T16:34:48.920025Z</S:date>
+</S:log-item>
+</S:log-report>

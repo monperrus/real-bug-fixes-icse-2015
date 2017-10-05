@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>997109</D:version-name>
+<D:comment>switch from Properties to HashMap in PropertyFileEndpointSnitch to avoid synchronization bottleneck.  patch by goffinet and jbellis; reviewed by brandonwilliams for CASSANDRA-1481</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-09-14T21:49:00.280138Z</S:date>
+</S:log-item>
+</S:log-report>

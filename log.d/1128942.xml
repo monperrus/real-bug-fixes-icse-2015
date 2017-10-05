@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1128942</D:version-name>
+<D:comment>DERBY-5251: make ErrorCodeTest pass in non-English locale
+
+This change was contributed by Houx Zhang (houx.zhang at gmail.com)
+
+This change modifies ErrorCodeTest to use LocaleTestSetup to
+force the test to run in English locale. Since the point of
+this test is to test the behavior of syscs_diag.error_messages,
+by comparing the contents of the messages to hard-coded English
+strings, the test needs to run in the matching locale.
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2011-05-29T19:53:41.181956Z</S:date>
+</S:log-item>
+</S:log-report>

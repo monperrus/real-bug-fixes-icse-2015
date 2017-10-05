@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>787406</D:version-name>
+<D:comment>fix columnfamily id generation in the face of multiple tables and rip out TableMetadata serialization, which only complicates things needlessly.
+
+patch by jbellis; reviewed by goffinet for CASSANDRA-79</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-06-22T21:18:02.646511Z</S:date>
+</S:log-item>
+</S:log-report>

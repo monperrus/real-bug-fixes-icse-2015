@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1002718</D:version-name>
+<D:comment>MAHOUT-513
+- Created interface GaussianAccumulator and two concrete implementations:
+  - RunningSumsGaussianAccumulator uses running sums approach
+  - OnlineGaussianAccumulator uses Knuth (Welford) approach
+- Added unit test thereof which produces significant std deviations and drastically-odd
+  variances. I'm committing this so it can get more eyeballs. It is not used anywhere yet.
+- Refactored CDbwClusterEvaluator to use RunningSumsGaussianAccumulator and
+  existing tests continue to run
+- Cleaned up logging in various clustering algorithms to increase use of debug vs. info
+  to reduce log clutter
+All tests run.</D:comment>
+<D:creator-displayname>jeastman</D:creator-displayname>
+<S:date>2010-09-29T16:27:04.507006Z</S:date>
+</S:log-item>
+</S:log-report>

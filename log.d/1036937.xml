@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1036937</D:version-name>
+<D:comment>fix flush and compaction races with schema updates. patch by gdusbabek and jbellis. CASSANDRA-1715</D:comment>
+<D:creator-displayname>gdusbabek</D:creator-displayname>
+<S:date>2010-11-19T16:55:37.648851Z</S:date>
+</S:log-item>
+</S:log-report>

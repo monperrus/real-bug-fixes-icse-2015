@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>395799</D:version-name>
+<D:comment>DERBY-1176: Stored prepared statements in the SYSIBM schema are not
+updated on upgrade
+
+  1. DD_Version.doFullUpgrade() now drops and recreates SPSs in all
+     system schemas, not SYSIBM only.
+
+  2. EmbedDatabaseMetaData already has the necessary machinery to load
+     queries from system tables or metadata.properties depending on
+     whether the engine is in soft upgrade mode or not. I extended it
+     so that it could read queries from metadata_net.properties as
+     well.
+
+  3. New method EmbedDatabaseMetaData.getClientCachedMetaData() which
+     executes SYSIBM.METADATA (either from system table or
+     metadata_net.properties) to fetch the metadata that will be
+     cached on the client.
+
+  4. SystemProcedures.METADATA() now invokes
+     EmbedDatabaseMetaData.getClientCachedMetaData() instead of
+     executing the METADATA SPS directly.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-04-21T07:02:39.652816Z</S:date>
+</S:log-item>
+</S:log-report>

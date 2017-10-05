@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>208770</D:version-name>
+<D:comment>DERBY-390: Patch to handle case-sensitive SQL identifiers correctly.   
+Import/export procedure  parameters  for table names, schema names, columns 
+names should be passed in the case-sensitive form if they are quoted identfiers
+and in upper case if they are not quoted SQL identifiers. Import/export will
+generate insert/select statements with quoted table names, schema name and 
+column names to be execute on the database after this patch.
+
+committed on behalf of: Suresh Thalamati
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2005-07-01T16:33:55.077261Z</S:date>
+</S:log-item>
+</S:log-report>

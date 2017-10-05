@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>355689</D:version-name>
+<D:comment>DERBY-614 Execution failed because of a Distributed Protocol Error
+
+Fixes the split logic when data passes the blksize boundary.
+Details of the fix are in spec.html attached to DERBY-614
+
+Contributed by Bryan Pendleton
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-12-10T01:51:26.622777Z</S:date>
+</S:log-item>
+</S:log-report>

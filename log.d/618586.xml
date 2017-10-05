@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>618586</D:version-name>
+<D:comment>DERBY-3301: Incorrect result from query with nested EXIST
+Prevent the optimizer from flattening subqueries that 
+need to be evaluated to get correct results.
+
+Patch contributed by Thomas Nielsen
+Patch files: derby-3301-8.diff, derby-3301-test-master-2.diff,
+derby-3301-test-3.diff
+
+</D:comment>
+<D:creator-displayname>dyre</D:creator-displayname>
+<S:date>2008-02-05T09:29:32.788056Z</S:date>
+</S:log-item>
+</S:log-report>

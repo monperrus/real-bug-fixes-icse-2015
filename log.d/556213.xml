@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>556213</D:version-name>
+<D:comment>release work:
+ - updated RELEASE-NOTES which now
+   . excludes bugs introduced &amp; fixed in 10.3*
+   . does not distinguish new features in categories 
+   . contains a small list of critical open bugs
+ - updated releaseSummary.xml and ReleaseNotesGenerator which helped identify
+   any new 10.3.1.2 fixes
+ - reintroduce a changes file, but this time an CHANGES.html file, created by 
+   commenting out the exception strings in the ReleaseNotesGenerator, followed
+   by manual removal of the headers, and Issues sections.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2007-07-14T02:55:08.684485Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1138416</D:version-name>
+<D:comment>DERBY-5274: getColumns() doesn't work with auto generated identity columns that start with large numbers
+
+Merged fix from trunk (revision 1136371) and bumped version number to
+make databases upgraded from earlier revisions on the branch pick up
+the fixed meta-data query.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-06-22T11:56:30.661566Z</S:date>
+</S:log-item>
+</S:log-report>

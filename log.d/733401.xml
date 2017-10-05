@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>733401</D:version-name>
+<D:comment>DERBY-4006: ALTER COLUMN .. WITH DEFAULT NULL does not change the default
+
+The code in ModifyColumnNode was having trouble distinguishing between
+the case where the user didn't specify a default at all, versus the
+case where they explicitly specified a default value of NULL. 
+
+ModifyColumnNode wants to be able to ask if "no default value was specified",
+so this change adds a boolean instance variable "keepCurrentDefault" to
+the superclass ColumnDefinitionNode, and initializes it to TRUE if no
+default clause was specified. Then ModifyColumnNode uses this variable
+to decide whether to preserve the current default value when re-building
+the column's definition.
+
+Several new test cases are also added.
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2009-01-11T00:02:56.764333Z</S:date>
+</S:log-item>
+</S:log-report>

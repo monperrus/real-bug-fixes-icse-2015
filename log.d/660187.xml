@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>660187</D:version-name>
+<D:comment>DERBY-3574: With client, attempting to get the lob length after commit or connection close if there was a call to length() before commit does not throw an exception.
+Merged revisions 647931, 648012 and 648180 from trunk to 10.4.
+These changes also fix DERBY-3469.
+
+Patches contributed by Tiago R. Espinha (whitespace changes by Knut Anders Hatlen).
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-05-26T13:29:50.404576Z</S:date>
+</S:log-item>
+</S:log-report>

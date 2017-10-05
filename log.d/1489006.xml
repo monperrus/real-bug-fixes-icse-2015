@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1489006</D:version-name>
+<D:comment>Aries-896: Undo threading changes to AbstractServiceReferenceRecipe.serviceChanged() since they can result in unbind-methods being driven with invalid service references. </D:comment>
+<D:creator-displayname>mnuttall</D:creator-displayname>
+<S:date>2013-06-03T14:34:15.146867Z</S:date>
+</S:log-item>
+</S:log-report>

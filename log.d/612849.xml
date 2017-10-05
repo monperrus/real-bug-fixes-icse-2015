@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>612849</D:version-name>
+<D:comment>DERBY-3230 Selecting data from a Table raises Error XN008: Query processing has been terminated due to an error on the server
+
+The solution was to move the retrieval of all of the data associated with the QRYDTA before the ResultSet is marked as closed on the server. 
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-01-17T15:51:40.669143Z</S:date>
+</S:log-item>
+</S:log-report>

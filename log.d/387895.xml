@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>387895</D:version-name>
+<D:comment>DERBY-428: PreparedStatement.executeBatch hangs if batch is too large
+
+This patch contains a server-side change, a client-side change, and a test.
+
+The server-side change is to call ensureLength() in DDMWriter.startDDM().
+The DDMWriter working buffer is designed to dynamically grow to accomodate
+the data being written; this dynamic growth is implemented using a coding
+rule which requires that all DDMWriter internal routines must call
+ensureLength to communicate the buffer size requirements prior to writing
+bytes into the buffer. StartDDM was missing the call to ensureLength.
+
+The client-side change is due to the fact that DRDA imposes a hard limit
+of 65535 elements in a single correlated request because the correlation
+identifier is a two byte unsigned integer. Prior to this change, the
+correlation identifiers would wrap around when we added the 65536th
+element into the batch, which breaks the DRDA protocol rule that requires
+correlation IDs in a single request be always increasing. This change
+causes the client to throw an exception if it is asked to execute a batch
+containing more than 65534 elements. The reason for the number 65534,
+rather than 65535, is that the value 0xFFFF is reserved for special use.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2006-03-22T17:23:09.352309Z</S:date>
+</S:log-item>
+</S:log-report>

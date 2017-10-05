@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>901277</D:version-name>
+<D:comment>DERBY-4491: Disable test of parameter metadata on small platforms since PreparedStatement.getParameterMetaData() is not available on JSR-169 vms.</D:comment>
+<D:creator-displayname>rhillegas</D:creator-displayname>
+<S:date>2010-01-20T16:59:52.302167Z</S:date>
+</S:log-item>
+</S:log-report>

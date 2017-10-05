@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>532404</D:version-name>
+<D:comment>DERBY-2425 ResultSetMetaData.getColumnDisplaySize() returns a negative value for BLOB columns for client
+
+After multiplication (by 2 ) if the display size overflows int range, then assign Int.MAX_SIZE to display size.
+This behavior is same as that in Embedded mode. 
+
+
+Contributed by Mayuresh Nirhali (Mayuresh.Nirhali@Sun.COM)
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-04-25T16:46:16.908892Z</S:date>
+</S:log-item>
+</S:log-report>

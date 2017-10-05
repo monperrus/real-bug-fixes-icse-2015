@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>765930</D:version-name>
+<D:comment>DERBY-4001: Sequence comparison with "ALL" does not yield correct results
+
+Added a regression test that exposes the bug. The test is not enabled
+since the fix has not been checked in yet.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-04-17T10:17:30.571491Z</S:date>
+</S:log-item>
+</S:log-report>

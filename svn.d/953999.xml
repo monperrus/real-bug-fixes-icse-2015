@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="953999"/>
+<S:open-directory rev="953998">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/953999/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">953999</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-12T13:08:00.716797Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">johan</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra" rev="953998">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/953999/cassandra</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">953999</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-12T13:08:00.716797Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">johan</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="branches" rev="953998">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/953999/cassandra/branches</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">953999</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-12T13:08:00.716797Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">johan</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra-0.6" rev="953998">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/953999/cassandra/branches/cassandra-0.6</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">953999</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-12T13:08:00.716797Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">johan</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="contrib" rev="953998">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/953999/cassandra/branches/cassandra-0.6/contrib</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">953999</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-12T13:08:00.716797Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">johan</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="pig" rev="953998">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/953999/cassandra/branches/cassandra-0.6/contrib/pig</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">953999</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-12T13:08:00.716797Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">johan</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="README.txt" rev="953998">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/953999/cassandra/branches/cassandra-0.6/contrib/pig/README.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">953999</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-12T13:08:00.716797Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">johan</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="bdb3761bbfba0048f80723064ad66c1c" sha1-checksum="f7a14d1d39e6f56cada334eca42344fedf5b25a5"/>
+<S:prop><V:md5-checksum>a65cb43d57da741d47bb19a21fa3e782</V:md5-checksum></S:prop></S:open-file>
+<S:add-file name="example-script.pig" sha1-checksum="6b6220625a21bbc124a76f17ab29f9a72c82dd60">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/953999/cassandra/branches/cassandra-0.6/contrib/pig/example-script.pig</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">953999</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-12T13:08:00.716797Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">johan</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>ad819a82a898d88b84e8018b2f7549bb</V:md5-checksum></S:prop></S:add-file>
+<S:open-file name="build.xml" rev="953998">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/953999/cassandra/branches/cassandra-0.6/contrib/pig/build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">953999</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-12T13:08:00.716797Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">johan</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c95ddb3752bac3b21095b09b073b2632" sha1-checksum="ac9290e00228e9afd32180f910a5990552c41f91"/>
+<S:prop><V:md5-checksum>b6f5913dfd27ce9d1656ed7957729c0c</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="bin" rev="953998">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/953999/cassandra/branches/cassandra-0.6/contrib/pig/bin</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">953999</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-12T13:08:00.716797Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">johan</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pig_cassandra" rev="953998">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/953999/cassandra/branches/cassandra-0.6/contrib/pig/bin/pig_cassandra</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">953999</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-12T13:08:00.716797Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">johan</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="a136b99c488a4db413df3567f470e503" sha1-checksum="d0284247271c3ef1db8af0c7f8fd41773f4d198e"/>
+<S:prop><V:md5-checksum>9fe0d8c97532567aae1e9aee067ab44f</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

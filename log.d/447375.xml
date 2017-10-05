@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>447375</D:version-name>
+<D:comment>DERBY-1326 (partial) Network server may abandon sessions when Derby
+system is shutdown and this causes intermittent hangs in the client
+
+Don't poison the network server's worker threads when an engine
+shutdown is detected. Poisoning the threads could lead to abandoning
+of sessions and hangs in the client.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-09-18T11:41:37.881275Z</S:date>
+</S:log-item>
+</S:log-report>

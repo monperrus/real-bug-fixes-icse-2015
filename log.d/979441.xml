@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>979441</D:version-name>
+<D:comment>parallelize local and remote reads during multiget, and respect snitch when determining whether to do local read for CL.ONE.  patch by jbellis; tested by Tupshin Harper for CASSANDRA-1317</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-07-26T21:05:24.736013Z</S:date>
+</S:log-item>
+</S:log-report>

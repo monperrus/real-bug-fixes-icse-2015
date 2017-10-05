@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>666040</D:version-name>
+<D:comment>DERBY-3307: NPE in PooledConnction event notification handling if a null listener is added
+
+- Added null check in ClientPooledConnection.addConnectionEventListener().
+
+- Added regression test in J2EEDataSourceTest
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2008-06-10T09:38:29.526729Z</S:date>
+</S:log-item>
+</S:log-report>

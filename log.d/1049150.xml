@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1049150</D:version-name>
+<D:comment>DERBY-4920 suites.All stuck in RAFContainer4.awaitRestoreChannel()
+
+Patch derby-4920-a. 
+
+Patch details:
+
+* InterruptStatus.java
+
+Make sure we always catch ShutdownException when we access the context
+looking for lcc.
+
+* RAFContainer4.java
+
+Improved some comments, added a final, added a max count for a retry
+loop that missed it: will throw FILE_IO_INTERRUPTED if it exceeds
+MAX_INTERRUPT_RETRIES (as elsewhere when we give up).
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2010-12-14T16:39:23.569817Z</S:date>
+</S:log-item>
+</S:log-report>

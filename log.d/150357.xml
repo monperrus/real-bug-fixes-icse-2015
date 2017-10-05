@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>150357</D:version-name>
+<D:comment>added a SortField which uses a Locale to sort strings.
+also fixed the discrepancy about what happens when a document has no terms in a sorted field.
+added test cases for both of the above.
+</D:comment>
+<D:creator-displayname>tjones</D:creator-displayname>
+<S:date>2004-05-24T22:51:42.000000Z</S:date>
+</S:log-item>
+</S:log-report>

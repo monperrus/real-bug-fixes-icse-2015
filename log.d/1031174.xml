@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1031174</D:version-name>
+<D:comment>DERBY-4845: Attempt to fix a build error which may have been caused by a submission which caused the compilation of iapi.util to trigger the compilation of iapi.types without going through the special iapi.types build target which handles the weird location of the xml machinery.</D:comment>
+<D:creator-displayname>rhillegas</D:creator-displayname>
+<S:date>2010-11-04T19:36:19.284381Z</S:date>
+</S:log-item>
+</S:log-report>

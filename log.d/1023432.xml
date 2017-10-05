@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1023432</D:version-name>
+<D:comment>MAHOUT-528 - Added VectorList type of matrix for use in SVD code
+Fixed serialization to not use strings inside JSON
+Moved some checking to MatrixView</D:comment>
+<D:creator-displayname>tdunning</D:creator-displayname>
+<S:date>2010-10-17T07:55:10.809683Z</S:date>
+</S:log-item>
+</S:log-report>

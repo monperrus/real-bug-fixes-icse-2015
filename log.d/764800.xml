@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>764800</D:version-name>
+<D:comment>DERBY-3991: Clob.truncate(0) throws exception.
+Allows a Clob to be truncated to a length of zero characters (empty string).
+
+Patch contributed by Yun Lee &lt;yun.lee.bj@gmail.com&gt;.
+
+Patch file: derby-3991-3.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-04-14T14:46:43.730584Z</S:date>
+</S:log-item>
+</S:log-report>

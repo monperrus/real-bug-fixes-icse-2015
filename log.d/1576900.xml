@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1576900</D:version-name>
+<D:comment>DERBY-6250; nightly regression test failure: jdbc4.LoginTimeoutTest testBasic client/server java.sql.SQLTimeoutException: XBDA0, Login timeout Exceeded and junit.framework.AssertionFailedError: Should not have been able to connect!
+   backport of revision 1575065 from trunk; add more details to the error message on failure.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2014-03-12T20:51:08.605616Z</S:date>
+</S:log-item>
+</S:log-report>

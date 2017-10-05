@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>916075</D:version-name>
+<D:comment>DERBY-4562 Compilation of prepared statement results in Syntax Error
+
+Patch derby-4562c. This fixes a problem with the parser logic to
+determine if OFFSET is used as an identifer or is the start of an
+offset clause. (Derby does not make OFFSET a reserved word for
+compatibility reasons.)
+
+The patch also adds new test cases.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2010-02-25T01:13:57.127492Z</S:date>
+</S:log-item>
+</S:log-report>

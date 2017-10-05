@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>611274</D:version-name>
+<D:comment>DERBY-1585 For a CALL statement that generates dynamic result sets add code so t hat the result sets are closed if they are inaccessible following the SQL Standard.
+Merge of 602991 and 603030 from trunk.
+Slight hand-merge for EmbedStatement with 602991 due to a moved call to ResultSet.finish() being changed to a ResultSet.close().</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2008-01-11T19:45:13.788739Z</S:date>
+</S:log-item>
+</S:log-report>

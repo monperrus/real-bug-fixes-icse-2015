@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>385941</D:version-name>
+<D:comment>This patch addresses following:
+
+1) Remove parsing of EXTERNAL SECURITY clause. According to the lates
+   functional specification of Grant &amp; Revoke feature, this clause will not be
+   implmented. It only had partial parsing support currently.
+
+2) Fix javadoc warnings caused by Grant &amp; Revoke work and other javadoc
+   warnings too.
+
+Submitted by Satheesh Bandaram (satheesh@sourcery.org)
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2006-03-15T00:42:39.303259Z</S:date>
+</S:log-item>
+</S:log-report>

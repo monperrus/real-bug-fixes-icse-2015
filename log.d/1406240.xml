@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1406240</D:version-name>
+<D:comment>DERBY-5954 NPE in SELECT involving subselects and windows functions
+
+Patch "derby-5954-with-test-2" makes the code only look for in-lined
+window specification in simply contained select lists. Adds a new test
+case to OLAPTest which would fail with an NPE before this patch,
+cf. original JIRA problem.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2012-11-06T17:41:53.233916Z</S:date>
+</S:log-item>
+</S:log-report>

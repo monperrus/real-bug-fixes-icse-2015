@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1066940</D:version-name>
+<D:comment>Fix race condition during decommission by announcing for RING_DELAY and
+not removing endpoint state until removing the ep from
+justRemovedEndpoints.
+Patch by brandonwilliams, reviewed by gdusbabek for CASSANDRA-2072</D:comment>
+<D:creator-displayname>brandonwilliams</D:creator-displayname>
+<S:date>2011-02-03T20:17:06.037181Z</S:date>
+</S:log-item>
+</S:log-report>

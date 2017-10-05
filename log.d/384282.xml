@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>384282</D:version-name>
+<D:comment>DERBY-616, committing on behalf of Suresh Thalamati
+
+- Added a missing privileged blocks for I/O call in StreamFileContainer.java ,
+this class is used by the sort during index creation ..etc.
+
+-- Enabled some of the tests which were not running under security manager
+earlier because of this bug to run by default with security manager.
+
+-- removed the additional permissions from the derby test policy file
+that were added earlier to avoid this bug for some test cases.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-03-08T17:51:15.992221Z</S:date>
+</S:log-item>
+</S:log-report>

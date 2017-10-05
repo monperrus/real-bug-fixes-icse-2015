@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>958431</D:version-name>
+<D:comment>DERBY-2785: ij "describe" command cannot describe table named "run"
+
+This fix was contributed by Eranda Sooriyabandara (070468D at gmail dot com)
+
+The IJ tool's parser was not flexible enough in its handling of
+identifiers, and so if you have a table named RUN, the command
+
+ij&gt; describe run;
+
+was treating RUN as a keyword, rather than realizing it was the name of
+the table. By changing the IJ parser's identifier() production to accept
+keywords, the command is now accepted and behaves as desired.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2010-06-27T22:04:09.967357Z</S:date>
+</S:log-item>
+</S:log-report>

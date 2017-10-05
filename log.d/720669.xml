@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>720669</D:version-name>
+<D:comment>LUCENE-1465: NearSpansOrdered returns payloads from first possible match 
+   rather than the correct, shortest match; Payloads could be returned even
+   if the max slop was exceeded; The wrong payload could be returned in 
+   certain situations.</D:comment>
+<D:creator-displayname>markrmiller</D:creator-displayname>
+<S:date>2008-11-25T23:38:56.694016Z</S:date>
+</S:log-item>
+</S:log-report>

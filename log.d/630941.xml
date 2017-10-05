@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>630941</D:version-name>
+<D:comment>Merging revision 629395 from trunk into 10.3 codeline. The reason for merge is I would like
+to merge changes for DERBY-3304 (629926) into trunk but that revision depends on
+DERBY-3404 (629712) which depends on DERBY-3422 (629395)
+
+The commit comments for 629395 were as follows
+
+DERBY-3422: Embedded returns wrong value for DatabaseMetaData.autoCommitFailureClosesAllResultSets()
+
+Return the correct value (true) and update the test so that it is able
+to detect differences between returned value and actual behaviour. 
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2008-02-25T17:22:58.237641Z</S:date>
+</S:log-item>
+</S:log-report>

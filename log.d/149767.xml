@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>149767</D:version-name>
+<D:comment>- Fixed clear() method that wasn't setting the very last heap element to null,
+  as reported at http://nagoya.apache.org/bugzilla/show_bug.cgi?id=9454.
+PR: 9454
+Obtained from:
+Submitted by:
+Reviewed by:
+</D:comment>
+<D:creator-displayname>otis</D:creator-displayname>
+<S:date>2002-06-05T01:46:39.000000Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>938597</D:version-name>
+<D:comment>Replace synchronization in Gossiper with concurrent data structures and volatile fields.  Also removes getSortedApplicationStates since nothing actually seems to rely on iterating in sorted order.  Patch by Brandon Williams and jbellis for CASSANDRA-757</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-04-27T18:35:21.095704Z</S:date>
+</S:log-item>
+</S:log-report>

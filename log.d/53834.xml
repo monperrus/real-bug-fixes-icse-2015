@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>53834</D:version-name>
+<D:comment>committing for klebanof@Mutagen.Net
+
+Class org.apache.derby.impl.store.access.sort.ExternalSortFactory has a latent 
+bug. Its canSupport method throws an exception if it is called with a null 
+startParams argument.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2004-10-05T23:43:37.437301Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>773017</D:version-name>
+<D:comment>fix iteration bug.  it would always return hasNext=false if seekTo was called first.  fixing this with maybeInit proved difficult, so init is now done in constructor and iterator itself is created lazily.
+patch by jbellis; tested by nk11 for CASSANDRA-153</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-05-08T14:54:27.061127Z</S:date>
+</S:log-item>
+</S:log-report>

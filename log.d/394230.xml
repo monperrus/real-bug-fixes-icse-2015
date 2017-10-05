@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>394230</D:version-name>
+<D:comment>DERBY-1025 [xa] client XAResource.start() does not commit an active local transaction when auto commit is true
+
+Contributed by Deepa Remesh
+port from trunk
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-04-15T00:09:13.323250Z</S:date>
+</S:log-item>
+</S:log-report>

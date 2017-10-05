@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1148594</D:version-name>
+<D:comment>DERBY-5120 Row from SYSDEPENDS gets deleted when a table has update triggers defined on it and an upate is made to the table
+
+Backporting 1146915 and 1146962 from trunk(10.9) to 10.8 codeline
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-07-20T01:33:23.183224Z</S:date>
+</S:log-item>
+</S:log-report>

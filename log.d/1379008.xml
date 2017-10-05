@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1379008</D:version-name>
+<D:comment>SOLR-3750: On session expiration, we should explicitly wait some time before running the leader sync process so that we are sure every node participates.
+  
+SOLR-3772: On cluster startup, we should wait until we see all registered replicas before running the leader process or if they all do not come up, N amount of time. 
+
+SOLR-3752: When a leader goes down, have the Overseer clear the leader state in cluster.json 
+
+SOLR-3751: Add defensive checks for SolrCloud updates and requests that ensure the local state matches what we can tell the request expected.</D:comment>
+<D:creator-displayname>markrmiller</D:creator-displayname>
+<S:date>2012-08-30T16:35:24.501059Z</S:date>
+</S:log-item>
+</S:log-report>

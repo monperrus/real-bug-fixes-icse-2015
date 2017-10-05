@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>778926</D:version-name>
+<D:comment>DERBY-4182
+
+Before this fix abort of inserts that included clob or blob chains would 
+destroy the links of the allocated pages of the chains.  This would leave
+allocated pages that could never be reclaimed either by subsequent post
+commit processing or inplace compress.  Only offline compress could reclaim
+the space.  This fix changes insert abort processing to automatically put
+all pieces of long columns except for the head page on the free list as part
+of the abort.
+
+Note this does not fix existing tables that have had this problem happen in
+the past, only stops it from happening.  One must run an offline compress to
+reclaim this space to fix any instances of this bug prior to this fix.
+
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2009-05-26T23:27:14.783295Z</S:date>
+</S:log-item>
+</S:log-report>

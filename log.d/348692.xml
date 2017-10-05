@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>348692</D:version-name>
+<D:comment>Modified RegexTermEnum to have more generic logic, Character.isLetterOrDigit(), to determine the prefix for term enumeration.
+
+Also added commented out test demonstrating where prefix logic fails currently.  Perhaps, like FuzzyQuery, we should push the
+prefix calculation back to the user of the query for now?
+
+</D:comment>
+<D:creator-displayname>ehatcher</D:creator-displayname>
+<S:date>2005-11-24T09:09:48.763394Z</S:date>
+</S:log-item>
+</S:log-report>

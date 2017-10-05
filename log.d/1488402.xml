@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1488402</D:version-name>
+<D:comment>DERBY-6237(PreparedStatement.execute() fails starting 10.2 when multiple rows are updated and PreparedStatement.setCharacterStream(int, Reader, int) is used) 
+
+The test will verify the updated data in the CLOB column
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-05-31T21:13:26.884944Z</S:date>
+</S:log-item>
+</S:log-report>

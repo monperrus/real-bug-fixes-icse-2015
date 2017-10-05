@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>643091</D:version-name>
+<D:comment>DERBY-2892 Closing a resultset after retrieving a large &gt; 32665 bytes value with Network Server does not release locks
+
+Contributed by Øystein Grøvlen (oystein dot grovlen at sun dot com)
+port from trunk, revision 642974
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-03-31T18:32:11.547410Z</S:date>
+</S:log-item>
+</S:log-report>

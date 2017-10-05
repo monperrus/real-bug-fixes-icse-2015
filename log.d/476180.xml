@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>476180</D:version-name>
+<D:comment>Null out the NetworkServerControl in the tearDown method of the
+network server decorator. This seems to stop future startups of
+the server taking 60+ seconds and causing tests to fail.
+Will add a note to DERBY-1966 that this is a possible cause of
+network start delays. Also null of the FileOutputStream field.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-11-17T15:35:08.551119Z</S:date>
+</S:log-item>
+</S:log-report>

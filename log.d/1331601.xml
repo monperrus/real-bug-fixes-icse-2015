@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1331601</D:version-name>
+<D:comment>DERBY-5686; multiple intermittent errors in nightly tests during DriverMgrAuthenticationTest test. reason: An SQL data change is not permitted for a read-only connection, user or database. 
+  committing patch DERBY_5686_1.diff (after removing some unnecessary imports).
+  Hopefully this will give us at least some insight into what's happening when
+  this happens during teardown of the DatabasePropertyTestSetup.  
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2012-04-27T21:25:46.757413Z</S:date>
+</S:log-item>
+</S:log-report>

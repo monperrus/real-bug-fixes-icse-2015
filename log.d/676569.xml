@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>676569</D:version-name>
+<D:comment>DERBY-3755 ij's help text lacks the optional [HOLD | NOHOLD] syntax for GET CURSOR
+
+Patch derby-3755-2, which adds the missing syntax for all locales,
+removes out-of-date JDBC 1.x references and adds a sentence on
+default values for the English locale.
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2008-07-14T12:29:54.582263Z</S:date>
+</S:log-item>
+</S:log-report>

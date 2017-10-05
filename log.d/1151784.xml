@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1151784</D:version-name>
+<D:comment>Fix building test-frameworks from contribs: The classpath used during compilation did not include ANT when executed from modules or contribs, so the build failed. Now the test-framework gets its own compilation classpath, the ant.jar can even be removed completely from top-level.</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2011-07-28T10:23:23.820644Z</S:date>
+</S:log-item>
+</S:log-report>

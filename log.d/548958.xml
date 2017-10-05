@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>548958</D:version-name>
+<D:comment>Testing StaxUpdateRequestHandler with tests written for XmlUpdateRequestHandler
+* Added three test subclasses to test updating with StaxUpdateRequestHandler rather then XmlUpdateRequestHandler
+* Made the XmlUpdateRequestHandler in TestHarness public so it could be changed after initialization
+* Fixed new DocumentBuilder toDocument() impl so it passes tests (copy fields were not handled properly)</D:comment>
+<D:creator-displayname>ryan</D:creator-displayname>
+<S:date>2007-06-20T06:46:23.830530Z</S:date>
+</S:log-item>
+</S:log-report>

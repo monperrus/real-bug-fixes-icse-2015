@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>610895</D:version-name>
+<D:comment>DERBY-3247 Mark the activations for dynamic result sets as single use once they are returned to the applications JDBC statement. Ensures that the close of the ResultSet will close the activation.
+Merge of Revision 601386 from trunk excluding the changes to EmbedStatement. Those changes were comments to the finalizer method which does not exist in 10.3 </D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2008-01-10T19:41:20.771067Z</S:date>
+</S:log-item>
+</S:log-report>

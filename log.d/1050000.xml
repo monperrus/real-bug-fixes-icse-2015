@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1050000</D:version-name>
+<D:comment>DERBY-4944 Embedded Derby does not start when derby.jar is dynamically uploaded / added to the classpath
+
+Patch BDFF.diff which checks if SourceCode#getLocation is null before
+trying to access it. It turns out that in certain cases the location
+may be null.
+
+Patch supplied by michi at groiss dot com.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2010-12-16T15:16:14.175109Z</S:date>
+</S:log-item>
+</S:log-report>

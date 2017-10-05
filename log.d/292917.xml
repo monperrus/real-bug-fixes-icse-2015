@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>292917</D:version-name>
+<D:comment>DERBY-374
+
+Invalid URL with Derby Client when connecting to Network Server causes protocol exception.
+
+This patch does the following:
+
+1. Network server used to give NPE when InternalDriver returns null connection for certain malformed URLs. With this patch, network server checks for null connections returned by InternalDriver and returns RDBAFLRM and SQLCARD with null SQLException.
+2. The client parses the SQLCARD and if finds null SQLException, it sets connectionNull variable in NetConnection to true.
+3. ClientDriver connect method, which calls the constructor of NetConnection, gets back an object with connectionNull set to true. And it inturn returns null connection.
+4. Added tests to checkDriver.java for more Client URLs. 
+
+Contributed by Deepa Remesh
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-10-01T04:30:43.993789Z</S:date>
+</S:log-item>
+</S:log-report>

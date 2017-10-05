@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1311975</D:version-name>
+<D:comment>DERBY-5454; ERROR 40001 deadlock in nstest on select max(serialkey)
+  merge of revision 1311804 from trunk.
+  replacing the code causing the intermittent deadlock with non-jdbc calls.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2012-04-10T20:38:57.504676Z</S:date>
+</S:log-item>
+</S:log-report>

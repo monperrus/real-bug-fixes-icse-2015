@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>636608</D:version-name>
+<D:comment>DERBY-2351: ORDER BY with expression with distinct in SELECT list.
+
+This is a follow-on patch for DERBY-2351, which addresses a number of
+problems involving column aliasing that occurred with the initial
+DERBY-2351 patch. After the initial DERBY-2351 patch, queries such as
+the following one failed:
+
+   select distinct c1 as a1 from t order by c1
+
+This patch modifies the ORDER BY column matching algorithm to
+match column references using multiple rules, depending on
+whether or not the ORDER BY reference is qualified or not:
+ - unqualified references are matched first against the alias name,
+   then against the underlying column name from the source table
+ - qualified references are matched only against the underlying
+   specified table
+
+A number of additional test cases are added as part of this patch to verify
+that the above query, and other similar queries, now work as intended.
+
+This patch rejects at least one query known to have worked before:
+
+    select t1.id as idc1, t1.id as idc2 from t1 order by t1.idc1, t1.idc2; 
+
+After discussion with Derby developers, this query was felt to
+be invalid, as there is no such column "idc1" in table "t1". The query
+should *not* qualify the ORDER BY column references with table "t1":
+
+    select t1.id as idc1, t1.id as idc2 from t1 order by idc1, idc2; 
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2008-03-13T03:01:14.362966Z</S:date>
+</S:log-item>
+</S:log-report>

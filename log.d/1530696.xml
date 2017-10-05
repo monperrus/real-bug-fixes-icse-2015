@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1530696</D:version-name>
+<D:comment>DERBY-3624 testfailure in storetests/st_derby715 with ibm 1.5 on iseries machine; one deadlock message missing
+
+Change test to check locks rather than sleep for synchronization.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2013-10-09T16:00:54.417984Z</S:date>
+</S:log-item>
+</S:log-report>

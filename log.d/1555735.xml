@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1555735</D:version-name>
+<D:comment>Update blueprint itests dependency on blueprint-core to the current version
+
+It was previously pointing at the old 1.4.0-SNAPSHOT which is not being built any more.
+This fixes a build error on trunk.
+</D:comment>
+<D:creator-displayname>davidb</D:creator-displayname>
+<S:date>2014-01-06T12:42:15.511912Z</S:date>
+</S:log-item>
+</S:log-report>

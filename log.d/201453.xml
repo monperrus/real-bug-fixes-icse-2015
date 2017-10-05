@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>201453</D:version-name>
+<D:comment>Most of Wolf Siberski's patch to fix #35241/#31841: MulitSearcher failed on WildcardQuery etc.
+-this has not been committed: removal of mergeBooleanQueries(); change to BooleanQuery.equals()
+-added: a test case that is commented out which shows strange queries like "multi* multi* foo" don't work properly
+</D:comment>
+<D:creator-displayname>dnaber</D:creator-displayname>
+<S:date>2005-06-23T20:43:47.405147Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1502329</D:version-name>
+<D:comment>
+DERBY-6040(Incorrect row order returned for an ORDER BY on a join of two table functions)
+
+Backporting to 10.8 from 10.9. Original fix contributed by Rick
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-07-11T19:14:35.995997Z</S:date>
+</S:log-item>
+</S:log-report>

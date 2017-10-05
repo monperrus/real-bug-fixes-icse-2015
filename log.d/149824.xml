@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>149824</D:version-name>
+<D:comment>Changed the stemming algorithm to ignore case while stripping. The algorithm is faster and produces more equal stems from nouns and verbs derived from the same word. That fixes the problem finding substantives when the searchterm is provided in lowercase. Now the stemming results are almost case insensitive. Changed the checking of legal terms to only reject terms that contain non letters, which solves problems with terms that contain irregular cased letters. Removal of pertical denotion now produces less overstemming errors. Code is rearranged a bit.
+</D:comment>
+<D:creator-displayname>gschwarz</D:creator-displayname>
+<S:date>2002-07-21T23:16:09.000000Z</S:date>
+</S:log-item>
+</S:log-report>

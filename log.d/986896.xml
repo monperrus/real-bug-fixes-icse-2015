@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>986896</D:version-name>
+<D:comment>use mlockall via JNA, if present, to prevent Linux from swapping out parts of the JVM (CASSANDRA-1214)</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-08-18T20:02:21.632515Z</S:date>
+</S:log-item>
+</S:log-report>

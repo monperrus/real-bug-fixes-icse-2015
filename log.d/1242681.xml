@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1242681</D:version-name>
+<D:comment>DERBY-5608: BaseTestCase.readProcessOutput should read getInputStream() and getErrorStream() in separate threads
+
+Use SpawnedProcess to read stdout/stderr from the subprocess, since it already
+has code to do this in separate threads.
+
+Patch file: derby-5608-1a-use_spawnedprocess.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2012-02-10T05:39:01.995790Z</S:date>
+</S:log-item>
+</S:log-report>

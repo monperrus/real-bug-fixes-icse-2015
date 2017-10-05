@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>504234</D:version-name>
+<D:comment>DERBY-2258 DERBY-2259 DERBY-2260 DERBY-2245
+1) metadata.properties : Removed entries for LONG NVARCHAR, NATIONAL CHAR, NATIONAL CHAR VARYING data type &amp; added XML data type in getTypeInfo()
+2) DatabaseMetaDataTest.java : Removed check for unsupported types (all supported types are specified in supportedTypes array ) from testGetTypeInfo() method &amp; added support for SQLXML type in the test. This requires extending the test to verify the field values for XML data type (like PRECISION, SEARCHABLE etc)
+3) connectionJdbc20.out : It requires removing unsupported data types &amp; adding XML data type in the expected output for the test. 
+4) Minor changes to getSQLKeywords.
+Patch contributed by: Saurabh Vyas Saurabh.Vyas@Sun.COM</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-02-06T18:38:41.205231Z</S:date>
+</S:log-item>
+</S:log-report>

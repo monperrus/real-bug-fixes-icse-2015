@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>476674</D:version-name>
+<D:comment>DERBY-2062 - Need to filter out string 'DB2ConnectionCorrelator (...)' with jcc 2.6.90.
+
+- filtered out in the 2 tests where this is encountered by modifying the _sed.properties files.
+
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2006-11-19T01:14:00.545384Z</S:date>
+</S:log-item>
+</S:log-report>

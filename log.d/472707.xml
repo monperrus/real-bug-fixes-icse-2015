@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>472707</D:version-name>
+<D:comment>DERBY-2047 (partial) Expose the generic data source (bean) property setting method in JDBCDataSource
+and change DataSourcePropertiesTest to use it as part of clean up to ensure clean separation between
+old harness code and JUnit code.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-11-09T00:00:17.343702Z</S:date>
+</S:log-item>
+</S:log-report>

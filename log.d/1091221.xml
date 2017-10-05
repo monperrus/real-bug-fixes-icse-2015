@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1091221</D:version-name>
+<D:comment>DERBY-5185 store/rollForwardRecovery.sql stuck in RAFContainer4.recoverContainerAfterInterrupt() during shutdown
+
+Patch derby-5185-1a.diff. Avoid waiting forever in the loop in
+recoverContainerAfterInterrupt where we wait for other concurrent
+threads to hit the wall (having seen ClosedChannelException), i.e. so
+we know they waiting for this thread to clean up. The counting logic
+(threadsInPageIO) here needs to be correct, if there is an error, we
+could risk waiting forever, as seen in this issue.
+
+This patch should be followed up by a patch to correct the logic, but
+until such time, this patch improves on the situation.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-04-11T21:36:02.770984Z</S:date>
+</S:log-item>
+</S:log-report>

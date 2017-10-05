@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>321274</D:version-name>
+<D:comment>DERBY-375
+
+Specification of incomplete server properties on command line causes NPE with NetworkServerControl when starting the server.
+
+The patch does the following:
+1. Moves the call to 'init', which initializes 'langUtil', before the call to 'getPropertyInfo' method in the constructors of NetworkServerControlImpl.
+2. If the system properties are specified without values, use defaults for them.
+3. For 'derby.drda.traceDirectory' property following is mentioned in the doc - "If the derby.system.home property has been set, it is the default. Otherwise, the default is the current directory.". 'getPropertyInfo' was getting the value of 'derby.system.home' but not using it as default for 'derby.drda.traceDirectory'.
+So the current directory was always getting used as default. Changed this.
+4. When I added the default for 'derby.drda.traceDirectory', the tests derbynet/getCurrentProperties.java and derbynet/sysinfo.java had additional lines for derby.drda.traceDirectory in their outputs. Since the directory listed is dependent on the test directory, I have sed out 'traceDirectory' lines for these tests.
+5. Adds tests to derbynet/testProperties.java.
+6. Fixes javadoc for 'traceDirectory' in NetworkServerControl.
+
+Contributed by Deepa Remesh
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-10-15T01:22:15.375051Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>472187</D:version-name>
+<D:comment>DERBY-2036 DERBY-2043 DERBY-2047 (partial) Re-work connection handling in JUnit tests.
+Create connection factory Connector with two implementations, DataSourceConnector and DriverManagerConnector.
+This ensures that running tests does not attempt to load DriverManager when running tests with JSR169.
+Ensure DataSource implementation sets user name and password from configuration for the getConnection()
+method to ensure the ChangerUserTestSetup works.
+Refactor the setting of data source Java bean properties to be from a HashMap rather than a Properties
+object to ensure that no special code exists at the lowest level to deal with different property types.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-11-07T18:18:54.509377Z</S:date>
+</S:log-item>
+</S:log-report>

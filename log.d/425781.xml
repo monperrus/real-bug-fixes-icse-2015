@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>425781</D:version-name>
+<D:comment>DERBY -1156 (partial) re-encryption of the database.
+
+This patch adds a new test that tests recovery of the database 
+if the engine crashes just before committing the re-encryption
+with a new password phrase. Crash is simulated using the debug flags. 
+
+</D:comment>
+<D:creator-displayname>suresht</D:creator-displayname>
+<S:date>2006-07-26T17:11:33.450763Z</S:date>
+</S:log-item>
+</S:log-report>

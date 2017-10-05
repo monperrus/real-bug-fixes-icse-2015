@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>658232</D:version-name>
+<D:comment>DERBY-3652: When matching SQL to Java signatures during routine resolution, prevent the matching of smaller numerics to larger numerics since this kind of matching violates the ANSI rules.</D:comment>
+<D:creator-displayname>rhillegas</D:creator-displayname>
+<S:date>2008-05-20T13:11:56.682601Z</S:date>
+</S:log-item>
+</S:log-report>

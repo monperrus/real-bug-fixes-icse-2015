@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>536677</D:version-name>
+<D:comment>DERBY-2556 Code paths for db restore do not use doPrivileged-calls, causing SecurityException
+
+Add priv blocks for File.exists() calls in restore.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-05-09T22:01:34.174174Z</S:date>
+</S:log-item>
+</S:log-report>

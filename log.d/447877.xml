@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>447877</D:version-name>
+<D:comment>DERBY-147: ERROR 42x79 if specify same column twice and use ORDER BY
+
+This patch contributed by Bernd Ruehlicke (apache@priwall.org)
+
+This patch changes the getOrderByColumn method in ResultColumnList so that
+it uses ResultColumn.isEquivalent to determine whether the column specified
+in the ORDER BY clause is ambiguous or not. It is ok to select the ORDER BY
+column multiple times, so long as all the occurrences are equivalent. If there
+is an ambiguity, the statement is rejected and the user must reword it to
+clarify which column is to be used for ordering the results.
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2006-09-19T15:16:00.721739Z</S:date>
+</S:log-item>
+</S:log-report>

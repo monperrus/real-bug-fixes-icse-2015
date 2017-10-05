@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1138341</D:version-name>
+<D:comment>DERBY-5291: test failure: NullPointerException with J2ME (weme 6.2) in testDerby4137_TransactionTimeoutSpecifiedNotExceeded(org.apache.derbyTesting.functionTests.tests.memory.XAMemTest)
+
+Disabled test case for DERBY-4137 on platforms that don't support XADataSource.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-06-22T08:49:12.615483Z</S:date>
+</S:log-item>
+</S:log-report>

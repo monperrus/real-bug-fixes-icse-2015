@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>570562</D:version-name>
+<D:comment>DERBY-2910  SimpleStringOperatorNode in it's bindExpression method generates a character string CAST if required but does not set the correct collation.
+
+port change 570546 from trunk
+ 
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-08-28T20:26:16.276477Z</S:date>
+</S:log-item>
+</S:log-report>

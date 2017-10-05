@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>418672</D:version-name>
+<D:comment>DERBY-578 - Grouped select from temporary table raises null pointer exception in byte code generator
+DERBY-1464 - runtimestatistics can show that an index is being used even when it isn't
+
+Contributed by Manish Khettry
+
+The problem is simple enough-- we didn't have a conglomerate name for temporary tables. I fixed the code to behave more like what fillInScanArgs does.
+
+Earlier, we would set the indexName field in DistinctScanResult to the conglomerate name (cd.getName()) used to scan the table. If the conglomerate was the base table itself then this was just plain wrong. The change, for this patch, passes null if no index is being used.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-07-03T02:37:42.940313Z</S:date>
+</S:log-item>
+</S:log-report>

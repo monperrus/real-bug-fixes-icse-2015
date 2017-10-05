@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1063960</D:version-name>
+<D:comment>DERBY-4982 Retrying after interrupts in store pops a bug in derbyall/storeall/storeunit/T_RawStoreFactory in some cases
+
+Patch derby-4982c. Makes the sane and insane behavior of double patch attempt detection the same: throw DATA_DOUBLE_LATCH_INTERNAL_ERROR.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-01-27T02:14:05.198240Z</S:date>
+</S:log-item>
+</S:log-report>

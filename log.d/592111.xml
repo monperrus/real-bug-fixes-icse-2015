@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>592111</D:version-name>
+<D:comment>DERBY-3110 server hangs after trace on command fails
+If there is an error in turning on tracing for any of the sessions, we fail to turn global tracing on and return an error to the client. The change also wraps the tracing in a privilege block.  
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-11-05T18:05:09.599743Z</S:date>
+</S:log-item>
+</S:log-report>

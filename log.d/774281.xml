@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>774281</D:version-name>
+<D:comment>DERBY-4204: Runtime statistics not collected on re-execution of statement
+
+Make sure NoRowsResultSetImpl.close() prints the collected runtime
+statistics each time close() is called on a result set that is not
+currently closed. After DERBY-827 close() didn't print the statistics
+if the result set had been closed and reopened.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-05-13T10:55:56.401955Z</S:date>
+</S:log-item>
+</S:log-report>

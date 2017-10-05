@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1070948</D:version-name>
+<D:comment>DERBY-4626: Timestamp truncated when converted to string with explicit calendar
+
+backport change #999485 from trunk to 10.6 branch.
+
+Added a test case. The bug was fixed as part of DERBY-4625.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2011-02-15T15:59:44.830861Z</S:date>
+</S:log-item>
+</S:log-report>

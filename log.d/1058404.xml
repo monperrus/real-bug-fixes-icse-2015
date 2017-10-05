@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1058404</D:version-name>
+<D:comment>DERBY-4856 this is part three of thread dump and diagnostic information check in. With this check in, user can use derby.stream.error.extendedDiagSeverityLevel to turn on more tracing or turn it off. I am assuming in the code whether database is up or not based on the information. Also modify tests that affected by this fix.
+</D:comment>
+<D:creator-displayname>lilywei</D:creator-displayname>
+<S:date>2011-01-13T03:56:34.763926Z</S:date>
+</S:log-item>
+</S:log-report>

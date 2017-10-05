@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>620480</D:version-name>
+<D:comment>DERBY-3306: jdbc4.StatementEventsTest cannot be run individually in a clean environment. This is in fact a more general fix for tests using a DataSource obtained through the JUnit framework utility classes to create connections. The connections will now default to create the database if it does not exists. The accompanying test changes were required to get a clean suites.All run, and falls into three categories; test doesn't want to create db, asserting on zero warnings or uses connection attributes that conflict with db creation.
+Patch file: derby-3306-1c-create_db_by_default_and_test_fixes.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-02-11T13:02:38.688092Z</S:date>
+</S:log-item>
+</S:log-report>

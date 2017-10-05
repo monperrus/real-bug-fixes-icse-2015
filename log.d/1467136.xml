@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1467136</D:version-name>
+<D:comment>DERBY-6144 nightly regression test failure, intermittent error : testStatisticsCorrectness(org.apache.derbyTesting.functionTests.tests.store.AutomaticIndexStatisticsTest)junit.framework.A
+
+back ported change #1467011 from trunk to 10.8 branch
+
+test was asserting that stats had to be created after "now".  I think the
+nightly was getting a case where the time was the same.  DERBY-5046 fixed
+a different part to the same test to check for greater than now, so implemented
+that same fix at the offending line.  Also added some text to be printed with
+the variable values if it happens again.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2013-04-11T23:17:37.608668Z</S:date>
+</S:log-item>
+</S:log-report>

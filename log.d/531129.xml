@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>531129</D:version-name>
+<D:comment>DERBY-2488: Patch to ensure that JDBC 4 Pooled and XA connections are returned
+from JDBC 3 DataSources if the app is running with Java SE 6.  In particular:
+
+  1. Adds two methods, "getNewPooledConnection()" and "getNewXAConnection()",
+     to the Driver30 class and makes those methods return JDBC 3 objects.
+
+  2. Overides the two methods from #1 in Driver40 to return JDBC 4 objects.
+
+  3. Changes the "createPooledConnection()" method and "createXAConnection()"
+     methods in EmbeddedConnectionPoolDataSource and EmbeddedXADataSource
+     (respectively) to call the new methods on the DriverXX object returned
+     from the existing "findDriver()" method.
+
+  4. Removes the now unused "createPooledConnection()" method from
+     EmbedConnectionionPoolDataSource40, and removes "createXAConnection()"
+     from EmbedXADataSource40.
+
+  5. Changes ClientXADataSource, which had a problem similar to the Embedded
+     data sources, to match the behavior of ClientConnectionPoolDataSource
+     so that client now correctly returns JDBC 4 objects for Java SE 6 apps.
+
+  6. Includes a new test, jdbc4/JDBC4FromJDBC3DataSourceTest, which verifies
+     that JDBC 4 connections will be returned from JDBC 3 data sources if the
+     JDK in use is JDK 1.6. 
+
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2007-04-22T00:08:27.992103Z</S:date>
+</S:log-item>
+</S:log-report>

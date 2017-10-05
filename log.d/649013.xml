@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>649013</D:version-name>
+<D:comment>DERBY-3588: AllPackages.java: Do not add a test suite by reflection if a 
+ClassNotFoundException occurs. This makes it possible to run suites.All
+using a 1.5 JVM when Derby has been built without Java SE 6 libraries
+(and thus without JDBC 4 test classes).
+Patch contributed by Ole Solberg (Ole dot Solberg at Sun dot com).
+</D:comment>
+<D:creator-displayname>johnemb</D:creator-displayname>
+<S:date>2008-04-17T09:07:15.424699Z</S:date>
+</S:log-item>
+</S:log-report>

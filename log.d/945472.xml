@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>945472</D:version-name>
+<D:comment>DERBY-4536; backporting fixes of DERBY-858 from 10.5 to 10.4 so 
+  tests are not affected by hash table ordering changes. Merge command: 
+  svn -c merge 835482 https://svn.apache.org/repos/asf/db/derby/code/branches/10.5
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2010-05-18T03:25:45.257253Z</S:date>
+</S:log-item>
+</S:log-report>

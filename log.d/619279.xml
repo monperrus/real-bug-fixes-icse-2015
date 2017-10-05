@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>619279</D:version-name>
+<D:comment>DERBY-3304
+
+This is a followup commit for DERBY-3304 based on various comments. It does following
+1)The existing method resetActivations in GenericLanguageConnectionContext has been renamed to better reflect it's
+functionality. It will be now called endTransactionActivationHandling since it gets called for commit/rollback.
+2)The javadoc comments for resetActivations(now called endTransactionActivationHandling) were not valid. Fixed that in 
+this commit.
+3)Took out the redundant code about setting the holdability to false if we were in rollback. It was needed earlier
+because the method that took care of activations at rollback time needed to check the holdability. That method
+(BaseActivation.reset) does not check holdability anymore and hence we do not need to set the activations to false
+holdability when we are dealing with rollback.
+4)Lastly, JDBC api for Connection.commit does not ask for clearing of warnings and hence we should not have code to
+clear the warnings at the time of commit. I removed the warning clearing code from resetActivations(now called 
+endTransactionActivationHandling) in GenericLanguageConnectionContext.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2008-02-07T05:48:54.174210Z</S:date>
+</S:log-item>
+</S:log-report>

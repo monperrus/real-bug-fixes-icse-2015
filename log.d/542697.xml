@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>542697</D:version-name>
+<D:comment>DERBY-2716
+
+fixed bad parsing of java version argument.  In the process also discovered 
+that J2ME environment also reproduces DERBY-2703, so changed the test case
+to also not run in this enviroment.   I just brute forced the java version
+check, hopefully 2703 will get fixed before needing to add more jvm's to 
+ignore.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2007-05-29T23:31:27.691162Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1526210</D:version-name>
+<D:comment>LUCENE-5243: Temporarily fix problem with Clover + Java 7 caused by broken comparator. Once Clover 3.2.0 is out we can remove the snapshot repository. This patch is needed on trunk only (because Java 7)</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2013-09-25T15:47:06.090355Z</S:date>
+</S:log-item>
+</S:log-report>

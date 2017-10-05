@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>596262</D:version-name>
+<D:comment>DERBY-3208: Callers of DaemonService.serviceNow() assume behaviour not
+guaranteed by the interface
+
+Expanded the javadoc comment in the interface so that it guarantees
+what the callers implicitly assume.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-11-19T10:50:41.894131Z</S:date>
+</S:log-item>
+</S:log-report>

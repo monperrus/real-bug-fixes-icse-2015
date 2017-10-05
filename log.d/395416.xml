@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>395416</D:version-name>
+<D:comment>DERBY-901
+Remove use of String(byte[]) constructors in network server leading to non-portable behaviour
+
+Contributed by Sunitha Kambhampati
+
+I am attaching the patch ( derby901.p2.diff.txt, derby901.p2.stat.txt) to fix the remaining places that the String(byte[]) constructor is used in Network Server.
+
+remove use of default String(byte[]) constructor in
+-- trace method in DRDAConnThread.readAndSetParams to print out the hex string of the bytes .
+-- use SQLERRMC_TOKEN_DELIMITER in SQLDIAGCI .
+
+some cleanup
+ -- define the SQLERRMC_MESSAGE_DELIMITER in SystemProcedures and use that in DRDAConnThread.
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-04-19T22:40:25.729465Z</S:date>
+</S:log-item>
+</S:log-report>

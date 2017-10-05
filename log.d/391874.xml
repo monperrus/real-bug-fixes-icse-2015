@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>391874</D:version-name>
+<D:comment>fixed IndexWriter.mergeSegments(minSeg,end) when end was not the last segment... only affected addIndexes(Directory[]) LUCENE-540</D:comment>
+<D:creator-displayname>yonik</D:creator-displayname>
+<S:date>2006-04-06T01:40:42.243223Z</S:date>
+</S:log-item>
+</S:log-report>

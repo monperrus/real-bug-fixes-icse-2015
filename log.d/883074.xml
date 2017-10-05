@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>883074</D:version-name>
+<D:comment>LUCENE-2088: AttributeSource.addAttribute should only accept interfaces, the missing test leads to problems with Token.TOKEN_ATTRIBUTE_FACTORY
+This also fixes the package.html error Shai mentioned.</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2009-11-22T13:18:10.330469Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>465020</D:version-name>
+<D:comment>DERBY-1897 Removed the load of DataSourcePropertiesTest from jdbcapi._Suite for J2ME
+by requiring that JDBC 3 be supported for that test.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-10-17T19:55:53.852103Z</S:date>
+</S:log-item>
+</S:log-report>

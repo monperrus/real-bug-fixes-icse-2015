@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1586303</D:version-name>
+<D:comment>Merged revision(s) 1586301 from lucene/dev/trunk:
+Fix test that fails on Windows if it gets a FSDirectory (it intentionally does not close IW/IR). The new cleanup code then complains about inability to delete the index dir</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2014-04-10T13:55:59.160693Z</S:date>
+</S:log-item>
+</S:log-report>

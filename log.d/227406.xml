@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>227406</D:version-name>
+<D:comment>DERBY-488 Cast the return (DataValueDescriptor) from a generated call to setWidth to the type of the field
+it was being stored in (sub-class of DataValueDescriptor, e.g. NumberDataValue). The previous incorrect
+assignment worked and passed most verifiers but the 1.4.2 VM on IBM iSeries rejected the generated class.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-08-04T14:20:25.313801Z</S:date>
+</S:log-item>
+</S:log-report>

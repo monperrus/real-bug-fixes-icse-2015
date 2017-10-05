@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>676007</D:version-name>
+<D:comment>DERBY-3773  ImportExportLobTest failed on Zos Clobs differ at index 1 expected:&lt;99&gt; but was:&lt;196&gt;
+
+Needed to specify codeset when importing file.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-07-11T16:00:18.351777Z</S:date>
+</S:log-item>
+</S:log-report>

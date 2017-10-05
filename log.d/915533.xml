@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>915533</D:version-name>
+<D:comment>Refactor DatabaseDescriptor to isolate the code that establishes the keyspaces and column families. Patch by Gary Dusbabek, reviewed by Eric Evans.  CASSANDRA-819</D:comment>
+<D:creator-displayname>gdusbabek</D:creator-displayname>
+<S:date>2010-02-23T21:48:31.088970Z</S:date>
+</S:log-item>
+</S:log-report>

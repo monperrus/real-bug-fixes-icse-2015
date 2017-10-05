@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1526569</D:version-name>
+<D:comment>DERBY-6146 testMultipleLastKeyWaitsInMaxScan(org.apache.derbyTesting.functionTests.tests.store.IndexSplitDeadlockTest)junit.framework.AssertionFailedError: Column value mismatch @ column '1',
+
+Check that locks have been taken as expected instead of always just waiting one second to avoid intermittent failure
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2013-09-26T15:24:44.631755Z</S:date>
+</S:log-item>
+</S:log-report>

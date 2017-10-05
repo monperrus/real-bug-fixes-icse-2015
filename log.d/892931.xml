@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>892931</D:version-name>
+<D:comment>move isInSameRack and isInSameDC into AbstractEPS, making the basic IEPS interface sorting by proximity and the rest an implementation detail that only the corresponding kind of ReplicationStrategy should care about.  split sortByProximity into in-place and copying versions, fixing bug in findSuitableEndPoint.  patch by jbellis and goffinet for CASSANDRA-648</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-12-21T19:11:18.233052Z</S:date>
+</S:log-item>
+</S:log-report>

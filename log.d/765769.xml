@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>765769</D:version-name>
+<D:comment>MAHOUT-118 fixes all of the occurrences (except one) of FileSystem.get to use the two argument version with an appropriate Path as a first argument.
+
+The only remaining instance is in org.apache.mahout.ga.watchmaker.MahoutEvaluator at line 64, where there's no obvious Path available to provide the first argument. Getting this one working will probably require refactoring.</D:comment>
+<D:creator-displayname>jeastman</D:creator-displayname>
+<S:date>2009-04-16T21:32:11.126633Z</S:date>
+</S:log-item>
+</S:log-report>

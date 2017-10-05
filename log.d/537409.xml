@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>537409</D:version-name>
+<D:comment>DERBY-2635: intermittent failure in T_RawStoreFactory unit test
+
+Disabled the interrupter thread which sometimes caused stray
+interrupts in sane builds.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-05-12T13:08:00.841433Z</S:date>
+</S:log-item>
+</S:log-report>

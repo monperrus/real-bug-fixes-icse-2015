@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1303630</D:version-name>
+<D:comment>DERBY-5638 intermittent test failure in test_05_ClobNegative when running full largedata._Suite; LobLimitsTestjava.sql.SQLException: Table/View 'BLOBTBL' already exists in Schema 'APP'.
+
+
+Adding a new test fixture to LobLimitsTest.java which will shutdown the databases. This test fixture will be the last one to get executed in the suite since the tests are run in order in this particular suite. This shutdown will ensure that all the logs are applied to the database and hence there are no unapplied log files left at the end of the suite. Large data suite deals will large data objects which can cause us to have large log files and if the database is not shutdown at the end of the suite, the suite will finish successfully but will leave a database directory with large number of big log files. Nightly machines which run this suite on a regular basis can eventually run out of disk space if those machines do not delete the database directories from multiple runs.
+
+I ran the large data suite on my machine and it ran with no problems. I checked the size of the database wombat after the suite finished and the size of the db was much smaller because of addition of shutdown databases fixture.
+
+Another change made as part of the code changes is to do a truncate table after doing delete from table. TRUNCATE table will avoid post-commit work and shouldn't cause any concurrent locking to happen. We do not want to remove delete from table though because it exercises separate code path in Derby compared to TRUNCATE.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2012-03-22T00:17:35.458172Z</S:date>
+</S:log-item>
+</S:log-report>

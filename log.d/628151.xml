@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>628151</D:version-name>
+<D:comment>DERBY-3400 testgetTypeInfo Fails with ibm16 while running the UpgradeTests
+
+Workaround for IBM JVM issue. Make new arrays for ODBC nullability instead of doing arrayCopy.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-02-15T19:36:22.212200Z</S:date>
+</S:log-item>
+</S:log-report>

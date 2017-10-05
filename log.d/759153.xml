@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>759153</D:version-name>
+<D:comment>DERBY-4122: ClassCastException in SQLClob when running in soft upgrade mode (10.4.2.0 -&gt; 10.5.1.0).
+Fixes incorrect positioning of the stream after investigating the stream header (this doesn't fix the ClassCastException). The positioning bug is also only
+seen when processing streams with a pre 10.5 header, which may happen both in
+soft upgrade and hard upgraded mode. It will not happen in a newly created
+10.5 database.
+
+Patch file: derby-4122-1a-incorrect_stream_positioning.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-03-27T14:36:19.070967Z</S:date>
+</S:log-item>
+</S:log-report>

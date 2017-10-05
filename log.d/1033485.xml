@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1033485</D:version-name>
+<D:comment>DERBY-4895 Thread local TableDescriptor#referencedColumnMap is not removed from app threads when Derby is shut down
+
+Patch derby-4895-a plus a comment as Knut suggested. The patch moves
+the storage of a table's referencedColumnMap to the lcc to avoid a
+lingering thread local in application threads after Derby has shut
+down (seen as potential memory leak error in TomCat deployments).
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2010-11-10T14:22:56.859269Z</S:date>
+</S:log-item>
+</S:log-report>

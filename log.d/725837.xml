@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>725837</D:version-name>
+<D:comment>LUCENE-1462
+InstantiatedIndexWriter did not reset pre analyzed TokenStreams the same way IndexWriter does. 
+Parts of InstantiatedIndex was not Serializable.
+
+</D:comment>
+<D:creator-displayname>kalle</D:creator-displayname>
+<S:date>2008-12-11T22:08:45.679272Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>743023</D:version-name>
+<D:comment>DERBY-4050 Multithreaded clob update causes growth in table that does not get reclaimed
+- Changes clob update case to call getPage() instead of getPageNoWait() so we are sure to reclaim the page.
+- Adds some debug statements for other places that we might not reclaim space.
+- Adds a test.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2009-02-10T17:13:19.322048Z</S:date>
+</S:log-item>
+</S:log-report>

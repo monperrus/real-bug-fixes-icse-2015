@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1173311</D:version-name>
+<D:comment>LUCENE-3442: TermQuery.TermWeight.scorer() returns null for non-atomic IndexReaders (optimization bug, introcuced by LUCENE-2829), preventing QueryWrapperFilter and similar classes to get a top-level DocIdSet.</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2011-09-20T19:16:01.733907Z</S:date>
+</S:log-item>
+</S:log-report>

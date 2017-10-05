@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1351290</D:version-name>
+<D:comment>[SPI-Fly] Prevent registration of service properties starting with a dot '.'.
+This fixes an OSGi TCK failure.
+</D:comment>
+<D:creator-displayname>davidb</D:creator-displayname>
+<S:date>2012-06-18T10:58:18.490472Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1351286</D:version-name>
+<D:comment>Remove the register="*" functionality from the osgi.serviceloader capability as this functionality can be achieved by leaving out the directive.
+This fixes one failing test on the OSGi ServiceLoader Mediator CT.
+
+Also added a script to prepare and copy the ServiceLoader jar to the CT.</D:comment>
+<D:creator-displayname>davidb</D:creator-displayname>
+<S:date>2012-06-18T10:49:37.492575Z</S:date>
+</S:log-item>
+</S:log-report>

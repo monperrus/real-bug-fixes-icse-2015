@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1433533</D:version-name>
+<D:comment>SOLR-4016: Deduplication does not work with atomic/partial updates so disallow atomic update requests which change signature generating fields.</D:comment>
+<D:creator-displayname>shalin</D:creator-displayname>
+<S:date>2013-01-15T17:16:56.881327Z</S:date>
+</S:log-item>
+</S:log-report>

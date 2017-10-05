@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>535897</D:version-name>
+<D:comment>related to SOLR-203 and rev:535580.  Some servlet containers (including resin) use an empty string as the getServletPath() if you are on the webapp root:
+  http://localhost:8983/solr
+
+others (jetty) redirect to:
+ http://localhost:8983/solr/
+
+This makes sure it is a real path before trying to match a request handler.
+
+</D:comment>
+<D:creator-displayname>ryan</D:creator-displayname>
+<S:date>2007-05-07T15:18:32.017732Z</S:date>
+</S:log-item>
+</S:log-report>

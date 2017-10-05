@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1344854"/>
+<S:open-directory rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="dev" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="branches" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="branch_4x" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/lucene/dev/branches/LUCENE2793:1137551-1144189
+/lucene/dev/branches/branch_3x:949730,957490,961612,979161,980654,982195,987811,988512,1025544,1026614,1034080,1039151,1050654,1056762,1060014,1060438,1060784,1061035,1063880,1063934,1065324,1066771,1067699,1067764,1070818,1075044,1079376,1079381,1080071,1081052,1083240,1083534,1083726,1083789,1083812,1085811,1090423,1091501,1092373,1095519,1098770,1099210,1100407,1100480,1100494,1100515,1101106,1103086,1128215,1128227,1128462,1129419,1129435,1130612,1132581,1132978,1134823,1134917,1136714,1138351,1139430,1139461,1141060,1144653,1148611,1148849,1148864,1150434,1151830,1151947,1152766,1166791,1173311,1173701,1173745,1177994,1180637,1184955,1188805,1189914,1189969,1190293,1198337,1199847,1201739,1204005,1204436,1204494,1204519,1204547,1204565,1204826,1204970,1206022,1207010,1207024,1208375,1212063,1212539,1212754,1215483,1226235,1226466,1229268,1230429,1232011,1232954,1234450,1235713,1243906,1244960,1299077,1302155,1302243,1302509,1302548,1302703,1302733,1302749,1302808,1303007,1303023,1303269,1303733,1303854,1304295,1304360,1304660,1304904,1305074,1305142,1305574,1305585,1305622,1305681,1305693,1305719,1305741,1305816,1305837,1306929,1307050,1309587,1309637,1310314
+/lucene/dev/branches/bulkpostings:1069647,1069925
+/lucene/dev/branches/docvalues:1021634-1134288
+/lucene/dev/branches/lucene2621:1188713-1197598,1197605-1199706,1199787-1202835
+/lucene/dev/branches/lucene2858:1234440-1238051
+/lucene/dev/branches/lucene3606:1209906-1212022
+/lucene/dev/branches/lucene3622:1211241-1213825
+/lucene/dev/branches/lucene3661:1233476-1237242,1237250-1238012
+/lucene/dev/branches/lucene3795_lsp_spatial_module:1291491-1300396
+/lucene/dev/branches/lucene3969:1311219-1324948
+/lucene/dev/branches/lucene4055:1338960-1343359
+/lucene/dev/branches/lucene_solr_3_1:1081856,1083239,1085499,1085511,1085532,1085809,1101103
+/lucene/dev/branches/lucene_solr_3_2:1128223,1128247,1129418,1129472
+/lucene/dev/branches/lucene_solr_3_3:1138390,1138979,1139775
+/lucene/dev/branches/preflexfixes:967125-979432
+/lucene/dev/branches/realtime_search:953476-1097796
+/lucene/dev/branches/solr2452:1087601-1144716
+/lucene/dev/trunk:1343946,1343968,1344038,1344041,1344306,1344441,1344531,1344826,1344844</S:set-prop>
+<S:open-directory name="lucene" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/lucene/dev/branches/branch_3x/lucene:1232954,1302733*,1302749,1302808,1303007,1303023,1303269,1303733,1303854,1304295,1304360,1304660,1304904,1305074,1305142,1305681,1305693,1305719,1305741,1305816,1305837,1306929,1307050
+/lucene/dev/branches/lucene3969/lucene:1311219-1324948
+/lucene/dev/branches/lucene4055/lucene:1338960-1343359
+/lucene/dev/trunk/lucene:1343946,1343968,1344038,1344041,1344306,1344318,1344441,1344531,1344826,1344844</S:set-prop>
+<S:open-file name="CHANGES.txt" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/CHANGES.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/lucene/dev/branches/branch_3x/lucene/CHANGES.txt:1232954,1302749,1302808,1303007,1303023,1303269,1303733,1303854,1304295,1304360,1304660,1304904,1305142,1305719,1305741,1305816,1305837
+/lucene/dev/branches/lucene3969/lucene/CHANGES.txt:1311219-1324948
+/lucene/dev/branches/lucene4055/lucene/CHANGES.txt:1338960-1343359
+/lucene/dev/trunk/lucene/CHANGES.txt:1343946,1344041,1344306,1344318,1344844</S:set-prop>
+<S:fetch-file base-checksum="79a10d9579c76f3d5d86b63bfeab7ec1" sha1-checksum="1e190b2d3be20a636f709c2115e298bd378ad30b"/>
+<S:prop><V:md5-checksum>67a535c38da97b6cfaa05d01d0acec1d</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="grouping" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/grouping</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/grouping/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/grouping/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/grouping/src/test/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/grouping/src/test/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/grouping/src/test/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="search" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/grouping/src/test/org/apache/lucene/search</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="grouping" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/grouping/src/test/org/apache/lucene/search/grouping</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TestGrouping.java" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/grouping/src/test/org/apache/lucene/search/grouping/TestGrouping.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="92b38d9b7cab0107fc18f55f6d9c58c9" sha1-checksum="ebe62d876883a4d0134cc7261b0f906ee4984773"/>
+<S:prop><V:md5-checksum>be008b402ac645d8e2e7aa15d9e63190</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="java" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/grouping/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/grouping/src/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/grouping/src/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/grouping/src/java/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="search" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/grouping/src/java/org/apache/lucene/search</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="grouping" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/grouping/src/java/org/apache/lucene/search/grouping</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TopGroups.java" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/grouping/src/java/org/apache/lucene/search/grouping/TopGroups.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7cf5827b037b59f71eaa3656d9c61d47" sha1-checksum="3758063c3268a411c604853299d244ee5006d146"/>
+<S:prop><V:md5-checksum>f0e8a41866f1d4dcfb1428cbf02f782a</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="GroupDocs.java" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/grouping/src/java/org/apache/lucene/search/grouping/GroupDocs.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="887758e3b421e7af3aefa22b02537b27" sha1-checksum="5029bb7dc3f3b60ec5462ae7353968b26465661d"/>
+<S:prop><V:md5-checksum>263b1b169ba7d21e5a1ea4d57b99e019</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="AbstractSecondPassGroupingCollector.java" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/grouping/src/java/org/apache/lucene/search/grouping/AbstractSecondPassGroupingCollector.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="03712f88f85b72b2a0f156c6b4d2ad96" sha1-checksum="d39b57d333b5a79c3e25d3b8f09bd9f181755755"/>
+<S:prop><V:md5-checksum>860370d5b13336641548de9b9d88c6a4</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BlockGroupingCollector.java" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/grouping/src/java/org/apache/lucene/search/grouping/BlockGroupingCollector.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7c2362ad4e1871e741ca26eb16549b26" sha1-checksum="9c5f66b89bbfaee6aaf1b56c2f0d53f6daf5a3bc"/>
+<S:prop><V:md5-checksum>55fc8d5e89cf24db63833a25af08c5f6</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="GroupingSearch.java" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/grouping/src/java/org/apache/lucene/search/grouping/GroupingSearch.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f6e924f5f0cece965a6adcaf9d9b9233" sha1-checksum="875bdb063f4c3f24699e530b06afcd38edffab0b"/>
+<S:prop><V:md5-checksum>d5df387a51c89177608e00014b518945</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="join" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/join</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/join/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/join/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/join/src/test/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/join/src/test/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/join/src/test/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="search" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/join/src/test/org/apache/lucene/search</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="join" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/join/src/test/org/apache/lucene/search/join</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TestBlockJoin.java" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/join/src/test/org/apache/lucene/search/join/TestBlockJoin.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="d984f17bdd9c59f0f3c0a876688dd1b7" sha1-checksum="36d44718aaecb320161d1494f64d31fd039cd4f6"/>
+<S:prop><V:md5-checksum>29350b3c143cacc10633df138340face</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="java" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/join/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/join/src/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/join/src/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/join/src/java/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="search" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/join/src/java/org/apache/lucene/search</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="join" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/join/src/java/org/apache/lucene/search/join</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="ToParentBlockJoinCollector.java" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/lucene/join/src/java/org/apache/lucene/search/join/ToParentBlockJoinCollector.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c5044d02e88c375b81e18dbb9115a909" sha1-checksum="de35dd91e7d7e141a39127b31c3b14c6016541c8"/>
+<S:prop><V:md5-checksum>cc6d75faf3e71431c872cf23c8a64e6b</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="solr" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/solr</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/lucene/dev/branches/LUCENE2793/solr:1137551-1144189
+/lucene/dev/branches/branch_3x/solr:949730,957490*,961612,979161,980654,982195,987811,988512,1025544,1026614,1034080,1039151,1050654,1056762,1060014,1060438,1060784,1061035,1063880,1063934,1065324,1070818,1075044,1079376,1079381,1080071,1081052,1083240,1085811,1090423,1091501,1092373,1095519,1098770,1099210,1100407,1100480,1100494,1100515,1101106,1103086,1128215,1128227,1128462,1129419,1129435,1130612,1132581,1132978,1134823,1134917,1136714,1138351,1139430,1139461,1141060,1144653,1148611,1148849,1148864,1150434,1151830,1151947,1152766,1166791,1171384,1173311,1173701,1173745,1177994,1180637*,1184955,1188805,1189914,1189969,1198337,1199847,1204494,1204519,1204547,1204565,1204826,1207010,1208375,1226235,1229268,1230429,1232954,1234450,1235713,1244960,1302703,1302733,1302749,1302808,1303269,1303733,1304295,1304360,1304660,1304904,1305074,1305574,1305585,1305622,1305681,1305693,1305741,1306929,1310314
+/lucene/dev/branches/bulkpostings/solr:1069647,1069925
+/lucene/dev/branches/docvalues/solr:1021634-1134288
+/lucene/dev/branches/lucene2621/solr:1188713-1197598,1197605-1199706,1199787-1202835
+/lucene/dev/branches/lucene2858/solr:1234440-1238051
+/lucene/dev/branches/lucene3606/solr:1209906-1212022
+/lucene/dev/branches/lucene3622/solr:1211241-1213825
+/lucene/dev/branches/lucene3661/solr:1233476-1237242,1237250-1238012
+/lucene/dev/branches/lucene3795_lsp_spatial_module/solr:1291491-1300396
+/lucene/dev/branches/lucene3969/solr:1311219-1324948
+/lucene/dev/branches/lucene4055/solr:1338960-1343359
+/lucene/dev/branches/lucene_solr_3_1/solr:1081856,1083239,1085499,1085511,1085532,1085809,1101103
+/lucene/dev/branches/lucene_solr_3_2/solr:1128223,1128247,1129418,1129472
+/lucene/dev/branches/lucene_solr_3_3/solr:1138390,1138979,1139775
+/lucene/dev/branches/preflexfixes/solr:967125-979432
+/lucene/dev/branches/realtime_search/solr:953476-1097796
+/lucene/dev/branches/solr2452/solr:1087601-1144716
+/lucene/dev/trunk/solr:1344531,1344844
+/lucene/java/branches/lucene_2_4/solr:748824
+/lucene/java/branches/lucene_2_9/solr:817269-818600,825998,829134,829881,831036,896850,909334
+/lucene/java/branches/lucene_2_9_back_compat_tests/solr:818601-821336
+/lucene/java/branches/lucene_3_0/solr:880793,896906
+/lucene/solr/branches/newtrunk/solr:924462
+/lucene/solr/trunk:922950-923910,923912-925091</S:set-prop>
+<S:open-directory name="core" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/solr/core</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/lucene/dev/branches/LUCENE2793/solr/core:1137551-1144189
+/lucene/dev/branches/branch_3x/solr/core:949730,961612,979161,980654,982195,987811,988512,1025544,1026614,1034080,1039151,1050654,1056762,1060014,1060438,1060784,1061035,1063880,1063934,1065324,1070818,1075044,1079376,1079381,1080071,1081052,1083240,1085811,1090423,1091501,1092373,1095519,1098770,1099210,1100407,1100480,1100494,1100515,1101106,1103086,1128215,1128227,1128462,1129419,1129435,1130612,1132581,1132978,1134823,1134917,1136714,1138351,1139430,1139461,1141060,1144653,1148611,1148849,1148864,1150434,1151830,1151947,1152766,1166791,1171384,1173311,1173701,1173745,1177994,1184955,1188805,1189914,1189969,1198337,1199847,1204494,1204519,1204547,1204565,1204826,1207010,1208375,1226235,1229268,1230429,1232954,1234450,1235713,1244960,1302703,1302733,1302749,1302808,1303269,1303733,1304295,1304360,1304660,1304904,1305574,1305585,1305622,1305741
+/lucene/dev/branches/bulkpostings/solr/core:1069647,1069925
+/lucene/dev/branches/docvalues/solr/core:1021634-1134288
+/lucene/dev/branches/lucene2621/solr/core:1188713-1197598,1197605-1199706,1199787-1202835
+/lucene/dev/branches/lucene2858/solr/core:1234440-1238051
+/lucene/dev/branches/lucene3606/solr/core:1209906-1212022
+/lucene/dev/branches/lucene3622/solr/core:1211241-1213825
+/lucene/dev/branches/lucene3661/solr/core:1233476-1237242,1237250-1238012
+/lucene/dev/branches/lucene3795_lsp_spatial_module/solr/core:1291491-1300396
+/lucene/dev/branches/lucene3969/solr/core:1311219-1324948
+/lucene/dev/branches/lucene4055/solr/core:1338960-1343359
+/lucene/dev/branches/lucene_solr_3_1/solr/core:1081856,1083239,1085499,1085511,1085532,1085809,1101103
+/lucene/dev/branches/lucene_solr_3_2/solr/core:1128223,1128247,1129418,1129472
+/lucene/dev/branches/lucene_solr_3_3/solr/core:1138390,1138979,1139775
+/lucene/dev/branches/preflexfixes/solr/core:967125-979432
+/lucene/dev/branches/realtime_search/solr/core:953476-1097796
+/lucene/dev/branches/solr2452/solr/core:1087601-1144173
+/lucene/dev/trunk/solr/core:1344531,1344844
+/lucene/java/branches/lucene_2_4/solr/core:748824
+/lucene/java/branches/lucene_2_9/solr/core:817269-818600,825998,829134,829881,831036,896850,909334
+/lucene/java/branches/lucene_2_9_back_compat_tests/solr/core:818601-821336
+/lucene/java/branches/lucene_3_0/solr/core:880793,896906
+/lucene/solr/branches/newtrunk/solr/core:924462
+/lucene/solr/trunk/core:922950-923910,923912-925091</S:set-prop>
+<S:open-directory name="src" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/solr/core/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/solr/core/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/solr/core/src/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/solr/core/src/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="solr" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/solr/core/src/java/org/apache/solr</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="search" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/solr/core/src/java/org/apache/solr/search</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="grouping" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/solr/core/src/java/org/apache/solr/search/grouping</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="distributed" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/solr/core/src/java/org/apache/solr/search/grouping/distributed</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="shardresultserializer" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/solr/core/src/java/org/apache/solr/search/grouping/distributed/shardresultserializer</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TopGroupsResultTransformer.java" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/solr/core/src/java/org/apache/solr/search/grouping/distributed/shardresultserializer/TopGroupsResultTransformer.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="9cdb6b65ee2af3bf96c4750c29287ebc" sha1-checksum="d072991b1d7514c60fe2efb1b5053f6424e30dee"/>
+<S:prop><V:md5-checksum>ec7b35ee88cddfb485fbb1188ca6a837</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="command" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/solr/core/src/java/org/apache/solr/search/grouping/distributed/command</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TopGroupsFieldCommand.java" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/solr/core/src/java/org/apache/solr/search/grouping/distributed/command/TopGroupsFieldCommand.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="1fb19441c59ee54fb23dbdd24c0af732" sha1-checksum="6d051a4c9b9cace7ddebc06955b4750ed6ba8baa"/>
+<S:prop><V:md5-checksum>41a7c4ba6474f82f09d9a21495eed2d6</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="responseprocessor" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/solr/core/src/java/org/apache/solr/search/grouping/distributed/responseprocessor</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TopGroupsShardResponseProcessor.java" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/solr/core/src/java/org/apache/solr/search/grouping/distributed/responseprocessor/TopGroupsShardResponseProcessor.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="d941035ecd290b67f413e3b6d98a489d" sha1-checksum="38a7adec9dea7127f1ea4c62cdd0523cfb0a1f7c"/>
+<S:prop><V:md5-checksum>7ea0c8ae5f7a7bff3d086efc12d6d340</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-file name="Grouping.java" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/solr/core/src/java/org/apache/solr/search/Grouping.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="aade20f412e26b85c774142cc1dc1ea0" sha1-checksum="ae891ed3a0118cc47a6f761ec86303359d4d4ffb"/>
+<S:prop><V:md5-checksum>f6538ec3f957197e541502323a0ae4fe</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="handler" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/solr/core/src/java/org/apache/solr/handler</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="component" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/solr/core/src/java/org/apache/solr/handler/component</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="QueryComponent.java" rev="1344853">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1344854/lucene/dev/branches/branch_4x/solr/core/src/java/org/apache/solr/handler/component/QueryComponent.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1344854</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-05-31T18:32:55.318039Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mikemccand</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="9e61d619547af4e1809ddd48d723645c" sha1-checksum="cdfec991fd37d2cdf7ee5f4770eb68856dedf6fb"/>
+<S:prop><V:md5-checksum>cf0466bc369b463604e6de3a96a8ef84</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

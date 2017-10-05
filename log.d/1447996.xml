@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1447996</D:version-name>
+<D:comment>DERBY-5546 ResultSet#updateBigDecimal on a REAL column does not do underflow checking 
+
+Patch derby-5546-2. For both Real and Double, check for underflow. For
+Double underflow is currently detected but only because we didn't fix
+DERBY-3398 yet, so we introduce the same check now as for Real.  Once
+DERBY-3398 it will no longer be redundant. The tests are still guarded
+by a check for embedded until DERBY-5534 is fixed.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2013-02-20T04:19:02.246923Z</S:date>
+</S:log-item>
+</S:log-report>

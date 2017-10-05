@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>882682</D:version-name>
+<D:comment>make members volatile where necessary to make double-checked locking safe.  patch by gdusbabek; reviewed by jbellis for CASSANDRA-248</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-11-20T19:06:22.434305Z</S:date>
+</S:log-item>
+</S:log-report>

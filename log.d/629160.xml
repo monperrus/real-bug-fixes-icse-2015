@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>629160</D:version-name>
+<D:comment>DERBY-3299 (incremental): Updates ConglomerateDescriptor.java to include
+logic for detecting a conglomerate "replacement" scenario, and adds logic
+to drop the old (shared) conglomerate in those scenarios. Also changes
+the various ConstantAction classes which rely on the "drop(...)" methods
+of ConglomerateDescriptor and ConstraintDescriptor so that they use the
+utility methods added as part of svn # 628181.  This commit is the one
+which "activates" the previous changes for this issue and ultimately
+changes Derby's behavior to fix the problem.  Test cases will be added
+in a subsequent commit.
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2008-02-19T16:56:44.051269Z</S:date>
+</S:log-item>
+</S:log-report>

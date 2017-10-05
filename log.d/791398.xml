@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>791398</D:version-name>
+<D:comment>DERBY-4245: Sorting a table containing a CLOB fails after upgrade to 10.5.
+Changed the mechanisms used to "unread" surplus bytes from the source stream.
+The order is now:
+ 1) Use InputStream.mark/reset if available.
+ 2) Create a PushbackInputStream and associate it with the source stream if the
+    the source stream is a FormatIdInputStream.
+ 3) Try using the Resetable interface.
+Note that as part of this fix, mark/reset was disabled for LimitInputStream.
+
+Reading too many bytes will only happen in 10.5 (and later) when an old-style
+Clob representation is processed. Note that since the header format of existing
+Clob values isn't changed as part of the upgrade logic, the situation may arise
+in later versions as well if the database has been upgraded from 10.4 or
+earlier versions.
+
+Patch file: derby-4245-3a-unread_bytes_fix.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-07-06T07:24:52.771448Z</S:date>
+</S:log-item>
+</S:log-report>

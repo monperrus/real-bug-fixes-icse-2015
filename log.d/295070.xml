@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>295070</D:version-name>
+<D:comment>DERBY-392: Disable creating b-tree indexes on long varchar for bit data. This datatype requires different kind of index and allowing the current behavior causes may issues.
+
+Submitted by Satheesh Bandaram (satheesh@sourcery.org)
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2005-10-05T18:32:16.295858Z</S:date>
+</S:log-item>
+</S:log-report>

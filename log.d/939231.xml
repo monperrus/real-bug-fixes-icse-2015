@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>939231</D:version-name>
+<D:comment>DERBY-4582: Timestamps inserted with GMT calendar are 1 hour later
+when subsequently read with GMT calendar (Server Mode Only)
+
+Fixed test failure on small devices because the Foundation Profile 1.1
+API doesn't include getYear(), getMonth(), etc, in java.util.Date. Use
+java.util.Calendar to access those fields instead.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-04-29T08:44:14.204233Z</S:date>
+</S:log-item>
+</S:log-report>

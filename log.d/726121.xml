@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>726121</D:version-name>
+<D:comment>DERBY-3980 Conflicting select then update with REPEATABLE_READ gives lock timeout instead of deadlock
+
+Just javadoc changes and adding a new test for the issue that can't be enabled until we have a fix.  This check-in does not fix the issue in any way.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-12-12T21:24:38.417421Z</S:date>
+</S:log-item>
+</S:log-report>

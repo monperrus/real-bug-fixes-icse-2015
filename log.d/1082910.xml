@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1082910</D:version-name>
+<D:comment>fix race when iterating CFs during add/drop
+patch by jbellis; reviewed by gdusbabek for CASSANDRA-2350</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2011-03-18T13:20:39.729027Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>170862</D:version-name>
+<D:comment>Derby-214 Remove System.exit from NetworkServerControlImpl
+
+Patch contributed by David Van Couvering
+below are his comments
+I relocated the execute method from NetworkServerImpl (previously called DB2jServerImpl) to NetworkServerControl.
+
+I modified derbynet/testconnection.java so that it checks and makes sure the exit status matches what is expected (1 for error, 0 for no error).  
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-05-19T03:54:01.970142Z</S:date>
+</S:log-item>
+</S:log-report>

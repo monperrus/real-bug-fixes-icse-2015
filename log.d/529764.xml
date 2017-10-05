@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>529764</D:version-name>
+<D:comment>DERBY-2117
+This test was incorrectly depending on the exact free page state subsequent
+to a delete.  This state is very timing dependent on when the post commit
+thread can run so should not be used in tests to be run across a wide range
+of platforms/machines.  I just got rid of the select of the state after the
+delete, and left the rest of the test case.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2007-04-17T21:07:48.458114Z</S:date>
+</S:log-item>
+</S:log-report>

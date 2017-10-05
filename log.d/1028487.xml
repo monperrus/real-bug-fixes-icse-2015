@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1028487</D:version-name>
+<D:comment>BytesToken.convertByteBuffer duplicates the BB so other threads can trust its position. patch by gdusbabek, reviewed by jbellis. CASSANDRA-1645
+</D:comment>
+<D:creator-displayname>gdusbabek</D:creator-displayname>
+<S:date>2010-10-28T21:23:03.292604Z</S:date>
+</S:log-item>
+</S:log-report>

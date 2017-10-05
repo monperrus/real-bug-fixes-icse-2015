@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>746954</D:version-name>
+<D:comment>DERBY-2991: Index split deadlock
+
+Added more test cases for BTreeForwardScan.fetchRows() where the
+current leaf page was split while the index scan was waiting for a row
+lock.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-02-23T10:48:24.361971Z</S:date>
+</S:log-item>
+</S:log-report>

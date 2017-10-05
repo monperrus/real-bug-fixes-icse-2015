@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1537888</D:version-name>
+<D:comment>DERBY-5823: Multi-row insert fails on table without generated keys with RETURN_GENERATED_KEYS
+
+The fix contains two parts:
+
+1. Don't collect generated keys if the statement does not actually
+   generate key values. (This is the fix for the reported problem.)
+
+2. Cache the array of generated key columns between executions. In the
+   existing code, the array of key columns was created only on the
+   first execution. Since it wasn't cached, it was null on all
+   subsequent executions. When it is null, all columns are collected
+   into the temporary row holder, which wastes space. Now, only the
+   key columns are collected, also on re-execution.
+
+The test case was contributed by Kristian Waagan.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-11-01T10:31:02.491290Z</S:date>
+</S:log-item>
+</S:log-report>

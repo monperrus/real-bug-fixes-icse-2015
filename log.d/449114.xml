@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>449114</D:version-name>
+<D:comment>DERBY-1830
+contributed by Sunitha Kambhampati
+
+The testcase added for derby-1660 in optimizerOverrides.sql uses jdbc:default:connection and does not work with wctme5.7 foundation causing the diff mentioned in this jira. This testcase needs to be excluded and should run only in environments that have support for DriverManager.
+
+This patch (derby1830.diff.txt) converts this particular testcase into a junit test.
+
+1. Add a new Junit test in lang suite - VTITest.java
+2. Conditionally add the test fixture bulkInsertVtiTest if JDBC.vmSupportsJDBC2() is true.
+3. Since the problematic testcase is converted to junit test, remove this test from optimizerOverrides.sql and update the master files for embedded and server frameworks.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-09-22T22:29:28.403698Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>814972</D:version-name>
+<D:comment>refactor findSuitableEndpoint to throw UnavailableException (instead of letting callers error out with NPE) when no replica is alive. also check for endpoint live-ness in getNextEndpoint. patch by jbellis; reviewed by Simon Smith for CASSANDRA-440</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-09-15T02:51:08.013913Z</S:date>
+</S:log-item>
+</S:log-report>

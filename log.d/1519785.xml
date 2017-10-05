@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1519785</D:version-name>
+<D:comment>DERBY-6324; DatabaseMetaData.getJDBCMinorVersion() should return 2 now that we've implemented JDBC 4.2
+  Adding logic to JVMInfo to identify the supported JDBC level based on the 
+  (currently supported) JVM versions, which then is used in the client and embedded drivers.
+  Tests are changed to reflect this.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2013-09-03T18:29:11.153789Z</S:date>
+</S:log-item>
+</S:log-report>

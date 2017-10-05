@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>412258</D:version-name>
+<D:comment>DERBY-1005 getHoldability does not return CLOSE_CURSORS_AT_COMMIT in a global transaction
+
+* Adds a line to resetConnection method in org/apache/derby/client/am/Connection.java which was missed in the merge of DERBY-1005. This was causing a failure in the tests added for DERBY-1144. 
+
+Contributed by Daniel Debrunner/Deepa Remesh
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-06-07T02:42:45.600420Z</S:date>
+</S:log-item>
+</S:log-report>

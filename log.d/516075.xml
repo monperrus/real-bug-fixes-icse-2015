@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>516075</D:version-name>
+<D:comment>Add a test fixture to CursorTest that tests Statement.setCursorName only effects the next execution.
+Doesn't work on client due to DERBY-2417.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-03-08T15:35:57.274473Z</S:date>
+</S:log-item>
+</S:log-report>

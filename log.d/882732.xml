@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>882732</D:version-name>
+<D:comment>DERBY-4450 GROUP BY in an IN-subquery inside HAVING clause whose select list is subset of group by columns, gives NPE
+
+Patch derby-4450b + Knut's simplification of the autocommit call in GrooupByTest#testDerby4450.
+
+This solves the problem seen in this issue, which was a regression
+from DERBY-681.  The crux of the problem is that a PRN is added in the
+result set tree without adjusting a higher level reference so that
+wrong code is generated. The solution here is to reuse the result
+column list in the inserted PRN, so that reference from above will
+point correctly even after the PRN insertion (more details in JIRA).
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-11-20T21:59:47.155343Z</S:date>
+</S:log-item>
+</S:log-report>

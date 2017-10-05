@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>383394</D:version-name>
+<D:comment>DERBY-1060: ResultSet methods should throw exception when the
+ResultSet is closed
+
+The patch adds calls to checkIfClosed (embeddded) or
+checkForClosedResultSet (network client) in the ResultSet methods
+which don't check whether the ResultSet is closed. It also adds a test
+case to jdbc4/TestResultSetMethods.java.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-03-05T20:34:20.718385Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>815452</D:version-name>
+<D:comment>DERBY-4375
+
+Changed the datetime format from 
+Timestamp.valueOf("0000-00-00 15:47:28.0")
+to 
+Timestamp.valueOf("2007-02-23 15:47:27.544")
+
+This change in data fixed the problem with the test with weme
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2009-09-15T19:05:33.713364Z</S:date>
+</S:log-item>
+</S:log-report>

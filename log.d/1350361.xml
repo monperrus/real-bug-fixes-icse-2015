@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1350361</D:version-name>
+<D:comment>DERBY-5816 store.ServicePropertiesFileTest fails on z/OS
+
+Fix code and test to read and write to service.properties with a consistent
+encoding
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2012-06-14T18:25:03.586175Z</S:date>
+</S:log-item>
+</S:log-report>

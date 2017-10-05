@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1138795</D:version-name>
+<D:comment>DERBY-5288: running multiple suites.All concurrently should be possible
+
+Wait for the threads that read stdout and stderr to finish before trying
+to fetch the output from SpawnedProcess.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-06-23T09:44:25.935227Z</S:date>
+</S:log-item>
+</S:log-report>

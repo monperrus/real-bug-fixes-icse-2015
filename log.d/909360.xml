@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>909360</D:version-name>
+<D:comment>LUCENE-2260: Fix AttributeSource to not hold a strong reference to the Attribute/AttributeImpl classes which prevents unloading of custom attributes loaded by other classloaders. The same fix applies to VirtualMethod (3.1 only).</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2010-02-12T11:20:35.744248Z</S:date>
+</S:log-item>
+</S:log-report>

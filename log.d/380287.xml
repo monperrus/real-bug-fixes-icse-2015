@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>380287</D:version-name>
+<D:comment>DERBY-417: Remove hardcoded references to encryption providers in Beetle6038 and
+let Derby choose the correct encryption provider. This allows the test to pass
+on Mac OS X and any other JVM where the vendor is not Sun or IBM.
+</D:comment>
+<D:creator-displayname>fuzzylogic</D:creator-displayname>
+<S:date>2006-02-24T00:51:26.743458Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>542867</D:version-name>
+<D:comment>DERBY-2526: Fix code in the "remapColumnReferencesToExpressions()" method of
+ColumnReference so that it updates the remapped column reference's *column*
+number in addition to updating its table number.  Add appropriate test
+cases to lang/joins.sql.
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2007-05-30T16:39:23.996777Z</S:date>
+</S:log-item>
+</S:log-report>

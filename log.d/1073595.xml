@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1073595</D:version-name>
+<D:comment>DERBY-4741 Make embedded Derby work reliably in the presence of thread interrupts
+
+Patch derby-4741-sleeps-waits-more, which "regularizes" a few more
+instances of interrrupt handling to follow the idiom established in
+this issue's patches. 
+
+This leaves a few instances in BasicDaemon.java (as far as embedded
+code is concerned), which will need more consideration. In any case,
+interrupting the demon threads is less of a valid use case I believe,
+i.e. Derby's ability to tolerate that is less crucial that tolerating
+interrupts to the user's connection threads.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-02-23T05:05:15.670156Z</S:date>
+</S:log-item>
+</S:log-report>

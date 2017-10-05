@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1530913</D:version-name>
+<D:comment>DERBY-6371: DROP COLUMN looks in wrong schema when checking trigger dependencies
+
+Fix another occurrence where the wrong schema is used. This occurrence
+doesn't cause any problems currently, since it's only used for
+parsing, and the problems wouldn't appear until one attempt to do
+binding with the incorrect schema. Fix it anyway for consistency.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-10-10T10:57:58.002250Z</S:date>
+</S:log-item>
+</S:log-report>

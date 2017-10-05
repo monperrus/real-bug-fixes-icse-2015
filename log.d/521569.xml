@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>521569</D:version-name>
+<D:comment>LUCENE-837:
+Added optional bytes field to store on the Document.  Enabled ReutersDocMaker w/ the ability to store byte data in a field.  If the param is set (see the javadocs) it will store the contents of the body as a UTF-8 byte array.
+
+Then, the SearchTravRetLoadFieldSelectorTask (whew) can take in parameters specifying what fields to load (others are ignored by default)</D:comment>
+<D:creator-displayname>gsingers</D:creator-displayname>
+<S:date>2007-03-23T03:48:12.934319Z</S:date>
+</S:log-item>
+</S:log-report>

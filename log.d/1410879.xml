@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1410879</D:version-name>
+<D:comment>Back-port from Myrrix optimization for FastMap, and, important bug fix for Fast*Map classes where a sequence of insertions and deletions could lead to a key in two places in the map</D:comment>
+<D:creator-displayname>srowen</D:creator-displayname>
+<S:date>2012-11-18T12:01:18.784338Z</S:date>
+</S:log-item>
+</S:log-report>

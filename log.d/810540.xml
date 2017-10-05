@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>810540</D:version-name>
+<D:comment>remove buggy concurrentlinkedhashmap library and lru cache.  too late in 0.4 to try to debug the library -- will revisit for 0.5.  patch by jbellis; reviewed by Chris Goffinet for CASSANDRA-405</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-09-02T15:04:16.100630Z</S:date>
+</S:log-item>
+</S:log-report>

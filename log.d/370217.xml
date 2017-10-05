@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>370217</D:version-name>
+<D:comment>DERBY-808: PreparedStatements could take longer to execute than equivalent statements, because of incorect code in search clause transitive closure method.
+
+Handle the case of ParameterNodes, in addition to ConstantNodes on the rightside.
+
+Submitted by Satheesh Bandaram(satheesh@sourcery.org)
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2006-01-18T19:03:46.831520Z</S:date>
+</S:log-item>
+</S:log-report>

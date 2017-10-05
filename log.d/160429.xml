@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>160429</D:version-name>
+<D:comment>Derby-176 (partial)
+
+Reduce the number of constant pool entries in code generation by removing some uses of java fields.
+
+In the binary operator nodes code is generated like
+
+&lt;left&gt;.method(&lt;left&gt;, &lt;right&gt;)
+
+where &lt;left&gt; and &lt;right&gt; are arbitary expressions.
+In this case &lt;left&gt; must only be evaluated once and the existing implementation used Java fields.
+
+DataValueDescriptor f34;
+
+f34 = &lt;left&gt;;
+
+f34.method(f34, &lt;right&gt;)
+
+The issue is that a field is not required, really a local variable is,
+and a field and its use will create three unique constant pool entries.
+However local variables are not supported by the byte code compiler currently.
+
+The stack based code generation allows the use of the stack through MethodBuilder.dup()
+method to evaluate &lt;left&gt; once and re-use the result.
+E.g.
+
+&lt;left&gt;
+dup
+&lt;right&gt;
+
+leaves the stack as left,left,right which is the correct order for such a method call.
+The use of MethodBuilder.swap() allows the same pattern when &lt;right&gt; needs to be re-used in &lt;right&gt;.method(&lt;left&gt;, &lt;right&gt;)
+
+&lt;right&gt;
+dup
+&lt;left&gt;
+swap
+
+leaves right,left,right on the stack.
+
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-04-07T18:50:39.635942Z</S:date>
+</S:log-item>
+</S:log-report>

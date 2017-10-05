@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>892912</D:version-name>
+<D:comment>DERBY-3757: ASSERT FAILED transaction table has null entry when running new StressMultiTest
+
+Synchronize on the Hashtable to prevent concurrent modification while
+iterating over the elements.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-12-21T18:14:47.669452Z</S:date>
+</S:log-item>
+</S:log-report>

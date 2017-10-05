@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1188109</D:version-name>
+<D:comment>DERBY-5283: Crash / process termination during SYSCS_DISABLE_LOG_ARCHIVE_MODE can leave service.properties broken
+
+Adds recover logic for service.properties. To be able to recover there must be
+a backup file present. There are three different cases the logic can handle:
+ o corrupt original (no EOF token) and backup: use backup
+ o orignal and backup: delete backup
+ o backup only: rename to original
+
+Patch file: derby-5283-1b-recover.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-10-24T12:18:19.681315Z</S:date>
+</S:log-item>
+</S:log-report>

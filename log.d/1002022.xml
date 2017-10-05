@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1002022</D:version-name>
+<D:comment>do not intialize table instances when loading schema. complain less loudly when there is a missing sstable component. patch by gdusbabek, reviewed by stuhood. CASSANDRA-1542
+</D:comment>
+<D:creator-displayname>gdusbabek</D:creator-displayname>
+<S:date>2010-09-28T05:40:46.410046Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1464247</D:version-name>
+<D:comment>DERBY-6096 OutOfMemoryError with Clob or Blob hash join: DataTypeDescriptor.estimatedMemoryUsage() has no case for BLOB or CLOB so would underestimate memory usage for those types at zero 
+
+Estimate BLOB/CLOB size at 10000 like other long types.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2013-04-04T01:12:55.073262Z</S:date>
+</S:log-item>
+</S:log-report>

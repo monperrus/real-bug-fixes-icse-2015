@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>834152</D:version-name>
+<D:comment>Use getHostAddress instead of toString(), Read Repair was throwing an Exception. Patch by sammyyu, reviewed by jbellis for CASSANDRA-529</D:comment>
+<D:creator-displayname>goffinet</D:creator-displayname>
+<S:date>2009-11-09T17:26:30.619559Z</S:date>
+</S:log-item>
+</S:log-report>

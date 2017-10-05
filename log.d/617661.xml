@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>617661</D:version-name>
+<D:comment>Minor cleanup in TableFunctionTest to not catch exceptions that indicate failure and report them with a fail message. This is not required, an uncaught exception will cause the test to fail anyway, and it makes debugging harder as the stack trace of the failure is lost</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2008-02-01T21:39:38.771840Z</S:date>
+</S:log-item>
+</S:log-report>

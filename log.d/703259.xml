@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>703259</D:version-name>
+<D:comment>DERBY-3902; correct messages.xml and translated files for SQLState 2003.S.4 
+  (was accidentally listed as 2004.S.4 - see also comment in DERBY-1567). 
+  Also fix up MessageBundleTest to ignore two sqlstates that are not exposed to
+  the user so don't need text.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2008-10-09T21:06:08.604409Z</S:date>
+</S:log-item>
+</S:log-report>

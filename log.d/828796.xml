@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>828796</D:version-name>
+<D:comment>replace flush_binary with flush, affecting both binary and standard memtables.  patch by gdusbabek; reviewd by jbellis for CASSANDRA-505</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-10-22T17:45:41.271624Z</S:date>
+</S:log-item>
+</S:log-report>

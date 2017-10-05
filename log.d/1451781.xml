@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1451781</D:version-name>
+<D:comment>[ARIES-1019] JPA weaving hook must be called before proxy weaving hook.
+
+Register with the highest possible service ranking to avoid ClassNotFoundException caused by interfaces added by earlier
+weaving hooks that are not yet visible to the bundle class loader.</D:comment>
+<D:creator-displayname>jwross</D:creator-displayname>
+<S:date>2013-03-01T23:45:33.889633Z</S:date>
+</S:log-item>
+</S:log-report>

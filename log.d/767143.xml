@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>767143</D:version-name>
+<D:comment>DERBY-4097: WaitError in NullableUniqueConstraintTest.testMixedInsertDelete
+
+If we have to wait for a latch when walking the B-tree backwards,
+release all latches and rescan from the root of the tree instead of
+failing with a WaitError.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-04-21T13:38:42.172170Z</S:date>
+</S:log-item>
+</S:log-report>

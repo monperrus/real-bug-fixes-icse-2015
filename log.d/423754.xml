@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>423754</D:version-name>
+<D:comment>DERBY-1357: Fix optimizer short-circuit logic. Here is the note from the contributor.
+
+I also had to update the lang/predicatePushdown.out master file because with the d1357_v1.patch the order of a couple of qualifiers has changed. Note that the query plans themselves are exactly the same--the only thing that's changed is the the qualifier ordering for one query. This change of order occurs because as part of the costing code in FromBaseTable.estimateCost() the optimizer transfers predicates from one predicate list to another, gets an estimated cost, then puts the predicates back into the original list. The methods to do this transferring are in NestedLoopJoinStrategy.java and HashJoinStrategy.java. In the former, the predicates are transferred away in front-to-back order and then transferred back in back-to-front order, which leads to a reversal of the relevant predicate ordering. Ex. If we have a list L1 of preds A,B,C and we transfer them to L2 in front-to-back order, L2 will end up with A,B,C. Then, when we transfer the predicates back to L1, if we process L2 in back-to-front order, L1 will end up with C,B,A. That said, with d1357_v1 applied the short-circuit logic prevents the optimizer from trying to optimize a join order that is known to be bad. This means that we skip an unnecessary round of optimization and therefore skip one round of order reversal, which means the order of the predicate qualifiers in the final plan is now different.
+
+I ran derbyall on Red Hat with sane jars and ibm142, and saw no new failures.
+
+Submitted by Army Brown (qozinx@gmail.com)
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2006-07-20T04:32:04.063637Z</S:date>
+</S:log-item>
+</S:log-report>

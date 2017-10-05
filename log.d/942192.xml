@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>942192</D:version-name>
+<D:comment>fix bugs that result in tombstone-only rows from sstables being ignored (and not merged into the resultset correctly).  patch by jbellis; reviewed by Stu Hood and tested by Brandon Williams for CASSANDRA-1063</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-05-07T19:52:20.246440Z</S:date>
+</S:log-item>
+</S:log-report>

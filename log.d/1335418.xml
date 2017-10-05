@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1335418</D:version-name>
+<D:comment>DERBY-5736: NullPointerException in GenericTriggerExecutor.executeSPS() caused by OutOfMemoryError
+
+Guard the cleanup with a null check to prevent masking the original
+error with a NullPointerException.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-05-08T11:22:18.760613Z</S:date>
+</S:log-item>
+</S:log-report>

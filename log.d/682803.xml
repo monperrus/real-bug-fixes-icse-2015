@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>682803</D:version-name>
+<D:comment>DERBY-3766, DERBY-3783 (second patch): EmbedBlob.setPosition is highly ineffective for streams.
+Backporting from trunk: 677619 (derby-3766-1a-preparations.diff), 681359 (derby-3766-2a-position_fix.diff), and 678388 (d3783-initCause.diff).
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-08-05T17:11:32.661318Z</S:date>
+</S:log-item>
+</S:log-report>

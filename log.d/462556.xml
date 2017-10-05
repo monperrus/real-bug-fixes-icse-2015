@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>462556</D:version-name>
+<D:comment>DERBY-1829
+contributed by Myrna van Lunteren
+
+Skipping this test with foundation...Triggers are not officially supported with that jvm.
+
+This patch should also go into 10.2.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-10-10T20:52:49.394791Z</S:date>
+</S:log-item>
+</S:log-report>

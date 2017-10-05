@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1443681</D:version-name>
+<D:comment>Bundle event hook NPE and unresolved persisted subsystems.
+
+Fixed NPE in bundle event hook when processing asynchronous installed events whose bundle or origin bundle revision
+was null because the bundle was uninstalled.
+
+Fixed issue where persisted subsystems were registered in the RESOLVED state before they were actually resolved.
+
+Added bundle event hook tests for null bundle and origin bundle revisions when processing asynchronous events.
+
+Fixed issue in itests where subsystems other than root could be returned from utility method.</D:comment>
+<D:creator-displayname>jwross</D:creator-displayname>
+<S:date>2013-02-07T19:34:36.082131Z</S:date>
+</S:log-item>
+</S:log-report>

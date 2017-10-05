@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>570483</D:version-name>
+<D:comment>Migrating comments changes from main (revision 570482) into 10.3 codeline. The commit comments in main were as follows
+
+Fixed the comments for getDominantTypeServices() method in ValueNodeList. The comments were using an example of concatenation operation but concatenation operation does not call this method to find the dominant type of it's 2 operands. Instead, concatenation operator implements it's own simple algorithm in ConcatenationOperatorNode. This is because ConcatenationOperatorNode does not work off of a ValueNodeList. I have reworded the comments for getDominantTypeServices() to describe what is doing.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-08-28T16:46:43.493123Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>615076</D:version-name>
+<D:comment>DERBY-3214: Account for loss of precision that can occur when very
+large cost estimates are added to, and then subtracted from, relatively
+small cumulative estimates during Optimizable "pull" processing.
+
+Merging from trunk to 10.3 branch.  Following commands ran cleanly:
+
+  svn merge -r 603658:603659 https://svn.apache.org/repos/asf/db/derby/code/trunk
+  svn merge -r 604512:604513 https://svn.apache.org/repos/asf/db/derby/code/trunk
+
+No other changes were required.
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2008-01-24T23:17:10.021510Z</S:date>
+</S:log-item>
+</S:log-report>

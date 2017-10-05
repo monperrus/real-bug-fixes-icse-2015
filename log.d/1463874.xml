@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1463874</D:version-name>
+<D:comment>DERBY-5172: testTimeAndDateWithCalendar (jdbcapi.CallableTest) fails intermittently with AssertionFailedError: hour expected: differs from actual.
+
+Make the test convert between timezones via the local timezone, like
+Derby does when passing a timestamp through a stored procedure.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-04-03T08:21:59.344451Z</S:date>
+</S:log-item>
+</S:log-report>

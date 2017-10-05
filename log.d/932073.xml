@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>932073</D:version-name>
+<D:comment>RingCache fixups in the wake of CASSANDRA-44
+
+ * invoke DatabaseDescriptor.loadSchemas from RingCache ctor (needed
+   now to populate DD's table list).
+ * improved error handling in DD.getReplicaPlacementStrategyClass so that
+   any future failures to call loadSchemas are easier to spot.
+ * updated TestRingCache. This was never runnable as a unit test, (it
+   requires a running instance), and doing static initialization is
+   problematic now that RingCache's ctor throws IOExceptions.
+
+Patch by eevans</D:comment>
+<D:creator-displayname>eevans</D:creator-displayname>
+<S:date>2010-04-08T19:27:34.110785Z</S:date>
+</S:log-item>
+</S:log-report>

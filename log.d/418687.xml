@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>418687</D:version-name>
+<D:comment>DERBY-1427: sysinfo does not write Java SE and JDBC version when
+running under JDK 1.6
+
+Make sysinfo print "JRE - JDBC: Java SE 6 - JDBC 4.0" when running
+under JVM version 1.6.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-07-03T05:45:32.646343Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1094572</D:version-name>
+<D:comment>DERBY-5185 store/rollForwardRecovery.sql stuck in RAFContainer4.recoverContainerAfterInterrupt() during shutdown
+
+Patch derby-5185-2b which fixes state a state maintenance bugs (in
+threadDoingRestore/restoreChannelInProgress) maintenance when throwing
+FILE_IO_INTERRUPTED. The first fixes the immediate problem.
+
+It also adds a maximum number of retries for the readPage code and
+fixes some cases whereby the state variable "threadsInPageIO" could
+risk not being properly update when exceptions would get thrown. The
+latter may be the underlying reason for what we see here.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-04-18T13:49:26.427883Z</S:date>
+</S:log-item>
+</S:log-report>

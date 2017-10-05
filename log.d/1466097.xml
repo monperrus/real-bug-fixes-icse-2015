@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1466097</D:version-name>
+<D:comment>DERBY-6045 (in list multi-probe by primary key not chosen on tables with &gt;256 rows)
+
+These tests are similar to the ones added by revision 1465830 except that here we use parameters in the WHERE clause to pass the constants and check that we are still using index scan
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-04-09T16:13:05.117142Z</S:date>
+</S:log-item>
+</S:log-report>

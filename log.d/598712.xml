@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>598712</D:version-name>
+<D:comment>This commit merges into 10.3 codeline the 2 changes that went into trunk (595047 and 595803) for DERBY-3172. 
+
+I had to modify the merged code for the 2 test files by adding code to start and stop network server in 
+jdbcapi.DataSourceTest and jdbc4.DataSourceTest. 
+
+In the trunk, these 2 functionalities of start and stop of network server are already available in the 
+TestConfiguration.java. This functionalities were added into trunk as part of checkin 574053 for DERBY-2855. I 
+could merge the changes that went into  TestConfiguration to introduce these 2 functionalities in 10.3 codeline 
+but there is an outstanding jira issue about this functionality causing derbynet.jar dependency. The jira issue is 
+DERBY-3151 "Reduce dependency on NetworkServerControl in TestConfiguration" Because of this, I opted to add start 
+and stop network server functionality in jdbcapi.DataSourceTest and jdbc4.DataSourceTest. I have updated DERBY-3151 
+requesting that once we reach a resolution, we should migrate the changes into 10.3 codeline too so that individual 
+tests requiring start and stop network server do not have to write the code themselves, instead they can depend on 
+the TestConfiguration.java or some other class to provide that functionality. Once that work is done, 
+jdbcapi.DataSourceTest and jdbc4.DataSourceTest should be modified. I think in addition to these 2 tests,
+OutBufferedStream.java and TestConnectionMethods.java also have start and stop network server code in 10.3 codeline.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-11-27T17:41:35.165415Z</S:date>
+</S:log-item>
+</S:log-report>

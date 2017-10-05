@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>605219</D:version-name>
+<D:comment>DERBY-3037 
+
+Migrating change 604976 from trunk into 10.3.2.2 codeline. The commit comment for trunk were as follows
+
+EmbedStatement.executeStatement at line 1276 was calling finish rather than close on the Language Resultset. I fixed that to make a call to close. In addition, I also had to move the code for collecting the stats from finish to close method in NoRowsResultSetImpl. 
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-12-18T14:56:18.663576Z</S:date>
+</S:log-item>
+</S:log-report>

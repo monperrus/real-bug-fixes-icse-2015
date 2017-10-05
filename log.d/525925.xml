@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>525925</D:version-name>
+<D:comment>DERBY-2500: Fix PredicateList.orderUsefulPredicates() to recognize when we're
+doing a hash join and to explicitly avoid generating probe predicates in that
+case.  Also re-enable the "testResultSetInOrderWhenUsingIndex()" fixture for
+lang/DistinctTest.java and add some additional test cases.  Finally, update
+comments where appropriate to better explain the need for this restriction
+on probe predicates.
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2007-04-05T18:37:40.530059Z</S:date>
+</S:log-item>
+</S:log-report>

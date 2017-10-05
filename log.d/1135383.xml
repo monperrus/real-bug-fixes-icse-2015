@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1135383</D:version-name>
+<D:comment>DERBY-3913 mismatch between error XCL30 and 22003.S.4 and parameters in usage
+
+22003.S.4 had incorrect number of parameters in messages.xml, this commit fixes that.
+
+XCL30 was not getting used correctly in Lob.java, this commit fixes that.
+
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-06-14T05:34:27.340271Z</S:date>
+</S:log-item>
+</S:log-report>

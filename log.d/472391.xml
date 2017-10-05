@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>472391</D:version-name>
+<D:comment>DERBY-2052: JDBC.assertRowInResultSet compares the wrong value if using
+trimmed strings and a SMALLINT column exists. 
+
+Patch that 1) moves the locally scoped variables in JDBC.assertRowInResultSet()
+into the for loop, and 2) sets the "obj" variable through all paths.
+
+Contributed by Dan Debrunner (djd@apache.org) 
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2006-11-08T04:53:54.748168Z</S:date>
+</S:log-item>
+</S:log-report>

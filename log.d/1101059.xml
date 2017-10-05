@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1101059</D:version-name>
+<D:comment>DERBY-5222: Compatibility tests fail to delete database directory
+
+Use BaseTestCase.removeDirectory() to delete the database directory so
+that we get more details in the log when something goes wrong.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-05-09T15:19:04.743894Z</S:date>
+</S:log-item>
+</S:log-report>

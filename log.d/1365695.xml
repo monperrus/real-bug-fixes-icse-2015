@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1365695</D:version-name>
+<D:comment>DERBY-5407 When run across the network, dblook produces unusable DDL for VARCHAR FOR BIT DATA columns.
+
+Backporting only the test from 10.6 to 10.5. The bug doesn't exist in 10.5 but there is no test code coverage for SYSCOLUMNS.COLUMNDATATYPE in 10.5 and hence putting the test in 10.5
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2012-07-25T18:54:57.987863Z</S:date>
+</S:log-item>
+</S:log-report>

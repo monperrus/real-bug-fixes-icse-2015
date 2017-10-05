@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>578943</D:version-name>
+<D:comment>DERBY-3082 - backporting change 578942 to 10.3; modify check for hascode value
+   to allow negatives, which is generated on ibm iseries machines.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2007-09-24T20:14:58.267803Z</S:date>
+</S:log-item>
+</S:log-report>

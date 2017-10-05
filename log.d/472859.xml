@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>472859</D:version-name>
+<D:comment>DERBY-2038: lang/releaseCompileLocks.sql and lang/closed.java fail
+under JDK 1.6 in insane mode
+
+Added sed scripts which deleted the differing parts of the stack trace
+from the test output.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-11-09T10:57:47.590517Z</S:date>
+</S:log-item>
+</S:log-report>

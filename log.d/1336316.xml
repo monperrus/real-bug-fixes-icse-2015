@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1336316</D:version-name>
+<D:comment>DERBY-5686 (partial): Fix broken logic in BaseJDBCTestCase.assertDirectoryDeleted
+
+Added forgotten return statement. This should make the test/setup pass if the
+root directory disappears on the second or later attempt to delete all files.
+
+Patch file: DERBY-5686-3a-add_missing_return.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2012-05-09T17:49:28.303211Z</S:date>
+</S:log-item>
+</S:log-report>

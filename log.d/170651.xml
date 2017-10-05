@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>170651</D:version-name>
+<D:comment>This patch fixes derbynet/testSecMec.java  test failure on 131 vms.
+
+Problem - with 131 vms, if server and client are in the same jvm, on a second get connection with create=true attribute in the url, there is a hang.
+
+Basically,
+-- the first getConnection works ok
+-- but on the second getConnection, a SQLWarning needs to be generated  to say that the database already exists and in this scenario, it seems like at the point where it is creating a SQLWarning , there is a deadlock. The call to SQLWarning constructor does not return. On doing a java core dump , the thread in question seems to be in a wait state (conditional wait).  Guess is it has to do with the driver manager lock
+
+I will file a jira entry to track this issue but for the test in question, changes were made to not use create=true except for the first connection.
+-- ran this test for both DerbyClient and JCC driver on both corresponding versions 131,141 ,142 on both IBM and Sun jdks. Also tested it on sun jdk 1.5.0.
+-- ran derbynetmats on jdk142 ok.
+-- ran derbynetclientmats on ibm131 ok. 
+					contributed by Sunitha Kambhampati
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-05-17T20:20:44.753306Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>392194</D:version-name>
+<D:comment>DERBY-1189
+
+inplace compress could self deadlock on a latch/latch conflict.  Changed
+the insert page find code for defragment to never return a page which is
+higher than the source page of the row.  Previously the upper level code
+made this decision, but that was too late.  As part of the change also 
+optimized the "unfilled" search to be biased towards those pages near
+the front of the container.  Checkin includes simple sql script which 
+reproduced the deadlock prior to the fix.
+
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-04-07T06:11:13.853194Z</S:date>
+</S:log-item>
+</S:log-report>

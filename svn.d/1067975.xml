@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1067975"/>
+<S:open-directory rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="unit" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org/apache/cassandra</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="io" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org/apache/cassandra/io</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="LazilyCompactedRowTest.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org/apache/cassandra/io/LazilyCompactedRowTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7ca9b2656c669b4c98864f193ae4d250" sha1-checksum="fadf003126dc068fa56b8506ec016841268ef931"/>
+<S:prop><V:md5-checksum>275163a4e412fc37efbc7f0d494136e8</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="CompactSerializerTest.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org/apache/cassandra/io/CompactSerializerTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="33dc81747dcad818704acfa7a5af474c" sha1-checksum="ada126e110759645d666aea3c22c080dd823cfde"/>
+<S:prop><V:md5-checksum>20f408da133770ea9e3703af69afacbd</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="db" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org/apache/cassandra/db</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="ReadMessageTest.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org/apache/cassandra/db/ReadMessageTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="a37aca90af54619740ba21d71691214f" sha1-checksum="763918233493aa79c613723a4d91e15f62b31b0d"/>
+<S:prop><V:md5-checksum>f3980f236e25e80ddd1f9234b92bcfd7</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="DefsTest.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org/apache/cassandra/db/DefsTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="eb6fb3f48376d0841e4ef59af4ffb257" sha1-checksum="19ed48540f80e14a0b782cd262a5331f5585c915"/>
+<S:prop><V:md5-checksum>3f69c6e4e3a780aabfce2463f72f7991</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="SerializationsTest.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org/apache/cassandra/db/SerializationsTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="4f3ebeb0bd075c9ee9aad51985a4466d" sha1-checksum="af53cccd7739a01ee1760b94d13601884fff4611"/>
+<S:prop><V:md5-checksum>980c40cac55afb9de7709b85d704d6b8</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="gms" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org/apache/cassandra/gms</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="SerializationsTest.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org/apache/cassandra/gms/SerializationsTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="526209be8547c94e25961dbb1b8dfb30" sha1-checksum="65543a9fc0820a0fc4723c0df9a7ca61a45bdd6e"/>
+<S:prop><V:md5-checksum>c3ebc2f8fc0c0779190af738aaed8fe5</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="GossipDigestTest.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org/apache/cassandra/gms/GossipDigestTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="a642c51cfc71495428d0345a1546b5ea" sha1-checksum="c040f4fd30beef68f1e45de6691e5d7878e8adfd"/>
+<S:prop><V:md5-checksum>3966098043e98da80607376d64a641e2</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="streaming" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org/apache/cassandra/streaming</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="SerializationsTest.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org/apache/cassandra/streaming/SerializationsTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="78270092652acc915fb4281562073dad" sha1-checksum="862b27d94b74a66e781132eecc5279e6ea0c5c2c"/>
+<S:prop><V:md5-checksum>e833ba26043bd98c4afba34910e9bdf4</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="StreamUtil.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org/apache/cassandra/streaming/StreamUtil.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7d7d9dd66842a209cbec32f4f29901e7" sha1-checksum="233dc23d6e1d938328175e1c7aeaa04b6d950a0a"/>
+<S:prop><V:md5-checksum>00f26cf27507c2515cb33c79ba6ea2e1</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-file name="AbstractSerializationsTester.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org/apache/cassandra/AbstractSerializationsTester.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="37bfe7f143f837a548664d6ce4d7bd8c" sha1-checksum="fab7e67a28f24b21d03d3ccb59900b8fe1a3020e"/>
+<S:prop><V:md5-checksum>940466f061268b7384746e498f422d20</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="utils" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org/apache/cassandra/utils</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="SerializationsTest.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org/apache/cassandra/utils/SerializationsTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="a1ea7ac47a2a0baa452600ee83bb14af" sha1-checksum="4f95060ac39f93504f8594222f8fef1c8a778cd9"/>
+<S:prop><V:md5-checksum>1dbcb8a809923045a030bc63665337ca</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="LegacyBloomFilterTest.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org/apache/cassandra/utils/LegacyBloomFilterTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="6b31839d107294cd45a3fc0b41291828" sha1-checksum="518be49af004b487211ad7d772f0b389e5c9236b"/>
+<S:prop><V:md5-checksum>fc4721ba305698b26c84c9a3085f81b3</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="service" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org/apache/cassandra/service</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="SerializationsTest.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/test/unit/org/apache/cassandra/service/SerializationsTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="9ef1861e8f0fde8a0db5f27db3bebbf1" sha1-checksum="6634b0b7e33382f0c020ff970128739deec6a793"/>
+<S:prop><V:md5-checksum>723fc02f24ddcafb0635729177239842</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="src" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="io" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/io</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="ICompactSerializer.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/io/ICompactSerializer.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="02b001ff7435dbf4847a89f812d0bba0" sha1-checksum="d1a21fd75d1695bee2e843075b16841e415697b3"/>
+<S:prop><V:md5-checksum>2c67b5b5c79f16897fec5d1c8d5eb18c</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="sstable" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/io/sstable</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="IndexHelper.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/io/sstable/IndexHelper.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="413a6157e75a35a311829b4504334f40" sha1-checksum="72e133e876889153233af828ddf3bd65e2d4a1e4"/>
+<S:prop><V:md5-checksum>0438b5a7a0ce39434dc4afc9d5c17dd6</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="SSTableReader.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/io/sstable/SSTableReader.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="15e2a3d0177e4125f44edd6c7afaf70d" sha1-checksum="bc4ddf89b126083efd09a3b614065aaed158966b"/>
+<S:prop><V:md5-checksum>2a576d5b6f06e942c193fc3c86d0ec2f</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="db" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TruncateResponse.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/TruncateResponse.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="b78ec28bb8d448709dfe2160a068c829" sha1-checksum="e21744ca22fdcc8aa1ac6c844e5a0ad300bcd696"/>
+<S:prop><V:md5-checksum>8b9f26856b7eab22f84f63ac5762a601</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="Row.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/Row.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="408c12d866f12b544f59af9631a73ea7" sha1-checksum="7ac6b24b5ff629218611d6b974493bd2e7ba3198"/>
+<S:prop><V:md5-checksum>2ba628d3cf0f7ddcf28346d0f08c6a2d</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="SliceByNamesReadCommand.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/SliceByNamesReadCommand.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="cf37654fc9677dd0d80b29479f0ba46a" sha1-checksum="63b81c01a1a63b523072a3e4e296b43e14951fbf"/>
+<S:prop><V:md5-checksum>c8cc4301547ea1c9634f69a7f97bb1d9</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="commitlog" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/commitlog</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="CommitLog.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/commitlog/CommitLog.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="05f23c2d2fa1ced3f04476b6db271673" sha1-checksum="6b94b47b0a83fed955798858029f4f9e7caa760f"/>
+<S:prop><V:md5-checksum>0305890b7a45910c7624a9b0c1f998d9</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-file name="ColumnIndexer.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/ColumnIndexer.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="b3c3fc7ff84b75a44e79c04b019cb88e" sha1-checksum="43362aed309f2275d390f740b5015812ce88d811"/>
+<S:prop><V:md5-checksum>89e2fc19108c9e809c3f24969d56fe8b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="Truncation.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/Truncation.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="08b1cd92e0a1f050a818981bd8363489" sha1-checksum="47d5ab14b702e8975d683acd13f38a5a40f32026"/>
+<S:prop><V:md5-checksum>7aa4075ff031c96f17d4d6b18f94d176</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ReadVerbHandler.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/ReadVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="6d097772ade0aa1b0015d9190304d6e0" sha1-checksum="708baf1f95192649ba77d9c9d8fc139902f6bfbb"/>
+<S:prop><V:md5-checksum>5ef4e1a2a14ee557b6c618dc8b472726</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ReadResponse.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/ReadResponse.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="6d66401d9b2bedb559e57c4f2cea1a8f" sha1-checksum="031f206a801bbd8f780bc18ef7b49ce54e348fd8"/>
+<S:prop><V:md5-checksum>29c86f947b23642aa5cab442574e9a0f</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ReadRepairVerbHandler.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/ReadRepairVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="93aca158e690e10b59ca864b1704c3b6" sha1-checksum="4d33bb513d43607f3beb6e0b90a605be6d4e39b6"/>
+<S:prop><V:md5-checksum>8223cc0f5b6ed5ad98b87da5a434a7b5</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BinaryVerbHandler.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/BinaryVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="fd4d5bd816ffa0cc2a279c02870e1567" sha1-checksum="b0fafdd3491b720ff877db474765759e6f331300"/>
+<S:prop><V:md5-checksum>8045ee50c1c3fdf49eacce2a7d7d555b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="RowMutationVerbHandler.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/RowMutationVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="97d0b567a3c567d30a35cccec93070de" sha1-checksum="352bd48f41861b94a4206b41039ea1a71f591005"/>
+<S:prop><V:md5-checksum>ecfbb7c072ee9ef860907f777196e255</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="migration" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/migration</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="Migration.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/migration/Migration.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e6ff9a08bfdad02ee9415e74a7a3f9bd" sha1-checksum="b90d46a6753d3b68198030c9489cfef8b87a3bc0"/>
+<S:prop><V:md5-checksum>793e400bb6e42e0d6829533cc5a521fc</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-file name="WriteResponse.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/WriteResponse.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="df7f37046e1b8966f0343fdaf19c5153" sha1-checksum="7baaa4efd704a80dd555377b45e05103989a17ae"/>
+<S:prop><V:md5-checksum>f6d4b63bbdc169ab435aca3aabc21110</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ReadCommand.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/ReadCommand.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="86d98437a7bf7be7fb7bf1b6d2eded8f" sha1-checksum="b50d0bf575e63c88114c4bbc421b2d83ed181767"/>
+<S:prop><V:md5-checksum>2d0b13f84fecb2fa33c5c7df75c74888</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="DefinitionsUpdateResponseVerbHandler.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/DefinitionsUpdateResponseVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="10c93fd97cec12c4562db2cbc04ac958" sha1-checksum="e43144f49025d74ed477ad5277b3d2a9c4d513fd"/>
+<S:prop><V:md5-checksum>dd856eabbea9de90ef2c42eaec92e315</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="RangeSliceCommand.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/RangeSliceCommand.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c0519b6f307b694f8e643b958d8cb1ad" sha1-checksum="1a2e8bbba03cb62291a408059467f8c327177779"/>
+<S:prop><V:md5-checksum>0d50c6c4cb8f46f362b1d8a8db8e4052</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="CounterMutationVerbHandler.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/CounterMutationVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f9c3a633f7735a1d1cad151f425633ee" sha1-checksum="4eaa45ed3e36673cee0135a7171302dd1bcdeb96"/>
+<S:prop><V:md5-checksum>308878bf265cbe656c563325df90e797</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="SliceFromReadCommand.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/SliceFromReadCommand.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="9c37275334eaf1615795ef2deecc3529" sha1-checksum="73733ae924490b63dcd8c40fcdafe7c10cafd17f"/>
+<S:prop><V:md5-checksum>f5a858818be4fb5a320381179fa1eea1</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="RangeSliceReply.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/RangeSliceReply.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="38c90715bc78571adc705fd029718b92" sha1-checksum="24b7feba9aff3b3cf1322d9ec8c9a1a76fc74337"/>
+<S:prop><V:md5-checksum>e1162f310e2e331c1b24af8e1cbe5de4</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="RowMutation.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/RowMutation.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="ff689b213bdd3a562ab1477b02089709" sha1-checksum="76c1ec74dc13fecbfb7ac7bb7aaf0d85459e7a5f"/>
+<S:prop><V:md5-checksum>dac30b66b4cd20b48a30ce3a691f992b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="CounterMutation.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/CounterMutation.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="64b6ff1fcf9fe70660fe1d284979f009" sha1-checksum="10c4f6dc5fc6a66fbfb8f8ec466fd65e1d781567"/>
+<S:prop><V:md5-checksum>08cc7e28a2a422012e1e1535d1f1f91e</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="TruncateVerbHandler.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/db/TruncateVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="8782d9000c072c9c2acd553478b564df" sha1-checksum="8fe97079b45ebb75c961e6a7183ae5270fa4d862"/>
+<S:prop><V:md5-checksum>1d873e196bba5294de45781afc8bef93</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="gms" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/gms</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="GossipDigestAckMessage.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/gms/GossipDigestAckMessage.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e3f53dfc9f30414db37a1a74c6d8fb71" sha1-checksum="585dc885c29327fbbc7ca4989cc2d6cac366d860"/>
+<S:prop><V:md5-checksum>08a775409410fd28c31f97f740b93e6c</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="VersionedValue.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/gms/VersionedValue.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="287f54f3ecfef2e25239ea3a80039932" sha1-checksum="90857bcd19c54dec46ee24dbd2ae66ecfdb339c2"/>
+<S:prop><V:md5-checksum>c41662c2d3ce24ef875f482620ab51ac</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="Gossiper.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/gms/Gossiper.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="a657ce7fac11d2c3093c0e300e73b325" sha1-checksum="a09eb61666786528b5714a82cb7c3cc02eb20d05"/>
+<S:prop><V:md5-checksum>facd88971a1a147ae5cf76f20da877d4</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="GossipDigestAckVerbHandler.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/gms/GossipDigestAckVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="474ce98e9e28e1911b892902cdf784fd" sha1-checksum="23c16ffffe13e3011fbe1820414eb35127a5b1a2"/>
+<S:prop><V:md5-checksum>9ea6b9d56587fc685bb63d9499e22caa</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="HeartBeatState.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/gms/HeartBeatState.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="3b41276101f597ff13926abe431c3540" sha1-checksum="be8e1990dd9cbcefb5f9a4c72997acbc5dbe1f5e"/>
+<S:prop><V:md5-checksum>0f539241f8a7259210179f00d6a26c12</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="GossipDigestSynMessage.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/gms/GossipDigestSynMessage.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="6efd1d22dd9efaea47ebcda6984eae29" sha1-checksum="75255256fef5f0c2a449eb684e077efa8a263f06"/>
+<S:prop><V:md5-checksum>9052337316b3b7a81a927470ecefea28</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="GossipDigest.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/gms/GossipDigest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="1408d4b5205b2a6e7eb0479290dca75d" sha1-checksum="bbcfa2d9714022b58f1b7048239d2ee8e4496550"/>
+<S:prop><V:md5-checksum>f94416d1c017b154b79bea70c494f911</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="GossipDigestAck2Message.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/gms/GossipDigestAck2Message.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e3c3392fbcc27c1907bf67b946703c86" sha1-checksum="35a41423bfa358326334c81bd486c027d24c1591"/>
+<S:prop><V:md5-checksum>40ca8d038a4f217e30aa0ee76e268054</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="GossipDigestSynVerbHandler.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/gms/GossipDigestSynVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="9584cadfaf4e3bd19b398fa056c0bc14" sha1-checksum="85fa7d259a6a7b6739defa642567f6e7d3b4817c"/>
+<S:prop><V:md5-checksum>a7919380679afdc6f2b88c9cb6ce53c2</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="EndpointState.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/gms/EndpointState.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="dc6cf0b3611f4d33d1c3e2ccd9c4109f" sha1-checksum="3a2de93460542590c8186ace647fc4729331af3c"/>
+<S:prop><V:md5-checksum>d1be160bba87556ec73c87c7707f398f</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="GossipDigestAck2VerbHandler.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/gms/GossipDigestAck2VerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="17888f5aae985375cdc25ae8afc72e7c" sha1-checksum="70327955d6931d9d9e60d58c17b9f665fe4750ca"/>
+<S:prop><V:md5-checksum>fd2c07341f7432082210c7522a269d78</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="net" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/net</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="Message.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/net/Message.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="00ccf07aa6346d1fcdfab5d5c3c25c3a" sha1-checksum="46ee494aba2b84277082c16e17587db1152321b5"/>
+<S:prop><V:md5-checksum>20a8639a8d042e9fb8daab335b7fe1bb</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="Header.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/net/Header.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="12efead17b4377422a7aeeee85fed046" sha1-checksum="22519b27e35d75b06e7a3e60a7eb98fa22966efc"/>
+<S:prop><V:md5-checksum>4a4c6aeea8ff62654e6b641606a312ce</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="IncomingTcpConnection.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/net/IncomingTcpConnection.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="cfb1e6cf785656c43b30f79137044705" sha1-checksum="121f77a9b18cf7de4d48d082a503d80b9a3236bc"/>
+<S:prop><V:md5-checksum>4107dcb890183216eae7b73eed0aa902</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="MessagingService.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/net/MessagingService.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="369fb7c25f46157a9f7b021571581a2d" sha1-checksum="a14490a5ffcb2d225fe531657f447d7faa216d18"/>
+<S:prop><V:md5-checksum>5864ad296016553e802c38b141f07c3b</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="streaming" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/streaming</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="FileStreamTask.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/streaming/FileStreamTask.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="019cafc1f48ccfb34cd332b0dd92b035" sha1-checksum="6e0087988a0ccc72891b26e4cc06433bd908cbfb"/>
+<S:prop><V:md5-checksum>7ba5b592d9092ad8f47cc1f644973ca6</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="StreamRequestVerbHandler.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/streaming/StreamRequestVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="9e8fa0991ed6d7bba1a62128f3a95e8c" sha1-checksum="5279579ee5746001257c724fc28a53b8a78fab5e"/>
+<S:prop><V:md5-checksum>fd3b6ee59732675654085a2bb5239cbc</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="PendingFile.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/streaming/PendingFile.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="d77d9179b1d0ff9f23badac0b79fe14c" sha1-checksum="eb58a07509a7852af9dc6a5ab9e6e014b06c1562"/>
+<S:prop><V:md5-checksum>0a1b6e49cc52698033c7c24c04015e80</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="StreamReplyVerbHandler.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/streaming/StreamReplyVerbHandler.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="a6937af7355496ea5c2922de98048c25" sha1-checksum="eb240a6841abb8a512fb522beeb25296b9851788"/>
+<S:prop><V:md5-checksum>e895cee2d25ee36fc5e17744a9c4d70e</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="StreamHeader.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/streaming/StreamHeader.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f6af939367b90d4d655cf2ddd9b2de1d" sha1-checksum="2bcc18f307d94312cca577d57120856aa910c51d"/>
+<S:prop><V:md5-checksum>6c8e18d7e73f3836a25f5353e1d47cf7</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="StreamReply.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/streaming/StreamReply.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e08c29d816e9d258e0e60dc787817a19" sha1-checksum="b7c34c51f9979d5de6f58f12c698b01fa8921cb1"/>
+<S:prop><V:md5-checksum>44eec47170889fcb2a5071cbc8308bd0</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="StreamRequestMessage.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/streaming/StreamRequestMessage.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="66705483aa14fb652f12a46b88dba33c" sha1-checksum="d6758dd81af4776c946a4069f5dd71c7d18b5450"/>
+<S:prop><V:md5-checksum>b078f8d1dc6760eb1466ad454e7c1d0f</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="service" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/service</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="ReadResponseResolver.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/service/ReadResponseResolver.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="5221f5ba1221d6bd3879ab2d3d3a9704" sha1-checksum="b71a111ea7e938bf385ca95844f2991780742d14"/>
+<S:prop><V:md5-checksum>0f6bf8442c24bfb1f899447e1cb3d4f6</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="RangeSliceResponseResolver.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/service/RangeSliceResponseResolver.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="76418ea197acb0cb212ece737f140532" sha1-checksum="ebe1e68532be161c2cda1e00d21f5a7591e62bb9"/>
+<S:prop><V:md5-checksum>211a784ac906cde976b97c882b9f6fb3</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="MigrationManager.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/service/MigrationManager.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="5205dee6f440f16f3a39c2eaea097574" sha1-checksum="e46ac075b13229de60b0a07791e4743c5601a680"/>
+<S:prop><V:md5-checksum>79e60b6db8cdf38858bae338b51ca18f</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="AntiEntropyService.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/service/AntiEntropyService.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="44455970782c0e3ad6dba5ea23ec04d2" sha1-checksum="2a63ab5fce25c614f894659c0c4a4c1408099243"/>
+<S:prop><V:md5-checksum>889f4cd99618980105f5707c726145ef</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="utils" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/utils</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="BloomFilterSerializer.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/utils/BloomFilterSerializer.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="282291d2859b74766c02ca89b488b893" sha1-checksum="0f3e99eeafde60d86fd6fdd9f3cb3ea6ee9e9a69"/>
+<S:prop><V:md5-checksum>bdc4dc3e3f3fb36dc18ef45a7ccdbb48</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BloomFilter.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/utils/BloomFilter.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="078b3c2386bcae207b9c710f730f49f7" sha1-checksum="0fe9ef1000667289e7a27ace2d771bb5585c6895"/>
+<S:prop><V:md5-checksum>41c82ad8513a5b06f2b1ae07c62eb1bb</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="LegacyBloomFilterSerializer.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/utils/LegacyBloomFilterSerializer.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="594546e09d72aeaff34be4b415d4e949" sha1-checksum="44eba2a45c947f10ccb30b9f64d8bf684182ec03"/>
+<S:prop><V:md5-checksum>54639140bea4631f45878bc5912557a5</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="EstimatedHistogram.java" rev="1067974">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1067975/cassandra/trunk/src/java/org/apache/cassandra/utils/EstimatedHistogram.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1067975</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-02-07T15:38:07.431085Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f978a25e98f31d3a0c03a638c5d9b7b3" sha1-checksum="e9170e89355788ddba70d5dbd8b5ec9f1e47e928"/>
+<S:prop><V:md5-checksum>53aaae1e8674f96c7b8fbddf4e2f98d1</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

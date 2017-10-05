@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1228332</D:version-name>
+<D:comment>DERBY-4631 Wrong join column returned by right outer join with NATURAL or USING and territory-based collation\
+
+Adding a test case with following comments
+  /**
+   * Test USING clause and NATURAL JOIN for case insensitive and
+   * 	case sensitive collations.
+   * As per the SQL spec, "the join columns in a natural join or in a named 
+   *    columns join should be added to the select list by coalescing the 
+   *    column from the left table with the column from the right table. "
+   * DERBY-4631 - Derby does not coalesce as suggested by SQL spec, instead
+   * 	it picks up join column's value from the left table when working with 
+   *    natural left outer join and it picks up the join column's value from 
+   *    the right table when working with natural right outer join. This works
+   *    ok with non-territory based databases. It works ok for natural left
+   *    outer join for territory based database but depending on the data 
+   *    value, it does not always work for natural right outer join in a 
+   *    territory based database as shown in the test cases below.
+   * @throws SQLException
+  */
+
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2012-01-06T18:35:59.383749Z</S:date>
+</S:log-item>
+</S:log-report>

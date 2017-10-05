@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>769147</D:version-name>
+<D:comment>DERBY-3926
+
+Tars Joris contributed a new reproducible script(test-script.zip) which has been granted to ASF for
+inclusion. I changed the junit test which I added last week to be based on this new script. The changes 
+involved were data change only. The actual test cases in the junit test did not require any changes.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2009-04-27T20:22:52.036073Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>961977</D:version-name>
+<D:comment>DERBY-4460: test_031_derby_4413 failed in nightly regression run
+
+backported svn #886008 from trunk to 10.5 branch.
+
+Added an ORDER BY clause to ensure consistent ordering across
+different platforms. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2010-07-08T23:12:49.102557Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1449437</D:version-name>
+<D:comment>DERBY-6087 Can't build Javadoc with JDK 1.8 if explicit j15lib, j16lib and j17lib paths are set
+
+Simple fix which make the javadoc build use java18compile.classpath.</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2013-02-24T03:49:36.052678Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1180790</D:version-name>
+<D:comment>DERBY-5447: Deadlock in AutomaticIndexStatisticsTest.testShutdownWhileScanningThenDelete (BasePage.releaseExclusive and Observable.deleteObserver (BaseContainerHandle)) 
+
+Clean the daemon context only after the running worker thread (if any) has
+finished to avoid Java deadlock when closing the container handles obtained
+with the context.
+The deadlock is intermittent, but can easily be reproduced, and involves
+synchronization in BasePage and in java.util.Observable.
+
+Patch file: derby-5447-2a-change_istat_shutdown.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-10-10T06:38:52.783854Z</S:date>
+</S:log-item>
+</S:log-report>

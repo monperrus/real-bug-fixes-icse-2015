@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>552070</D:version-name>
+<D:comment>DERBY-2809 (cleanup) Remove need for specific method indicating a node is a unary +/- with a
+parameter node, it can be handled consistently by the method ValueNode.isParameterNode().</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-06-30T00:34:06.284246Z</S:date>
+</S:log-item>
+</S:log-report>

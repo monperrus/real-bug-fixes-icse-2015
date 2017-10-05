@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1071545</D:version-name>
+<D:comment>DERBY-4463; JMX test in nightly test suite failed with: JMXTest:clientjava.lang.InterruptedException
+DERBY-5028; InterruptResilienceTest passes with IBM 1.6 SR9 but creates javacore dumps
+  Adjusted the skipping of this test with ibm jvms to only skip with 1.5;
+  Added setting of derby.stream.error.extendedDiagSeverityLevel to 50000 to
+  prevent unnecessary javacore dump files. 
+
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2011-02-17T08:27:16.290767Z</S:date>
+</S:log-item>
+</S:log-report>

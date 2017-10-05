@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1081293</D:version-name>
+<D:comment>DERBY-5113: Intermittent failure in BlobSetMethodsTest on Java 7: Unable to set stream: 'Reached EOF prematurely; expected 1,024, got 0.'
+
+Blob.truncate() should copy bytes from the beginning of the stream.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-03-14T09:19:06.983639Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>772299</D:version-name>
+<D:comment>DERBY-4212 Prepared statement with OFFSET/FETCH gives different results on subsequent execute
+
+Patch DERBY-4212-2, which fixes this issue by resetting state
+variables in the close method of RowCountResultSet, and adds a new
+test case for this use case to OffsetFetchNextTest.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-05-06T15:18:54.027006Z</S:date>
+</S:log-item>
+</S:log-report>

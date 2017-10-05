@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1548128</D:version-name>
+<D:comment>DERBY-6362: CHECK constraint uses wrong schema for unqualified routine invocations
+
+Part 2: Fix offset of qualified table names. Their begin offset
+pointed to the beginning of the table name token, but should point to
+the beginning of the schema name token if they have one.
+
+Also leave begin and end offset unspecified (-1 implied) for some
+synthetic table name nodes that previously set the offsets to 0
+explicitly. This makes it easier to tell whether they are synthetic
+later.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-12-05T13:17:54.044105Z</S:date>
+</S:log-item>
+</S:log-report>

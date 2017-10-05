@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1559582</D:version-name>
+<D:comment>SOLR-5636: SolrRequestParsers does some xpath lookups on every request, which can cause concurrency issues. </D:comment>
+<D:creator-displayname>markrmiller</D:creator-displayname>
+<S:date>2014-01-19T21:00:40.135394Z</S:date>
+</S:log-item>
+</S:log-report>

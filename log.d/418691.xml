@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>418691</D:version-name>
+<D:comment>DERBY-1468: Server returns data when it receives a QRYROWSET value of
+zero on an OPNQRY, which doesn't follow DRDA protocol.
+
+The patch disables pre-fetching for LMTBLKPRC when QRYROWSET=0 and
+adds a test case to the protocol test which sends an OPNQRY for a
+scrollable cursor with QRYROWSET=0.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-07-03T05:57:33.126038Z</S:date>
+</S:log-item>
+</S:log-report>

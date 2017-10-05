@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1005193</D:version-name>
+<D:comment>DERBY-4786 Shutdown command without username and password should work with mixed client and network server releases.
+
+Commiting changes which modify the really outdated testScript.xml This gets used to run the compaibility tests. In addition to 
+trunk, it only tested upto 10.2 and didn't include all releases of 10.2 and 10.1 I have modified it to test all available releases 
+upto 10.6 This will definitely increase the runtime of the compatibility tests. 
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2010-10-06T18:07:34.623853Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>884738</D:version-name>
+<D:comment>DERBY-4451 ArrayIndexOutOfBoundsException or ASSERT FAILED when inserting generated columns out of order
+
+This patch fixes this issue as well as DERBY-4448, since they share
+the same underlying problem: the former way of checking for illegal
+override of generated columns in the presence of an explicit target
+column list failed to look below the top level UnionNode in a table
+constructor.
+
+This specialized treatment for the case of an explicit target column
+list has been removed for INSERT (it was shared with logic for
+UPDATE), so checking is now done by the code for the case of no
+explicit targte column list.
+
+Backported from trunk as
+
+svn merge -c 884163 https://svn.eu.apache.org/repos/asf/db/derby/code/trunk
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-11-27T02:28:54.624740Z</S:date>
+</S:log-item>
+</S:log-report>

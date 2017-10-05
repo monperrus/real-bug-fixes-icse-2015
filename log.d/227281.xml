@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>227281</D:version-name>
+<D:comment>DERBY-7: The NULLIF built-in function of Derby seems to accept
+only string types. Passing any other type argument raises error.
+
+Fix submitted by Mamta Satoor (msatoor@gmail.com)
+
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2005-08-04T00:34:47.667356Z</S:date>
+</S:log-item>
+</S:log-report>

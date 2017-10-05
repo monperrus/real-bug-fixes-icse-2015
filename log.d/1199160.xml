@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1199160</D:version-name>
+<D:comment>DERBY-4845: Improve the dependency tracking for our build targets
+
+Make NodeFactory return nodes of type Node (in an iapi package) instead
+of QueryTreeNode (which lives in an impl packages) to remove dependencies
+on implementation code in iapi code.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-11-08T08:53:52.145848Z</S:date>
+</S:log-item>
+</S:log-report>

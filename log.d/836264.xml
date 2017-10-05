@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>836264</D:version-name>
+<D:comment>Fixed multi-get to put localCommands onto the StorageService.readStage when a node gets commands to process, instead of running them serially. 
+patch by goffinet, minor cleanup and review by jbellis for CASSANDRA-555
+</D:comment>
+<D:creator-displayname>goffinet</D:creator-displayname>
+<S:date>2009-11-14T21:05:56.809046Z</S:date>
+</S:log-item>
+</S:log-report>

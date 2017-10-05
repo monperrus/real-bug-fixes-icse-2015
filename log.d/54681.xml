@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>54681</D:version-name>
+<D:comment>committing patch from  tsuresh@Source-Zone.org
+
+Patch to fix following two issues reported in Derby-32:
+1)   Exclusive file lock on dbex.lck  is  getting released before the
+database is shutdown, allowing  multiple jvm's to boot the same database
+in parallel
+2)  Exclusive file lock on dbex.lck  is not released even when database
+is shutdown.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2004-10-12T18:08:47.626264Z</S:date>
+</S:log-item>
+</S:log-report>

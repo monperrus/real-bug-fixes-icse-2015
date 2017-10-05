@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>169501</D:version-name>
+<D:comment>committing fix for DERBY-237 for ksunithaghm@gmail.com.  
+
+This patch fixes derby-237: Boot errors from store must not lose error messages/stack traces in between.
+
+Actually nested exceptions from the boot error were not lost but their stack traces were not being written out into error stream which is why the entire stack traces of exceptions was not printed out to derby.log
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2005-05-10T17:38:06.766517Z</S:date>
+</S:log-item>
+</S:log-report>

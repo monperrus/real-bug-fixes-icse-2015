@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1347888</D:version-name>
+<D:comment>DERBY-5797: AssertionFailedError in functionTests.tests.lang.UpdateStatisticsTest.testDisposableStatsEagerness
+
+Make the test sleep for at least one tick of the system timer to ensure the
+comparison of statistics creation timestamps are valid in the normal case
+(i.e. when there is no bug).
+Added two utility methods to BaseTestCase:
+ o sleep(long ms)
+ o sleepAtLeastOneTick()
+Removed two existing sleep-methods in test classes (note that the one taking
+numbers of seconds as argument was unused).
+
+Patch file: derby-5797-1a-sleep_a_tick.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2012-06-08T06:13:44.190291Z</S:date>
+</S:log-item>
+</S:log-report>

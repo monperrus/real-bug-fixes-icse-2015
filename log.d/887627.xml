@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>887627</D:version-name>
+<D:comment>ColumnFamily.onStart() was not checking files related to only it's column family. It was possible to remove files from other CFs thinking they were orphans. Skip files not apart of the CF. patch by goffinet; reviewed by jbellis for CASSANDRA-606</D:comment>
+<D:creator-displayname>goffinet</D:creator-displayname>
+<S:date>2009-12-06T01:46:40.326054Z</S:date>
+</S:log-item>
+</S:log-report>

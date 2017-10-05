@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1578192</D:version-name>
+<D:comment>DERBY-6248; nightly regression test failure: testDerby966(org.apache.derbyTesting.functionTests.tests.jdbcapi.XATest)java.sql.SQLFeatureNotSupportedException: The DDM object 0x2408 is not supported. The connection has been terminated.
+  working around the issue by adding a rollback.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2014-03-17T00:53:04.238415Z</S:date>
+</S:log-item>
+</S:log-report>

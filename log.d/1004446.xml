@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1004446</D:version-name>
+<D:comment>[ARIES-436][ARIES-438] Fix problems with service proxying:
+  * do not proxy if there are no interceptors (currently, only quiesce api defines an interceptor)
+  * try with subclass proxying first to keep the service class when possible</D:comment>
+<D:creator-displayname>gnodet</D:creator-displayname>
+<S:date>2010-10-04T21:54:11.330446Z</S:date>
+</S:log-item>
+</S:log-report>

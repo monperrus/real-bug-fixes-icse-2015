@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>967201</D:version-name>
+<D:comment>DERBY-4601 Shutting down just a single database should log a different message than shutting down the system
+
+By mistake, I was printing the timestamp twice. This simple change fixes that.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2010-07-23T19:01:43.876487Z</S:date>
+</S:log-item>
+</S:log-report>

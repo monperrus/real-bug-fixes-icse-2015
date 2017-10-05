@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>782095</D:version-name>
+<D:comment>Change select timeout from 100ms to 1.   This mitigates a bug on some systems where the select doesn't process new data until the next call.  (Spinning faster doesn't increase load on an idle system.)  patch by jbellis; tested by goffinet</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-06-05T18:38:45.722199Z</S:date>
+</S:log-item>
+</S:log-report>

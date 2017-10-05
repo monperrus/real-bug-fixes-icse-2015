@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1465830</D:version-name>
+<D:comment>DERBY-6045 (in list multi-probe by primary key not chosen on tables with &gt;256 rows)
+
+Adding tow more test fixtures(testDerby6045WithUpdateStatistics and testDerby6045WithoutUpdateStatistics). 
+Difference between the two fixtures is testDerby6045WithUpdateStatistics issues an update statistics after inserting the required number of rows in the table, where as testDerby6045WithoutUpdateStatistics does not issue an update statisitcs.
+The code for them looks as follows
+1)Create a brand new table with a primary key
+2)Add 10 rows/24 rows/10,000 rows.
+3)One of the test fixture(testDerby6045WithUpdateStatistics) will issue an update statistics at this time
+4)Run following 3 queries and make sure they all use index scan
+	SELECT * FROM newTable WHERE TERM_ID = 11
+	SELECT * FROM newTable WHERE (TERM_ID = 11) OR (TERM_ID =21) OR (TERM_ID = 31)
+	SELECT * FROM newTable WHERE (TERM_ID IN (11, 21, 31))
+5)Drop the table
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-04-08T23:49:43.088335Z</S:date>
+</S:log-item>
+</S:log-report>

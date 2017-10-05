@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>772680</D:version-name>
+<D:comment>use explicit dirty flag instead of trying to cheat and use executor taskcount, which is race-prone.  patch by jbellis; reviewed by Eric Evans for CASSANDRA-134</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-05-07T15:30:53.026804Z</S:date>
+</S:log-item>
+</S:log-report>

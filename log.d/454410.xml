@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>454410</D:version-name>
+<D:comment>DERBY-1939
+
+Fixes HeapRowLocation.getNewNull() to return actual null object, this 
+functionality is used by the hash overflow to disk code.  Without this
+change the HeapRowLocation is correctly written out to the StoredPage, 
+but on read the overflow code passes a null template which causes the
+wrong code to read the data back into the object. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-10-09T15:39:47.081659Z</S:date>
+</S:log-item>
+</S:log-report>

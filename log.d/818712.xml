@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>818712</D:version-name>
+<D:comment>record gossipped enpoint/token pairs as we see them.  also clean up SystemTable code to avoid unnecessary CF fetches.  patch by Gary Dusbabek and jbellis for CASSANDRA-437</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-09-25T04:01:35.721067Z</S:date>
+</S:log-item>
+</S:log-report>

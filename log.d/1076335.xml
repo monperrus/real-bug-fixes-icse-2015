@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1076335</D:version-name>
+<D:comment>DERBY-4915: test failure in OSReadOnlyTest in assertDirectoryDeleted
+
+Make BaseJDBCTestCase.assertDirectoryDeleted retry up to three times before
+giving up and raising an assert failure.
+Make DropDatabaseSetup.removeDir use the above mentioned method, since it is
+also failing to delete files on Windows.
+
+Patch file: derby-4915-1b-more_persistent_delete.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-03-02T19:11:25.938257Z</S:date>
+</S:log-item>
+</S:log-report>

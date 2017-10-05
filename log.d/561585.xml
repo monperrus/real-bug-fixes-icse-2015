@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>561585</D:version-name>
+<D:comment>DERBY-2350
+backporting change 561189 from trunk to 10.3.
+
+Fix XML in triggers by changing code generation to generate different code
+in the case of XML of the form when referencing old and new column values.:
+XMLPARSE(DOCUMENT
+CAST (org.apache.derby.iapi.db.Factory::
+getTriggerExecutionContext().getNewRow().
+getString(&lt;colPosition&gt;) AS CLOB)
+PRESERVE WHITESPACE)
+
+Also change XML.setValueFromResult() to validate the character stream and
+set the xType as appropriate after parsing the stream.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2007-07-31T22:57:29.767025Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>614068</D:version-name>
+<D:comment>DERBY-3215 Potential NullPointerException in CachedPage class
+
+Merged fix (two patches) from trunk as
+
+svn merge -r 596852:596853 https://svn.apache.org/repos/asf/db/derby/code/trunk
+svn merge -r 597122:597123 https://svn.apache.org/repos/asf/db/derby/code/trunk
+
+The offending code is in an unused argument to newException, remove
+two instances of that and restructures the code for better readability
+by testing for the exceptional condition first. Also removes some
+unused imports.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2008-01-22T00:18:16.035704Z</S:date>
+</S:log-item>
+</S:log-report>

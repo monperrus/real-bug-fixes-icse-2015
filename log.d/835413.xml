@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>835413</D:version-name>
+<D:comment>tokenMetadata should be updated before removing obsolete pending ranges, and unset bootstrapped flag when decommission is complete.  patch by Jaakko Laine and jbellis for CASSANDRA-435</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-11-12T15:26:17.806067Z</S:date>
+</S:log-item>
+</S:log-report>

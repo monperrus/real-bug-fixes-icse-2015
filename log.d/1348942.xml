@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1348942</D:version-name>
+<D:comment>LUCENE-4128: be more careful on upgrading a 3.x segments_N file to individual .si files so that OS or JVM crash, or machine power loss, doesn't leave index unusable</D:comment>
+<D:creator-displayname>mikemccand</D:creator-displayname>
+<S:date>2012-06-11T17:47:47.965211Z</S:date>
+</S:log-item>
+</S:log-report>

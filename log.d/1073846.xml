@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1073846</D:version-name>
+<D:comment>DERBY-4741 Make embedded Derby work reliably in the presence of thread interrupts
+
+Backing out a chnage which breaks the build in some circumstances
+until we figure out how to change the build to accommodate it.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-02-23T17:51:08.992809Z</S:date>
+</S:log-item>
+</S:log-report>

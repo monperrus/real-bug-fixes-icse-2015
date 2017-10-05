@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>903222</D:version-name>
+<D:comment>DERBY-4102: Assert failure or ClassCastException in EmbedBlob when retrieving BLOB &gt;= 32K
+Merged fix from trunk (r835286, derby-4102-1a.diff).
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-01-26T13:39:17.164540Z</S:date>
+</S:log-item>
+</S:log-report>

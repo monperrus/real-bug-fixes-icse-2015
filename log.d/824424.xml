@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>824424</D:version-name>
+<D:comment>fix subcolumn-reading code to account for tombstoned columnfamily .  patch by jbellis; tested by Ramzi Rabah for CASSANDRA-484</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-10-12T17:07:35.421764Z</S:date>
+</S:log-item>
+</S:log-report>

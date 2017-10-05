@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>553111</D:version-name>
+<D:comment>DERBY-2891: Clob.getCharacterStream(long,long) ignores position
+parameter for large (&gt;32k) CLOBs
+
+Fixed hard-coded start position in ClobUpdatableReader's constructor.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-07-04T07:39:26.876935Z</S:date>
+</S:log-item>
+</S:log-report>

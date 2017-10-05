@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>688184</D:version-name>
+<D:comment>DERBY-2422 ; test holdCursorJavaReflection was decided as unnecessary with
+  jdk1.4 and up as it only tests a different way to get at the holdability
+  functionality (as a temporary workaround while jdk13 was still supported). 
+  However, there was no specific derby functionality tested that isn't tested
+  elsewhere and the test should've gotten deleted to prevent confusion later. 
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2008-08-22T19:45:03.668536Z</S:date>
+</S:log-item>
+</S:log-report>

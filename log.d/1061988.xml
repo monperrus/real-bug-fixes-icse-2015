@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1061988</D:version-name>
+<D:comment>DERBY-4974 InterruptResilienceTest fails on Solaris with Sun VMs prior to 1.6
+
+Patch DERBY-4974, which:
+
+a) skips the tests in InterruptResilienceTest if running with
+interruptible IO on Solaris
+
+b) improves the check for interruptible IO to work even if
+system/derby.log doesn't yet exist (which would be the case if the
+test is run stand-alone).
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-01-21T19:59:29.152711Z</S:date>
+</S:log-item>
+</S:log-report>

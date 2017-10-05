@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>642184</D:version-name>
+<D:comment>DERBY-3526: AsynchronousLogShipper#workToDo is blocked while the log shipper sends a log chunk
+Use a different object to synchronize on while calling wait and notifying the log shipper thread.
+Contributed by V Narayanan</D:comment>
+<D:creator-displayname>oysteing</D:creator-displayname>
+<S:date>2008-03-28T10:29:24.144955Z</S:date>
+</S:log-item>
+</S:log-report>

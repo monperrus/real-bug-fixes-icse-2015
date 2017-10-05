@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>933465</D:version-name>
+<D:comment>fix index scans that cross the 2GB mmap boundaries for both mmap and standard i/o modes.
+patch by jbellis; tested by Todd Burruss and reviewed by gdusbabek for CASSANDRA-866
+
+</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-04-13T02:25:56.214010Z</S:date>
+</S:log-item>
+</S:log-report>

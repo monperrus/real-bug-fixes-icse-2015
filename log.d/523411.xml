@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>523411</D:version-name>
+<D:comment>DERBY-2256: Make sure that IN-list comparisons are done with the "dominant" type
+when two values have different type precedences. More specifically:
+
+  - When determining the "judge" type in InListOperatorNode.preprocess(),
+    iterate through all of the values to find out what the dominant type is,
+    and then use that as the "judge" for sorting. Prior to these changes we
+    just used the type of the left operand as judge, but that was not correct.
+
+  - At execution time (i.e. in DataType.in()), add logic to ensure that all search
+    comparisons are done using the dominant type of the values being compared.
+
+  - Add appropriate test cases to lang/inbetween.sql.
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2007-03-28T17:05:38.974075Z</S:date>
+</S:log-item>
+</S:log-report>

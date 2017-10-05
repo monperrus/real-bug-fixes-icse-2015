@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>477168</D:version-name>
+<D:comment>DERBY-1132: Truncation Error with Concat
+
+The Char &amp; Varchar functions were not handled separately to assign to
+length for the target type (in the bindExpression() method of
+CastNode.java) and thus a default value of 15 was getting assigned to
+it (from getColumnDisplaySize() method of DataTypeUtilities class)
+
+Now I added a check for the string types (i.e. both Char &amp; Varchar) in
+the source type, and using the operand's maximum length or the maximum
+length for that data type (whichever is minimum) and assigning it to
+be the length for the target type. Thus avoiding the unwanted
+truncation error caused by the default value of 15.
+
+Patch contributed by Saurabh Vyas.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-11-20T13:17:11.673691Z</S:date>
+</S:log-item>
+</S:log-report>

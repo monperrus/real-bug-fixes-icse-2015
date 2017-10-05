@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>531596</D:version-name>
+<D:comment>SQLToJUnit utility would try to print an array for an empty result set if a
+row count followed the empty result set. Fix it so that the row count line is
+completely ignored.
+</D:comment>
+<D:creator-displayname>fuzzylogic</D:creator-displayname>
+<S:date>2007-04-23T20:59:37.751289Z</S:date>
+</S:log-item>
+</S:log-report>

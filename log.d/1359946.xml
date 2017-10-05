@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1359946</D:version-name>
+<D:comment>LUCENE-4209: fix another suggester leak: dont leave behind the file when rename fails (/tmp is its own filesystem)</D:comment>
+<D:creator-displayname>rmuir</D:creator-displayname>
+<S:date>2012-07-10T23:06:08.013978Z</S:date>
+</S:log-item>
+</S:log-report>

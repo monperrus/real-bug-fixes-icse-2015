@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>823515</D:version-name>
+<D:comment>DERBY-3824 - Rollback to savepoint fails on phoneME - xtestRollbackWillReleaseLaterSavepoints: "T1" row count: expected:&lt;1&gt; but was:&lt;8&gt;
+Make sure T1 is empty when starting test.
+</D:comment>
+<D:creator-displayname>ole</D:creator-displayname>
+<S:date>2009-10-09T11:40:45.274291Z</S:date>
+</S:log-item>
+</S:log-report>

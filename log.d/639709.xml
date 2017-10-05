@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>639709</D:version-name>
+<D:comment>java/testing/org/apache/derbyTesting/functionTests/tests/lang/CollationTest.java
+Updated for new System tables.
+
+java/testing/org/apache/derbyTesting/functionTests/tests/lang/ErrorCodeTest.java
+Updated for new error messages.
+
+java/testing/org/apache/derbyTesting/functionTests/tests/lang/GrantRevokeDDLTest.java
+Updated for new System Tables
+
+java/testing/org/apache/derbyTesting/functionTests/tests/jdbcapi/ClobStoredProcedureTest.java
+
+Updated for DERBY-3365 Network Server stores a duplicate entry in the lob hash map for every lob
+
+Change network server to use existing lob hash map entry instead of creating a second entry.
+
+java/testing/org/apache/derbyTesting/functionTests/tests/jdbcapi/DMDBugsTest.java
+Updated for new system table
+
+java/testing/org/apache/derbyTesting/functionTests/master/ij7.out
+
+Update for new System tables.
+
+java/testing/org/apache/derbyTesting/functionTests/master/dml149.out
+
+Update for nullable column width 
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-03-21T16:44:30.917336Z</S:date>
+</S:log-item>
+</S:log-report>

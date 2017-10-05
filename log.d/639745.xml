@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>639745</D:version-name>
+<D:comment>java/testing/org/apache/derbyTesting/functionTests/tests/jdbc4/StatementTest.java
+update for DERBY-2065 (587040) Network and embedded difference in SQLSTATE and message when Connection.close() with open transaction.
+java/testing/org/apache/derbyTesting/functionTests/tests/jdbc4/TestDbMetaData.java
+
+update for DERBY-2983 (563172) The ResultSet returned by DatabaseMetaData.getFunctions() does not contain a required column named FUNCTION_TYPE.
+
+java/testing/org/apache/derbyTesting/functionTests/tests/tools/ImportExportProcedureTest.java
+java/testing/org/apache/derbyTesting/junit/SupportFilesSetup.java
+
+Update for DERBY-3068 (616085)  testImportExportProcedureNegative(org.apache.derbyTesting.functionTests.tests.tools.ImportExportProcedureTest)junit.framework.ComparisonFailure: Unexpected SQL state. expected:&lt;38000&gt; but was:&lt;XIE0S&gt;
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-03-21T18:20:08.869937Z</S:date>
+</S:log-item>
+</S:log-report>

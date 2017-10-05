@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>448426</D:version-name>
+<D:comment>DERBY-1315
+contributed by Army Brown
+patch: d1315_10_1_merge.patch
+
+Backporting fix from trunk to 10.1 line using contributed patch that resolves
+merge conflicts.
+
+DERBY-1315 This patch adds a small amount of logic to remove entries from an Opt
+imizable's "best plan" HashMap when they are no longer needed. For more on when
+this is possible, see the discussion here:
+http://article.gmane.org/gmane.comp.apache.db.derby.devel/26051
+Patch contributed by "A B" qozinx@gmail.com
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-09-21T01:28:50.062916Z</S:date>
+</S:log-item>
+</S:log-report>

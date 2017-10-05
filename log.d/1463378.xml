@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1463378</D:version-name>
+<D:comment>DERBY-6045 (in list multi-probe by primary key not chosen on tables with &gt;256 rows)
+
+Changes for DERBY-3790 (Investigate if request for update statistics can be skipped for certain kind of indexes, one instance may be unique indexes based on one column.) caused Derby to use table scan rather than index scan since we do not generate stats for single column unique index. As part of that change, we forgot to make code changes in optimizer to compensate for missing stats for such indexes. As found in DERBY-6045 (in list multi-probe by primary key not chosen on tables with &gt;256 rows), even though we do not keep the statistics for single-column unique indexes, we should improve the selectivity of such an index when the index is being considered by the optimizer.
+
+Making the relevant code changes now allows us to enable the tests in InListMultiProbeTest.java since they will now run correctly by picking up index scan rather than table scan.
+
+Additionally, one test in refActions1.sql does not have order by to it and there are only 3 rows in the table. Without the changes for DERBY-6045 we were using index scan for it but now it uses table scan which is giving the rows in different order. I have added order by to the query so plan selection does not change order of the rows. The reason behind table scan might be that with only 3 rows in the table, it is cheaper to do table sccan rather than index scan. 
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-04-02T04:28:23.090167Z</S:date>
+</S:log-item>
+</S:log-report>

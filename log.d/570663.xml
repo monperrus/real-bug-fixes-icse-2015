@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>570663</D:version-name>
+<D:comment>DERBY-3025: NPE when connecting to database with securityMechanism=8
+
+Use an internal attribute name when passing security mechanism from
+the network server to the embedded driver. This prevents confusion if
+an embedded connection is established with securityMechanism specified
+(in which case the security mechanism should be ignored).
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-08-29T07:02:03.214023Z</S:date>
+</S:log-item>
+</S:log-report>

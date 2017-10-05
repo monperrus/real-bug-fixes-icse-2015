@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1085365"/>
+<S:open-directory rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="aries" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="samples-sandbox" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="goat" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">target
+.classpath
+.project
+.settings
+
+</S:set-prop>
+<S:add-directory name="goat-info-enhancer" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">target
+.classpath
+.project
+.settings
+
+</S:set-prop>
+<S:add-file name="pom.xml" sha1-checksum="eedd412328cdd48cb31b62764d718424b8e96f04">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>c385786cbabaf7f2d294d239c0197cea</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="src" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/src">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960567</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-05T11:51:24.777446Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="main" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/src/main">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960567</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-05T11:51:24.777446Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="java" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/src/main/java">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/src/main/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960567</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-05T11:51:24.777446Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/src/main/java/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/src/main/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960567</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-05T11:51:24.777446Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/src/main/java/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/src/main/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960567</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-05T11:51:24.777446Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/src/main/java/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/src/main/java/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960567</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-05T11:51:24.777446Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="samples" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/src/main/java/org/apache/aries/samples">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/src/main/java/org/apache/aries/samples</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960567</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-05T11:51:24.777446Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="goat" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/src/main/java/org/apache/aries/samples/goat">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/src/main/java/org/apache/aries/samples/goat</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960567</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-05T11:51:24.777446Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="enhancer" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/src/main/java/org/apache/aries/samples/goat/enhancer">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/src/main/java/org/apache/aries/samples/goat/enhancer</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960567</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-05T11:51:24.777446Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="Activator.java" sha1-checksum="901828bdb9d1356ab2a3d81a932f8e707065e92f">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/src/main/java/org/apache/aries/samples/goat/enhancer/Activator.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">951733</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-05T15:59:06.984447Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>7c436d60590920bf5ab5d5bda3bbea18</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ServiceInterceptor.java" sha1-checksum="9f96b47b5463b47adc5b35322df7fb5b5b1a9582">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/src/main/java/org/apache/aries/samples/goat/enhancer/ServiceInterceptor.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960567</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-05T11:51:24.777446Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>41b63fcf5168c9f90b590c6c4e59fd0f</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ModelInfoEnhancerService.java" sha1-checksum="791991b03d5153fdd3aab160193df8780849c5de">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-info-enhancer/src/main/java/org/apache/aries/samples/goat/enhancer/ModelInfoEnhancerService.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>bb82f38d7ff5c176df690b7bb0c99b1f</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="goat-web" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-web">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">target
+.classpath
+.project
+.settings
+
+</S:set-prop>
+<S:add-directory name="src" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-web/src">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1027988</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-10-27T14:58:50.829623Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gawor</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="main" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1027988</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-10-27T14:58:50.829623Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gawor</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="resources" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1027988</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-10-27T14:58:50.829623Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gawor</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="web" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1027988</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-10-27T14:58:50.829623Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gawor</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="goat" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960238</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-03T17:19:25.560028Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="Component.js" sha1-checksum="477161124d80de2a1df787d714fbdd06f9eab9e1">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/Component.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960170</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-03T08:37:33.113994Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>93ef58c81b34a1ff2259efb1ee5b1f22</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="RelationshipAggregator.js" sha1-checksum="460b438003d92c0551d83afe1ef2fadea04d3a20">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/RelationshipAggregator.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">949987</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T09:59:37.764771Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>85b15f500b5942245b6b28648f6bafd8</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="Config.js" sha1-checksum="7eaf1da3e02c0fca609f4ff74b62fb1d5dc038af">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/Config.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>160a11f153ce9edcbf911bd6d10ed4e9</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="LayoutManager.js" sha1-checksum="9c0d894b39c8af1de992bbd19564e2616e54768a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/LayoutManager.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">952784</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-08T19:30:36.681304Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>ebff4f97d1a53042d3c54e05c43aa11a</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="relationshipaspects" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/relationshipaspects">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/relationshipaspects</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="AspectBase.js" sha1-checksum="2cdeecaedca8c5f9784b10939a943a77a09c2e34">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/relationshipaspects/AspectBase.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>ef09af97d9edde6707414fc82a581064</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="Parameterized.js" sha1-checksum="c5e9473280ce341c5a4fddeafa8c6886e061e538">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/relationshipaspects/Parameterized.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>d6097263e56855a6e705ef2ba8b262e9</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="Versioned.js" sha1-checksum="e4f52e8a3c0bb86fcb5ce9aeae260982a344884a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/relationshipaspects/Versioned.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>70dc3329d0376cc3e3636091ba16f92f</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-file name="DwrLoadingDialog.js" sha1-checksum="4b13769c579a6bdb9c74fedb1abf7483a278689d">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/DwrLoadingDialog.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>e75ec418f6dcf5580de0f1c539dccb0e</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ComponentStatusGrid.js" sha1-checksum="2c7c9d3d0db7eaf1722bc6233b0d4446bb5547bc">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/ComponentStatusGrid.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">957321</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-23T19:41:06.750885Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>3b90f55e0c0e3e65db29eddc92c37398</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ElementLayoutManager.js" sha1-checksum="a2adab4598906cced4f75423f7e20f51f04b2049">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/ElementLayoutManager.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960219</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-03T13:24:05.588110Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>d33fb1e1585ec1dadc92fa67e9c8bbf2</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ProviderSelector.js" sha1-checksum="1b74ead3208331275c96b9580ffd02f5593711f6">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/ProviderSelector.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>921ebf543d90bc8a3602524c6b34105c</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="RelationshipManager.js" sha1-checksum="4f57adf3e1107b38488a0d1857c7c9f28322b95e">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/RelationshipManager.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960224</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-03T14:35:19.274971Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>dc16c77021d437e54b46f4362ad65b60</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ServerSideInterface.js" sha1-checksum="c7e300f605e5c8676b08c5537a08f130258f8983">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/ServerSideInterface.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">957321</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-23T19:41:06.750885Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>bd20b79bebfc0bba2e56bfb82459912e</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="configuration" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/configuration">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/configuration</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">958363</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-27T11:07:45.817862Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="ComponentAppearance.js" sha1-checksum="b3649573ba4d4f798aa4438ee4f205fb3044351b">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/configuration/ComponentAppearance.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">958363</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-27T11:07:45.817862Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>abf768b2f81c9800b9bebfc61e887422</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="Theme.js" sha1-checksum="dfea9ff34e4b3640e0233fde198551cf4d3c5d45">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/configuration/Theme.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">958363</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-27T11:07:45.817862Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>89030c21c64b7bc79a87a259bcaf5cf3</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-file name="ConfigManager.js" sha1-checksum="768a0f256991f40c8d801480a478edcb8d0a3558">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/ConfigManager.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>398d3e00c83a0c0713b321b26e7afbd7</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="Relationship.js" sha1-checksum="fcf9d7db1d23d2d74d75094b650bc51662323dc4">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/Relationship.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">956288</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-19T20:26:20.734291Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>02043f8cb31e09b621ecedab30763307</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="SimpleInitialLayout.js" sha1-checksum="2f8dd4dd3995c8281429f066bbf9981e6b95cf11">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/SimpleInitialLayout.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>6529339ff56cd22c4c8680b02980bc2f</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="elements" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/elements">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/elements</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960238</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-03T17:19:25.560028Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="TriangleDecorator.js" sha1-checksum="4314bc9c992d5b682233b61511f19a5d3ce59ca1">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/elements/TriangleDecorator.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">951733</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-05T15:59:06.984447Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>42275ba32ff0aa5c1fc0c806c07f19a3</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ComponentColorElement.js" sha1-checksum="f747e85eb1c941622f732830b1f1a52536e3bcce">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/elements/ComponentColorElement.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960170</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-03T08:37:33.113994Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>e4db2cdf7caf0d98dc77abd5a61f0949</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="RelationshipElement.js" sha1-checksum="bdd79a2c59ecb484c90c43115cc82ee40618f248">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/elements/RelationshipElement.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">956288</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-19T20:26:20.734291Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>0be31bc610328b17c3aeae7819788ded</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="TextComponentProperty.js" sha1-checksum="9d70b81bcb97ea067fc8145cd918f49876434676">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/elements/TextComponentProperty.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960170</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-03T08:37:33.113994Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>6d3dd71426c05157dcf9f336e239456f</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="TwistieSection.js" sha1-checksum="3d775af3bb0de0ac6ae649ff3f6cfc9bb7f627d4">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/elements/TwistieSection.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960238</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-03T17:19:25.560028Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>f2b4d85fdc1a06ed74c87ebdcd48d56c</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ElementRegistry.js" sha1-checksum="988aa6b39e5d7e006239cfa1e4248922b8b2aa68">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/elements/ElementRegistry.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960170</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-03T08:37:33.113994Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>002df397f0608d71d69eec16a2b71e7f</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ElementBase.js" sha1-checksum="03fb07c3939de19a238d42c4c185f221e79cb35b">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/elements/ElementBase.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960170</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-03T08:37:33.113994Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>ebc60ee80ee33a1f65030b3c1d762f78</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ComponentContainer.js" sha1-checksum="a1bdeeb4c43db60ed7b7aec92d9c0d254665b687">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/goat/elements/ComponentContainer.js</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960170</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-03T08:37:33.113994Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>d7982eb97027a02d1b0736cd093b321f</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+<S:add-file name="index.html" sha1-checksum="b34144bb7f7b304a5ba98075089a3ca436ad80d4">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/web/index.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1027988</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-10-27T14:58:50.829623Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gawor</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>312d8809ba284f627586911b9e082490</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="images" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/images">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/images</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="resolved.png" sha1-checksum="631f05ddf72893dbc71882d66d09999f807a8037">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/images/resolved.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>a5a29dcdf9920875a5e5fbe7f5797542</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="row_back.png" sha1-checksum="bef8253fb782fabe59df5ae2dd46daea5341800f">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/images/row_back.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>7ff25ad4c2014535c08a1371116005df</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="header.png" sha1-checksum="3ea6e79dcab3a61c9e7626b39e892c8723cd3c3f">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/images/header.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>0b9ea9e89d19d59334ea8afb77e17ff8</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="dndNoMove.png" sha1-checksum="9de9a7defecd472b1ca04ccfd7decfeba80a8bf5">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/images/dndNoMove.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>1ecdfdfd544b0d51696e0f98de00bf1c</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="td_button_down.png" sha1-checksum="3d98b92b8b6f526e9b9c82df10e1c9d30ff61f11">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/images/td_button_down.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>52dac7ede7033434a1ce922024322666</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="dndMove.png" sha1-checksum="2a9476a3dd7052a4a0d741e7d45b0f8b23326ac1">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/images/dndMove.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>fa959bb51d8ddb15e9d012a8dd9e9d92</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="tabHover_rotated.png" sha1-checksum="c37179f20edf2187e6e5c98e3bab9782a5f5c8b0">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/images/tabHover_rotated.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>f7c52b4179b8223d553b87bee6bd5037</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="dndNoCopy.png" sha1-checksum="bbb0e95ecfb43dec854b1228d726e00bc775ce26">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/images/dndNoCopy.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>b410a55565487121b08d46a17d86a9d5</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="header_shadow.png" sha1-checksum="7877971e56a2afe92f2e0a3f30a9f5f12fa16b89">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/images/header_shadow.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>0694a0fa05e32e818455245285525358</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="dndCopy.png" sha1-checksum="4d9a9196f1a5b11fe88fa0e2e2dcb42400b5ba4a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/images/dndCopy.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>48447a05ea6c467c4d2336e7fdecc739</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="Thumbs.db" sha1-checksum="f03a555a68adb6d2120d1da979245a0ccc2ce10b">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/images/Thumbs.db</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>f520145ad555feeafc6bf847bd41baca</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="tabEnabled_rotated.png" sha1-checksum="e45ce95ad2a70085ae3a05a42f1b71d9259cbf08">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/images/tabEnabled_rotated.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>3df3ce915169581e8d1ba60046bd6ac6</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="grid_sort_down.gif" sha1-checksum="efdc0d2f7219f1d5b9a4d117af8ea8f25a00c437">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/images/grid_sort_down.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>afdf25a597ccec0da51ccd8223db8de7</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="grid_dx_gradient.gif" sha1-checksum="9a500120f273376353028b0fea11684229f76d6a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/images/grid_dx_gradient.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>76f52cefae8ec3ff951f12a8fff685fc</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="running.png" sha1-checksum="fcd4e7949045e016c16f92757e136f63e06626c0">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/images/running.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>1efec634036ce7b5828c7dddfbdc1f88</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="grid_sort_up.gif" sha1-checksum="df0ac6208b963df059b5e025902f8b9166e8c384">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/images/grid_sort_up.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>9b6d8aa9bc3fc840072a42e21821d048</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="WEB-INF" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/WEB-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/WEB-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="web.xml" sha1-checksum="1269c8da1bdd8e93690d2a2e28bd4e5955b5e15f">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/WEB-INF/web.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>21f1cdb6970e25ba2010d3a1814e79c9</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="lib" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/WEB-INF/lib">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/WEB-INF/lib</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+</S:add-directory>
+<S:add-file name="dwr.xml" sha1-checksum="e43ef4c1a235ab05338f9b244b207f035dbeb6e1">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/resources/WEB-INF/dwr.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>d7aed80454db99dbb5cb6438fa0f2cd7</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="java" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/java">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/java/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/java/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/java/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/java/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="samples" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/java/org/apache/aries/samples">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/java/org/apache/aries/samples</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="goat" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/java/org/apache/aries/samples/goat">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/java/org/apache/aries/samples/goat</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="web" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/java/org/apache/aries/samples/goat/web">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/java/org/apache/aries/samples/goat/web</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="ServerSideClass.java" sha1-checksum="3ca7ab7dfd522ddf9d195dc05204ad25a9752f36">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/src/main/java/org/apache/aries/samples/goat/web/ServerSideClass.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>5e2fc9a1ded48b5a53b71395de63823d</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-file name="pom.xml" sha1-checksum="660d9d599904439e6382842aff5a4e0f2cecb5a6">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-web/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>e59520e40fb2a66b9aeb73528a74658d</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="goat-assembly" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-assembly">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-assembly</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">target
+.classpath
+.project
+.settings
+
+</S:set-prop>
+<S:add-file name="pom.xml" sha1-checksum="a91fb7cdc1c4a9052a7d7f9869eef0cd1044dcfb">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-assembly/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>bf8eba4422a9f2c8369a53bed0755961</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="src" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-assembly/src">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-assembly/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1022024</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-10-13T08:15:53.709088Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mnuttall</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="main" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-assembly/src/main">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-assembly/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1022024</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-10-13T08:15:53.709088Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mnuttall</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="filtered-resources" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-assembly/src/main/filtered-resources">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-assembly/src/main/filtered-resources</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1022024</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-10-13T08:15:53.709088Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mnuttall</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="configuration" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-assembly/src/main/filtered-resources/configuration">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-assembly/src/main/filtered-resources/configuration</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1022024</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-10-13T08:15:53.709088Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mnuttall</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="config.ini" sha1-checksum="cdafa5a33fe7721a372d5826530897b90b233788">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-assembly/src/main/filtered-resources/configuration/config.ini</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1022024</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-10-13T08:15:53.709088Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">mnuttall</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>24cf41ef5076f4963e28fd19dc6062d7</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-file name="pom.xml" sha1-checksum="aac1f414ad873aa688df1288198e57e61959534a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>3be4729f9748cac051cdfcc8411bd7be</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="goat-dummy-provider" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">target
+.classpath
+.project
+.settings
+
+</S:set-prop>
+<S:add-directory name="src" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="main" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="resources" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/resources">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/resources</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="OSGI-INF" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/resources/OSGI-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/resources/OSGI-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="blueprint" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/resources/OSGI-INF/blueprint">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/resources/OSGI-INF/blueprint</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="blueprint.xml" sha1-checksum="c07e18bab3d4733e2b8b2833d11c5de4d796cdef">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/resources/OSGI-INF/blueprint/blueprint.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>a68a139b647a6702581c049f9548af45</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="java" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/java">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/java/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/java/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/java/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/java/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="samples" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/java/org/apache/aries/samples">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/java/org/apache/aries/samples</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="goat" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/java/org/apache/aries/samples/goat">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/java/org/apache/aries/samples/goat</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="dummy" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/java/org/apache/aries/samples/goat/dummy">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/java/org/apache/aries/samples/goat/dummy</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="DummyRelationshipProvider.java" sha1-checksum="43a1df73cdbe2e60150e9aeaa812f047bb8e33c9">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/java/org/apache/aries/samples/goat/dummy/DummyRelationshipProvider.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>ee7f78fc84002e63e876ba811bf6e328</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="DummyModelService.java" sha1-checksum="69c4f5371b635012e2956127bad83e9ca5c94ea1">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/java/org/apache/aries/samples/goat/dummy/DummyModelService.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>7955ddd2031e7dfbdbf656477900e279</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="DummyInfoProvider.java" sha1-checksum="4aea6a31f3bd5e7647c7b2003ae24e1ff2fe8d1a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/src/main/java/org/apache/aries/samples/goat/dummy/DummyInfoProvider.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>af66411dab5f4ad7734e751b2ec3f7f6</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-file name="pom.xml" sha1-checksum="e01464af887cb8344d36e6620694a58930834afc">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy-provider/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>c39e6e992e42f768ad2ef30d8aaf60b8</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="goat-dummy2-provider" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">target
+.classpath
+.project
+.settings
+
+</S:set-prop>
+<S:add-file name="pom.xml" sha1-checksum="809a9d6440d8f23235d0557a13709d594b607f4e">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>9c39aca2d5a7d3eb927adaf2958e6198</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="src" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="main" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="resources" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/resources">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/resources</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">955686</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-17T17:48:56.228032Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="OSGI-INF" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/resources/OSGI-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/resources/OSGI-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">955686</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-17T17:48:56.228032Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="blueprint" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/resources/OSGI-INF/blueprint">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/resources/OSGI-INF/blueprint</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">955686</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-17T17:48:56.228032Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="blueprint.xml" sha1-checksum="af4dd658fdbb62a2652f7f0ce08fc83808eee5d3">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/resources/OSGI-INF/blueprint/blueprint.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">955686</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-17T17:48:56.228032Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>4c896ebd0bcc2606668dee4a3f7cb3f1</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="java" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/java">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/java/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/java/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/java/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/java/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="samples" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/java/org/apache/aries/samples">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/java/org/apache/aries/samples</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="goat" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/java/org/apache/aries/samples/goat">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/java/org/apache/aries/samples/goat</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="dummy" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/java/org/apache/aries/samples/goat/dummy">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/java/org/apache/aries/samples/goat/dummy</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="DummyModelService2.java" sha1-checksum="84752b04866a0bc8cd37ee256839af2b00b1a92c">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/java/org/apache/aries/samples/goat/dummy/DummyModelService2.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">955686</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-17T17:48:56.228032Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>5865b87946d5aa5f4cd3a6b27f708e06</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="DummyInfoProvider.java" sha1-checksum="46303f742e53e94d3805498bcb912e5e4df1c099">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/java/org/apache/aries/samples/goat/dummy/DummyInfoProvider.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>7c2c2a336105a30c5c4d268df87536de</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="DummyRelationshipProvider.java" sha1-checksum="8251c40738ecca7a2166b494412a9f0a3a164a71">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-dummy2-provider/src/main/java/org/apache/aries/samples/goat/dummy/DummyRelationshipProvider.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>523c4b0918aeb811e199ea34d3db7bac</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="goat-bundlecontext-modelprovider" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">target
+.classpath
+.project
+.settings
+
+</S:set-prop>
+<S:add-directory name="src" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="main" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="resources" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/resources">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/resources</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T19:23:59.656968Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">ozzy</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="OSGI-INF" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/resources/OSGI-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/resources/OSGI-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T19:23:59.656968Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">ozzy</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="blueprint" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/resources/OSGI-INF/blueprint">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/resources/OSGI-INF/blueprint</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T19:23:59.656968Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">ozzy</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="blueprint.xml" sha1-checksum="ec06d7dff28006fd61c1178ddbd186605c21e356">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/resources/OSGI-INF/blueprint/blueprint.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">950220</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-01T19:23:59.656968Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">ozzy</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>26ab203b8419c28ab007eea19d0dfc42</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="java" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/java">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/java/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/java/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/java/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/java/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="samples" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/java/org/apache/aries/samples">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/java/org/apache/aries/samples</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="goat" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/java/org/apache/aries/samples/goat">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/java/org/apache/aries/samples/goat</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="bundlecontextmodel" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/java/org/apache/aries/samples/goat/bundlecontextmodel">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/java/org/apache/aries/samples/goat/bundlecontextmodel</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="BundleContextInfoProvider.java" sha1-checksum="bcbb0452f1105268a00cd6b6ebfa20afb3bb1659">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/src/main/java/org/apache/aries/samples/goat/bundlecontextmodel/BundleContextInfoProvider.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>abfdcbc6efb0c642d942d6196ea81dbf</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-file name="pom.xml" sha1-checksum="b8bbc23680b3c36ba7189364d2e1004ed5fe8b3a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-bundlecontext-modelprovider/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>06a008cda21a37cb6bc3b666dce80738</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="goat-eba" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-eba">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-eba</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">target
+.classpath
+.project
+.settings
+
+</S:set-prop>
+<S:add-file name="pom.xml" sha1-checksum="2644f38cbe9c80f015d260f03e30ef64dd056436">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-eba/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>37058c54f698d567eb38ca987e97e703</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="goat-api" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-api">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">target
+.classpath
+.project
+.settings
+
+</S:set-prop>
+<S:add-directory name="src" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-api/src">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="main" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="java" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="samples" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache/aries/samples">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache/aries/samples</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="goat" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache/aries/samples/goat">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache/aries/samples/goat</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="api" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache/aries/samples/goat/api">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache/aries/samples/goat/api</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="VersionedRelationshipAspect.java" sha1-checksum="a35bd3bbabf5af2685567beac3cce993f15781bd">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache/aries/samples/goat/api/VersionedRelationshipAspect.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>ef20e537d17de2313e8931f32a4d9a4e</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="RelationshipAspect.java" sha1-checksum="e2556dc92b7b32f63f27eb38f16faa8f204b6089">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache/aries/samples/goat/api/RelationshipAspect.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>9890f91330616e33cc0cfe701a442549</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="RelationshipInfoProvider.java" sha1-checksum="bed0888632a0141b708cd3dcb020fc36ff04f293">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache/aries/samples/goat/api/RelationshipInfoProvider.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">951733</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-05T15:59:06.984447Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>694ddcd27caed54eb5b813b715cbccb8</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ComponentInfoProvider.java" sha1-checksum="20c8459224023dea44afa3f1086667d136d3c031">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache/aries/samples/goat/api/ComponentInfoProvider.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">951733</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-06-05T15:59:06.984447Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>f84ca9bba7e31bd73cd3b0be885e996d</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ModelInfoService.java" sha1-checksum="550e3ad821cbd7b9a6b71606e79c63fbafced56b">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache/aries/samples/goat/api/ModelInfoService.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>ffd5d1f2d883722402a62683d8960041</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="RelationshipInfo.java" sha1-checksum="b7ff500185dafe2363b82a925a5e552894179717">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache/aries/samples/goat/api/RelationshipInfo.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>03bc211dd2642b9ca44a640d54c81be6</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ComponentInfo.java" sha1-checksum="921469044eea116ca2b3f8871e646677bef33d26">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache/aries/samples/goat/api/ComponentInfo.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>317c7efebbbd36be0578d0b37736bc65</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ParameterizedRelationshipAspect.java" sha1-checksum="2663fd056fd34ef7a325ba7af7dc2a977b79d200">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache/aries/samples/goat/api/ParameterizedRelationshipAspect.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">948087</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-25T16:13:13.847986Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>53975f10472d944f957b38e69bc4f52a</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="info" bc-url="/repos/asf/!svn/bc/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache/aries/samples/goat/info">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache/aries/samples/goat/info</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="RelationshipInfoImpl.java" sha1-checksum="498de5e390d28d2ac5d61a916d50b5401db184e9">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache/aries/samples/goat/info/RelationshipInfoImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>296a33eb389ac8cd3e23762a1e282614</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ComponentInfoImpl.java" sha1-checksum="617d34ba5802a0d3ce31faac56dc2814a607f6d2">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api/src/main/java/org/apache/aries/samples/goat/info/ComponentInfoImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">960390</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-07-04T20:30:44.656636Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>55ddcc121068492ad71f6fc538301d49</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-file name="pom.xml" sha1-checksum="77deaec1e4b64cbac55e04220c30520d64504eae">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples-sandbox/goat/goat-api/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>4ec717e06679481649db42941a1b7955</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:open-directory>
+<S:open-directory name="samples" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="goat" rev="1085365"/>
+<S:open-directory name="blog" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples/blog</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="blog-biz" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples/blog/blog-biz</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples/blog/blog-biz/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="17d9023b8a46f759cefdf4348d6d7a36" sha1-checksum="78582924687e6a7912edc85d616aa6cefbdc2e63"/>
+<S:prop><V:md5-checksum>a929971dd94c90dd252b270b786a33ff</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="blog-persistence-jdbc" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples/blog/blog-persistence-jdbc</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples/blog/blog-persistence-jdbc/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e5c1b4ea8e1b9983170e9fc6b6ab8a9f" sha1-checksum="1ded498432b035c019c461f56e1edfb26fb7542f"/>
+<S:prop><V:md5-checksum>d3061c1b6e45b4f602e0f62807f26f28</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="blog-jdbc-eba" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples/blog/blog-jdbc-eba</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples/blog/blog-jdbc-eba/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="5eccf566e41d0bba9de94f4ff3d09e8f" sha1-checksum="e7856e22de5ee4c60f4190aa2cec5e4973c08d98"/>
+<S:prop><V:md5-checksum>96e9d56dd5d3c1cd5693ad149d7f1bda</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="blog-api" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples/blog/blog-api</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples/blog/blog-api/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="50d28770a76177a3e38d84e728b4234d" sha1-checksum="a55a3ffaabf6edc7d09a3c132ff4895e000d7ac8"/>
+<S:prop><V:md5-checksum>6cb5877dc4da42111d4a016a55483145</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="blog-datasource" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples/blog/blog-datasource</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples/blog/blog-datasource/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="b7fa9ce9045c4d85143e87e88e1526c1" sha1-checksum="29af114c610973628820221ce42eadcbc5795e4e"/>
+<S:prop><V:md5-checksum>859904e81a80a6b003fe099f0ef4e38a</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="blog-persistence-jpa" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples/blog/blog-persistence-jpa</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples/blog/blog-persistence-jpa/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="1b0eaeccb1f870fe0b68b07d7d958fa3" sha1-checksum="2dead7efb5fa872c33f419dd33c6bd71baf00520"/>
+<S:prop><V:md5-checksum>bc24a9af5d01e952fd8b7b5200dbc846</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="blog-jpa-eba" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples/blog/blog-jpa-eba</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples/blog/blog-jpa-eba/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="bd30861d276c6f8d6410c3a024a0c3f3" sha1-checksum="cd9b927c6bc74a20efd1301421cef5808a776e03"/>
+<S:prop><V:md5-checksum>d4de89aecd21115720d3c6cc7fbc4b9d</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="blueprint" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples/blueprint</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="helloworld" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples/blueprint/helloworld</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="helloworld-eba" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples/blueprint/helloworld/helloworld-eba</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples/blueprint/helloworld/helloworld-eba/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="42be41ba94561df56904bc084c039d6d" sha1-checksum="7a07b8ea2bea4fb516c121c92f4a745d7ec6157e"/>
+<S:prop><V:md5-checksum>522c9d425997f2fe4c3799684d58c4fc</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-file name="pom.xml" rev="1085364">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1085365/aries/trunk/samples/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1085365</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-25T13:53:47.686931Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="38eb7da6cafec0a4e9770ebd1cfc4a3f" sha1-checksum="8c5717ae6fe448d792cdf2efe81821081284ee4d"/>
+<S:prop><V:md5-checksum>c24e1ad62955008026c13c1e06adeb7b</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

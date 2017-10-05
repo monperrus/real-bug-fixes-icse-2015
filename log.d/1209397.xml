@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1209397</D:version-name>
+<D:comment>fix race between cf flush and its 2ndary indexes flush
+patch by slebresne; reviewed by jbellis for CASSANDRA-3547
+</D:comment>
+<D:creator-displayname>slebresne</D:creator-displayname>
+<S:date>2011-12-02T10:48:40.924277Z</S:date>
+</S:log-item>
+</S:log-report>

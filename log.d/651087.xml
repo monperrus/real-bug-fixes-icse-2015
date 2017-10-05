@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>651087</D:version-name>
+<D:comment>MAHOUT-48 cleaned up isConverged methods.
+
+All unit tests run.
+
+- org.apache.mahout.clustering.kmeans.KMeansDriver.java
+     (isConverged): removed unnecessary converged &amp;&amp; and used simpler string test 
+           from MeanShiftCanopyJob that does not require decoding all clusters
+     
+- org.apache.mahout.clustering.meanshift.MeanShiftCanopyJob.java
+     (isConverged): removed unnecessary converged &amp;&amp; 
+     
+     </D:comment>
+<D:creator-displayname>jeastman</D:creator-displayname>
+<S:date>2008-04-23T22:07:15.844790Z</S:date>
+</S:log-item>
+</S:log-report>

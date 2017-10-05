@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1576376"/>
+<S:open-directory rev="1576375">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1576376/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1576376</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2014-03-11T15:11:22.182006Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1576375">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1576376/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1576376</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2014-03-11T15:11:22.182006Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="dev" rev="1576375">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1576376/lucene/dev</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1576376</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2014-03-11T15:11:22.182006Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="branches" rev="1576375">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1576376/lucene/dev/branches</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1576376</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2014-03-11T15:11:22.182006Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="branch_4x" rev="1576375">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1576376/lucene/dev/branches/branch_4x</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1576376</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2014-03-11T15:11:22.182006Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/lucene/dev/branches/LUCENE2793:1137551-1144189
+/lucene/dev/branches/branch_3x:949730,957490,961612,979161,980654,982195,987811,988512,1025544,1026614,1034080,1039151,1050654,1056762,1060014,1060438,1060784,1061035,1063880,1063934,1065324,1066771,1067699,1067764,1070818,1075044,1079376,1079381,1080071,1081052,1083240,1083534,1083726,1083789,1083812,1085811,1090423,1091501,1092373,1095519,1098770,1099210,1100407,1100480,1100494,1100515,1101106,1103086,1128215,1128227,1128462,1129419,1129435,1130612,1132581,1132978,1134823,1134917,1136714,1138351,1139430,1139461,1141060,1144653,1148611,1148849,1148864,1150434,1151830,1151947,1152766,1166791,1173311,1173701,1173745,1177994,1180637,1184955,1188805,1189914,1189969,1190293,1198337,1199847,1201739,1204005,1204436,1204494,1204519,1204547,1204565,1204826,1204970,1206022,1207010,1207024,1208375,1212063,1212539,1212754,1215483,1226235,1226466,1229268,1230429,1232011,1232954,1234450,1235713,1243906,1244960,1299077,1302155,1302243,1302509,1302548,1302703,1302733,1302749,1302808,1303007,1303023,1303269,1303733,1303854,1304295,1304360,1304660,1304904,1305074,1305142,1305574,1305585,1305622,1305681,1305693,1305719,1305741,1305816,1305837,1306929,1307050,1309587,1309637,1310314
+/lucene/dev/branches/bulkpostings:1069647,1069925
+/lucene/dev/branches/cleanup2878:1403701-1403781
+/lucene/dev/branches/docvalues:1021634-1134288
+/lucene/dev/branches/ghost_of_4456:1394211-1394305
+/lucene/dev/branches/lucene2510:1364862-1365496
+/lucene/dev/branches/lucene2621:1188713-1197598,1197605-1199706,1199787-1202835
+/lucene/dev/branches/lucene2858:1234440-1238051
+/lucene/dev/branches/lucene3069:1493374-1520740
+/lucene/dev/branches/lucene3606:1209906-1212022
+/lucene/dev/branches/lucene3622:1211241-1213825
+/lucene/dev/branches/lucene3661:1233476-1237242,1237250-1238012
+/lucene/dev/branches/lucene3795_lsp_spatial_module:1291491-1300396
+/lucene/dev/branches/lucene3846:1397170-1403761
+/lucene/dev/branches/lucene3969:1311219-1324948
+/lucene/dev/branches/lucene4055:1338960-1343359
+/lucene/dev/branches/lucene4199:1358548-1359191
+/lucene/dev/branches/lucene4335:1506234-1506512
+/lucene/dev/branches/lucene4446:1397400-1398082
+/lucene/dev/branches/lucene4547:1407149-1443597
+/lucene/dev/branches/lucene4765:1444646-1447981
+/lucene/dev/branches/lucene5178:1514641-1515962
+/lucene/dev/branches/lucene5207:1522766-1523456
+/lucene/dev/branches/lucene5339:1542023-1555337
+/lucene/dev/branches/lucene539399:1558450-1558622
+/lucene/dev/branches/lucene5468:1571136-1572727
+/lucene/dev/branches/lucene5493:1574866-1575244
+/lucene/dev/branches/lucene_solr_3_1:1081856,1083239,1085499,1085511,1085532,1085809,1101103
+/lucene/dev/branches/lucene_solr_3_2:1128223,1128247,1129418,1129472
+/lucene/dev/branches/lucene_solr_3_3:1138390,1138979,1139775
+/lucene/dev/branches/lucene_solr_3_6:1423711
+/lucene/dev/branches/lucene_solr_4_0:1388844-1388845,1389332,1389448,1389533,1390046,1390136,1390579,1390643,1394306
+/lucene/dev/branches/lucene_solr_4_1:1434374,1434377,1434389,1434487,1434545
+/lucene/dev/branches/lucene_solr_4_3:1470051
+/lucene/dev/branches/lucene_solr_4_5:1526575
+/lucene/dev/branches/lucene_solr_4_7:1569902
+/lucene/dev/branches/pforcodec_3892:1352188-1375470
+/lucene/dev/branches/preflexfixes:967125-979432
+/lucene/dev/branches/realtime_search:953476-1097796
+/lucene/dev/branches/slowclosing:1393532-1393785
+/lucene/dev/branches/solr2452:1087601-1144716
+/lucene/dev/branches/solr3733:1388080-1388269
+/lucene/dev/trunk:1563876,1566247,1566620,1569598,1569921,1569925,1570001,1570031,1570559,1570569,1570624,1570626,1570645,1570738,1570764,1570793,1570797,1570898,1570928,1570931,1570937,1570946,1570951,1570953,1570955,1570985,1571076,1571109,1571111,1571152,1571264,1571276,1571322,1571349,1571384,1571421,1571493,1571495,1571505,1571591,1571593,1571610,1571691,1571702,1571928,1572036,1572054,1572056,1572098,1572122,1572125,1572129-1572130,1572136,1572143,1572151,1572186,1572201,1572262,1572275,1572342,1572370,1572385,1572391,1572408,1572449,1572462,1572613,1572706,1572728,1572754,1572775,1572778,1572793,1572797,1572810,1572841,1572942,1572974,1572992,1573019,1573048,1573066,1573156,1573240,1573242,1573248,1573257,1573286,1573317,1573322,1573401,1573405,1573409,1573416,1573419,1573423,1573425,1573438,1573442,1573521,1573569,1573589,1573636,1573763,1573847,1574135,1574158,1574273,1574280,1574577,1574580,1574589,1574595,1574638,1574664,1574753,1574883,1574917,1574941,1574951,1575024,1575126,1575248,1575266,1575306,1575328,1575401,1575476,1575520,1575538,1575576,1575592,1575714,1575729,1575873,1575893,1576004,1576223,1576292,1576325,1576344,1576375</S:set-prop>
+<S:open-directory name="solr" rev="1576375">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1576376/lucene/dev/branches/branch_4x/solr</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1576376</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2014-03-11T15:11:22.182006Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/lucene/dev/branches/LUCENE2793/solr:1137551-1144189
+/lucene/dev/branches/branch_3x/solr:949730,957490*,961612,979161,980654,982195,987811,988512,1025544,1026614,1034080,1039151,1050654,1056762,1060014,1060438,1060784,1061035,1063880,1063934,1065324,1070818,1075044,1079376,1079381,1080071,1081052,1083240,1085811,1090423,1091501,1092373,1095519,1098770,1099210,1100407,1100480,1100494,1100515,1101106,1103086,1128215,1128227,1128462,1129419,1129435,1130612,1132581,1132978,1134823,1134917,1136714,1138351,1139430,1139461,1141060,1144653,1148611,1148849,1148864,1150434,1151830,1151947,1152766,1166791,1171384,1173311,1173701,1173745,1177994,1180637*,1184955,1188805,1189914,1189969,1198337,1199847,1204494,1204519,1204547,1204565,1204826,1207010,1208375,1226235,1229268,1230429,1232954,1234450,1235713,1244960,1302703,1302733,1302749,1302808,1303269,1303733,1304295,1304360,1304660,1304904,1305074,1305574,1305585,1305622,1305681,1305693,1305741,1306929,1310314
+/lucene/dev/branches/bulkpostings/solr:1069647,1069925
+/lucene/dev/branches/cleanup2878/solr:1403701-1403781
+/lucene/dev/branches/docvalues/solr:1021634-1134288
+/lucene/dev/branches/lucene2510/solr:1364862-1365496
+/lucene/dev/branches/lucene2621/solr:1188713-1197598,1197605-1199706,1199787-1202835
+/lucene/dev/branches/lucene2858/solr:1234440-1238051
+/lucene/dev/branches/lucene3069/solr:1493374-1520740
+/lucene/dev/branches/lucene3606/solr:1209906-1212022
+/lucene/dev/branches/lucene3622/solr:1211241-1213825
+/lucene/dev/branches/lucene3661/solr:1233476-1237242,1237250-1238012
+/lucene/dev/branches/lucene3795_lsp_spatial_module/solr:1291491-1300396
+/lucene/dev/branches/lucene3846/solr:1397170-1403761
+/lucene/dev/branches/lucene3969/solr:1311219-1324948
+/lucene/dev/branches/lucene4055/solr:1338960-1343359
+/lucene/dev/branches/lucene4199/solr:1358548-1359191
+/lucene/dev/branches/lucene4446/solr:1397400-1398082
+/lucene/dev/branches/lucene4547/solr:1407149-1443597
+/lucene/dev/branches/lucene4765/solr:1444646-1447981
+/lucene/dev/branches/lucene5178/solr:1514641-1515962
+/lucene/dev/branches/lucene5207/solr:1522766-1523456
+/lucene/dev/branches/lucene5339/solr:1542023-1555337
+/lucene/dev/branches/lucene539399/solr:1558450-1558622
+/lucene/dev/branches/lucene5468/solr:1571136-1572727
+/lucene/dev/branches/lucene5493/solr:1574866-1575244
+/lucene/dev/branches/lucene_solr_3_1/solr:1081856,1083239,1085499,1085511,1085532,1085809,1101103
+/lucene/dev/branches/lucene_solr_3_2/solr:1128223,1128247,1129418,1129472
+/lucene/dev/branches/lucene_solr_3_3/solr:1138390,1138979,1139775
+/lucene/dev/branches/lucene_solr_4_0/solr:1388937,1389448,1390046,1390136
+/lucene/dev/branches/lucene_solr_4_1/solr:1434389
+/lucene/dev/branches/lucene_solr_4_7/solr:1569902
+/lucene/dev/branches/pforcodec_3892/solr:1352188-1375470
+/lucene/dev/branches/preflexfixes/solr:967125-979432
+/lucene/dev/branches/realtime_search/solr:953476-1097796
+/lucene/dev/branches/solr2452/solr:1087601-1144716
+/lucene/dev/branches/solr3733/solr:1388080-1388269
+/lucene/dev/trunk:1386458,1537978
+/lucene/dev/trunk/solr:1569921,1569925,1569955,1570001,1570738,1570764,1570793,1570797,1570898,1570931,1570937,1570946,1570951,1570953,1570955,1570985,1571076,1571111,1571152,1571264,1571276,1571322,1571349,1571421,1571493,1571495,1571505,1571591,1571593,1571610,1571691,1572036,1572122,1572125,1572129-1572130,1572136,1572143,1572151,1572186,1572201,1572262,1572275,1572342,1572370,1572385,1572391,1572408,1572449,1572462,1572706,1572754,1572775,1572778,1572793,1572797,1572810,1572974,1572992,1573019,1573066,1573240,1573242,1573257,1573317,1573322,1573401,1573405,1573409,1573416,1573419,1573423,1573425,1573438,1573442,1573589,1573636,1573763,1573847,1574273,1574280,1574577,1574580,1574589,1574595,1574638,1574664,1574753,1574883,1574941,1575248,1575266,1575344,1575476,1575576,1575592,1575886,1575932,1576004,1576375
+/lucene/java/branches/lucene_2_4/solr:748824
+/lucene/java/branches/lucene_2_9/solr:817269-818600,825998,829134,829881,831036,896850,909334
+/lucene/java/branches/lucene_2_9_back_compat_tests/solr:818601-821336
+/lucene/java/branches/lucene_3_0/solr:880793,896906
+/lucene/solr/branches/newtrunk/solr:924462
+/lucene/solr/trunk:922950-923910,923912-925091</S:set-prop>
+<S:open-directory name="licenses" rev="1576375">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1576376/lucene/dev/branches/branch_4x/solr/licenses</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1576376</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2014-03-11T15:11:22.182006Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/lucene/dev/branches/LUCENE2793/solr/licenses:1137551-1144189
+/lucene/dev/branches/branch_3x/solr/licenses:949730,961612,979161,980654,982195,987811,988512,1025544,1026614,1034080,1039151,1050654,1056762,1060014,1060438,1060784,1061035,1063880,1063934,1065324,1070818,1075044,1079376,1079381,1080071,1081052,1083240,1085811,1090423,1091501,1092373,1095519,1098770,1099210,1100407,1100480,1100494,1100515,1101106,1103086,1128215,1128227,1128462,1129419,1129435,1130612,1132581,1132978,1134823,1134917,1136714,1138351,1139430,1139461,1141060,1144653,1148611,1148849,1148864,1150434,1151830,1151947,1152766,1166791,1171384,1173311,1173701,1173745,1177994,1184955,1188805,1189914,1189969,1198337,1199847,1204494,1204519,1204547,1204565,1204826,1207010,1208375,1226235,1229268,1230429,1232954,1234450,1235713,1244960,1302703,1302733,1302749,1302808,1303269,1303733,1304295,1304360,1304660,1304904,1305074,1305574,1305585,1305622,1305681,1305693,1305741,1306929,1310314
+/lucene/dev/branches/branch_4x/solr/licenses:1349991,1359358
+/lucene/dev/branches/bulkpostings/solr/licenses:1069647,1069925
+/lucene/dev/branches/docvalues/solr/licenses:1021634-1134288
+/lucene/dev/branches/lucene2510/solr/licenses:1364862-1365496
+/lucene/dev/branches/lucene2621/solr/licenses:1188713-1197598,1197605-1199706,1199787-1202835
+/lucene/dev/branches/lucene2858/solr/licenses:1234440-1238051
+/lucene/dev/branches/lucene3069/solr/licenses:1493374-1520740
+/lucene/dev/branches/lucene3606/solr/licenses:1209906-1212022
+/lucene/dev/branches/lucene3622/solr/licenses:1211241-1213825
+/lucene/dev/branches/lucene3661/solr/licenses:1233476-1237242,1237250-1238012
+/lucene/dev/branches/lucene3795_lsp_spatial_module/solr/licenses:1291491-1300396
+/lucene/dev/branches/lucene3846/solr/licenses:1397170-1403761
+/lucene/dev/branches/lucene3969/solr/licenses:1311219-1324948
+/lucene/dev/branches/lucene4055/solr/licenses:1338960-1343359
+/lucene/dev/branches/lucene4199/solr/licenses:1358548-1359191
+/lucene/dev/branches/lucene4547/solr/licenses:1407149-1443597
+/lucene/dev/branches/lucene4765/solr/licenses:1444646-1447981
+/lucene/dev/branches/lucene5207/solr/licenses:1522766-1523456
+/lucene/dev/branches/lucene5468/solr/licenses:1571136-1572727
+/lucene/dev/branches/lucene_solr_3_1/solr/licenses:1081856,1083239,1085499,1085511,1085532,1085809,1101103
+/lucene/dev/branches/lucene_solr_3_2/solr/licenses:1128223,1128247,1129418,1129472
+/lucene/dev/branches/lucene_solr_3_3/solr/licenses:1138390,1138979,1139775
+/lucene/dev/branches/lucene_solr_4_7/solr/licenses:1569902
+/lucene/dev/branches/pforcodec_3892/solr/licenses:1367777-1375470
+/lucene/dev/branches/preflexfixes/solr/licenses:967125-979432
+/lucene/dev/branches/realtime_search/solr/licenses:953476-1097796
+/lucene/dev/branches/solr2452/solr/licenses:1087601-1144716
+/lucene/dev/trunk/solr/licenses:1570953,1570985,1571610,1572262,1572342,1572462,1572706,1572754,1572775,1572793,1572797,1573019,1573763,1574273,1574595,1574941,1576375
+/lucene/java/branches/lucene_2_4/solr/licenses:748824
+/lucene/java/branches/lucene_2_9/solr/licenses:817269-818600,825998,829134,829881,831036,896850,909334
+/lucene/java/branches/lucene_2_9_back_compat_tests/solr/licenses:818601-821336
+/lucene/java/branches/lucene_3_0/solr/licenses:880793,896906
+/lucene/solr/branches/newtrunk/solr/licenses:924462
+/lucene/solr/trunk/licenses:922950-923910,923912-925091</S:set-prop>
+<S:delete-entry name="randomizedtesting-runner-2.0.13.jar.sha1" rev="1576376"/>
+<S:delete-entry name="junit4-ant-2.0.13.jar.sha1" rev="1576376"/>
+<S:add-file name="randomizedtesting-runner-2.1.1.jar.sha1" sha1-checksum="bf2aee759f0ad9955f83bc1d514262be9e98fd25">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1576376/lucene/dev/branches/branch_4x/solr/licenses/randomizedtesting-runner-2.1.1.jar.sha1</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1576376</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2014-03-11T15:11:22.182006Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>7b8d0d5a7d61cd6c9fa09d27e150ec75</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="junit4-ant-2.1.1.jar.sha1" sha1-checksum="2f3c6d69829a9feb7a13db772882ee47b26d7adc">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1576376/lucene/dev/branches/branch_4x/solr/licenses/junit4-ant-2.1.1.jar.sha1</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1576376</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2014-03-11T15:11:22.182006Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>39563585b7fd59e6350221acd42ec05d</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

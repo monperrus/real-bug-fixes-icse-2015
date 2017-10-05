@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>509375</D:version-name>
+<D:comment>DERBY-2345: Fixed bug where Blob.truncate(long) did not work if the blob was materialized in memory. A test was also added.
+
+Patch contributed by Anurag Shekhar.
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2007-02-19T23:19:05.861358Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1511054</D:version-name>
+<D:comment>Backporting revision 1430735 to 10.8
+
+Backporting DERBY-6030(Length of escape string in LIKE ... ESCAPE not properly checked with territory based collation) to 10.8
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-08-06T18:01:59.879212Z</S:date>
+</S:log-item>
+</S:log-report>

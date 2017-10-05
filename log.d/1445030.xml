@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1445030</D:version-name>
+<D:comment>DERBY-6045 (in list multi-probe by primary key not chosen on tables with &gt;256 rows)
+
+Adding a junit test but it will not run since the the fixture name is not starting with "test"... We should remove the x in front of test fixture's name once DERBY-6045 has been fixed
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-02-12T03:46:32.945848Z</S:date>
+</S:log-item>
+</S:log-report>

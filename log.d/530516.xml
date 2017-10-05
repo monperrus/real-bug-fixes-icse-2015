@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>530516</D:version-name>
+<D:comment>DERBY-967
+changed lock checking query to ignore locks that may have been requested by
+background threads.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2007-04-19T18:56:37.101625Z</S:date>
+</S:log-item>
+</S:log-report>

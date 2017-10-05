@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>388440</D:version-name>
+<D:comment>DERBY-1112: TemporaryRowHolderResultSet is breaking the contract of
+getActivation
+
+The patch modifies the constructors of TemporaryRowHolderImpl so that
+they take an Activation instead of a TransactionController. The
+transaction controller can still be obtained from the Activation
+object. TemporaryRowHolderResultSet now implements getActivation() by
+returning the activation of the TemporaryRowHolderImpl that created
+it. TemporaryRowHolderImpl and TemporaryRowHolderResultSet are made
+package protected.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-03-24T07:48:28.535804Z</S:date>
+</S:log-item>
+</S:log-report>

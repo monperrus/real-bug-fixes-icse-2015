@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>885595</D:version-name>
+<D:comment>DERBY-4426 With generated columns, INSERT with DEFAULT inside a VALUES clause inside a UNION fails
+
+Patch derby-4426c, which fixes this issue. We ensure that DEFAULT is
+only used in a top level VALUES clause, conformant with the standard. 
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-11-30T22:22:15.151914Z</S:date>
+</S:log-item>
+</S:log-report>

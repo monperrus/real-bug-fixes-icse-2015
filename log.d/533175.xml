@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>533175</D:version-name>
+<D:comment>DERBY-2595: JUnit tests use getExportedKeys with table name null
+
+Rewrote invalid usage of DatabaseMetaData.getExportedKeys() in
+JDBC.dropSchema().
+
+Contributed by Jørgen Løland.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-04-27T17:38:17.160738Z</S:date>
+</S:log-item>
+</S:log-report>

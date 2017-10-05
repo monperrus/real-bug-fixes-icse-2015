@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>616177</D:version-name>
+<D:comment>DERBY-2142 (test) Add a fixture (testPooledReuseOnClose) to DataSourceTest that tests the fix to DERBY-2142. It failed before revision 616141 and passed after for embedded, but fails for network client so it is disabled for that env.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2008-01-29T06:06:30.512756Z</S:date>
+</S:log-item>
+</S:log-report>

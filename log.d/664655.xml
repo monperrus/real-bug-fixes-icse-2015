@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>664655</D:version-name>
+<D:comment>DERBY-3401: Removing a ConnectionEventListener from a PooledConnection during its connectionClosed() callback causes other ConnectionEventListener callbacks to be missed
+
+Merged revision 660959 and revision 663641 from trunk.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2008-06-09T08:36:47.517406Z</S:date>
+</S:log-item>
+</S:log-report>

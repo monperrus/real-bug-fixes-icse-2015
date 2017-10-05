@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1349015</D:version-name>
+<D:comment>MAHOUT-1017:
+- improved logging message in FuzzyKMeansDriver
+- converted meanshift InputDriver and InputMapper to emit ClusterWritables used by other jobs
+- fixed synthetic control jobs to properly handle the -final suffix on final clusters-i directory
+- all synthetic control jobs run
+- all unit tests pass</D:comment>
+<D:creator-displayname>jeastman</D:creator-displayname>
+<S:date>2012-06-11T21:13:13.144679Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>374809</D:version-name>
+<D:comment>DERBY-922: Fix chaining of exceptions so the underlying client
+SqlException/SqlWarning context is maintained and is available
+for debugging.  
+
+derbynetclientmats passes on JDK 1.4
+</D:comment>
+<D:creator-displayname>davidvc</D:creator-displayname>
+<S:date>2006-02-04T01:28:14.764075Z</S:date>
+</S:log-item>
+</S:log-report>

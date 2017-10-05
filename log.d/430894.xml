@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>430894</D:version-name>
+<D:comment>Junit improvements, have the ScriptTestCase use the openTestResource method in BaseTestCase to get the script
+file to avoid exceptions with a security manager. Added a couple more tests to the language scripts and added
+the clean database decorator to each test run.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-08-11T20:57:18.991151Z</S:date>
+</S:log-item>
+</S:log-report>

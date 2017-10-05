@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>675967</D:version-name>
+<D:comment>DERBY-3774 jdbc4/ClobTest fails on Zos with AssertionFailedError: Streams differ at index 0 expected:&lt;200&gt; but was:&lt;72&gt;
+
+Test compared getAsciiStream results with String.getBytes() without specifying "US-ASCII" as the encoding for getBytes.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-07-11T14:37:11.406349Z</S:date>
+</S:log-item>
+</S:log-report>

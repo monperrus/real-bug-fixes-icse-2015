@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>466221</D:version-name>
+<D:comment>DERBY-1240 ( creating /restoring a db from backup using createFrom with log at 
+             different location copies the log from backup to the db dir also).
+
+Problem was restore code in the RawStore was copying all the files that does 
+not exist in the database directory after the restore was completed by the 
+data factory and log factory boot methods. Because the log is placed at
+different location when an external log location is specified, the log
+directory does not exist in the database directory. In this case code in the 
+RawStore was incorrectly copying log files also because the log directory does 
+not exist in the database directory. This patch fixes the problem by restoring
+only the files that are not restored by the other factories. Currently, they
+are jar files in the database and backup history file.
+ 
+</D:comment>
+<D:creator-displayname>suresht</D:creator-displayname>
+<S:date>2006-10-20T18:07:36.871594Z</S:date>
+</S:log-item>
+</S:log-report>

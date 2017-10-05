@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1561412</D:version-name>
+<D:comment>LUCENE-5228: IndexWriter.addIndexes(Directory[]) now acquires the IW write lock on the incoming indices to ensure there are no active IndexWriters in those directories</D:comment>
+<D:creator-displayname>mikemccand</D:creator-displayname>
+<S:date>2014-01-25T22:09:13.453964Z</S:date>
+</S:log-item>
+</S:log-report>

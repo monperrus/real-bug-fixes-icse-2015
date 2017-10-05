@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1163652</D:version-name>
+<D:comment>Fix closing sstable iterators before using them
+patch by slebresne; reviewed by jbellis for CASSANDRA-3110
+</D:comment>
+<D:creator-displayname>slebresne</D:creator-displayname>
+<S:date>2011-08-31T14:50:35.152488Z</S:date>
+</S:log-item>
+</S:log-report>

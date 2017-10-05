@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1091291</D:version-name>
+<D:comment>DERBY-5186; dblook_test_territory.java fails on AIX with ibm 1.4.2 diffing on 1 line not removed from .out
+  backport of revision 1091159 from trunk, adding 1 line to Sed.java.
+  merge command: svn merge -c 1091159 https://svn.apache.org/repos/asf/db/derby/code/trunk
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2011-04-12T05:01:04.563340Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1067366</D:version-name>
+<D:comment>DERBY-4980 Replication tests lose derby.log for slave
+
+Patch derby-4980-1 which fixes this. 
+
+The error is that when starting the Derby server for the slave, the
+same path name is used for the slave server's working directory as for
+the master server ("db_master"). This means that the slave server
+doesn't get its own log file.
+
+The patch sets the working directory for the slave correctly to the
+"db_slave" directory.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-02-05T01:02:21.438750Z</S:date>
+</S:log-item>
+</S:log-report>

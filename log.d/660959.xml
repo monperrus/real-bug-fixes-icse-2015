@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>660959</D:version-name>
+<D:comment>DERBY-3401 (partial) Fixed ConcurrentModificationException if a
+statement event listener adds or removes a listener on the same pooled
+connection.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2008-05-28T14:22:42.996995Z</S:date>
+</S:log-item>
+</S:log-report>

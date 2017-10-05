@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>326727</D:version-name>
+<D:comment>DERBY-626 Re-work code to ensure that obtaining the enumeration of modules.properties
+files as well as opening them is in a priviledge block. Removes the requirement for
+read permission on derby.jar to be granted all the way up the stack when running with the
+security manager.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-10-19T22:13:00.549329Z</S:date>
+</S:log-item>
+</S:log-report>

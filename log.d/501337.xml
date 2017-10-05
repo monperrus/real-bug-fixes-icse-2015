@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>501337</D:version-name>
+<D:comment>DERBY-2269 - running tests with SecurityManager with JSR169 support with derbyrun.jar in CLASSPATH causes NoClassDefFounError: javax.naming.Referenceable
+- added if (!JDBC.supportsJSR169()) blocks to prevent calls to Class.forName("org.apache.derby.derby.jdbc.ClientDataSource"). 
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2007-01-30T08:16:33.543123Z</S:date>
+</S:log-item>
+</S:log-report>

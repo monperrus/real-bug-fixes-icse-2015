@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>380282</D:version-name>
+<D:comment>DERBY-1024 Remove the XA constants in XAResource that were duplicates of standard
+constants from XAException and XAResource. Removed the code that translated (incorrectly)
+an XA return value from one constant to another (with the same value in most cases).
+Thus fixing 1024 where the incorrect XA code was being thrown, this was because the
+unneded conversion code was incomplete.
+
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-02-24T00:30:33.312856Z</S:date>
+</S:log-item>
+</S:log-report>

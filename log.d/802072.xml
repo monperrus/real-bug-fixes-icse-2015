@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>802072</D:version-name>
+<D:comment>always write at least one index (with first and last column of the range) for the columns in row.  this vastly simplifies column reading code and makes indexing bugs much more obvious (since there is only one read path each for names / slices now).
+patch by jbellis; reviewed by Jun Rao for CASSANDRA-332</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-08-07T16:24:04.385770Z</S:date>
+</S:log-item>
+</S:log-report>

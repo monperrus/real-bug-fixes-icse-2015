@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>906553</D:version-name>
+<D:comment>SOLR-1748, SOLR-1747, SOLR-1746, SOLR-1745, SOLR-1744: Streams and Readers retrieved from ContentStreams are not closed in various places, resulting in file descriptor leaks.</D:comment>
+<D:creator-displayname>markrmiller</D:creator-displayname>
+<S:date>2010-02-04T16:26:38.713218Z</S:date>
+</S:log-item>
+</S:log-report>

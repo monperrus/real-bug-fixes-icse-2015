@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1040290</D:version-name>
+<D:comment>fix false random test failure; make private random instance for RandomIndexWriter and MockDirWrapper so tests are reproducible from seeds when using eg CMS</D:comment>
+<D:creator-displayname>mikemccand</D:creator-displayname>
+<S:date>2010-11-29T21:01:19.211566Z</S:date>
+</S:log-item>
+</S:log-report>

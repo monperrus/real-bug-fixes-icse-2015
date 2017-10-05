@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1520181</D:version-name>
+<D:comment>DERBY-6324; DatabaseMetaData.getJDBCMinorVersion() should return 2 now that we've implemented JDBC 4.2
+  Backport of the fix of revision 1519785 to 10.10; 
+  A straight merge was not possible because more jvm versions are supported in 10.10.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2013-09-05T00:37:18.947168Z</S:date>
+</S:log-item>
+</S:log-report>

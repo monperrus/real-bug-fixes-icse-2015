@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1511979</D:version-name>
+<D:comment>DERBY-5283; Crash / process termination during SYSCS_DISABLE_LOG_ARCHIVE_MODE can leave service.properties broken
+  fixing a javadoc warning by merging the fix from trunk.
+  merge command:  svn merge -c 1188144 https://svn.apache.org/repos/asf/db/derby/code/trunk
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2013-08-08T19:30:49.358816Z</S:date>
+</S:log-item>
+</S:log-report>

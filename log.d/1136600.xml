@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1136600</D:version-name>
+<D:comment>DERBY-5279 test5DeleteBeforeTriggerNoReferencingClause fails in nightly testing
+
+In order to investigate the failure when it happens next time, I am changing the drop table to ignore table does not exist error
+but report all the other errors so we can see what the problem might be. Added a helper method to BaseJDBCTestCase.java for drop
+table.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-06-16T18:57:45.009129Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>943566</D:version-name>
+<D:comment>avoid NPE when no keyspaces are defined in yaml. Patch by Sylvain Lebresne, reviewd by gdusbabek. CASSANDRA-1080</D:comment>
+<D:creator-displayname>gdusbabek</D:creator-displayname>
+<S:date>2010-05-12T16:15:26.058978Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1071703</D:version-name>
+<D:comment>DERBY-4067 ClientConnectionPoolDataSource.getPooledConnection and ClientXADataSource.getXAConnection ignore connection attributes 
+DERBY-2468 would be nice if traceFile=filename connection attribute would be supported with ClientConnectionPoolDataSource and ClientXADataSource
+
+backported change #965793 from trunk to 10.5 branch
+
+Made two changes:
+- moved the parsing of the connection attribute string to before the log
+writer is constructed, since the construction may depend on some attributes
+specified in the connection attribute string
+- added parsing of the connection attribute string to the client ConnectionPool
+and XA data sources
+Also re-enabled 'testClientMessageTextConnectionAttribute' and removed a
+work-around for the issue fixed by this commit.
+
+Patch file: derby-4067-1a-update_attrs.diff
+
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2011-02-17T17:13:29.506687Z</S:date>
+</S:log-item>
+</S:log-report>

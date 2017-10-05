@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>889185</D:version-name>
+<D:comment>LUCENE-2123: Move FuzzyQuery rewrite as separate RewriteMode into MTQ. This also fixes a slowdown / memory issue added by LUCENE-504 -- *WARNING* Do not merge this patch to flex, it's already there in a different variant!</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2009-12-10T11:04:53.059434Z</S:date>
+</S:log-item>
+</S:log-report>

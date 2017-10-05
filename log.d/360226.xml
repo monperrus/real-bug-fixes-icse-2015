@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>360226</D:version-name>
+<D:comment>DERBY-786 Make TypeId.variableLength() return true for CLOBs to ensure values
+assigned to CLOBs are truncated correctly on a CAST.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-12-31T03:43:35.986935Z</S:date>
+</S:log-item>
+</S:log-report>

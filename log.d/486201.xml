@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>486201</D:version-name>
+<D:comment>DERBY-2040 (partial) Change the api for jarReader to return the StorageFile rather
+than the (potentially) opened jar. Removes the possibility for user code to
+access the jar by calling methods of JarReader directly (and hence abusing any
+privileged blocks that would be required while opening the jar). Cleans up JarLoader
+by having explict calls to open the stream or file within the class loader.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-12-12T15:59:52.878202Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>545321</D:version-name>
+<D:comment>DERBY-2758: Update ODBCMetadataGenerator to create an ODBC version of the
+getCrossReference metadata query.  This is required because, as of DERBY-2610,
+the JDBC version of that query no longer allows pattern matching on table
+names.  Since the ODBC SQLForeignKeys function, which is mapped onto the
+getCrossReference metadata query, depends on pattern matching for correct
+behavior, we now create an ODBC-version of getCrossReference that allows
+pattern matching as in pre-10.3 releases.  The SQLForeignKeys function is
+then mapped to the new, ODBC-specific version of the query.
+
+Contributed by: Jorgen Loland (jorgen.loland@sun.com)
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2007-06-07T21:35:37.934792Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1502795</D:version-name>
+<D:comment>DERBY-6216: XPLAIN feature does not work, gives XCL16: ResultSet not open
+
+This change adjusts the implementation of the explain-only mode feature,
+which is enabled via syscs_util.syscs_set_xplain_mode(1).
+
+Prior to this change, the implementation short-circuited the open() method
+of the ResultSet classes, causing the execution engine to terminate
+immediately because the result sets were not open.
+
+This change takes an alternate approach, suggested by Knut Anders: the open()
+is allowed to proceed normally, but we short-circuit the getNextRow()
+method of the ResultSet classes. This way, the result sets all appear to be
+normal result sets, open and ready for business, but they do no work and
+always produce an empty result.
+
+Then, at the end of the execution, the statistics are gathered. They show
+that no work was done, but they contain information about the overall "shape"
+of the query plan (which result sets were constructed, and what the overall
+result set tree looks like).
+
+We also discovered that we were completely missing regression tests for the
+explain-only feature, so this change adds a handful of regression tests,
+including an IJ-based test, a simple embedded query, and a test that verifies
+that explain-only mode can be turned on and off between executions of a
+prepared query.
+
+More testing would clearly be beneficial, but this should at least give us
+a feature that basically works.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2013-07-13T15:02:42.462059Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1244183</D:version-name>
+<D:comment>ARIES-829 Update our code to be more tolerant of an IllegalStateException when calling ctx.ungetService(). This only happens when the referenced service has gone, so the effect is the same.
+Also update the ReferenceListRecipe.ServiceDispatcher.destroy to use the right bundle context when calling unget.
+
+All in an attempt to make me less of a grumpy curmudgeon.</D:comment>
+<D:creator-displayname>not</D:creator-displayname>
+<S:date>2012-02-14T19:28:57.249681Z</S:date>
+</S:log-item>
+</S:log-report>

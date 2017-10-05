@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1245056</D:version-name>
+<D:comment>DERBY-5599 readlocks.sql fails with extra locks.
+
+readlocks checks for expected locks in a number of scenarios.  Intermittently
+it could see extra locks if it happened to check the lock table, while the
+background thread was running reclaiming deleted rows.  This is most likely
+in the tests that put a single row per page, delete some rows, commit and
+then shortly after do work and check the lock table.
+
+Added workaround used other places which waits for post commit to finish
+after the commit following the deletes.  Have updated all the places I saw
+where the problem is likely - not just the one causing the diff reported
+in this JIRA.  
+
+Changes affect the readlocks test and the updatelocksJDBC30 test.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2012-02-16T16:12:35.823589Z</S:date>
+</S:log-item>
+</S:log-report>

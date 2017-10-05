@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1572878"/>
+<S:open-directory rev="1572877">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1572878/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1572878</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2014-02-28T08:49:57.102818Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">smarthi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="mahout" rev="1572877">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1572878/mahout</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1572878</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2014-02-28T08:49:57.102818Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">smarthi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="1572877">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1572878/mahout/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1572878</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2014-02-28T08:49:57.102818Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">smarthi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="examples" rev="1572877">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1572878/mahout/trunk/examples</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1572878</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2014-02-28T08:49:57.102818Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">smarthi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="bin" rev="1572877">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1572878/mahout/trunk/examples/bin</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1572878</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2014-02-28T08:49:57.102818Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">smarthi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="README.txt" rev="1572877">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1572878/mahout/trunk/examples/bin/README.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1572878</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2014-02-28T08:49:57.102818Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">smarthi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c5f62b701fb58a8eb5f0550cf92f102c" sha1-checksum="d6826a2dbfa868aa9136302c6a5559c1a3fe59bf"/>
+<S:prop><V:md5-checksum>10cf6dce7a38867570c2698342c28d8c</V:md5-checksum></S:prop></S:open-file>
+<S:add-file name="run-rf.sh" sha1-checksum="adae335e349ff4e7d8c5345eeb98cfb1536cd84b">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1572878/mahout/trunk/examples/bin/run-rf.sh</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1572878</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2014-02-28T08:49:57.102818Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">smarthi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:executable">*</S:set-prop>
+<S:prop><V:md5-checksum>54b1805807b4e844075ad3d18cd880f0</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="create-rf-data.sh" sha1-checksum="3b6870dc6a1c8b153648798823ea32a49e1d781c">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1572878/mahout/trunk/examples/bin/create-rf-data.sh</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1572878</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2014-02-28T08:49:57.102818Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">smarthi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:executable">*</S:set-prop>
+<S:prop><V:md5-checksum>3d03cd8a02676dc4620dae3212e3ee01</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="src" rev="1572877">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1572878/mahout/trunk/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1572878</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2014-02-28T08:49:57.102818Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">smarthi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="conf" rev="1572877">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1572878/mahout/trunk/src/conf</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1572878</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2014-02-28T08:49:57.102818Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">smarthi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="driver.classes.default.props" rev="1572877">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1572878/mahout/trunk/src/conf/driver.classes.default.props</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1572878</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2014-02-28T08:49:57.102818Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">smarthi</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="22baf5ca87337476c333b67550b53566" sha1-checksum="a08ad00f38b29fe4f62f15a304b2458cf08aef69"/>
+<S:prop><V:md5-checksum>06661fe98eaa5a13b33c4d90780d0c34</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1163688</D:version-name>
+<D:comment>fix race that allowed multiple simultaneous leveled compaction tasks
+patch by jbellis; reviewed by Ben Coverston for CASSANDRA-3087</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2011-08-31T16:32:37.236669Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>652533</D:version-name>
+<D:comment>DERBY-3649  can't call a stored function with an aggregate argument without getting the following error: ERROR 42Y29
+
+Move check for function in group by from AggregateExpressionVisitor to GroupByList
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-05-01T14:28:19.703819Z</S:date>
+</S:log-item>
+</S:log-report>

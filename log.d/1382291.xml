@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1382291</D:version-name>
+<D:comment>LUCENE-4364: Include a test to make sure, the clones/slices can be closed without affecting the original or other opened ones! NOTE: The test failure on windows was depending on GC if it unmaps buffer before the tearDown runs.</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2012-09-08T12:16:47.884155Z</S:date>
+</S:log-item>
+</S:log-report>

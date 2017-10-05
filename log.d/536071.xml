@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>536071</D:version-name>
+<D:comment>DERBY-2613
+backporting 535466 change from trunk to 10.2.
+
+Upgrade of 10.0 to 10.3 was failing because system procedures were being
+created, and as part of the creation some updates were attempted to catalogs
+that were not created yet. Fixed in full upgrade by first creating the
+new system catalogs and then creating the procedures.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2007-05-08T06:08:14.264300Z</S:date>
+</S:log-item>
+</S:log-report>

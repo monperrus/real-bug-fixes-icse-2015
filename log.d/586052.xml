@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>586052</D:version-name>
+<D:comment>DERBY-857 LDAP Does not work under security manager.
+
+Wrap InitialDirContext and debug tracing in privilege blocks. Disable debug tracing if an exception occurs.
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-10-18T18:25:35.131477Z</S:date>
+</S:log-item>
+</S:log-report>

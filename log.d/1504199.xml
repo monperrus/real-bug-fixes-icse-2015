@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1504199</D:version-name>
+<D:comment>DERBY-5283 Crash / process termination during SYSCS_DISABLE_LOG_ARCHIVE_MODE can leave service.properties broken 
+
+Merge from trunk also includes the fix for DERBY-5816 which was a test failure caused by the original change. The message files had to be manually merged.
+
+revisions merged were:
+DERBY-5283 1188109 1188828
+
+DERBY-5816 1350361 1353764 
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2013-07-17T16:52:35.257470Z</S:date>
+</S:log-item>
+</S:log-report>

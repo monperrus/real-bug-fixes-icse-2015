@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1340549</D:version-name>
+<D:comment>DERBY-5680: indexStat daemon processing tables over an over even when there are no changes in the tables 
+
+Added functionality in the update statistics code to drop statistics considered
+disposable; orphaned (i.e. the referenced index doesn't exist), or not
+required (the optimizer doesn't need the statistics).
+Disposable statistics are only dropped when the istat daemon kicks in, or
+SYSCS_UPDATE_STATISTICS is run without specifying an index.
+The functionality is not enabled for soft-upgraded databases.
+Included a debug property to force the old behavior.
+
+
+Patch file: derby-5680-1b-remove_disposable_stats.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2012-05-19T19:31:18.008792Z</S:date>
+</S:log-item>
+</S:log-report>

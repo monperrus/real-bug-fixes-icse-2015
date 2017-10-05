@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1092067</D:version-name>
+<D:comment>DERBY-2354: Unable to perform select query using DISTINCT on a read-only database
+
+Made databases that are stored in a jar or a zip use a writable
+directory for temporary files needed by some operations (typically
+hash scans when the hash table gets too big to be kept in memory).
+
+The writable directory can be controlled by the database property
+derby.storage.tempDirectory.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-04-14T09:08:08.732287Z</S:date>
+</S:log-item>
+</S:log-report>

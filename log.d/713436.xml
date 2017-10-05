@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>713436</D:version-name>
+<D:comment>DERBY-3943; testReplication_Local_3_p2.StateTests_smallInsert_immediateStopMaster_DISABLED() causes hang in teardown() 
+  workaround a jvm/os dependent hang &amp; avoid unnecessary object creation
+  patch contributed by Ole Solberg
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2008-11-12T17:51:53.166441Z</S:date>
+</S:log-item>
+</S:log-report>

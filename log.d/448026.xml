@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>448026</D:version-name>
+<D:comment>DERBY-1304: DROP VIEW does not always completely remove view
+
+This patch was contributed by Yip Ng (yipng168@gmail.com)
+
+The problem is that DROP VIEW's binding logic is using its superclass
+QueryTreeNode's bind() method which just simply returns the object itself.
+So there is no actual binding done in DROP VIEW at all! It should have
+created a dependency on the statement, so when its associated descriptor
+gets dropped, the statement can be invalidated accordingly. This explains
+why the second DROP VIEW fails since it is not invalidated by the system.
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2006-09-20T01:34:21.125095Z</S:date>
+</S:log-item>
+</S:log-report>

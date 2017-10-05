@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>357083</D:version-name>
+<D:comment>DERBY-758, fixing I/O retry logic to throw an I/O exception rather
+than loop forever on I/O read errors.  4 retry's are attempted before
+giving up.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2005-12-15T22:28:01.303665Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>609546</D:version-name>
+<D:comment>Fixed a few issues uncovered by YourKit profiling:
+  * We were allocating 2X the size of each char block, but only
+    actually using the first half!
+  * Improved accuracy of numBytesAlloc tracking in DW
+  * Small optimization to not use token.setTermText from DW
+</D:comment>
+<D:creator-displayname>mikemccand</D:creator-displayname>
+<S:date>2008-01-07T09:48:06.905959Z</S:date>
+</S:log-item>
+</S:log-report>

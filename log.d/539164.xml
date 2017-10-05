@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>539164</D:version-name>
+<D:comment>DERBY-2605: Patch to add compile-time checking of columns created from a
+"CREATE TABLE AS ... WITH NO DATA" statement, to ensure that the resultant
+table only includes columns with types that a user can create him/herself.
+In particular this blocks indirect creation of BOOLEAN columns, Object
+columns, and DECIMAL columns with precision greater than 31.
+
+Contributed by: James F. Adams (derby@xemaps.com)
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2007-05-17T23:19:02.880074Z</S:date>
+</S:log-item>
+</S:log-report>

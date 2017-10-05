@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>793089</D:version-name>
+<D:comment>DERBY-4155 jdbcapi/XATest.java doesn't seem to be running anywhere
+(partial) This does not yet enable the test but just makes sure we rollback local connections so the test passes after the changes for DERBY-3319, which require this.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2009-07-10T19:38:31.909227Z</S:date>
+</S:log-item>
+</S:log-report>

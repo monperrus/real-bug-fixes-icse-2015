@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>201792</D:version-name>
+<D:comment>DERBY-389
+Fix a hang accessing the statement cache in network server stress test. The change was to remove the synchronization on the statement cache from the removeStatement method of GenericLanguageConnectionContext.  It is not needed because  the statement cache handles its own synchronization.   Also changes the javadoc to remove some incorrect info about temp tables.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-06-25T21:53:04.913796Z</S:date>
+</S:log-item>
+</S:log-report>

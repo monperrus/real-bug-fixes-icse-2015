@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>330687</D:version-name>
+<D:comment>DERBY-463: Fix ClobOutputStream to increment offset, following similar checkin earlier to fix BlobOutputStream.
+
+Comment by the submitter:
+The test blobSetBinaryStreams.java was only testing the write(byte[], int, int) method for blobs. I have extendedit so that it would use both write(byte[], int, int) and write(int) for both blobs and clobs. Since it was not a blob specific test, I have renamed it to lobStreams.java. 
+- Similar problems as the one fixed in the previous patch (the offset was not being incremented) existed in write(int) (for clobs and blobs) and write(byte[], int, int) (for clobs). These problems have now been fixed. 
+- I have run derbyall successfully, except for store/encryptionKey.sql that failed, but I don't think it was related to my patch. 
+
+Submitted by Fernanda Pizzorno (Fernanda.Pizzorno@Sun.COM)
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2005-11-04T02:18:30.929713Z</S:date>
+</S:log-item>
+</S:log-report>

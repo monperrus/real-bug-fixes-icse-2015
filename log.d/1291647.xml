@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1291647</D:version-name>
+<D:comment>DERBY-5608: BaseTestCase.readProcessOutput should read getInputStream() and getErrorStream() in separate threads
+
+Removed space character from the text prepended to the stdout output from the
+spawned process. Should be safe since all uses of the output relies on indexOf,
+trimming or similar mechanisms (i.e. no exact match).
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2012-02-21T08:19:11.327790Z</S:date>
+</S:log-item>
+</S:log-report>

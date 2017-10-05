@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1071640</D:version-name>
+<D:comment>DERBY-4463; JMX test in nightly test suite failed with: JMXTest:clientjava.lang.InterruptedException
+  Causing the LockInterruptTest to be skipped with ibm 1.5 jvm unil SR13 is
+  available; this test caused a jvm bug in the handling of waitFor() to pop up.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2011-02-17T15:21:46.245873Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1366132</D:version-name>
+<D:comment>Merged revision(s) 1366130 from lucene/dev/trunk:
+Repair Solr snapshot javadocs to work on windows and with spaces in filename (same fix like in Lucene's docs XSL transformation): The hrefs to external docs must be valid URIs and plain path are not valid URIs, they must start with file:, slashes converted, and spaces escaped. scriptmapper helps with new File(path).toURI()</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2012-07-26T18:30:49.503881Z</S:date>
+</S:log-item>
+</S:log-report>

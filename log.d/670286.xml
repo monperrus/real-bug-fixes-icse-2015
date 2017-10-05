@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>670286</D:version-name>
+<D:comment>DERBY-2861 Thread safety issue in TableDescriptor
+
+Patch derby-2861-2, which solves the issue by make session local state
+in TableDescriptor thread local.
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2008-06-22T01:16:19.149737Z</S:date>
+</S:log-item>
+</S:log-report>

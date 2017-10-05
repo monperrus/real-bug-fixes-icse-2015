@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>749235</D:version-name>
+<D:comment>DERBY-4060: Blob.getBinaryStream(long,long) is off by one for the pos+len check.
+Changed the pos/length checks to allow obtaining a stream reading the last
+byte/char from the LOB.
+The JavaDoc for Blob.getBinaryStream(long,long) and
+Clob.getCharacterStream(long,long) (JDBC 4.0) incorrectly states that the
+position plus the requested length of the stream cannot be larger than the
+length of the LOB. Since positions in JDBC are 1-based, this makes it impossible
+to read the last byte/char in the LOB. Derby adhered to the spec.
+
+The changes to CharAlphabet/LoopingAlphabetReader were done to allow passing
+an alphabet object around for constructing streams.
+Patch file: derby-4060-1b-sub_stream_fix.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-03-02T08:47:52.996702Z</S:date>
+</S:log-item>
+</S:log-report>

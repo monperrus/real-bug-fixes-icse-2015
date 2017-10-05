@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>755636</D:version-name>
+<D:comment>DERBY-3731: Improve calculation of refSize in ClassSize.java.
+Pulled out a change merged from 10.5, because it was determined that the
+rest of the changes for the issue wouldn't be backported.
+The change went in with revision 748451.
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-03-18T16:39:37.176154Z</S:date>
+</S:log-item>
+</S:log-report>

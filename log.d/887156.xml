@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>887156</D:version-name>
+<D:comment>DERBY-2282: Incorrect "transitive closure" logic leads to inconsistent behavior for binary comparison predicates
+
+Made the transitive closure logic normalize predicates so that the
+constants are on the right-hand side (e.g., convert 3 &lt; X to X &gt; 3).
+This makes it detect more of the potential optimizations.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-12-04T11:02:16.613120Z</S:date>
+</S:log-item>
+</S:log-report>

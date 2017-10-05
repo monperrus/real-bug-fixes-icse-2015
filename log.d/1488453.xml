@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1488453</D:version-name>
+<D:comment>DERBY-6237(PreparedStatement.execute() fails starting 10.2 when multiple rows are updated and PreparedStatement.setCharacterStream(int, Reader, int) is used)
+
+This commit modifies existing test case of setCharacterStream on CLOB and adds to that test the testing of setCharacterStream to update VARCHAR column in the underlying table. The test is commented out at this point for embedded case since it does not work in 10.2. Failure for setCharacterStrem on VARCHAR column in this test may be a result of the test of setCharacterStream on CLOB column within the same test. Next, I will go ahead and separate out the testing of the 2 datatypes into 2 different tests.
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-06-01T02:32:00.121215Z</S:date>
+</S:log-item>
+</S:log-report>

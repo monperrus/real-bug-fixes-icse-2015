@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>529983</D:version-name>
+<D:comment>DERBY-595: Using derby.language.logStatementText=true can mask certain exceptions and lead to incorrect behavior in some cases. Streams will no longer be exhausted/read when logging values.
+The format of the log strings for data values in derby.log has been slightly changed.
+
+Patch contributed by Mayuresh Nirhali.
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2007-04-18T11:21:34.988875Z</S:date>
+</S:log-item>
+</S:log-report>

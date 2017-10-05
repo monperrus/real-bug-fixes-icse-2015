@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>559436</D:version-name>
+<D:comment>DERBY-2963 Extending SocketPermission to all hosts ("*") in the default policy file
+to make server start compatible with pre-10.3 versions which allowed any host to connect
+if no security manager was used.
+Also added comment that user may want to restrict this permission.
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2007-07-25T12:51:33.684635Z</S:date>
+</S:log-item>
+</S:log-report>

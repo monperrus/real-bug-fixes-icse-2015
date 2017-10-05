@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1481460</D:version-name>
+<D:comment>DERBY-6181; fix AutoloadTest to support running concurrently when different base ports are specified.
+  backporting the removal of an unnecessary import (1481448) from trunk.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2013-05-11T23:49:04.702184Z</S:date>
+</S:log-item>
+</S:log-report>

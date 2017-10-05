@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>746236</D:version-name>
+<D:comment>DERBY-4061:InputStream returned from Blob.getBinaryStream(long, long) terminates the stream by returning 0, should return -1.
+Fixed bug where calling code would enter infinite loop because 0 was returned instead of -1 (EOF). The problem occurred because the actual number of bytes to read was calculated and the case where zero bytes remained wasn't handled properly.
+Patch file: derby-4061-1b.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-02-20T13:48:42.181682Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>919467</D:version-name>
+<D:comment>switch back to hashlib for md5 import (md5.md5 is deprecated).  patch by Staffan Ericsson; reviewed by jbellis for CASSANDRA-851</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-03-05T16:19:18.655163Z</S:date>
+</S:log-item>
+</S:log-report>

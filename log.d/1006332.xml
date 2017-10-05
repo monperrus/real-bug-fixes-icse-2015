@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1006332</D:version-name>
+<D:comment>DERBY-4825: Assert failure in LargeDataLocksTest.testGetCharacterStream()
+because of wrong number of locks
+
+Wait for background thread to complete post-commit work before
+counting the locks, so that the locks it obtains don't intermittently
+show up in the lock table.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-10-10T18:24:47.382160Z</S:date>
+</S:log-item>
+</S:log-report>

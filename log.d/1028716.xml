@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1028716</D:version-name>
+<D:comment>DERBY-4849: Re-compilation may cause duplicate entries in the XPLAIN table
+
+Avoid writing XPLAIN data if result set is being closed due to invalidation.
+
+Patch file: derby-4849-2c-broad_fix_with_test.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-10-29T12:22:23.411514Z</S:date>
+</S:log-item>
+</S:log-report>

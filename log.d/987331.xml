@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>987331</D:version-name>
+<D:comment>DERBY-4531 Client setCharacterStream closes its Reader argument stream in finalizer
+
+Patch derby-4531b, which makes the client behave like embedded in this
+respect.  
+
+It also adds a new test which shows the clients divergent behavior
+prior to the fix in EncodedInputStream. Since the test relies on
+explicit gc, it is not guaranteed to show the presence of the bug,
+though.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2010-08-19T22:13:57.008400Z</S:date>
+</S:log-item>
+</S:log-report>

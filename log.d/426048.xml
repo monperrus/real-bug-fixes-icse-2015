@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>426048</D:version-name>
+<D:comment>updated policy to be in line with permissions granted for derbyclient.jar in derby_tests.policy. Follow-up to DERBY-1545. This should enable running the server host on a remote machine when running the testProtocol test.</D:comment>
+<D:creator-displayname>andreask</D:creator-displayname>
+<S:date>2006-07-27T12:43:51.836148Z</S:date>
+</S:log-item>
+</S:log-report>

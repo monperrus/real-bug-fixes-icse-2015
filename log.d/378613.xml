@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>378613</D:version-name>
+<D:comment>DERBY-960 Client xa prepare returns XA_OK instead of XA_RDONLY for a read only transaction
+
+- Changed DRDAXAProtocol prepareXATransaction to return the return value of prepare in the SYNCCRD
+The server was always returning XA_OK if prepare did not throw an error instead of passing the return value to the client.
+
+For Network Client
+- Changed NetXAResource() prepare to handle XA_RDONLY returned from the server. It was throwing an exception for any value returned from the server other than XA_OK.
+
+Test was checked in by enabling checkDataSource30.java in svn  378532
+
+
+Reviewed by Bryan Pendleton
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-02-17T19:44:47.127585Z</S:date>
+</S:log-item>
+</S:log-report>

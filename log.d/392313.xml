@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>392313</D:version-name>
+<D:comment>DERBY-1184: registerOutParameter(int,int,String) should throw exception.
+
+The test was out of sync with the SQL States in the code. In revision
+392060, the SQL state "0AX01" was replaced by "0A000". This change
+updates the test to use the new SQL State, and callable.java now passes.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2006-04-07T15:23:33.980597Z</S:date>
+</S:log-item>
+</S:log-report>

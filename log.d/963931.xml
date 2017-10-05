@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>963931</D:version-name>
+<D:comment>DERBY-4743
+
+Checking in changes to XATest.java to repro this bug.  The test case is currently
+disabled.  To enable it remove the x from:
+    public void xtestXATempTableD4743()
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2010-07-14T02:54:58.917125Z</S:date>
+</S:log-item>
+</S:log-report>

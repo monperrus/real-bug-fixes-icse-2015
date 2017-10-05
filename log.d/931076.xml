@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>931076</D:version-name>
+<D:comment>DERBY-4585: IndexChanger.doDelete throws NullPointerException
+
+Make sure the cached index scan is not cleared too early by a result
+set that doesn't use it.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-04-06T10:27:22.629178Z</S:date>
+</S:log-item>
+</S:log-report>

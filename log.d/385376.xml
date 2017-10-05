@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>385376</D:version-name>
+<D:comment>DERBY-1102 (partial) Remove triggers that only display trigger context information
+since this is no longer part of the api. No need to rewrite any of the test cases
+as they are not applicable for the triggers that Derby supports.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-03-12T22:18:58.911396Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1061580</D:version-name>
+<D:comment>DERBY-4979; build.properties in plugins/eclipse/org.apache.derby.ui refers to non-existend file install_plugin.html
+  remove the reference
+
+  merge command: svn -c merge 1061578 https://svn.apache.org/repos/asf/db/derby/code/branches/10.7
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2011-01-20T23:55:25.752069Z</S:date>
+</S:log-item>
+</S:log-report>

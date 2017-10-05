@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>504938</D:version-name>
+<D:comment>Fix for DERBY-2302
+It required granting derbyClient.jar 2 additional set of permissions 
+1)Property read permission for user.dir since that's where the Junit test wants to have the client tracing done. 
+   permission java.util.PropertyPermission "user.dir", "read"; 
+2)Also, in order to read/write in user.dir directory, the client jar needs following additional permission 
+permission java.io.FilePermission "${user.dir}${/}-", "read,write"; 
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-02-08T16:06:04.159765Z</S:date>
+</S:log-item>
+</S:log-report>

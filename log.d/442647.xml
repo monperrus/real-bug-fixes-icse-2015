@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>442647</D:version-name>
+<D:comment>DERBY-1786 (a crash during re-encryption may cause an unrecoverable db)
+
+The problem was when transaction log spans more than one log file during (re)
+encryption of the database and if there is a crash just before switching the
+database to use the new encryption properties; On recovery checkpoint in the
+first log file is used as reference and the next log file is assumed to have
+the commit log record for (re) encryption and deleted incorrectly to force the
+roll-back , which lead to the incomplete rollback of re-encryption. And that
+caused recovery failures on next (re) encryption crashed. 
+
+This patch fixes the problem by ensuring there a checkpoint record in the
+last log file before creating a new log file with new encryption properties
+and writing the commit log record. Log is also flushed before making the
+transaction log use the new encryption key to avoid any part of old log 
+records in the buffers getting encrypted with the new encryption key. 
+While working on this problem , I noticed error message thrown incase of 
+re-encryption failures are confusing, added a new error message to indicate 
+failures specific to (re) encryption. 
+
+</D:comment>
+<D:creator-displayname>suresht</D:creator-displayname>
+<S:date>2006-09-12T17:25:10.249447Z</S:date>
+</S:log-item>
+</S:log-report>

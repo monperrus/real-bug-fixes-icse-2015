@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>418692</D:version-name>
+<D:comment>DERBY-1364: Client driver does not roll back the effects of a stored
+procedure when incorrectly invoked by executeQuery()/executeUpdate()
+
+Description of the patch:
+
+1. Checking of the number of result sets returned was moved from
+   executeUpdate/executeQuery to a point in flowExecute where the
+   transaction has not been auto-committed (otherwise, the transaction
+   would already be committed when the exception was raised).
+
+2. If the number of result sets does not match the execute type and
+   auto-commit is enabled, the transaction is rolled back (otherwise,
+   the transaction would be committed when the Statement was closed or
+   re-executed).
+
+3. All execute* methods in CallableStatement were removed since they
+   have become identical to the methods in PreparedStatement. (Or
+   almost identical. The methods in CallableStatement did not call
+   checkStatementValidity() on errors, but that's probably a bug.)
+
+4. SQL state for error message in executeQuery() was changed to match
+   embedded (XJ201/XJ205 -&gt; X0Y78). Updated English and Portuguese
+   messages to use the new SQL state (no other translations existed
+   for XJ201 and XJ205).
+
+5. Added more rollback tests to jdbcapi/ProcedureTest.junit and
+   enabled all test cases for DerbyNetClient.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-07-03T06:14:07.703497Z</S:date>
+</S:log-item>
+</S:log-report>

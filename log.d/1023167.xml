@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1023167</D:version-name>
+<D:comment>DERBY-4845 Improve the dependency tracking for our build targets
+
+Replacing derby.engine.dir with derby.dir in the &lt;include name=.../&gt; directive makes
+ant all pick up changes in this package too: org.apache.derby.iapi.util
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2010-10-16T02:06:10.241770Z</S:date>
+</S:log-item>
+</S:log-report>

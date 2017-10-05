@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="492930"/>
+<S:open-directory rev="492929">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/492930/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">492930</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-01-05T07:55:04.553279Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">fuzzylogic</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="db" rev="492929">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/492930/db</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">492930</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-01-05T07:55:04.553279Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">fuzzylogic</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="derby" rev="492929">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/492930/db/derby</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">492930</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-01-05T07:55:04.553279Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">fuzzylogic</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="code" rev="492929">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/492930/db/derby/code</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">492930</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-01-05T07:55:04.553279Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">fuzzylogic</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="492929">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/492930/db/derby/code/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">492930</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-01-05T07:55:04.553279Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">fuzzylogic</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="bin" rev="492929">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/492930/db/derby/code/trunk/bin</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">492930</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-01-05T07:55:04.553279Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">fuzzylogic</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="NetworkServerControl.bat" rev="492929">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/492930/db/derby/code/trunk/bin/NetworkServerControl.bat</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">492930</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-01-05T07:55:04.553279Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">fuzzylogic</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="3fdac8592265383f1464434b1c777d68" sha1-checksum="c4dff73c058d30af23439e79c870aa48d7738a2e"/>
+<S:prop><V:md5-checksum>e41ebf6eb9892c2950287c1ffbc87f30</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="stopNetworkServer.bat" rev="492929">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/492930/db/derby/code/trunk/bin/stopNetworkServer.bat</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">492930</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-01-05T07:55:04.553279Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">fuzzylogic</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="d7a189b7038778e54420040bbefda5b9" sha1-checksum="6b63a807215db05aab8655d1ab2476a751fa7bf5"/>
+<S:prop><V:md5-checksum>710b89e9e2d3cb811cd5289faec16aa8</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="sysinfo.bat" rev="492929">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/492930/db/derby/code/trunk/bin/sysinfo.bat</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">492930</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-01-05T07:55:04.553279Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">fuzzylogic</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="a6d352b2b654838bdb680caff43d9efe" sha1-checksum="5c77b5d0e3fe53654a453cd27680481bc12a119b"/>
+<S:prop><V:md5-checksum>63a92cae8e98041963b198fcc690f883</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="startNetworkServer.bat" rev="492929">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/492930/db/derby/code/trunk/bin/startNetworkServer.bat</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">492930</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-01-05T07:55:04.553279Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">fuzzylogic</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="55e14db5161f503d6243f0d18e785504" sha1-checksum="8fe84e2a8d864015111c2aa389c29395be4b7372"/>
+<S:prop><V:md5-checksum>6a3fdc77bad80c1cc563a72d7ccb86cb</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ij.bat" rev="492929">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/492930/db/derby/code/trunk/bin/ij.bat</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">492930</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-01-05T07:55:04.553279Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">fuzzylogic</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="b1b525a8aafe41459d576c1dd2665ec9" sha1-checksum="65409c0b4664b20dc98fc4988c743c40e8347b6b"/>
+<S:prop><V:md5-checksum>67ed85253a7c98cf6e7442df05ae73b0</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="dblook.bat" rev="492929">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/492930/db/derby/code/trunk/bin/dblook.bat</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">492930</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2007-01-05T07:55:04.553279Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">fuzzylogic</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="20a9394501543951280fdccbf1c65f83" sha1-checksum="77bbc38057e804abcd7be16c23ffaa9826c03e69"/>
+<S:prop><V:md5-checksum>94f427e0fd7b5fec2679958e32afb33e</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

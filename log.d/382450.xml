@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>382450</D:version-name>
+<D:comment>DERBY-997 Fix ClassCastExceptions for queries containing aggregates when executing in application servers
+or other class loading environments where the thread context loader provides another path to the derby engine code.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-03-02T17:16:40.390312Z</S:date>
+</S:log-item>
+</S:log-report>

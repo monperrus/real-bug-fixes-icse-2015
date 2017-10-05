@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1555737</D:version-name>
+<D:comment>Update transaction itests dependencies on transaction modules to current version.
+
+The itests were referring to old SNAPSHOT versions.
+This fixes a build error on trunk.
+</D:comment>
+<D:creator-displayname>davidb</D:creator-displayname>
+<S:date>2014-01-06T12:49:46.039215Z</S:date>
+</S:log-item>
+</S:log-report>

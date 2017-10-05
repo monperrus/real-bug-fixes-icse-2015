@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>551942</D:version-name>
+<D:comment>DERBY-2831 
+Forgot to enter a test case during 551793 checkin. This commit just creates a function in non-existent database to  ensure 
+we don't throw null pointer exception.
+
+ In addition, this commit also makes sure that we associate correct collation information with the character string parameters to procedures when the procedure gets created in CreateAliasNode. We already do this for function but similar work needs to happen for procedures.</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-06-29T16:24:30.558152Z</S:date>
+</S:log-item>
+</S:log-report>

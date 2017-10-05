@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>613815</D:version-name>
+<D:comment>DERBY-3260: NullPointerException caused by race condition in GenericActivationHolder
+
+Hold the synchronization lock on the GenericPreparedStatement until
+the activation class has been retrieved. This prevents other threads
+from setting the activation class to null before we have retrieved it,
+and thereby prevents the NPE.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2008-01-21T09:43:22.079356Z</S:date>
+</S:log-item>
+</S:log-report>

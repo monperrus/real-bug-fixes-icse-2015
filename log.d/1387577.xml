@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1387577</D:version-name>
+<D:comment>LUCENE-4406, LUCENE-4407: Upgrade to randomizedtesting 2.0.1.
+Workaround for broken test output XMLs due to non-XML text unicode
+chars in strings. Added printing of failed tests at the end of a
+test run (Dawid Weiss)</D:comment>
+<D:creator-displayname>dweiss</D:creator-displayname>
+<S:date>2012-09-19T13:19:12.819989Z</S:date>
+</S:log-item>
+</S:log-report>

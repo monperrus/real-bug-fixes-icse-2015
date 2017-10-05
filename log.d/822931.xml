@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>822931</D:version-name>
+<D:comment>Added the ability to set maxthreshold to zero in nodeprobe, and added a special case to CF.doCompaction to not run compaction when its disabled. patch by goffinet; reviewed by jbellis for CASSANDRA-465</D:comment>
+<D:creator-displayname>goffinet</D:creator-displayname>
+<S:date>2009-10-07T21:47:38.467755Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>381549</D:version-name>
+<D:comment>DERBY-1006 Disallow holdable cursor setting at the connection and statement
+level while in a global transaction for the client driver. Matches the embedded
+as the holdable cursors are not supported in global (XA) transactions.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-02-28T03:42:32.750123Z</S:date>
+</S:log-item>
+</S:log-report>

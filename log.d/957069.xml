@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>957069</D:version-name>
+<D:comment>DERBY-4179 bootLock.java fails with missing exception if spawned process fails.
+DERBY-4667 BootLockTest.testBootLock() sometimes fails with connection refused.
+
+Convert bootLock.java to JUnit
+contributed mostly by Dag Wanvik
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2010-06-22T22:49:22.923467Z</S:date>
+</S:log-item>
+</S:log-report>

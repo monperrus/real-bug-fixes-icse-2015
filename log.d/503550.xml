@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>503550</D:version-name>
+<D:comment>DERBY-1909: ALTER TABLE DROP COLUMN needs to update GRANTed privileges
+
+When ALTER TABLE DROP COLUMN is used to drop a column from a table, it needs to update the GRANTed column privileges on that table.
+
+The core of this proposed patch involves refactoring and reusing the
+DERBY-1847 method which knows how to rewrite SYSCOLPERMS rows
+to update the COLUMNS column. The DERBY-1847 version of that code
+only handled the case of adding a bit to the COLUMNS column; this patch
+extends that method to support removing a bit from the COLUMNS
+column as well, then calls the method from the AlterTable execution logic.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2007-02-05T04:58:52.817640Z</S:date>
+</S:log-item>
+</S:log-report>

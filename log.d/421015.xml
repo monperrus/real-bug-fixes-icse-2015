@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>421015</D:version-name>
+<D:comment>DERBY-1142 Stop memory leak for embedded metadata queries. Mark the embedded ResultSet as having a single use
+activation so that upon a close its activation.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-07-11T22:30:38.846580Z</S:date>
+</S:log-item>
+</S:log-report>

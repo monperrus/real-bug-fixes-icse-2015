@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>240111</D:version-name>
+<D:comment>DERBY-540 Do not prepend database name for classpath databases with leading slash.This causes
+databases to be not found when in jar files on the database. Correct the lookup of resources
+in the class path storage factory to not use the methods that prepend the current class name,
+instead use methods from ClassLoader directly. The leading slash was incorrectly added to avoid
+the automatic package prepending performed by Class.getResource.
+Removed code that tried to optimise not using the thread context class loader, simply have a
+fixed lookup for resources of thread context class loader followed by class loader for Derby/system classloader.
+Add lang/dbjar.sql to test databases within a jar and within a jar on the classpath and class loading from such databases.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-08-25T18:02:57.321102Z</S:date>
+</S:log-item>
+</S:log-report>

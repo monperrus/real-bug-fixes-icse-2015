@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1343938</D:version-name>
+<D:comment>[ARIES-858] Fix concurrency issue with NamespaceHandlerRegistryImpl causing application test failures
+
+
+Conflicts:
+
+	blueprint-core/src/main/java/org/apache/aries/blueprint/namespace/NamespaceHandlerRegistryImpl.java</D:comment>
+<D:creator-displayname>gnodet</D:creator-displayname>
+<S:date>2012-05-29T19:24:50.918129Z</S:date>
+</S:log-item>
+</S:log-report>

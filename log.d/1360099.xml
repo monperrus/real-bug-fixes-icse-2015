@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1360099</D:version-name>
+<D:comment>ARIES-832: JPA load-time enhamcement fails for a WAB - revert 1297497 as the 1st patch caused jpa load time enhancing unreliable for earlier version of osgi runtime since the entity manager was created too late. Brian will come up with a different fix for his problem or try out Tim's suggestion.</D:comment>
+<D:creator-displayname>ejiang</D:creator-displayname>
+<S:date>2012-07-11T10:20:02.970455Z</S:date>
+</S:log-item>
+</S:log-report>

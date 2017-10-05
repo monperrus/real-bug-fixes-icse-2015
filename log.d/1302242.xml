@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1302242</D:version-name>
+<D:comment>Merged revision(s) 1302238 from lucene/dev/trunk:
+LUCENE-3738: DataInput/DataOutput no longer allow negative vLongs. vInts are still supported (for index backwards compatibility), but should not be used in new code. The read method for negative vLongs was already broken since Lucene 3.1</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2012-03-18T22:41:39.464949Z</S:date>
+</S:log-item>
+</S:log-report>

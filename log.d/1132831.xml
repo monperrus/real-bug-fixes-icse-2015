@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1132831</D:version-name>
+<D:comment>DERBY-5249 A table created with 10.0.2.1 with constraints cannot be dropped with 10.5 due to NullPointerException with insane build or ASSERT FAILED Failed to find sharable conglomerate descriptor for index conglomerate with sane build
+
+merge revision 1132738 from 10.8
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2011-06-06T23:13:25.985598Z</S:date>
+</S:log-item>
+</S:log-report>

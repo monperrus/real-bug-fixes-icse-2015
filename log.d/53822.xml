@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>53822</D:version-name>
+<D:comment>Fix derby-30, Connection.close() on a closed connection is defined by JDBC javadoc to be a no-op.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2004-10-05T20:21:17.387766Z</S:date>
+</S:log-item>
+</S:log-report>

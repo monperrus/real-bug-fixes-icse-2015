@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1431948</D:version-name>
+<D:comment>DERBY-6039: Intermittent failure in LangProcedureTest.testDynamicResultSets: Table/View 'T1' does not exist.
+
+Let testDynamicResultSets() create its own test table, rather than
+relying on one created by another test case. Removes dependency on
+test case ordering.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-01-11T09:24:21.124158Z</S:date>
+</S:log-item>
+</S:log-report>

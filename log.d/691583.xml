@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>691583</D:version-name>
+<D:comment>DERBY-3845: Problems running org.apache.derbyTesting.system.optimizer.RunOptimizerTest
+
+Make sure the database is initialized also when -mode is specified on
+the command line.
+
+Patch contributed by Ole Solberg &lt;Ole.Solberg@Sun.COM&gt;.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2008-09-03T11:58:30.002812Z</S:date>
+</S:log-item>
+</S:log-report>

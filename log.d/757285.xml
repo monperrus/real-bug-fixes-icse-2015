@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>757285</D:version-name>
+<D:comment>DERBY-4095 Trigger in fails with ERROR 38000: The exception 'java.sql.SQLException: ResultSet not open during VTIResultSet.getNextRowCore()
+
+fix typo in test. Change --DERBY-PROEPERTIES to --DERBY-PROPERTIES. Neither the typo nor the correction of it affects the efficacy of the test. 
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2009-03-23T00:02:01.786584Z</S:date>
+</S:log-item>
+</S:log-report>

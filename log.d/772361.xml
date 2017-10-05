@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>772361</D:version-name>
+<D:comment>force flush when there are pending ops on the memtable executor even when none have finished yet.  this fixes test case intermittent failures.  patch by jbellis; reviewed by Eric Evans for CASSANDRA-141</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-05-06T17:04:32.228879Z</S:date>
+</S:log-item>
+</S:log-report>

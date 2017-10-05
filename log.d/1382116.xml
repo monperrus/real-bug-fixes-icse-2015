@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1382116</D:version-name>
+<D:comment>ARIES-922: If a bundle is uninstalled from the root region while the bundle event hook is not registered but remains in persistent memory, root initialization will no longer fail with an NPE. The missing bundle is simply removed from memory.
+
+A failure will still occur if the same thing happens for a non-root subsystem. I left it that way for now for fail-fast purposes since it would be very bad for someone to muck around with the deployed content of a non-root subsystem outside of the subsystems API. It might be reasonable in the future to make this more intelligent by checking to see if the missing resource is optional or trying to re-deploy it from a repository.
+
+Also added a new test.</D:comment>
+<D:creator-displayname>jwross</D:creator-displayname>
+<S:date>2012-09-07T18:34:15.014763Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1537528"/>
+<S:open-directory rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="dev" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test-framework" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/test-framework</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="build.xml" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/test-framework/build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="a3f17873da694c64ddeaad49e4eb4af0" sha1-checksum="613313323c8e37485d8b42cfd3dc13922281bc7f"/>
+<S:prop><V:md5-checksum>66aec406cb5262894b4449758021f0ff</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-file name="common-build.xml" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/common-build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="779bec006a67c5fcd94c7777c48a02c0" sha1-checksum="0f3416b9e4a6d9f65bc9c495c163d55ab9d5cf38"/>
+<S:prop><V:md5-checksum>4cbe80fcd2548736d35fc69592c1eac9</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="benchmark" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/benchmark</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="ivy.xml" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/benchmark/ivy.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="b7447b96b3acdcd99a64b8c7b8f6a2f3" sha1-checksum="d6346d075f895b9428829b34ecbb73234a6940a1"/>
+<S:prop><V:md5-checksum>d6a589293119113e99eef11b48998571</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="build.xml" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/benchmark/build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="926944a7bf0c8a5a6a037f3ed088cc85" sha1-checksum="1ecea1a35c31630c487d4bdc9977e96c00f604bc"/>
+<S:prop><V:md5-checksum>b3e9e5feca9ded31f9ac4ee8bdebbc72</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-file name="build.xml" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="9f6f34fd0fc641bf2bf9b1684b501d22" sha1-checksum="8bb044282e1d324091001eea01be52c42684569b"/>
+<S:prop><V:md5-checksum>9424382b7ef348bfa624591600062296</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="tools" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/tools</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/tools/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/tools/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/tools/src/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/tools/src/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/tools/src/java/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="dependencies" bc-url="/repos/asf/!svn/bc/1537528/lucene/dev/trunk/lucene/tools/src/java/org/apache/lucene/dependencies">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/tools/src/java/org/apache/lucene/dependencies</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="GetMavenDependenciesTask.java" sha1-checksum="ef60316c2afdbeb5989ebd0db08a687da48ec775">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/tools/src/java/org/apache/lucene/dependencies/GetMavenDependenciesTask.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="svn:keywords">Date Author Id Revision HeadURL</S:set-prop>
+<S:prop><V:md5-checksum>fb9fe4054fd872128e02cb5357239f1a</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:open-directory name="validation" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/tools/src/java/org/apache/lucene/validation</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="LibVersionsCheckTask.java" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/tools/src/java/org/apache/lucene/validation/LibVersionsCheckTask.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c09ac61af18bf6915c2413c964293ae2" sha1-checksum="23969308bcf546711b3d32bb73c7238eb1731e76"/>
+<S:prop><V:md5-checksum>5b41fc8d8df63de61f87f1b0779197ce</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-file name="lucene-solr.antlib.xml" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/tools/src/java/lucene-solr.antlib.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="467819c24f76e47c30291944d9117c59" sha1-checksum="bc49f81f8085bf3aecccaa50e5b95e225134a379"/>
+<S:prop><V:md5-checksum>93b31314eda02d4428eeea782b0c21b2</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+<S:open-file name="custom-tasks.xml" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/tools/custom-tasks.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7cff88f0e307246554a310caefe0c8ec" sha1-checksum="215d6a28bf17902a1b1dd7cf1eceb929eb2a67f8"/>
+<S:prop><V:md5-checksum>80dfa7c60c36a591de6aa54a317d6a63</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="analysis" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/analysis</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="uima" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/analysis/uima</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="build.xml" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/analysis/uima/build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="d4473f8c1597d4407bf92fed85403883" sha1-checksum="dbcb402cacf445640ba0a227fb0935a53202796d"/>
+<S:prop><V:md5-checksum>4e4803325954a4b66071f19d799562fa</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-file name="build.xml" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/analysis/build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="6ba0c9eba4a04dbd460fef9d5bfdf418" sha1-checksum="38b088e554a674c356894652505ec686c832063f"/>
+<S:prop><V:md5-checksum>e4ffd5daab0b5e2433ba5e7c35c809cc</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="classification" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/classification</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="build.xml" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/lucene/classification/build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="460691de2258729cd0745a3d09124512" sha1-checksum="db404ff500cd66d5daefee08fd68a96c58e6a6ad"/>
+<S:prop><V:md5-checksum>bea895cae7e001479f39769d8a98159a</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="dev-tools" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="maven" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="0a7427159bbc614812c52ea330ba74e7" sha1-checksum="676360916ed6299bae2213434a57defaf79863f0"/>
+<S:prop><V:md5-checksum>bbe33d67f6c821dc46a9705bd535bee2</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="lucene" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="spatial" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/spatial</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/spatial/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="9ee5bf35350a2f41fa45bda9b49722c8" sha1-checksum="f9c3a200e91cefcc3188d5c7fa4b8dfdfd2b6677"/>
+<S:prop><V:md5-checksum>d6a170129baddb2d9bef523314e3fce5</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="highlighter" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/highlighter</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/highlighter/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="4f9d5fa60aaf3d52e43917ead6595d35" sha1-checksum="4a2b201d595f8262429b2c5b2645e80404e75006"/>
+<S:prop><V:md5-checksum>e1ce10a78c93cba12e1bbd507c8eb224</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="sandbox" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/sandbox</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/sandbox/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="54af07476178fe3f692003159687cd89" sha1-checksum="b594de4399eabd56796c67f2f1040f6648899467"/>
+<S:prop><V:md5-checksum>33dedbadaa746d59f67e3988b522e590</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="join" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/join</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/join/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="67f9b05e9f88469b4f10a3d73ebb57aa" sha1-checksum="65afd52b2c786056c32ef6f794c7e44cd2e85195"/>
+<S:prop><V:md5-checksum>7737138ef70c84916b4ebb79dd392ebb</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="codecs" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/codecs</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/codecs/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/codecs/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/codecs/src/test/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="ba180d6f5e3264b0e9a891a96ceca2e5" sha1-checksum="df30d97edc3307703f8f75036796a8ffd8325cb3"/>
+<S:prop><V:md5-checksum>71405012b83f4f9c034a49590ef50091</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="java" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/codecs/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/codecs/src/java/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="29985c7744a8daaa29ae3b298e38336f" sha1-checksum="1a8e00a9aa38b12b5c13ab4bcf04a678a558bd25"/>
+<S:prop><V:md5-checksum>85aae04d3f5ab72f5fecc704ad2497be</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="replicator" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/replicator</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/replicator/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="5f963f1e560c9450772024e476c05f40" sha1-checksum="e78c2eadd66cfc33b82098bfed8447b27a7447dc"/>
+<S:prop><V:md5-checksum>6be5e6a14906281a742092d8b5a22e70</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="memory" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/memory</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/memory/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="985d3e07d7a30f470bc23f7e72eece47" sha1-checksum="76954c574613a48802a373a28eb6c10988d0e425"/>
+<S:prop><V:md5-checksum>79093eeb5aedb1a0ca2342f9f3eba61a</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="test-framework" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/test-framework</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/test-framework/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="623e0661e7f5ee2d740d301cc9200ae9" sha1-checksum="7163542a0eee4a08a9f18502c7465764a5dc9371"/>
+<S:prop><V:md5-checksum>7e8559bb99cbdcbd81a259be86f0d2e2</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="queries" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/queries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/queries/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f1daf502a6723d281b4e4868483776bf" sha1-checksum="d4504481774cdc28c7a2d5e3c5c37a8d1d39618f"/>
+<S:prop><V:md5-checksum>229779738c41961eb079fd2e3a0a6726</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="suggest" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/suggest</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/suggest/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="0f3932856ac28d22c98e272551692a21" sha1-checksum="c970ae693b67365511f01363867b392645e8a6b7"/>
+<S:prop><V:md5-checksum>b8827b8839a0e35a04453d32506b0500</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="expressions" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/expressions</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/expressions/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="16dda3b8121a2b61b8765aac9cca747e" sha1-checksum="eaad4a69b4cc62c350f03e2c1d8eac6311a94df5"/>
+<S:prop><V:md5-checksum>c6312f3e42024ee743ecc1666aeb6e83</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="facet" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/facet</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/facet/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="13c62c151b97fb50e39524041926651a" sha1-checksum="a1aaeb7a1f21a27c778ff3f70e23aefcc26e153d"/>
+<S:prop><V:md5-checksum>db668398ae097d0c2f47ba598e4e23f8</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="queryparser" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/queryparser</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/queryparser/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="8f5da8d3e78374713ac5b2527489ae57" sha1-checksum="b88e3ae061a78947c410e428561998c825ad18ee"/>
+<S:prop><V:md5-checksum>31d541e1ad83032631dd4f79e3fe67f3</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="analysis" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/analysis</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="smartcn" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/analysis/smartcn</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/analysis/smartcn/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="fe77ce1d13095e6bbc581f5348121aa1" sha1-checksum="c25c5ce2fbe806589bbfeca2af785ce4526e88d5"/>
+<S:prop><V:md5-checksum>e070a6451b73175d0ab33c45111e5e2a</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="common" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/analysis/common</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/analysis/common/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="916d747f3f5e10c5ff33181aca94c28d" sha1-checksum="cad81215499cb186f4649b07d097b9105c9d8b18"/>
+<S:prop><V:md5-checksum>b18fcab1a9d35ab7fbe65c1dafee3bb8</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="morfologik" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/analysis/morfologik</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/analysis/morfologik/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="6ffc99d2eb5ac352d50afa143c5b2b91" sha1-checksum="b9681b47374ec99830274bfb0c0d63086387cb24"/>
+<S:prop><V:md5-checksum>fa79605d2f80730befb8c556c410043d</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="phonetic" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/analysis/phonetic</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/analysis/phonetic/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="92554be7b5976ddb3df6902e303af3f1" sha1-checksum="b7ab5dc14223c02c7ee09bfcac72e25029ea9fc9"/>
+<S:prop><V:md5-checksum>4e6485ecac6b5c097ea028b6a5edcad3</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="stempel" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/analysis/stempel</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/analysis/stempel/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="9ff3c20fc0d591e057cff86c0a5b1303" sha1-checksum="e7d1388d742111c02fd5b9866cf5fc8a4858a1a8"/>
+<S:prop><V:md5-checksum>caa1daeb5c4c3c0b5608e6b6f8afc4a8</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="uima" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/analysis/uima</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/analysis/uima/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="1563764e15a709661f19751510e3b35a" sha1-checksum="4f98f09a9b8771a6f825483e9196950c077f887d"/>
+<S:prop><V:md5-checksum>20c0a43a3fdffa314132afeeb5f56dd7</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="kuromoji" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/analysis/kuromoji</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/analysis/kuromoji/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="1d874f9813cb5b9dcb562627a473c312" sha1-checksum="b7bb2ce28dc2ae4c3ba521da14fec59ce50d2233"/>
+<S:prop><V:md5-checksum>b9cb734bdc2a9fd2e221cf66a24f0bf0</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="icu" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/analysis/icu</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/analysis/icu/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="667d4806a15407709a3cbe899edbc524" sha1-checksum="d6953160462839dad04a115c51cbd668972de1d2"/>
+<S:prop><V:md5-checksum>11077cbed6bef78cf2b096f7bb217052</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="demo" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/demo</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/demo/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7c67d8543fc541afe11f7db73d21cfb8" sha1-checksum="16fdc5b379d09e6209ab347aee6ab3b1419558b5"/>
+<S:prop><V:md5-checksum>063fdc85b66f6f6455184d35b00ab703</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="core" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/core</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/core/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/core/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/core/src/test/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="3d1085c054203ce0cdf25cc83bb3edc1" sha1-checksum="4cdd243d9b7b2cebdb92024bdebfea2e2f5d122a"/>
+<S:prop><V:md5-checksum>c0df277f00ae081e455bc5de2a892b97</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="benchmark" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/benchmark</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/benchmark/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="903cd718aaaea4b76032e96549e43b03" sha1-checksum="9e0a70bae5e8d631c3d31143a7f977d4ff8161f7"/>
+<S:prop><V:md5-checksum>c33aeb02232561eba97fddea0115fa3a</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="grouping" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/grouping</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/grouping/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="121a7f5cd436798f6079cec418d0a074" sha1-checksum="ea1ac325cac15c974e0ff9d3bc81eea981355695"/>
+<S:prop><V:md5-checksum>c6bc90fb0499c1a0620300b1b5af093c</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="classification" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/classification</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/classification/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="70f742f125a8bb67d8cb71aed52b8b30" sha1-checksum="0978a525aee0d03359d57ba2797dd518f9c773c0"/>
+<S:prop><V:md5-checksum>bd382678dff9feffe0b7a2da79c3d274</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="misc" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/misc</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/lucene/misc/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="23c33b93849d0f4140695728f3b4feee" sha1-checksum="121278446487981ec23558a518e8ec61cdc6c6de"/>
+<S:prop><V:md5-checksum>caab9a35a06847fa2855820a480fc716</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="solr" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="contrib" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/contrib</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="uima" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/contrib/uima</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/contrib/uima/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="560da87335a2db19f871eabe764f81ed" sha1-checksum="b7f0092a57543d9c32539315031f0bf8bc154385"/>
+<S:prop><V:md5-checksum>68ed54c97b9358655914f07c78504df3</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="langid" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/contrib/langid</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/contrib/langid/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="07a5fe88b117ef85642b6ed1e19e3704" sha1-checksum="d808bbe790dcca8fae5aeec7189f3bd1ae25ba1e"/>
+<S:prop><V:md5-checksum>235a9b25626f3a896959f9510dab2c32</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="velocity" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/contrib/velocity</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/contrib/velocity/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="231d79c97d6bfaff744f7744d7a7e3f0" sha1-checksum="66c4a87931f9841bf33d8e0043d097a5eb12ba63"/>
+<S:prop><V:md5-checksum>a2d059c80954052e8788c5b01a1cff62</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="clustering" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/contrib/clustering</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/contrib/clustering/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="35900f93896635d65ff37dc55fa9b922" sha1-checksum="a5e6e9ecc23fd8ace118eef75769d45779a1aebe"/>
+<S:prop><V:md5-checksum>0cfb875d8d7e4540627ce4d0957dcc48</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="extraction" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/contrib/extraction</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/contrib/extraction/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="0256cc1c6e6c489c59b9fe3c85aa1854" sha1-checksum="d7ab406e52266cdea5109594b124bf46f98b951f"/>
+<S:prop><V:md5-checksum>969c41e840bf86c0e03afae5ff09ee51</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="dataimporthandler" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/contrib/dataimporthandler</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/contrib/dataimporthandler/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="3313858c412a99b07be2c5edbe0e54e3" sha1-checksum="f5da55e6c52f5e0bee1b332ea3ae3252b4633b79"/>
+<S:prop><V:md5-checksum>a279169df5eb216a3d149a43d3e2a569</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="dataimporthandler-extras" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/contrib/dataimporthandler-extras</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/contrib/dataimporthandler-extras/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="ff4d2b9dde7d89f03a297ef5cdae2c10" sha1-checksum="a4ffc30262083af439a195d2fffa3f357f40c20e"/>
+<S:prop><V:md5-checksum>2ec6683575e319922b221679ac1800ba</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="analysis-extras" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/contrib/analysis-extras</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/contrib/analysis-extras/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="73de04107a10380d17539b1b21ad3dd2" sha1-checksum="f837ff43be16f3cb952a8b2426591e69deaaca6e"/>
+<S:prop><V:md5-checksum>2565af1c24bd323cdaf92fddf2ca6e55</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="fa3a7942a04148064944d244a4096b56" sha1-checksum="83b0dff5afd4b08641bb6a7b887199d13da312b6"/>
+<S:prop><V:md5-checksum>c859c07aa6b86f94dd0b3661a60bcd0b</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="core" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/core</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/core/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/core/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/core/src/test/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="2f48a4b15e42f130ac1863069b593b0b" sha1-checksum="ea58f9a271a1c3ff33579ff82ca4c15bd8235d5a"/>
+<S:prop><V:md5-checksum>8d45fe5af8fc2aa4c3015556b65dc163</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="java" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/core/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/core/src/java/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="0928fb87b717161bd2aa408c1c8d7549" sha1-checksum="b40f17b88d321896dc0e842d8c0e1e34108455f2"/>
+<S:prop><V:md5-checksum>84981233ec0ccc6595b48ae29612ec7d</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="solrj" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/solrj</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/solrj/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/solrj/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/solrj/src/test/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="06f5543d5d93c873d479ff5b1c1e19ec" sha1-checksum="0af7871c08e8e555fa0c6453c23ed06c8616dadd"/>
+<S:prop><V:md5-checksum>e0f76efd48dc520e881493c1c165761d</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="java" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/solrj/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/solrj/src/java/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="0f484e11a87f0a1f3a0d26eec021cc5d" sha1-checksum="18c1b922fd7a009f5eb47c6b9f14e04f42866236"/>
+<S:prop><V:md5-checksum>19daa5d7d877527f7ba0ec8b603bcb7a</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="test-framework" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/test-framework</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/dev-tools/maven/solr/test-framework/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="ec89b89d6fc44b32544be515849167a8" sha1-checksum="7f48f60244abd4b4895da58b590f6a8afdfcf9e8"/>
+<S:prop><V:md5-checksum>a7b26d020ace0165ac1441cc1ac86fa7</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-file name="build.xml" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="245805610cbb94827895a27183ae11da" sha1-checksum="69f99cf9a699c5588140944e143c21b4e73dead5"/>
+<S:prop><V:md5-checksum>35ad67653aa89a11ebde87247fe53e47</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="solr" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/solr</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="build.xml" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/solr/build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="3b7be7faf62e59dfe4f4854755c8d84c" sha1-checksum="13ed07bc6aa31ff20bdc2acec8beedfe9fd73bbe"/>
+<S:prop><V:md5-checksum>943138be2047a548ba40f63424ff4ba8</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="contrib" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/solr/contrib</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="dataimporthandler" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/solr/contrib/dataimporthandler</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="ivy.xml" rev="1537527">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1537528/lucene/dev/trunk/solr/contrib/dataimporthandler/ivy.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1537528</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-31T15:20:08.504064Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="46c7f8d4ac0b6b181d7c9971fbc020a5" sha1-checksum="d81cc3ec8f69630d8dda8f37cc398b7fdac2059d"/>
+<S:prop><V:md5-checksum>dcf22573c6f1c49ef097ae0e437aeca5</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

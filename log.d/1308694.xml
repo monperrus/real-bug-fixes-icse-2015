@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1308694</D:version-name>
+<D:comment>DERBY-5682: ProtocolTest failures: Unsupported encoding MacGreek
+
+Replaced usage of MacGreek with UTF-16BE in two tests, which should be
+avaialble on all JVMs.
+
+Patch file: derby-5682-1b-use_supported_encoding.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2012-04-03T05:17:41.947375Z</S:date>
+</S:log-item>
+</S:log-report>

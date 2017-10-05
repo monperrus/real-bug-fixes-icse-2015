@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>803336</D:version-name>
+<D:comment>DERBY-4282: Strange behavior with "where current of" in CheckConstraintTest
+
+This patch was contributed by Eranda Sooriyabandara (070468D at gmail dot com)
+
+This patch addresses an issue involving the binding of check constraints
+in queries which use the "where current of" construction to refer to the
+current row of an open cursor. The update statement was failing with a
+"column not found" error, complaining about the column referred to by the
+check constraint.
+
+The problem arises in the processing of ResultColumnList.expandToAll, which
+is used to construct ResultColumn instances for the columns in the table;
+these result column instances are then used when the check constraint
+is bound. ResultColumnList.java was constructing the ResultColumn instances
+as unnamed, which caused an internal name "SQLCOL1" to be generated, which
+later then caused the check constraint binding to fail.
+
+The solution is simply to ensure that the ResultColumn references that are
+built by expandToAll are named according to the column names.
+
+The patch also adds several new test cases.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2009-08-12T00:48:11.825205Z</S:date>
+</S:log-item>
+</S:log-report>

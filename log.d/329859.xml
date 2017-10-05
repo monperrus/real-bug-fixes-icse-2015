@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>329859</D:version-name>
+<D:comment>fix to prevent that queries like 'ca??' match a term like 'cat'.
+Terms with the correct length should be returned only. See Bug#LUCENE-306</D:comment>
+<D:creator-displayname>bmesser</D:creator-displayname>
+<S:date>2005-10-31T17:05:36.252828Z</S:date>
+</S:log-item>
+</S:log-report>

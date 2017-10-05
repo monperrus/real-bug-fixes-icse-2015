@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1030043</D:version-name>
+<D:comment>DERBY-4881: Deadlock accessing SYS.SYSSTATISTICS
+
+Read table statistics from the system table using READ_UNCOMMITTED to avoid
+deadlocks with transactions inserting new statistics entries.
+Modified getDescriptorViaIndexMinon to allow returning multiple tuple
+descriptors also when isolation level is READ_UNCOMMITTED.
+Removed one overload of getDescriptorViaIndex (cleanup).
+
+Patch file: derby-4881-1b-deadlock_fix.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-11-02T13:46:09.143282Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1171227</D:version-name>
+<D:comment>Fixing comments for the tests written for DERBY-5044. The comments don't need to talk in terms of specific Derby release numbers. This will allow us to backport DERBY-5044 changes to 10.8 without having to fix the comments during the backport.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-09-15T19:06:47.316386Z</S:date>
+</S:log-item>
+</S:log-report>

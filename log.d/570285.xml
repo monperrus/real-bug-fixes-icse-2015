@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>570285</D:version-name>
+<D:comment>DERBY-2989 Insert into table with constraints fails if the table name is "indicator" (or any other SQL keyword)
+Patch DERBY-2989-2. Based on original patch contributed by Dmitry Gusev.
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2007-08-28T00:54:32.803407Z</S:date>
+</S:log-item>
+</S:log-report>

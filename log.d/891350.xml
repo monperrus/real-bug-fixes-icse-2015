@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>891350</D:version-name>
+<D:comment>DERBY-4475 roleName isn't trimmed as expected
+
+Patch derby-4475, which contains a single line patch contributed by
+dbrosius at mebigfatguy dot com, plus some extra test cases (mine).
+
+The patch corrects a glitch in trimming white space around role name
+when provided as strings.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-12-16T17:56:19.837680Z</S:date>
+</S:log-item>
+</S:log-report>

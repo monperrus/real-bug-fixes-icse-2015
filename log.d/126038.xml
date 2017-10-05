@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>126038</D:version-name>
+<D:comment>Fix Derby-95 - NullPointerExceptionwith XA Connections if databaseName property
+is incorrectly stated as a JDBC URL.
+Fix contributed by Shreyas Kaushik &lt;Shreyas.Kaushik@Sun.COM&gt;
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-01-22T15:57:26.520222Z</S:date>
+</S:log-item>
+</S:log-report>

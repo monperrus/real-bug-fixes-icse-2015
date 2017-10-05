@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>513401</D:version-name>
+<D:comment>Remove the Dependent.makeValid() call. No calls are made to makeValid() through this interface.
+Can be seen by the fact that most of the implementations are empty and not covered by the
+code covergae with the tests, as well as there is no path to them. The one version
+that was called was for GenericPreparedStatement in CurrentOfNode, but a better method
+is the rePrepare() method on PreparedStatement.
+Related to DERBY-2380.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-03-01T16:47:07.157339Z</S:date>
+</S:log-item>
+</S:log-report>

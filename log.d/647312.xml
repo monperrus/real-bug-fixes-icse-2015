@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>647312</D:version-name>
+<D:comment>DERBY-3347: ERROR XSDB3: Container information cannot change once written
+
+(merged from trunk, revision 647139)
+
+On JVMs that support the NIO API, use NIO consistently when accessing
+the data files. Mixing old style I/O and NIO has caused problems on
+some platforms since thread-safety is only guaranteed if all access
+happens through the FileChannel interface.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2008-04-11T21:12:42.103732Z</S:date>
+</S:log-item>
+</S:log-report>

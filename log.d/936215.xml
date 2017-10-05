@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>936215</D:version-name>
+<D:comment>DERBY-4621: Invalid conversion from Timestamp to String when calling setTimestamp() with Calendar
+
+Two changes to fix the wrong time and to harmonize the format between
+the methods that take a Calendar argument and those that don't:
+
+  1) Use 24-hour clock when converting the time component to a string
+
+  2) Add a decimal point and a single zero if the nanosecond component
+     of a Timestamp is zero
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-04-21T09:09:12.563914Z</S:date>
+</S:log-item>
+</S:log-report>

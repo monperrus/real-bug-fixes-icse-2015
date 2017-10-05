@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>945315</D:version-name>
+<D:comment>do not recalculate cache capacity post-compaction if it's been manually modified.  patch by jbellis; reviewed by Ryan King for CASSANDRA-1079</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-05-17T19:07:39.104066Z</S:date>
+</S:log-item>
+</S:log-report>

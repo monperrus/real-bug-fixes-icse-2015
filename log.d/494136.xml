@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>494136</D:version-name>
+<D:comment>LUCENE-140: Add bounds checking to BitVector's get, set, clear methods
+to prevent index corruption on calling IndexReader.deleteDocument(int
+docNum) on a "slightly" out of bounds docNum.  Other changes:
+
+  * In IndexReader.deleteDocument, set hasChanges to true before
+    calling doDelete in case an Exception is hit in doDelete.
+
+  * Changed the "docs out of order" check to be tighter (&lt;= instead of
+    &lt;) to catch boundary case that was missed.
+
+  * Fixed small unrelated javadoc typo.</D:comment>
+<D:creator-displayname>mikemccand</D:creator-displayname>
+<S:date>2007-01-08T18:11:08.941700Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1292134</D:version-name>
+<D:comment>DERBY-5584: distinct grouped aggregates can return wrong results
+
+This change addresses a problem that can arise when a GroupedAggregateResultSet
+that contains a distinct aggregate is processed multiple times in the
+same query execution.
+
+The problem involves this section of GroupedAggregateResultSet:
+
+                        /*
+                        ** If there was a distinct aggregate, then that column
+                        ** was automatically included as the last column in
+                        ** the sort ordering. But we don't want it to be part
+                        ** of the ordering anymore, because we aren't grouping
+                        ** by that column, we just sorted it so that distinct
+                        ** aggregation would see the values in order.
+                        */
+
+The solution that was implemented in GroupedAggregateResultSet prior to this
+change was assuming that the result set was only opened and read once; it
+physically removed the last column from the ordering columns as a side effect
+of processing the result set.
+
+However, during a query plan such as this cartesian product, the GROUP BY
+subquery is created, then opened/read/closed, opened/read/closed, etc.,
+once per row of the other side of the cartesian product.
+
+In that case, we can't physically remove the last column each time, because
+then the second and subsequent times that we read the result set, we are
+sorting on the wrong columns and we produce the wrong results.
+
+The solution is to have a better way of handling that extra invisible column,
+so that we can consider it sometimes, and ignore it other times,
+without doing something as destructive as physically removing it from the
+ordering array, which is what we do now. 
+
+Note that Derby has had a limitation that there be at most one DISTINCT
+aggregate in a query for a long time, probably ever since it was written.
+See, for example, this link from the 10.2 docs:
+http://db.apache.org/derby/docs/10.2/ref/rrefsqlj32693.html
+
+        Only one DISTINCT aggregate expression per SelectExpression is allowed.
+        For example, the following query is not valid:
+
+            SELECT AVG (DISTINCT flying_time), SUM (DISTINCT miles) FROM Flights
+
+The GroupedAggregateResultSet implementation is aware of this limit, and knows
+that there is at most one distinct aggregate in the result set. This change
+neither increases that dependency nor lessens it; I'm just noting it here
+for the record.
+
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2012-02-22T06:05:55.586234Z</S:date>
+</S:log-item>
+</S:log-report>

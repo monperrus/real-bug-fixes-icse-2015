@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1428323</D:version-name>
+<D:comment>[ARIES-990] NPE while establishing the root subsystem
+
+When populating the root subsystem, the bundle revision adapted from a bundle is now checked for null in case the
+bundle was uninstalled.</D:comment>
+<D:creator-displayname>jwross</D:creator-displayname>
+<S:date>2013-01-03T13:12:14.005478Z</S:date>
+</S:log-item>
+</S:log-report>

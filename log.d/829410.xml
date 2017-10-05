@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>829410</D:version-name>
+<D:comment>DERBY-4413 INSERT from SELECT DISTINCT gives assertFailure (sane), or NPE (insane) in presence of generated columns
+
+Patch DERBY-4413-2 makes sort accept columns that are null. In sane mode, it is checked that in such a case, the
+empty column is not part of the sort key.
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-10-24T16:51:33.610465Z</S:date>
+</S:log-item>
+</S:log-report>

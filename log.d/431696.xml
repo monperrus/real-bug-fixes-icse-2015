@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>431696</D:version-name>
+<D:comment>Fix testSecMec so that if the server fails to start (checked by pinging it) the test prints a fail message
+and completes, rather than just calling System.exit().</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-08-15T20:37:07.251699Z</S:date>
+</S:log-item>
+</S:log-report>

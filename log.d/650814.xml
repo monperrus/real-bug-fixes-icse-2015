@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>650814</D:version-name>
+<D:comment>DERBY-3431: DatabaseMetaData.getConnection returns the wrong connection when using connection pooling.
+Added a test case exposing the bug where DatabaseMetaData.getConnection returns a reference to a connection it should not publish.
+Note that the test is disabled, because the bug is still at large.
+Patch file: derby-3431-2a-test.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-04-23T10:15:11.157456Z</S:date>
+</S:log-item>
+</S:log-report>

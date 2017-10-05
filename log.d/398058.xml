@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>398058</D:version-name>
+<D:comment>DERBY-125: Network Server can send DSS greater than 32K to client
+
+This change migrates the fix to this issue from the trunk to the 10.1 branch.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2006-04-29T01:29:36.906982Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>965351</D:version-name>
+<D:comment>DERBY-4731
+
+backport change #965317 from trunk to 10.6 branch.
+
+Previous change did not completely solve the problem. There is a problem with
+the initial fix, not sure why it only showed an error in the 10.3 backport.
+The temporary tables are stored in the transaction context, so using a nested
+transaction creates a new context and the work there is not reflected in the
+parent context. Thus the previous fix which used a nested transaction does
+not work.
+
+This patch delays the work on the XA global temporary tables until after the xa transaction has committed but before control returns to the client executing
+the commit. The delay solves the issue of attempting to do work in a
+prepared transaction.
+
+It drops all global temporary tables following an XA commit. This gives us
+consistent behavior between embedded and network server implementations. At
+the time of an xa end the system "Ends the work performed on behalf of a transaction branch. The resource manager disassociates the XA resource from the transaction branch specified and lets the transaction complete." Given this
+description of the behavior of XAResource it seems reasonable to document
+that global temporary tables are not supported across the XA commit boundary.
+In the worst case one might be connecting to an resource in completely another
+database and the temp table implementation is tied to the transaction
+context in a single connection to a existing server. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2010-07-19T04:44:36.180386Z</S:date>
+</S:log-item>
+</S:log-report>

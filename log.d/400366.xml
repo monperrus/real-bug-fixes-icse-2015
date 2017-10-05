@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>400366</D:version-name>
+<D:comment>DERBY-1229: sysinfo and sysinfo_withProperties tests fail with SecurityException
+
+This change modifies the handling of security exceptions in the Sysinfo tool.
+If a security exception occurs while processing an element in the classpath,
+sysinfo will now format that security exception's message into the output,
+and then will continue on to process the other elements in the classpath.
+
+This ensures that sysinfo provides more detailed and more complete information
+about the classpath information in the environment.
+
+Also, the sed properties for the sysinfo tests are now updated to mask out
+the getProtectionDomain security exception, since that is an expected
+exception in these tests (in fact, there are many expected security exceptions
+in these tests).
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2006-05-06T20:37:17.713577Z</S:date>
+</S:log-item>
+</S:log-report>

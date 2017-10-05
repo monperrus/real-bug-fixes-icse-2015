@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>382195</D:version-name>
+<D:comment>[DERBY-1010] setTransactionIsolation can cause java.sql.SQLException: Invalid operation: statement closed in some contexts with xa
+
+port fix from trunk
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-03-01T23:18:01.043431Z</S:date>
+</S:log-item>
+</S:log-report>

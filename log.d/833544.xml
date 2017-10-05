@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>833544</D:version-name>
+<D:comment>LUCENE-504: Change FuzzyQuery to use java.utilPriorityQueue which grows dynamically to support BooleanQuery.maxClauseCount(Integer.MAX_VALUE) without exhausting all memory.</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2009-11-06T20:15:23.417860Z</S:date>
+</S:log-item>
+</S:log-report>

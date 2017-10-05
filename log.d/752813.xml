@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>752813</D:version-name>
+<D:comment>DERBY-4088: DDMReader readBytes ArrayIndexOutOfBoundsException
+
+When ensureBLayerDataInBuffer() calls compressBLayerData() the number
+of bytes in the buffer is reduced (header bytes are stripped out) and
+there might be too little data in the buffer when it returns. This
+patch fixes the problem by ensuring that compressBLayerData() fills
+the buffer with enough extra bytes to compensate for the removal of
+the header bytes.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-03-12T09:33:47.054387Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>588389</D:version-name>
+<D:comment>Minor improvements in OE test framework.
+  - Add a Submitter that executes using multiple threads
+  - Add a clear counts method to the Submitter and when reporting only print transaction counts for those transactions that were executed.
+  - Fix same bug in Standard transaction implementation for payment and order status by name where the incorrect customer was selected.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-10-25T23:36:04.246363Z</S:date>
+</S:log-item>
+</S:log-report>

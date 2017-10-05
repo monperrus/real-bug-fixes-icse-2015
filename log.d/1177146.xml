@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1177146</D:version-name>
+<D:comment>DERBY-5434 On linux with IBM JDK 1.7 suites.All does not run at all failing with java.lang.reflect.InvocationTargetException
+
+This patch does not fix the problem but skips adding engine.RestrictiveFilePermissiionsTest to the suite with IBM 1.7, so that other tests can run
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2011-09-29T01:21:03.960001Z</S:date>
+</S:log-item>
+</S:log-report>

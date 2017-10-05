@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>543213</D:version-name>
+<D:comment>Add an assert for Connection isReadOnly() and read-only connections set through connection
+level authorization. Added comment for DERBY-2738 indicating that network client always
+returns false.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-05-31T18:49:45.784737Z</S:date>
+</S:log-item>
+</S:log-report>

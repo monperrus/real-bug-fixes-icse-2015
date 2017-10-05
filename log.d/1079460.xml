@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1079460</D:version-name>
+<D:comment>DERBY-5079 " DERBY-4984 caused a regression which will not allow users to drop a table if the table was involved in a trigger action rebind during ALTER TABLE DROP COLUMN
+
+Backporting from trunk to 10.7
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-03-08T18:12:33.217626Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>438122</D:version-name>
+<D:comment>DERBY-1130
+contributed by Deepa Remesh
+
+Committing patch 'd1130-v2.diff' which ensures that database name set using setConnectionAttributes does not get used by client data sources. Changes are:
+
+1) Appends the attributes in setConnectionAttributes method to database name only if database name has been already set on the data source. This will handle both these cases successfully:
+
+a) When database name is not set as a DataSource property - In this case, if we pass in database name as a connection attribute, it will not get used. databaseName is a required Derby DataSource property. If it is not set, we cannot get a connection using the DataSource. It will fail with the following exception:
+08001 - Required Derby DataSource property databaseName not set.
+So, there is no need to append the connectionAttributes to the database name variable if databaseName DataSource property is not set. This way, we can avoid using database name in case it is passed in as a connection attribute.
+
+Without the patch, if database name was not set, the code was using "null" as database name and creating a database named null if "create=true" is specified or throwing an exception that it cannot connect to database named null.
+
+b) When database name is set as a DataSource property - In this case, if we pass in database name as a connection attribute, it will not be used. This is because database name set as DataSource property will over-ride it. This case is correctly handled (even without the patch).
+
+2) The exception message is changed to indicate we are referring to "Derby DataSource" property:
+08001 - Required Derby DataSource property databaseName not set.
+
+3) Adds test to jdbcapi/checkDataSource.java. Adds a new method "testClientDSConnectionAttributes" which is run only in client framework. Modifies master files. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-08-29T17:25:23.203746Z</S:date>
+</S:log-item>
+</S:log-report>

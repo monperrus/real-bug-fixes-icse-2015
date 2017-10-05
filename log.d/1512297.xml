@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1512297</D:version-name>
+<D:comment>Merged revision(s) 1512296 from lucene/dev/trunk:
+SOLR-4679, SOLR-4908, SOLR-5124: Text extracted from HTML or PDF files using Solr Cell was missing ignorable whitespace, which is inserted by TIKA for convenience to support plain text extraction without using the HTML elements. This bug resulted in glued words.</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2013-08-09T13:27:53.005966Z</S:date>
+</S:log-item>
+</S:log-report>

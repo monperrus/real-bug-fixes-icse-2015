@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>628130</D:version-name>
+<D:comment>DERBY-3304
+DERBY-3037
+DERBY-1585
+
+I am adding a test case to check for the resultset from the java procedure call when the
+java procedure has done a rollback inside it. This test shows that in trunk, after checkin 
+602991 for DERBY-1585, a procedure does not return a resultset if there was a rollbck 
+inside the procedure with resultset creation before rollback. This behavior is different 
+than what happens in 10.2 codeline. In 10.2, a procedure will return a *closed* resultset 
+if there was a rollback inside the procedure. But a procedure should not return closed 
+result sets, so it appears that trunk is behaving correctly and 10.2's behavior was 
+incorrect.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2008-02-15T17:36:50.432183Z</S:date>
+</S:log-item>
+</S:log-report>

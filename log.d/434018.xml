@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>434018</D:version-name>
+<D:comment>DERBY-1743: derbynet/testSecMec.java fails with NullPointerException
+(intermittent failure)
+
+Make sure the logWriter is not null before printing the stack trace.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-08-23T12:02:52.643596Z</S:date>
+</S:log-item>
+</S:log-report>

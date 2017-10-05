@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>414795</D:version-name>
+<D:comment>DERBY-501: Client and embedded drivers differ on invoking a procedure
+that returns a single Dynamic resultSet using CallableStatement.executeQuery()
+
+This patch modifies EmbedStatement.processDynamicResults() so that it
+returns the number of dynamic results instead of a
+boolean. EmbedStatement.executeStatement() uses this number to decide
+whether an exception is to be raised. With this change, the
+executeQuery and executeUpdate parameters are no longer needed in
+GenericPreparedStatement.execute().
+
+ProcedureTest.junit is now enabled in derbyall (all frameworks). Seven
+of the test cases run in the embedded framework only, but I expect all
+of them to succeed with the client driver after DERBY-1314 and
+DERBY-1364 have been fixed.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-06-16T10:17:14.688556Z</S:date>
+</S:log-item>
+</S:log-report>

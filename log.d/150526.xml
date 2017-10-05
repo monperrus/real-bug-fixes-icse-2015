@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>150526</D:version-name>
+<D:comment>Add GCJ target.  Also change datestamp of jar to per-day rather than
+per-second so that other targets can be based on the jar file without
+having to be rebuilt every second.  And fixed a typo.
+</D:comment>
+<D:creator-displayname>cutting</D:creator-displayname>
+<S:date>2004-09-20T18:16:50.000000Z</S:date>
+</S:log-item>
+</S:log-report>

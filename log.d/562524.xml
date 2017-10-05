@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>562524</D:version-name>
+<D:comment>DERBY-2933 (partial) When network server disconnects due to an I/O Exception it does not always log the exception that caused the error
+
+Committing change for IOExceptions during writeScalarStream().  There also may be exceptions during disconnect of a session when the server shuts down and I left these unlogged.  
+
+
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-08-03T17:26:38.660361Z</S:date>
+</S:log-item>
+</S:log-report>

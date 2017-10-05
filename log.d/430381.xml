@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>430381</D:version-name>
+<D:comment>DERBY-353 It is desirable to have IDENTITY_VAL_LOCAL() function return last recent user specified value or system generated value for BY DEFAULT identity columns.
+
+Merged from trunk 267331, contributed by V.Narayanan
+
+DERBY-1554 IDENTITY_VAL_LOCAL() returned value is modified incorrectly by a multi-row INSERT statement.
+
+Merged from trunk 429425, contributed by Yip Ng
+
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-08-10T13:43:20.032596Z</S:date>
+</S:log-item>
+</S:log-report>

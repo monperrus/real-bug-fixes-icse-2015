@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>477228</D:version-name>
+<D:comment>DERBY-1108 - jdbcapi/setTransactionIsolation.java fails with ibm jvm 1.5
+
+like revision 429837 - adding a rs.next so the resultset will not get gc-ed too soon
+
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2006-11-20T15:51:49.223239Z</S:date>
+</S:log-item>
+</S:log-report>

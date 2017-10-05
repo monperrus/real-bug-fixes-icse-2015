@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1174436</D:version-name>
+<D:comment>DERBY-5367: Stale data retrieved when using new collation=TERRITORY_BASED:PRIMARY feature
+
+Deoptimize code path for BTree insert when updating columns with a collation
+different from UCS BASIC. Simply undeleting the existing matching row (marked
+as deleted) may be incorrect, because the value stored there can be different
+from the key value used for lookup due to the collation.
+
+Added code to track whether a conglomerate contains a collated column or not,
+such that the right insert code path can be chosen. The array of collation ids
+is scanned when a conglomerate is created, and when a conglomerate is
+"restored" from disk (i.e. readExternal).
+
+Added a test for the new code path (based on the issue report).
+
+Patch file: derby-5367-4c-fix_with_optimization_improved.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-09-22T22:48:59.139092Z</S:date>
+</S:log-item>
+</S:log-report>

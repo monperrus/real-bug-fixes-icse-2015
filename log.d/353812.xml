@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>353812</D:version-name>
+<D:comment>merging fix for DERBY-715 from trunk to 10.1 branch.
+
+Sometimes (timing dependent) a lock deadlock was incorrectly returned to the
+user as a lock timeout.  The code in LockSet was using the wrong variable
+to determine if a deadlock had been detected, that variable sometimes was
+right and sometimes wrong.  Changed all the code to use the direct return
+from the deadlock detection routine.  Added a test that causes 5 deadlocks,
+previous to the fix this test would always report at least 1 timeout on
+my single processor, windows xp, laptop.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2005-12-04T04:37:39.630969Z</S:date>
+</S:log-item>
+</S:log-report>

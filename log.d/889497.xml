@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>889497</D:version-name>
+<D:comment>replace IPartitioner.getDecoratedKeyComparator with DK.compareTo, fixing NPE that was fixed in the latter but not the former.  patch by jbellis; reviewed by Stu Hood and tested by Dan Di Spaltro</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-12-11T03:58:46.583276Z</S:date>
+</S:log-item>
+</S:log-report>

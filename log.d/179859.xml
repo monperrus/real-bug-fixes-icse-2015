@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>179859</D:version-name>
+<D:comment>DERBY-121 - Network Server issue reading blob/clob data size
+
+1) Change Network Server and Derby Client code to do correct bit-shifting when processing the length of LOBs that are larger than 2^24 bytes (DERBY-121). 2) Add a new suite, "largeData", for running tests that require extra machine resources, and add the test for DERBY-121 to that suite (because the test for DERBY-121 requires extra heap memory for the server's JVM).
+
+			Contributed by Army Brown
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-06-03T19:12:14.475653Z</S:date>
+</S:log-item>
+</S:log-report>

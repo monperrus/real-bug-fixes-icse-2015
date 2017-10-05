@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>413123</D:version-name>
+<D:comment>DERBY-1386: Wrong results with query using LIKE and ESCAPE clause that
+includes "%", "\", and "_"
+
+Queries using LIKE/ESCAPE could return wrong results if the first
+wildcard character was preceded by an even number of escape
+characters. This patch fixes the issue by changing the way
+Like.lessThanString() parses the pattern string.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-06-09T18:38:44.418486Z</S:date>
+</S:log-item>
+</S:log-report>

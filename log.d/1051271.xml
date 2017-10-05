@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1051271</D:version-name>
+<D:comment>DERBY-4947: Missing/broken synchronization in BasicDependencyManager.getDependents() 
+
+Fixed unsynchronized access to a shared structure. The references to the
+elements in the list are now copied to a new list.
+
+Patch file: derby-4947-1a-sync_fix.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-12-20T20:12:58.463845Z</S:date>
+</S:log-item>
+</S:log-report>

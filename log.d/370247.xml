@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>370247</D:version-name>
+<D:comment>DERBY-649: Push single table predicates that can be pushed into underlying SELECTs of a union.
+
+Merging from 10.1 branch. It is possible to further improve the patch to handle more cases for this optimization.
+
+Submitted by Satheesh Bandaram (satheesh@sourcery.org)
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2006-01-18T20:22:30.529675Z</S:date>
+</S:log-item>
+</S:log-report>

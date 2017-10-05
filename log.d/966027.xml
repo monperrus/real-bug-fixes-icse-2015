@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>966027</D:version-name>
+<D:comment>DERBY-4743 Attempt to access a DECLARE GLOBAL TEMPORARY TABLE after commit in an XA transaction in Network server fails.
+
+The fix for DERBY-4731 made the behavior consistent across embedded and 
+network server.  Derby does not support accessing global temporary tables 
+declared in an XA transaction subsequent to the commit of the transaction.
+
+This change updates the junit XATest to verify that accessing the table after
+the commit fails as expected in both the embedded and network server case.  In
+both cases you will get the generic table does not exist error.
+
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2010-07-20T21:45:31.134742Z</S:date>
+</S:log-item>
+</S:log-report>

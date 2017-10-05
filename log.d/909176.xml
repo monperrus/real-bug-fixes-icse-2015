@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>909176</D:version-name>
+<D:comment>DERBY-4479: RENAME TABLE needs to invalidate any cached CREATE TABLE statement
+
+The problem involves a missing dependency between the CREATE TABLE statement
+and the table that it is creating. For other types of statements, the
+dependency of the statement on the table is generally registered during
+compilation.
+
+However, this isn't quite so easy with the CREATE TABLE statement, because
+the table descriptor doesn't exist during compilation, since the table isn't
+created until the statement is actually executed.
+
+This change registers the dependency at execution time. At the very end of
+CreateTableConstantAction.executeConstantAction, there is
+some new code added to register a dependency from the CREATE TABLE
+statement to the table we have just finished creating. 
+
+A new test is also added.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2010-02-11T23:34:35.840108Z</S:date>
+</S:log-item>
+</S:log-report>

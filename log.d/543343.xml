@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>543343</D:version-name>
+<D:comment>DERBY-2718 - LobStreamsTest and BlobClob4BlobTest fail with JSR169 because missing support for encryption. Now, only running encryption part with vms supporting JDBC3 and higher.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2007-06-01T00:49:42.484060Z</S:date>
+</S:log-item>
+</S:log-report>

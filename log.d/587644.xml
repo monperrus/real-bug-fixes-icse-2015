@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>587644</D:version-name>
+<D:comment>Migrating change from trunk(revision 587553) into 10.3 for DERBY-3054. The commit comments for trunk were as follows
+
+DERBY-3054 
+
+The non-junit test, synonym.sql, tests the synonym dependency. The particular test case 2 views dependent on it. 
+Depending on the jvm being used, the 2 exceptions(with same sql state but different object dependency in the sql 
+message text) thrown for dependency might be in different order and that causes test failure. In order to fix this, 
+I have carved out that test from synonym.sql into a new junit test and since in junit test, we can simply assert 
+the sql state, the order of 2 exceptions does not matter. I will migrate this fix into Derby 10.3 soon. 
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-10-23T20:17:27.862434Z</S:date>
+</S:log-item>
+</S:log-report>

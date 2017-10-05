@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>686196</D:version-name>
+<D:comment>SOLR-704 --  NumberFormatTransformer can silently ignore part of the string while parsing. Now it tries to use the complete string for parsing. Failure to do so will result in an exception.</D:comment>
+<D:creator-displayname>shalin</D:creator-displayname>
+<S:date>2008-08-15T11:53:34.478941Z</S:date>
+</S:log-item>
+</S:log-report>

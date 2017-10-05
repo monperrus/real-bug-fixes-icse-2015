@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>653396</D:version-name>
+<D:comment>DERBY-3657: Removed outdated comment regarding JMX in default and template security policy files.
+Also added a commented out permission to template policy for allowing the ping operation of
+NetworkServerMBean.
+
+john DOT embretsen AT sun DOT com
+</D:comment>
+<D:creator-displayname>johnemb</D:creator-displayname>
+<S:date>2008-05-05T09:57:36.797114Z</S:date>
+</S:log-item>
+</S:log-report>

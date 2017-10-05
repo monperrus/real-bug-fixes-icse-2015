@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>664632</D:version-name>
+<D:comment>DERBY-3701 java.lang.Exception: DRDA_UnableToAccept.S:Unable to accept
+connections and client hang if tracing is turned on but traceDirectory
+does not exist
+
+Fix permission error in NetworkServerControlApiTest with jars. Allow
+trace directory to be writable.
+
+Fix case where parent directory is null.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-06-09T06:45:17.394484Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>385570</D:version-name>
+<D:comment>DERBY-1095 (partial) Clean up close methods on EmbedResultSet, mark the ResultSet
+as closed (isClosed=true) once it discovers its Connection is closed.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-03-13T15:29:49.007804Z</S:date>
+</S:log-item>
+</S:log-report>

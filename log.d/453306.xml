@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>453306</D:version-name>
+<D:comment>DERBY-1894
+contributed by Yip Ng
+merging from trunk to 10.2 branch.
+
+The fix is in FromBaseTable's getFromTableByName() method, where it is using
+the resolved synonym table name to do the binding for ORDER BY column.
+Patch includes additional tests.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-10-05T18:24:19.306347Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1148302</D:version-name>
+<D:comment>DERBY-5343: Upgrade tests failing with java.lang.IllegalAccessException
+
+Rework the workaround for DERBY-23 added by DERBY-5316 so that it
+doesn't attempt to modify final fields. Modifying final fields
+doesn't seem to work prior to Java 5.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-07-19T12:50:15.472467Z</S:date>
+</S:log-item>
+</S:log-report>

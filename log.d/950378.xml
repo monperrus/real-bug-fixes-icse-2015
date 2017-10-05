@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>950378</D:version-name>
+<D:comment>MAHOUT-405 - Undeprecate a number of interfaces and all of the random.engine classes (some by deletion).
+
+This involved simply undeprecating most of the members of math.function by inspection for math.function.Functions or because the rest are interfaces anyway.
+
+For MersenneTwister, I went back to the C reference implementation and generated unit tests based on that.  Then I walked the code generating unit tests based on equivalent performance.
+</D:comment>
+<D:creator-displayname>tdunning</D:creator-displayname>
+<S:date>2010-06-02T05:52:23.143179Z</S:date>
+</S:log-item>
+</S:log-report>

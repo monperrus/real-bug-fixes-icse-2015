@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1523762</D:version-name>
+<D:comment>DERBY-6323(Fix incorrect @throws and @exception tags in javadoc)
+
+There were handful of conflicts so I hand backported this jira from trunk(10.11) to 10.10
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-09-16T19:05:14.193892Z</S:date>
+</S:log-item>
+</S:log-report>

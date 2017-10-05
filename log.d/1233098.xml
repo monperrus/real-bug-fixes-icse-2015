@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1233098</D:version-name>
+<D:comment>DERBY-4540 AssertionFailedError in store.AccessTest.testCS4595B_UniqueIndex(AccessTest.java:1729)' on SUSE Linux / IBM JIT - r9
+
+This change just adds some diagnostic print out to the assert that seems
+to be intermittently failing.  Next time we should see the number of pages
+expected and the full dump of the statistics output the test is getting when
+it gets this failure.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2012-01-18T22:37:16.778084Z</S:date>
+</S:log-item>
+</S:log-report>

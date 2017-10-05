@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1200402</D:version-name>
+<D:comment>rename LTC.registerTempFile to registerTempDir, clarified javadocs. Also fixed _TestUtil.rmDir() to not throw NPE if a 'file' is given</D:comment>
+<D:creator-displayname>shaie</D:creator-displayname>
+<S:date>2011-11-10T16:16:36.529931Z</S:date>
+</S:log-item>
+</S:log-report>

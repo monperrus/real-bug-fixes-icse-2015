@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>644698</D:version-name>
+<D:comment>DERBY-3116: totalSpace not properly initialized in AllocPage
+
+- in AllocPage.createPage(), set borrowedSpace before
+  super.createPage() is called so that getMaxFreeSpace() returns the
+  correct value when totalSpace is initialized
+
+- in CachedPage.setPageArray(), call usePageBuffer() also when the old
+  buffer is reused. This ensures that totalSpace is recalculated when
+  a page object is reused.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2008-04-04T12:49:09.990990Z</S:date>
+</S:log-item>
+</S:log-report>

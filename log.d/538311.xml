@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>538311</D:version-name>
+<D:comment>DERBY-2618 (partial) Make ClobAsciiStream honour the contract for OutputStream.write(int) by ignoring
+top 24 bits. Optimize ClobAsciiStream by re-using an array rather than recreating one for each write(byte[]) call.
+Fix ClobStreamControl to correctly process a Derby UTF8 encoded stream.
+Does not fix the issue, fixes are being worked on by others under related bugs.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-05-15T20:33:57.288349Z</S:date>
+</S:log-item>
+</S:log-report>

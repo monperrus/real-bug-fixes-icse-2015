@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>987788</D:version-name>
+<D:comment>fix Clock regression in handling timestamp ties (tombstone takes precedence, then column w/ higher value.  patch by jbellis</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-08-21T16:51:11.878717Z</S:date>
+</S:log-item>
+</S:log-report>

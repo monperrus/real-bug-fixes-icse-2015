@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>666088</D:version-name>
+<D:comment>DERBY-3596: Creation of logical connections from a pooled connection causes resource leak on the server.
+Exposed method 'resetFromPool' through EngineConnection.
+The network server now detects when a client is requesting new logical connectio
+ns. This triggers some special logic, where the physical connection on the serve
+r side is kept and reset instead of being closed and opened again (this caused resources to leak earlier).
+The special logic must *not* be triggered for XA connections, as the XA code is
+already well-behaved.
+Patch file: derby-3596-5a-complex_skip_creds.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-06-10T12:46:11.728402Z</S:date>
+</S:log-item>
+</S:log-report>

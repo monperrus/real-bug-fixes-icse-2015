@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>384331</D:version-name>
+<D:comment>DERBY-210 Network Server will leak prepared statements if not explicitly closed by the user until the connection is closed 
+
+
+Contributed by Deepa Remesh
+
+----------------------------------------------------------------
+Summary of patch: 'derby-210-patch5-v1.diff'
+-----------------------------------------------------------------
+1. Eliminates the below references to PreparedStatement objects by using WeakHashMap instead of LinkedList. When there are no other references to the keys in a WeakHashMap, they will get removed from the map and can thus get garbage-collected. They do not have to wait till the Connection object is collected.
+       - 'openStatements_' in org.apache.derby.client.am.Connection
+       - 'CommitAndRollbackListeners_' in org.apache.derby.client.am.Connection
+
+2. Updates the following comment for openStatements_:
+// Since DERBY prepared statements must be re-prepared after a commit,
+// then we must traverse this list after a commit and notify statements
+// that they are now in an un-prepared state.
+final java.util.LinkedList openStatements_ = new java.util.LinkedList();
+
+In the code, I did not see this list being traversed after a commit to re-prepare statements. Also, I think this is not needed since Derby does not require re-prepare of statements after a commit. Currently, this list is used to close all open statements when the originating connection is closed.
+
+3. Removes all ResultSets from HashTable 'positionedUpdateCursorNameToResultSet_' in SectionManager. Only result sets of positioned update statements were being removed from this hashtable whereas all result sets were added. Because of this, client driver was holding on to result sets and statements even after rs.close() was called.
+
+4. Modifies the test jdbcapi/derbyStress.java to run the test for derby-210. The test was checked in as patch2 but disabled for client framework.
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-03-08T21:16:49.014215Z</S:date>
+</S:log-item>
+</S:log-report>

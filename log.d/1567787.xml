@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1567787</D:version-name>
+<D:comment>DERBY-5667; testReadCommitted(org.apache.derbyTesting.functionTests.tests.store.UpdateLocksTest)junit.framework.AssertionFailedError: Missing rows in ResultSet
+   further improving error message in assert, and avoiding error message re table exists if a test case fails
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2014-02-12T23:01:35.260023Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>795425</D:version-name>
+<D:comment>DERBY-4292 creation of FileInputStream in org.apache.derby.impl.tools.ij.Main not wrapped in privilege  block which can cause problems running under SecurityManager
+
+Backing out accidental checkin of some unrelated test changes to BlobClob4BlobTest made with the 795314  checkin to 10.5 for this bug.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2009-07-18T20:02:00.779353Z</S:date>
+</S:log-item>
+</S:log-report>

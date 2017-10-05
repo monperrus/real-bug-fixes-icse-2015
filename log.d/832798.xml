@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>832798</D:version-name>
+<D:comment>return clones of supercolumns from memtable so caller can't accidentally mutate them, fixing the failing test.
+
+convert removeDeleted on SC to remove-oriented instead of clone-then-add-back to make this hurt performance less.
+
+patch by jbellis; reviewed by gdusbabek for CASSANDRA-510</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-11-04T17:07:49.473311Z</S:date>
+</S:log-item>
+</S:log-report>

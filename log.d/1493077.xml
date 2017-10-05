@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1493077</D:version-name>
+<D:comment>DERBY-6224: Many test failures on latest JDK 8 EA build because of missing SQLPermission
+
+Continue shutdown if deregistering fails, and report the failure in derby.log.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-06-14T14:05:03.694410Z</S:date>
+</S:log-item>
+</S:log-report>

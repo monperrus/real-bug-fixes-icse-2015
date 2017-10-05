@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1509814</D:version-name>
+<D:comment>DERBY-5750(Sending an empty string as table name to compress table procedure or empty string as index name to update statistics procedure makes the parser throw an exception.)
+
+Backporting to 10.8
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-08-02T19:03:46.236154Z</S:date>
+</S:log-item>
+</S:log-report>

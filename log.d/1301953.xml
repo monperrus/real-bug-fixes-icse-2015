@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1301953</D:version-name>
+<D:comment>DERBY-2254 Assert during log file switch: log file position exceeded max log file size
+
+backport change #1102417 from trunk to 10.7 branch.
+
+Increase overhead requirements which trigger log file switches when the checkpointing thread can't keep up with log writers. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2012-03-17T15:42:45.986554Z</S:date>
+</S:log-item>
+</S:log-report>

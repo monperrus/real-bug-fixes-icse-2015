@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>383579</D:version-name>
+<D:comment>DERBY-966 DERBY-1005 1) Change DRDAStatement to use the EngineConnection.prepareStatement() method that has a holdability
+ parameter. This ensures prepares on a connection that was obtained from a XADataSource
+(or a ConnectionPoolDataSource) do not lose the holdability requested by the application.
+
+2) Change the client's state of holdability to match the embedded in that a Connection's holdability
+ is set to close cursors on commit when it has an active global XA transaction.
+Merge of 380278, partially manually due to conflicts, from trunk.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-03-06T16:47:53.687670Z</S:date>
+</S:log-item>
+</S:log-report>

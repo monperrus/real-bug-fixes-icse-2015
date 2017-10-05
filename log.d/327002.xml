@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>327002</D:version-name>
+<D:comment>DERBY-498 -  Result set holdability defined inside stored procedures is ignored by server/client
+merge from trunk
+svn merge -r 326717:326718 https://svn.apache.org/repos/asf/db/derby/code/trunk 
+Contributed by Deepa Remesh
+Note the test lang/holdCursorJava.java  does not currently run with derbynetmats or derbynetclientmats. It requires port of DERBY-593 to run.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-10-20T21:01:01.100687Z</S:date>
+</S:log-item>
+</S:log-report>

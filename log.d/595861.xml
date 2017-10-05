@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>595861</D:version-name>
+<D:comment>DERBY-2564 calls to Thread.interrupt need privilege blocks
+
+Changed calls to Thread.interrupt to occur in privilege blocks.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-11-16T23:03:31.768537Z</S:date>
+</S:log-item>
+</S:log-report>

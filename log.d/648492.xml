@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>648492</D:version-name>
+<D:comment>DERBY-3603: 'IN' clause ignores valid results.
+
+Patch contributed by A B (qozinx at gmail dot com)
+
+Some queries using multi-valued IN clauses were not returning the right
+results. An example of a query which was processed incorrectly is:
+
+    select count(*) FROM spike.accounts account, spike.admin_units admin_unit,
+        spike.bookings booking
+    WHERE booking.child_id = 2 AND
+        admin_unit.admin_unit_id IN (1,21) AND
+        booking.booking_date_time_out &gt;= 20080331000000 AND
+        booking.booking_date_time_in &lt;= 20080406235900 AND
+        account.account_id = booking.account_id AND
+        admin_unit.admin_unit_id = account.admin_unit_id; 
+
+The issue involves the behavior of MultiProbeTableScanResultSet when it
+goes to re-open the scan; under certain circumstances, it was failing to
+reset the probing state, and so was performing the probing incorrectly,
+using only partial portions of the IN list values. For example, in the
+above query, there were certain rows which were only tested against the
+value "admin_unit_id = 21"; the "admin_unit_id = 1" case was skipped.
+
+MultiProbeTableScanResultSet.reopenCore() was using a heuristic test to
+distinguish between the two cases of:
+
+   * A - The first is for join processing. In this case we have
+   * a(nother) row from some outer table and we want to reopen this
+   * scan to look for rows matching the new outer row.
+   *
+   * B - The second is for multi-probing. Here we want to reopen
+   * the scan on this table to look for rows matching the next value
+   * in the probe list.
+
+The patch modifies this code so that the caller passes in a boolean flag
+to specify which case is occurring, which avoids the problem thinking that
+it was in case "B" when in fact it was actually in case "A".
+  
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2008-04-16T03:40:30.324419Z</S:date>
+</S:log-item>
+</S:log-report>

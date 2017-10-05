@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>453395</D:version-name>
+<D:comment>DERBY-1732 1. Make change to GenericStatementContext.isLastHandler() so it will return false for JVM errors thus
+allowing the outer contexts to take corrective action.
+2. Store transaction context treats JVM errors as session severity. To ensure consistency,
+map severity for non StandardException instances to be SESSION_SEVERITY in GenericLanguageContext,
+and GenericStatementContext.
+Patch contributed by  Sunitha Kambhampati ksunithaghm@gmail.com</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-10-05T21:40:18.567729Z</S:date>
+</S:log-item>
+</S:log-report>

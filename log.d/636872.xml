@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>636872</D:version-name>
+<D:comment>DERBY-3310 ASSERT in MergeSort.checkColumnTypes() disallow legal type conversions
+
+Changed copyTypesAndLengthsToSource to not change the type of the
+underlying expression,  because that same expression is pointed to
+by the child result set's result column list.  Only NormalizeResultSetNode
+should have a   type that is different than its expresssion.
+See Army's write up attached to DERBY-3310 for a detailed analysis of the
+ role of copyTypesAndLengthsToSource.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-03-13T20:37:36.205289Z</S:date>
+</S:log-item>
+</S:log-report>

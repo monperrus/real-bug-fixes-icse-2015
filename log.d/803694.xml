@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>803694</D:version-name>
+<D:comment>DERBY-4037
+
+updated test to wait longer if expected background tasks have not cleaned up
+expected pages yet.  Fast machines should see no slowdown in the test.  Slower
+machines will wait up to 100 seconds before reporting failure after checking
+iteratively for result every 1 second.  Also enhanced printout to identify
+which test is failing between the 2 possibilities.
+
+/mikem
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2009-08-12T20:16:48.245211Z</S:date>
+</S:log-item>
+</S:log-report>

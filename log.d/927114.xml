@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>927114</D:version-name>
+<D:comment>DERBY-2017: Client driver can insert and commit partial data when a LOB stream throws IOException or does not match the specified length
+
+Added regression tests (not yet wired into a suite, awaiting fix).
+Used JDBC 4.0 API to "force" use of layer B streaming, even though DRDA/DDM
+allows layer B streaming to be used in other cases too.
+
+Patch file: derby-2017-2b-regression-test.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-03-24T16:29:14.323000Z</S:date>
+</S:log-item>
+</S:log-report>

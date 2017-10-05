@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>538413</D:version-name>
+<D:comment>DERBY-2558: Client throws JDK exception rather than parameter out of range
+
+The client implementation throws an ArrayIndexOutOfBoundsException rather
+than the expected: ERROR XCL13: The parameter position '2' is out of range.
+The number of parameters for this prepared statement is '1'. 
+
+The issue is that the 4-argument overload of setObject was missing the
+code to validate the parameterIndex; this code is present in the other
+overloads of setObject.
+
+This change adds the parameterIndex validation call, and also adds tests.
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2007-05-16T02:59:32.342468Z</S:date>
+</S:log-item>
+</S:log-report>

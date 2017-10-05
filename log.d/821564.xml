@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>821564</D:version-name>
+<D:comment>ARIES-12 Event delivery is now synchronous.  New listeners will now not loose events after replays.  Tardy or ill-behaved listeners are now ignored.</D:comment>
+<D:creator-displayname>adc</D:creator-displayname>
+<S:date>2009-10-04T17:28:36.147827Z</S:date>
+</S:log-item>
+</S:log-report>

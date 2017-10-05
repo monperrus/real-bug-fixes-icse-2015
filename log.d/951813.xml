@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>951813</D:version-name>
+<D:comment>replace constant-size 2GB mmaped segments and special casing for index entries spanning segment boundaries, with SegmentedFile that computes segments that always contain entire entries (or rows).  patch by Stu Hood and jbellis for CASSANDRA-1117</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-06-06T04:29:54.016383Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>491632</D:version-name>
+<D:comment>DERBY-2202: DROP PROCEDURE depends on SET SCHEMA
+
+This patch was contributed by Yip Ng (yipng168@gmail.com)
+
+The symptom of this jira is the same as those described in DERBY-1304
+for DROP VIEW except that it applies to DROP PROCEDURE, DROP FUNCTION
+and DROP SYNONYM statements. (Their bind logic are centralized in
+DropAliasNode.) The DropAliasNode's bindStatement() should have created
+a dependency on the statement, so when its associated alias descriptor
+gets dropped, the statement can be invalidated accordingly. This explains
+why subsequent DROP PROCEDURE statement fails.
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2007-01-01T21:10:20.688150Z</S:date>
+</S:log-item>
+</S:log-report>

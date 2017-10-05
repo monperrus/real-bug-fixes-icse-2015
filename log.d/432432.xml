@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>432432</D:version-name>
+<D:comment>DERBY-1691: jdbcapi/blobclob4BLOB.java fails under DerbyNet framework 
+with JCC 2.6.
+
+I filtered out the odd class obfuscation differences with the SqlException
+class.  Passes with JCC 2.6 (I got the upgrade from the Cloudscape
+site).
+</D:comment>
+<D:creator-displayname>davidvc</D:creator-displayname>
+<S:date>2006-08-17T23:38:38.163088Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>482129</D:version-name>
+<D:comment>DERBY-2140: BlobClob4BlobTest.testSelfDestructiveClob() fails with
+"ERROR X0X95: Operation 'DROP TABLE' cannot be performed on object
+'TESTCLOB' because there is an open ResultSet dependent on that
+object."
+
+Close ResultSet and Statement in testSelfDestructiveClob.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-12-04T10:54:53.646101Z</S:date>
+</S:log-item>
+</S:log-report>

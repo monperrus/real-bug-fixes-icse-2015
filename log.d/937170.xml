@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>937170</D:version-name>
+<D:comment>DERBY-4582: Timestamps inserted with GMT calendar are 1 hour later
+when subsequently read with GMT calendar (Server Mode Only)
+
+Partial fix. This patch makes the server read time, date and timestamp
+values from ResultSets and CallableStatements using the getter methods
+that take a Calendar object. A GMT calendar is used, so that times
+that are not possible to represent in the local time zone (like the
+"lost hour" when switching to daylight saving time) are not silently
+modified. The GMT calendar is also used when formatting the value
+before it's sent to the client.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-04-23T07:29:36.188863Z</S:date>
+</S:log-item>
+</S:log-report>

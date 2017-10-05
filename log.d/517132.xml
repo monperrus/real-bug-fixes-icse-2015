@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>517132</D:version-name>
+<D:comment>DERBY-2262: DatabaseMetaData.getTypeInfo returns incorrect MAXIMUM_SCALE value for DECIMAL and NUMERIC types (changed from 32767 to 31).
+
+Patch contributed by Saurabh Vyas.
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2007-03-12T08:45:32.856119Z</S:date>
+</S:log-item>
+</S:log-report>

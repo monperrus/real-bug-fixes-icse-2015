@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1208775</D:version-name>
+<D:comment>DERBY-5096 DisconnectException: "Connection was refused because the database DB was not found" when 
+creating db for first time
+
+Change to unconditionally setCononicalName after the database directory is created.
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2011-11-30T20:58:23.336242Z</S:date>
+</S:log-item>
+</S:log-report>

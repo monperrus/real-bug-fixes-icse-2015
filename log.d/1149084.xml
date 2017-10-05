@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1149084</D:version-name>
+<D:comment>ARIES-711 Remove all calls to things like UserAdmin.class.getName() with constants. This code construct fails if the package is optional.
+
+</D:comment>
+<D:creator-displayname>not</D:creator-displayname>
+<S:date>2011-07-21T09:09:34.473938Z</S:date>
+</S:log-item>
+</S:log-report>

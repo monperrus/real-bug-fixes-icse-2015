@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>785570</D:version-name>
+<D:comment>DERBY-4274: SYSCS_UPDATE_STATISTICS takes unnecessary table lock
+
+Return just after the statistics have been updated to prevent the
+generic ALTER TABLE code from locking the table exclusively.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-06-17T12:24:42.572770Z</S:date>
+</S:log-item>
+</S:log-report>

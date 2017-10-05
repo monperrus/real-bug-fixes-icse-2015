@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>431697</D:version-name>
+<D:comment>DERBY-1694 Cleanup derbynet/testProperties so that it always handles the output from the processes it forks.
+Not handling the output can lead to hangs according to the javadoc for java.lang.Process.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-08-15T20:38:48.446888Z</S:date>
+</S:log-item>
+</S:log-report>

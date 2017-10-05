@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1424889</D:version-name>
+<D:comment>DERBY-6017: IN lists with mixed types may return wrong results
+
+Fix the case where all the constant values in an IN list get reduced
+to a single constant after conversion to the dominant type. In such
+cases, the remaining constant should be converted to the dominant type.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-12-21T12:11:19.630466Z</S:date>
+</S:log-item>
+</S:log-report>

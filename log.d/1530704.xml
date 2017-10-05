@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1530704</D:version-name>
+<D:comment>DERBY-5317: Detect attempts to reuse a connection that in the middle of sending a request to the server. Use this to provide a better error message and avoid the NPE.</D:comment>
+<D:creator-displayname>dyre</D:creator-displayname>
+<S:date>2013-10-09T16:40:31.262553Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>473123</D:version-name>
+<D:comment>DERBY-2063 (partial) Change ShutdownDBWhenNSShutsDown from being a JUnit test run under the old
+harness to one that is run as a regular JUnit tests. Add a new _Suite for derbynet and hook it
+into suites.All and the ant junit-all target. Required fixing some bugs in the DriverManager
+connection handling. Also refactored NetworkServerTestSetup to allow starting the server
+from the "command line" and to provide some utility methods for tests, e.g. to get
+a correctly setup NetworkServerControl.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-11-09T22:49:55.994148Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1302836</D:version-name>
+<D:comment>DERBY-5357 SQLJ.INSTALL_JAR shouldn't use identifier as file name
+
+Since SQL identifiers can contain arbitrary characters, it is not safe
+to use them as is as part of a file name. Trying ot map parts of the
+name by excluding unsafe characters leads to a chance of name
+collision. So, we have changed the naming altogether.
+
+This patch, derby-5357-with-tests-4, changes the name (and location)
+of the jar files stored in a database. The name is now based on UUID,
+and no subdirectories under the directory "jar" are used: all
+jar-files reside directly in the "jar" database directory, and the
+name is of the form
+
+&lt;Derby uuid string&gt;[.]jar[.]G[0-9]+
+
+where &lt;Derby uuid string&gt; has the form hhhhhhhh-hhhh-hhhh-hhhh-hhhhhhhhhhhh
+where h id a lower case hex digit, and the suffix ".G[0-9]+" is the
+version number as before.
+
+The format is changed on hard upgrade, cf tests in Changes10_9.
+
+Also, dblook has been updated to cater for this change.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2012-03-20T11:04:13.983174Z</S:date>
+</S:log-item>
+</S:log-report>

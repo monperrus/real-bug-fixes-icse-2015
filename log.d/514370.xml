@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>514370</D:version-name>
+<D:comment>LUCENE-820: improve MockRAMDirectory to mimic Windows (can't delete open files); added test case for this bug (this root cause of this bug was already fixed by the fix to LUCENE-821)</D:comment>
+<D:creator-displayname>mikemccand</D:creator-displayname>
+<S:date>2007-03-04T08:25:31.179154Z</S:date>
+</S:log-item>
+</S:log-report>

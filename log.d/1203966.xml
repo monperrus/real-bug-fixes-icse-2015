@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1203966</D:version-name>
+<D:comment>LUCENE-3582: Normalize NaN values in NumericUtils.floatToSortableInt() / NumericUtils.doubleToSortableLong(). Fix NumericRangeQuery to not falsely hit NaNs on half-open ranges (one bound is null)</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2011-11-19T12:02:03.476193Z</S:date>
+</S:log-item>
+</S:log-report>

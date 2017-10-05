@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1043290</D:version-name>
+<D:comment>DERBY-4856 DERBY-4929 Add thread dump information for error StandardException and SQLException. Due to DERBY-289, ThreadDump.java and ExceptionUtil.java should go to iapi/error for engine. Currently, all thread dump information goes to derby.log</D:comment>
+<D:creator-displayname>lilywei</D:creator-displayname>
+<S:date>2010-12-08T03:34:19.353759Z</S:date>
+</S:log-item>
+</S:log-report>

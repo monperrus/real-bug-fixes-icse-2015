@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1079548</D:version-name>
+<D:comment>DERBY-4319 hang in suites.all with ibm 1.5 on AIX after ttestDefaultProperties
+
+Make sure spawned network server process is destroyed if the hang occurs on SpawnedProcess.complete(). This does not address the core reason for the hang which is still not well understood and currently does not reproduce on the aix machine with the problem. DERBY-4319 will stay open while we wait for the problem to reappear.
+
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2011-03-08T21:19:17.581133Z</S:date>
+</S:log-item>
+</S:log-report>

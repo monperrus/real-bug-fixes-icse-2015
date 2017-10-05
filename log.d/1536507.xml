@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1536507</D:version-name>
+<D:comment>DERBY-6378 OFFSET/FETCH NEXT ignored when query is enclosed in parentheses
+
+Patch derby-6378-4.
+
+To address the required generality of several layers of nested
+multiple clauses allowed by SQL, this patch introduces a stack
+mechanism for order by and offset/fetch clauses, factored out into
+ResultSetNode#QueryExpressionClause (nested class). From the javadoc
+for that class:
+
+For ease of handling order by clause, offset clause and fetch
+first/next clauses in subclasses. Clauses on the same nesting level
+have the same index in the lists, so at any level, any of the lists'
+elements may be empty. For example, (select * from t order by a fetch
+next 5 rows only) order by b would have
+
+            obl[0] = "order by a",
+            offset[0] = null,
+            fetchFirst[0] = "next 5 rows"
+and
+            obl[1] = "order by b",
+            offset[1] = null
+            fetchFirst[1] = null
+
+When starting a new level, always remember to do a push() before
+adding clauses via
+setOffset(org.apache.derby.impl.sql.compile.ValueNode),
+setFetchFirst(org.apache.derby.impl.sql.compile.ValueNode),
+setOrderByList(org.apache.derby.impl.sql.compile.OrderByList) and
+setHasJDBCLimitClause(java.lang.Boolean).
+
+Added tests to OrderByAndOffsetFetchInSubqueries in #testDerby6378,
+running regressions.</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2013-10-28T20:37:34.048785Z</S:date>
+</S:log-item>
+</S:log-report>

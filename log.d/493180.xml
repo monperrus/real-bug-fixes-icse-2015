@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>493180</D:version-name>
+<D:comment>DERBY-2215 Change ChangeConfigurationSetup to be an abstract class that allows
+subclasses to generate the new TestConfiguration operation at setUp time.
+Create three sub-classes to handle changing the database name, changing the
+connection handling and switching to a client server configuration.
+This ensures that nested changing of configurations works correctly
+by creating new configurations based upon the current at the time of setUp.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-01-05T20:31:13.328843Z</S:date>
+</S:log-item>
+</S:log-report>

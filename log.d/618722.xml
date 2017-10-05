@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>618722</D:version-name>
+<D:comment>DERBY-3345 ; skipping section in lang.RolesTest testing setting roles from 
+  within a stored procedure with JSR169. The stored procedure uses 
+  DriverManager connection to jdbc:default:connection, and DriverManager is not
+  supported with JSR169.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2008-02-05T17:54:58.612280Z</S:date>
+</S:log-item>
+</S:log-report>

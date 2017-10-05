@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1517533</D:version-name>
+<D:comment>DERBY-6314: Upgrade from 10.10 fails with ClassCastException
+
+Make sure stored plans for metadata queries are cleared the same
+way as trigger plans during upgrade, so that upgrade doesn't fail
+if the format of the old metadata plans cannot be read by the new
+version.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-08-26T12:57:04.727788Z</S:date>
+</S:log-item>
+</S:log-report>

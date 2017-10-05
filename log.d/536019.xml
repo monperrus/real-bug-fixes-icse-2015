@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>536019</D:version-name>
+<D:comment>SOLR-214 - use the charset encoded in the contentType to decode the posted text.  Even though they are supposed to, some containers do not obey this specification.</D:comment>
+<D:creator-displayname>ryan</D:creator-displayname>
+<S:date>2007-05-07T23:35:55.612388Z</S:date>
+</S:log-item>
+</S:log-report>

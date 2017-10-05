@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1001130</D:version-name>
+<D:comment>MAHOUT-401: Use NamedVector in seq2sparse
+Adds the -nv option to SparseVectorFromSequenceFiles to create NamedVectors instead of Random or SequentialAccess vectors
+Enhances DictionaryVictorizerTest to assert that the proper vector types are generated
+Adds SparseVectorFromSequenceFilesTest to validate the proper command-line option behavior and vector types.
+Extracts random document generation code to RandomDocumentGenerator utility clas
+
+</D:comment>
+<D:creator-displayname>drew</D:creator-displayname>
+<S:date>2010-09-25T03:27:57.676815Z</S:date>
+</S:log-item>
+</S:log-report>

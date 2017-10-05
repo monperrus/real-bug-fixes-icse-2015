@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>986345</D:version-name>
+<D:comment>DERBY-3898: Blob.setBytes differs between embedded and client driver
+when the specified length is invalid
+
+Added fix and test case for a remaining corner case: When the sum of
+offset and length is greater than Integer.MAX_VALUE, the client driver
+silently ignores the error whereas the embedded driver fails with an
+IndexOutOfBoundsException.
+
+The unexpected results are caused by a check for
+
+  offset + len &gt; bytes.length
+
+where offset+len overflows and evaluates to a negative value. The fix
+changes this condition to the equivalent
+
+  len &gt; bytes.length - offset
+
+which won't overflow (because both bytes.length and offset are known
+to be non-negative at this point in the code, and subtracting one
+non-negative int from another is guaranteed to result in a value in
+the range [-Integer.MAX_VALUE, Integer.MAX_VALUE]).
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-08-17T14:56:55.250155Z</S:date>
+</S:log-item>
+</S:log-report>

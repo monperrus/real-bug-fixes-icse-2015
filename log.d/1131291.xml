@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1131291</D:version-name>
+<D:comment>work around nio socket memory retention bug
+patch by Hannes Schmidt and jbellis; tested by Thibaut, reviewed by slebresne for CASSANDRA-2654</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2011-06-03T23:41:52.205644Z</S:date>
+</S:log-item>
+</S:log-report>

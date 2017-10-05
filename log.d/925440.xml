@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>925440</D:version-name>
+<D:comment>bound read, mutation, and response stages to fix possible OOM during log replay.  patch by jbellis; tested by Brandon Williams for CASSANDRA-885</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-03-19T21:32:22.325150Z</S:date>
+</S:log-item>
+</S:log-report>

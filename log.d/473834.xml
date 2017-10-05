@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>473834</D:version-name>
+<D:comment>DERBY-537 (partial) Call FileResource.add in a privleged block when executing code to add a jar,
+driven by sqlj.install_jar. Allows one test fixture in DatabaseClassLoadingTest to be executed
+with a security manager.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-11-12T00:08:07.858134Z</S:date>
+</S:log-item>
+</S:log-report>

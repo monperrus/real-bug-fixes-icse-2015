@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>412859</D:version-name>
+<D:comment>DERBY-1379: Committed Olav's autoload.diff. This fixes the problem which caused all of the nist tests to fail when derbyall was run against jar files under jdk1.6 with the db2jcc jar in the classpath.</D:comment>
+<D:creator-displayname>rhillegas</D:creator-displayname>
+<S:date>2006-06-08T21:07:31.014167Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>677281</D:version-name>
+<D:comment>DERBY-3781: PositionedStoreStream.reposition(pos) with pos greater than length leaves the stream object in an inconsistent state.
+Code cleanup, removing an unnecessary convenience variable that can lead to future bugs if used.
+Patch file: derby-3781-2b-remove_convenience_link.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-07-16T13:18:24.087179Z</S:date>
+</S:log-item>
+</S:log-report>

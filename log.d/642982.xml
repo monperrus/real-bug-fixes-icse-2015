@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>642982</D:version-name>
+<D:comment>DERBY-3527: The slave will not notice that a network cable is unplugged and will therefore reject failover/stopSlave commands
+Checks if the network connection is up by sending a ping message from the slave to the master. 
+The shipment of the message has to happen in a separate thread because TCP timeout for send message is 2 minutes, and not configurable. 
+Also added a message reader thread on the master that currently accepts two kinds of messages: ping and ack
+Contributed by Jorgen Loland
+</D:comment>
+<D:creator-displayname>oysteing</D:creator-displayname>
+<S:date>2008-03-31T13:13:00.865868Z</S:date>
+</S:log-item>
+</S:log-report>

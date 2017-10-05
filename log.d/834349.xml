@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>834349</D:version-name>
+<D:comment>forceFlushBinary() was calling memtable not binaryMemtable_ patch by goffinet; reviewed by jbellis for CASSANDRA-532</D:comment>
+<D:creator-displayname>goffinet</D:creator-displayname>
+<S:date>2009-11-10T05:13:56.809716Z</S:date>
+</S:log-item>
+</S:log-report>

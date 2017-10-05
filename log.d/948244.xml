@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>948244</D:version-name>
+<D:comment>DERBY-4664 Change Derby internal stored procedures to avoid DriverManager.getConnection("jdbc:default:connection") as it may be recognized by other Drivers
+
+Port from trunk. Work around for DERBY-4668
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2010-05-25T23:03:56.120559Z</S:date>
+</S:log-item>
+</S:log-report>

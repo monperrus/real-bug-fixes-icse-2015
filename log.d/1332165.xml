@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1332165</D:version-name>
+<D:comment>DERBY-5732: ProtocolTest doesn't clean up its test resources
+
+Added tearDown-method that closes and nullifies test resources.
+
+Patch file: derby-5732-1a-add_teardown.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2012-04-30T11:47:09.730329Z</S:date>
+</S:log-item>
+</S:log-report>

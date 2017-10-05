@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>593318</D:version-name>
+<D:comment>Fix bug in order entry "by name" transactions, where if the last name matched to a single row an ArrayIndexOutOfBoundsException was thrown. Code did not cater for that specific case, rounding beyond the midpoint led to a array index of 1 for a 1 element array.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-11-08T21:13:51.633697Z</S:date>
+</S:log-item>
+</S:log-report>

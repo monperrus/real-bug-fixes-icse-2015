@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>606277</D:version-name>
+<D:comment>DERBY-3253: Fix NPE for IN list operator when the probe predicate is
+pushed into a subselect but then multi-probing does not occur.  More
+specifically, ensure that InListOperatorNode's left operand correctly
+reflects its position in the query tree when it is generated.
+
+Porting to 10.3 branch from trunk (svn #605616):
+
+ svn merge -r 605615:605616 https://svn.apache.org/repos/asf/db/derby/code/trunk
+
+No additional changes required.
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2007-12-21T19:21:53.407698Z</S:date>
+</S:log-item>
+</S:log-report>

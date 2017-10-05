@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>705887</D:version-name>
+<D:comment>DERBY-3043: Schema does not exist error when table uses check constraint
+
+In Derby, the CREATE SCHEMA statement is optional. When a table is created,
+if the schema which contains it does not yet exist, the schema is
+automatically created as well. If the CREATE TABLE statement contained a
+CHECK constraint, the statement was being rejected with the error
+
+   Schema 'XXX' does not exist
+
+This error occurred during compilation and bind processing for the check
+constraint, when the criteria used in the constraint were bound to the
+table definition. At that point in query processing, the schema name for
+the table had not yet been filled in, so the bind processing was searching
+the DataDictionary for a schema which did not yet exist (the schema will
+exist after the statement is executed, but we're still compiling the
+statement at this point).
+
+This change modifies the bind processing for the CHECK constraint so that
+the FromBaseTable object used to bind the constraint has the schema name
+fully filled in, ensuring that the bind processing will be able to
+manipulate the table without encountering no-such-schema errors.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2008-10-18T14:29:39.901857Z</S:date>
+</S:log-item>
+</S:log-report>

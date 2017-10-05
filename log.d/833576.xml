@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>833576</D:version-name>
+<D:comment>fix TODO in tokenmetadata (bootstrap tokens aren't part of the official ring now).  r/m redundant getNextEndPoint method in favor of getSuccessor
+patch by jbellis; reviewed by Jaakko Laine for CASSANDRA-525</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-11-06T22:17:09.635456Z</S:date>
+</S:log-item>
+</S:log-report>

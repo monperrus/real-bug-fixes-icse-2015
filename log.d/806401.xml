@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>806401</D:version-name>
+<D:comment>DERBY-4330 NullPointerException or assert failure when re-executing PreparedStatement after lock timeout
+
+Fix of a backporting error: svn 804271 only cleaned up partially. This reverts another accidental commit.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-08-21T00:29:25.372591Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1027921</D:version-name>
+<D:comment>DERBY-4772 (cleanup): Data truncation error with XPLAIN-functionality enabled
+
+Cleaned up a bunch of unused imports, some unused variables and removed an
+Exception.printStackTrace().
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-10-27T11:42:30.790512Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>782997</D:version-name>
+<D:comment>DERBY-3719 ...replication.buffer.LogBufferFullException' causes failover to fail w/ 'XRE07, SQLERRMC: Could not perform operation because the database is not in replication master mode.
+
+Backported fix from trunk as
+
+svn merge -c 782991 https://svn.eu.apache.org/repos/asf/db/derby/code/trunk
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-06-09T13:24:13.983804Z</S:date>
+</S:log-item>
+</S:log-report>

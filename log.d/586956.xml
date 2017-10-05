@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>586956</D:version-name>
+<D:comment>DERBY-3093: Intermittent transaction failure caused by internal duplicate savepoint name for triggers
+
+Don't use hashCode() to generate unique savepoint name.
+
+Contributed by James F. Adams.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-10-21T21:11:22.578630Z</S:date>
+</S:log-item>
+</S:log-report>

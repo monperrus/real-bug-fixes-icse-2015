@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>393570</D:version-name>
+<D:comment>DERBY-438 (partial) Clarify by adding comments or re-naming variables the expected format
+of stream values passed to internal data types. The internal data types always work in streams
+that represent the on-disk format of the data type and not the application visible stream.
+Some code in SQLBinary and SQLBLob is incorrect and will be fixed in a subsequent commit.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-04-12T18:32:59.183627Z</S:date>
+</S:log-item>
+</S:log-report>

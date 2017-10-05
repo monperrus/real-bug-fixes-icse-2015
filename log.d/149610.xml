@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>149610</D:version-name>
+<D:comment>Fixed so that getDirectory(xxx,true) correctly erases the directory
+contents, even when the directory has already been accessed in this
+JVM.  This was broken by the thread-safety fix.
+</D:comment>
+<D:creator-displayname>cutting</D:creator-displayname>
+<S:date>2001-10-11T17:21:10.000000Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>545681</D:version-name>
+<D:comment>DERBY-1355 - ClientDriver ResultSetMetaData.isAutoIncrement(column) now returns appropriate value. 
+Patch contributed by Mayuresh Nirhali.
+In addition, corrected text to be printed out in case of a failure in one of the test cases in test AIjdbc.java.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2007-06-09T02:01:04.132304Z</S:date>
+</S:log-item>
+</S:log-report>

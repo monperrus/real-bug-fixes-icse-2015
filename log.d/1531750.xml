@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1531750</D:version-name>
+<D:comment>LUCENE-5273: Fix slowdown when running 'ant example': unless called from the 'create-package' target, the 'lucene-jars-to-solr' and 'module-jars-to-solr' targets no longer depend on '-unpack-lucene-tgz', pulling lucene-*.jar from lucene/build/*/ instead.</D:comment>
+<D:creator-displayname>sarowe</D:creator-displayname>
+<S:date>2013-10-13T21:04:31.519451Z</S:date>
+</S:log-item>
+</S:log-report>

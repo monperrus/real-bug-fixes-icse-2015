@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>800547</D:version-name>
+<D:comment>brings findbugs count from 266 -&gt; 250 bugs by fixing some scopes, removing some dead code, and not implementing Serializable unnecessarily.  patch by Michael Greene; reviewed for CASSANDRA-338 by jbellis</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-08-03T20:33:24.460152Z</S:date>
+</S:log-item>
+</S:log-report>

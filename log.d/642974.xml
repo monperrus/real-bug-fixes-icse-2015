@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>642974</D:version-name>
+<D:comment>DERBY-2892 Closing a resultset after retrieving a large &gt; 32665 bytes value with Network Server does not release locks
+
+Fixes getString(), getCharacaterStream(), getBytes, getBinaryStream() so they don't hold locks.  Also restricts BLOB columns to a single getXXX call.
+
+Patch contributed by  Oystein Grovlen (oystein dot grovlen at sun dot com)
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-03-31T12:23:02.495521Z</S:date>
+</S:log-item>
+</S:log-report>

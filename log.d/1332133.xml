@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1332133</D:version-name>
+<D:comment>DERBY-5729: Replication tests keep references to connections after completion
+
+- close connections in tearDown()
+
+- null out references to connections, and to other objects that are no
+  longer needed, in tearDown()
+
+- remove the fields masterServer and slaveServer since they are always
+  null</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-04-30T09:18:44.011981Z</S:date>
+</S:log-item>
+</S:log-report>

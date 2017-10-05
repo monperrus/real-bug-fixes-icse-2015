@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>645775</D:version-name>
+<D:comment>Merging revisions 643292 and 645665 from trunk into 10.3 codeline for DERBY-3320. These
+changes are to catch missing Collator support when a user has requested territory based
+database. More info can be found in commit comments of 643292 and 645665.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2008-04-08T06:39:46.967709Z</S:date>
+</S:log-item>
+</S:log-report>

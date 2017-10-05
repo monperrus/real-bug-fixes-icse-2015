@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>531825</D:version-name>
+<D:comment>DERBY-2580: SanityManager.THROWASSERT(String,Throwable) ignores message argument
+
+Use message argument and rewrite the one-arg THROWASSERT methods to use
+the 2-arg method.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-04-24T08:18:19.395779Z</S:date>
+</S:log-item>
+</S:log-report>

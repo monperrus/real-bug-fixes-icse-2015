@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>618431</D:version-name>
+<D:comment>DERBY-3243 (jdbc net client) exception during normal iteration through "ResultSet" of "select * from t"
+
+Allow locators &gt; 32K.  Exclude extended length values 0x800x so that lob by value will work with older versions. Exclude negative and 0 locators.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-02-04T20:56:15.743858Z</S:date>
+</S:log-item>
+</S:log-report>

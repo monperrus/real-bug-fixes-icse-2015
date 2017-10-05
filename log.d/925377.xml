@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>925377</D:version-name>
+<D:comment>DERBY-4322  intermittent failure in runtimeinfo.
+
+Contributed by Myrna van Lunteren.
+
+The theory is that this failure is caused by a problem in the previous test DerbyNetAutostart which launches a process to start the server and can be left pinging if the check for the server in the launching process, does not allow enough time for the server to come up.  The pings increment the session number as seen by runtimeinfo.  So the changes are to DerbyNetAutoStart and are to
+
+1) Make sure the server launching process retries enough times for the launched process comes up.
+2) Make sure if something does go wrong, the launched process is destroyed
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2010-03-19T18:54:04.531663Z</S:date>
+</S:log-item>
+</S:log-report>

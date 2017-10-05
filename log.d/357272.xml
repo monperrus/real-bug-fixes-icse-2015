@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>357272</D:version-name>
+<D:comment>DERBY-750, committing on behalf of Suresh Thalamati.
+
+By looking at the stacks,  my suspicion is backup is looking at a table that 
+is not completely created yet, container file might be there but the  
+first page (Alloc page) might have been created.  
+
+It might take some time for me to fix this one.  As a temporary solution,  
+attached patch comments out the section of the test that might be hitting this 
+problem. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2005-12-17T02:11:28.310928Z</S:date>
+</S:log-item>
+</S:log-report>

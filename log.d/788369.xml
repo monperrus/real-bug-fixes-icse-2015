@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>788369</D:version-name>
+<D:comment>DERBY-4154 DboPowersTest should not hard upgrade the system/wombat database
+
+The patch makes the hard upgrade fixture use another database than
+"system/wombat", by wrapping the offending test cases in a
+singleUseDatabaseDecorator.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-06-25T14:44:42.648405Z</S:date>
+</S:log-item>
+</S:log-report>

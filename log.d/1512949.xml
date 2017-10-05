@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1512949</D:version-name>
+<D:comment>Merged revision(s) 1512937 from lucene/dev/trunk:
+LUCENE-5164: Fix default chunk sizes in FSDirectory to not be unnecessarily large (now 8192 bytes); also use chunking when writing to index files. FSDirectory#setReadChunkSize() is now deprecated and will be removed in Lucene 5.0</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2013-08-11T14:51:59.551347Z</S:date>
+</S:log-item>
+</S:log-report>

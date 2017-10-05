@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>989190</D:version-name>
+<D:comment>replace casts to ANTS with IEndpointSnitch, which incorporates all the rack/dc methods now.  patch by jbellis; reviewed by Sylvain Lebresne for CASSANDRA-1429</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-08-25T16:02:30.097185Z</S:date>
+</S:log-item>
+</S:log-report>

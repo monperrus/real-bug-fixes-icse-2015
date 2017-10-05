@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1537881</D:version-name>
+<D:comment>DERBY-6228: Add parsing of SQLCARD warnings after next(). Don't commit tx when calling getWarnings(). Fix various locator-release errors when navigating SURs. 
+
+Patch file derby-6228-a.diff. (+ typo fix mentioned in review) 
+</D:comment>
+<D:creator-displayname>dyre</D:creator-displayname>
+<S:date>2013-11-01T10:13:45.281191Z</S:date>
+</S:log-item>
+</S:log-report>

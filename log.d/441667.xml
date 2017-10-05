@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>441667</D:version-name>
+<D:comment>Fixed bug where BooleanQueryBuilder.java and BooleanFilterBuilder.java were mistakenly adding all child (and grandchild) clauses to the top node. A call to Element.getElementsByTagName was the offending code - this descends full depth rather than getting only immediate children which is the desired behaviour. Thanks to Jingkei Ly for spotting this bug.</D:comment>
+<D:creator-displayname>mharwood</D:creator-displayname>
+<S:date>2006-09-08T21:45:14.895684Z</S:date>
+</S:log-item>
+</S:log-report>

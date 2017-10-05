@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>441740</D:version-name>
+<D:comment>DERBY-1759: XMLSERIALIZE doesn't follow spec when serializing sequence
+
+This patch was contributed by Army Brown (qozinx@gmail.com)
+
+The patch does the following:
+
+  1. Adds logic to SqlXmlUtil.serializeToString() to perform the
+     steps of "sequence normalization" as required by XML serialization
+     rules. This includes throwing an error if the user attempts to
+     explicitly serialize a sequence that contains one or more top-level
+     attribute nodes.
+
+  2. In order to ensure that the serialization error is only thrown
+     when the user performs an explicit XMLSERIALIZE, I added a
+     new field, "containsTopLevelAttr", to the XML class. This field
+     indicates whether or not the XML value corresponds to a sequence
+     with a top-level attribute node. If the user calls XMLSERIALIZE
+     on an XMLDataValue for which containsTopLevelAttr is true,
+     then we'll throw the serialization error 2200W as dictated by
+     SQL/XML.
+
+  3. Adds appropriate test cases to lang/xml_general.sql to verify
+     the fix.
+
+  4. Since Xalan doesn't provide a built-in way to retrieve a sequence
+     of attribue values (as opposed to attribute nodes), I also included
+     in lang/xml_general.sql a (rather ugly) way to accomplish that
+     task within the serialization restrictions of SQL/XML. 
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2006-09-09T04:40:56.195451Z</S:date>
+</S:log-item>
+</S:log-report>

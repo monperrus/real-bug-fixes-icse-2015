@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>598092</D:version-name>
+<D:comment>DERBY-3216
+
+Address comment concerning return in finally block of added code.  Removed it
+and let natural void return happen.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2007-11-25T23:38:31.245109Z</S:date>
+</S:log-item>
+</S:log-report>

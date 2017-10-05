@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>504175</D:version-name>
+<D:comment>DERBY-2294: Missing SQL script altertableDropColumn.sql
+
+I removed that test script as part of DERBY-1909, and all of its tests
+were moved into altertable.sql, but I forgot to remove the listing for
+the file from derbylang.runall. This change removes it from derbylang.runall.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2007-02-06T15:15:40.415755Z</S:date>
+</S:log-item>
+</S:log-report>

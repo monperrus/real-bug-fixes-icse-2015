@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>543095</D:version-name>
+<D:comment>Fixed bug in LoopingAlphabetStream.read(), where the return value was not and-ed with 0xff.
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2007-05-31T09:33:18.126206Z</S:date>
+</S:log-item>
+</S:log-report>

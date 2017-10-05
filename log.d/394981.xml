@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>394981</D:version-name>
+<D:comment>DERBY-1113, committing on behalf of Suresh Thalamati
+
+ The reason for missing log files is truncation logic at checkpoint was
+ incorrectly deleting the log files that were needed for crash recovery
+ if the backup is progress at the same time; The first log file that should
+     not be deleted was incorrectly assigned to the log file number that is yet
+     to be written to the backup.
+
+     Attached patch changes the logic, so that all the log files that are required for both crash recovery and the backup are not deleted. Basically the first log file that should not be deleted is the lowest of first log needed for crash recovery or the log file that is yet to be copied to the backup.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-04-18T16:27:39.059477Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>832379</D:version-name>
+<D:comment>DERBY-4420: NullPointerException with INSERT INTO ... from EXCEPT/INTERSECT
+
+The failing code in ResultSetNode.setTableConstructorTypes() was meant
+to handle the case where the node represented a table constructor (aka
+VALUES clause). UnionNode already had an override to make it a no-op
+unless it actually represented a multi-row VALUES clause that had been
+rewritten to a union of single-row VALUES clauses.
+
+Since a VALUES clause is never rewritten to EXCEPT or INTERSECT, the
+correct handling is to make setTableConstructorTypes() a no-op in
+IntersectOrExceptNode. Rather than adding an empty override in
+IntersectOrExceptNode, the code was moved from
+ResultSetNode.setTableConstructorTypes() to
+RowResultSetNode.setTableConstructorTypes(), and the default
+implementation in ResultSetNode was left empty.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-11-03T10:31:21.799331Z</S:date>
+</S:log-item>
+</S:log-report>

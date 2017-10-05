@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1056591</D:version-name>
+<D:comment>DERBY-4960 Race condition in FileContainer#allocCache when reopening RAFContainer after interrupt
+
+Patch derby-4960-2. When reopening the container after an interrupt we
+now call "reopenContainer" instead of
+"openContainer". "reopenContainer" is a (new) variant of
+"openContainer" which skips reading the header, which is ok, since it
+has not changed. This sidesteps the race situation.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-01-08T01:54:31.068612Z</S:date>
+</S:log-item>
+</S:log-report>

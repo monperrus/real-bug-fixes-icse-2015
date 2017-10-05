@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>660744</D:version-name>
+<D:comment>DERBY-3650 - test only fix.  The test was verifying a clob after freeing it, 
+changed the clob test case to match the logic of the blob test case where
+it verified before possibly freeing and committing it.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2008-05-27T22:11:19.113972Z</S:date>
+</S:log-item>
+</S:log-report>

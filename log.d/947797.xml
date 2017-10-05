@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>947797</D:version-name>
+<D:comment>DERBY-4536; testProperties and sysinfo_withproperties test failures with ibm 1.6  (sr7) on 10.3
+  backport of test conversions for testProperties and sysinfo_withproperties to
+  serverPropertiesTest (DERBY-3088) and SysinfoTest (DERBY-3829) and of changes
+  to make ij5.sql and ijConnName.sql be independent of hashtable ordering by
+  the jvm (DERBY-858).
+  backport of (trunk) revisions: 608633, 612684, 616982, 617168, 688103, 688127, and 835153.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2010-05-24T20:33:21.468668Z</S:date>
+</S:log-item>
+</S:log-report>

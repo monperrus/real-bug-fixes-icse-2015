@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>960136</D:version-name>
+<D:comment>DERBY-4731 XA two phase commit with active GLOBAL TEMPORARY TABLE causes An internal error identified by RawStore module
+
+just checking in fixtures for the RawStore error and the the Assert case to XATest. The fixtures are  xtestXATempTableD4731_RawStore() and xtestXATempTableD4731_Assert and can be enabled by removing the 'x' in front.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2010-07-03T00:00:29.516511Z</S:date>
+</S:log-item>
+</S:log-report>

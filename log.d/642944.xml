@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>642944</D:version-name>
+<D:comment>DERBY-3379: "No Current connection" on PooledConnection.getConnection() if pooled connection is reused during connectionClosed processing.
+Merged fix to 10.4 branch from trunk revision 642942 (derby-3379-3a-minimal_fix_and_test_enabling.diff).
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-03-31T09:53:34.680657Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>482358</D:version-name>
+<D:comment>DERBY-1204: TRIGGER with multi-row INSERT action throws OutOfBounds exception
+
+This patch was contributed by Yip Ng (yipng168@gmail.com)
+
+The statement fails because the bindReferencesClause() method in
+CreateTriggerNode did not filter those column references that are not
+relevent to the conversion processing for OLD/NEW transition variables.
+The above trigger action will have the following parse tree: (roughly)
+
+              InsertNode
+                 |
+              UnionNode
+               /     \
+        UnionNode    RowRSNode
+         /    \            |
+RowRSNode RowRSNode  NumericConstantNode
+      |       |                    |
+ ColRef    NumericConstantNode    333
+      |       |
+     n.i     999
+
+Note that the CollectNodesVisitor collects *ALL* the ColumnReferences in
+the trigger action. In the above case, it returned 3 column references
+nodes. One in the top level Union node, one in top level Union Node's
+left child which it is also an UnionNode and the last one is found in
+the RowResultSetNode.
+
+The UnionNodes will have a copy of the CRs from its left child and
+those CRs will not have its beginOffset set which indicates they are
+not relevant for the conversion processing here, so the corrective
+action here is to skip these entries.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2006-12-04T21:07:25.216049Z</S:date>
+</S:log-item>
+</S:log-report>

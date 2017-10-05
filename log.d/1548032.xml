@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1548032</D:version-name>
+<D:comment>DERBY-2041: Trigger should register a dependency on tables and columns used in its body
+
+Add an upgrade test to verify how the dependencies are handled after
+upgrade and downgrade.
+
+Skip some cross checking between getColumns() and ResultSetMetaData
+for views in DatabaseMetaDataTest, since those checks only pass for
+tables. The upgrade test case adds a view that upsets the meta-data
+test. (This is the first upgrade test that uses views.)</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-12-05T07:41:45.306363Z</S:date>
+</S:log-item>
+</S:log-report>

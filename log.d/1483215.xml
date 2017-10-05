@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1483215</D:version-name>
+<D:comment>DERBY-6207 Update policy files in java/drda/org/apache/derby/drda
+
+Removed permission java.util.PropertyPermission "derby.storage.jvmInstanceId", "write";
+
+which is no longer needed, plus formatting improvements.</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2013-05-16T07:19:36.151290Z</S:date>
+</S:log-item>
+</S:log-report>

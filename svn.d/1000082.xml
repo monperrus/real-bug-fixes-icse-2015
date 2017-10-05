@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1000082"/>
+<S:open-directory rev="1000081">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1000082/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1000082</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-22T16:48:20.379669Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra" rev="1000081">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1000082/cassandra</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1000082</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-22T16:48:20.379669Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="1000081">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1000082/cassandra/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1000082</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-22T16:48:20.379669Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="redhat" bc-url="/repos/asf/!svn/bc/1000082/cassandra/trunk/redhat">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1000082/cassandra/trunk/redhat</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1000082</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-22T16:48:20.379669Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="apache-cassandra.spec" sha1-checksum="ec271f0cd696ed83f1891d63071756cb736c2986">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1000082/cassandra/trunk/redhat/apache-cassandra.spec</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1000082</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-22T16:48:20.379669Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>348015136bd829ed6abdb15036194059</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:open-file name="CHANGES.txt" rev="1000081">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1000082/cassandra/trunk/CHANGES.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1000082</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-22T16:48:20.379669Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="512256d69b5752c998cd71281d5ed34b" sha1-checksum="73ee8caf8478bef5e57cdf85466225072f267c76"/>
+<S:prop><V:md5-checksum>76537e6b43810dd04deeec54be27b44d</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="branches" rev="1000081">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1000082/cassandra/branches</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1000082</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-22T16:48:20.379669Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra-0.6" rev="1000081">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1000082/cassandra/branches/cassandra-0.6</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1000082</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-22T16:48:20.379669Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="CHANGES.txt" rev="1000081">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1000082/cassandra/branches/cassandra-0.6/CHANGES.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1000082</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-22T16:48:20.379669Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="507cf93cae9e90d5fec54b75233df4b2" sha1-checksum="1f402d0ef6ef70765f8ee6b1810e99d4eb6b1289"/>
+<S:prop><V:md5-checksum>891f8b420ac9da00df46a1da94da9e00</V:md5-checksum></S:prop></S:open-file>
+<S:add-directory name="redhat" bc-url="/repos/asf/!svn/bc/1000082/cassandra/branches/cassandra-0.6/redhat">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1000082/cassandra/branches/cassandra-0.6/redhat</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1000082</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-22T16:48:20.379669Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="apache-cassandra.spec" sha1-checksum="ec271f0cd696ed83f1891d63071756cb736c2986">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1000082/cassandra/branches/cassandra-0.6/redhat/apache-cassandra.spec</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1000082</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-22T16:48:20.379669Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">brandonwilliams</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>348015136bd829ed6abdb15036194059</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

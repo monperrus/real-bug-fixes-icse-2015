@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>150014</D:version-name>
+<D:comment>- A patch that eliminates the confusing and slightly different behaviour of
+  TermEnum when dealing with an enumeration of all terms versus an enumeration
+  starting from a specific term.
+  This patch also fixes incorrect term document frequences when the same term
+  is present in multiple segments.
+Submitted by: Christoph Goller
+Reviewed by: Otis
+</D:comment>
+<D:creator-displayname>otis</D:creator-displayname>
+<S:date>2003-09-10T14:27:37.000000Z</S:date>
+</S:log-item>
+</S:log-report>

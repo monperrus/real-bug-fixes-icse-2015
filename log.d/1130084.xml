@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1130084</D:version-name>
+<D:comment>DERBY-4669: ClassLoaderBootTest fails if derbyclient.jar comes before derby.jar on the classpath
+
+Unsealed package org.apache.derby.iapi.services.sanity
+
+Patch file: derby-4669-2b-unseal_iapi_sanity.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-06-01T10:11:39.831797Z</S:date>
+</S:log-item>
+</S:log-report>

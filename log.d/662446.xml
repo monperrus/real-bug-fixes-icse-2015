@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>662446</D:version-name>
+<D:comment>DERBY-48 A connection request that has a default schema that is being created by another transaction will fail to connect
+
+Patch derby-48-7, which auto-creates the schema in a nested transaction if possible, thus
+allowing early release of write locks used to auto-create the schema.
+
+This has the side-effect of making auto-created schema persist even if
+the user transaction that triggered it rolls back. Added a new test.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2008-06-02T14:17:57.036217Z</S:date>
+</S:log-item>
+</S:log-report>

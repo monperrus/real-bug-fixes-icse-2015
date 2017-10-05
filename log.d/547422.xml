@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>547422</D:version-name>
+<D:comment>DERBY-2806: Added a position-aware stream that can be repositioned on request. This was needed to support multiplexed operations on Clob, specifically involving streams. The code is isolated to Clobs on top of a stream from store (read-only), with the exception of UTF8Reader which is also used for other Clobs (temporary, modifiable ones).
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2007-06-14T22:03:38.759615Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>649047</D:version-name>
+<D:comment>DERBY-3588: suites.All fails to run on Jvm 1.5 when built with JDK 1.5 and without JDK 6.
+Patch provided by Ole Solberg. Fix merged from trunk revision 649013. Merge command:
+
+svn merge -r 649012:649013 https://svn.apache.org/repos/asf/db/derby/code/trunk .
+
+</D:comment>
+<D:creator-displayname>johnemb</D:creator-displayname>
+<S:date>2008-04-17T10:46:08.175183Z</S:date>
+</S:log-item>
+</S:log-report>

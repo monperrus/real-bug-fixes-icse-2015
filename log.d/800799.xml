@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>800799</D:version-name>
+<D:comment>DERBY-4336: Remove Blob and Clob interface methods from the list of unsupported methods in UnsupportedVetter.
+Removed now implemented methods in the Blob/Clob JDBC interface from the list of unsupported methods in jdbc4.UnsupportedVetter.
+Also removed the update[BC]lob-methods in the ResultSet interface.
+
+Patch file: derby-4336-1a.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-08-04T13:59:48.072627Z</S:date>
+</S:log-item>
+</S:log-report>

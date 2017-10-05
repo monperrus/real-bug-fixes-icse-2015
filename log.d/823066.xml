@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>823066</D:version-name>
+<D:comment>DERBY-4188 - "XplainStatisticsTest" fails on phoneME w/ 'The exception 'java.sql.SQLException: 'RS_ID' is not a column in table or VTI 'XPLTEST.SYSXPLAIN_RESULTSETS'.' was thrown while evaluating an expression.'
+Do cleanup in testcases to make the testcases independent of running order. 
+</D:comment>
+<D:creator-displayname>ole</D:creator-displayname>
+<S:date>2009-10-08T06:42:54.793779Z</S:date>
+</S:log-item>
+</S:log-report>

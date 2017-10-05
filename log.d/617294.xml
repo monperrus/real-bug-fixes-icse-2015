@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>617294</D:version-name>
+<D:comment>An attempt to restore history for EmbedBlob.java after being replaced
+rather than updated by check-in for DERBY-3365.
+
+$ cd java/engine/org/apache/derby/impl/jdbc
+$ cp EmbedBlob.java EmbedBlob.java.old
+$ svn remove EmbedBlob.java
+$ svn copy -r 617185 EmbedBlob.java .
+$ cp EmbedBlob.java.old EmbedBlob.java
+$ svn ci
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2008-01-31T23:40:28.782366Z</S:date>
+</S:log-item>
+</S:log-report>

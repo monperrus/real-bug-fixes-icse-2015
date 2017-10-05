@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>150136</D:version-name>
+<D:comment>Fix for deadlock between indexing thread and parsing
+thread that occurs with long titles. Parsing thread waits
+for indexing thread to read from pipeIn, indexing thread
+waits for summary. This fixes bug #24301
+</D:comment>
+<D:creator-displayname>goller</D:creator-displayname>
+<S:date>2003-11-23T15:37:26.000000Z</S:date>
+</S:log-item>
+</S:log-report>

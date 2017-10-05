@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>344270</D:version-name>
+<D:comment>Fix to DERBY-704, submitted by Knut Anders Hatlen
+
+From Knut:
+
+&lt;quote&gt;
+The patch modifies the search for a free slot in the page cache
+(org.apache.derby.impl.services.cache.Clock.findFreeItem()) in the
+following way:
+
+  1) find out how many invalid pages there are in the page cache
+  2) check whether pages that are skipped in the search are invalid
+  3) if the number of skipped invalid pages equals the number of
+     invalid pages, stop the search for invalid pages
+&lt;/quote&gt;
+
+</D:comment>
+<D:creator-displayname>davidvc</D:creator-displayname>
+<S:date>2005-11-14T23:49:14.113397Z</S:date>
+</S:log-item>
+</S:log-report>

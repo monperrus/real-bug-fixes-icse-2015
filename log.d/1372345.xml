@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1372345</D:version-name>
+<D:comment>DERBY-5897: Broken handling of paths with special characters in compatibility/VersionCombinationConfigurator
+
+Fixes URL to File conversion by going via URI and using the new File(URI) ctor.
+As an example, URLs containing '%20' for spaces will now result in valid files.
+
+Patch file: derby-5897-1a-url_handling.diff (with formatting modifications)
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2012-08-13T09:53:41.975309Z</S:date>
+</S:log-item>
+</S:log-report>

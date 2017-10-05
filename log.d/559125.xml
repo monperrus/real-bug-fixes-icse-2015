@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>559125</D:version-name>
+<D:comment>DERBY-2966 
+
+We need to have context set up inside a moveToInsertRow code because that code tries to do DTD.getNull and getNull needs to find RuleBasedCollator which is found by relying on the context. Putting the context fixed the problem.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-07-24T17:30:40.141251Z</S:date>
+</S:log-item>
+</S:log-report>

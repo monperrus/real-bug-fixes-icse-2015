@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1133317</D:version-name>
+<D:comment>DERBY-5108: Intermittent failure in AutomaticIndexStatisticsTest.testShutdownWhileScanningThenDelete on Windows 
+
+Adjust the istat log message if the scan is aborted.
+
+Patch file: derby-5108-3a-istat_log_abort.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-06-08T09:50:23.590053Z</S:date>
+</S:log-item>
+</S:log-report>

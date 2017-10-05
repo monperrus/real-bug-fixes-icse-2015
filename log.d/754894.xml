@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>754894</D:version-name>
+<D:comment>DERBY-2991: Index split deadlock
+
+This is the main fix (patch d2991-2b.diff) which removes the scan lock
+mechanism that caused the deadlocks and instead saves the scan
+position by key whenever a scan loses its latches.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-03-16T13:55:49.349984Z</S:date>
+</S:log-item>
+</S:log-report>

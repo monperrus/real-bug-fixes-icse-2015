@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1132928</D:version-name>
+<D:comment>DERBY-5263: xmlTestTriggerWithXMLOperators fails with java.lang.NoSuchMethodError
+
+Skip the post soft upgrade phase if the old version suffers from DERBY-4835.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-06-07T09:48:15.043266Z</S:date>
+</S:log-item>
+</S:log-report>

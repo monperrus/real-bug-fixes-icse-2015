@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1180811</D:version-name>
+<D:comment>DERBY-5447: Deadlock in AutomaticIndexStatisticsTest.testShutdownWhileScanningThenDelete (BasePage.releaseExclusive and Observable.deleteObserver (BaseContainerHandle))
+
+Merged fix from trunk (revision 1180790).
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-10-10T07:53:47.215814Z</S:date>
+</S:log-item>
+</S:log-report>

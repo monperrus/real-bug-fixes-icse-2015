@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>774148</D:version-name>
+<D:comment>DERBY-4198 When using the FOR UPDATE OF clause with SUR (Scroll-insensive updatable result sets), the updateRow() method crashes
+
+Patch derby-4198-throwable, which makes sure all exceptions seen in
+insertRow, deleteRow and updateRow are wrapped properly to avoid
+crash. Partial fix for this issue.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-05-13T00:18:53.921348Z</S:date>
+</S:log-item>
+</S:log-report>

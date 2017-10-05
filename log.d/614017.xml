@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>614017</D:version-name>
+<D:comment>DERBY-3257 SELECT with HAVING clause containing OR conditional incorrectly return 1 row - should return 2 rows - works correctly with 10.2 DB
+
+Normalize the havingClause before calling preprocess.  This made it necessary to explicitly exclude having subqueries from flattenning, before they were implicitly excluded because the clause was not normalized. Army Brown contributed the main part of the fix to normalize the having clause.
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-01-21T21:29:52.714506Z</S:date>
+</S:log-item>
+</S:log-report>

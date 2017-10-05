@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>807381</D:version-name>
+<D:comment>Revert "CASSANDRA-370 avoid opening multiple writers for the current file; the buffered nature of the global logWriter_ could cause problems"</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-08-24T21:13:32.151235Z</S:date>
+</S:log-item>
+</S:log-report>

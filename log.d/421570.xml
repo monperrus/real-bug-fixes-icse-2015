@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>421570</D:version-name>
+<D:comment>DERBY-253: Client should throw not implemented exception for
+depricated setUnicodeStream/getUnicodeStream
+
+This patch replaces the existing implementation of setUnicodeStream
+and getUnicodeStream in the client driver to just throw a SQL
+exception with SQL state equal to feature not implemented.
+
+Patch contributed by Olav Sandstå.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-07-13T09:55:04.166906Z</S:date>
+</S:log-item>
+</S:log-report>

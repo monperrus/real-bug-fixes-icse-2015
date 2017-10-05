@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1403783</D:version-name>
+<D:comment>Bundles as directories. New installed location syntax.
+
+Support was added for installing bundles as directories to compliment already existing support for subsystems as directories.
+Directory names representing bundles must end with ".jar".
+
+The generated location used for installing embedded subsystems and bundles now uses the following pattern:
+
+&lt;provision-to subsystem location&gt;!/&lt;resource location&gt;
+
+The format should be interpreted as "there is an entry for a resource located at &lt;resource location&gt; within the subsystem
+archive located at &lt;provision-to subsystem location&gt;." Typically, &lt;resource location&gt; will be a file name. The syntax is
+intended to support the loose config scenario introduced with the idirfinder URL scheme.
+
+Also fixed a few compile warnings in some test classes.</D:comment>
+<D:creator-displayname>jwross</D:creator-displayname>
+<S:date>2012-10-30T17:12:27.101352Z</S:date>
+</S:log-item>
+</S:log-report>

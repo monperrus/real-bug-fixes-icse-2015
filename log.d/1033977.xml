@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1033977</D:version-name>
+<D:comment>DERBY-4796: Missing escape for apostrophes in many messages
+
+- Made LocalizedResource use java.text.MessageFormat for all messages,
+  including those with no parameters, for orthogonality.
+
+- Changed messages in java/tools and java/drda to consistently use two
+  single-quote characters to produce a single apostrophe in the
+  message text.
+
+- Fixed invalid parameter marker in one of the Italian messages in
+  java/engine.
+
+- Updated test canons to expect the new output.
+
+- Added a class that runs at build time and verifies the format of all
+  the messages.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-11-11T16:06:38.403964Z</S:date>
+</S:log-item>
+</S:log-report>

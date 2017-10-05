@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1140565</D:version-name>
+<D:comment>fix race that could result in Hadoopwriter failing to throw exception for encountered error
+patch by Mck SembWever and jbellis for CASSANDRA-2755</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2011-06-28T12:28:00.423242Z</S:date>
+</S:log-item>
+</S:log-report>

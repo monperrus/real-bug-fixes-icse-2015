@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1182570</D:version-name>
+<D:comment>DERBY-3823 NullPointerException in stress.multi test
+DERBY-5459 Result set metadata are out of sync on client after underlying table is altered
+
+Adding a test case showing that in case of a network server, an open resulset's metadata can get changed underneath it but it is not reflected in the metadata. The test creates a table with one of column as varchar(5). It inserts 1000 rows and then opens a reulset on that table with varchar column as one of the columns. The test verifies that the reulset's metadata at this point shows the length of the column as 5. Next, while the resulset is still open, the tests does an ALTER TABLE to increase the varchar column's length to 8. In case of embedded mode, this fails because of the open resulset. In case of network server, because of prefetching of rows, the ALTER TABLE is allowed but when the test gets the resulset's metadata again and checks the length of varchar column, it still shows the length to be 5 rather than 8. 
+
+There are couple other jiras related to network server prefetching, namely, DERBY-3839 and DERBY-4373.
+
+Once DERBY-5459 is fixed, we should see the change in metadata reflected in resultset's metadata. A fix for DERBY-5459 will cause the following test added here to fail. Right now, the new test accepts the incorrect metadata length obtained through the resultset's metadata after ALTER TABLE has been performed in network server mode.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-10-12T20:15:50.833037Z</S:date>
+</S:log-item>
+</S:log-report>

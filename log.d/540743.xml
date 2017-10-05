@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>540743</D:version-name>
+<D:comment>DERBY-2549, backporting change 540657 from trunk to 10.2 line.
+contributed by Mayuresh Nirhali
+
+Fix null pointer when running inplace compress.  Change code to correctly
+handle when more than 100 rows are moved from a single page.  The new code
+returns to the caller after processing the 100 rows, and the next trip
+through the loop picks up the scan where it left off on that same page.
+Test case was added to existing test.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2007-05-22T20:45:14.046267Z</S:date>
+</S:log-item>
+</S:log-report>

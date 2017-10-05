@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>56215</D:version-name>
+<D:comment>Fix for derby-5. Instead of clearing buffer, just clear back to appropriate point if query fails. Sumbitting for Army Brown (army@golux.com)
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2004-11-01T07:13:21.414556Z</S:date>
+</S:log-item>
+</S:log-report>

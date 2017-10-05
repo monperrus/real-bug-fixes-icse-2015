@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>436653</D:version-name>
+<D:comment>Add DatabasePropertyTestSetup decorator that sets and clears database properties.
+Fix a bug in SystemPropertyTestSetup noticed while testing DatabasePropertyTestSetup.
+Change ConcurrencyTest to use DatabasePropertyTestSetup to work around bug DERBY-1762.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-08-25T04:52:09.838783Z</S:date>
+</S:log-item>
+</S:log-report>

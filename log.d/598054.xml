@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>598054</D:version-name>
+<D:comment>DERBY-2016 ArrayIndexOutOfBoundsException for COALESCE with aggregate functions
+
+Merged from trunk:
+svn merge -r 597277:597278 https://svn.apache.org/repos/asf/db/derby/code/trunk
+
+This is patch DERBY-2016d.
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2007-11-25T21:06:47.315021Z</S:date>
+</S:log-item>
+</S:log-report>

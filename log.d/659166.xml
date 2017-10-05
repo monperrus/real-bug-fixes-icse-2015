@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>659166</D:version-name>
+<D:comment>DERBY-3685: weme 6.1 Base connection pooling suitejunit.framework.AssertionFailedError: java.lang.NullPointerException.
+The test causing the failures will no longer be run in a JavaME environment.
+Patch file: derby-3685-1a-disable_test_javame.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-05-22T17:26:05.576170Z</S:date>
+</S:log-item>
+</S:log-report>

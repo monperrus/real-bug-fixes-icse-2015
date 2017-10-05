@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1076499</D:version-name>
+<D:comment>DERBY-5085 After specifying deregister=false on the engine shutdown URL, Derby forgets that the default behavior is deregister=true. Change the deregister value after DriverManager.deregisterDriver
+</D:comment>
+<D:creator-displayname>lilywei</D:creator-displayname>
+<S:date>2011-03-03T02:10:47.552564Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>614046</D:version-name>
+<D:comment>DERBY-3023: When remapping column references to their underlying expressions
+during Derby preprocessing, make sure that a ColumnReference whose source
+expression is a virtual column sets its column position based on the virtual
+column id (instead of basing it on the column's position in the base table).
+
+Port from trunk (svn # 612504) to 10.3 branch with following command:
+
+  svn merge -r 612503:612504 https://svn.apache.org/repos/asf/db/derby/code/trunk
+
+No additional changes required.
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2008-01-21T23:20:16.810559Z</S:date>
+</S:log-item>
+</S:log-report>

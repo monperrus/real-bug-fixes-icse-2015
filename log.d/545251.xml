@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>545251</D:version-name>
+<D:comment>DERBY-2754 Client connections should not fail if permission is not granted to read derby.client.traceLevel and derby.client.traceDirectory
+
+Ignore properties if there is no permission to read them.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-06-07T17:50:36.707888Z</S:date>
+</S:log-item>
+</S:log-report>

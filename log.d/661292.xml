@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>661292</D:version-name>
+<D:comment>DERBY-3695: NullPointerException when invoking statement event listeners if one of the listeners is null
+
+Made addStatementEventListener(null) a no-op on the client to match embedded.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2008-05-29T11:10:03.137592Z</S:date>
+</S:log-item>
+</S:log-report>

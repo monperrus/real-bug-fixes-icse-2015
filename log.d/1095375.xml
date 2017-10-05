@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1095375</D:version-name>
+<D:comment>LUCENE-2939: Highlighter should try and use maxDocCharsToAnalyze in WeightedSpanTermExtractor when adding a new field to MemoryIndex as well as when using CachingTokenStream
+SOLR-2390: Performance of usePhraseHighlighter is terrible on very large Documents, regardless of hl.maxDocCharsToAnalyze</D:comment>
+<D:creator-displayname>markrmiller</D:creator-displayname>
+<S:date>2011-04-20T11:52:13.788808Z</S:date>
+</S:log-item>
+</S:log-report>

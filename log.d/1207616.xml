@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1207616</D:version-name>
+<D:comment>Fix ASSUME when using SELECT keyspace.cfname syntax in cqlsh.
+Patch by Paul Cannon, reviewed by brandonwilliams for CASSANDRA-3500</D:comment>
+<D:creator-displayname>brandonwilliams</D:creator-displayname>
+<S:date>2011-11-28T21:19:15.867170Z</S:date>
+</S:log-item>
+</S:log-report>

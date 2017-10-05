@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>831762</D:version-name>
+<D:comment>DERBY-3376: Test case in GrantRevokeDDLTest commented out
+
+This change adds some additional tests to GrantRevokeDDLTest.
+
+The test cases were originally contributed by Yip Ng (yipng168 at gmail dot com)
+
+The tests were originally written during buddy testing of Derby 10.2, and
+were committed as part of DERBY-1736, but were commented out at the
+time due to DERBY-1589. The test cases now pass, and so this change
+enables the tests as part of GrantRevokeDDLTest.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2009-11-01T21:27:27.544828Z</S:date>
+</S:log-item>
+</S:log-report>

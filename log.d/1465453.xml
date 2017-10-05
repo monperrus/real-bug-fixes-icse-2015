@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1465453</D:version-name>
+<D:comment>DERBY-129 tests Derby should throw a truncation error or warning when CASTing a parameter/constant to char or char for bit datatypes and the data is too large for the datatype. Release Note covered by DERBY-5749.
+merge tests from revision 1341046
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2013-04-07T20:10:23.771212Z</S:date>
+</S:log-item>
+</S:log-report>

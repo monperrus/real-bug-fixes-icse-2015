@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>424072</D:version-name>
+<D:comment>DERBY-323: Locale problem in test of derby
+
+Description of the patch:
+
+  1) Rewrite tools/derbyrunjartest.java to use jvm.getCommandLine() to
+     get the command line to start the test with.
+
+  2) Move the setting of user.language and user.country from RunTest
+     and NetServer to jvm.getCommandLine(). This way, all of the java
+     processes that are forked from the test harness or from a test
+     get the same locale.
+
+  3) Add Locale.setDefault(Locale.US) to RunTest.main(). This fixes
+     the issue with the nist tests.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-07-20T21:32:15.987377Z</S:date>
+</S:log-item>
+</S:log-report>

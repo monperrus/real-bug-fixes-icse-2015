@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>650728</D:version-name>
+<D:comment>DERBY-3613: SELECT DISTINCT with GROUP BY produces wrong results
+
+Certain combinations of DISTINCT and GROUP BY in the same query were
+producing incorrect results. Duplicate rows were appearing in the
+results because the query was including all of the GROUP BY columns
+in the evaluation of the DISTINCT clause, not just the columns that
+were explicitly specified to be DISTINCT.
+
+For example, in the query:
+
+  select distinct a, b from t group by a, b, c
+
+Derby was including two separate rows in the result which had the same
+value for columns a and b, but had different values for column c.
+
+Internally, GroupByList.bindGroupByColumns() was generating the
+extra column(s) from the group by list into the select's result
+column list, but this processing should not be performed when the
+query specifies distinct, because adding extra columns to the
+set of distinct columns changes the results.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2008-04-23T02:20:43.316800Z</S:date>
+</S:log-item>
+</S:log-report>

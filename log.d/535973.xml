@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>535973</D:version-name>
+<D:comment>DERBY-1025 / DERBY-2620 test cases
+Make sure statement is created with holdability CLOSE_CURSORS_AT_COMMIT when testing if xa_start commits the transaction.  Exempt embedded from running DERBY-1025 test because of 08003 - No current connection 
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-05-07T20:07:22.354464Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>954684</D:version-name>
+<D:comment>DERBY-4693: RENAME COLUMN loses IDENTITY attributes
+
+Merged the fix from the trunk using  svn merge -r 954343:954344
+https://svn.apache.org/repos/asf/db/derby/code/trunk/. Simple merge with
+no conflicts; no additional changes were necessary.
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2010-06-15T01:02:33.938650Z</S:date>
+</S:log-item>
+</S:log-report>

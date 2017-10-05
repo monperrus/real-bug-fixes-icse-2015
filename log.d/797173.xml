@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>797173</D:version-name>
+<D:comment>close temporary logWriters to avoid leaking FD.  patch by Brandon Williams; reviewed by jbellis for CASSANDRA-313</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-07-23T17:57:26.242362Z</S:date>
+</S:log-item>
+</S:log-report>

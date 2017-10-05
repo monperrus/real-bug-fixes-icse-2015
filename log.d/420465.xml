@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>420465</D:version-name>
+<D:comment>DERBY-989: unit/daemonService.unit fails intermittently: 'ran out of time'
+
+Updated the javadoc for DaemonService and BasicDaemon with information about
+the case where unsubscribe() is called when the client is being serviced.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-07-10T09:04:57.594294Z</S:date>
+</S:log-item>
+</S:log-report>

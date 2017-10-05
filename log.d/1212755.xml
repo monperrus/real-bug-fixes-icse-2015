@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1212755</D:version-name>
+<D:comment>Merged revision(s) 1212754 from lucene/dev/branches/branch_3x:
+LUCENE-3630: Fixed naming of the internal method MultiReader.doOpenIfChanged(boolean doClone) that was overriding IndexReader.doOpenIfChanged(boolean readOnly), so changing the contract of the overridden method</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2011-12-10T09:51:42.975401Z</S:date>
+</S:log-item>
+</S:log-report>

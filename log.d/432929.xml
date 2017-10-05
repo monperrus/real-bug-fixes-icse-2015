@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>432929</D:version-name>
+<D:comment>DERBY-1538: Disable GRANT or REVOKE operations for object owners and raise an error when attempted. Also Database owner will not be able to revoke or grant access to object owners as well.
+
+Submitted by Satheesh Bandaram (bandaram@gmail.com)
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2006-08-20T03:15:57.105458Z</S:date>
+</S:log-item>
+</S:log-report>

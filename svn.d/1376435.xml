@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1376435"/>
+<S:open-directory rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="dev" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="branches" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="branch_4x" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/lucene/dev/branches/LUCENE2793:1137551-1144189
+/lucene/dev/branches/branch_3x:949730,957490,961612,979161,980654,982195,987811,988512,1025544,1026614,1034080,1039151,1050654,1056762,1060014,1060438,1060784,1061035,1063880,1063934,1065324,1066771,1067699,1067764,1070818,1075044,1079376,1079381,1080071,1081052,1083240,1083534,1083726,1083789,1083812,1085811,1090423,1091501,1092373,1095519,1098770,1099210,1100407,1100480,1100494,1100515,1101106,1103086,1128215,1128227,1128462,1129419,1129435,1130612,1132581,1132978,1134823,1134917,1136714,1138351,1139430,1139461,1141060,1144653,1148611,1148849,1148864,1150434,1151830,1151947,1152766,1166791,1173311,1173701,1173745,1177994,1180637,1184955,1188805,1189914,1189969,1190293,1198337,1199847,1201739,1204005,1204436,1204494,1204519,1204547,1204565,1204826,1204970,1206022,1207010,1207024,1208375,1212063,1212539,1212754,1215483,1226235,1226466,1229268,1230429,1232011,1232954,1234450,1235713,1243906,1244960,1299077,1302155,1302243,1302509,1302548,1302703,1302733,1302749,1302808,1303007,1303023,1303269,1303733,1303854,1304295,1304360,1304660,1304904,1305074,1305142,1305574,1305585,1305622,1305681,1305693,1305719,1305741,1305816,1305837,1306929,1307050,1309587,1309637,1310314
+/lucene/dev/branches/bulkpostings:1069647,1069925
+/lucene/dev/branches/docvalues:1021634-1134288
+/lucene/dev/branches/lucene2510:1364862-1365496
+/lucene/dev/branches/lucene2621:1188713-1197598,1197605-1199706,1199787-1202835
+/lucene/dev/branches/lucene2858:1234440-1238051
+/lucene/dev/branches/lucene3606:1209906-1212022
+/lucene/dev/branches/lucene3622:1211241-1213825
+/lucene/dev/branches/lucene3661:1233476-1237242,1237250-1238012
+/lucene/dev/branches/lucene3795_lsp_spatial_module:1291491-1300396
+/lucene/dev/branches/lucene3969:1311219-1324948
+/lucene/dev/branches/lucene4055:1338960-1343359
+/lucene/dev/branches/lucene4199:1358548-1359191
+/lucene/dev/branches/lucene_solr_3_1:1081856,1083239,1085499,1085511,1085532,1085809,1101103
+/lucene/dev/branches/lucene_solr_3_2:1128223,1128247,1129418,1129472
+/lucene/dev/branches/lucene_solr_3_3:1138390,1138979,1139775
+/lucene/dev/branches/pforcodec_3892:1352188-1375470
+/lucene/dev/branches/preflexfixes:967125-979432
+/lucene/dev/branches/realtime_search:953476-1097796
+/lucene/dev/branches/solr2452:1087601-1144716
+/lucene/dev/trunk:1343946,1343968,1344038,1344041,1344306,1344441,1344531,1344775,1344826,1344844,1344925,1344938,1344946,1344958,1344967,1345376,1345523,1345540-1345542,1345548,1345869,1346001,1346101,1346322,1346407,1346419,1346434,1346465,1346494,1346500,1346520,1346582,1346645,1346784,1346873-1346975,1346983,1346986,1346991,1346995,1346999,1347313,1347323,1347817,1348171,1348236,1348268,1348278,1348289,1348348,1348354,1348517,1348524,1348606,1348621,1348630,1348672,1348685,1348723,1348800,1348924,1348964,1348974,1348977,1348980,1349012,1349027,1349046,1349058,1349063,1349214,1349361,1349378,1349437,1349502,1349510,1349601,1349612,1349622,1349758,1349795,1349802,1349828,1349897,1349979,1350047,1350050,1350074,1350429,1350436,1350444,1350466,1350718,1350723,1350764,1350890,1351026,1351108,1351129,1351225,1351460,1351590,1351661,1351672,1351829,1351839,1351879,1351931-1351932,1352038,1352173,1352238,1352420,1352535,1352600,1352609,1352760,1352795,1352942,1352949,1352967,1353004,1353097,1353101,1353843,1354105,1354308,1354455,1354826,1354850,1354864-1354865,1354887,1355001,1355004,1355069,1355120,1355238,1355311,1356033,1356081,1356083,1356192,1356308,1356313,1356435-1356437,1356469,1356520,1356522,1356561,1356778,1356797,1356824,1356842,1357027,1357324,1357331,1357359,1357451,1357595,1357611,1357703,1357707,1357887,1357952,1358123,1358149,1358214,1358219-1358220,1358262,1358377,1358380,1358386,1358481,1358650,1358748,1358751,1359202,1359238,1359249,1359255,1359259,1359267,1359275,1359301,1359322,1359324,1359327,1359355,1359449,1359467,1359590,1359611,1359684,1359732-1359733,1359827,1359873,1359920,1359946,1359953,1360021,1360028,1360205,1360240,1360254,1360272,1360324,1360327,1360354,1360363,1360395,1360416,1360446,1360451,1360454,1360475,1360494,1360619,1360630,1360634,1360639,1360643,1360645,1360687,1360931,1360977,1360979,1361017,1361091,1361243,1361276,1361301,1361310,1361315,1361408,1361480,1361512,1361517,1361568,1361701,1361707-1361708,1361741,1361745,1361805,1361840,1361857,1361896,1361910,1361966,1362025,1362027,1362074,1362232,1362236,1362442,1362500,1362667,1362994,1363004,1363013,1363024,1363049,1363082,1363084,1363115,1363161,1363330,1363333,1363335,1363379,1363512,1363555,1363781,1363796,1363799,1363803,1363811,1363819,1363821,1363871,1363971,1364006,1364013,1364015,1364026,1364031,1364107,1364347,1364349,1364355-1364356,1364409,1364429,1364438-1364439,1364459,1364463,1364466,1364568-1364570,1364576,1364618,1364688,1364693,1364714,1364728,1364763,1364782,1364786,1364792,1364797,1364812,1364828,1364882,1364888,1364896,1364903,1364908,1364912,1364923,1364931,1364940,1364967,1365014,1365166,1365257,1365313,1365363,1365383,1365390,1365428,1365437,1365444,1365450,1365586,1365602,1365607,1365610,1365657,1365837,1365857,1365865,1365956,1365958,1365971,1365992,1366011,1366016,1366115,1366130,1366164,1366171,1366186,1366220,1366222,1366231,1366241,1366247,1366249,1366284,1366335,1366360,1366381,1366392,1366460,1366477,1366509,1366544,1366550,1366568,1366572,1366574,1366588,1366631,1366646,1366716,1366748,1366756,1366775,1366809,1366823,1366832,1366846,1366850,1366854,1366872,1366881,1366969,1367071,1367096,1367120,1367125,1367171,1367178,1367186,1367192,1367194,1367228,1367316-1367317,1367358,1367362,1367377,1367384,1367386,1367623,1367800,1367916,1368157,1368188,1368190,1368255,1368286,1368478,1368590,1368592,1368614,1368616,1368618,1368725,1368745,1368760,1368927,1368966,1368969,1368991,1368998,1369022,1369025,1369031,1369069,1369073,1369097,1369103,1369106,1369189,1369196,1369205,1369207,1369223,1369236,1369241,1369243,1369367,1369396,1369433,1369465,1369484,1369500,1369502,1369510,1369711,1369859,1369874,1369876,1369883,1369911,1369961,1369984,1370087,1370107,1370241,1370297,1370309,1370314,1370317,1370334,1370341,1370480,1370513,1370518,1370591,1370605,1370805,1370864,1370870,1370904,1370908,1370944,1371030,1371150,1371291,1371379,1371397-1371399,1371412,1371478,1371491,1371623,1371630,1371644,1371688,1371709,1371725,1371729,1371745,1371839,1371843,1371845,1371883,1371889,1371906,1371916,1371996,1372025,1372045,1372069,1372071,1372125,1372145,1372171,1372190,1372218,1372243,1372406,1372456,1372626,1372631,1372633,1372645,1372654,1372687,1372701,1372839,1372858,1372866,1372981,1373072,1373117,1373204,1373246,1373343,1373398,1373553,1373598,1373606,1373801,1373803,1373851,1373895,1373900,1373904,1373989,1373995,1374004,1374006,1374009,1374022,1374045,1374072,1374079,1374115,1374120,1374237,1374381,1374480,1374490,1374646,1374694,1374713,1374715,1374835,1374857,1374912,1375119,1375332,1375340,1375428,1375486,1375499,1375507,1375522,1375657,1375674,1375723,1375725,1376158,1376261,1376305,1376313,1376434</S:set-prop>
+<S:open-directory name="lucene" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/lucene/dev/branches/branch_3x/lucene:1232954,1302733*,1302749,1302808,1303007,1303023,1303269,1303733,1303854,1304295,1304360,1304660,1304904,1305074,1305142,1305681,1305693,1305719,1305741,1305816,1305837,1306929,1307050
+/lucene/dev/branches/lucene2510/lucene:1364862-1365496
+/lucene/dev/branches/lucene3969/lucene:1311219-1324948
+/lucene/dev/branches/lucene4055/lucene:1338960-1343359
+/lucene/dev/branches/lucene4199/lucene:1358548-1359191
+/lucene/dev/branches/pforcodec_3892/lucene:1352188-1375470
+/lucene/dev/trunk/lucene:1343946,1343968,1344038,1344041,1344306,1344318,1344441,1344531,1344775,1344826,1344844,1344925,1344938,1344946,1344958,1344967,1345376,1345523,1345540-1345542,1345548,1345869,1346001,1346101,1346322,1346407,1346419,1346434,1346465,1346494,1346500,1346520,1346582,1346645,1346784,1346873-1346975,1346983,1346986,1346995,1346999,1347313,1347323,1347817,1348171,1348236,1348278,1348289,1348348,1348354,1348517,1348524,1348606,1348621,1348630,1348672,1348685,1348723,1348924,1348964,1348974,1348977,1348980,1349012,1349027,1349046,1349058,1349063,1349214,1349361,1349378,1349437,1349502,1349510,1349601,1349612,1349622,1349758,1349795,1349802,1349828,1349897,1349979,1350047,1350050,1350074,1350429,1350436,1350444,1350718,1350723,1350764,1350890,1351108,1351129,1351225,1351460,1351590,1351661,1351672,1351829,1351839,1351879,1352038,1352173,1352238,1352420,1352535,1352600,1352609,1352795,1352942,1352949,1352967,1353004,1353097,1353101,1353433,1353843,1354308,1354455,1354826,1354850,1354864-1354865,1354887,1355001,1355069,1355120,1355238,1355311,1356081,1356083,1356192,1356435-1356437,1356561,1356778,1356797,1357027,1357324,1357331,1357359,1357451,1357595,1357611,1357703,1357707,1357952,1358123,1358149,1358377,1358380,1358386,1358650,1358748,1358751,1359202,1359238,1359249,1359255,1359259,1359275,1359322,1359327,1359355,1359590,1359611,1359827,1359873,1359946,1359953,1360021,1360028,1360205,1360240,1360254,1360272,1360354,1360395,1360451,1360454,1360475,1360619,1360645,1360687,1360931,1360977,1360979,1361091,1361243,1361301,1361408,1361480,1361512,1361517,1361701,1361741,1361745,1361857,1361896,1361910,1361966,1362025,1362074,1362236,1362442,1362667,1363004,1363049,1363082,1363084,1363115,1363161,1363379,1363555,1363803,1363819,1363821,1363871,1363971,1364006,1364026,1364031,1364107,1364409,1364568,1364570,1364576,1364618,1364688,1364693,1364714,1364728,1364763,1364782,1364792,1364797,1364812,1364882,1364896,1364903,1364908,1364912,1364931,1364940,1364967,1365014,1365166,1365257,1365363,1365383,1365390,1365450,1365586,1365602,1365610,1365837,1365857,1365865,1365971,1365992,1366011,1366115,1366164,1366220,1366222,1366231,1366241,1366249,1366284,1366335,1366360,1366381,1366392,1366460,1366477,1366509,1366568,1366574,1366588,1366631,1366646,1366716,1366748,1366756,1366775,1366809,1366823,1366832,1366850,1366854,1366872,1366881,1367071,1367096,1367125,1367178,1367186,1367192,1367194,1367316,1367358,1367362,1367377,1367384,1367386,1367623,1367800,1367916,1368157,1368188,1368190,1368255,1368286,1368478,1368614,1368616,1368618,1368745,1368927,1368966,1368969,1368991,1369022,1369196,1369205,1369433,1369502,1369859,1369874,1369876,1369883,1369911,1369961,1369984,1370241,1370297,1370309,1370314,1370480,1370513,1370591,1370805,1370870,1370904,1370908,1370944,1371150,1371291,1371379,1371412,1371478,1371491,1371630,1371644,1371709,1371725,1371839,1371996,1372025,1372045,1372069,1372071,1372125,1372145,1372171,1372190,1372218,1372243,1372456,1372631,1372633,1372645,1372654,1372687,1372839,1372858,1372866,1373072,1373117,1373204,1373246,1373343,1373553,1373598,1373606,1373801,1373803,1373851,1373895,1373904,1373989,1373995,1374004,1374006,1374009,1374045,1374115,1374120,1374237,1374381,1374480,1374490,1374646,1374713,1374715,1374835,1374857,1374912,1375119,1375332,1375428,1375486,1375499,1375507,1375522,1375657,1375674,1375723,1375725,1376158,1376261,1376305,1376313,1376434</S:set-prop>
+<S:open-directory name="core" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/lucene/dev/branches/branch_3x/lucene/core:1232954,1302749,1302808,1303007,1303023,1303269,1303733,1303854,1304295,1304360,1304660,1304904,1305074,1305142,1305681,1305693,1305719,1305741,1305816,1305837,1306929,1307050
+/lucene/dev/branches/lucene2510/lucene/core:1364862-1365496
+/lucene/dev/branches/lucene3969/lucene/core:1311219-1324948
+/lucene/dev/branches/lucene4055/lucene/core:1338960-1343359
+/lucene/dev/branches/lucene4199/lucene/core:1358548-1359191
+/lucene/dev/branches/pforcodec_3892/lucene/core:1352188-1375470
+/lucene/dev/trunk/lucene/core:1343946,1343968,1344038,1344041,1344306,1344318,1344441,1344531,1344775,1344826,1344844,1344925,1344938,1344946,1344958,1344967,1345376,1345523,1345540-1345542,1345548,1345869,1346001,1346101,1346322,1346407,1346419,1346434,1346465,1346494,1346500,1346520,1346582,1346645,1346784,1346873-1346975,1346983,1346986,1346995,1346999,1347313,1347323,1347817,1348171,1348236,1348278,1348289,1348348,1348354,1348517,1348524,1348606,1348621,1348630,1348672,1348685,1348723,1348924,1348964,1348974,1348977,1348980,1349012,1349027,1349046,1349058,1349063,1349214,1349361,1349378,1349437,1349502,1349510,1349601,1349612,1349622,1349758,1349795,1349802,1349828,1349897,1349979,1350047,1350050,1350074,1350429,1350436,1350444,1350718,1350723,1350764,1350890,1351108,1351129,1351225,1351460,1351590,1351661,1351672,1351829,1351839,1351879,1352038,1352173,1352238,1352420,1352535,1352600,1352609,1352795,1352942,1352949,1352967,1353004,1353097,1353101,1353433,1353843,1354308,1354455,1354826,1354850,1354864-1354865,1354887,1355001,1355069,1355120,1355238,1355311,1356081,1356083,1356192,1356435-1356437,1356561,1356778,1356797,1357027,1357324,1357331,1357359,1357451,1357595,1357611,1357703,1357707,1357952,1358123,1358149,1358377,1358380,1358386,1358650,1358748,1358751,1359202,1359238,1359249,1359255,1359259,1359275,1359322,1359327,1359355,1359590,1359611,1359827,1359873,1359946,1359953,1360021,1360028,1360205,1360240,1360254,1360272,1360354,1360395,1360451,1360454,1360475,1360619,1360645,1360687,1360931,1360977,1360979,1361091,1361243,1361301,1361408,1361480,1361512,1361517,1361701,1361741,1361745,1361857,1361896,1361910,1361966,1362025,1362074,1362236,1362442,1362667,1363004,1363049,1363082,1363084,1363115,1363161,1363379,1363555,1363803,1363819,1363821,1363871,1363971,1364006,1364031,1364107,1364409,1364688,1364693,1364714,1364728,1364763,1364792,1364812,1364896,1364903,1364908,1364912,1364931,1364940,1364967,1365014,1365166,1365257,1365363,1365383,1365390,1365450,1365586,1365602,1365610,1365837,1365857,1366011,1366115,1366241,1366249,1366460,1366568,1366574,1366588,1366646,1366716,1366775,1366809,1366823,1366832,1366850,1366881,1367125,1367178,1367186,1367192,1367194,1367316,1367358,1367362,1367377,1367384,1367386,1367623,1367800,1367916,1368157,1368190,1368255,1368286,1368478,1368614,1368616,1368745,1368927,1368991,1369022,1369196,1369205,1369433,1369874,1369876,1369984,1370241,1370297,1370309,1370314,1370805,1370870,1370904,1370908,1371150,1371291,1371379,1371412,1371478,1371491,1371630,1371644,1371709,1371996,1372025,1372045,1372069,1372071,1372125,1372171,1372243,1372456,1372645,1372654,1372687,1372839,1372858,1372866,1373072,1373117,1373204,1373246,1373343,1373553,1373598,1373606,1373801,1373803,1373851,1373895,1373904,1373989,1373995,1374004,1374006,1374009,1374045,1374120,1374237,1374381,1374480,1374490,1374713,1374715,1374835,1374912,1375119,1375332,1375428,1375486,1375499,1375507,1375522,1375657,1375674,1375723,1375725,1376158,1376261,1376305,1376313,1376434</S:set-prop>
+<S:open-directory name="src" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="util" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="packed" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="BulkOperationPacked31.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked31.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>afe3c93bc922214ebd3a760620363128</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked23.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked23.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>e5965c9ddd3c91e4a0b61460415becbc</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="DirectPacked64SingleBlockReader.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/DirectPacked64SingleBlockReader.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>1a6e874f930cf51dafdf1473cde23425</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked15.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked15.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>a4de90ffb6d9ee7fdc8e286abb91ad21</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked51.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked51.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>7b0cb696a893620a8271e2ccb5b1948a</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked43.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked43.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>8c18a59f022b01efea823b816d0c613b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked35.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked35.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>d7bc3e45e3e25ae6f5e45144bcb38dda</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked27.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked27.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>1da5705a23bfc294dacdff4c0ff95445</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked63.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked63.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>34e93ad9e861331cdde31554c773b769</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked19.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked19.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>b1a02d66d5fe736d76154799ba99122b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked55.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked55.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>86c0b269c77ca7f9005b366607b2cdf0</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked47.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked47.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>37f6bfc4e9c5f2bc46ca59a7ff54e6fc</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked39.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked39.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>f9250493f110a045fd6f7778d381edf1</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked59.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked59.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>1da5c6bbb41e39fcef3e40d028637cf6</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock12.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock12.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>edf0db76ef87606c0edda4d61af74b90</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked1.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked1.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>f27d3888c4b264fe62d17678e1556c60</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock32.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock32.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>3dd4c78178fe3d39d7f9c7d1f1ad758e</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock16.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock16.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>f4ed4acd6a1cb73de22d95630580b982</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="gen_Direct.py" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/gen_Direct.py</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>2d0a53e90dbed408a1554636aee2ebe5</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked5.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked5.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>61bae91252f03fecb53500dcdeb0e9ff</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked9.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked9.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>35562f11630f67e1cd7034c1b400273d</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock3.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock3.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>a031207f211fff25d1cf35c8eb673ac2</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked20.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked20.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>d6585feda2a9a852040deb4e7bfdb6ea</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked12.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked12.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>cb11a955790ff489a4b09f627ec220f3</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked40.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked40.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>522000ed55843bdb67b99bd55090bbf7</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock7.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock7.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>15a5709abdad12912b02985a05d6cb88</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked32.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked32.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>c74a473a90024579dc3e228021cd0948</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked60.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked60.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>218edaaf63f5792361d8f86b31af538b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked24.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked24.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>c3f2b1786c40916ce5aee90b119f4de4</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked52.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked52.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>46bb4867ac4cd4dc0c7ab03bf41188ba</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked16.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked16.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>7971eab211d9d0bca8c0a2132743f977</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked44.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked44.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>bc5528831b6ed7699cddb3f0b4fc7c7e</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked36.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked36.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>04033f02bb1536c328c78109dfb5401e</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked64.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked64.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>0fb9e65a5cd0b697711b59198cb218db</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked28.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked28.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>328360ced0a70a568ed1239727239a0b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked56.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked56.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>49fb3f515ec9aab8a5caf10f2a11e77b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked48.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked48.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>24063aaec19c6fae43b663ef3e631cfa</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock21.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock21.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>73ae21e1d813b25bbcac08728abbd31a</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked2.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked2.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>fd1f407653a24bba6e557c3bf861f6c9</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked6.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked6.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>6e458c2dc7f8236443ebdbc1ce7970c8</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="gen_BulkOperation.py" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/gen_BulkOperation.py</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:fetch-file base-checksum="13f6f5e7c3dff04ab89b036b31a0718f" sha1-checksum="57beb307eb320c283bb46162e56d28b443faa662"/>
+<S:prop><V:md5-checksum>bea739732575eb6d44f2eb01e814e212</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="Packed16ThreeBlocks.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/Packed16ThreeBlocks.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>979436458c103aed81b34b248a6a14bb</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock4.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock4.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>706138a87a5c76d9b8e99a31f82eaff9</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked21.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked21.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>e4f0f9bd8878c06bde43ec75b6854aeb</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked13.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked13.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>8b88862f7e04e9bc119dbef3fe4f7a35</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock8.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock8.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>adbc418859580ad5a59b417e72e720cf</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked41.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked41.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>f01b99b33193c9a7015a448bb2b9f7cf</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked33.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked33.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>f2bca45f5a10e1362c8e1f55aeb55fc9</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked25.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked25.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>957098eb28fd5f5da8d5198477b93445</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked61.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked61.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>5babc8418fc0494b18256eaea3f16d25</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked17.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked17.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>19deec57c6759197e8cc1cc06dcba84b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked53.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked53.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>d60f333649f0712a9ba142eeff7a6b48</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked45.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked45.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>9f359f42290c898a5c9c2e6fc41c0955</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked37.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked37.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>8080a7702c3256606ce2996acadd1530</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked29.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked29.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>18a2cfc8dcdae50fd2312061b2732061</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked57.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked57.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>e9c254ec503ffe46dee5f35631d04e96</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked49.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked49.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>d3c44611127a32675432372f4b806b33</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock10.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock10.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>9cf523b6f0eedf662af2c31c26221ada</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="Packed8ThreeBlocks.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/Packed8ThreeBlocks.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>972baafbaad436bcb4cdc566cad0fc7d</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked3.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked3.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>480635d380933066bba93f405eac61cc</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked7.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked7.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>d2d0f7d2c3341e880d07bb7d40118571</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="Packed64SingleBlock.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/Packed64SingleBlock.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>e03996ed350eed9def792bcebd594e21</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="gen_Packed64SingleBlock.py" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/gen_Packed64SingleBlock.py</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>4f63863c42e5049dbfd1004b5d493907</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock1.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock1.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>179d13a4c99a4046ccad54d9ea28e2e3</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked10.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked10.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>d8d540fc06e3f8e4c8f6e243375a9a45</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock5.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock5.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>0f3eb703be5c45246b1dbd5a108d183e</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked30.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked30.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>d78b659d5946e799e3d81156181b3440</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked22.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked22.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>7d432839a469ee1720f4424b75641ecd</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked50.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked50.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>47a5237836fcd4eb558fb80a222cb25f</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked14.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked14.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>3010aa7d542c23f170e9d0422685c3a6</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock9.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock9.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>a63dcec3e689770177c5c81551db739f</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked42.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked42.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>9fd171e41e1e4b5740199994ece1963b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked34.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked34.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>2d2b25ff0372a7d35a682bb120528ab2</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked26.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked26.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>57e35a794670189efa4a72d6fec8f5e8</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked62.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked62.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>6c45fea1650143df6aea2114e2cdb354</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked18.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked18.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>172a703e691a0e494d38522dbc765192</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked54.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked54.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>8c852c0efc9835234ba3e7dd5a5653ab</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked46.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked46.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>fa021a09003b2d8c34d3c08e632628e3</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked38.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked38.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>51519c1b9ac9bf1bddb62fe7598c1134</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked58.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked58.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>da723deec8fc80875fc51fd7bd2a7f58</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked4.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked4.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>117b6bad1ad8dd4cbaa76959402faa53</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="gen_PackedThreeBlocks.py" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/gen_PackedThreeBlocks.py</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>941302b8f5a737f061a6040895f0c46f</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperation.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperation.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:fetch-file base-checksum="a2b7345fd68c20b182fcf70f79b69af2" sha1-checksum="534af874a44ae84212625294b60935d6fc9c5e66"/>
+<S:prop><V:md5-checksum>d326b3e10e0db39d7aea75fc2fb7c038</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked8.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked8.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>969b152e9382b2df6a81f46387bb3100</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock2.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock2.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>7c3782e9ad75856758a4a2e559efceb0</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked11.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked11.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>26f732944cae4f14d962ef1962d78cff</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock6.java" rev="1376434">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1376435/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock6.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1376435</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-23T11:08:52.764915Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>9b0cd84fe40826c15588dd9591b3ff3e</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>979554</D:version-name>
+<D:comment>MAHOUT-449 - NegativeBinomial needs fixing
+Added test cases for NegativeBinomial and underlying integrals like incompleteBeta.
+Added log case for Gamma.beta(alpha, beta) computation
+Tested Gamma.gamma, Gamma.incompleteBeta, 
+Improved error messages and comments
+Normalized variable names for Gamma distribution
+Tested Gamma.pdf and cdf
+Fixed confused conventions in NegativeBinomial
+Added google guava library to dependencies
+</D:comment>
+<D:creator-displayname>tdunning</D:creator-displayname>
+<S:date>2010-07-27T06:39:08.893654Z</S:date>
+</S:log-item>
+</S:log-report>

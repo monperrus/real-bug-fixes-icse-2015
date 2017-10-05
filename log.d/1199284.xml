@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1199284</D:version-name>
+<D:comment>Fix bug preventing the use of efficient cross-DC writes
+patch by slebresne; reviewed by jbellis for CASSANDRA-3472
+</D:comment>
+<D:creator-displayname>slebresne</D:creator-displayname>
+<S:date>2011-11-08T15:24:57.007476Z</S:date>
+</S:log-item>
+</S:log-report>

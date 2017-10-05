@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>953058</D:version-name>
+<D:comment>DERBY-728 Unable to create databases whose name containg Chinese characters through the client driver
+
+Small cleanup patch to add getters for short and regular datbase name.
+
+Contributed by  Tiago Espina (tiago dot derby at yahoo dot com )
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2010-06-09T16:00:57.238314Z</S:date>
+</S:log-item>
+</S:log-report>

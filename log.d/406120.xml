@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>406120</D:version-name>
+<D:comment>DERBY-900 -  Remove use of String(byte[]) and String(byte[], int, int) constructors in network client leading to non-portable behaviour
+
+Decided earlier to break up the derby900.p2.diff.txt, so I am attaching now a patch with the cleanup changes separately in derby900_p2_cleanup.diff.txt. Changes are:
+
+-- remove unnecessary conversion from sqlstate string to bytes and back to string , in parseSQLDCGRP(Sqlca[] rowsetSqlca, int lastRow) in NetConnectionReply.
+This has been done by adding a constructor in NetSqlca to take in the sqlstate as string.
+-- cleanup method getSqlState() in Sqlca.
+-- cleanup of ccsid_ in Sqlca as it is not used.
+
+Please note, the parseSQLDCGRP method in the diff shows more changes because of change in indentation because of removal of the try block.
+
+-- ran derbynetclientmats on ibm142/linux OK.
+
+Contributed by Sunitha Kambhampati
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-05-13T15:21:08.994428Z</S:date>
+</S:log-item>
+</S:log-report>

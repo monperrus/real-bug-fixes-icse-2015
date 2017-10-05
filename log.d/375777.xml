@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>375777</D:version-name>
+<D:comment>DERBY-932 - Fixed the way JDK 1.6 files are built so we don't use &lt;exec&gt;
+but &lt;javac&gt; with fork="yes".  
+
+Also updated BUILDING.txt to include instructions on how to build with
+JDK 1.6
+</D:comment>
+<D:creator-displayname>davidvc</D:creator-displayname>
+<S:date>2006-02-07T23:46:07.591856Z</S:date>
+</S:log-item>
+</S:log-report>

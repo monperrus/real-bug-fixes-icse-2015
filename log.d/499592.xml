@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>499592</D:version-name>
+<D:comment>Fixed bug when BooleanFilter class is used in conjunction with cached filters - the anding of filters' bitsets was changing the original rather than taking a copy of the contents. Changed to use BitSet.clone before performing any destructive operation</D:comment>
+<D:creator-displayname>mharwood</D:creator-displayname>
+<S:date>2007-01-24T22:19:05.680827Z</S:date>
+</S:log-item>
+</S:log-report>

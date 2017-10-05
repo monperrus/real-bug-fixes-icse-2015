@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>794112</D:version-name>
+<D:comment>DERBY-4292 creation of FileInputStream in org.apache.derby.impl.tools.ij.Main not wrapped in privilege block which can cause problems running under SecurityManager
+
+Contributed by Tiago R. Espinha (tiago at espinhas dot net)
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2009-07-14T23:11:22.340341Z</S:date>
+</S:log-item>
+</S:log-report>

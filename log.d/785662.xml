@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>785662</D:version-name>
+<D:comment>DERBY-4273: A lock could not be obtained within the time requested error in testBTreeForwardScan_fetchRows_resumeAfterWait_nonUnique_split
+
+Use default timeout values in IndexSplitDeadlockTest to give the test
+cases more time to complete successfully.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-06-17T15:22:17.807143Z</S:date>
+</S:log-item>
+</S:log-report>

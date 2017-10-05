@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>375818</D:version-name>
+<D:comment>DERBY-861
+
+issue is that  just prior to this query the test deletes and commits some rows.  In one phase of this locking test
+the table is configured to have one row per page.  In this case as soon as the delete commits, the post commit background
+thread can be scheduled to reclaim the deleted rows.  This scheduling is completely at the discretion of a number of factors including: OS/JVM/processor availbility .  To get reproducible results for this query I added a wait after the delete.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-02-08T00:59:25.766743Z</S:date>
+</S:log-item>
+</S:log-report>

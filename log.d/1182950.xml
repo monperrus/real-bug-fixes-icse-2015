@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1182950</D:version-name>
+<D:comment>Fix handling of tombstone by SSTableExport/Import when validation != BytesType
+patch by slebresne; reviewed by jbellis for CASSANDRA-3357
+</D:comment>
+<D:creator-displayname>slebresne</D:creator-displayname>
+<S:date>2011-10-13T16:19:07.754398Z</S:date>
+</S:log-item>
+</S:log-report>

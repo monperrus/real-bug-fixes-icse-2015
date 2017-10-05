@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>267239</D:version-name>
+<D:comment>DERBY-504: Disable pushing down DISTINCT when number of columns from the parent query and the subquery don't match. Can lead to wrong results.
+
+Thanks to Rick for persistant reviews and running the tests.
+
+Submitted by Knut Anders Hatlen (Knut.Hatlen@Sun.COM)
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2005-09-02T18:07:39.724421Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>572822</D:version-name>
+<D:comment>DERBY-2905 (partial) Add test fixtures to test that after an embedded shutdown that no
+Derby driver is left registered and that a subsequent load of the embedded driver succeeds.
+The assert for no driver left registered is disabled until DERBY-2905 is fixed.
+Inspired by Ramin Moazeni's patch v3 attached to the Jira issue.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-09-04T22:05:35.326498Z</S:date>
+</S:log-item>
+</S:log-report>

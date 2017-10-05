@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>912508</D:version-name>
+<D:comment>LUCENE-2190: Add testcase for rewrite. Also add missing annotation for other test added by Mike. CustomScore uses JUnit4, so @Test is needed. We should somehow customize LuceneTestCaseJ4 to emulate old behaviour, else we get lots of tests without annotation never ran.
+
+</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2010-02-22T08:27:05.307735Z</S:date>
+</S:log-item>
+</S:log-report>

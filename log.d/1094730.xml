@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1094730</D:version-name>
+<D:comment>DERBY-5185 store/rollForwardRecovery.sql stuck in RAFContainer4.recoverContainerAfterInterrupt() during shutdown
+
+Backported from trunk (svn revision 1094728).
+
+Follow-up patch derby-5185-3a which contains safe guard limits to two loops waiting for
+a condition variable: wait maximum one minute to avoid infinite hangs.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-04-18T20:21:07.991952Z</S:date>
+</S:log-item>
+</S:log-report>

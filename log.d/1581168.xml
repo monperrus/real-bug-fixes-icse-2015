@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1581168</D:version-name>
+<D:comment>SOLR-5760: ConcurrentUpdateSolrServer has a blockUntilFinished call when streamDeletes is true that should be tucked into the if statement below it. (merged branch_4x r1573441)</D:comment>
+<D:creator-displayname>sarowe</D:creator-displayname>
+<S:date>2014-03-25T00:54:39.318833Z</S:date>
+</S:log-item>
+</S:log-report>

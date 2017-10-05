@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="999925"/>
+<S:open-directory rev="999924">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/999925/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">999925</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-22T13:04:59.532815Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">drew</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="mahout" rev="999924">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/999925/mahout</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">999925</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-22T13:04:59.532815Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">drew</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="999924">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/999925/mahout/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">999925</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-22T13:04:59.532815Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">drew</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="conf" rev="999924">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/999925/mahout/trunk/conf</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">999925</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-22T13:04:59.532815Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">drew</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="lucenevector.props" rev="999925"/>
+<S:add-file name="lucene.vector.props" sha1-checksum="da39a3ee5e6b4b0d3255bfef95601890afd80709">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/999925/mahout/trunk/conf/lucene.vector.props</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">999925</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-22T13:04:59.532815Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">drew</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>d41d8cd98f00b204e9800998ecf8427e</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

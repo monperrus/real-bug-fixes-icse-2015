@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>543090</D:version-name>
+<D:comment>DERBY-2692: Client driver doesn't chain exceptions received from the server
+
+This patch makes the client recreate the chain of exceptions sent by
+the server instead of concatenating the messages.
+
+Description of the changes:
+
+* java/client/org/apache/derby/client/am/Sqlca.java:
+
+  - added a message number parameter to the methods that retrieved
+    mesage and SQL state
+
+  - fixed SqlErrmc parsing (used the correct delimiter) and renamed
+    sqlErrmcTokens_ to sqlErrmcMessages_ since the SqlErrmc was split
+    into its separate messages, not its tokens
+
+  - added a string array called sqlStates_, which keeps the SQL states
+    for each message in the chain
+
+* java/client/org/apache/derby/client/am/SqlException.java
+
+  - added a message number field to keep track of which message in the
+    SQLCA to use
+
+  - changed the constructor that takes an Sqlca argument so that it
+    recursively builds the chain of exceptions when the Sqlca contains
+    many messages
+
+* java/client/org/apache/derby/client/am/ExceptionFormatter.java
+
+  - removed the printing of SqlErrmcTokens in printTrace(), because
+    (a) that method was renamed, and (b) it contains the exact same
+    information as SqlErrmc which is printed anyway
+
+* java/testing/org/apache/derbyTesting/junit/BaseJDBCTestCase.java
+
+  - changed assertSQLState() so that it checks nested exceptions on
+    the client the same way as on embedded
+
+* java/testing/org/apache/derbyTesting/functionTests/tests/lang/ProcedureInTriggerTest.java
+
+  - enabled an assert that previously only worked on embedded
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-05-31T09:07:12.396119Z</S:date>
+</S:log-item>
+</S:log-report>

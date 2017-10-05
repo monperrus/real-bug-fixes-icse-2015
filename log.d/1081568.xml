@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1081568</D:version-name>
+<D:comment>DERBY-5119 testQualifiers(org.apache.derbyTesting.functionTests.tests.store.AccessTest)java.sql.SQLException: Table/View 'FOO' already exists in Schema 'APP'.
+
+Add drop of table FOO to teardown method so previous failed fixtures won't leave it around to intefere with others.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2011-03-14T21:22:24.754230Z</S:date>
+</S:log-item>
+</S:log-report>

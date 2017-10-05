@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>958555</D:version-name>
+<D:comment>DERBY-4694: Build breaks on OS X due to JDK classpath issues.
+
+Enabled JAR inspection for Mac OS X instead of using hard-coded values.
+The motivation for the change is that Apple has started symlinking the
+directories for JDK 1.4 and JDK 1.5 to JDK 1.6. This made the build fail on
+OS X (only recent fresh installs, where the symlinking is used).
+
+Patch file: derby-4694-1b.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-06-28T12:19:53.132980Z</S:date>
+</S:log-item>
+</S:log-report>

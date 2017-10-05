@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>643828</D:version-name>
+<D:comment>DERBY-3549:  Unable to start slave mode after authentication failure on a previous startSlave attempt
+Unboot database if startslave command fails on authentication.
+Contributed by Jorgen Loland
+
+Merged to 10.4 branch with command:
+svn merge -r642218:642219 https://svn.apache.org/repos/asf/db/derby/code/trunk/
+</D:comment>
+<D:creator-displayname>oysteing</D:creator-displayname>
+<S:date>2008-04-02T10:09:53.254544Z</S:date>
+</S:log-item>
+</S:log-report>

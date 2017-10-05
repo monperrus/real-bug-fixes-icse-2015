@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>628661</D:version-name>
+<D:comment>DERBY-3301: Incorrect result from query with nested EXIST
+
+Prevent the optimizer from flattening subqueries that
+need to be evaluated to get correct results.
+
+Merged with svn merge -r 618585:618586 ../derby-repro
+
+Simple merge with no conflicts; no additional changes were necessary.
+</D:comment>
+<D:creator-displayname>dyre</D:creator-displayname>
+<S:date>2008-02-18T09:25:07.791742Z</S:date>
+</S:log-item>
+</S:log-report>

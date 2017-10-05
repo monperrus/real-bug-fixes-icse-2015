@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>982627</D:version-name>
+<D:comment>fix key ordering in range query results with RandomPartitioner and ConsistencyLevel &gt; ONE.  patch by Jeremy Hanna and jbellis for CASSANDRA-1145</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-08-05T14:07:34.948323Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>711615</D:version-name>
+<D:comment>DERBY-3880 NPE on a query with having clause involving a join
+
+remap expression for AggregateNode operand if the JoinNode has been flattened.
+
+Fix contributed by Army Brown
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-11-05T16:59:35.415887Z</S:date>
+</S:log-item>
+</S:log-report>

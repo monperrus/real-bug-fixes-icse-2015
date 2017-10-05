@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1076462</D:version-name>
+<D:comment>DERBY-5082: ShutdownException in ContextManager.checkInterrupt() during shutdown
+
+The fix is two-fold:
+ a) Avoid destroying tx, which will fail, if the database is [being] shut down.
+ b) If destroying tx, catch ShutdownException in case someone shuts down the
+    database under our feet.
+
+Added a break to make the flow clearer (also avoids an unnecessary trace-line).
+
+Patch file: derby-5082-1a-fix.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-03-03T00:01:55.760405Z</S:date>
+</S:log-item>
+</S:log-report>

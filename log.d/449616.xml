@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>449616</D:version-name>
+<D:comment>DERBY-1326: Network server may abandon sessions when Derby system is
+shutdown and this causes intermittent hangs in the client
+
+Added JUnit test case which reliably reproduces the hang.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-09-25T09:14:54.331441Z</S:date>
+</S:log-item>
+</S:log-report>

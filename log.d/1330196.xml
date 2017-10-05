@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1330196</D:version-name>
+<D:comment>DERBY-5705: Authorization decorators don't null out connections when done
+
+- Callers that override DatabasePropertyTestSetup.tearDown() with an
+  empty method are replaced by calls to getNoTeardownInstance().
+
+- Make the tearDown() method in decorators returned by
+  getNoTeardownInstance() close and null out the reference to the
+  default connection.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-04-25T11:18:51.410560Z</S:date>
+</S:log-item>
+</S:log-report>

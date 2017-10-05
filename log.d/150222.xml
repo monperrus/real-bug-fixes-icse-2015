@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>150222</D:version-name>
+<D:comment>- Applied a patch that treats \n and \r characters in query strings the same
+  way that \t and " " are treated.
+  http://issues.apache.org/bugzilla/show_bug.cgi?id=18847
+  Contributed by Daniel Naber
+</D:comment>
+<D:creator-displayname>otis</D:creator-displayname>
+<S:date>2004-03-03T12:07:13.000000Z</S:date>
+</S:log-item>
+</S:log-report>

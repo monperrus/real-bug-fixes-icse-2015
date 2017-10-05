@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>779681</D:version-name>
+<D:comment>DERBY-3296: Importing to table in default schema fails when another table with the same name exists in a different schema
+
+If schema isn't specified, ColumnInfo should pass the name of the
+session's current schema to DatabaseMetaData.getColumns().
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-05-28T17:25:48.127279Z</S:date>
+</S:log-item>
+</S:log-report>

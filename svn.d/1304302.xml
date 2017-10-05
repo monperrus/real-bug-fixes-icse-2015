@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1304302"/>
+<S:open-directory rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="dev" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/lucene/dev/branches/LUCENE2793:1137551-1144189
+/lucene/dev/branches/branch_3x:949730,957490,961612,979161,980654,982195,987811,988512,1025544,1026614,1034080,1039151,1050654,1056762,1060014,1060438,1060784,1061035,1063880,1063934,1065324,1066771,1067699,1067764,1070818,1075044,1079376,1079381,1080071,1081052,1083240,1083534,1083726,1083789,1083812,1085811,1090423,1091501,1092373,1095519,1098770,1099210,1100407,1100480,1100494,1100515,1101106,1103086,1128215,1128227,1128462,1129419,1129435,1130612,1132581,1132978,1134823,1134917,1136714,1138351,1139430,1139461,1141060,1144653,1148611,1148849,1148864,1150434,1151830,1151947,1152766,1166791,1173311,1173701,1173745,1177994,1180637,1184955,1188805,1189914,1189969,1190293,1198337,1199847,1201739,1204005,1204436,1204494,1204519,1204547,1204565,1204826,1204970,1206022,1207010,1207024,1208375,1212063,1212539,1212754,1215483,1226235,1226466,1229268,1230429,1232011,1234450,1235713,1243906,1244960,1299077,1302155,1302243,1302509,1302548,1302703,1302733,1302749,1302808,1303007,1303023,1303269,1303733,1303854,1304295
+/lucene/dev/branches/bulkpostings:1069647,1069925
+/lucene/dev/branches/docvalues:1021634-1134288
+/lucene/dev/branches/lucene2621:1188713-1197598,1197605-1199706,1199787-1202835
+/lucene/dev/branches/lucene2858:1234440-1238051
+/lucene/dev/branches/lucene3606:1209906-1212022
+/lucene/dev/branches/lucene3622:1211241-1213825
+/lucene/dev/branches/lucene3661:1233476-1237242,1237250-1238012
+/lucene/dev/branches/lucene3795_lsp_spatial_module:1291491-1300396
+/lucene/dev/branches/lucene_solr_3_1:1081856,1083239,1085499,1085511,1085532,1085809,1101103
+/lucene/dev/branches/lucene_solr_3_2:1128223,1128247,1129418,1129472
+/lucene/dev/branches/lucene_solr_3_3:1138390,1138979,1139775
+/lucene/dev/branches/preflexfixes:967125-979432
+/lucene/dev/branches/realtime_search:953476-1097796
+/lucene/dev/branches/solr2452:1087601-1144716</S:set-prop>
+<S:open-directory name="modules" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/modules</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="queryparser" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/modules/queryparser</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/modules/queryparser/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/modules/queryparser/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/modules/queryparser/src/test/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/modules/queryparser/src/test/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/modules/queryparser/src/test/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="queryparser" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/modules/queryparser/src/test/org/apache/lucene/queryparser</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="xml" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/modules/queryparser/src/test/org/apache/lucene/queryparser/xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="builders" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/modules/queryparser/src/test/org/apache/lucene/queryparser/xml/builders</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TestNumericRangeFilterBuilder.java" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/modules/queryparser/src/test/org/apache/lucene/queryparser/xml/builders/TestNumericRangeFilterBuilder.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+<S:prop><V:md5-checksum>9945f2a76090ca2d7216798b5c0198b2</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="spatial" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/modules/spatial</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lib" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/modules/spatial/lib</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="lucene" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/lucene/dev/branches/branch_3x/lucene:1302733*,1302749,1302808,1303007,1303023,1303269,1303733,1303854,1304295</S:set-prop>
+<S:open-directory name="core" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/core</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/core/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/core/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/core/src/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/core/src/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/core/src/java/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="codecs" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/core/src/java/org/apache/lucene/codecs</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene3x" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/core/src/java/org/apache/lucene/codecs/lucene3x</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TermInfosReaderIndex.java" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/core/src/java/org/apache/lucene/codecs/lucene3x/TermInfosReaderIndex.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+<S:prop><V:md5-checksum>16f406a633503368e081252ad078a759</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="search" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/core/src/java/org/apache/lucene/search</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="similarities" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/core/src/java/org/apache/lucene/search/similarities</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TFIDFSimilarity.java" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/core/src/java/org/apache/lucene/search/similarities/TFIDFSimilarity.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="5c494235e316cb508f2a0984c9281ca5" sha1-checksum="9acf2937f7bb22cef8cac9b990355cca3fd48d7e"/>
+<S:prop><V:md5-checksum>ea7783696bcabaac84bb85f91fa2bad1</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="contrib" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/contrib</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="CHANGES.txt" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/contrib/CHANGES.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+<S:prop><V:md5-checksum>b85f8ff21601cc62d3c8937b1cf272b3</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="sandbox" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/contrib/sandbox</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/contrib/sandbox/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/contrib/sandbox/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/contrib/sandbox/src/test/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/contrib/sandbox/src/test/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/contrib/sandbox/src/test/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="sandbox" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/contrib/sandbox/src/test/org/apache/lucene/sandbox</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="queries" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/contrib/sandbox/src/test/org/apache/lucene/sandbox/queries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="regex" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/contrib/sandbox/src/test/org/apache/lucene/sandbox/queries/regex</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="TestSpanRegexQuery.java" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/lucene/contrib/sandbox/src/test/org/apache/lucene/sandbox/queries/regex/TestSpanRegexQuery.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+<S:prop><V:md5-checksum>7286627a68f52d0e5173ea45b133b5dd</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="dev-tools" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/dev-tools</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+<S:open-directory name="idea" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/dev-tools/idea</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/dev-tools/idea/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="contrib" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/dev-tools/idea/lucene/contrib</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="solr" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/lucene/dev/branches/LUCENE2793/solr:1137551-1144189
+/lucene/dev/branches/branch_3x/solr:949730,957490*,961612,979161,980654,982195,987811,988512,1025544,1026614,1034080,1039151,1050654,1056762,1060014,1060438,1060784,1061035,1063880,1063934,1065324,1070818,1075044,1079376,1079381,1080071,1081052,1083240,1085811,1090423,1091501,1092373,1095519,1098770,1099210,1100407,1100480,1100494,1100515,1101106,1103086,1128215,1128227,1128462,1129419,1129435,1130612,1132581,1132978,1134823,1134917,1136714,1138351,1139430,1139461,1141060,1144653,1148611,1148849,1148864,1150434,1151830,1151947,1152766,1166791,1171384,1173311,1173701,1173745,1177994,1180637*,1184955,1188805,1189914,1189969,1198337,1199847,1204494,1204519,1204547,1204565,1204826,1207010,1208375,1226235,1229268,1230429,1234450,1235713,1244960,1302703,1302733,1302749,1302808,1303269,1303733,1304295
+/lucene/dev/branches/bulkpostings/solr:1069647,1069925
+/lucene/dev/branches/docvalues/solr:1021634-1134288
+/lucene/dev/branches/lucene2621/solr:1188713-1197598,1197605-1199706,1199787-1202835
+/lucene/dev/branches/lucene2858/solr:1234440-1238051
+/lucene/dev/branches/lucene3606/solr:1209906-1212022
+/lucene/dev/branches/lucene3622/solr:1211241-1213825
+/lucene/dev/branches/lucene3661/solr:1233476-1237242,1237250-1238012
+/lucene/dev/branches/lucene3795_lsp_spatial_module/solr:1291491-1300396
+/lucene/dev/branches/lucene_solr_3_1/solr:1081856,1083239,1085499,1085511,1085532,1085809,1101103
+/lucene/dev/branches/lucene_solr_3_2/solr:1128223,1128247,1129418,1129472
+/lucene/dev/branches/lucene_solr_3_3/solr:1138390,1138979,1139775
+/lucene/dev/branches/preflexfixes/solr:967125-979432
+/lucene/dev/branches/realtime_search/solr:953476-1097796
+/lucene/dev/branches/solr2452/solr:1087601-1144716
+/lucene/java/branches/lucene_2_4/solr:748824
+/lucene/java/branches/lucene_2_9/solr:817269-818600,825998,829134,829881,831036,896850,909334
+/lucene/java/branches/lucene_2_9_back_compat_tests/solr:818601-821336
+/lucene/java/branches/lucene_3_0/solr:880793,896906
+/lucene/solr/branches/newtrunk/solr:924462
+/lucene/solr/trunk:922950-923910,923912-925091</S:set-prop>
+<S:open-directory name="lib" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/lib</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+</S:open-directory>
+<S:open-directory name="test-framework" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/test-framework</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+</S:open-directory>
+<S:open-file name="README.txt" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/README.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+<S:prop><V:md5-checksum>16afd872bf74eeafc5d4733bb803b4df</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="dev-tools" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/dev-tools</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+</S:open-directory>
+<S:open-directory name="webapp" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/webapp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+</S:open-directory>
+<S:open-file name="testlogging.properties" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/testlogging.properties</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+<S:prop><V:md5-checksum>aa85d39d045cea01ae6c97aad59ba334</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="common-build.xml" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/common-build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+<S:prop><V:md5-checksum>f297436901637c2988fa41ab22e0e6bf</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="CHANGES.txt" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/CHANGES.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+<S:prop><V:md5-checksum>7801051b756dd457d1fe494932d23aeb</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="scripts" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/scripts</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+</S:open-directory>
+<S:open-directory name="core" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/core</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+<S:open-directory name="src" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/core/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/core/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+</S:open-directory>
+<S:open-directory name="java" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/core/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="solrj" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/solrj</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+<S:open-directory name="src" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/solrj/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/solrj/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/solrj/src/test/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/solrj/src/test/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="solr" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/solrj/src/test/org/apache/solr</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="client" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/solrj/src/test/org/apache/solr/client</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+<S:open-directory name="solrj" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/solrj/src/test/org/apache/solr/client/solrj</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="common" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/solrj/src/test/org/apache/solr/common</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="java" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/solrj/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="example" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/example</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+</S:open-directory>
+<S:open-file name="build.xml" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+<S:prop><V:md5-checksum>36cf6b5d2a9db0e6bdcc79095c254a4d</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="NOTICE.txt" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/NOTICE.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+<S:prop><V:md5-checksum>b91f5cadf409275b1e917ada9a0191f4</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="LICENSE.txt" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/LICENSE.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+<S:prop><V:md5-checksum>db194823f1882b7655a4c63ba33b7db3</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="contrib" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/contrib</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+<S:open-directory name="dataimporthandler-extras" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/contrib/dataimporthandler-extras</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/contrib/dataimporthandler-extras/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/contrib/dataimporthandler-extras/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="uima" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/contrib/uima</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/contrib/uima/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test-files" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/contrib/uima/src/test-files</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+</S:open-directory>
+<S:open-directory name="java" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/contrib/uima/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="clustering" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/contrib/clustering</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/contrib/clustering/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test-files" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/contrib/clustering/src/test-files</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="dataimporthandler" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/contrib/dataimporthandler</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/contrib/dataimporthandler/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/contrib/dataimporthandler/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/contrib/dataimporthandler/src/test/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="test-files" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/contrib/dataimporthandler/src/test-files</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+</S:open-directory>
+<S:open-directory name="java" rev="1304301">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1304302/lucene/dev/trunk/solr/contrib/dataimporthandler/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1304302</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-03-23T12:14:29.661060Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">rmuir</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

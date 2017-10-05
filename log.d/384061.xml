@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>384061</D:version-name>
+<D:comment>DERBY-975: Catch exception but don't call getMessage on it in 1.3 VMs. Fixes a canon diff in
+updatableResultSet.java on ibm131.
+
+Committed for Fernanda Pizzorno &lt;Fernanda.Pizzorno@sun.com&gt;
+</D:comment>
+<D:creator-displayname>fuzzylogic</D:creator-displayname>
+<S:date>2006-03-08T00:00:56.103363Z</S:date>
+</S:log-item>
+</S:log-report>

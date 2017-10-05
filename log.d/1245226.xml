@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1245226</D:version-name>
+<D:comment>DERBY-4631 Wrong join column returned by right outer join with NATURAL or USING and territory-based collation
+
+Rearranged the test code a little bit for reusability purposes.
+
+Adding test for left and right outer joins with views supplying the data instead of base tables.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2012-02-16T22:42:47.455991Z</S:date>
+</S:log-item>
+</S:log-report>

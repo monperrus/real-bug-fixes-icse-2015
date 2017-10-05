@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1002744</D:version-name>
+<D:comment>MAHOUT-513
+- fixed bug in OnlineGaussianAccumulator.getStd()
+- added test of variance
+all tests now run, though std/variance results are different than with RunningSums</D:comment>
+<D:creator-displayname>jeastman</D:creator-displayname>
+<S:date>2010-09-29T17:11:59.535431Z</S:date>
+</S:log-item>
+</S:log-report>

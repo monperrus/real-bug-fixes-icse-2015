@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>947953</D:version-name>
+<D:comment>Hadoop input format now uses the specified column family to figure out the number of splits instead of the whole keyspace. Patch by johan, review by jbellis. CASSANDRA-1050</D:comment>
+<D:creator-displayname>johan</D:creator-displayname>
+<S:date>2010-05-25T07:40:47.252843Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>379513</D:version-name>
+<D:comment>DERBY-960  Client xa prepare returns XA_OK instead of XA_RDONLY for a read only transaction
+port from trunk.  Tests will be ported once DERBY-435 is complete
+Verified fix with repro.
+
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-02-21T16:19:30.399430Z</S:date>
+</S:log-item>
+</S:log-report>

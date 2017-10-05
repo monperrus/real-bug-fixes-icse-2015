@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>325896</D:version-name>
+<D:comment>Committed DERBY-555 for Øystein Grøvlen (oystein.grovlen@sun.com):
+
+With this patch, when a database is booted in read-only mode, the boot message in derby.log will contain information about that.
+
+I have also added a test, TurnsReadOnly.java, that without the fix, get the NPE. This is not in a disk full scenario, but it also occurs with a read-only DB directory. Since there is currently no way to turn write access back on from a Java program, the DB directory will be read-only after the test is run. Hence, the test framework will not be able to clean up the test directory. Therefore, this test is not added to the derbyall test suite.
+
+The following files are changed:
+
+M java/engine/org/apache/derby/impl/store/raw/RawStore.java
+      Do not check log location for read-only databases (avoids NPE)
+M java/engine/org/apache/derby/impl/store/raw/data/BaseDataFileFactory.java
+      Add information to boot message in derby.log when database is booted in read-only mode.
+M java/engine/org/apache/derby/iapi/reference/MessageId.java
+      Added message id for the read-only part of the boot message
+M java/engine/org/apache/derby/loc/messages_en.properties
+      Added text for the read-only part of the boot message
+M java/testing/org/apache/derbyTesting/functionTests/tests/store/copyfiles.ant
+      Added TurnsReadOnly_app.properties
+A java/testing/org/apache/derbyTesting/functionTests/tests/store/TurnsReadOnly.java
+      New test that boots a database with log in non-default location, shuts it down, sets DB directory to read-only, boots again and checks that DML is not allowed.
+A java/testing/org/apache/derbyTesting/functionTests/tests/store/TurnsReadOnly_app.properties
+      Test properties
+A java/testing/org/apache/derbyTesting/functionTests/master/TurnsReadOnly.out
+      Master file for new test. 
+
+</D:comment>
+<D:creator-displayname>bakksjo</D:creator-displayname>
+<S:date>2005-10-17T14:09:51.258251Z</S:date>
+</S:log-item>
+</S:log-report>

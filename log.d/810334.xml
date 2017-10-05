@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>810334</D:version-name>
+<D:comment>update non-major compaction logic to use two threshold values: minimum sstables to compact (4) and maximum to compact at once (32).  before, the same threshold (4) was used for both.  the new logic lets the system recover faster from a bulk load that generates sstables faster than compaction can combine them.  patch by Chris Goffinet and jbellis for CASSANDRA-407</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-09-02T02:01:03.558244Z</S:date>
+</S:log-item>
+</S:log-report>

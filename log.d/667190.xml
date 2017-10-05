@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>667190</D:version-name>
+<D:comment>SOLR-597: SolrServlet no longer "caches" SolrCore.  This was causing problems in Resin, and could potentially cause problems for customized usages of SolrServlet.</D:comment>
+<D:creator-displayname>hossman</D:creator-displayname>
+<S:date>2008-06-12T18:27:50.283686Z</S:date>
+</S:log-item>
+</S:log-report>

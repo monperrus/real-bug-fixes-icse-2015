@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>936950</D:version-name>
+<D:comment>DERBY-2017: Client driver can insert and commit partial data when a LOB stream throws IOException or does not match the specified length 
+
+Made the client tell the server (if supported) if the EXTDTA transfer was
+successful or not, by appending a Derby-specific status byte to the user data.
+If the transfer was unsuccessful, an exception will be thrown on the server
+side even if the data was padded by the client to avoid a protocol exception.
+There are three types of errors that can happen on the client when reading
+the user stream:
+  a) the stream is shorter than specified
+  b) the stream is longer than specified
+  c) an IOException is thrown when reading the stream
+
+The fix consists of logic to allow the client and the server to determine if
+the status byte will be sent, code to append the status byte on the client, and
+code on the server to parse / read the status byte.
+Some code in DRDAConnThread was also refactored (mostly readAndSetExtParam).
+
+Patch file: derby-2017-3c-fix.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-04-22T16:45:22.236756Z</S:date>
+</S:log-item>
+</S:log-report>

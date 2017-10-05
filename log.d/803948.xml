@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>803948</D:version-name>
+<D:comment>DERBY-1191 (partial) Some SQLExceptions, for example those generated from BrokeredStatements, do not print to derby.log even when derby.stream.error.logSeverityLevel=0
+
+Here is a patch that takes the approach of adding a public static void logAndThrowSQLException(SQLException se) method and then calling that instead of just throwing the exception.
+
+The initial patch only uses the method for EmbedConnection.checkForTransactionInProgress() which is the most important exception to log after the fix for DERBY-3319.
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2009-08-13T17:05:52.703215Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>292830</D:version-name>
+<D:comment>fix of DERBY-562, committing patch for: Sunitha Kambhampati
+
+ This patch
+ - changes the error message thrown when the stream is either less or greater than the requested length to
+ 'Input stream did not have exact amount of data as the requested length.'
+ - enhances the characterStreams.out test, to print out the nested sql exceptions to ensure that the proper error message is returned.
+ - updates to the master files.
+
+ I verified that we are testing for these two error cases (ie stream has less or more data than requested length), for the following supported stream related api - setCharacterStream, setAsciiStream, setBinaryStream on PreparedStatement. Derby does not support setUnicodeStream api that is deprecated in jdbc 3.0. 
+
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2005-09-30T18:23:06.375658Z</S:date>
+</S:log-item>
+</S:log-report>

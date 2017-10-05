@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>394223</D:version-name>
+<D:comment>DERBY-901 Remove use of String(byte[]) constructors in network server leading to non-portable behaviour
+Contributed by Sunitha Kambhampati
+
+port from trunk. patch 1 (partial)
+Remove use of String(byte[]) constructors in network server leading to non-portable behaviour
+
+This fixes
+- SQLERRMC_TOKEN_DELIMITER, SQLERRMC_MESSAGE_DELIMITER and the corresponding usage of it in SystemProcedures to not use the default string constructors that are non portable.
+----------------------- 
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-04-14T22:56:27.837878Z</S:date>
+</S:log-item>
+</S:log-report>

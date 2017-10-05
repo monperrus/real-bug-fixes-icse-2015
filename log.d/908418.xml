@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>908418</D:version-name>
+<D:comment>DERBY-4543: CLOB values incorrectly stored on disk using the old header format 
+
+Aadded missing !-operator in EmbedPreparedStatement.
+Replaced DD_VERSION_CURRENT with DD_VERSION_DERBY_10_5.
+Renamed several methods and variables (stop using soft-upgrade mode term, use stream header format instead).
+
+Patch file: derby-4543-1a-clob_hdr_format_fix.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-02-10T09:46:05.167551Z</S:date>
+</S:log-item>
+</S:log-report>

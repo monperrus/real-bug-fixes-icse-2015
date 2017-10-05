@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>785697</D:version-name>
+<D:comment>fix off-by-one error in Range.contains(Token): the endpoint (right) of the range is always supposed to be exclusive, but it was inclusive in the non-wrapping case.  patch by Stu Hood; reviewed by jbellis for CASSANDRA-236</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-06-17T16:08:39.648257Z</S:date>
+</S:log-item>
+</S:log-report>

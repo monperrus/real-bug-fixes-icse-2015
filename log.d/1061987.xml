@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1061987</D:version-name>
+<D:comment>MAHOUT-566 Possible fix; clean up the flow a little bit and make sure that empty args in .props file like "f|foo=", which are useful as booleans, result in "--foo" with no empty arg following</D:comment>
+<D:creator-displayname>srowen</D:creator-displayname>
+<S:date>2011-01-21T19:58:21.295319Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>462607</D:version-name>
+<D:comment>DERBY-1785
+contributed by Myrna van Lunteren
+patch: DERBY-1785_20061007.diff
+
+Attaching a band-aid patch for this issue. I chose to comment out the method 
+rather than remove as a way to document the quirky behavior.
+
+Having the method setSecurityProps overload the one in jvm.java causes 
+problems when running the junit tests - they *do* successfully run with 
+securityManager.
+Foundation class tests actually run ok with security manager - except when 
+useprocess is false. This is caused by a bug in the jvm. See also DERBY-885.
+
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-10-10T22:23:45.329360Z</S:date>
+</S:log-item>
+</S:log-report>

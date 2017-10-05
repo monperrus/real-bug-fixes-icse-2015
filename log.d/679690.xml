@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>679690</D:version-name>
+<D:comment>DERBY-3731: Improve calculation of refSize in ClassSize.java.
+Changed implementation to get the value for refSize through system properties. If that doesn't work due to missing privileges or unknown values, we fall back to the heuristic.
+The system properties consulted are "sun.arch.data.model" and "os.arch".
+Patch file: derby-3731-1c-refsize_from_properties.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-07-25T07:41:10.956678Z</S:date>
+</S:log-item>
+</S:log-report>

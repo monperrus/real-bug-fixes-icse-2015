@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>627673</D:version-name>
+<D:comment>DERBY-3304 and DERBY-3414
+
+This serves as a test case for both the jira entries above. 
+
+Number of code changes for transaction ending time went in as part of DERBY-3304 and this 
+new test will check those code changes for specific case of rollback inside a java procedure 
+call. 
+
+The test case is currently disabled for network server because the rollback inside the 
+procedure is not closing all the resultsets and DERBY-3414 is to track this behavior of 
+network server. Once DERBY-3414 is fixed, we should enable the test for network server.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2008-02-14T06:24:50.681801Z</S:date>
+</S:log-item>
+</S:log-report>

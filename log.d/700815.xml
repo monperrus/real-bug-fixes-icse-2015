@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>700815</D:version-name>
+<D:comment>Fix for a potential null-pointer-introducing bug which came about as part of the DocIdSet changes. TermsFilter no longer implemented bits(IndexReader) and the Filter base class' version of this was changed to return null. 
+When dropping 2.4 Lucene in as a direct replacement for 2.3.2 my client code was getting NullPointer errors - returning null was never part of the Filter.bits contract and so this could be a problem for others using this class. 
+
+Fix is for TermsFilter to implement bits(IndexReader) - this can safely be removed in later versions because it is a deprecated method going forward.
+</D:comment>
+<D:creator-displayname>mharwood</D:creator-displayname>
+<S:date>2008-10-01T15:37:05.856829Z</S:date>
+</S:log-item>
+</S:log-report>

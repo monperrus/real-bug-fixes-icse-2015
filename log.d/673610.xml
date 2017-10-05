@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>673610</D:version-name>
+<D:comment>DERBY-3739: Skip and read methods in ArrayInputStream may overflow
+
+Changed checks in read() and in readFully() so that they are not
+vulnerable to integer overflow.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2008-07-03T08:14:16.374421Z</S:date>
+</S:log-item>
+</S:log-report>

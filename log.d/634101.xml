@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>634101</D:version-name>
+<D:comment>DERBY-3362
+
+Changed code to use right interface to get the control row and return null
+if either page does not exist or if the background thread would have had to
+wait for the page.  In either case post commit just skips processing.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2008-03-06T01:07:39.441690Z</S:date>
+</S:log-item>
+</S:log-report>

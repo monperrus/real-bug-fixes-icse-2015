@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1383996</D:version-name>
+<D:comment>DERBY-5561: Race conditions in LogicalConnection checking for a null physical connection
+
+Merged fix from trunk (revisions 1333305 and 1344183).
+I manually removed the part of the fix that was specific to JDBC 4.1, as this
+code doesn't exist in versions prior to 10.8 (getSchema and setSchema).
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2012-09-12T15:09:33.259618Z</S:date>
+</S:log-item>
+</S:log-report>

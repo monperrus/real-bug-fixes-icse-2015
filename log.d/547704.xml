@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>547704</D:version-name>
+<D:comment>DERBY-2812: Accessing blob (when it's linked to DVD stream, ie large blob) corrupts stream fetched prior to this access.
+Patch file: derby-2812v3.diff
+
+Patch contributed by Anurag Shekhar.
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2007-06-15T15:05:09.727626Z</S:date>
+</S:log-item>
+</S:log-report>

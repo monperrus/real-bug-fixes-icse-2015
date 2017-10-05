@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>576551</D:version-name>
+<D:comment>DERBY-3074 Database shutdown exception 08006 throws SQLTransientConnectionException instead of SQLNonTransientConnectionException
+
+DERBY-3075 Client error: 08001 Error connecting to server.. throws SQLTransientConnectionException instead of SQLNonTransientConnectionException
+
+Changes all 08 class exceptions to be SQLNonTransientConnectionException.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-09-17T18:10:30.468259Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>557716</D:version-name>
+<D:comment>Merging 557693 from main into 10.3 codeline. Commit comments for main were as follows
+
+This commit has 2 simple fixes (DERBY-2951 which gives assert failure and DERBY-2959 The table will have collation type UCS_BASIC which is different than the collation of the schema TERRITORY_BASED hence this operation is not supported.)
+
+The failure in DERBY-2951 is because in store, we were not using correct format id and hence collation information was not getting written out and read from disk. Added a test case for this in CollationTest.
+
+The failure in DERBY-2959 was because of the bug that we were comparing collation type for non-character types. Collation is only applicable to character types and hence we should check for character types before comparing the collation info. Added a test case for this one too.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-07-19T18:13:10.130806Z</S:date>
+</S:log-item>
+</S:log-report>

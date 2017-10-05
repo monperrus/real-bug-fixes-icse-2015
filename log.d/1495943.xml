@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1495943</D:version-name>
+<D:comment>DERBY-6268: Run-time statistics not collected if query contains always false predicate
+
+Make ProjectRestrictResultSet.close() call super.close() so that the
+logic for dumping run-time statistics gets executed.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-06-24T08:07:56.006587Z</S:date>
+</S:log-item>
+</S:log-report>

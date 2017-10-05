@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1044748</D:version-name>
+<D:comment>Backporting to 10.7 DERBY-4874  Trigger does not recognize new size of VARCHAR column expanded with ALTER TABLE. It fails with ERROR 22001: A truncation error was encountered trying to shrink VARCHAR
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2010-12-12T00:42:14.993561Z</S:date>
+</S:log-item>
+</S:log-report>

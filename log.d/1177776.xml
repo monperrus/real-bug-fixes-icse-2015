@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1177776</D:version-name>
+<D:comment>DERBY-1046 JVMInfo is duplicated in derbyclient.jar
+
+DERBY-5431 If 10.7 or greater derbyclient.jar is in the classpath before an older release's server jars, derby fails to boot with NoSuchFieldError for JVMInfo.JAVA_SQL_TYPES_BOOLEAN 
+
+DERBY-5439 Remove JRE / JDBC line from sysinfo
+
+JVMInfo now lives only in derby.jar. Removing the JRE / JDBC line is only a trunk soltion. In 10.8 we kept the duplicate code.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2011-09-30T18:53:36.502300Z</S:date>
+</S:log-item>
+</S:log-report>

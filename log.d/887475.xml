@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>887475</D:version-name>
+<D:comment>DERBY-4297: XplainStatisticsTest 'compilation time did not compute'
+
+This change adjusts the technique used to compute the compileTime counter
+in GenericStatement.prepMinion so that the following invariant will hold:
+
+  parseTime + bindTime + optimizeTime + generateTime = compileTime
+
+Previously, there was a small window after generateTime had been computed
+but before compileTime had been recorded, during which the value of the
+System.currentTimeMillis clock could change, resulting in a situation where
+compileTime was too large, typically by 15 or 16 milliseconds.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2009-12-05T01:01:23.659728Z</S:date>
+</S:log-item>
+</S:log-report>

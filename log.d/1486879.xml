@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1486879</D:version-name>
+<D:comment>DERBY-6148 Wrong sort elimination when using permuted sort order
+
+Backed out part of the patch (a line with improved compiler tree dump - only
+useful for debugging) since it didn't compile on source level 1.4
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2013-05-28T11:35:48.684784Z</S:date>
+</S:log-item>
+</S:log-report>

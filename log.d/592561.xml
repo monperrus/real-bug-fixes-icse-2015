@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>592561</D:version-name>
+<D:comment>Migrating changes from trunk(revision r592544) into 10.3 codeline. The commit comments for main were as follows
+DERBY-3178
+This commit modifies DataSourceTest.java to ensure that expected Connection events are fired to the
+ConnectionEventListener.
+The changes have been implemented by having AssertEventCatcher in DataSourceTest.java keep track of what events
+it received. This state is kept in boolean gotConnectionClosed and boolean gotConnectionErrorOccured flags in
+AssertEventCatcher. The test then checks the state of AssertEventCatcher after the test has done firing the events
+to make sure AssertEventCatcher got the expected events.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-11-06T21:34:27.525674Z</S:date>
+</S:log-item>
+</S:log-report>

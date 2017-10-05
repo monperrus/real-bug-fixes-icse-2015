@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>150390</D:version-name>
+<D:comment>Store the path as a Keyword field. Also rename HTMLDocument's "url" to "path"
+and store it as a Keyword field, too. DeleteFiles now takes such a path
+as its command line parameter and works on the index directory "index", like the
+other demos.
+
+This fixes bug http://issues.apache.org/bugzilla/show_bug.cgi?id=30330
+</D:comment>
+<D:creator-displayname>dnaber</D:creator-displayname>
+<S:date>2004-08-03T21:49:24.000000Z</S:date>
+</S:log-item>
+</S:log-report>

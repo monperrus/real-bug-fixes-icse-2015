@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>330705</D:version-name>
+<D:comment>DERBY-389 Fix nullSQLText.java for J2ME
+
+ Attaching a patch for the test jdbcapi/nullSQLText.java. This test fails in J2ME because it uses a stored procedure with server-side JDBC. As I understand, the purpose of the test is only to test any stored procedure call. So I replaced the stored procedure in this test with a procedure in org.apache.derbyTesting.functionTests.util.ProcedureTest. Also changed the master files.
+
+With this patch, I have run jdbcapi/nullSQLText.java in embedded, client and jcc frameworks. Also run this test in CDC/FP. This patch changes only tests. Please review/commit this patch.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-11-04T04:58:01.801186Z</S:date>
+</S:log-item>
+</S:log-report>

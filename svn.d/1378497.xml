@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1378497"/>
+<S:open-directory rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="dev" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="branches" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="branch_4x" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="CHANGES.txt" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/CHANGES.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/lucene/dev/branches/branch_3x/lucene/CHANGES.txt:1232954,1302749,1302808,1303007,1303023,1303269,1303733,1303854,1304295,1304360,1304660,1304904,1305074,1305142,1305681,1305693,1305719,1305741,1305816,1305837,1306929,1307050
+/lucene/dev/branches/lucene2510/lucene/CHANGES.txt:1364862-1365496
+/lucene/dev/branches/lucene3969/lucene/CHANGES.txt:1311219-1324948
+/lucene/dev/branches/lucene4055/lucene/CHANGES.txt:1338960-1343359
+/lucene/dev/branches/lucene4199/lucene/CHANGES.txt:1358548-1359191
+/lucene/dev/branches/pforcodec_3892/lucene/CHANGES.txt:1352188-1375470
+/lucene/dev/trunk/lucene/CHANGES.txt:1343946,1343968,1344038,1344041,1344306,1344318,1344441,1344531,1344775,1344826,1344844,1344925,1344938,1344946,1344958,1344967,1345376,1345523,1345540-1345542,1345548,1345869,1346001,1346101,1346322,1346407,1346419,1346434,1346465,1346494,1346500,1346520,1346582,1346645,1346784,1346873-1346975,1346983,1346986,1346995,1346999,1347313,1347323,1347817,1348171,1348236,1348278,1348289,1348348,1348354,1348517,1348524,1348606,1348621,1348630,1348672,1348685,1348723,1348924,1348964,1348974,1348977,1348980,1349012,1349027,1349046,1349058,1349063,1349214,1349361,1349378,1349437,1349502,1349510,1349601,1349612,1349622,1349758,1349795,1349802,1349828,1349897,1349979,1350047,1350050,1350074,1350429,1350436,1350444,1350718,1350723,1350764,1350890,1351108,1351129,1351225,1351460,1351590,1351661,1351672,1351829,1351839,1351879,1352038,1352173,1352238,1352420,1352535,1352600,1352609,1352795,1352942,1352949,1352967,1353004,1353097,1353101,1353433,1353843,1354308,1354455,1354826,1354850,1354864-1354865,1354887,1355001,1355069,1355120,1355238,1355311,1356081,1356083,1356192,1356435-1356437,1356561,1356778,1356797,1357027,1357324,1357331,1357359,1357451,1357595,1357611,1357703,1357707,1357952,1358123,1358149,1358377,1358380,1358386,1358650,1358748,1358751,1359202,1359238,1359249,1359255,1359259,1359275,1359322,1359327,1359355,1359590,1359611,1359827,1359873,1359946,1359953,1360021,1360028,1360205,1360240,1360254,1360272,1360354,1360395,1360451,1360454,1360475,1360619,1360645,1360687,1360931,1360977,1360979,1361091,1361243,1361301,1361408,1361480,1361512,1361517,1361701,1361741,1361745,1361857,1361896,1361910,1361966,1362025,1362074,1362236,1362442,1362667,1363004,1363049,1363082,1363084,1363115,1363161,1363379,1363555,1363803,1363819,1363821,1363871,1363971,1364006,1364031,1364409,1364568,1364570,1364576,1364728,1364812,1364896,1364940,1364967,1365014,1365166,1365363,1365383,1365390,1365586,1365602,1365610,1365837,1365857,1365971,1366231,1366241,1366249,1366284,1366460,1366568,1366574,1366588,1366646,1366716,1366775,1366854,1366881,1367096,1367125,1367178,1367186,1367192,1367194,1367316,1367358,1367362,1367377,1367384,1367386,1367623,1367800,1367916,1368157,1368188,1368190,1368286,1368745,1368927,1369196,1369433,1369502,1369859,1369874,1369883,1369984,1370297,1370314,1370805,1370870,1370904,1370908,1371291,1371379,1371478,1371491,1371644,1371709,1371996,1372069,1372071,1372171,1372243,1372631,1372633,1372645,1372687,1372858,1372866,1373072,1373117,1373553,1373598,1373606,1373904,1374115,1374381,1374480,1374490,1374912,1375486,1375507,1375674,1375723,1375725,1376158,1376261,1376766,1376797,1377050,1377363,1377867,1377898,1378387,1378392,1378492</S:set-prop>
+<S:fetch-file base-checksum="5c1ff82e64e8bc3b4ed9578c7b0cb3d6" sha1-checksum="553a2fab3f9a486aadbb6275556e593424ed8bf2"/>
+<S:prop><V:md5-checksum>2379f0e45d85c6454be322d0111df9d7</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="core" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="util" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="packed" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="BulkOperationPacked50.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked42.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked34.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked62.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked26.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked54.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked46.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked38.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked58.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked31.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked51.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked43.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked35.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked27.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked63.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked55.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked47.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked39.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked59.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPackedSingleBlock32.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked40.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked32.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked60.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked52.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked44.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked36.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked28.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked64.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked56.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked48.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked41.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked33.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked25.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked61.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked53.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked45.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked37.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked29.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked57.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked49.java" rev="1378497"/>
+<S:delete-entry name="BulkOperationPacked30.java" rev="1378497"/>
+<S:open-file name="BulkOperationPacked4.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked4.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="1847056fa1ccb7322f25eea59e2d37e4" sha1-checksum="82b05f324d7c748c15f4c7909e0f80e3a259f79a"/>
+<S:prop><V:md5-checksum>865c051438fda51a6c537062c259e8b9</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked6.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked6.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="d17b3dc210b6889cbcb2a124450da0f5" sha1-checksum="4876f4ca8c38667c06e627b7635b7e9aa4b3b5cc"/>
+<S:prop><V:md5-checksum>699ba3e2748d82635d968a5c48edf12b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked8.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked8.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="06ff2f2670ac4d5e71ba848105cd7ded" sha1-checksum="1cfd5a9194cce7e38d56734c7ba71644b2e638f8"/>
+<S:prop><V:md5-checksum>a17277add2b2b290ffac63d23013fe19</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock1.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock1.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e3d0c8154d9e73e3c200727184de142d" sha1-checksum="c8a3635588d86832cf4552e2e20dca293dfba746"/>
+<S:prop><V:md5-checksum>ebe27e2b7814bd7ce7d290182a18fc7f</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock3.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock3.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="ee17a6787b625ed7a84d3e5586f08d74" sha1-checksum="ba101865aab7c8cfc0422b8ca2535526d9f868cb"/>
+<S:prop><V:md5-checksum>62b4c26e24fb4184a3f222afddd7d27c</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked10.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked10.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="fddf23b83c2f778afafc9e3091270537" sha1-checksum="bdb0176c371cf432011e5642fd45aeff973b9a64"/>
+<S:prop><V:md5-checksum>710c2516479bf20a9f34bc5bd71ad339</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked20.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked20.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="240267e963ae9639f96123fdf6d5a017" sha1-checksum="2f4a8fce8acd5830135fc105a8cda572db38a7c9"/>
+<S:prop><V:md5-checksum>6631efcd16eb1c85c17dfa887f2a9fbc</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock5.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock5.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="27cb397c5ebaa200c6f2441b3cee08a8" sha1-checksum="ae2da2e522090e4537f59adf85d503bc657272f3"/>
+<S:prop><V:md5-checksum>bf88cc4ddb5f2ded43faff26bdd468e5</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked12.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked12.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="4273c07d93313c22a0e81dbb4e4979f8" sha1-checksum="371bc3c6c24b1b17631c8ef197983f4de9899193"/>
+<S:prop><V:md5-checksum>f6e069afd39e6e87216cbf8ad8019919</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked22.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked22.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="4934cc2a2ee36933c42c853e91c34214" sha1-checksum="d2bf6a41a97eb5e35fe0b2f0f2c45dcb828ca912"/>
+<S:prop><V:md5-checksum>1e3b99b7cdd82f4f39dad36946f63e1d</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock7.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock7.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="28e0cb63a55a0ddd7ce8025acfb65c65" sha1-checksum="bc8b8131bd63e1bea2f401104ce7565b8a2ea0d6"/>
+<S:prop><V:md5-checksum>0a4c17a118a92305050829abfb751245</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked14.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked14.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="a2fe85aea35b2694b567e34fef09c80b" sha1-checksum="d1034283f737350252a286e1809d5e947f6988b1"/>
+<S:prop><V:md5-checksum>0089cc3586a6a0caff0213681423507f</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock9.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock9.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="9550bc305020570db44444597b34fee2" sha1-checksum="593d11907f3f3ac6ca7c6d4e8c6a439da353bc9e"/>
+<S:prop><V:md5-checksum>025fe437510eb5f966cb47ad2a4e3dc4</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked24.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked24.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="fc96807d1eb21fc636a46744b712c9e7" sha1-checksum="b4bd458dfed7af88ad014f0d7552c7275cacc314"/>
+<S:prop><V:md5-checksum>571759377b6759dfd9258693f043ed55</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked16.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked16.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="8acfeb2b38b449c64c90a60411bf9f75" sha1-checksum="a74d44cbbe444240e714a2460c316ad949a7c427"/>
+<S:prop><V:md5-checksum>61a410d147b9f6b51eb15cd116657884</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked18.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked18.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="563ab4215430bcfb232adc252f99276a" sha1-checksum="83fdc404dcaa0579d8bb4eab8818c39d00902532"/>
+<S:prop><V:md5-checksum>476d396ccdd71e5e83e15df6fafcb6e8</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock10.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock10.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="243ac6654e2758ad239691e050292837" sha1-checksum="fac68ae5770524e68a0dfc21a9f02ab41a93bfb6"/>
+<S:prop><V:md5-checksum>fd2b3ed28d8c69696c6d0da7378923cf</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock12.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock12.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="a34f999d1145f9129e775a21b7564536" sha1-checksum="f87b4bac9bc280d8c7edb3e2b718ce44e18d7704"/>
+<S:prop><V:md5-checksum>363a008f110076377007bac9c9017689</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked1.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked1.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7788ee1d258eae0ac741081fc3629849" sha1-checksum="cf088f747342dd89d108918f1d61fc5307a35568"/>
+<S:prop><V:md5-checksum>bb1760cdb9d0519d534c16db4d46cc39</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked3.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked3.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="50ad2652204346194847749f9d04d4bd" sha1-checksum="a42fe84547e007da234e817a334d800cedf45308"/>
+<S:prop><V:md5-checksum>a8618f0122c33d32533407478e0703fc</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock16.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock16.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e0341fac4d4e3eacfd482a1411352f23" sha1-checksum="19c2a0aaf0c45c24d1021f3bbe5c73b9be457265"/>
+<S:prop><V:md5-checksum>b1fc61e9737d0afb3f17f93b268ce342</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked5.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked5.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="6c08b201a2ead8c83fa7a512b9be8c6a" sha1-checksum="5c7d29b225e0f954482cc7bc6dce4dcac4174bdc"/>
+<S:prop><V:md5-checksum>0e83b43d0679836ed8dc5d51c39beb0b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked7.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked7.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="4ebfc32d25980005084e7a2727dc0953" sha1-checksum="fb48cd6bc5b340db9e7b4670b445bee1ab925528"/>
+<S:prop><V:md5-checksum>9f94d88edc3b5e2bca7c21d1ee4a3cf9</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperation.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperation.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="d0575bfc31f95200d178c15ffc6dc935" sha1-checksum="3b47555524e1c62b5e67de825dd928b265d5b401"/>
+<S:prop><V:md5-checksum>d658c6297c98f0edf54c61e6e0f7fb9e</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="gen_BulkOperation.py" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/gen_BulkOperation.py</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="fc67676c2c307b5b2a7526605a22df92" sha1-checksum="da9389503b0e0a39e546c5678de72bb5a4c9e1d5"/>
+<S:prop><V:md5-checksum>34051dc8e0a481b4c8e3338d2ac0a76b</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked9.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked9.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="85d9707f99e9abb45776e75409d2224b" sha1-checksum="b8494f7302cbe39f27806c8f0d1e49950820abad"/>
+<S:prop><V:md5-checksum>04a8d0ec6f2215d58380edea3b90dd8a</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock2.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock2.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7edeb32904402279c91177733b3e8523" sha1-checksum="2b4548413ce7f9890c200b63a119d793db06d472"/>
+<S:prop><V:md5-checksum>26942b6ee050fa192e990ae883d464a5</V:md5-checksum></S:prop></S:open-file>
+<S:add-file name="BulkOperationPacked.java" sha1-checksum="c619299d92bdb1b56d676faf4a8cceaf2d742a93">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>618a0b3dea40b9fc26667164c6f702c9</V:md5-checksum></S:prop></S:add-file>
+<S:open-file name="BulkOperationPackedSingleBlock4.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock4.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e69887731e5f550576093d5600ee1fdf" sha1-checksum="c695501669d1c8eaec3ed8b44c527f9571d0c157"/>
+<S:prop><V:md5-checksum>72524188942ea0124152977138f5d53e</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked11.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked11.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f5b3900347eca12a0f54e6cadc9e9ece" sha1-checksum="eb4143ffdfc8d814fb13c5204396083beed11d94"/>
+<S:prop><V:md5-checksum>75aef5c30227ea0cca38d5d228695740</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked21.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked21.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="0dc646fe3325c97f3b635c2955b7428c" sha1-checksum="e69d5a1a158707d2d7cd5e8e4e4dc84f86a8b621"/>
+<S:prop><V:md5-checksum>c1bfb0ef835a444ce51594f7d3e8406d</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock6.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock6.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="9c35c3119e41eb809b5e4fe39d45ec7a" sha1-checksum="1b2be215ed5e109e0bc761a0250de72959aca805"/>
+<S:prop><V:md5-checksum>6b6ea4fa5ece4c4ef040bbf6dae882b1</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked13.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked13.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="0ed4eccd85400d964d320158d2606538" sha1-checksum="735ed36459bdbc2b96241b8c8c0c3c4f77eafac4"/>
+<S:prop><V:md5-checksum>5b093d03ffc94972856152413eba9417</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked23.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked23.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="90808372e9d168845c1f7a666c185af4" sha1-checksum="0b77f82414c3421e6e56d675aaf2c9ebdd1a765d"/>
+<S:prop><V:md5-checksum>0cef750f697448a6cd97b1f366682280</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPackedSingleBlock8.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock8.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="bec17ed65eccfa98016a3248aa50e123" sha1-checksum="c61be0de123019ec2a49cdc1b0abb61b932441bd"/>
+<S:prop><V:md5-checksum>f78bc5f49ea1ded5ba40df33998e6665</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked15.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked15.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="15ef79ffd520188cded0477321b3a14a" sha1-checksum="984b5e81fa66560a8826513e7d7c671f67eb5bfb"/>
+<S:prop><V:md5-checksum>c766d59e395526010f8501df6e77aee2</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked17.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked17.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="4b20290bc3ddcb357ae6ff4d06750099" sha1-checksum="e5d53afb93205435f2ee0d6df67a51821370c53c"/>
+<S:prop><V:md5-checksum>27b0178df3abaa7e210934ec312c262f</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked19.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked19.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="6485c9aca07bc4e1f8d26657979c9d2b" sha1-checksum="b9d2dac76d206952211e2feaa80a4cc86f4da542"/>
+<S:prop><V:md5-checksum>e696591f47ceff5dfeb4bd4ed2ab3e22</V:md5-checksum></S:prop></S:open-file>
+<S:add-file name="BulkOperationPackedSingleBlock.java" sha1-checksum="bfd604ceab2225ac727a6e12cdfbcd869234f669">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>71c33eed8b868c6c39b786d39f66c19d</V:md5-checksum></S:prop></S:add-file>
+<S:open-file name="BulkOperationPackedSingleBlock21.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPackedSingleBlock21.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="0ef57d60316323b87cd6a1ccd4b2ca37" sha1-checksum="a05b37b4342e3a4298698fa7d50fb6ece53244ca"/>
+<S:prop><V:md5-checksum>28fb17710c8a0f086f4f52ad25e06dda</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="BulkOperationPacked2.java" rev="1378496">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1378497/lucene/dev/branches/branch_4x/lucene/core/src/java/org/apache/lucene/util/packed/BulkOperationPacked2.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1378497</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2012-08-29T10:32:40.797226Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jpountz</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e947a1bc6c31b26fcb639bed5f8f0d1f" sha1-checksum="b53e5dfe30c8d6122090bcb288c9be10bac52761"/>
+<S:prop><V:md5-checksum>9fd18dc2dcf11e39e348ac478be63742</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

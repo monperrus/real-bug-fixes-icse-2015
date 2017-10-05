@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="149599"/>
+<S:open-directory rev="149598">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/149599/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">149599</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2001-10-02T15:54:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cutting</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="149598">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/149599/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">149599</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2001-10-02T15:54:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cutting</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="149598">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/149599/lucene/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">149599</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2001-10-02T15:54:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cutting</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="149598">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/149599/lucene/java/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">149599</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2001-10-02T15:54:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cutting</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="Attic" rev="149599"/>
+<S:open-file name="build.xml" rev="149598">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/149599/lucene/java/trunk/build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">149599</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2001-10-02T15:54:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cutting</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.10</S:set-prop>
+<S:fetch-file base-checksum="7ecc0bc246588aef826fcdec57aeaccb" sha1-checksum="2ba0bd69ca15cd7be9adab62c714448a5796838c"/>
+<S:prop><V:md5-checksum>7d8375ab4301f2e2de6bbc15f06208da</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="xdocs" rev="149598">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/149599/lucene/java/trunk/xdocs</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">149599</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2001-10-02T15:54:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cutting</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="stylesheets" rev="149598">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/149599/lucene/java/trunk/xdocs/stylesheets</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">149599</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2001-10-02T15:54:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cutting</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="project.xml" rev="149598">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/149599/lucene/java/trunk/xdocs/stylesheets/project.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">149599</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2001-10-02T15:54:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cutting</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.4</S:set-prop>
+<S:fetch-file base-checksum="4630e9d060578fe718f0b1c417a27cc3" sha1-checksum="e3a440fa9456c4647a5de82f60b892f61c4f5ac3"/>
+<S:prop><V:md5-checksum>8f359eda2dbc97e06aa84aae58496acd</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="src" rev="149598">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/149599/lucene/java/trunk/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">149599</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2001-10-02T15:54:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cutting</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="149598">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/149599/lucene/java/trunk/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">149599</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2001-10-02T15:54:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cutting</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="overview.html" sha1-checksum="d8691b26e268553c3ae7e2dbb880ea4c8e110203">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/149599/lucene/java/trunk/src/java/overview.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">149599</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2001-10-02T15:54:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cutting</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.1</S:set-prop>
+<S:set-prop name="svn:keywords">Author Date Id Revision</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>83c26149f8ef19ba1206bdf202fe9f5d</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="docs" rev="149598">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/149599/lucene/java/trunk/docs</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">149599</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2001-10-02T15:54:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cutting</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="applications.html" rev="149599"/>
+<S:delete-entry name="background.html" rev="149599"/>
+<S:open-file name="index.html" rev="149598">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/149599/lucene/java/trunk/docs/index.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">149599</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2001-10-02T15:54:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cutting</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.4</S:set-prop>
+<S:fetch-file base-checksum="402e13deadf3d768f7fbb8f6e61b85ff" sha1-checksum="d4f6a5d98f997499d9e5074896bd7a9ad9024ec2"/>
+<S:prop><V:md5-checksum>e0c52706e420518052edb6e91d6af79a</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="resources.html" rev="149598">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/149599/lucene/java/trunk/docs/resources.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">149599</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2001-10-02T15:54:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cutting</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.4</S:set-prop>
+<S:fetch-file base-checksum="805fa8510aa26e8448f024e64d1220c4" sha1-checksum="5080d861b1e39d99605a6b2a824d8945a2cdb2ef"/>
+<S:prop><V:md5-checksum>6dfab14f1a6aa480c328a8669d857453</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="whoweare.html" rev="149598">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/149599/lucene/java/trunk/docs/whoweare.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">149599</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2001-10-02T15:54:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cutting</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.4</S:set-prop>
+<S:fetch-file base-checksum="68af837af7cd3bc6f1604081251f85cf" sha1-checksum="c27e6a0041a775665c2329518ffe76d4d58b74fa"/>
+<S:prop><V:md5-checksum>339034af29e3ca7b5671c33baad1a0ef</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="powered.html" rev="149598">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/149599/lucene/java/trunk/docs/powered.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">149599</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2001-10-02T15:54:16.000000Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">cutting</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="cvs2svn:cvs-rev">1.4</S:set-prop>
+<S:fetch-file base-checksum="7c5f6d3cd2553192f6658e23834bcadf" sha1-checksum="e742071b7b3267575b9e9ec3f1e872865dd4ff35"/>
+<S:prop><V:md5-checksum>d5d95382559a9b52efd4fc8d6f9b11c7</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

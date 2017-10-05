@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>484672</D:version-name>
+<D:comment>DERBY-2083 Fix broken backup/restore tests. Caused by not updating path through code
+when a service is directly accessed as a file rather than through the StorageFactory api.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-12-08T17:51:55.132920Z</S:date>
+</S:log-item>
+</S:log-report>

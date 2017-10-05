@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>915437</D:version-name>
+<D:comment>backport fix for CASSANDRA-781 to 0.5.  patch by jbellis; tested by Hernan Badenes.
+
+I took the approach of changing the StorageProxy code to match 0.6 and then pulling in pieces of 0.6 to make the build work as necessary, rather than trying to make the StorageProxy code match 0.5 better.  This (a) simplifies the backport by making it mostly a matter of copy and paste, reducing the chance of bugs in the backported code that didn't exist in the original, and (b) simplifies future bugfixes in this area, if they should be needed.</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-02-23T17:05:46.497544Z</S:date>
+</S:log-item>
+</S:log-report>

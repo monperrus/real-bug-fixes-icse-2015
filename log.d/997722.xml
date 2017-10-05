@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>997722</D:version-name>
+<D:comment>DERBY-1511: SELECT clause without a WHERE, causes an Exception when
+extracting a Blob from a database
+
+Disable bulk fetching for table scans that fetch BLOB or CLOB columns,
+if the cursor is holdable, as the large objects in the internal buffer
+will not survive across transaction boundaries.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-09-16T12:35:02.612970Z</S:date>
+</S:log-item>
+</S:log-report>

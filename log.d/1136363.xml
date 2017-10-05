@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1136363</D:version-name>
+<D:comment>DERBY-4137: OOM issue using XA with timeouts 
+
+Reduce the memory footprint when executing successful XA transactions that
+have a timeout set by nulling out the reference to the XATransactionState
+object in the timer task. The timer task will stay around in the timer queue
+until reaching the scheduled time - even if the task is canceled.
+Added a regression test (run as part of 'ant junit-lowmem').
+
+Patch file: derby-4137-2a-reduce_memory_footprint.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-06-16T10:22:46.336883Z</S:date>
+</S:log-item>
+</S:log-report>

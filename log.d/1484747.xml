@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1484747</D:version-name>
+<D:comment>MAHOUT-1223: Fixed point being skipped in StreamingKMeans when iterating through centroids from a reducer
+
+When calling StreamingKMeans in the reducer (to collapse the number of clusters
+to they can fit into memory), the clustering is done on the Hadoop reducer
+iterable.
+Currently, the first Centroid is added directly as a special case and then is
+skipped when iterating through the main loop.
+However, Hadoop reducer iterables cannot be rewound therefore causing SKM to
+skip one point.
+
+</D:comment>
+<D:creator-displayname>dfilimon</D:creator-displayname>
+<S:date>2013-05-21T10:52:25.760835Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>616473</D:version-name>
+<D:comment>DERBY-3350 Ensure that CAST inherits the nullability of its value expression since a cast of a non-null value is always not null. Changes the nullability of a number of JDBC DatabaseMetaData columns since many are derived from CAST expression in the SQL query that forms the result set.
+Updated canons where the nullability changed, since if the column display size was less than four but nullable, ij would increase the display size to four to allow for NULL. Once such columns become not nullable their display size drops to less than four.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2008-01-29T18:39:59.005320Z</S:date>
+</S:log-item>
+</S:log-report>

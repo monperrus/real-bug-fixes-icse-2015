@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>509423</D:version-name>
+<D:comment>DERBY-1102 (partial) Remove triggerStream test, test of data types in action statement is now in TriggerTest
+and covers more situations using the correct apis. Found two or three bugs with the new test.
+Remove old utility code that used the old TriggerExecutionContext api.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-02-20T03:42:57.769435Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1412577</D:version-name>
+<D:comment>DERBY-6001: ErrorMessageTest assert failure: Only one of the waiters should be aborted
+
+Increase the wait timeout for the deadlock test. This prevents the
+intermittent timeout errors that could happen on slow machines if the
+deadlock detector hasn't picked and killed a victim before the other
+waiting thread has timed out.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-11-22T15:03:23.437550Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1204934</D:version-name>
+<D:comment>DERBY-4845: Improve the dependency tracking for our build targets
+
+Get rid of a call to Util.notImplemented() from BrokeredStatement by
+pulling the isClosed() method up from BrokeredStatement40,
+BrokeredPreparedStatement40 and BrokeredCallableStatement40 to their
+common super-class.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-11-22T11:45:07.755243Z</S:date>
+</S:log-item>
+</S:log-report>

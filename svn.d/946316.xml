@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="946316"/>
+<S:open-directory rev="946315">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/946316/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">946316</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-19T18:03:12.081005Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra" rev="946315">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/946316/cassandra</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">946316</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-19T18:03:12.081005Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="branches" rev="946315">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/946316/cassandra/branches</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">946316</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-19T18:03:12.081005Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra-0.6" rev="946315">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/946316/cassandra/branches/cassandra-0.6</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">946316</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-19T18:03:12.081005Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="bin" rev="946315">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/946316/cassandra/branches/cassandra-0.6/bin</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">946316</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-19T18:03:12.081005Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="json2sstable.bat" sha1-checksum="d0802d04bf5a50b33bc321bff5fa2bdf7f05b2f6">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/946316/cassandra/branches/cassandra-0.6/bin/json2sstable.bat</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">946316</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-19T18:03:12.081005Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>0cf9bdfd52d3425924f02a417e32db62</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="sstable2json.bat" sha1-checksum="0a330e645d20b783b8d7287f7a581c63ca95ccea">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/946316/cassandra/branches/cassandra-0.6/bin/sstable2json.bat</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">946316</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-19T18:03:12.081005Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>5f46377d8c0a2e3a1a8ea7c0c75a94cc</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+<S:open-file name="CHANGES.txt" rev="946315">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/946316/cassandra/branches/cassandra-0.6/CHANGES.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">946316</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-19T18:03:12.081005Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gdusbabek</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="7b529240bf8da51b07d620c34ff597d9" sha1-checksum="33e53c69eb049827099509032a80827a10cd8edb"/>
+<S:prop><V:md5-checksum>a1784e44829dd9f1a6df44cadcc5fe4c</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>689008</D:version-name>
+<D:comment>DERBY-3836: On 10.4 branch JMX tests fail with security exceptions when run against classes
+ - Backported (cleanly) revision 639721 from trunk:
+   'Add permissions to "class" portion of the derby test policy file that were
+   added to the jar file section previously.'
+   (Added SystemPermissions to the classes domain).
+ - Merged by svn merge -r 639720:639721 https://svn.apache.org/repos/asf/db/derby/code/trunk/
+ - Original contributor Mike Matrigali
+
+</D:comment>
+<D:creator-displayname>johnemb</D:creator-displayname>
+<S:date>2008-08-26T09:19:13.177276Z</S:date>
+</S:log-item>
+</S:log-report>

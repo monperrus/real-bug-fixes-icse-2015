@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>539642</D:version-name>
+<D:comment>DERBY-2647: .lang.ErrorCodeTest fails with 'Required Derby DataSource
+property {0} not set.'
+
+ResultSet returned by the test has only partially defined order. Using
+assertUnorderedResultSet() instead of assertFullResultSet() to solve
+the problem.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-05-19T00:01:58.488086Z</S:date>
+</S:log-item>
+</S:log-report>

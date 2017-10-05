@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1387212</D:version-name>
+<D:comment>SOLR-3849: Pass "-Djava.awt.headless=true" to test runner to prevent enabling AWT, spawning threads and modifying sysprops. Tests need no GUI and this also mimics the behaviour of the default startup scripts of Tomcat and Jetty.</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2012-09-18T15:08:10.026060Z</S:date>
+</S:log-item>
+</S:log-report>

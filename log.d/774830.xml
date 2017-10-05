@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>774830</D:version-name>
+<D:comment>DERBY-4204: Statistics not collected on re-execution of statement
+
+This change enhances the DERBY-4204 regression test to verify that the
+XPLAIN table form of statistics collection is also re-collected on each
+statement re-execution. Without the DERBY-4204 fix, re-execution of DML
+statements was only resulting in a single row in the SYSXPLAIN_STATEMENTS
+table, while after the fix, the correct results of 5 rows are observed.
+
+This change should NOT be backported to 10.5 and earlier branches, because
+it depends on the XPLAIN functionality.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2009-05-14T15:53:51.582031Z</S:date>
+</S:log-item>
+</S:log-report>

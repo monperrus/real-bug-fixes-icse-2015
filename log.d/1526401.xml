@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1526401</D:version-name>
+<D:comment>Merged revision(s) 1526399 from lucene/dev/trunk:
+LUCENE-5245: Fix MultiTermQuery's constant score rewrites to always return a ConstantScoreQuery to make scoring consistent. Previously it returned an empty unwrapped BooleanQuery, if no terms were available, which has a different query norm</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2013-09-26T06:53:00.218124Z</S:date>
+</S:log-item>
+</S:log-report>

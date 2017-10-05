@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>409746</D:version-name>
+<D:comment>DERBY-1354 - Writer.write(int c) to writer from Clob.setCharacterStream(long pos) appends integer value, not character
+
+Merge to 10.1 from trunk. Also included DERBY-1245
+
+Contributed by Anders Morken
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-05-26T20:53:59.420191Z</S:date>
+</S:log-item>
+</S:log-report>

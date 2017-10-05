@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1229082</D:version-name>
+<D:comment>DERBY-5536 Client's ResultSet#getLong does not range check when converting from a DECIMAL column
+
+Patch derby-5536-3, which fixes this issue and adds new tests.  It
+changes the implementation of am.Decimal#getLong to allow it to detect
+overflow. If the number of digits indicate it can't happen, we use an
+optimized path.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2012-01-09T10:18:05.608991Z</S:date>
+</S:log-item>
+</S:log-report>

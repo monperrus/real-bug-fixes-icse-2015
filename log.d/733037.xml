@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>733037</D:version-name>
+<D:comment>DERBY-4012: 'largedata/LobLimits.java' fails due to out-of-sync master file.
+Fixed regression due to DERBY-3907, where parts of an error message was changed.
+Patch file: derby-4012-1a_master_change.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-01-09T13:48:31.877973Z</S:date>
+</S:log-item>
+</S:log-report>

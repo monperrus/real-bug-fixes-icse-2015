@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1442554</D:version-name>
+<D:comment>DERBY-6011: Prefer unique index when accessing a small number of rows
+
+If there is a choice between accessing a table with a unique index scan
+that is guaranteed to return at most one row, and some other non-covering
+index scan that might return multiple rows, adjust the cost of the other
+scan so that it includes the cost of fetching at least one row from the
+base table.
+
+This change makes it more likely that the unique index is chosen if both
+of the index scans are believed to return no more than one row on average.
+The unique index is the safer choice since it is guaranteed to return at
+most one row. The other index may in the worst case return many rows,
+which requires more locking and increases the likelihood of deadlocks.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-02-05T11:48:28.876055Z</S:date>
+</S:log-item>
+</S:log-report>

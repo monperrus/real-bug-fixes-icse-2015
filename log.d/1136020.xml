@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1136020</D:version-name>
+<D:comment>DERBY-4669: ClassLoaderBootTest fails if derbyclient.jar comes before derby.jar on the classpath
+DERBY-5253: Engine code references org.apache.derby.shared.common.sanity.SanityManager
+
+Merged fixes from trunk (revisions 1130077, 1130084, and 1133752).
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-06-15T13:02:11.078219Z</S:date>
+</S:log-item>
+</S:log-report>

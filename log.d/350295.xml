@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>350295</D:version-name>
+<D:comment>Fix lang/dcl.sql test failures due to expired certificate on signed jar.
+Made similar changes to 10.1 branch where jar is signed for 100 years.
+Direct merge is not possible due to additional changes in trunk.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-12-01T18:46:21.052232Z</S:date>
+</S:log-item>
+</S:log-report>

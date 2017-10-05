@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1084660</D:version-name>
+<D:comment>fix encoding bugs in HintedHandoffManager, SystemTable when default charset is not UTF8
+patch by slebresne; reviewed by jbellis for CASSANDRA-2367</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2011-03-23T18:13:42.721753Z</S:date>
+</S:log-item>
+</S:log-report>

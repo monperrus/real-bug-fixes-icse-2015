@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>613948</D:version-name>
+<D:comment>DERBY-3194 LOCALIZEDDISPLAY of CURRENT_TIMESTAMP returns only the TIME
+
+Merged DERBY-3194.diff from trunk as 
+
+svn merge -r596388:596389 https://svn.apache.org/repos/asf/db/derby/code/trunk
+
+Tested manually in ij.
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2008-01-21T17:34:07.885653Z</S:date>
+</S:log-item>
+</S:log-report>

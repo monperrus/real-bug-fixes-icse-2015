@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>526243</D:version-name>
+<D:comment>Fix the build failure caused by checkin 526237. EmptyDictionary in the storeless package needs to implement the 2 additional methods added
+into DataDictionary interface as part of checkin 526237
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-04-06T18:44:04.817341Z</S:date>
+</S:log-item>
+</S:log-report>

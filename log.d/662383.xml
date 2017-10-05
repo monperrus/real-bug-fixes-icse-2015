@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>662383</D:version-name>
+<D:comment>DERBY-3431: DatabaseMetaData.getConnection returns the wrong connection when using connection pooling.
+Introduced a logical database metadata object in the client driver. This object is tightly associated with the logical connection, instead of the underlying physical connection. It will only publish a reference to the logical connection.
+Added regression tests. Note that one of the tests fails for embedded, which appers to have a similar bug to what the client driver had.
+Patch file: derby-3431-3b-client_logical_metadata.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-06-02T10:14:43.383713Z</S:date>
+</S:log-item>
+</S:log-report>

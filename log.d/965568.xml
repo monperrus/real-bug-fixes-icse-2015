@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>965568</D:version-name>
+<D:comment>hand-assembled sstables could contain garbage data since we were writing the entire buffer contents.  copy just the valid data to a separate byte[] first.  patch by jbellis; reviewed by Stu Hood for CASSANDRA-1299</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-07-19T17:33:40.957855Z</S:date>
+</S:log-item>
+</S:log-report>

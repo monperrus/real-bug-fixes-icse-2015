@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>772327</D:version-name>
+<D:comment>DERBY-4212 Prepared statement with OFFSET/FETCH gives different results on subsequent execute
+
+Back-ported derby-4212-2 to 10.5 branch, which fixes this issue and
+adds a new test case for the scenario.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-05-06T15:51:57.083922Z</S:date>
+</S:log-item>
+</S:log-report>

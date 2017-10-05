@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>379536</D:version-name>
+<D:comment>DERBY-446 (partial) Make ClientDataSource use public setter and getter methods as standard
+for its Java bean properties. Avoids security exceptions or requiring extreme security
+permissions in order to create a Reference from the data source. Staged development, subsequent
+commits will clean up some of the remants of the old code, by removing or moving the "propertyKey_*" fields.
+
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-02-21T17:12:57.826148Z</S:date>
+</S:log-item>
+</S:log-report>

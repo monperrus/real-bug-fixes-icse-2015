@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>722812</D:version-name>
+<D:comment>DERBY-3970: PositionedStoreStream doesn't initialize itself properly.
+Makes PositionedStoreStream initialize itself properly by calling initStream and resetStream on the underlying Resetable.
+Patch file: derby-3970-1a-PositionedStoreStream_init.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-12-03T08:54:12.528017Z</S:date>
+</S:log-item>
+</S:log-report>

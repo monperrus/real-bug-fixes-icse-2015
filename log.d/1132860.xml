@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1132860</D:version-name>
+<D:comment>DERBY-5262: Running JUnit tests with Java 1.4.2 fails if the package private tests are on the classpath 
+
+Check that the running JVM can support Java 1.5 class files before trying to
+load the package private file (which are compiled with Java 1.5) when setting
+up the security manager for tests.
+
+Patch file: derby-5262-1a-secmansetup_check_class_version.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-06-07T04:39:11.179783Z</S:date>
+</S:log-item>
+</S:log-report>

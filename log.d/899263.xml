@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>899263</D:version-name>
+<D:comment>return null instead of throwing exception from socket inner loop.  backport of CASSANDRA-675 from trunk by junrao.</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-01-14T16:07:41.755122Z</S:date>
+</S:log-item>
+</S:log-report>

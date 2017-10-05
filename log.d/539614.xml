@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>539614</D:version-name>
+<D:comment>DERBY-2673 If derby.system.home does not exist then first attempt to create it with File.mkdir() to
+avoid requiring read permission on the parent folder.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-05-18T22:09:28.573852Z</S:date>
+</S:log-item>
+</S:log-report>

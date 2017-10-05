@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>479527</D:version-name>
+<D:comment>DERBY-2110 - correcting typos in a number of messages
+- fix involved also updating MessageBuilder.java, because the resulting
+  dita file did not correctly replace all quotes when put into html.
+- also corrected BlobClob4BlobTest which has the string of message 40X0D
+  hardcoded.
+- also updated errorCode.out masters, incl. for j9_13 and j9_22, even though
+  that's not really needed anymore.
+
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2006-11-27T06:37:26.418940Z</S:date>
+</S:log-item>
+</S:log-report>

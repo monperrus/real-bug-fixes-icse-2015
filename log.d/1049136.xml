@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1049136</D:version-name>
+<D:comment>initialize random statically with a fixed seed, just in case someone uses it before @beforeClass runs, e.g. static int i = random.nextInt();</D:comment>
+<D:creator-displayname>rmuir</D:creator-displayname>
+<S:date>2010-12-14T15:49:16.585898Z</S:date>
+</S:log-item>
+</S:log-report>

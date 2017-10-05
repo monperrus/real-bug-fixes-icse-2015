@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>819121</D:version-name>
+<D:comment>columns may be empty if the only pre-flush op was a CF-level remove op. fix (to allow this), with test.  patch by jbellis; reviewed by Teodor Sigaev for CASSANDRA-458</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-09-26T12:46:20.769602Z</S:date>
+</S:log-item>
+</S:log-report>

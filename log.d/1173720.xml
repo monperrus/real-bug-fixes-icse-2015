@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1173720</D:version-name>
+<D:comment>LUCENE-3439: catch more cases where IW/IR is used after close; fix sneaky bug where IW can delete files after it was closed</D:comment>
+<D:creator-displayname>mikemccand</D:creator-displayname>
+<S:date>2011-09-21T15:33:54.598005Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>890370</D:version-name>
+<D:comment>DERBY-2282: Incorrect "transitive closure" logic leads to inconsistent behavior for binary comparison predicates
+
+Extended the fix to work on parameters in addition to constants.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-12-14T15:35:06.986796Z</S:date>
+</S:log-item>
+</S:log-report>

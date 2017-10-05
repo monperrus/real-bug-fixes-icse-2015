@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>519190</D:version-name>
+<D:comment>DERBY-2427: Disable ClobStoredProcedureTest and BlobStoredProcedureTest for
+weme6.1 since they are intended for client/server testing and weme6.1 is not
+currently supported for that framework.
+
+Contributed by: V. Narayanan (v.narayanan@sun.com) 
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2007-03-17T00:01:00.628331Z</S:date>
+</S:log-item>
+</S:log-report>

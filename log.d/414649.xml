@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>414649</D:version-name>
+<D:comment>DERBY-1408
+
+Setting the test properties so that this test does not run with j9, it already
+was disabled for the following:
+runwithibm13=false
+runwithjdk13=false
+runwithjdk12=false
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-06-15T18:26:26.660156Z</S:date>
+</S:log-item>
+</S:log-report>

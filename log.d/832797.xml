@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>832797</D:version-name>
+<D:comment>don't removeDeleted on the whole CF before filtering what the request was for; it's expensive.  also, fixes subcolumn queries being counted twice in readStats
+patch by jbellis; reviewed by gdusbabek for CASSANDRA-510</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-11-04T17:07:42.925405Z</S:date>
+</S:log-item>
+</S:log-report>

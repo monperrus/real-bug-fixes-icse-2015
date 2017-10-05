@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>691576</D:version-name>
+<D:comment>DERBY-2556: Code paths for db restore do not use doPrivileged-calls, causing SecurityException.
+Removed utility class calling AccessController.doPrivileged, because it is a security hole and it is strongly discouraged by the Java docs.
+Adjusted the policy files as the code bases changed when the code moved into different classes.
+Patch file: derby-2556-5b-reworked_fix.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-09-03T11:25:24.922713Z</S:date>
+</S:log-item>
+</S:log-report>

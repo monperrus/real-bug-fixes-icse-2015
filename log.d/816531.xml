@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>816531</D:version-name>
+<D:comment>DERBY-4372: Wrong result for simple join when index is created
+
+If the inner table in the join is restricted by an explicit or
+implicit IN list on an indexed column, an index range scan is
+performed between the smallest value and the greatest value in the IN
+list.
+
+If the first element in the IN list was NULL, the methods that
+calculated the minimum and maximum values always returned NULL, which
+resulted in a range scan between NULL and NULL, and no rows were
+found. If some other element in the IN list was NULL, it was simply
+ignored.
+
+This patch makes the methods always return the min or max non-NULL
+value, if such a value exists. Since the index scan is not supposed to
+return the NULL values anyway, it is safe to ignore them. The edge
+case where all the values are NULL still returns NULL for both min and
+max. This makes the index scan return no rows, which is correct
+because X IN (NULL, NULL) is never true, regardless of the actual
+value of X.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-09-18T08:30:24.644616Z</S:date>
+</S:log-item>
+</S:log-report>

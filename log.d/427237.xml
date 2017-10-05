@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>427237</D:version-name>
+<D:comment>DERBY-1462: Sed out db.lck warnings from some store tests. These warnings are
+printed when running the store tests with pre-1.4 JVMs on non-windows platforms.
+
+Committed for Myrna Van Lunteren &lt;m.v.lunteren@gmail.com&gt;
+</D:comment>
+<D:creator-displayname>fuzzylogic</D:creator-displayname>
+<S:date>2006-07-31T19:58:36.617587Z</S:date>
+</S:log-item>
+</S:log-report>

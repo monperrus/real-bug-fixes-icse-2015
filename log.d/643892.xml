@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>643892</D:version-name>
+<D:comment>DERBY-3562: Delete unnecessary, old log files on the slave when a checkpoint is encountered in the log received from the master.
+Contributed by Jorgen Loland
+
+Merged to 10.4 branch with command:
+svn merge -r643335:643336 https://svn.apache.org/repos/asf/db/derby/code/trunk/
+</D:comment>
+<D:creator-displayname>oysteing</D:creator-displayname>
+<S:date>2008-04-02T12:59:11.180633Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>807749</D:version-name>
+<D:comment>DERBY-3819 ; 'Expected Table Scan ResultSet for T3' in test_predicatePushdown(....PredicatePushdownTest)
+  backport change 807733 (skip a number of asserts on 64 bit platforms) from trunk.
+  merge command: merge -c 80773 https://svn.apache.org/repos/asf/db/derby/code/trunk 
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2009-08-25T18:23:29.708629Z</S:date>
+</S:log-item>
+</S:log-report>

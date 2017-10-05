@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>492919</D:version-name>
+<D:comment>DERBY-1847: SELECT statement asserts with added column in sqlAuth mode
+
+This is a follow-on patch for DERBY-1847. The problem is that
+when DataDictionaryImpl.updateSYSCOLPERMSforAddColumnToUserTable
+updates the SYSCOLPERMS table, it updates the table by partial
+key value. That means that each time the updateRow() call is made,
+the COLUMNS column in SYSCOLPERMS is updated for *all* the
+SYSCOLPERMS in that particular table, not just for the particular
+SYSCOLPERMS row that we are working with at that instant.
+
+The routine uses a partial key to find all the ColPermsDescriptor
+entries for this table, but when it updates those rows, it needs
+to use a full key, not a partial key.
+
+DataDictionaryImpl.updateSYSCOLPERMSforAddColumnToUserTable
+actually has the correct index row available, because it's just used
+that row to fetch the base table row to update. So the fix is 
+to pass that index row to the ti.updateRow() call and
+specify the COLPERMSID_INDEX_NUM rather than the TABLEID_INDEX_NUM.
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2007-01-05T06:04:32.948689Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>381430</D:version-name>
+<D:comment>DERBY-1045: Remove Class-Path attribute from derbytools.jar manifest. 
+Autoloading of the JDBC drivers causes problems in a mixed-jar environment, 
+because the load from the tools Class-Path will take precedence over a client 
+that appears later in the classpath.
+</D:comment>
+<D:creator-displayname>fuzzylogic</D:creator-displayname>
+<S:date>2006-02-27T20:18:18.937980Z</S:date>
+</S:log-item>
+</S:log-report>

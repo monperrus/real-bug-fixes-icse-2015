@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>581012</D:version-name>
+<D:comment>DERBY-3085 Fails to handle BLOB fields with a PreparedStatement with size &gt;32750 bytes
+
+Store a reference to the stream for the streamed parameter in the DRDAStatement.paramState and then drain the stream after statement execution if needed. There is only one parameter ever streamed, so only one field needed to be added. I added a test for both BLOB's and CLOB's to Blob4ClobTest.java.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-10-01T16:49:37.738753Z</S:date>
+</S:log-item>
+</S:log-report>

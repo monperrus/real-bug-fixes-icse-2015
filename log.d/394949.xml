@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>394949</D:version-name>
+<D:comment>DERBY-1025 - [xa] client XAResource.start() does not commit an active local transaction when auto commit is true
+patch 2
+
+I am attaching 'derby-1025-patch2-v1.diff' which changes checkDataSource test to test that starting a global transcation when a local transaction is active will give an exception. The XA error code is also printed out to verify that we get the expected exception. This patch will resolve this issue fully.
+
+Contributed by Deepa Remesh
+
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-04-18T14:07:26.780912Z</S:date>
+</S:log-item>
+</S:log-report>

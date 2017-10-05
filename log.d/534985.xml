@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>534985</D:version-name>
+<D:comment>DERBY-2381 ParameterMappingTest fails due to ArrayIndexOutOfBoundsException executing a procedure
+
+Formerly, the server would rely on the input parameter type information received from the client to determine the output parameter type. This patch changes the server to look at the parameter metadata to determine the drda type to send.
+It also enables the test ParameterMappingTest for client. 
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-05-03T20:39:18.566396Z</S:date>
+</S:log-item>
+</S:log-report>

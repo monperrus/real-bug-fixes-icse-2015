@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1202834</D:version-name>
+<D:comment>Fix to properly support update of the counter with expression like '&lt;field&gt; = &lt;field&gt; - -&lt;num&gt;'
+patch by Pavel Yaskevich; reviewed by Paul Canon for CASSANDRA-3418</D:comment>
+<D:creator-displayname>xedin</D:creator-displayname>
+<S:date>2011-11-16T18:50:44.313653Z</S:date>
+</S:log-item>
+</S:log-report>

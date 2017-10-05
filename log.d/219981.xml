@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>219981</D:version-name>
+<D:comment>Port trunk change 219256 to 10.1 branch.
+
+DERBY-409: This is a potential patch for the issue brought up in DERBY-406 connectionAttributes will now default to null (aka no default) 
+
+Ported to 10.1 by Satheesh Bandaram (satheesh@sourcery.org)
+
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2005-07-21T01:55:40.270058Z</S:date>
+</S:log-item>
+</S:log-report>

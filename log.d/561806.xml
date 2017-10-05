@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>561806</D:version-name>
+<D:comment>In tracing the types of various nodes created by the failing query for DERBY-2937 I saw
+that some nodes had types of CHAR(0) which makes no sense. These were NULL constant nodes
+where no type attributes were being passed in. Change QueryTreeNode.getNullNode() to
+have a DataTypeDescriptor as a parameter and set the type of the constant node to be that type. </D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-08-01T14:13:01.664101Z</S:date>
+</S:log-item>
+</S:log-report>

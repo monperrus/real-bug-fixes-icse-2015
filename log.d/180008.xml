@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>180008</D:version-name>
+<D:comment>fix timing problem between compress deallocation of pages and background
+post commit, locking for heap container for truncate was wrong.  Also 
+change compress of alloc page to be a logged operation.  I thought it 
+could be handled unlogged, similar to preallocation - but there were some
+crash cases that would not be handled correctly if it were not logged.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2005-06-04T18:00:33.540034Z</S:date>
+</S:log-item>
+</S:log-report>

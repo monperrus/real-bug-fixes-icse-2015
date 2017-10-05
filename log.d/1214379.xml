@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1214379</D:version-name>
+<D:comment>Merged revision(s) 1214376 from lucene/dev/trunk:
+LUCENE-3644: Use one instance of the listener class also for composite/SlowMultiReader (to prevent filling the CHS of IR). Also don't use FieldCache.DEFAULT from inside FieldCacheImpl, as it makes extension hard. We have "wrapper" reference for that.</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2011-12-14T17:44:43.334086Z</S:date>
+</S:log-item>
+</S:log-report>

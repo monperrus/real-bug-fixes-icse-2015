@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>574917</D:version-name>
+<D:comment>DERBY-3038 SYSCS_IMPORT_TABLE FAILS with No current connection after shutdown/reconnect to encrypted database : 10.3.1.4 regression
+
+Patch DERBY-3038-2 merged from trunk as:
+
+svn merge -r 574732:574733 https://svn.apache.org/repos/asf/db/derby/code/trunk/
+
+All regression tests passed.
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2007-09-12T12:35:22.701916Z</S:date>
+</S:log-item>
+</S:log-report>

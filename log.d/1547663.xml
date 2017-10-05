@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1547663</D:version-name>
+<D:comment>Merged revision(s) 1547661 from lucene/dev/trunk:
+Update some ANT plugins:
+- make SVN version configurable: As svnkit 1.8 does not support svn 1.7 WCs and vice versa, if you use an 1.8 WC, you have to manually pass -Dsvnkit.version=1.8.0 (unless I find a better solution...)
+- Update Groovy
+- Update Pegdown
+- LUCENE-5243: Update Clover to released version 3.2.0 (no more snapshot)</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2013-12-04T00:57:39.621358Z</S:date>
+</S:log-item>
+</S:log-report>

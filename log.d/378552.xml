@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>378552</D:version-name>
+<D:comment>DERBY-614 patch 2 - clear splitQRYTDA field for reuse of the resultset
+Bryan said ..
+
+ With my first patch to this bug, I introduced a problem in this processing; the
+splitQRYDTA field was not cleared when the statement was closed. This meant that
+if that splitQRYDTA field just happened to have some pending query data from the
+previous statement at the point where it was re-used, the pending query data would
+erroneously stick around and be returned as the first result for the new statement.
+
+Contributed by Bryan Pendleton
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-02-17T15:59:55.006228Z</S:date>
+</S:log-item>
+</S:log-report>

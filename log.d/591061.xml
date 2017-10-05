@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>591061</D:version-name>
+<D:comment>DERBY-176 backport to 10.1.  Change largeCodeGen test to open up a new connection for union testing, because 99,000 paramters causes loss of connection in 10.1
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-11-01T15:50:00.314930Z</S:date>
+</S:log-item>
+</S:log-report>

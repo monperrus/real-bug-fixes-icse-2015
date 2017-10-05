@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1022690</D:version-name>
+<D:comment>forward-port CASSANDRA-1481.  originally thought it was a non-issue in 0.7 because of endpoint caching in Strategy, but getRack/getDatacenter are still called by sortByProximity in StorageProxy.  patch by jbellis</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-10-14T20:17:47.466952Z</S:date>
+</S:log-item>
+</S:log-report>

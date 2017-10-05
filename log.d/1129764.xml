@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1129764</D:version-name>
+<D:comment>DERBY-5233 Interrupt of create table or index (i.e. a container) will throw XSDF1 under NIO - connection survives
+
+Patch DERBY-5233-2: The patch makes RAFContainer, when seeing an
+interrupt exception during container creation, close it down and try
+again, up to MAX_INTERRUPT_RETRIES times. Since RAFContainer should
+work also under CDC/Foundation 1.1, the exceptions are checked using
+reflection (NIO classes are excluded there).
+
+I also adds a new test case to InterruptResilienceTest:
+testCreateDropInterrupted.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-05-31T15:45:49.085116Z</S:date>
+</S:log-item>
+</S:log-report>

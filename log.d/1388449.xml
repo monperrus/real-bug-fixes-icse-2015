@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1388449</D:version-name>
+<D:comment>Fix the llinter issue with absolute file names intermixed with url, failing to parse them as URLs (C:/path is treated as URL with schema C). Fix other properties to be absolute in common-build.xml.</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2012-09-21T12:12:09.372943Z</S:date>
+</S:log-item>
+</S:log-report>

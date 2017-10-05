@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>946188</D:version-name>
+<D:comment>DERBY-4665: Unidiomatic error handling in TimestampArithTest
+
+Use helper methods that preserve the stack trace on errors instead
+of printing to the console and exiting.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-05-19T13:57:59.089705Z</S:date>
+</S:log-item>
+</S:log-report>

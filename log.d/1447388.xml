@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1447388</D:version-name>
+<D:comment>DERBY-6067: JaCoCo fails with missing permissions when writing results
+
+Added a "jacoco.active" property, which will grant the required privileges to
+JaCoCo (or more specifically, all code bases) when set to the empty string ("").
+Enabled logic to disable the security manager when spawning processes and at
+the same time obtaining code coverage with JaCoCo.
+Added comment in build.xml, explaining what derby.tests.jacoco.agent is for.
+
+Patch file: derby-6067-1b-fix_privileges.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2013-02-18T16:45:48.023411Z</S:date>
+</S:log-item>
+</S:log-report>

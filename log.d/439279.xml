@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>439279</D:version-name>
+<D:comment>DERBY-418: outofmemory error when running large query in autocommit=false mode
+DERBY-1142: Metadata calls leak memory
+
+Notify GenericLanguageConnectionContext when activations are marked as
+unused, and clean up unused activations when a new one is added.
+
+Patch contributed by Mayuresh Nirhali.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-09-01T11:57:54.260773Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>901693</D:version-name>
+<D:comment>Nasty little bug in the Open primitive map, only found by walking deep in the debugger: clear() wasn't clearing out the last entry in the values array, so if it was full, it stayed full after clear()!  This actaully caused infinite loops in certain conditions in other parts of the codebase.
+</D:comment>
+<D:creator-displayname>jmannix</D:creator-displayname>
+<S:date>2010-01-21T13:15:54.282267Z</S:date>
+</S:log-item>
+</S:log-report>

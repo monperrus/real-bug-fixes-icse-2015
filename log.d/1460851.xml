@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1460851</D:version-name>
+<D:comment>Fix an error in the signature of FrameworkMBean.getProperty. It was missing a throws IOException clause.
+</D:comment>
+<D:creator-displayname>davidb</D:creator-displayname>
+<S:date>2013-03-25T19:13:06.833984Z</S:date>
+</S:log-item>
+</S:log-report>

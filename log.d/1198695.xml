@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1198695</D:version-name>
+<D:comment>DERBY-4845: Improve the dependency tracking for our build targets
+
+Move getCreateAliasNode() and mapTableAsVTI() out of NodeFactory to
+prevent that they expose impl classes to iapi code.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-11-07T10:43:27.138655Z</S:date>
+</S:log-item>
+</S:log-report>

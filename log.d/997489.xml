@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>997489</D:version-name>
+<D:comment>revert r996974. fix by adding a switch to files() to allow it to be used to get valid files and generate a count. patch by gdusbabek, reviewed by jbellis. CASSANDRA-1477
+</D:comment>
+<D:creator-displayname>gdusbabek</D:creator-displayname>
+<S:date>2010-09-15T20:38:23.260354Z</S:date>
+</S:log-item>
+</S:log-report>

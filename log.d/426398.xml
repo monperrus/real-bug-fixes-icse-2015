@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>426398</D:version-name>
+<D:comment>DERBY-1586: The attributesAsPassword property doesn't work correctly
+with EmbeddedConnectionPoolDataSource
+
+Forward the requestPassword parameter from createPooledConnection() to
+EmbedPooledConnection's constructor.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-07-28T06:15:26.591312Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="609162"/>
+<S:open-directory rev="609161">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/609162/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">609162</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-01-05T15:59:47.931794Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">yonik</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="609161">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/609162/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">609162</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-01-05T15:59:47.931794Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">yonik</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="solr" rev="609161">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/609162/lucene/solr</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">609162</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-01-05T15:59:47.931794Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">yonik</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="609161">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/609162/lucene/solr/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">609162</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-01-05T15:59:47.931794Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">yonik</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="CHANGES.txt" rev="609161">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/609162/lucene/solr/trunk/CHANGES.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">609162</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-01-05T15:59:47.931794Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">yonik</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e229a23ecce6c980ab4e4437b9cb571f" sha1-checksum="fe5d5182e042268a079750ebf9771df465360287"/>
+<S:prop><V:md5-checksum>89ec43df1540371cf35f6874865b9520</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="src" rev="609161">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/609162/lucene/solr/trunk/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">609162</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-01-05T15:59:47.931794Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">yonik</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="609161">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/609162/lucene/solr/trunk/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">609162</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-01-05T15:59:47.931794Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">yonik</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test-files" rev="609161">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/609162/lucene/solr/trunk/src/test/test-files</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">609162</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-01-05T15:59:47.931794Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">yonik</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="htmlStripReaderTest.html" sha1-checksum="2eaddc16471dc2dcd8fb929d7807c0fab223c6e7">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/609162/lucene/solr/trunk/src/test/test-files/htmlStripReaderTest.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">609162</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-01-05T15:59:47.931794Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">yonik</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="svn:executable">*</S:set-prop>
+<S:set-prop name="svn:keywords">Date Author Id Revision HeadURL</S:set-prop>
+<S:prop><V:md5-checksum>c88f59b395be4437344e1f62cf77c9f0</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="java" rev="609161">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/609162/lucene/solr/trunk/src/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">609162</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-01-05T15:59:47.931794Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">yonik</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="609161">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/609162/lucene/solr/trunk/src/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">609162</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-01-05T15:59:47.931794Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">yonik</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="609161">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/609162/lucene/solr/trunk/src/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">609162</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-01-05T15:59:47.931794Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">yonik</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="solr" rev="609161">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/609162/lucene/solr/trunk/src/java/org/apache/solr</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">609162</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-01-05T15:59:47.931794Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">yonik</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="analysis" rev="609161">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/609162/lucene/solr/trunk/src/java/org/apache/solr/analysis</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">609162</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-01-05T15:59:47.931794Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">yonik</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="HTMLStripReader.java" rev="609161">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/609162/lucene/solr/trunk/src/java/org/apache/solr/analysis/HTMLStripReader.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">609162</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2008-01-05T15:59:47.931794Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">yonik</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="ef0a61b44a4eae3adee45f6b9ff81055" sha1-checksum="c7e66ab24c727eee42ce4cb471b225b8d1d0e849"/>
+<S:prop><V:md5-checksum>e798f3f17e9360143e6aa95c064e856a</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1210686</D:version-name>
+<D:comment>DERBY-1016; javax.transaction.xa.forget (Xid) raises XAER_NOTA exception instead of XA_PROTO on a prepared transaction
+  patch contributed by Jayaram Subramanian (rsjay1976 at gmail dot com).
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2011-12-05T22:35:34.848391Z</S:date>
+</S:log-item>
+</S:log-report>

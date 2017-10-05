@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1080286</D:version-name>
+<D:comment>fix fd leak in sstable2json with non-mmap'd i/o
+patch by jbellis; reviewed by Pavel Yaskevich for CASSANDRA-2304</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2011-03-10T17:13:16.721069Z</S:date>
+</S:log-item>
+</S:log-report>

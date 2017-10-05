@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>779322</D:version-name>
+<D:comment>remove unnecessary List creation in getSliceFrom and move close() cleanup for to the finally block.  patch by Jun Rao; reviewed by jbellis for CASSANDRA-201</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-05-27T21:41:04.067701Z</S:date>
+</S:log-item>
+</S:log-report>

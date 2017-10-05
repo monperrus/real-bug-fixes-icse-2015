@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>425446</D:version-name>
+<D:comment>DERBY-1578 - A number of tests fail due to rework on toString() method 
+of SQLException.
+
+derbyall passes clean now, except I am getting some diffs in some
+i18n tests due to locale differences.  Not sure how to fix those.
+</D:comment>
+<D:creator-displayname>davidvc</D:creator-displayname>
+<S:date>2006-07-25T16:22:05.554228Z</S:date>
+</S:log-item>
+</S:log-report>

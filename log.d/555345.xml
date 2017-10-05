@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>555345</D:version-name>
+<D:comment>SOLR-297 - fixed the RequiredSolrParams.getField* methods, they weren't falling back to the non field specific param names before failing with an exception</D:comment>
+<D:creator-displayname>hossman</D:creator-displayname>
+<S:date>2007-07-11T17:57:51.721619Z</S:date>
+</S:log-item>
+</S:log-report>

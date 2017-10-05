@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>954344</D:version-name>
+<D:comment>DERBY-4693: RENAME COLUMN loses IDENTITY attributes
+
+This change modifies the RENAME COLUMN logic so that it preserves the
+autoincrement properties of the column when renaming it.  Since RENAME
+COLUMN more-or-less drops and re-adds the column, we need to ensure
+that when the column is re-added, if it is an Autoincrement column, 
+we set the CREATE_AUTOINCREMENT flag that the parser sets when
+initially creating the table. 
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2010-06-14T01:35:34.812537Z</S:date>
+</S:log-item>
+</S:log-report>

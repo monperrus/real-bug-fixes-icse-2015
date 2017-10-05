@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1456352</D:version-name>
+<D:comment>DERBY-5632: Logical deadlock happened when freezing/unfreezing the database
+
+Stop using explicit synchronization on the conglomerate cache.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-03-14T07:29:28.078333Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>240099</D:version-name>
+<D:comment>DERBY-537 - Improve dcl test to use extdirs which causes the jar files to
+be cleaned up if the test passes and will make for clearer permission granting
+once the test passes with a SecurityManager.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-08-25T16:48:11.953606Z</S:date>
+</S:log-item>
+</S:log-report>

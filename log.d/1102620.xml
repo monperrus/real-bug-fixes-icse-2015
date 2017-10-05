@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1102620</D:version-name>
+<D:comment>DERBY-5222: Compatibility tests fail to delete database directory
+
+Wait for the forked test process to terminate so that it's not modifying the
+database directory while the parent process is trying to delete it.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-05-13T09:16:12.677205Z</S:date>
+</S:log-item>
+</S:log-report>

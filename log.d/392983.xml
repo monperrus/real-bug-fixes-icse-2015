@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>392983</D:version-name>
+<D:comment>DERBY-1196 -Network server closes prepared statements prematurely if exception occurs during OPNQRY and can cause "'Statement' already closed" exception on reexecution 
+Master update for checkDataSource30
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-04-10T16:39:13.752757Z</S:date>
+</S:log-item>
+</S:log-report>

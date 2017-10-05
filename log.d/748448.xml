@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>748448</D:version-name>
+<D:comment>DERBY-3731: Improve calculation of refSize in ClassSize.java.
+Added read privileges for the two properties used to determine if the system
+is 32 or 64 bit to the template policy file.
+Patch file: derby-3731-2a_update_of_policy_template.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-02-27T09:09:42.521574Z</S:date>
+</S:log-item>
+</S:log-report>

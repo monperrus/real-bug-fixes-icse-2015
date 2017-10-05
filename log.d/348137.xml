@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>348137</D:version-name>
+<D:comment>Fix TestSegmentReader, which broke due to previous changes to DocHelper.  getPositionIncrementGap tests no longer use DocHelper, to avoid testing conflicts.
+
+</D:comment>
+<D:creator-displayname>ehatcher</D:creator-displayname>
+<S:date>2005-11-22T09:35:58.317315Z</S:date>
+</S:log-item>
+</S:log-report>

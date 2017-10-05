@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>577421</D:version-name>
+<D:comment>SOLR-360 -- reverting #577405, 
+ set factory.setProperty("reuse-instance", Boolean.FALSE); 
+works for 1.6.  The BEA parser works for 1.5</D:comment>
+<D:creator-displayname>ryan</D:creator-displayname>
+<S:date>2007-09-19T19:40:53.214329Z</S:date>
+</S:log-item>
+</S:log-report>

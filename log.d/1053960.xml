@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1053960</D:version-name>
+<D:comment>Fix CompactionManager regression from CASSANDRA-1916 and add a better
+test and more docs to prevent in the future.
+Patch by jbellis, reviewed by brandonwilliams for CASSANDRA-1922</D:comment>
+<D:creator-displayname>brandonwilliams</D:creator-displayname>
+<S:date>2010-12-30T18:20:37.828272Z</S:date>
+</S:log-item>
+</S:log-report>

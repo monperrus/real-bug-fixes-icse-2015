@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>584773</D:version-name>
+<D:comment>DERBY-3003: ArrayInputStream.skipBytes() may throw EOFException which
+is disallowed by java.io.DataInput
+
+Fix contributed by Jørgen Løland.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-10-15T12:37:39.141582Z</S:date>
+</S:log-item>
+</S:log-report>

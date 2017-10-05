@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>410267</D:version-name>
+<D:comment>DERBY-1308: Tests jdbcapi/HoldabilityTest.junit,
+jdbcapi/UpdateXXXTest.junit,jdbcapi/SURTest.junit fail on
+wctme5.7_foundation
+
+Attaching patch DERBY-1308_3_20060527.*. In this patch, I moved the
+get*DataSource* methods from functionTests/util/BaseJDBCTestCase.java
+to a new file, functionTests/util/TestDataSourceFactory.java, and the
+method getDefaultSourceProperties into
+functionTests/util/TestConfiguration.java.  I adjusted affected tests
+that I could find, and verified the affected tests where applicable
+with wctme5.7, wsdd5.6, wctme5.7_foundation, jdk142 and jdk16.
+
+Patch contributed by Myrna van Lunteren.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-05-30T12:53:22.469493Z</S:date>
+</S:log-item>
+</S:log-report>

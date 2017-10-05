@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1079336</D:version-name>
+<D:comment>DERBY-5099: PrepareStatementTest depends on ordering of test cases
+
+Merged two test cases that depended on one another so that the order
+in which the test cases run doesn't affect the result.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-03-08T12:07:11.569473Z</S:date>
+</S:log-item>
+</S:log-report>

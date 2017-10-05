@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>998475</D:version-name>
+<D:comment>DERBY-4798 NPE in nested outer join
+
+Backport to 10.6 branch as 
+
+svn merge -c 998170 https://svn.apache.org/repos/asf/db/derby/code/trunk
+
+Patch derby-4798a.
+
+Reintroduces the bailout code in BaseActivation#getColumnFromRow which
+was removed in DERBY-3097 until we understand why it is needed. 
+
+Adds the repro for this issue to OuterJoinTest.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2010-09-18T14:30:34.077539Z</S:date>
+</S:log-item>
+</S:log-report>

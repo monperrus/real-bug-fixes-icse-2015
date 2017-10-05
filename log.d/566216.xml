@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>566216</D:version-name>
+<D:comment>DERBY-2906: derbynet.jar &amp; derbytools.jar incorrectly have a META-INF/services/java.sql.Driver entry. All jar build targets now delete the content of the lists directory before creating the jar.
+Patch file: derby-2906-1a.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2007-08-15T15:17:52.275090Z</S:date>
+</S:log-item>
+</S:log-report>

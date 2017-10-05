@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>393579</D:version-name>
+<D:comment>DERBY-438 (partial) Move RawToBinaryStreamFormat.java from org.apache.derby.impl.jdbc to
+org.apache.derby.iapi.types to allow its use in SQLBlob and SQLBinary (in a future commit).
+This will allow the setting of the internal binary types from JDBC objects in a consistent manner.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-04-12T19:02:51.900025Z</S:date>
+</S:log-item>
+</S:log-report>

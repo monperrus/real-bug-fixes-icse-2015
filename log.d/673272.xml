@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>673272</D:version-name>
+<D:comment>DERBY-3730
+
+backporting fix (change #672838) from trunk to 10.4 branch.
+
+Adding a Bundle-SymbolicName entry to the manifest to conform to the
+OSGI release 4 standard.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2008-07-02T04:26:07.424073Z</S:date>
+</S:log-item>
+</S:log-report>

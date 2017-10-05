@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>728822</D:version-name>
+<D:comment>DERBY-3975: SELECT DISTINCT may return duplicates with territory-based collation
+
+Made the implementation of hashCode() in the collation-sensitive
+subclasses of SQLChar consistent with the collation-sensitive
+implementations of equals(), compareTo() and stringCompare().
+
+Also extended CollationTest with tests for SELECT DISTINCT on strings
+that contain different characters but are considered equal in French
+locale.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2008-12-22T23:22:11.682935Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>789464</D:version-name>
+<D:comment>don't remove commitlog files when replay fails; you lose the chance to fix a bug, as well as your data.
+patch by jbellis; reviewed by Jun Rao for CASSANDRA-264</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-06-29T22:07:41.748841Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="901172"/>
+<S:open-directory rev="901171">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/901172/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">901172</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-20T12:57:16.555745Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jaakko</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="incubator" rev="901171">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/901172/incubator</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">901172</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-20T12:57:16.555745Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jaakko</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra" rev="901171">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/901172/incubator/cassandra</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">901172</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-20T12:57:16.555745Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jaakko</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="901171">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/901172/incubator/cassandra/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">901172</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-20T12:57:16.555745Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jaakko</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="contrib" rev="901171">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/901172/incubator/cassandra/trunk/contrib</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">901172</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-20T12:57:16.555745Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jaakko</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="mutex" bc-url="/repos/asf/!svn/bc/901172/incubator/cassandra/trunk/contrib/mutex">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/901172/incubator/cassandra/trunk/contrib/mutex</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">901172</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-20T12:57:16.555745Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jaakko</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="README" sha1-checksum="ed2f65d54836dfba75191251d34afb9e21620c46">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/901172/incubator/cassandra/trunk/contrib/mutex/README</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">901172</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-20T12:57:16.555745Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jaakko</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>29d7ee2c1d0d0e0232a5182f2a04fe3d</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="cassandra.patch" sha1-checksum="dc3af70bfa2e1afd777af02d837caf128891f282">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/901172/incubator/cassandra/trunk/contrib/mutex/cassandra.patch</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">901172</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-20T12:57:16.555745Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jaakko</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>f831a9b8ad68183ef31da813d532c8e1</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="lib" bc-url="/repos/asf/!svn/bc/901172/incubator/cassandra/trunk/contrib/mutex/lib">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/901172/incubator/cassandra/trunk/contrib/mutex/lib</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">901172</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-20T12:57:16.555745Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jaakko</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="zookeeper-3.2.2.jar" sha1-checksum="51bbfe547bb00fb071dbac1063e96108b9e1e9a9">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/901172/incubator/cassandra/trunk/contrib/mutex/lib/zookeeper-3.2.2.jar</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">901172</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-20T12:57:16.555745Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jaakko</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>e9f535d6ba8298923998c28f5ba8f249</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-file name="storage-conf.xml" sha1-checksum="8993ac1178e8501b03f0c465b8fa932b12275f34">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/901172/incubator/cassandra/trunk/contrib/mutex/storage-conf.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">901172</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-20T12:57:16.555745Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jaakko</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>276b33b7e423212f0668a98e93bee5f2</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="src" bc-url="/repos/asf/!svn/bc/901172/incubator/cassandra/trunk/contrib/mutex/src">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/901172/incubator/cassandra/trunk/contrib/mutex/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">901172</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-20T12:57:16.555745Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jaakko</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/901172/incubator/cassandra/trunk/contrib/mutex/src/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/901172/incubator/cassandra/trunk/contrib/mutex/src/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">901172</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-20T12:57:16.555745Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jaakko</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/901172/incubator/cassandra/trunk/contrib/mutex/src/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/901172/incubator/cassandra/trunk/contrib/mutex/src/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">901172</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-20T12:57:16.555745Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jaakko</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="cassandra" bc-url="/repos/asf/!svn/bc/901172/incubator/cassandra/trunk/contrib/mutex/src/org/apache/cassandra">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/901172/incubator/cassandra/trunk/contrib/mutex/src/org/apache/cassandra</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">901172</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-20T12:57:16.555745Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jaakko</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="mutex" bc-url="/repos/asf/!svn/bc/901172/incubator/cassandra/trunk/contrib/mutex/src/org/apache/cassandra/mutex">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/901172/incubator/cassandra/trunk/contrib/mutex/src/org/apache/cassandra/mutex</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">901172</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-20T12:57:16.555745Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jaakko</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="ClusterMutex.java" sha1-checksum="d2365976b6eb27588910724fff7ee2ca1b79b4ca">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/901172/incubator/cassandra/trunk/contrib/mutex/src/org/apache/cassandra/mutex/ClusterMutex.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">901172</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-20T12:57:16.555745Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jaakko</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>6be2ed31b624fcbdb485f66596055acb</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

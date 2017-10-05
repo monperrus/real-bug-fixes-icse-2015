@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1038514</D:version-name>
+<D:comment>DERBY-4912: Instability in Derby2017LayerBTest
+
+Made result set assert unordered. The query result cannot be ordered with the
+current table definition (BLOB/CLOB column only).
+
+Patch file: derby-4912-1a-unorderedAssert.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-11-24T08:02:35.926213Z</S:date>
+</S:log-item>
+</S:log-report>

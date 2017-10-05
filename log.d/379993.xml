@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>379993</D:version-name>
+<D:comment>DERBY-1010 - setTransactionIsolation can cause ava.sql.SQLException: Invalid operation: statement closed in some contexts with xa
+
+Client has a Statement object that it reuses to send SET CURRENT ISOLATION commands to the server.  Added a check to make sure this statement was not closed before trying to reuse it.
+
+This change takes the checkDataSource test a bit further (DERBY-435) but there seem to be issues with isolation being set correctly with xa_join.  I will investigate that and file a Jira issue
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-02-22T23:57:30.313608Z</S:date>
+</S:log-item>
+</S:log-report>

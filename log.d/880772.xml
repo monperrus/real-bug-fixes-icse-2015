@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>880772</D:version-name>
+<D:comment>add getSortedApplicationStates to preserve state ordering when re-gossiping to other nodes.  patch by Jaakko Laine; reviewed by jbellis for CASSANDRA-548</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-11-16T14:31:47.429913Z</S:date>
+</S:log-item>
+</S:log-report>

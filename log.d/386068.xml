@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>386068</D:version-name>
+<D:comment>DERBY-992: A corner case bug and missing optimization in
+ScrollInsensitiveResultSet
+
+a) For a scrollable, insensitive result set (read-only) which is
+   empty, ResultSet#afterLast should have no effect, but erroneously
+   sets the internal variable afterLast to true, so that a subsequent
+   call to ResultSet#isAfterLast will return 'true' in the embedded
+   client. It does not happen on the client driver, because it seems
+   to do some double book-keeping for this case.
+
+b) In ScrollInsensitiveResultSet#getNextRowCore and #getAbsoluteRow,
+   there are missing checks will cause unnecessary read (attempts)
+   from underlying result set even if end has been seen already.
+
+Patch submitted by Dag H. Wanvik.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-03-15T13:11:17.406871Z</S:date>
+</S:log-item>
+</S:log-report>

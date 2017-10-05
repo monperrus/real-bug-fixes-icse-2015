@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1294759</D:version-name>
+<D:comment>DERBY-5552 Derby threads hanging when using ClientXADataSource and a deadlock or lock timeout occurs
+
+Code patch contributed by Brett Bergquist - brett at thebergquistfamily dot com
+Derby will no longer null out the connection on lock timeout or deadlock.
+
+I added test to verify proper behavior for the conneciton and transaction
+state after the lock timeout occurs. 
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2012-02-28T18:29:57.360654Z</S:date>
+</S:log-item>
+</S:log-report>

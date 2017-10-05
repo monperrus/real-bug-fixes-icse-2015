@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>55852</D:version-name>
+<D:comment>Derby may fail to start when it is loaded through a custom ClassLoader.
+The reason is that the static java.lang.ClassLoader.getSystemResources method may not
+find the resources loaded by a custom ClassLoader.
+The patch fixes that by getting the current ClassLoader and calling its getResources method.
+
+Patch from Jack Klebanoff &lt;klebanof@Mutagen.Net&gt;
+
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2004-10-28T13:56:42.660324Z</S:date>
+</S:log-item>
+</S:log-report>

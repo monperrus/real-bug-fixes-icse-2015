@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>743867</D:version-name>
+<D:comment>DERBY-4055 Test case to reproduce part of the issue pertaining to not getting the row lock. To reproduce enable ClobReclamationTest.xtestMultiThreadUpdateSingleRow().  This does not fix the issue.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2009-02-12T20:28:32.458597Z</S:date>
+</S:log-item>
+</S:log-report>

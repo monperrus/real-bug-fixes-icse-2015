@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1375215</D:version-name>
+<D:comment>ARIES-907: As part of this work, the event emitting structure was changed to match those of bundles. On a restart, a persisted subsystem will generate an initial registration event containing its last state (i.e. RESOLVED or INSTALLED). If autostart is set to started, STARTING and ACTIVE events will follow. The root subsystem follows the same pattern. This required some changes to the tests.
+
+A new test for autostarting under various conditions was also added.</D:comment>
+<D:creator-displayname>jwross</D:creator-displayname>
+<S:date>2012-08-20T20:58:27.535170Z</S:date>
+</S:log-item>
+</S:log-report>

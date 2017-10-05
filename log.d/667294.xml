@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>667294</D:version-name>
+<D:comment>Fixed bug parsing boolean attributes. Boolean.getBoolean(s) was being used by mistake which reads a system property with name of s - instead need to parse s as string value of "true" or "false".</D:comment>
+<D:creator-displayname>mharwood</D:creator-displayname>
+<S:date>2008-06-12T23:38:39.898926Z</S:date>
+</S:log-item>
+</S:log-report>

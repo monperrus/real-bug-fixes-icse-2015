@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>653091</D:version-name>
+<D:comment>SOLR-509: roll back prev changes that caused firstSearcher to never be closed, use latch to prevent events from executing before inform() is called</D:comment>
+<D:creator-displayname>yonik</D:creator-displayname>
+<S:date>2008-05-03T15:46:08.133273Z</S:date>
+</S:log-item>
+</S:log-report>

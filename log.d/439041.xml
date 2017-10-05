@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>439041</D:version-name>
+<D:comment>DERBY-1793
+
+Increasing the maximum time to wait for the server to start up from 30 to 60 
+seconds.  The test checks in 500ms increments, so this change does not increase
+the time for test to run for those who are already successfully running it.
+So far this change has made this test pass in my environment, where previously
+it failed consistently.  Since this test passes in the nightly full test runs
+across a number of environments I assume the network server startup time is
+somehow related to my particular machine (processor, memory, disk frag, firewall, vpn, ...)
+
+Others have seen this issue so I am committing to the codeline.  I have filed
+a separate issue that work should be done to measure the performance of 
+network server startup as a targeted test (DERBY-1794).
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-08-31T20:39:25.884051Z</S:date>
+</S:log-item>
+</S:log-report>

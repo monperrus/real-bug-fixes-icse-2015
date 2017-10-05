@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1132664</D:version-name>
+<D:comment>DERBY-1482
+
+Giving the upgrade tests in Changes10_8 a little more thought, I feel that the more appropriate place for the tests will be in upgradeTests.BasicSetup. The reason for this is that the tests are creating triggers and testing the results when they get fired. This kind of testing is not unique to any particular Derby release and hence it is better for them to go in BasicSetup to make sure that the results are consistent between various phases of upgrades. We do already know that because of the bug DERBY-5121, the results will be incorrect in 10.7.1.1 and the test is verifying those incorrect reulsts for 10.7.1.1. Based on this, I am putting these set of trigger tests in BasicSetup.java This makes Changes10_8.java to have no tests left in it and hence we can delete Changes10_8.java from svn.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-06-06T15:17:22.327334Z</S:date>
+</S:log-item>
+</S:log-report>

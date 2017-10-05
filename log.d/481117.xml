@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>481117</D:version-name>
+<D:comment>DERBY-2131: Use a privileged block when calling out to the JAXP parser
+so that users running with a security manager can insert XML values
+that reference external DTDs without encountering security exceptions.
+
+This patch does not include any tests; however, relevant test cases
+will be enabled as part of DERBY-1758.
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2006-12-01T00:19:26.862786Z</S:date>
+</S:log-item>
+</S:log-report>

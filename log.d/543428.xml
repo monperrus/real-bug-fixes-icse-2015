@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>543428</D:version-name>
+<D:comment>DERBY-2692: Client driver doesn't chain exceptions received from the server
+
+Always use initCause() to chain exceptions, also when they are chained
+with setNextException().
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-06-01T08:38:16.810576Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>599487</D:version-name>
+<D:comment>removing the setFacetMinCount() from addFacetField().  see:
+http://www.nabble.com/small-bug-in-solrj--resultquery.addFacetField-overwrites-resultquery.setFacetMinCount-to-1.-tf4895967.html
+
+Also fixing the setFields() issue</D:comment>
+<D:creator-displayname>ryan</D:creator-displayname>
+<S:date>2007-11-29T15:26:04.910567Z</S:date>
+</S:log-item>
+</S:log-report>

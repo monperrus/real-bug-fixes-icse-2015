@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>430681</D:version-name>
+<D:comment>DERBY-1597: set classpath in frameworks scripts from the value of DERBY_HOME instead of
+sourcing the set*CP scripts. This prevents an accumulation of multiple Derby jar files in
+the classpath after multiple runs of the scripts.
+
+Committed for Ramandeep Kaur &lt;ramandhindsa@gmail.com&gt;
+</D:comment>
+<D:creator-displayname>fuzzylogic</D:creator-displayname>
+<S:date>2006-08-11T05:29:52.374102Z</S:date>
+</S:log-item>
+</S:log-report>

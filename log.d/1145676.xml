@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1145676</D:version-name>
+<D:comment>ARIES-708: org.apache.aries.util pom should point to java6-parent, not java5-parent
+
+Set org.apache.aries.util pom back to java5-parent. Set java5-parent project pom to accept 1.6 source but still target 1.5. This results in no @Override compile errors on implemented interface methods but still enforces java 5 compatibility on org.apache.aries.util.</D:comment>
+<D:creator-displayname>jwross</D:creator-displayname>
+<S:date>2011-07-12T17:03:03.780539Z</S:date>
+</S:log-item>
+</S:log-report>

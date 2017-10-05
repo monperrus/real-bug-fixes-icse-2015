@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1485977</D:version-name>
+<D:comment>DERBY-6148 Wrong sort elimination when using permuted sort order
+    
+    Patch derby-6148-3. Adds lacking use of join order index map into
+    optimizableList in method OrderByList#sortRequired. Also adds
+    regression tests for previously failing (and a some good) queries.
+
+Backported from 10.10 as svn merge -c 1485958.
+
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2013-05-24T08:51:20.296542Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>962687</D:version-name>
+<D:comment>DERBY-4155 jdbcapi/XATest.java doesn't seem to be running anywhere
+
+backporting the current state of XATest.java and XAtestUtil.java from trunk
+to 10.3 branch.   Disabled the test for DERBY-4731, to be enabled later when
+that is backported.  It looks like all of the changes for the rest of this
+issue were already backported to 10.3 as part of the backport of DERBY-4310.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2010-07-09T20:36:23.767014Z</S:date>
+</S:log-item>
+</S:log-report>

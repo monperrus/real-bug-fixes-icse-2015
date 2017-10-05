@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1087049</D:version-name>
+<D:comment>DERBY-5121 Data corruption when executing an UPDATE trigger
+
+With the earlier checkin for DERBY-5121, DERBY-1482 changes weren't completely backed out on trunk and 10.7. We have backed out 
+the code for the triggers so that now triggers look for the columns in their actual column positions at execution time. But 
+DERBY-1482 also made changes to UPDATE code to read only the colunms needed by it and the triggers that it is going to fire. 
+We need to backout the changes to UPDATE code to make sure that it reads all the columns from the trigger table and not do 
+selective column reading.
+
+Also adding an upgrade case testing the behavior of UPDATE reading correct columns from the trigger table so that trigger 
+finds the columns it needs.
+
+derbyall and junit suite runs fine with these changes
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-03-30T19:23:11.933538Z</S:date>
+</S:log-item>
+</S:log-report>

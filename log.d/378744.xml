@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>378744</D:version-name>
+<D:comment>DERBY-176 DERBY-766 Modify pushing a long value in generated code to avoid
+using constant pool entries if the long is within the range of a short.
+Then use the I2L instruction to convert the int to a long. Also if
+the long is within range of an int, then create a integer constant pool
+entry and I2L to avoid using two constant pool slots.
+Add some clarifying comments over the code length in complete.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-02-18T17:55:48.188451Z</S:date>
+</S:log-item>
+</S:log-report>

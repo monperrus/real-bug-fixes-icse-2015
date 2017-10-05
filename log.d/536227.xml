@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>536227</D:version-name>
+<D:comment>DERBY-2019: IJ describe command does not handle quotes very well
+
+IJ's describe command already accepted a string for the table name,
+but there were several problems with the handling of the table name
+in single quotes:
+1) The table name was unnecessarily forced to upper case.
+2) The command only worked properly if you gave both schema and table name.
+3) It had a rather bizarre behavior with an empty string
+
+This patch removes the force-to-upper, cleans up the schema name handling,
+addresses the empty string case by treating it as an error,
+adds a simple '*' feature as a wildcard, and adds some new tests.
+
+With the patch,
+   describe 'CamelCaseTable';
+can be used to describe a table with a mixed-case name. 
+
+A separate patch will update the documentation to describe the behavior.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2007-05-08T15:42:46.412683Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1551940</D:version-name>
+<D:comment>DERBY-6387: Incorrect ordering of triggers in dblook
+
+Order the triggers by the CREATIONTIMESTAMP column so that dblook
+produces a script that recreates the triggers in the same order as
+they were originally created.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-12-18T13:29:51.537812Z</S:date>
+</S:log-item>
+</S:log-report>

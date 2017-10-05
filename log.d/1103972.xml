@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1103972</D:version-name>
+<D:comment>port revision 	#1085078 from trunk from DERBY-5141
+
+Add some verbosity to NetworkServerTestSetup to show the server start
+command with -Dderby.tests.debug=true. This does not fix the issue. 
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2011-05-17T01:12:55.365198Z</S:date>
+</S:log-item>
+</S:log-report>

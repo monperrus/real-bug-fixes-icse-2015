@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1033864</D:version-name>
+<D:comment>DERBY-4772: Data truncation error with XPLAIN-functionality enabled 
+
+Increased max length of string fields with undefined max lenghts to the
+maximum allowed length of the VARCHAR data type (and also changed the data
+type from CHAR to VARCHAR).
+
+Patch file: derby-4772-1b-increase_max_len.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-11-11T10:06:29.611537Z</S:date>
+</S:log-item>
+</S:log-report>

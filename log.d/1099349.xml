@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1099349</D:version-name>
+<D:comment>SOLR-2493: SolrQueryParser was fixed to not parse the SolrConfig DOM tree on each instantiation which is a huge slowdown</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2011-05-04T07:18:30.676715Z</S:date>
+</S:log-item>
+</S:log-report>

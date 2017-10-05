@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>427458</D:version-name>
+<D:comment>DERBY-1608: Recognize newly added SYSFUC routines as system builtin functions. Builtin functions don't need authorization checks and have execute permission to PUBLIC by default.
+
+Submitted by Satheesh Bandaram (satheesh@gmail.com)
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2006-08-01T06:16:47.455846Z</S:date>
+</S:log-item>
+</S:log-report>

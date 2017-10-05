@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1076445</D:version-name>
+<D:comment>DERBY-5087: NPE in istat daemon when encountering critical exception during shutdown
+
+Don't null out the index stats refresher reference in the data dictionary when
+stopping the module.
+Removed unnecessary variable 'daemonStopped', used existing 'daemonDisabled'
+instead.
+
+Patch file: derby-5087-1a-npe_on_shutdown.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-03-02T22:51:47.209280Z</S:date>
+</S:log-item>
+</S:log-report>

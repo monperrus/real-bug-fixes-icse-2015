@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>672035</D:version-name>
+<D:comment>DERBY-3625
+
+backporting fix from trunk to 10.4 branch (change 671605)
+
+Fixed SYSCS_UTIL.SYSCS_INPLACE_COMPRESS_TABLE() bug where during the
+defragment phase one part of the code would think there was enough room to
+move a record, but because the new record id on the destination page would
+take more room than on the source page the move actually would not succeed.
+In this case an XSDA3 errror would be thrown and the compress would fail.
+
+This would cause intermittent errors in the nightly concateTests.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2008-06-26T21:57:06.173837Z</S:date>
+</S:log-item>
+</S:log-report>

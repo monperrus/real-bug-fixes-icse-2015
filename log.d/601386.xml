@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>601386</D:version-name>
+<D:comment>DERBY-3247 Mark the activations for dynamic result sets as single use once they are returned to the applications JDBC statement. Ensures that the close of the ResultSet will close the activation.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-12-05T16:10:46.247580Z</S:date>
+</S:log-item>
+</S:log-report>

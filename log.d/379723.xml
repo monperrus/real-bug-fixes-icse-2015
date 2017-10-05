@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>379723</D:version-name>
+<D:comment>DERBY-683: Commit _tstpatch3_ by Myrna. Adds derbyTesting.encoding property to
+harness. Excludes encodingTests from all JDKs except Sun JDK 1.5. Further
+investigation is required to understand why this is necessary. The changes
+introduced in this patch (specifically, setting -Dfile.encoding on the command-
+line of the spawned JVM) should not cause NoClassDefFoundErrors on JDK 1.4.2,
+but they do.
+
+Committed for Deepa Remesh &lt;dremesh@gmail.com&gt; and 
+Myrna Van Lunteren &lt;m.v.lunteren@gmail.com&gt;
+</D:comment>
+<D:creator-displayname>fuzzylogic</D:creator-displayname>
+<S:date>2006-02-22T07:50:51.125927Z</S:date>
+</S:log-item>
+</S:log-report>

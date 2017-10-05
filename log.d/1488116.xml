@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1488116</D:version-name>
+<D:comment>DERBY-6233: XMLBindingTest fails on latest JDK 8 EA
+
+Set the system property javax.xml.accessExternalDTD in the test to
+allow the XML parser to access the DTD.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-05-31T07:13:24.382923Z</S:date>
+</S:log-item>
+</S:log-report>

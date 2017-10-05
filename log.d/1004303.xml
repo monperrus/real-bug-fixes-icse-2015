@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1004303</D:version-name>
+<D:comment>optimize SSTableReader.loadIndexFile to reduce re-reading of index data during startup.  patch by jbellis and Stu Hood for CASSANDRA-1526</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-10-04T16:10:11.347083Z</S:date>
+</S:log-item>
+</S:log-report>

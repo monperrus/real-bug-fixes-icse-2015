@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1081494</D:version-name>
+<D:comment>DERBY-4319 hang in suites.all with ibm 1.5 on AIX after ttestDefaultProperties
+
+disable for now ttestDefaultProperties and ttestSetPortPriority on AIX IBM 1.5, which can make the test fail.  This does not fix the issue.
+Also add BaseTestCase.isPlatform(String) method and OsName class to faciltate platform exclusions from test runs.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2011-03-14T17:55:58.378799Z</S:date>
+</S:log-item>
+</S:log-report>

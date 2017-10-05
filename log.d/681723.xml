@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>681723</D:version-name>
+<D:comment>DERBY-3791: Excessive memory usage when fetching small Clobs.
+Exploits length information (where available) to reduce memory overhead wrt buffering. This improvement will only affect small Clobs in the range 1 byte to 8 KB, the smaller the Clob the bigger the overhead reduction.
+Patch file: derby-3791-2a-buffer-adjustments.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-08-01T15:24:34.054285Z</S:date>
+</S:log-item>
+</S:log-report>

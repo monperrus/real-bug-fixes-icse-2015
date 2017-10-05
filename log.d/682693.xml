@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>682693</D:version-name>
+<D:comment>DERBY-3741 SQL LENGTH function materializes CLOB into memory
+
+Add test for multibyte characters.  Enabled test for embedded only as client test takes an extremely long time to run.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-08-05T12:37:24.270459Z</S:date>
+</S:log-item>
+</S:log-report>

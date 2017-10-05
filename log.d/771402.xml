@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>771402</D:version-name>
+<D:comment>change Message body to byte[].  this reveals where there are problems: everything that is using any of the send messages already needs to be doing that or they're broken.  the good ones I just unwrap; the broken ones I fixed except for MoveMessage which doesn't even have a byte[] serializer yet, so I left that one broken.  writeResponseResolver is the specific case that caused the bug report.
+patch by jbellis; reviewed by nk11 for CASSANDRA-120</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-05-04T19:02:23.432419Z</S:date>
+</S:log-item>
+</S:log-report>

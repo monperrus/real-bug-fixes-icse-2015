@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>918152</D:version-name>
+<D:comment>DERBY-4574: derby.jar needs Bundle-ManifestVersion header for OSGi
+
+The derby.jar has all the bundle metadata you would expect for it to
+be an OSGi bundle, except for the Bundle-ManifestVersion header.
+As a result it is not a valid R4 bundle, but will be treated as an R3 bundle.
+
+Looking at the metadata provided it looks as if the bundle should be
+an R4 bundle. Adding the Bundle-ManifestVersion will make it a proper R4 bundle. 
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2010-03-02T19:03:25.300502Z</S:date>
+</S:log-item>
+</S:log-report>

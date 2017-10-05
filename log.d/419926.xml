@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>419926</D:version-name>
+<D:comment>Adding a test to help debug DERBY-1248.  OnlineBackupTest5.sql is just 
+a slight variation of OnlineBackupTest4.sql.  It does the same work but
+restores the backup to a new place in extinout, rather than on top of
+the original case.  Hopefully if this test reproduces DERBY-1248 the info
+in the old db will help understand what is going on.  Also changed the 
+assert to dump the full page.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-07-07T17:08:33.151961Z</S:date>
+</S:log-item>
+</S:log-report>

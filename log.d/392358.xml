@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>392358</D:version-name>
+<D:comment>DERBY-1159 Add some test cases that show the bug. Execution of a statement that
+does not return a ResultSet with various JDBC Statement objects using executeUpdate
+in a global transaction.
+Merge from 389648 from trunk.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-04-07T18:29:19.095716Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>963673</D:version-name>
+<D:comment>DERBY-1595: Network server fails with DRDAProtocolException if a BLOB with size 2147483647 is streamed from client
+
+Merged fix from trunk (revisions 955540 and 958939).
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-07-13T10:54:07.839103Z</S:date>
+</S:log-item>
+</S:log-report>

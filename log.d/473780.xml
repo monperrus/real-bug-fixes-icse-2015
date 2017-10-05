@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>473780</D:version-name>
+<D:comment>DERBY-537 (partial) Change the DatabaseClassLoadingTest to install and replace the jar files using
+the SupportFilesSetup decorator so that the engine will have the correct permissions to read the jar files.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-11-11T19:41:05.650188Z</S:date>
+</S:log-item>
+</S:log-report>

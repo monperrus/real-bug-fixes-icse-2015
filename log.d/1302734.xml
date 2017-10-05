@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1302734</D:version-name>
+<D:comment>LUCENE-3885: When checking maven artifacts from an RC URL that doesn't name a release branch, instead of failing, find the POM templates in the local working copy the script is run from; also, (temporarily) stop requiring that maven artifacts are identical to their counterparts in the binary distribution</D:comment>
+<D:creator-displayname>sarowe</D:creator-displayname>
+<S:date>2012-03-20T00:21:13.215525Z</S:date>
+</S:log-item>
+</S:log-report>

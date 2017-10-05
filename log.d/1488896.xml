@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1488896</D:version-name>
+<D:comment>DERBY-6238: Lock timeout in GrantRevokeTest.testGrantRollbackAndCommit
+
+Improve error reporting to help debugging:
+
+- Check that all exceptions are as expected
+- Provide stack trace for all unexpected exceptions
+- Dump lock table on lock timeouts</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-06-03T08:47:05.159652Z</S:date>
+</S:log-item>
+</S:log-report>

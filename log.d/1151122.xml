@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1151122</D:version-name>
+<D:comment>DERBY-5312 InterruptResilienceTest failed with ERROR 40XD1: Container was opened in read-only mode.
+
+Patch derby-5312-simplify-reopen-1 backported from trunk as:
+
+   svn merge -c 1148344 https://svn.apache.org/repos/asf/db/derby/code/trunk
+
+Patch derby-5312-simplify-reopen-1. It fixes the race condition by
+reducing the amount of work done under reopening the container, thus
+side stepping the issue by no longer updating the state variable that
+caused the race.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-07-26T14:50:05.208029Z</S:date>
+</S:log-item>
+</S:log-report>

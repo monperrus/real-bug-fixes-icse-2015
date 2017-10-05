@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>809216</D:version-name>
+<D:comment>r/m special case of local destination when writing with ConsistencyLevel.ZERO, since it causes blocking for commitlog.  (MessagingService still optimizes out the network write/read.)  Patch by Chris Goffinet; reviewed by jbellis for CASSANDRA-399</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-08-29T22:39:58.397511Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>524940</D:version-name>
+<D:comment>DERBY-1852: Fix "modification of access paths" code in TableOperatorNode
+so that the final query tree accurately reflects (and generates) the
+necessary modified nodes.  Patch also adds corresponding test cases
+to lang/union.sql and updates master files accordingly.
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2007-04-02T22:00:28.282924Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1086957</D:version-name>
+<D:comment>Use ICompactSerializer in AES instead of java serialization (and fix tests warnings)
+patch by gdusbabek; reviewed by slebresne for CASSANDRA-2361
+</D:comment>
+<D:creator-displayname>slebresne</D:creator-displayname>
+<S:date>2011-03-30T13:53:51.478684Z</S:date>
+</S:log-item>
+</S:log-report>

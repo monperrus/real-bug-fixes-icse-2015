@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>382931</D:version-name>
+<D:comment>DERBY-654, committing on behalf of Sunitha Kambhampati.  
+
+This change disables the test from running in the j9 environment, so that
+regression test don't fail.  The bug remains open, and can be intermittently
+reproduced in the environment described in DERBY-654.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-03-03T21:17:47.125485Z</S:date>
+</S:log-item>
+</S:log-report>

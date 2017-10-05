@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1035603</D:version-name>
+<D:comment>DERBY-4904: Plan exporter doesn't work if XPLAIN schema has special characters
+
+Use prepared statements to prevent the need for quoting.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-11-16T12:01:00.677772Z</S:date>
+</S:log-item>
+</S:log-report>

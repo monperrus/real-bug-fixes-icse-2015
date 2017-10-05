@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>543440</D:version-name>
+<D:comment>Fixed overflow bug in LoopingAlphabetStream, where a negative number ended up being used in System.arraycopy.
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2007-06-01T09:16:55.406327Z</S:date>
+</S:log-item>
+</S:log-report>

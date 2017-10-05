@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>411336</D:version-name>
+<D:comment>DERBY-1069: Client unwraps exceptions now (the problem was in NetAgent).
+Also fixed a bug where the cause stack trace was not being logged in
+the trace file, and a formatting bug with the port number
+</D:comment>
+<D:creator-displayname>davidvc</D:creator-displayname>
+<S:date>2006-06-02T23:44:33.315314Z</S:date>
+</S:log-item>
+</S:log-report>

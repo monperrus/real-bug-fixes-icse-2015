@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>930052</D:version-name>
+<D:comment>DERBY-4536; testProperties and sysinfo_withproperties fail on 10.3 with ibm 1.6
+  because tests are dependent on hash-ordering.
+  step 1 - backport sysinfo and sysinfo_withproperties test conversion to junit to 10.4.; revision 688103 from trunk for DERBY-3829. 
+
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2010-04-01T17:30:28.921694Z</S:date>
+</S:log-item>
+</S:log-report>

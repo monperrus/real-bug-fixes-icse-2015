@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1332733</D:version-name>
+<D:comment>fix a bug in ReferenceManager.maybeRefreshBlocking -- call unlock() in finally, not lock()\!</D:comment>
+<D:creator-displayname>shaie</D:creator-displayname>
+<S:date>2012-05-01T16:15:59.940944Z</S:date>
+</S:log-item>
+</S:log-report>

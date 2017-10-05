@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>432029</D:version-name>
+<D:comment>DERBY-1692: Client driver does not use the query timeout value set
+using Statement.setQueryTimeout() for subsequent executions using the
+same statement object
+
+Make Statement resend the timeout value for each execution, and extend
+SetQueryTimeoutTest with test cases for re-execution of Statement,
+PreparedStatement and CallableStatement.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-08-16T20:43:34.242275Z</S:date>
+</S:log-item>
+</S:log-report>

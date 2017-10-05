@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1426893</D:version-name>
+<D:comment>SOLR-4244: When coming back from session expiration we should not wait for the leader to see us in the down state if we are the node that must become the leader. </D:comment>
+<D:creator-displayname>markrmiller</D:creator-displayname>
+<S:date>2012-12-30T05:59:49.122589Z</S:date>
+</S:log-item>
+</S:log-report>

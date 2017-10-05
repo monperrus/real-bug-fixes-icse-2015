@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1173701</D:version-name>
+<D:comment>LUCENE-3390: Corrected handling of missing values when two parallel searches using different missing values for sorting: the missing value was populated directly into the FieldCache arrays during sorting, leading to concurrency issues.</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2011-09-21T15:07:04.449225Z</S:date>
+</S:log-item>
+</S:log-report>

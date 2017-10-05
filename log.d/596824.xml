@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>596824</D:version-name>
+<D:comment>DERBY-2352: Assertion failure with order by and group by on SUBSTR expression
+
+For a query plan which involves a sort, the compilation system generates a
+method called a "row allocator" which allocates a template row of the
+correct shape (correct number of columns of the correct data types) to hold
+the row that is being provided to the sorter. The row allocator determines
+the data type of the column in the row allocator by examining the 
+ResultColumn's type, which in turn is computed by the compilation system
+during bind processing.
+
+For the SUBSTR expression, TernaryOperatorNode.substrBind() is called, and
+the logic in that method was determining that the data type of the SUBSTR
+result depended on the data type of the operand on which SUBSTR was called;
+i.e., a SUBSTR of a CHAR became a CHAR, while a SUBSTR of a VARCHAR became
+a VARCHAR. But this is incorrect; SUBSTR always returns a VARCHAR type,
+unless it is called on a BLOB/CLOB object.
+
+This patch modifies the substrBind() processing to perform result data type
+analysis in the same way as is done for the trim family of methods in trimBind.
+
+
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2007-11-20T20:54:01.482962Z</S:date>
+</S:log-item>
+</S:log-report>

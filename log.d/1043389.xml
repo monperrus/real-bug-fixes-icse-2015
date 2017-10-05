@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1043389</D:version-name>
+<D:comment>DERBY-2949: AssertionFailedError in testStalePlansOnLargeTable
+
+Use explicit checkpoints to make the test independent of the timing of
+the implicit checkpoints.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-12-08T12:48:48.877838Z</S:date>
+</S:log-item>
+</S:log-report>

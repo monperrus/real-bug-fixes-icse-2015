@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>740442</D:version-name>
+<D:comment>Fix jUnit test problem with exclusive range if upper==lower (thanks to Michael McCandless):
+[junit] junit.framework.AssertionFailedError: Returned count of  
+range query must be equal to exclusive range length expected:&lt;0&gt; but  
+was:&lt;-1&gt;
+at org.apache.lucene.search.trie.TestTrieRangeQuery.testRangeSplit(TestTrieRangeQuery.java:203)
+</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2009-02-03T21:05:29.366331Z</S:date>
+</S:log-item>
+</S:log-report>

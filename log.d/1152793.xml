@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1152793</D:version-name>
+<D:comment>fix bug where dirty commit logs were removed (and avoid keeping segment with no post-flush activity permanently dirty)
+patch by slebresne; reviewed by jbellis for CASSANDRA-2829
+</D:comment>
+<D:creator-displayname>slebresne</D:creator-displayname>
+<S:date>2011-08-01T14:22:50.236360Z</S:date>
+</S:log-item>
+</S:log-report>

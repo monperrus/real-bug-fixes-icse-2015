@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>815373</D:version-name>
+<D:comment>Fix deserialization bug in TokenUpdateVerbHandler; change TokenUpdater to update one node at a time, and add bin/tokenupdater as a convenience.  Patch by Sammy Yu; reviewed for CASSANDRA-363 by jbellis</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-09-15T15:47:36.653038Z</S:date>
+</S:log-item>
+</S:log-report>

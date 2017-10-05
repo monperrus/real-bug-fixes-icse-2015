@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>599973</D:version-name>
+<D:comment>Merging change(599933) from 10.3 codeline into trunk for DERBY-3222 The commit comment for checkin into 10.3 
+codeline was as follows
+
+The test will fail depending on the timing. It inserts CURRENT_DATE into a column and then compares that
+column with whatever the CURRENT_DATE might be during the run of compare sql. If the insert happened right before
+midnight and comparison happens right after midnight, the comparison of the dates will return FALSE. Since the main 
+purpose of the test is to make sure that Derby derives correct collation type for CURRENT_DATE and 
+UPPER(CURRENT_DATE), it really does not matter if the 2 current dates actually match or not. Because of this, I 
+have changed the test to look for &lt;= while doing date comparison rather than =. This should resolve the timing 
+related fact of the test.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-11-30T21:42:55.991857Z</S:date>
+</S:log-item>
+</S:log-report>

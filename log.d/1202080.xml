@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1202080</D:version-name>
+<D:comment>Fix bad handling of the chunk_length_kb compression option
+patch by slebresne; reviewed by xedin for CASSANDRA-3492
+</D:comment>
+<D:creator-displayname>slebresne</D:creator-displayname>
+<S:date>2011-11-15T07:39:12.158719Z</S:date>
+</S:log-item>
+</S:log-report>

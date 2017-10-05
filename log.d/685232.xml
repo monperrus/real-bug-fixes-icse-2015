@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>685232</D:version-name>
+<D:comment>DERBY-48 A connection request that has a default schema that is being created by another transaction will fail to connect
+
+Follow-up patch to svn 685141, which accidentally committed the wrong patch revision.
+With this patch, the net effect is DERBY-48b-1 which should have been committed.
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2008-08-12T17:19:20.826618Z</S:date>
+</S:log-item>
+</S:log-report>

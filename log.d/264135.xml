@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>264135</D:version-name>
+<D:comment>merge change 239718 from the trunk.
+
+DERBY-470 - Exception when using LOCALIZEDDISPLAY with JSR169
+
+1. Check for BigDecimal class in the JVM by doing a Class.forName
+2. Call getNumberAsString for NUMERIC and DECIMAL types only if BigDecimal class is available. Otherwise, return rs.getString.
+
+                Contributed by Deepa Remesh
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-08-29T13:14:13.495647Z</S:date>
+</S:log-item>
+</S:log-report>

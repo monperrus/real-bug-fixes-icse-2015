@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>544012</D:version-name>
+<D:comment>Fix issue with String values becoming multi-valued fields.  String#each returns multiple values when a string contains newlines</D:comment>
+<D:creator-displayname>ehatcher</D:creator-displayname>
+<S:date>2007-06-03T23:31:42.845889Z</S:date>
+</S:log-item>
+</S:log-report>

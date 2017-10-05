@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>478658</D:version-name>
+<D:comment>DERBY-1089: NPE inserting a join into a table with a generated column
+DERBY-2015: NPE in INSERT .. SELECT with IDENTITY column
+
+Merged the patch from trunk with merge -r 478621:478622 ../trunk/
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2006-11-23T20:42:54.433430Z</S:date>
+</S:log-item>
+</S:log-report>

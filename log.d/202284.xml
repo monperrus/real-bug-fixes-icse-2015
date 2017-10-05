@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>202284</D:version-name>
+<D:comment>avoid NullPointerException when an analyzer returns null for some term
+(bug #33848), patch inspired by John Wang</D:comment>
+<D:creator-displayname>dnaber</D:creator-displayname>
+<S:date>2005-06-28T21:43:47.632238Z</S:date>
+</S:log-item>
+</S:log-report>

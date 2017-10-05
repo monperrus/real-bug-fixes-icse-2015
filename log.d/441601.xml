@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>441601</D:version-name>
+<D:comment>DERBY-1809 Fix bug where use of builtin functions in the SYSFUN schema within VIEWs would throw an exeception
+at CREATE VIEW time. Caused by the AliasDescriptor for such functions reporting they were persistent (had rows
+in SYSALIASES) when they are not persistent.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-09-08T18:21:43.012286Z</S:date>
+</S:log-item>
+</S:log-report>

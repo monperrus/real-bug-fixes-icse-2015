@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>589894</D:version-name>
+<D:comment>DERBY-3158 DERBY-3159 Ensure that SYSCS_SET_USER_ACCESS: 1) always sets the user name in the lists in its delimited form. 2) Allows repeated calls to set the permission for the same user by always clearing both lists of that user name before adding. 3) Allows user names with characters that require quoting in SQL by not validating the name as a SQL identifier since the passed in user name is a normalized user name.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-10-29T22:30:19.156065Z</S:date>
+</S:log-item>
+</S:log-report>

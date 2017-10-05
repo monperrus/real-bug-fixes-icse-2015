@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>774022</D:version-name>
+<D:comment>fix race condition between when memtable is replaced as the active one and when it's added to
+the set of historical (pending flush) memtables.
+patch by jbellis; reviewed by Eric Evans for CASSANDRA-161</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-05-12T19:11:15.325946Z</S:date>
+</S:log-item>
+</S:log-report>

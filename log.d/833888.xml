@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>833888</D:version-name>
+<D:comment>DERBY-4124: Remove double-checked-locking from EmbeddedDataSource.findDriver
+
+This change ensures that EmbeddedDataSource.findDriver always synchronizes
+its access to the 'driver' member variable. The previous code performed
+unsynchronized access to the field, and then, depending on the results of
+the unsynchronized access, performed synchronized access.
+
+This double-checked-locking idiom is unsafe and incorrect, and this change
+replaces it with a simpler always-synchronized access.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2009-11-08T15:40:34.034447Z</S:date>
+</S:log-item>
+</S:log-report>

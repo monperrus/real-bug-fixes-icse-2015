@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>619991</D:version-name>
+<D:comment>Add commented out code that exposes the bug described by DERBY-3401. Removing a listener from a pooled connection during logical connection close processing causes other listeners to be ignored.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2008-02-08T20:31:31.073568Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>596847</D:version-name>
+<D:comment>Fix tearDown method for jdbcapi.ConcurrencyTest to ensure it commits the DROP TABLE it executes. Add a utility method for junit tests that want to drop a table regardless of if it exists or not</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-11-20T22:12:02.979109Z</S:date>
+</S:log-item>
+</S:log-report>

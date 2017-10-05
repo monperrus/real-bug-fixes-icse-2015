@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>474244</D:version-name>
+<D:comment>Webarchive packageing prepared for including IoC metadata descriptors
+	- including configured IoC descriptors in war distribution
+	- improved dependency fetching (on demand)
+	- fixed some spelling errors
+
+Hessian Webservice support
+	- created hessian servlet as a generic http interface for provided services
+	- Interface def., Impl. and Tests
+	- services can be exposed via HessianSkeletonProvider by defining a mapping key, Interface and an implementation instance.</D:comment>
+<D:creator-displayname>simonw</D:creator-displayname>
+<S:date>2006-11-13T10:51:04.203428Z</S:date>
+</S:log-item>
+</S:log-report>

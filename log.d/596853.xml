@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>596853</D:version-name>
+<D:comment>DERBY-3215 Potential NullPointerException in CachedPage class
+
+Patch DERBY-3215.diff. Fixes two erroneous usages of 
+StandardException.newException(SQLState.FILE_WRITE_PAGE_EXCEPTION,..)
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2007-11-20T22:28:15.620318Z</S:date>
+</S:log-item>
+</S:log-report>

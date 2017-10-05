@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>498843</D:version-name>
+<D:comment>DERBY-2228 Fix ij's util class to make correct determination if running on J2SE or JSR 169.
+Also set DECIMAL parameter in PreparedStatement using setString and retry using setLong if
+a conversion error occurs. This fixes the NullPointerExcecption seen in DEBRY-680. Previously
+the code was using the ResultSetMetaData which was incorrect, as it has no relationship
+to the types of the parameters.
+Merge of Revision: 498842 from trunk
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-01-22T23:15:11.348987Z</S:date>
+</S:log-item>
+</S:log-report>

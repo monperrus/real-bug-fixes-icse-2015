@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>511705</D:version-name>
+<D:comment>fix issue with empty suggest item - it was the count of all objects that do _not_ have a term (facet.missing) in the text field.  ultimately the request made to Solr should not request for missing values on suggest lookups</D:comment>
+<D:creator-displayname>ehatcher</D:creator-displayname>
+<S:date>2007-02-26T02:51:55.336568Z</S:date>
+</S:log-item>
+</S:log-report>

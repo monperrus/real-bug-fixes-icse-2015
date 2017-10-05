@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>373011</D:version-name>
+<D:comment>DERBY-885 Disable running with the security manager for useProcess=false
+for j9 vms. Causes some unexpected execption that needs to be investigated
+and halts test runs. This is a workaround that will cause dml160 to fail
+with j9 vms, as it checks to see a security manager is installed.
+Will be investigating, but this will allow derbyall runs to complete.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-01-27T22:31:45.653439Z</S:date>
+</S:log-item>
+</S:log-report>

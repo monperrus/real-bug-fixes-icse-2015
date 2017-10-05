@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>955540</D:version-name>
+<D:comment>DERBY-1595 (partial): Network server fails with DRDAProtocolException if a BLOB with size 2147483647 is streamed from client 
+
+Fixed protocol disagreement, where the client sent eight bytes for the
+extended length bytes and the server expected six bytes (changed the client
+behavior).
+
+Patch file: derby-1595-1a-client_write6bytes.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-06-17T10:31:30.523436Z</S:date>
+</S:log-item>
+</S:log-report>

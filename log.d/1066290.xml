@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1066290</D:version-name>
+<D:comment>DERBY-4988 ALTER TABLE DROP COLUMN should make use of information in SYSTRIGGERS to detect column used through REFERENCING clause to find trigger dependencies
+
+Derby at the time of ALTER TABLE DROP COLUMN looks for trigger dependencies by looking for column being dropped in trigger column list but that is not enough. SQL standard requires that column should not be part of explicit trigger column list or a triggered action column set. 
+
+starting Derby 10.7, we have started keeping track of trigger action columns which are referenced through the REFERENCING clause. This commit will make use of that additional info to make a step forward towards meeting the SQL standards. It still does not recognize the trigger action columns that are not part of REFERENCING clause. That work can go separately.
+
+I have added upgrade test to make sure that the compatibility does not break between Derby releases prior to 10.7 and forward.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-02-02T01:04:04.165736Z</S:date>
+</S:log-item>
+</S:log-report>

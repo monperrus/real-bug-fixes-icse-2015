@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1074789</D:version-name>
+<D:comment>DERBY-4741 Make embedded Derby work reliably in the presence of thread interrupts
+
+Patch derby-4741-fix-compilation, which reintroduces the change that
+was backed out in svn 1073846, along with build changes, to avoid the
+issue we had with it.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-02-26T03:42:25.346763Z</S:date>
+</S:log-item>
+</S:log-report>

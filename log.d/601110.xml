@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>601110</D:version-name>
+<D:comment>DERBY-3238 When table contains large LOB values (&gt; ~32K) trigger execution fails for that row with ERROR XCL30: An IOException was thrown when reading a 'BLOB'
+
+When a trigger is present, unchanged columns with be part of the UpdateResultSet. These columns are present twice in the result set as a before and after value. There was code to "objectify" the before value but the after value was not getting updated. Changed objectifyStream to make sure after values point to data value and not the stream after objectifyStream occurs.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2007-12-04T22:16:08.385267Z</S:date>
+</S:log-item>
+</S:log-report>

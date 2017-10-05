@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1136662</D:version-name>
+<D:comment>Fixed the ability to set compaction strategy in cli using create column family command
+patch by alanliang; reviewed by goffinet for CASSANDRA-2778
+</D:comment>
+<D:creator-displayname>goffinet</D:creator-displayname>
+<S:date>2011-06-16T20:44:50.752968Z</S:date>
+</S:log-item>
+</S:log-report>

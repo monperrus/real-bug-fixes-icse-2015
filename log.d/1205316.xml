@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1205316</D:version-name>
+<D:comment>Fix array out of bounds error in counter shard removal
+patch by slebresne; reviewed by yukim for CASSANDRA-3514
+</D:comment>
+<D:creator-displayname>slebresne</D:creator-displayname>
+<S:date>2011-11-23T07:59:45.553024Z</S:date>
+</S:log-item>
+</S:log-report>

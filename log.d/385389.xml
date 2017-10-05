@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>385389</D:version-name>
+<D:comment>DERBY-1102 (partial) Remove test case of use of stale TriggerExecutionContext in triggerGeneral.sql
+because applications no longer have access to the TriggerExecutionContext.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-03-12T23:22:04.969670Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>291721</D:version-name>
+<D:comment>DERBY-149
+Fix Server hang when invalid string is bound to datetime columns.
+Changes network server to skip only the current DSS and not all chained DSS's 
+when parsing parameter data in SQLDTA.
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-09-26T19:39:26.594508Z</S:date>
+</S:log-item>
+</S:log-report>

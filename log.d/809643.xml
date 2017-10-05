@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>809643</D:version-name>
+<D:comment>DERBY-4338 Network client raises error "executeQuery method can not be used for update" when sql is preceded by /* */ comments
+
+This patch, derby-4338-d, fixes the seen bug, and also generalizes the
+method used by the client driver to find the first significant
+(non-comment) SQL statement identifier, i.e. a keyword. This is needed
+by the client's statement classification logic. For certain input
+strings the old method also gave wrong results, cf. the new test cases
+added.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-08-31T16:05:24.376430Z</S:date>
+</S:log-item>
+</S:log-report>

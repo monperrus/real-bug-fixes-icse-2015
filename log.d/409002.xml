@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>409002</D:version-name>
+<D:comment>DERBY-1325 Isolation level of local connection does not get reset after exiting a global transaction if the isolation level was changed using SQL
+
+Attaching a patch 'derby-1325-v1.diff' which ensures correct isolation level gets used once we switch back to local mode when SQL is used to set the isolation level.
+
+Patch does the following:
+
+* Adds call to get the isolation level up to date when joining/resuming a global transaction. This will make sure the BrokeredConnection object has the correct isolation level to be used when we switch back to local mode.
+
+* Adds a test to jdbcapi/checkDataSource.java and modifies the master files.
+
+With this patch, I ran derbyall with Sun jdk 1.4.2 on Windows XP. No failures. 
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-05-23T20:29:47.840645Z</S:date>
+</S:log-item>
+</S:log-report>

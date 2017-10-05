@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>453935</D:version-name>
+<D:comment>DERBY-1716
+contributed by Yip Ng
+patch: derby1716-trunk-diff03.txt
+
+Unlike other descriptors, when privilege(s) get revoked from user,
+the statement is not subject to recompilation, so then we are back to square one
+since the previous patch attempts to bring in the permission descriptor(s) into
+the permission cache at compilation time to avoid reading from system tables at
+execution time.
+
+I believe the proper proposal fix is to use internal nested read-only transaction
+when the system is reading permission descriptors from the system tables. At a
+high level, a statement undergoes the following typical steps for it to get executed
+by the system:
+
+1. Statement Compilation Phase
+a) Parse the statement
+b) Bind the statement and collects required permissions for it to be executed.
+c) Optimize the statement
+d) Generate the activation for the statement
+
+
+2. Statement Execution Phase
+a) Check if the authoration id has the required privileges to execute the statement.
+b) Execute the statement
+
+
+The problem lies in permissions checking step at statement execution phase. Before a statement can be executed in SQL authorization mode, the authorization id's privileges needs to be check against the permission cache or if the privileges are not available in the cache, the system needs to read this metadata information from the system tables. But the system is using *user transaction* to do this, so the shared locks that got acquired by the user transaction may not get released immediately; therefore, leading to lock timeout when the grantor attempts to revoke the user's privilege. To resolve this issue, the system now will start an internal read-only nested transaction(same lock space as the parent transaction) to read permission related info from the system tables and release the shared locks
+as soon as the permissions check is completed before statement execution. This tackles the root of the stated problem. 
+
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-10-07T15:33:24.808290Z</S:date>
+</S:log-item>
+</S:log-report>

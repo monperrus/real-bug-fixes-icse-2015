@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>652087</D:version-name>
+<D:comment>
+DERBY-2885 Cleanup of EmbedConnection.clearLOBMapping():
+revision  552325
+Contributed by Knut Anders Hatlen
+
+DERBY-3576 Merge EngineBlob and EngineClob into a single interface
+revision 642707
+Contributed by Kritian Waagan.
+
+DERBY-3354  Select from large lob table with embedded gives OutOfMemoryError
+revision 644755, 644764
+Contributed by Anurag Shekhar
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2008-04-29T20:25:00.128507Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>634316</D:version-name>
+<D:comment>DERBY-3321: NullPointerException for 'NOT EXISTS' with nested subquery
+Checks fromList for a FromSubquery using a CollectNodesVistior.
+The value of bindTargetListOnly is based on the contents of the visitor. 
+Patch contributed by Thomas Nielsen
+Patch file: d3321.diff
+</D:comment>
+<D:creator-displayname>dyre</D:creator-displayname>
+<S:date>2008-03-06T15:52:18.464971Z</S:date>
+</S:log-item>
+</S:log-report>

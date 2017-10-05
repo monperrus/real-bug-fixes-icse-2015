@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>959027</D:version-name>
+<D:comment>DERBY-4577 An expanding update fails with an nospc.U error
+
+Fixes problem on Overflow pages populated by long rows where the an expanding
+update of the row would fail with a nospc.U error.  The system always expects
+updates to succeed.  In the case of an expanding update that finds not enough
+room there should always at least be enough room reserved/used in the row to
+do an update that changes the row to just an overflow row pointer with no data,
+moving the data to another page.
+
+The problem was that on overflow pages not enough room was being reserved to
+handle a worst case row with a overflow pointer.  This fix reserves the worst
+case space on overflow pages.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2010-06-29T16:49:27.972871Z</S:date>
+</S:log-item>
+</S:log-report>

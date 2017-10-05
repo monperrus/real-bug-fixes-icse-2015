@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1055480"/>
+<S:open-directory rev="1055479">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1055480</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-01-05T15:03:11.153288Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="aries" rev="1055479">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1055480</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-01-05T15:03:11.153288Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="branches" rev="1055479">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1055480</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-01-05T15:03:11.153288Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="0.3-RCx" rev="1055479">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1055480</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-01-05T15:03:11.153288Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="samples" rev="1055479">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1055480</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-01-05T15:03:11.153288Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="blog" rev="1055479">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1055480</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-01-05T15:03:11.153288Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="blog-web" rev="1055479">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1055480</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-01-05T15:03:11.153288Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml" rev="1055479">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1055480</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-01-05T15:03:11.153288Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="44d39617503407f55e6e0d016c3383c9" sha1-checksum="798b829dc02ba290b6b731e7300c63ae841112a5"/>
+<S:prop><V:md5-checksum>74c561bdcc76ed2fef565576678bc8a7</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="src" rev="1055479">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1055480</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-01-05T15:03:11.153288Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="main" rev="1055479">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1055480</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-01-05T15:03:11.153288Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="resources" rev="1055480"/>
+<S:add-directory name="webapp" bc-url="/repos/asf/!svn/bc/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1055480</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-01-05T15:03:11.153288Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="WEB-INF" bc-url="/repos/asf/!svn/bc/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp/WEB-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp/WEB-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">927465</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-25T16:05:19.092468Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gawor</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="web.xml" sha1-checksum="0948b3d68bf5c1578ffe7e0347f0111d15e8fc8d">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp/WEB-INF/web.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">927465</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-25T16:05:19.092468Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gawor</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>b15f824ee556d85d3564089b337a82b0</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-file name="index.html" sha1-checksum="aec30dd5187c16db228356e5f5b0332c98b79c99">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp/index.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">910184</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-15T09:13:08.250175Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>ceb37db47a42cdf6f4eba3efd1b472df</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="style" bc-url="/repos/asf/!svn/bc/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp/style">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp/style</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">929476</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-31T11:06:42.268977Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hughesj</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="blog.css" sha1-checksum="f3b5b333d013b823188e6bd7d1ef0329d63daf14">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp/style/blog.css</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">929476</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-31T11:06:42.268977Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">hughesj</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>3d52181bdc0a31737f1c25b6e775e79d</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="images" bc-url="/repos/asf/!svn/bc/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp/images">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp/images</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">910881</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-17T09:32:46.199946Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">irobins</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="bg.png" sha1-checksum="61f8a031019ee689a4ed1da6334d9f40f8786ed5">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp/images/bg.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>3b04d5230abf7618a72c3f65659cde4a</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="BigBullet.png" sha1-checksum="db493d371ea6498475330b38094d62349ae1eb10">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp/images/BigBullet.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>7817f7d11bfda729320b388e57cfdefb</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="bg02-purple-right.png" sha1-checksum="a893525679149a38129ec49294454654c07e2769">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp/images/bg02-purple-right.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>8cd362a2fda67977d3445ba39811ed93</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="left-box-right.png" sha1-checksum="9e47804148070bff752cf0f32a3357fa310439b3">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp/images/left-box-right.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>79d05a1153d9dc4f6e0db29067b1cfbd</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="Arieslogo_Horizontal.gif" sha1-checksum="9d6b586a864969e972d2a96677b038873665c729">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp/images/Arieslogo_Horizontal.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>812b0c827177ac454caddfe4cadeb178</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="left-box-top.png" sha1-checksum="62378ba80a175e8a43d7d100f5260c1c7fd6c71e">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp/images/left-box-top.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>248d9464e8d98d660e418aa7ce855e96</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="left-box-bottom.png" sha1-checksum="ba9476777fe756f0eebecaf1c9d92e583b1a4d2f">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp/images/left-box-bottom.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>3a9d616eac0e145c60657cdb23f9b49a</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="apache-incubator-logo.png" sha1-checksum="52cb6bbfdeb92ca741ca7ca1efa2f75efcb06986">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp/images/apache-incubator-logo.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>08e2e4cf30c9c12356541cae3af583bb</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="bg02-white-left-nogr.png" sha1-checksum="187e64205bb9185685c0674588999ea3df8b429d">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp/images/bg02-white-left-nogr.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>3cf8c7c56d62278a7fd917b2ffac064e</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="bg02-white-right-nogr.png" sha1-checksum="eb20bd6d66f6447d918929332e292c90265ebc23">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp/images/bg02-white-right-nogr.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>a04b0736d5c459d519d7a6b896b67f4b</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="bg02-purple-left.png" sha1-checksum="ed010a0123789cb7bb89c6647c5224093cd9e4dc">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/blog/blog-web/src/main/webapp/images/bg02-purple-left.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">894643</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-12-30T15:17:14.820605Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">timothyjward</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">application/octet-stream</S:set-prop>
+<S:prop><V:md5-checksum>a4192dea9b52f99a77af25d3fa7bf222</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="ariestrader" rev="1055479">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1055480</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-01-05T15:03:11.153288Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="modules" rev="1055479">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1055480</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-01-05T15:03:11.153288Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="ariestrader-web" rev="1055479">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1055480</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-01-05T15:03:11.153288Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="1055479">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1055480</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-01-05T15:03:11.153288Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="main" rev="1055479">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1055480</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-01-05T15:03:11.153288Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="resources" rev="1055480"/>
+<S:add-directory name="webapp" bc-url="/repos/asf/!svn/bc/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1055480</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-01-05T15:03:11.153288Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="PingJsp.jsp" sha1-checksum="87f9ed4f862247cb30d364a6443292cb4576d290">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/PingJsp.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>837319ba3400671ddb83594a88561ef3</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="portfolioImg.jsp" sha1-checksum="c910faaae1054531705f51c104291a01f0028e86">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/portfolioImg.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">926739</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-23T19:15:58.421703Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>16e8ca40f9f009c50ada895852f9582f</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="images" bc-url="/repos/asf/!svn/bc/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">918144</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-02T18:41:13.016122Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="account.gif" sha1-checksum="9c45ba1a83c2a78a6770fd9738e702c7bc2e6c76">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/account.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>db6da1b32f05e2deb9ccdff809be2aa5</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="tradingAndPortfolios.gif" sha1-checksum="9ae82055eb2530bbc7bee8e1c507ae09152e64fe">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/tradingAndPortfolios.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>694e00ea068eb1190c12add060f0e1dc</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="dayTraderLogo.gif" sha1-checksum="509e8466b5c51f5d2b5b771eb31e6a2bf4812635">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/dayTraderLogo.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>f1ab983824cf56c74abed398417e1e62</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="tradeOverview.png" sha1-checksum="9a5be601c8b0fb7cd408203472ebfb15d1eb259e">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/tradeOverview.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/png</S:set-prop>
+<S:prop><V:md5-checksum>3db8b5a381506b1d40fadbb59de88097</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="about.gif" sha1-checksum="51cb4a0e936ea5b8c7a4721c93095744fcf05455">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/about.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>472282045e4fa088d7248213468a2a69</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ariesTraderOverview.png" sha1-checksum="2cc777448894c228ed6b613ca95e3d9592036f17">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/ariesTraderOverview.png</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">918144</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-02T18:41:13.016122Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/png</S:set-prop>
+<S:prop><V:md5-checksum>c4b7f305265eac5d91aae4995d466264</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="lower_banner.gif" sha1-checksum="8c30fa8deddc6d6db4880ac30668b906d26329b7">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/lower_banner.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>b9992f240e36e0e7f29fb1a5584ec923</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="menuHome.gif" sha1-checksum="3d9a1319e2fbc0f4b07b3d0bbc1ec5c1e4bfea6c">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/menuHome.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>f08f834e3592e3daf6275ef1cac05b9d</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="portfolio.gif" sha1-checksum="9ea2a0724dce9977428f6b5216920e68a122c7bd">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/portfolio.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>f25ca02c65f7c4a3393a1ddf6c28a039</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="homeBanner.gif" sha1-checksum="7c8adbe3342ffe6291204b14506b8394a160a850">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/homeBanner.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>63b4ca9e169218aea64415ce4c4fa546</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="quotes.gif" sha1-checksum="f9e2c8c6262172833e52abedf8ec72246f46b1ce">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/quotes.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>c50a1a6bce86a01234325bd3a0bdc98e</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="topRedBar.gif" sha1-checksum="19d6d0eebbb447bcc22ce559fe5b7dfced25cb86">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/topRedBar.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>e00a922de330b854c5543f23c847f7d4</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="bottomRedBar.gif" sha1-checksum="c8b0b10ed92ea21d6ab55f33d46194fc9af934bc">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/bottomRedBar.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>8f64fa4db0d81f668c12013d13976fd8</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="topline.jpg" sha1-checksum="eb9a33047fe6ef75784ebfd0edb1754d0f00d402">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/topline.jpg</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/jpeg</S:set-prop>
+<S:prop><V:md5-checksum>25de9b47cb88e870bf488f04e80f1ab1</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ariesTraderLogo.gif" sha1-checksum="13bfcf4d700ea703f977655d01e7018419238671">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/ariesTraderLogo.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">900942</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-19T20:20:23.421323Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>81ac5bf4eb0654b67000ae5c74f139e4</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="home.gif" sha1-checksum="bce76d76d16c546286dcdfb43e48402cab20f10a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/home.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>f98ff43422f89477e4a0e2bf959b9861</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="primitives.gif" sha1-checksum="3bf87848445bf196fd0d2cbe7c238d86871b84dc">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/primitives.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>6f741562e01a298613d572f0b47fcc21</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="DayTraderHead_red.gif" sha1-checksum="1841a0980ec37b9d70a81a72848df10f1c4f46dc">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/DayTraderHead_red.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>9c9968322acc837f91bb62c7de9efd0e</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="aries_copyRight.gif" sha1-checksum="9b728e64c4019b8934d18906a217905a630a2094">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/aries_copyRight.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">900942</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-19T20:20:23.421323Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>6805cb78855643c8a509d5d9a7815f4b</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="reports.gif" sha1-checksum="8d8b37f05f7d9de96a283d4b366652172c0b0e9e">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/reports.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>a279d7decffb4d93f448160d95e9197b</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="arrowup.gif" sha1-checksum="fed0bf1399b0cc277c8b80c5adb1f6f486d4b4f5">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/arrowup.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>db799b6bbcfde78b901beb232de8172d</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="graph.gif" sha1-checksum="e10ee833540af8e7174883b8ddd3485eb2060a1f">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/graph.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>e4eb1db04ffca840c9df5c67c38c2626</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="ticker-anim.gif" sha1-checksum="7c1ad80f53814ee4d1413e40279c833b90ea146c">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/ticker-anim.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>081cf6987c295173e1fa372e2eb68b5e</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="configuration.gif" sha1-checksum="8fa7c3254e8f903c678072286b70c1dd21f7747a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/configuration.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>2d700ddd377e1826f64559eb3f671e07</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="faq.gif" sha1-checksum="55cfb917c2147006ef561fe6f9968eb1594bfb37">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/faq.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>c0a9b5ba7d4f4f1de9330370a374a9d4</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="DayTraderHead_blue.gif" sha1-checksum="f09d0d9125d0e9930e1fcf3ad6753b04e41490ae">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/DayTraderHead_blue.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>c5fb0ae29ab1a62f2f10a032d2a4ebf1</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="copyRight.gif" sha1-checksum="a204bd55de1471e7029bf0d0c6708aa1aeed0e32">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/copyRight.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>9778257db2f4717b5d7b6ed26777f91a</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="logout.gif" sha1-checksum="599d76712d417cc849f60c922527e92ac5ff54c6">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/logout.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>937cea43a523abf29c3f02b78292b0e1</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="spacer.gif" sha1-checksum="ea7df583983133b62712b5e73bffbcd45cc53736">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/spacer.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>df3e567d6f16d040326c7a0ea29a4f41</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="arrowdown.gif" sha1-checksum="051131ddf1ee029762950355f8d8c6f77d2fcb49">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/arrowdown.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>eb1b393e595aa48afe81d81a264e5d84</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="line.gif" sha1-checksum="3fe808323edeffc6fc3d9fe29a6ec803fa275bcd">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/line.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>a1aabd8b4d9e3709cf97dbb42fb87ac8</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="SOAPconfig.gif" sha1-checksum="4ac89545bf467c1e840e1ab27cf4bdb8d20efc1c">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/images/SOAPconfig.gif</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">image/gif</S:set-prop>
+<S:prop><V:md5-checksum>41fd37ad132bae5099381d95c4821b7d</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-file name="web_prmtv.html" sha1-checksum="71ac7e9e57ac98c6230dcc0ce2a3e7c039fe6ac0">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/web_prmtv.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">925448</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-19T21:52:33.917214Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/html</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>a6012a7a4b13cb0620ddca0ef4b54b42</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="registerImg.jsp" sha1-checksum="b98c523da53c3a149386a9adf550a1e021dcd865">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/registerImg.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">900591</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-18T22:37:09.979640Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>791f01c990b8314d2eab1722d726d5b6</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="sample.jsp" sha1-checksum="8cab7b48c7591ebcb35475b137ec125c6282452c">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/sample.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>823e7dcda1c0bb1dcac67f3ad954952a</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="register.jsp" sha1-checksum="8ccd50fcc6abd0c85202fd8cb67b5e2fb8907223">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/register.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">900591</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-18T22:37:09.979640Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>b033499b8997df0534e0de9c118b8e8b</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="welcomeImg.jsp" sha1-checksum="8587309df6fb77c2eab2b7fa0a01c3f3ebc2827e">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/welcomeImg.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">900591</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-18T22:37:09.979640Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>8d967d2ef19dd195d43df5ca9c5c20cf</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="accountImg.jsp" sha1-checksum="b6f835659e4cf2dc83d5bfa6a9642dddbe8299ff">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/accountImg.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">926739</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-23T19:15:58.421703Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>aca071b4876d6fc034fc0f65cb6df4c1</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="quoteImg.jsp" sha1-checksum="949ec6872fee7b8b282c585303874547ce4c94a4">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/quoteImg.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">926739</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-23T19:15:58.421703Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>95cd8254647d24a81c11d24872bb2e34</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="account.jsp" sha1-checksum="018f592f98fc3f9199780159b03223d2143c02bf">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/account.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">926739</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-23T19:15:58.421703Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>1b408a7441d731306ab317a1e93ba340</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="style.css" sha1-checksum="056e5186f308a689368691e971e8c57b4e2c3451">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/style.css</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>405862fc10919d01c62fee20c1e95e6b</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="header.html" sha1-checksum="70bb31608876b461e632f3c31cbc14f6a7cce015">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/header.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">900942</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-19T20:20:23.421323Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="svn:mime-type">text/html</S:set-prop>
+<S:prop><V:md5-checksum>6b0db7b9bee5fa2c248481fa50b98f56</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="marketSummary.jsp" sha1-checksum="e7225a730f89173c4f3e78e93353f941584d4e01">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/marketSummary.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">933727</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-04-13T18:12:39.734671Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>f85e0abfc36dbe37958c85a6477053b1</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="PingServlet2Jsp.jsp" sha1-checksum="ef0d00927bc8a53d1d1ff3ee4a6fafb38ce75ecf">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/PingServlet2Jsp.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">900591</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-18T22:37:09.979640Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>438d0ea253ef0e02d649e4053b6d995f</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="dbscripts" bc-url="/repos/asf/!svn/bc/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/dbscripts">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/dbscripts</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">993546</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-07T22:18:50.253191Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="other" bc-url="/repos/asf/!svn/bc/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/dbscripts/other">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/dbscripts/other</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">993546</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-07T22:18:50.253191Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="Table.ddl" sha1-checksum="caae4bcf6fd51c35f860e0121469c85fd1330352">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/dbscripts/other/Table.ddl</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">993546</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-07T22:18:50.253191Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>68011a3d0f1ad72cceb48d31fcde6d7c</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="derby" bc-url="/repos/asf/!svn/bc/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/dbscripts/derby">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/dbscripts/derby</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">993546</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-07T22:18:50.253191Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="Table.ddl" sha1-checksum="a4a47e422322eec5578a708ffa8d979ac3448d52">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/dbscripts/derby/Table.ddl</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">993546</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-07T22:18:50.253191Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>e61b012892e019329ca8131f175932fd</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="oracle" bc-url="/repos/asf/!svn/bc/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/dbscripts/oracle">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/dbscripts/oracle</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">993546</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-07T22:18:50.253191Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="Table.ddl" sha1-checksum="59f36dde994fdd57b837b47cfcb27e143f048b5a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/dbscripts/oracle/Table.ddl</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">993546</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-07T22:18:50.253191Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>0d42d2cd7134ceefac30b311a9121bed</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="db2" bc-url="/repos/asf/!svn/bc/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/dbscripts/db2">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/dbscripts/db2</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">993546</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-07T22:18:50.253191Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="Table.ddl" sha1-checksum="caae4bcf6fd51c35f860e0121469c85fd1330352">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/dbscripts/db2/Table.ddl</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">993546</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-09-07T22:18:50.253191Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>68011a3d0f1ad72cceb48d31fcde6d7c</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="META-INF" bc-url="/repos/asf/!svn/bc/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/META-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/META-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">928051</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-26T20:42:05.110441Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+</S:add-directory>
+<S:add-file name="order.jsp" sha1-checksum="94599d0475c4a46ec7cf3b3cbc51b5084db00f66">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/order.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">926739</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-23T19:15:58.421703Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>7985975641115ded543a15f0fe728eae</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="portfolio.jsp" sha1-checksum="61355023fb47b9e628fc6376cc8ddccbd223f185">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/portfolio.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">926739</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-23T19:15:58.421703Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>b2c98f0f3e33cc6cd1c743571342af65</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="index.html" sha1-checksum="f76dc0a77df8bee1251ffe6a4f6223415ed94b41">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/index.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">900591</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-18T22:37:09.979640Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/html</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>6e45793f3779a17afa118c5200adc9c8</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="displayQuote.jsp" sha1-checksum="ecd53edfcc5e192dd0b02ab93a12dd5cdf36b2a8">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/displayQuote.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">933727</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-04-13T18:12:39.734671Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>41e59aa0512e1a5944cb54e8c81b36f6</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="runStats.jsp" sha1-checksum="7d40dbbbd29620606ca6b83143231c3de2465a6a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/runStats.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">940541</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-05-03T17:59:19.133524Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>d193ddd497eff3688a65272cb0754a1c</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="leftMenu.html" sha1-checksum="a9180a48998aaaaa62cb40b0214fbac1f7ef96fb">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/leftMenu.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/html</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>9be114b0df3f2db6bef17cf394f532f6</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="configure.html" sha1-checksum="e9054e81012edb67bfe2b4651d7737c15a0ac390">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/configure.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">915504</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-23T20:32:04.670924Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="svn:mime-type">text/html</S:set-prop>
+<S:prop><V:md5-checksum>0b3efc8a5fbe968f058b1683a3e86595</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="error.jsp" sha1-checksum="5967cf4dbd96845d0ff7742c7a26e3d3832717f6">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/error.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">900591</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-18T22:37:09.979640Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>b9f94ef6062c4d16082c903177b2d9b7</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="PingHtml.html" sha1-checksum="473dc669ea93ac120c1a495ad42ad07f6cfc1873">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/PingHtml.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/html</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>0bcc8fdfa42ea305ee33d8fbbffdb9b6</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="contentHome.html" sha1-checksum="7ce31897a99410562e8475156a1ed68b61bca453">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/contentHome.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">901242</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-20T15:44:00.353275Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="svn:mime-type">text/html</S:set-prop>
+<S:prop><V:md5-checksum>e3f1332b7fb9e9866a81e9ef8ca82761</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="PingJspEL.jsp" sha1-checksum="213c286189a730b8ca0eb6caa1801908c30c109a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/PingJspEL.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">933727</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-04-13T18:12:39.734671Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>7c5fe5552b5adf3cbef42ef5b5fde115</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="welcome.jsp" sha1-checksum="79d659a6955b0b04cd0cc9ee6fbf80f6407c85f1">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/welcome.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">900591</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-18T22:37:09.979640Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>9fae9f0a7f342e22fa9cb4b90929f256</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="WEB-INF" bc-url="/repos/asf/!svn/bc/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/WEB-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/WEB-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">928051</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-26T20:42:05.110441Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="web.xml" sha1-checksum="40913ed8dc53e662d9e675dbab9dcf387ecb0071">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/WEB-INF/web.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">928051</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-26T20:42:05.110441Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>b407a16808f8a0f504fe709ba98edbcc</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-directory name="docs" bc-url="/repos/asf/!svn/bc/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/docs">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/docs</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">915504</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-23T20:32:04.670924Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="tradeversion.html" sha1-checksum="653be50bbf49ed526865b1002381330674775b9a">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/docs/tradeversion.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">900591</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-18T22:37:09.979640Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="svn:mime-type">text/html</S:set-prop>
+<S:prop><V:md5-checksum>126c39423f069d889fea7f35e254c3f0</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="tradeFAQ.html" sha1-checksum="4232978a254764d3f314d1ce16e796e1235ce1ab">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/docs/tradeFAQ.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">915504</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-02-23T20:32:04.670924Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/html</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>b4ae25e3ce3f3b0c6aa919a12044548a</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="benchmarking.html" sha1-checksum="611267a58fe5c04d7ce48e4a10ec9a599ab25b5b">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/docs/benchmarking.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">900591</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-18T22:37:09.979640Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/html</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>0c1df0be06a439ef120e0f5f6b372311</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="documentation.html" sha1-checksum="b876798fc5eb7081054bc406fac0973c49f40bb5">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/docs/documentation.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mime-type">text/html</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>e7f3b3ac4b74262a93e144aa36f977c0</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="rtCharacterisitics.html" sha1-checksum="74f22aec038e241e89577fd919afaa06f5bb68f6">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/docs/rtCharacterisitics.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="svn:mime-type">text/html</S:set-prop>
+<S:prop><V:md5-checksum>cc11d4ad99de552ac04d0952f81a0bcc</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="glossary.html" sha1-checksum="c455af5ddbf8ec56e6cd53358414265b41a19572">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/docs/glossary.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">808973</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-08-28T18:07:49.333243Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dwoods</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="svn:mime-type">text/html</S:set-prop>
+<S:prop><V:md5-checksum>7df28d90eef847f8285911bc45a974a8</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-file name="quote.jsp" sha1-checksum="f590be1abf43ba2dca28d8f04671d26f08163147">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/quote.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">926739</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-23T19:15:58.421703Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>6a2d6d05cbaaa3a07b9f179e9a89fd4e</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="config.jsp" sha1-checksum="7510c739b5f28496c950e841b873930a5b8b4c3f">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/config.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">934501</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-04-15T17:59:25.723235Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>bd119d1cb5ccbed3ac070703a57f4a2f</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="tradehomeImg.jsp" sha1-checksum="4d6872ce7953deb6e98b87d179edaed37242da04">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/tradehomeImg.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">926739</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-23T19:15:58.421703Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>7ac573e0541d61e991862b8994dc4362</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="footer.html" sha1-checksum="7d3840b958885c1a2fa7b3b8c773f019e6ee91df">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/footer.html</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">900942</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-01-19T20:20:23.421323Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:set-prop name="svn:mime-type">text/html</S:set-prop>
+<S:prop><V:md5-checksum>649aef2e75bae501e1720f55e9f7d945</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="tradehome.jsp" sha1-checksum="1a790a914716eefa1f866b395692a0b14217c0f1">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/tradehome.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">926739</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-23T19:15:58.421703Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>e93694d8d4ba8f31c410de2eeb55a866</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="orderImg.jsp" sha1-checksum="5f9f585a7cb786aa24461e0e62c354bd3c8f60b3">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/src/main/webapp/orderImg.jsp</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">926739</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2010-03-23T19:15:58.421703Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbohn</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>153662f645f881884809972c53d13bec</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:open-directory>
+</S:open-directory>
+<S:open-file name="pom.xml" rev="1055479">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1055480/aries/branches/0.3-RCx/samples/ariestrader/modules/ariestrader-web/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1055480</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-01-05T15:03:11.153288Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">not</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="dc732d8a53329e50f3153ad4e8c71ff5" sha1-checksum="8391e5e25986a22e3084744934ce60ed185e2110"/>
+<S:prop><V:md5-checksum>c9286de58cf37bec9ca3dd7dd0de64bc</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

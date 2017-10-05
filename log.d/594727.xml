@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>594727</D:version-name>
+<D:comment>DERBY-3175: NullPointerException on INSERT after ALTER TABLE DROP COLUMN
+
+The implementation of ALTER TABLE DROP COLUMN needs to adjust the
+SYSCOLUMNS information for some of the columns in the table. Specifically,
+columns with a higher column position than the dropped column need to
+have their column position adjusted (decremented by 1).
+
+The algorithm which did this column position adjustment was flawed,
+because it was losing the auto-increment information for generated columns.
+
+The code adjusts the column position by:
+ - reading the old column information into a ColumnDescriptor
+ - deleting the old column information from SYSCOLUMNS
+ - modifying the ColumnDescriptor to set the new column position
+ - adding the new column information to SYSCOLUMNS
+
+But the generated column information in the ColumnDescriptor was not being
+preserved properly in this process.
+
+The fix involved ensuring that the ColumnDescriptor information was
+accurate for generated columns, and ensuring that SYSCOLUMNSRowFactory.makeRow
+was correctly loading the generated column information into the new row.
+
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2007-11-14T00:12:45.625146Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>635657</D:version-name>
+<D:comment>Merged following change (633986) from trunk to 10.3 branch.
+
+DERBY-1626
+
+Change test to only look at User transactions. Was getting intermittent diffs
+due to timing of background internal and system transactions.
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2008-03-10T19:06:30.859087Z</S:date>
+</S:log-item>
+</S:log-report>

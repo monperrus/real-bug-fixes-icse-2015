@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>110114</D:version-name>
+<D:comment>Fix Derby-62, serialization of SQLExcepton thrown by Derby throws error due to
+references to non-serializable objects.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2004-12-07T17:27:35.714736Z</S:date>
+</S:log-item>
+</S:log-report>

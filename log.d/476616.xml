@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>476616</D:version-name>
+<D:comment>DERBY-2080 - dml119, dml160 and dcl.sql have outdated canons
+
+There were jvm-specific output files for these tests that somehow missed getting the apache license info.
+
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2006-11-18T21:55:20.818294Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>635588</D:version-name>
+<D:comment>Merging revision 634037 into 10.3 codeline fore DERBY-3458. The commit comments for
+634037 were as follows
+
+Patch submitted by Stephan van Loendersloot. dblook should set the current schema to be
+a system schema so that collation of system schema (UCS_BASIC) gets used when dealing
+with queries using system table columns and character constants. Stephan has also
+provided comprehensive test for the dblook code change.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2008-03-10T16:19:23.899646Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1533412</D:version-name>
+<D:comment>DERBY-6382 fter Inplace compress: java.sql.SQLException: Page Page(10219,Container(0, 1136)) could not be read from disk caused by Caused by: java.io.EOFException: Reached end of file while attempting to read a whole page.
+
+This is a partial fix for DERBY-5234. Merged revision 1337258 from 10.8
+Contributed by Rick Hillegas
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2013-10-18T12:12:45.321678Z</S:date>
+</S:log-item>
+</S:log-report>

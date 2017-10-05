@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>966964</D:version-name>
+<D:comment>flush index CFs before marking parent CF flushed in commitlog header.  patch by jbellis; reviewed by Nate McCall for CASSANDRA-1301</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-07-23T04:57:20.651023Z</S:date>
+</S:log-item>
+</S:log-report>

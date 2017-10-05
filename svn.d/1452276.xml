@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1452276"/>
+<S:open-directory rev="1452275">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1452276/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1452276</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-03-04T12:43:12.827387Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dweiss</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1452275">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1452276/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1452276</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-03-04T12:43:12.827387Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dweiss</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="dev" rev="1452275">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1452276/lucene/dev</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1452276</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-03-04T12:43:12.827387Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dweiss</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="1452275">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1452276/lucene/dev/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1452276</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-03-04T12:43:12.827387Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dweiss</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">dist
+*~
+velocity.log
+build.properties
+.idea
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings
+.caches
+prj.el
+eclipse-build
+idea-build
+maven-build
+heapdumps
+</S:set-prop>
+<S:open-file name=".gitignore" rev="1452275">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1452276/lucene/dev/trunk/.gitignore</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1452276</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-03-04T12:43:12.827387Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dweiss</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="8f210b83dc31f3f4128951b449ffb474" sha1-checksum="7c9ca29ccb3846a83d3951669501661ee455a00b"/>
+<S:prop><V:md5-checksum>cc60bea205dc3df7eae6e7b0f6adc980</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="lucene" rev="1452275">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1452276/lucene/dev/trunk/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1452276</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-03-04T12:43:12.827387Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dweiss</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="common-build.xml" rev="1452275">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1452276/lucene/dev/trunk/lucene/common-build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1452276</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-03-04T12:43:12.827387Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dweiss</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="2f7167c88fc7144acd72453782688e6b" sha1-checksum="8171343b2ed9b992fc651692b91fcf7394d04bdb"/>
+<S:prop><V:md5-checksum>9bb12afc81ba8169e6f676b70f39684d</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="tools" rev="1452275">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1452276/lucene/dev/trunk/lucene/tools</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1452276</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-03-04T12:43:12.827387Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dweiss</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="junit4" rev="1452275">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1452276/lucene/dev/trunk/lucene/tools/junit4</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1452276</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-03-04T12:43:12.827387Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dweiss</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="cached-timehints.txt" rev="1452275">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1452276/lucene/dev/trunk/lucene/tools/junit4/cached-timehints.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1452276</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-03-04T12:43:12.827387Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dweiss</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="2294f3f50f0eb62d2699552cbcedaf4f" sha1-checksum="f0c1d1430c15217599c7b8cff305ad6e004db2c7"/>
+<S:prop><V:md5-checksum>08cc5f0ad33b9eb294e618a6121074f9</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+<S:open-file name="CHANGES.txt" rev="1452275">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1452276/lucene/dev/trunk/lucene/CHANGES.txt</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1452276</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-03-04T12:43:12.827387Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dweiss</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="2b4ac88af507e093e0b277a22097f038" sha1-checksum="584641bf4d656612982e43ff418125e5c76032c8"/>
+<S:prop><V:md5-checksum>05d6088e8f936b1caa4487a9b07743d4</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

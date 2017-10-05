@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1339640</D:version-name>
+<D:comment>ARIES-612 The blueprint container currently removes services, stops tracking references, and then destroys beans in reverse creation order (which I assume is the same as reverse dependency order). The problem is beans can depend on references and if they try to use references in destroy bad things happen. This commit moves the shutdown of references to after the beans are destroyed which should solve the problem.</D:comment>
+<D:creator-displayname>gnodet</D:creator-displayname>
+<S:date>2012-05-17T15:21:51.661859Z</S:date>
+</S:log-item>
+</S:log-report>

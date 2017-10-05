@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>553591</D:version-name>
+<D:comment>Remove the commented fail asserts for GrantRevokeTest which were
+added for DERBY-2983 in trunk. That bug does not exist in 10.3.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-07-05T18:17:05.353051Z</S:date>
+</S:log-item>
+</S:log-report>

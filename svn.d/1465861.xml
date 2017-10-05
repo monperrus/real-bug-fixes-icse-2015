@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1465861"/>
+<S:open-directory rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="db" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="derby" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="code" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="branches" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="10.8.3.1_testcompat" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/db/derby/code/branches/10.7:1061570,1061578,1082235
+/db/derby/code/branches/10.9:1370647,1373148,1379219,1384397,1396606,1451023,1462304,1462677
+/db/derby/code/trunk:1088633,1089795,1091000,1091221,1091285,1092067,1092795,1094315,1094572,1094728,1095247,1096741,1096890,1096991,1097247,1097249,1097460,1097469,1097471,1098033,1101059,1101839,1102620,1102826,1103681,1103718,1103742,1104365,1125305,1126358,1126468,1127825,1127883,1128243,1128942,1129136,1129764,1129797,1130077,1130084,1130632,1130895,1131030,1131272,1132546,1132664,1132747,1132860,1132928,1133304,1133317,1133741,1133752,1134139,1136363,1136371,1136397,1136844,1137213,1138201,1138341,1138444,1138787,1138795,1139449,1139451,1140222,1140744,1141924,1142583,1142635,1145057,1146644,1146915,1146962,1147219,1147242,1147335,1148344,1148354,1148429,1148658,1149054,1149090,1149270,1149482,1149662,1151101,1151612,1152371,1158108,1160593,1160597,1161208,1162737,1163131,1163616,1164358,1164370,1164495,1165221,1166313,1167017,1167226,1167470,1169692,1170470,1171227,1171665,1171672,1173446,1173647,1174436,1174646,1176591,1176633,1176636,1177589,1179374,1179546,1180790,1180858,1181756,1183463,1183503,1183671,1185330,1185465,1186020,1186691,1189201,1189222,1203050,1203252,1204128,1207729,1208775,1210846,1212541,1213251,1228332,1228777,1229266,1230480,1230873,1231296,1236887,1239898,1241841,1242098,1242409,1242413,1242460,1242610,1242681,1243878,1244444,1245143,1245226,1290888,1290919,1291057,1291631,1291647,1292084,1292108-1292109,1292941,1293467,1293494,1294275,1294512,1294522,1294592,1295085,1298907,1300459,1301109,1301290,1303630,1305524,1306596,1306600,1309244,1311804,1328061,1329359,1330066,1330482,1330877,1331484,1333305,1334874,1334919,1335570,1335677,1341046,1341204,1341266,1345254,1345301,1346054,1350258,1351714,1351795,1352913,1353852,1354015,1356333,1356749,1356766,1359052,1364690,1365661,1369173,1371041,1371382,1378206,1379163,1381429,1384035,1390126,1392847,1394407,1394883,1395482,1398914,1399306,1406053,1406083,1406240,1411160,1412392,1413812,1421972,1430291,1430417,1440586,1442474,1461415,1464934</S:set-prop>
+<S:open-directory name="java" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="testing" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="org" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="apache" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="derbyTesting" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="functionTests" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="master" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/master</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="nestedCommit.out" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/master/nestedCommit.out</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="0757c06cd03e4ce3abf67b4fa9dc12eb" sha1-checksum="ac3392486a771768ba251f79aae1ef3dc9d75f09"/>
+<S:prop><V:md5-checksum>d1cb184288e561558e73baf4aa2eaa49</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="cursorerrors.out" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/master/cursorerrors.out</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e69b78006394e13cabf1e48f3fde8414" sha1-checksum="2ecd0e31e37ecc54953198a8e952f2e4b443b859"/>
+<S:prop><V:md5-checksum>c8047aa7bb5c131cd9f4097bd6b05673</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="outparams.out" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/master/outparams.out</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="28e261bd7e91a25cce19317585d90a2e" sha1-checksum="8ca6c2c48b873f5f2ff30830c2461d146b398c03"/>
+<S:prop><V:md5-checksum>a63bfd267b4d57f46fe21ba9433cf0d7</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="dblook_test.out" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/master/dblook_test.out</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e831f4819a8df837632ba6ef1f897929" sha1-checksum="64b0b6f1a38f65e9db98a00adcb9c468d2779ad9"/>
+<S:prop><V:md5-checksum>e040388e737c8b552868e381db0b3ec2</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="holdCursorIJ.out" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/master/holdCursorIJ.out</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="4d11ec0ad950b8af4ac736efea4087e5" sha1-checksum="f771cfa483d7361566b31310cb12a834e5945bef"/>
+<S:prop><V:md5-checksum>da2ed5953df7e08dd528430952f7b9cd</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="update.out" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/master/update.out</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="b015ee00ddec398cce624935df698a4d" sha1-checksum="f48082cc44ea83588a6a380b30e55dda6e56ee01"/>
+<S:prop><V:md5-checksum>6e9721f26f4f8f77a7579c7c705a2d56</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="ij.out" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/master/ij.out</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="8ed34f34bb02fd04a850eb4bf77eaa42" sha1-checksum="6d2568bc3c6321dfc4129988cf869d4b9b7ccbcd"/>
+<S:prop><V:md5-checksum>5d47b88ae661aa8f08f617388ad8e1d8</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="importExportIJ.out" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/master/importExportIJ.out</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="94a0542aa2ce5f04ec09968eb661f6fb" sha1-checksum="473d00f8ef29cdee55b3c1f71519895ceac0a97a"/>
+<S:prop><V:md5-checksum>785539d5d5cb0b79cc62c9be80b54efa</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="implicitConversions.out" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/master/implicitConversions.out</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="cc298d85043f3a0d4a9bc56a0f44b71f" sha1-checksum="0203f189733affe5155ae22c74d0dba93d0ceb05"/>
+<S:prop><V:md5-checksum>4aca40d862265ba001ab87611edea433</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="LocalizedDisplay.out" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/master/LocalizedDisplay.out</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="edd7fb0e36d3c4cba458a2e385a3f550" sha1-checksum="8fe76f848c222f16b234ee35df79ac3754e0f0d2"/>
+<S:prop><V:md5-checksum>1abf659378d092cf4d172105ec7fd01f</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="positionedDelUpd.out" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/master/positionedDelUpd.out</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="6c78f43daaf1d7834098232ed1ffb3ac" sha1-checksum="2ba808a446d92778a8fe1be2ba09f194d6399992"/>
+<S:prop><V:md5-checksum>b3f9aea9139bee52a5b00892d1cd4d39</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="cast.out" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/master/cast.out</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="4ff523b37e6b8977e95af5597a9cddf2" sha1-checksum="eba67e725ac4fdec4b87ab31745116d7db9e7fe2"/>
+<S:prop><V:md5-checksum>f295773e7b7f7303dc2d5d16662b975d</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="dbManagerLimits.out" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/master/dbManagerLimits.out</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c538eceef7984c315a474ed65807591c" sha1-checksum="842f05e9e7f8d505a649fd4f9b5a53bfdda911e5"/>
+<S:prop><V:md5-checksum>6df3f0ccf0d61a11c49f1297c369ff71</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="depend.out" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/master/depend.out</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="257b2c8042cd9a7b30445ac79cec658f" sha1-checksum="b24c6ad2f474b5a86229d220c7969cdfdc6b06e8"/>
+<S:prop><V:md5-checksum>ff523d3020c8aceceb093d6b0a021c33</V:md5-checksum></S:prop></S:open-file>
+<S:open-file name="dblook_test_territory.out" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/master/dblook_test_territory.out</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="e831f4819a8df837632ba6ef1f897929" sha1-checksum="64b0b6f1a38f65e9db98a00adcb9c468d2779ad9"/>
+<S:prop><V:md5-checksum>e040388e737c8b552868e381db0b3ec2</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="tests" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/tests</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="tools" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/tests/tools</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="SysinfoCPCheckTest.java" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/tests/tools/SysinfoCPCheckTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="f18c639c9e9678495c4865c515f8f8c4" sha1-checksum="69fa4e05038905f9cfcc7920b75bd64688e0b145"/>
+<S:prop><V:md5-checksum>36cc5bffdf47f64aeaa6e56751b41193</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="derbynet" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/tests/derbynet</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="NetworkServerControlApiTest.java" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/tests/derbynet/NetworkServerControlApiTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="4aef6c88a1d7eef728215d59fc4f7e23" sha1-checksum="ee2a947cc12e659c3382da44d4ddd1998bd3078f"/>
+<S:prop><V:md5-checksum>98b0da355d014de2a91f5b2ed70f2b90</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="lang" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/tests/lang</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="ErrorCodeTest.java" rev="1465860">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1465861/db/derby/code/branches/10.8.3.1_testcompat/java/testing/org/apache/derbyTesting/functionTests/tests/lang/ErrorCodeTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1465861</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-04-09T02:17:54.671266Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">kmarsden</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="c24cc1323586afbdf6dfe014bcccfc29" sha1-checksum="aa277c828b16f55b63a30d20f8e2afbff38d0b0d"/>
+<S:prop><V:md5-checksum>bc6e5132bd6edccdb054b07d31304b66</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

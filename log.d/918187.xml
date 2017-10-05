@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>918187</D:version-name>
+<D:comment>fix consistencylevel during bootstrap, partially, by hinting "down" bootstrapping nodes and just expanding target set to include them in blockFor calculation.  patch by jbellis; reviewed by Ryan King for CASSANDRA-822</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-03-02T21:23:23.736642Z</S:date>
+</S:log-item>
+</S:log-report>

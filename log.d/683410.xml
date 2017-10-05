@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>683410</D:version-name>
+<D:comment>DERBY-1726; wrap LocalizedDisplay and LocalizedConnectionAttribute scripts in
+  a junit ScriptTest and ensure they are only run in environments where they'll
+  pass.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2008-08-06T21:04:27.973347Z</S:date>
+</S:log-item>
+</S:log-report>

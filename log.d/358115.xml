@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>358115</D:version-name>
+<D:comment>DERBY-649 DERBY-772 Revert changes that cause a regression. See DERBY-649 for details.
+
+Merge commands used to revert were:
+
+svn merge -r 357415:357414 https://svn.apache.org/repos/asf/db/derby/code/branches/10.1
+svn merge -r 357105:357104 https://svn.apache.org/repos/asf/db/derby/code/branches/10.1
+svn merge -r 357055:357054 https://svn.apache.org/repos/asf/db/derby/code/branches/10.1
+
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-12-20T21:51:42.468701Z</S:date>
+</S:log-item>
+</S:log-report>

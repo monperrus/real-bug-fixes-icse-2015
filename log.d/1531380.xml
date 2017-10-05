@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1531380</D:version-name>
+<D:comment>SOLR-5323: Disable ClusteringComponent by default in collection1 example. The solr.clustering.enabled system property needs to be set to 'true' to enable the clustering contrib (reverts SOLR-4708). (Dawid Weiss)
+
+
+</D:comment>
+<D:creator-displayname>dweiss</D:creator-displayname>
+<S:date>2013-10-11T18:14:41.085882Z</S:date>
+</S:log-item>
+</S:log-report>

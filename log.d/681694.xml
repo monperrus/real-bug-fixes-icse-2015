@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>681694</D:version-name>
+<D:comment>DERBY-3799: NullPointerException when accessing a clob through a pooled connection.
+Verify that the LOB stored procedure statements are open (not only non-null).
+Patch file: derby-3799-1a-checkIfClosed.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-08-01T13:54:25.897015Z</S:date>
+</S:log-item>
+</S:log-report>

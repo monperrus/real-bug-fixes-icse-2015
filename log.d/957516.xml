@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>957516</D:version-name>
+<D:comment>LUCENE-2142: if FieldsCache.getStrings/Index is mis-used (more than 1 term per doc), stop loading once number of terms &gt; number of docs</D:comment>
+<D:creator-displayname>mikemccand</D:creator-displayname>
+<S:date>2010-06-24T11:57:20.311366Z</S:date>
+</S:log-item>
+</S:log-report>

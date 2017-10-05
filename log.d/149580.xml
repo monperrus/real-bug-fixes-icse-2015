@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>149580</D:version-name>
+<D:comment>- import fixes in the test src tree
+- the test target appears to depend on classes in the demo src
+  tree so i added the dep to the test target. test target
+  still isn't working but getting there.
+PR:
+Obtained from:
+Submitted by:
+Reviewed by:
+</D:comment>
+<D:creator-displayname>jvanzyl</D:creator-displayname>
+<S:date>2001-09-18T17:35:57.000000Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1027847</D:version-name>
+<D:comment>DERBY-4815: Override mechanism for modules.properties works backwards
+
+Check the property key, not the property value, when trying to detect
+duplicate keys.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-10-27T07:39:39.678326Z</S:date>
+</S:log-item>
+</S:log-report>

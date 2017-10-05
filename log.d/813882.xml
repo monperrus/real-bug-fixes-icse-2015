@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>813882</D:version-name>
+<D:comment>DERBY-4310
+
+Backport changes to 10.2 codeline. Had to hand write the tests in XATest because that test has not been converted to junit test in 10.2 codeline and hence the merge on it didn't work.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2009-09-11T15:42:08.243938Z</S:date>
+</S:log-item>
+</S:log-report>

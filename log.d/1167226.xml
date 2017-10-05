@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1167226</D:version-name>
+<D:comment>DERBY-5044 ALTER TABLE DROP COLUMN will not detect triggers defined on other tables with their trigger action using the column being dropped
+
+Adding tests for DERBY-5044. The tests included are
+1)Trigger actions with INSERT sql using column being dropped(from a non-trigger table) 
+2)Trigger actions with UPDATE sql using column being dropped(from a non-trigger table) 
+3)Trigger actions with SELECT from VIEWS with views and trigger action using column being dropped(from a non-trigger table) 
+4)Combination of trigger types in the same test ie trigger defined on the table being altered and trigger defined on other tables but using the table being altered in their trigger action 
+5)Tests using SYNONYMS
+6)In upgrade, triggers who have lost one of their dependency row(DERBY-5120) and see how they work when they are using the table who column is being dropped 
+7)In upgrade, triggers using column being altered and show how it is not detected prior to 10.9 
+8)Trigger action with SELECT from table using column being dropped from non-trigger table(similar to the VIEWs variation of the test) 
+9)Test to check how privileges might affect the trigger recompile by a user who doesn't own the trigger 
+
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-09-09T14:43:52.280749Z</S:date>
+</S:log-item>
+</S:log-report>

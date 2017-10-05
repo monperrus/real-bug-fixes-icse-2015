@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>397313</D:version-name>
+<D:comment>DERBY-438 (partial) Optimize Blob.length() to avoid reading the whole stream if the length
+is encoded in the stream from the store or the length has already been obtained once.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-04-26T21:51:20.496984Z</S:date>
+</S:log-item>
+</S:log-report>

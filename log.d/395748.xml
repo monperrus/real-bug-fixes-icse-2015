@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>395748</D:version-name>
+<D:comment>DERBY-1127 client gives SqlException for test callable.java and parameterMapping.java on zOS
+
+Contributed by Sunitha Kambhampati
+
+This patch fixes
+-- the calls in DateTime to use correct UTF8 encoding as the server expects.
+-- adds these two tests (callable.java, parameterMapping.java) to encodingTests
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-04-21T01:20:38.226771Z</S:date>
+</S:log-item>
+</S:log-report>

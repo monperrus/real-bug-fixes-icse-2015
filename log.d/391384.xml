@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>391384</D:version-name>
+<D:comment>Checkin patch to DERBY-955 which uses Sed to mask out jdk1.6-specific test diffs introduced by the JDBC4 subclasses of SQLException. This eliminates a number of jdk1.6-specific canons.</D:comment>
+<D:creator-displayname>rhillegas</D:creator-displayname>
+<S:date>2006-04-04T18:47:34.611530Z</S:date>
+</S:log-item>
+</S:log-report>

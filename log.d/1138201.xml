@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1138201</D:version-name>
+<D:comment>DERBY-5288; running multiple suites.All concurrently should be possible
+  Modifying SpawnedProcess.java to not run the streamReader with MIN priority,
+  and to do a join before returning the output.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2011-06-21T21:39:54.079939Z</S:date>
+</S:log-item>
+</S:log-report>

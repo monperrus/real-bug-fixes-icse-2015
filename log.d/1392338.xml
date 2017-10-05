@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1392338</D:version-name>
+<D:comment>DERBY-5941: Assert failure in jdbcapi.InvalidLDAPServerAuthenticationTest.testInvalidLDAPServerConnectionError
+
+Use .invalid for invalid/non-existngs hosts (see RFC 2606).
+
+Patch file: derby-5941-1a-rfc2606.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2012-10-01T13:58:15.185673Z</S:date>
+</S:log-item>
+</S:log-report>

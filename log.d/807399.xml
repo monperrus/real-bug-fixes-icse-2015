@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>807399</D:version-name>
+<D:comment>[fixed version] avoid opening multiple writers for the current file; the buffered nature of the global logWriter_ could cause problems
+patch by jbellis; reviewed for CASSANDRA-370 by Sammy Yu</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-08-24T22:03:35.569536Z</S:date>
+</S:log-item>
+</S:log-report>

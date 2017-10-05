@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>551794</D:version-name>
+<D:comment>DERBY-2831
+Merging changes from main into 10.3 codeline. The merge command is as follows
+svn merge -r 551792:551793  https://svn.apache.org/repos/asf/db/derby/code/trunk/
+
+The commit comments for 10.3 codeline were as follows
+DERBY-2831 Creating a function that returns a character string literal inside a schema that doesnot exist should not give 
+a null pointer exception. This was happening while we were trying to look up the collation. The collation lookup should be 
+done using the super class's getSchemaDescriptor method. 
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-06-29T05:17:44.008275Z</S:date>
+</S:log-item>
+</S:log-report>

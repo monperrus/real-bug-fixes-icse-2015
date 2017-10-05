@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1136717</D:version-name>
+<D:comment>DERBY-5279 Adding following code to catch any exception other than table does not exist. If the caught error is derby lock time out then we want to know what is the lock out property set to. It should be set to default which is 60 but it is possible that some other test has changed that setting and forgot to revert it back to default before that test finished. The information about lock timeout will help us resolve DERBY-5279
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-06-16T22:42:04.513364Z</S:date>
+</S:log-item>
+</S:log-report>

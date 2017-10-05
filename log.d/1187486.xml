@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1187486</D:version-name>
+<D:comment>ARIES-763: Remove OSGi VersionRange dependency.
+
+Removed dependency on org.osgi.framework.VersionRange. Replaced with org.apache.aries.util.VersionRange.</D:comment>
+<D:creator-displayname>jwross</D:creator-displayname>
+<S:date>2011-10-21T18:26:00.900371Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1398947</D:version-name>
+<D:comment>DERBY-5937: File handle is leaked when a Slave replication is shutdown with failover=true
+
+Backported revision 1396606 from 10.9. Also modified the test case to
+run without security manager, since some of the functionality
+SecurityManagerSetup is missing on the 10.8 branch.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-10-16T19:38:33.820723Z</S:date>
+</S:log-item>
+</S:log-report>

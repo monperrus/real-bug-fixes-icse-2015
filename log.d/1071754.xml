@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1071754</D:version-name>
+<D:comment>DERBY-4463; JMX test in nightly test suite failed with: JMXTest:clientjava.lang.InterruptedException
+  Adjusting code to only skip for ibm 1.5 jvm, rather than all non-sun 1.5 jvms.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2011-02-17T19:27:04.744443Z</S:date>
+</S:log-item>
+</S:log-report>

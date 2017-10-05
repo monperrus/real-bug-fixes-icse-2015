@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1103681</D:version-name>
+<D:comment>DERBY-5098: embedded/in-memory: SQLNonTransientConnectionException: No current connection due to invalid page format
+
+Fix int overflows.
+The bug caused the in-memory backend to overwrite existing data when the
+virtual file/conglomerate grew big enough.
+
+Patch file: derby-5098-1a-overflow_fixes.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-05-16T10:39:22.516937Z</S:date>
+</S:log-item>
+</S:log-report>

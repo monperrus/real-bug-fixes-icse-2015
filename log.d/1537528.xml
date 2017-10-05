@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1537528</D:version-name>
+<D:comment>LUCENE-5217: Maven config: get dependencies from Ant+Ivy; disable transitive dependency resolution for all depended-on artifacts by putting an exclusion for each transitive dependency in the &lt;dependencyManagement&gt; section of the grandparent POM</D:comment>
+<D:creator-displayname>sarowe</D:creator-displayname>
+<S:date>2013-10-31T15:20:08.504064Z</S:date>
+</S:log-item>
+</S:log-report>

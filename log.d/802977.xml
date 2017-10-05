@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>802977</D:version-name>
+<D:comment>fix typo breaking CompareSubcolumnsWith.  fix timeuuid compare with byte[0].
+patch by jbellis; reviewed by Evan Weaver for CASSANDRA-357</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-08-11T02:09:33.923610Z</S:date>
+</S:log-item>
+</S:log-report>

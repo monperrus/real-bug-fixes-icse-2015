@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>545593</D:version-name>
+<D:comment>DERBY-2777
+Fixed the combination of IS NULL and parameters so that the parameters take their collation from the context and not from the current
+compilation schema. Also, the earlier checkin for test case of CONCATENATION was incorrect. This commit fixes that too.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-06-08T18:55:42.930218Z</S:date>
+</S:log-item>
+</S:log-report>

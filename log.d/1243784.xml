@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1243784</D:version-name>
+<D:comment>DERBY-5613 Queries with group by column not included in the column list for JOIN(INNER or OUTER) with NATURAL or USING does not fail
+
+The issue of join column getting associated with left or right table is getting tracked under DERBY-5613. This commit changes the comments in the test to refer to DERBY-5613
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2012-02-14T05:34:09.484284Z</S:date>
+</S:log-item>
+</S:log-report>

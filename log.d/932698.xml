@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>932698</D:version-name>
+<D:comment>Fix javacc and jflex builds, speed up contrib build by removing un related checks. Also updated wikipedia tokenizer to jeflex 1.5 and hardcoded unicode 3.0 (which is java 1.4 for backwards compatibility). Also rebuilt all javacc and jflex parsers.</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2010-04-10T11:42:53.835331Z</S:date>
+</S:log-item>
+</S:log-report>

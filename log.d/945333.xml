@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>945333</D:version-name>
+<D:comment>make DCQUORUM CLs actually wait for the nodes per DC rather than attempting a purely count-based approach that didn't really work as advertised.  patch by Vijay Parthasarathy and jbellis; reviewed by Jeremy Hanna for CASSANDRA-952</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-05-17T19:58:39.463458Z</S:date>
+</S:log-item>
+</S:log-report>

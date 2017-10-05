@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>431799</D:version-name>
+<D:comment>DERBY-1701 (partial) Clean up some of the jdbcapi tests by closing statements when finished and
+cleaning up the connection. The connection handling needs to be simplified by having default connection
+handling in BaseJDBCTestCase.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-08-16T04:39:51.493734Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>551033</D:version-name>
+<D:comment>DERBY-2776 Internally generated CAST nodes should not pick up the collation of the current schema. In order to implement this, the CAST
+nodes generated directly by the user sql (parser) will set a flag on the cast node to indicate that they are externally generated CAST
+nodes. During the bind phase of a CAST node, we will check if the node is externally generated. If yes, then we will have it pick up 
+the collation of the compilation schema otherwise we will leave the collation unchanged.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-06-27T04:20:01.872876Z</S:date>
+</S:log-item>
+</S:log-report>

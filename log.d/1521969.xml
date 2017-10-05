@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1521969</D:version-name>
+<D:comment>SOLR-5231: Fixed a bug with the behavior of BoolField that caused documents w/o a value for the field to act as if the value were true in functions if no other documents in the same index segment had a value of true. (merge r1521948)</D:comment>
+<D:creator-displayname>hossman</D:creator-displayname>
+<S:date>2013-09-11T18:13:39.627051Z</S:date>
+</S:log-item>
+</S:log-report>

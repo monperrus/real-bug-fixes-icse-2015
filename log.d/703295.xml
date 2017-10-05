@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>703295</D:version-name>
+<D:comment>DERBY-3897 SQLSessionContext not correctly initialized in some non-method call nested contexts
+
+Patch derby-3897-3, which sets up the SQL session context correctly
+also for substatements. See javadoc for
+LanguageConnectionContext#setupSubStatementSessionContext for an
+enumeration of these cases. Also adds test cases for this.
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2008-10-09T23:53:03.990192Z</S:date>
+</S:log-item>
+</S:log-report>

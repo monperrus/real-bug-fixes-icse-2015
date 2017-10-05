@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1335820</D:version-name>
+<D:comment>DERBY-5686; multiple intermittent errors in nightly tests during DriverMgrAuthenticationTest test. reason: An SQL data change is not permitted for a read-only connection, user or database.
+  adding a finally block to increase the attempt count always. 
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2012-05-08T23:16:53.151671Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>400212</D:version-name>
+<D:comment>DERBY-1277: Call to rs.isLast() may cause rs.getXXX() return values
+from the last row instead of the current row in scrollable resultsets
+
+In scrollable updatable resultset, a call to rs.isLast() may cause
+rs.getXXX() return values from the last row, instead of for the
+current row. It is caused by TableScanResultSet and EmbedResultSet
+sharing DataValueColumn descriptors, and that the call to isLast()
+will make TableScanResultSet modify the data.
+
+Attaching a fix, where ScrollInsensitiveResultSet does not return
+ExecRow from the source resultset, only from the hashtable. This
+ensures that navigation in source resultsets do not affect the current
+row of the scrollinsensitive resultset.
+
+Also extended the test testRelative to test with concurrency mode
+CONCUR_UPDATABLE, and fixed it so that it can run in derbynetclient
+framework.
+
+Patch contributed by Andreas Korneliussen.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-05-05T23:50:12.421627Z</S:date>
+</S:log-item>
+</S:log-report>

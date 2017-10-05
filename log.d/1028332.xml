@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1028332</D:version-name>
+<D:comment>avoid logging when a node's ip/token is gossipped back to it.  patch by jbellis; reviewed by gdusbabke for CASSANDRA-1666</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-10-28T14:46:58.133065Z</S:date>
+</S:log-item>
+</S:log-report>

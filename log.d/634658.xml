@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>634658</D:version-name>
+<D:comment>DERBY-3497: OOME at slave during replication
+Make sure to reset objOutputStreamt in ReplicationMessageTransmit#writeObject before sending the new object. This removes the old object references both on the transmitter and the receiver side.
+Contributed by Jorgen Loland.
+</D:comment>
+<D:creator-displayname>oysteing</D:creator-displayname>
+<S:date>2008-03-07T13:06:08.266814Z</S:date>
+</S:log-item>
+</S:log-report>

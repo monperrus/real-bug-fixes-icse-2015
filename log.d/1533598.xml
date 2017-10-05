@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1533598</D:version-name>
+<D:comment>Don't mention BitSet in DocIdSet.isCacheable() documentation, since CachingWrapperFilter doesn't use BitSets for caching anymore (fix suggested by Paul Elschot).
+</D:comment>
+<D:creator-displayname>jpountz</D:creator-displayname>
+<S:date>2013-10-18T19:20:41.511126Z</S:date>
+</S:log-item>
+</S:log-report>

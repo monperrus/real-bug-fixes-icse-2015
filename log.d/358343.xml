@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>358343</D:version-name>
+<D:comment>DERBY-649 Fix regression in original patch. Push relational predicates into UNION.
+
+Original patch re-applied with:
+svn merge -r 357104:357105 https://svn.apache.org/repos/asf/db/derby/code/branches/10.1
+svn merge -r 357054:357055 https://svn.apache.org/repos/asf/db/derby/code/branches/10.1
+
+Then additional changes to ensure a relational operator of the correct type in PredicateList
+and additional testing in predicatesIntoViews.sql.
+
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-12-21T18:51:04.469641Z</S:date>
+</S:log-item>
+</S:log-report>

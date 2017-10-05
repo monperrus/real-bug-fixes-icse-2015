@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>903108</D:version-name>
+<D:comment>DERBY-4488: Nullpointer when performing INSERT INTO
+
+Moved setting of the statement context's topResultSet to
+NoRowsResultSetImpl.setup() to ensure that it's performed early enough
+for all sub-classes (and for InsertResultSet in particular).
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-01-26T07:33:52.498823Z</S:date>
+</S:log-item>
+</S:log-report>

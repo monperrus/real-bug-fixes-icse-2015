@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1460512</D:version-name>
+<D:comment>SOLR-4640: CachingDirectoryFactory can fail to close directories in some race conditions.
+SOLR-4637: Replication can sometimes wait until shutdown or core unload until removing some tmp directories.
+SOLR-4638: DefaultSolrCoreState#getIndexWriter(null) is a way to avoid creating the IndexWriter earlier than necessary, but it's not implemented quite right.
+SOLR-4597: fixes, improvements
+SOLR-4629: Stronger testing.</D:comment>
+<D:creator-displayname>markrmiller</D:creator-displayname>
+<S:date>2013-03-25T02:38:24.814644Z</S:date>
+</S:log-item>
+</S:log-report>

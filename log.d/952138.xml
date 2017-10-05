@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>952138</D:version-name>
+<D:comment>DERBY-4676: NullPointerException on SELECT on INNER JOIN
+
+Check whether the page is latched after waiting for a lock, and assume
+that the row has been deleted if it is not latched.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-06-07T08:21:58.536352Z</S:date>
+</S:log-item>
+</S:log-report>

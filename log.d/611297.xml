@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>611297</D:version-name>
+<D:comment>Merging changes 610846 from trunk into 10.3 codeline. This is for DERBY-3302. Commit comments
+for trunk 610846 were as follows
+
+DERBY-3302 The user was running into null pointer exception at the time of database recovery 
+because Derby was trying to get the Collator object through database context. But the 
+Collator object is already available in the territory sensitive character classes and we 
+do not have to go to database context to get it. I changed the code to use that collator 
+object rather than look into database context. The reason for null pointer exception was 
+that database context was not loaded yet during database recovery. 
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2008-01-11T20:48:34.223111Z</S:date>
+</S:log-item>
+</S:log-report>

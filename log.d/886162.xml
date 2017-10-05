@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>886162</D:version-name>
+<D:comment>DERBY-3947: Cannot insert 994 char string into indexed column
+
+A table created with "CREATE TABLE t (x varchar(1000) primary key)" could
+encounter problems when a particularly long value of "x" was inserted,
+because the index that was automatically created to support the PRIMARY KEY
+constraint was created with a small page size. Such an insert statement
+would get an error like: "Limitation: Record of a btree secondary index
+cannot be updated or inserted due to lack of space on the page."
+
+This change enhances TableElementList so that, when creating an index for
+a constraint, it now checks the approximate length of the columns in the
+index, and, if they are sufficiently long, automatically chooses a larger
+default page size for the index conglomerate.
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2009-12-02T14:49:19.118733Z</S:date>
+</S:log-item>
+</S:log-report>

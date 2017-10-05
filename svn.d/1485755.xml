@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1485755"/>
+<S:open-directory rev="1485754">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1485755/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1485755</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-23T15:43:57.268139Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1485754">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1485755/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1485755</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-23T15:43:57.268139Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="dev" rev="1485754">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1485755/lucene/dev</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1485755</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-23T15:43:57.268139Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="1485754">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1485755/lucene/dev/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1485755</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-23T15:43:57.268139Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1485754">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1485755/lucene/dev/trunk/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1485755</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-23T15:43:57.268139Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="replicator" rev="1485754">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1485755/lucene/dev/trunk/lucene/replicator</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1485755</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-23T15:43:57.268139Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="ivy.xml" rev="1485754">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1485755/lucene/dev/trunk/lucene/replicator/ivy.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1485755</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-23T15:43:57.268139Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="9fb388a899a50be2e6a8429276893a73" sha1-checksum="7a4a407e6573391384fcb2d861b51296c879c828"/>
+<S:prop><V:md5-checksum>6c058ad62c026fd042420fed515ef028</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="licenses" rev="1485754">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1485755/lucene/dev/trunk/lucene/licenses</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1485755</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-23T15:43:57.268139Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="commons-logging-1.1.3.jar.sha1" rev="1485755"/>
+<S:add-file name="commons-logging-1.1.1.jar.sha1" sha1-checksum="79f2cae385eb0766be0b0e4a7751501fa59bd17c">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1485755/lucene/dev/trunk/lucene/licenses/commons-logging-1.1.1.jar.sha1</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1485755</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-23T15:43:57.268139Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:eol-style">native</S:set-prop>
+<S:prop><V:md5-checksum>4209abc880a0aabd756f3705a64fc0ae</V:md5-checksum></S:prop></S:add-file>
+</S:open-directory>
+</S:open-directory>
+<S:open-directory name="dev-tools" rev="1485754">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1485755/lucene/dev/trunk/dev-tools</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1485755</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-23T15:43:57.268139Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="maven" rev="1485754">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1485755/lucene/dev/trunk/dev-tools/maven</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1485755</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-23T15:43:57.268139Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1485754">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1485755/lucene/dev/trunk/dev-tools/maven/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1485755</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-23T15:43:57.268139Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="replicator" rev="1485754">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1485755/lucene/dev/trunk/dev-tools/maven/lucene/replicator</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1485755</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-23T15:43:57.268139Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml.template" rev="1485754">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1485755/lucene/dev/trunk/dev-tools/maven/lucene/replicator/pom.xml.template</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1485755</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-05-23T15:43:57.268139Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">sarowe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="ce655c87362d1dc30a650ad7ecfbdf83" sha1-checksum="b0a939e0c03d1709ff6dee6d45ed37fdd8a218e0"/>
+<S:prop><V:md5-checksum>5f963f1e560c9450772024e476c05f40</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

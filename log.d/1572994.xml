@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1572994</D:version-name>
+<D:comment>DERBY-6387: Incorrect ordering of triggers in dblook
+
+backported change #1551940.  backport required some manual merge as the
+key query had changed in multiple ways on the trunk.  Fix was to just add
+the "order by" by hand to the existing 10.10 query.
+
+Order the triggers by the CREATIONTIMESTAMP column so that dblook
+produces a script that recreates the triggers in the same order as
+they were originally created.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2014-02-28T16:41:50.103009Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1050699</D:version-name>
+<D:comment>LUCENE-2819: give rogue-threads left running after the test 1000ms to die naturally before we clear their exception handler and interrupt() them... perhaps they will fail nasty</D:comment>
+<D:creator-displayname>rmuir</D:creator-displayname>
+<S:date>2010-12-18T19:43:46.859029Z</S:date>
+</S:log-item>
+</S:log-report>

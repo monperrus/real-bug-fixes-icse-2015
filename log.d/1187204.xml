@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1187204</D:version-name>
+<D:comment>DERBY-5406: Intermittent failures in CompressTableTest and TruncateTableTest
+
+Make sure the statement receives an invalidation request if the
+conglomerate disappears before FromBaseTable has created the dependency
+on the table descriptor.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-10-21T08:14:34.237605Z</S:date>
+</S:log-item>
+</S:log-report>

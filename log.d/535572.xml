@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>535572</D:version-name>
+<D:comment>DERBY-2616
+
+Increase the maximum wait time for tests that start the server.  On my 
+windows XP system I would get intermittent failures at the old 60 second
+max.  I believe the issue is turnaround time on the port, rather than a
+specific startup issue in the code.  Setting the max to 300 seconds allowed
+me to pass a complete nightly test and also passed a reiterated test 30 times
+that would previously fail every time at the 60 second level.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2007-05-05T23:23:31.410933Z</S:date>
+</S:log-item>
+</S:log-report>

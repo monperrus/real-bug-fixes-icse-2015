@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1300459</D:version-name>
+<D:comment>DERBY-5638 intermittent test failure in test_05_ClobNegative when running full largedata._Suite; LobLimitsTestjava.sql.SQLException: Table/View 'BLOBTBL' already exists in Schema 'APP'.
+
+One of the tests run as part of large data suite is Derby5624Test and it has following in protected static Test baseSuite(String name) to set the lock timeout
+       return new CleanDatabaseTestSetup(
+               DatabasePropertyTestSetup.setLockTimeouts(suite, 2, 4))
+       {
+
+The test really doesn't need any special lock timeout setting and may be it is interferring with the locks timeouts that we see later on in subsequent suites in large data suite. This commit removes the unnecessay lock timeout setting from Derby5624Test.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2012-03-14T04:32:37.386826Z</S:date>
+</S:log-item>
+</S:log-report>

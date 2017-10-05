@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>605616</D:version-name>
+<D:comment>DERBY-3253: Fix NPE for IN list operator when the probe predicate is
+pushed into a subselect but then multi-probing does not occur.
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2007-12-19T16:53:29.537528Z</S:date>
+</S:log-item>
+</S:log-report>

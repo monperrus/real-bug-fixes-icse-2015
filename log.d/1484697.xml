@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1484697</D:version-name>
+<D:comment>MAHOUT-1222: Fix total weight in FastProjectionSearch
+
+Sometimes when removing a Vector that's in pendingAdditions, the wrong Vector
+gets removed.
+This happens because the closest Vector is removed rather than the one that's
+equal to it.
+
+</D:comment>
+<D:creator-displayname>dfilimon</D:creator-displayname>
+<S:date>2013-05-21T08:38:48.397012Z</S:date>
+</S:log-item>
+</S:log-report>

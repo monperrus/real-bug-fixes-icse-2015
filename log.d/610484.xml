@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>610484</D:version-name>
+<D:comment>DERBY-2733 ; adding update() to the non-arg constructor, similar to what's happening in ReferenceableDataSource/EmbeddedDataSource, so the NPE doesn't occur because jdbcurl gets a default value. 
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2008-01-09T17:54:03.995618Z</S:date>
+</S:log-item>
+</S:log-report>

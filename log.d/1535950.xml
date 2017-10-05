@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1535950</D:version-name>
+<D:comment>LUCENE-5307: Fix topScorer inconsistency in handling QueryWrapperFilter inside ConstantScoreQuery, which now rewrites to a query removing the obsolete QueryWrapperFilter</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2013-10-26T09:12:32.201373Z</S:date>
+</S:log-item>
+</S:log-report>

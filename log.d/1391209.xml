@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1391209</D:version-name>
+<D:comment>ARIES-927: Added an additional check for determining whether or not composite bundle support is available. The additional check is necessary because Equinox will register the CompositeBundleFactory service even though the org.osgi.service.framework package is not exported due to a strict resolution mode.</D:comment>
+<D:creator-displayname>jwross</D:creator-displayname>
+<S:date>2012-09-27T20:52:12.988921Z</S:date>
+</S:log-item>
+</S:log-report>

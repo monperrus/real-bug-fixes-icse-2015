@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>631286</D:version-name>
+<D:comment>DERBY-3465: Removed a number of try-catch clauses that caught exceptions and printed a generic message without any information about the exception itself.
+Patch file: derby-3465-1a-remove_try_catch.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-02-26T16:40:01.785684Z</S:date>
+</S:log-item>
+</S:log-report>

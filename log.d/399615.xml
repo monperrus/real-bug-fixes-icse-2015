@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>399615</D:version-name>
+<D:comment>Fixed build script so that the JDBC 4.0 classes in
+java/engine/org/apache/derby/iapi/jdbc/ are recompiled when they have
+been modified.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-05-04T08:38:27.750783Z</S:date>
+</S:log-item>
+</S:log-report>

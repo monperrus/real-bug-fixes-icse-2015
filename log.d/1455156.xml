@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1455156</D:version-name>
+<D:comment>DERBY-6094: Create the database before running login timeout tests, in order to prevent slow database creation from killing the LoginTimeoutTest.</D:comment>
+<D:creator-displayname>rhillegas</D:creator-displayname>
+<S:date>2013-03-11T14:19:14.777074Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>385859</D:version-name>
+<D:comment>DERBY-623 Change BaseMonitor to use privileged blocks for reading derby.debug.* system properties
+and also removing the workaround permissions granted in 'derby_tests.policy'.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-03-14T19:18:37.716433Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>744984</D:version-name>
+<D:comment>DERBY-4027: An attempt was made to access an out of range slot on a page
+
+When a new value is inserted into an index backing a nullable unique
+constraint, a check is performed to verify that the adjacent slots do
+not contain the same value as the one being inserted. This extra check
+is needed because the index backing such a constraint is not unique
+(it allows multiple NULL values).
+
+If the spot on which the new value is inserted is at the beginning or
+the end of the index page, the last value of the previous page or the
+first value of the next page is checked. Currently, the code attempts
+to read that value right after the slot pointer has been moved to that
+page. This was the cause of the bug, as that page may be empty, and
+any pointer to a slot on an empty page is pointing to a non-existent
+slot, hence the out-of-range-slot error.
+
+This patch fixes the bug by checking again after moving to another
+page that we are attempting to read a valid row. If not, we skip to
+the next (or previous, depending on the direction of the traversal)
+index page in the chain and look for a duplicate there.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-02-17T12:05:13.205132Z</S:date>
+</S:log-item>
+</S:log-report>

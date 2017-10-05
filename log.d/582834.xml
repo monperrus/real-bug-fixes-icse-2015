@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>582834</D:version-name>
+<D:comment>Removed unused imports and fixed an ambiguous method-call (null without cast). The call works okay now because we compile with Java 1.4, but an error will be thrown if compiled with/against Java SE 6.
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2007-10-08T14:28:18.142546Z</S:date>
+</S:log-item>
+</S:log-report>

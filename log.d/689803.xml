@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>689803</D:version-name>
+<D:comment>DERBY-3825: StoreStreamClob.getReader(charPos) performs poorly.
+Small cleanup patch moving the resetting of readPositionInBuffer into fillBuffer.
+Patch file: derby-3825-1a-reset_readpositioninbuffer.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-08-28T12:36:44.018664Z</S:date>
+</S:log-item>
+</S:log-report>

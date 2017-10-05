@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>150489</D:version-name>
+<D:comment>adding a getSort() method, as suggested by bug 30242, but unlike in the bug report it's called getSort(), not getSortFields(), as the set method is also called setSort(...)
+PR: 30242
+</D:comment>
+<D:creator-displayname>dnaber</D:creator-displayname>
+<S:date>2004-09-05T22:53:37.000000Z</S:date>
+</S:log-item>
+</S:log-report>

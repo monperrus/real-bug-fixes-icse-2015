@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1330203</D:version-name>
+<D:comment>DERBY-5719: UniqueConstraintMultiThreadedTest doesn't call super.tearDown()
+
+- Call super.tearDown() from the override
+
+- Use framework helper methods to simplify setUp() and tearDown()
+
+- Eliminate the shared DataSource instance (use openDefaultConnection()
+  instead)
+
+- Remove unused imports
+
+- Fix some typos in javadoc comments</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2012-04-25T11:21:36.469314Z</S:date>
+</S:log-item>
+</S:log-report>

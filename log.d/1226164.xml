@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1226164</D:version-name>
+<D:comment>fix another nocommit - SolrCmdDistributor now takes a nodes full props rather than just its url - now the code that tries to tell a node to recover does not have to assume it has the same core name as the leader</D:comment>
+<D:creator-displayname>markrmiller</D:creator-displayname>
+<S:date>2011-12-31T18:36:12.805654Z</S:date>
+</S:log-item>
+</S:log-report>

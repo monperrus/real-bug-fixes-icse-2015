@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1204471</D:version-name>
+<D:comment>Enhance ManifestHeaderProcessor to support Provide-Capability and Require-Capability style headers. The functionality can be found in:
+  ManifestHeaderProcessor.parseCapabilityString()
+  ManifestHeaderProcessor.parseRequirementString()
+Currently the implementation of both is exactly the same under the hood, but I introduced them as separate methods to make make usage feel more naturally. It will also allow fixes to them individually in the future if needed.
+</D:comment>
+<D:creator-displayname>davidb</D:creator-displayname>
+<S:date>2011-11-21T12:35:04.073101Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1541245</D:version-name>
+<D:comment>DERBY-6383(Update trigger defined on one column fires on update of other columns)
+
+Backporting more junit tests from trunk for checking the affects of adding/dropping columns to the table with update triggers defined on it
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-11-12T21:29:34.925119Z</S:date>
+</S:log-item>
+</S:log-report>

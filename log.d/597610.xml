@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>597610</D:version-name>
+<D:comment>DERBY-3142: sysinfo ignores derby.ui.locale
+
+Fetch sysinfo's resource bundle from LocalizedResource, which
+recognizes derby.ui.locale, instead of directly from
+ResourceBundle.getBundle(), which only considers the JVM's default
+locale.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-11-23T09:19:03.083304Z</S:date>
+</S:log-item>
+</S:log-report>

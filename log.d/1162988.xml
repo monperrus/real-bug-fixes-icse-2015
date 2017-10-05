@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1162988</D:version-name>
+<D:comment>fix race condition in sstable reference counting
+patch by jbellis; reviewed by slebresne for CASSANDRA-3085</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2011-08-29T20:28:46.091044Z</S:date>
+</S:log-item>
+</S:log-report>

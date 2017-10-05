@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>774023</D:version-name>
+<D:comment>fix race condition in compaction -- it was possible for a read thread to "snapshot" ssTables_, then have
+the compactor thread delete those (after merging them into a new file) before the read thread checked
+them.  Since the read thread's "snapshot" doesn't include the new merged sstable, it incorrectly tells
+the caller that the key does not exist.
+patch by jbellis; reviewed by Eric Evans for CASSANDRA-161</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-05-12T19:11:21.539183Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1005958</D:version-name>
+<D:comment>MAHOUT-504:
+- Added job completion tests to break out of iterations if errors occur
+- Fixed canopy cluster mapper initialization problem with _log files on Hadoop
+- All synthetic control examples run on Hadoop cluster
+- All unit tests run </D:comment>
+<D:creator-displayname>jeastman</D:creator-displayname>
+<S:date>2010-10-08T19:01:34.810107Z</S:date>
+</S:log-item>
+</S:log-report>

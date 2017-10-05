@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>582380</D:version-name>
+<D:comment>cleaning up a ton of javadoc warnings from gdata.  most of these fixes related to either: clarifying packages for @link tags; changing @link or @see tags that pointed at classes/methods that didn't exist (by picking classes with very similar names that do exist); or removing incomplete stub javadocs (that added no information beyond the signature</D:comment>
+<D:creator-displayname>hossman</D:creator-displayname>
+<S:date>2007-10-05T20:30:59.884882Z</S:date>
+</S:log-item>
+</S:log-report>

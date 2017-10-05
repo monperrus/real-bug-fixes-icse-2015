@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>699512</D:version-name>
+<D:comment>Fixed bug in FuzzyLikeThisQuery.java. Queries that contain a term with no fuzzy variants caused the query construction logic to exit loop early, producing no fuzzy variants for all subsequent terms in the query string.
+Junit test added which recreates the problem conditions and added fix to FuzzyLikeThisQuery that solves the issue.</D:comment>
+<D:creator-displayname>mharwood</D:creator-displayname>
+<S:date>2008-09-26T21:44:55.741026Z</S:date>
+</S:log-item>
+</S:log-report>

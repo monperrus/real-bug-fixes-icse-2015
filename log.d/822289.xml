@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>822289</D:version-name>
+<D:comment>DERBY-4388: NullPointerException in RIGHT JOIN with NOT BETWEEN
+
+Clone the left operand when performing not-elimination in
+BetweenOperatorNode to prevent ColumnReferences from being shared, as
+they can be remapped during optimization.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-10-06T14:19:07.600862Z</S:date>
+</S:log-item>
+</S:log-report>

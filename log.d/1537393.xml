@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1537393</D:version-name>
+<D:comment>DERBY-6348: NPE or assert failure in recursive trigger
+
+Reset the activation in the statement context before setting up the
+activation for the next trigger, so that the nested trigger activation
+is a child of the top-level activation, and not a child of the
+previous trigger's activation.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-10-31T07:30:24.524623Z</S:date>
+</S:log-item>
+</S:log-report>

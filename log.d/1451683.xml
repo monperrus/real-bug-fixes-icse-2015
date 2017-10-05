@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1451683</D:version-name>
+<D:comment>DERBY-6045 (in list multi-probe by primary key not chosen on tables with &gt;256 rows)
+
+Splitting a junit fixture into two so that we have different tests for table with just primary key and table with primary and unique key. Additionally, got rid of the extra column in the table which is not part of any index to keep things simple and is not impacting the behavior of the queries in question.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-03-01T18:46:59.306533Z</S:date>
+</S:log-item>
+</S:log-report>

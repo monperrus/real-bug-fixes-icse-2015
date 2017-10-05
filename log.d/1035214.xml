@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1035214</D:version-name>
+<D:comment>LUCENE-2618: if normal merges run at same time as optimize, upgrade them to optimize merges if they involve segments marked for optimize; add random thread yield to MockDirWrapper</D:comment>
+<D:creator-displayname>mikemccand</D:creator-displayname>
+<S:date>2010-11-15T10:31:12.072133Z</S:date>
+</S:log-item>
+</S:log-report>

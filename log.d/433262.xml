@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>433262</D:version-name>
+<D:comment>Remove largeCodeGen from lang._Suite as the test is too unstable to run in the nightlies
+due to the different memory usage across vms. DERBY-1315 and DERBY-1735 should address
+adding the test back in.
+Merge of 433261 from trunk
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-08-21T15:29:50.286393Z</S:date>
+</S:log-item>
+</S:log-report>

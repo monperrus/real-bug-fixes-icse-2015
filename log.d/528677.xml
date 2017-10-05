@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>528677</D:version-name>
+<D:comment>DERBY-2543: Wrapping the original SystemPropertyTestSetup in a DatabasePropertyTestSetup that shutdowns and restarts the engine allows the new setting for maxMemoryPerTable to be properly set for testVirtualMemoryHeap. Reenabling the test.
+</D:comment>
+<D:creator-displayname>fuzzylogic</D:creator-displayname>
+<S:date>2007-04-13T21:44:47.748612Z</S:date>
+</S:log-item>
+</S:log-report>

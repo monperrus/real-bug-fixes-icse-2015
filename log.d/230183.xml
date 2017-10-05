@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>230183</D:version-name>
+<D:comment>DERBY-485 Catch SecurityExceptions and LinkageExceptions consistently when loading application
+classes (e.g. procedures, functions) and report as a ClassNotFoundException with the text of
+the underlying exception. Enhance the test lang/dcl.jar to have a signed jar file as a database
+jar, a hacked version of the jar file and a jar file with an invalid class (for a LinkageError).
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-08-05T00:30:40.252606Z</S:date>
+</S:log-item>
+</S:log-report>

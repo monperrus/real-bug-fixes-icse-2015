@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>771926</D:version-name>
+<D:comment>This changeset abstracts the logic for placing a flush on the queue into a new method, Memtable.enqueueFlush. enqueueFlush is called from both forceflush and put (when a threshold is exceeded), without the need to apply a special flushKey.  patch by Eric Evans; reviewed by jbellis for CASSANDRA-34</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-05-05T16:56:40.095540Z</S:date>
+</S:log-item>
+</S:log-report>

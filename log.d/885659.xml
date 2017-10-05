@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>885659</D:version-name>
+<D:comment>DERBY-4413 INSERT from SELECT DISTINCT gives assertFailure (sane), or NPE (insane) in presence of generated columns
+
+After DERBY-4442 went in, the exception to the ASSERT check we made in
+the original fix for this issue should be rolled back, so as to
+provide a better internal consistency check. Patch derby-4413-rollback
+does this.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-12-01T02:49:15.491568Z</S:date>
+</S:log-item>
+</S:log-report>

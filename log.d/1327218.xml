@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1327218</D:version-name>
+<D:comment>DERBY-5494
+
+Prior to this fix the nested user update transaction used by sequence updater
+was doing a "lazy" commit, where the log record for the commit waw written
+to the stream but not forced to disk.  It would get forced to disk by any
+subsequent user transaction commit.
+
+Changed system to default doing a real commit for all nested user update
+transactions, and those that don't need that behavior should use commitNoSync().
+Changed identity columns to use the commitNoSync() to keep same performance
+for those operations.
+
+Includes the test contributed by rickh as part of DERBY-5493 change.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2012-04-17T18:40:15.481534Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1176633</D:version-name>
+<D:comment>DERBY-5420 Regression suite appears locale sensitive: failed in TableLockBasicTest: bug in RealBasicNoPutResultSetStatistics
+
+Patch derby-5420-2 changes the way the localization of the floating
+point numbers is done for RealBasicNoPutResultSetStatistics to use an
+explicit decimal format in the localized message text itself. When the
+double argument is henceforth filled in, the locale is already set
+correctly (in MessageBuilder), so the the decimal point/comma will be
+chosen correctly according to locale.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-09-27T21:48:49.499480Z</S:date>
+</S:log-item>
+</S:log-report>

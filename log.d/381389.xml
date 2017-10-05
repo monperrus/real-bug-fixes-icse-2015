@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>381389</D:version-name>
+<D:comment>DERBY-709, committing on behalf of Suresh Thalamati
+
+-- Removed the requirement for read permission on "user.dir" for backup to
+run under security manager. Absolute Path were used only to log into backup
+history file. Changed it to log canonical paths only if it can be obtainer
+,otherwise only relative paths are written to the backup history file.
+
+-- Added a missing privileged blocks to the save service.properties file into 
+the backup.
+
+-- Added privileged blocks for test util file functions that are called
+through SQL functions/procedures.
+
+-- Enabled some of the tests which were not running under security manager
+earlier because of this bug to run by default with security manager.
+
+Backup tests that test backup with jar Operations still can not be run under 
+security manager due to bug DERBY-537.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-02-27T17:19:02.695084Z</S:date>
+</S:log-item>
+</S:log-report>

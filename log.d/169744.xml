@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>169744</D:version-name>
+<D:comment>Derby-127: Handle the case of select statements that use a correlation names
+   in the select list, a group by clause, and an order by clause that refers
+   to a column by its database name instead of its correlation name. (Eg:
+   select c1 as x from t where ... group by x order by c1)
+Derby currently throws an exception with SQLState 42x04.
+
+Submitted by Jack Klebanoff (klebanoff-derby@sbcglobal.net)
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2005-05-12T02:01:23.470187Z</S:date>
+</S:log-item>
+</S:log-report>

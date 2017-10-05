@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>462784</D:version-name>
+<D:comment>DERBY-1610: Resolve difference of type compatibility between Embedded
+and NetworkServer/NetworkDriver
+
+Fixed failures in the JDBC 4.0 tests. Description of the patch:
+
+  * Check for unsupported types before checking incompatibilities
+    since JDBC 4.0 specifies that SQLFeatureNotSupportedException
+    should be raised for certain types if they are unsupported.
+
+  * Change timing of calls to checkForClosedStatement() to make
+    ClosedObjectTest get the expected SQLState when the statement is
+    closed.
+
+  * Add type checking to the JDBC 4.0 length-less blob/clob overloads.
+
+  * Since the type checking already checks for closed statement and
+    invalid parameter index, remove those tests from
+    checkSetterPreconditions(). Since the only code that is left in
+    checkSetterPreconditions() after the removal of those checks is a
+    call to checkForEscapedCallWithResult(), replace all calls to
+    checkSetterPreconditions() with calls to
+    checkForEscapedCallWithResult().
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-10-11T12:07:24.389239Z</S:date>
+</S:log-item>
+</S:log-report>

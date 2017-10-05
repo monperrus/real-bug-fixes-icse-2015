@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1071161</D:version-name>
+<D:comment>DERBY-4601 Shutting down just a single database should log a different message than shutting down the system
+
+Backporting 966393 and 967201 into 10.5 codeline. Will migrate the rest of the commits for DERBY-4601 as separate checkin
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-02-16T07:01:02.308531Z</S:date>
+</S:log-item>
+</S:log-report>

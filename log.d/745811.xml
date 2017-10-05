@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>745811</D:version-name>
+<D:comment>DERBY-4040: SQLChar.getLength returns wrong length for some data values.
+Backported revision 745571 from the 10.4 branch, which was a manual merge of revision 742357 from trunk.
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-02-19T10:44:57.730547Z</S:date>
+</S:log-item>
+</S:log-report>

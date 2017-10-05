@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1568347</D:version-name>
+<D:comment>SOLR-3854: Allows the test harness to perform two-way SSL handshakes, the two-way SSL will now be randomly selected during test runs. Also, cleaned up some of the code by breaking out the SSLConfig into a separate class. Also try and address failing the statics retained check.</D:comment>
+<D:creator-displayname>markrmiller</D:creator-displayname>
+<S:date>2014-02-14T16:42:04.678149Z</S:date>
+</S:log-item>
+</S:log-report>

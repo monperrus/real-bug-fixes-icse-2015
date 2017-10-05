@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1240258</D:version-name>
+<D:comment>DERBY-5567 AlterTableTest#testDropColumn fails: drop view cannot be performed due to dependency
+
+Backported from trunk with some minor edits (imports).
+
+When a view (b) is defined on another view (a), dropping a column in
+the base table can lead to both view being invalidated. This patch
+(DERBY-5567-1) fixes a problem in the logic:
+
+Depending on the order in which dependencies of the base table column
+are registered, the invalidation will happen either view a or view b.
+If it happens on view a first, this view in turn will try to
+invalidate view b (since that depends on view a), but with the
+DROP_VIEW action which fails. The patch changes this recursive
+invalidation to use the original action, e.g. DROP_COLUMN which will
+allow dropping the dependent view (dropping a column is allowed to
+cause cascading drops of dependent views). 
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2012-02-03T17:40:00.418531Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1528525"/>
+<S:open-directory rev="1528524">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1528525/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1528525</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-02T15:48:31.479495Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="aries" rev="1528524">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1528525/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1528525</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-02T15:48:31.479495Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="1528524">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1528525/aries/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1528525</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-02T15:48:31.479495Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="blueprint" rev="1528524">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1528525/aries/trunk/blueprint</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1528525</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-02T15:48:31.479495Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="blueprint-noosgi" rev="1528524">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1528525/aries/trunk/blueprint/blueprint-noosgi</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1528525</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-02T15:48:31.479495Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="src" rev="1528524">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1528525/aries/trunk/blueprint/blueprint-noosgi/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1528525</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-02T15:48:31.479495Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="test" rev="1528524">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1528525/aries/trunk/blueprint/blueprint-noosgi/src/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1528525</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-02T15:48:31.479495Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="java" rev="1528524">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1528525/aries/trunk/blueprint/blueprint-noosgi/src/test/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1528525</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-02T15:48:31.479495Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="org.apache.aries.blueprint" rev="1528525"/>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/1528525/aries/trunk/blueprint/blueprint-noosgi/src/test/java/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1528525/aries/trunk/blueprint/blueprint-noosgi/src/test/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1528525</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-02T15:48:31.479495Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/1528525/aries/trunk/blueprint/blueprint-noosgi/src/test/java/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1528525/aries/trunk/blueprint/blueprint-noosgi/src/test/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1528525</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-02T15:48:31.479495Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/1528525/aries/trunk/blueprint/blueprint-noosgi/src/test/java/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1528525/aries/trunk/blueprint/blueprint-noosgi/src/test/java/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1528525</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-02T15:48:31.479495Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="blueprint" bc-url="/repos/asf/!svn/bc/1528525/aries/trunk/blueprint/blueprint-noosgi/src/test/java/org/apache/aries/blueprint">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1528525/aries/trunk/blueprint/blueprint-noosgi/src/test/java/org/apache/aries/blueprint</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1528525</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-02T15:48:31.479495Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="sample" bc-url="/repos/asf/!svn/bc/1528525/aries/trunk/blueprint/blueprint-noosgi/src/test/java/org/apache/aries/blueprint/sample">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1528525/aries/trunk/blueprint/blueprint-noosgi/src/test/java/org/apache/aries/blueprint/sample</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1528525</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-02T15:48:31.479495Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="DateTypeConverter.java" sha1-checksum="25acdd612cb771eada57d573f389f8619c951639">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1528525/aries/trunk/blueprint/blueprint-noosgi/src/test/java/org/apache/aries/blueprint/sample/DateTypeConverter.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1430734</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-01-09T08:39:40.052360Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gnodet</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>6ef7ba0192e8390c08caac62acfb60f5</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="Foo.java" sha1-checksum="47684ad2d1d7e538aae2b04b1e9972e583178de8">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1528525/aries/trunk/blueprint/blueprint-noosgi/src/test/java/org/apache/aries/blueprint/sample/Foo.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1430734</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-01-09T08:39:40.052360Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gnodet</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>20e80b7fc8631f917759ffbd692c03a1</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="Bar.java" sha1-checksum="609e1bf8b192d15e8dcd8e878c0200edc22797d2">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1528525/aries/trunk/blueprint/blueprint-noosgi/src/test/java/org/apache/aries/blueprint/sample/Bar.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1430734</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-01-09T08:39:40.052360Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gnodet</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>48691a38866acfd9a7a61893e9c630c9</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="CurrencyTypeConverter.java" sha1-checksum="fc708851861c76cb73a01a3c126ce45497af04f5">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1528525/aries/trunk/blueprint/blueprint-noosgi/src/test/java/org/apache/aries/blueprint/sample/CurrencyTypeConverter.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1430734</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-01-09T08:39:40.052360Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">gnodet</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>09f2b2f4015ac443563b9e70fb06f67f</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+<S:add-file name="BlueprintContainerTest.java" sha1-checksum="9f0f92a321434017ebfc8d4f8df7b6a4030e2007">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1528525/aries/trunk/blueprint/blueprint-noosgi/src/test/java/org/apache/aries/blueprint/BlueprintContainerTest.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1528525</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2013-10-02T15:48:31.479495Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">dkulp</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>e47b3728d63d8a06a2b989a5666b7fe5</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

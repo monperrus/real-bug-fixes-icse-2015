@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>614298</D:version-name>
+<D:comment>Migrating revision 614292 from trunk into 10.3 codeline. This just adds a junit test case
+for DERBY-3304. The commit comments for 614292 were as follows
+
+Adding a junit test for the standalone test case provided by Dag for DERBY-3304. Here, we
+are adding a Java procedure which does a commit and then returns a resultset back to the
+caller. The resultset should not get closed as part of the commit.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2008-01-22T19:46:05.738161Z</S:date>
+</S:log-item>
+</S:log-report>

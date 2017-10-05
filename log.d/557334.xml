@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>557334</D:version-name>
+<D:comment>DERBY-2896
+
+Metadata calls getTables and getUDTs were failing when run from a user schema in a territory based collated database.
+The reason for it is that these metadata calls were not getting compiled in SYS schema when they were executed from
+a user schema. Metadata calls should always compile in SYS schema no matter what the current schema might be. The
+reason getTables was not getting compiled in SYS schema was because we were trying to modify it's metadata sql on
+the fly and then were compiling that modified sql in whatever the current schema might be. I have changed the 
+metadata sql for getTables in metadata.properties so that we do not need to modify it on the fly anymore. This will
+allow getTables to follow the same codepath as other metadata queries which will also ensure that the sql gets
+compiled in SYS schema.
+
+As for getUDTs, it was merely a coding bug that we didn't follow the same logic as other metadata queries for it.
+I have changed getUDTs implementation to follow the same codepath as other metadata queries.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-07-18T17:04:02.818018Z</S:date>
+</S:log-item>
+</S:log-report>

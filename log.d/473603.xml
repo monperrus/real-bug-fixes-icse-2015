@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>473603</D:version-name>
+<D:comment>DERBY-2018: NullPointerException in CREATE VIEW ... VALUES NULL
+
+This patch was contributed by Yip Ng (yipng168@gmail.com)
+
+This fix catches untyped null in CreateViewNode at bind phase (same logic
+as CursorNode) and throws the exception. 
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2006-11-11T00:51:33.173062Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>935973</D:version-name>
+<D:comment>Use RackUnawareStrategy in unit tests because it doesn't conflict with SimpleEndpointSnitch. Patch by Gary Dusbabek, reviewed by Jonathan Ellis. CASSANDRA-995
+</D:comment>
+<D:creator-displayname>gdusbabek</D:creator-displayname>
+<S:date>2010-04-20T16:02:29.748282Z</S:date>
+</S:log-item>
+</S:log-report>

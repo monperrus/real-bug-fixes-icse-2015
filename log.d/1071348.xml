@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1071348</D:version-name>
+<D:comment>DERBY-5046: Intermittent assert failure in AutomaticIndexStatisticsTest.testStatisticsCorrectness
+
+Relaxed assert on timestamps to allow identical timestamps, but still
+disallows stats with a creation timestamp into the future.
+
+Patch file: derby-5046-1a-relax_assert.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-02-16T18:11:36.455445Z</S:date>
+</S:log-item>
+</S:log-report>

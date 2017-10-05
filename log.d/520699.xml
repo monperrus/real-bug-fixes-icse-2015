@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>520699</D:version-name>
+<D:comment>DERBY-1861: ASSERT when combining references and expressions in ORDER BY
+
+Follow-on patch to ensure that SanityManager references are only generated
+in SANE builds. A call to SanityManager.ThrowAssert was not enclosed in
+a SanityManager.Debug test, and so was not being optimized out of
+insane builds.
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2007-03-21T01:46:45.019664Z</S:date>
+</S:log-item>
+</S:log-report>

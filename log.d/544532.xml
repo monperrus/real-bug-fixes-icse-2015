@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>544532</D:version-name>
+<D:comment>DERBY-2459: Ordering on a CASE expression causes NPE when using UNION
+
+When an order by clause involves a CASE-expression, in a situation when
+two or more select statements are combined in a union (or union all),
+a NullPointerException is thrown.
+
+In the original problem report, the CASE expression included qualified
+column references:
+   CASE WHEN t2.value IS NOT NULL THEN t2.value ELSE t1.value END 
+This is invalid, because the "t1" and "t2" references are not applicable
+to the result of the UNION operator. So an error message should have been
+issued for the query from the DERBY-2459 description, due to the qualified
+column references.
+
+However, with the current implementation, CASE expressions as a whole are
+not allowed in the ORDER BY clause of a *UNION* select. CASE expressions seem
+to work correctly for a non-UNION select. I believe that Derby's current
+behavior here is too restrictive; I think that there are valid CASE
+expressions for a UNION select that *ought* to work (such as those which
+use only unqualified column references to valid columns in the UNION's target
+list), but the current implementation is lacking.
+
+For the original query posted in the problem description, since the intent
+was to order the results of the union by the second column in the union,
+a column position expression can be used successfully: ORDER BY 2.
+
+This patch causes Derby to issue a comprehensible error message which
+reflects reality accurately, as this is preferable to crashing with an NPE. 
+
+The patch also adds a number of additional ORDER BY test cases to the
+ORDER BY test, demonstrating various query constructions, both those which
+currently work, and those which currently do not work.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2007-06-05T16:02:30.971870Z</S:date>
+</S:log-item>
+</S:log-report>

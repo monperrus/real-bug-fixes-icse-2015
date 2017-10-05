@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>959697</D:version-name>
+<D:comment>DERBY-4698 Simple query with HAVING clause crashes with NullPointerException
+
+backporting fix with svn #956234 from trunk to 10.5 branch.
+
+Patch DERBY-4698-2. The case of column references in HAVING clauses
+being wrong after JOIN flattening was initially solved by
+DERBY-3880. That solution was partial in that it can sometimes happen
+too late.
+
+This patch changes the fix-up of column references in a having clause
+after join flattening to the same point in time as that of other
+column references that need fix-up after the flattening (rcl, column
+references in join predicates and group by clauses). Thus the fixup is
+moved from the modifyaccesspath phase to the preprocess phase. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2010-07-01T15:39:10.497280Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>966440</D:version-name>
+<D:comment>fix javadoc issue related to DERBY-3645 DERBY-3646 and DERBY-4477 fixes in 10.5 branch. Because the full fix which avoids lob materialization could not be backported the lowmem tests are not in 10.5
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2010-07-21T22:05:18.279014Z</S:date>
+</S:log-item>
+</S:log-report>

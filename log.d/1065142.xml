@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1065142</D:version-name>
+<D:comment>DERBY-4987 BootLockTest can hang reading spawned process output
+
+The test will now only attempt to get the error output if BootLockMinion has exited and also has a max timeout of ten minutes which won't slow down normal runs of the test but hopefully be long enough without risk of hanging again. 
+
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2011-01-29T23:26:37.886929Z</S:date>
+</S:log-item>
+</S:log-report>

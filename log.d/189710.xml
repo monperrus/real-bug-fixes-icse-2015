@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>189710</D:version-name>
+<D:comment>DERBY-339 Network client XA should only keep XA state for transaction branch association
+
+Network client XA should only keep XA state for transaction branch association, to track whether to send commit in autocommit mode. All other state and state related decisions should be defered to the server. 
+
+
+The client tries to track XA state to make decisions based on current XA state. Most of this state handling was removed with DERBY246, but it still was not being handled properly. This is evidenced by multiple failures in xaSimplePostive that now that it gets past DERBY-246. 
+
+
+This fix will have the client track only branch association as outlined in the XA+ specification. Table 6-2, State Table for Transaction Branch Association. The client will track only 
+
+XA_TO_NOT_ASSOCIATED 
+XA_T1_ASSOCIATED 
+
+Association Suspended (T2) will map to XA_TO_NOT_ASSOCIATED for the client's pupurposes. 
+
+The client commit in autocommit mode only for 
+XA_TO_NOT_ASSOCIATED. 
+
+
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2005-06-09T05:26:41.545934Z</S:date>
+</S:log-item>
+</S:log-report>

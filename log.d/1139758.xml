@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1139758</D:version-name>
+<D:comment>SOLR-2458: post.jar fails on non-XML updateHandlers
+Fixed by doing the COMMIT through HTTP GET instead of posting XML "&lt;commit/&gt;"
+Other improvements:
+* Get help with -h and -help in addition to --help
+* Support -Doptimize=yes
+* More explicit error handling</D:comment>
+<D:creator-displayname>janhoy</D:creator-displayname>
+<S:date>2011-06-26T10:54:12.645673Z</S:date>
+</S:log-item>
+</S:log-report>

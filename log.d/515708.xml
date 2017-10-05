@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>515708</D:version-name>
+<D:comment>DERBY -378 (partial)
+This patch adds code required to support import/export of a table with
+CHAR FOR BIT DATA, VARCHAR FOR BIT DATA,  LONG VARCHAR FOR BIT DATA
+data types. Data of this type of columns is exported to the main export 
+file as hex strings. On import data is also expected to be in hex strings 
+in the main export file for these type of columns. This patch also 
+disallows use of hex decimal characters (0-9 , a-f , A-F) as 
+delimiters for import/export procedures. 
+
+Maximum data length of these types is only  32700 ( 254 bytes for CHAR FOR 
+BIT DATA , 32,672 for VARCHAR FOR BIT DATA and  32700 LONG VARCHAR FOR BIT DATA). 
+Because max length allowed is less than 32k, I think providing import/Export
+using an external file for these types may not add much value. No external 
+file support will be provided for these types. It can be added later, 
+if some one thinks it is required. 
+
+Tests:
+Added a new junit test to test the import/export of these binary types. 
+
+
+It would be great if someone can review this patch.  
+</D:comment>
+<D:creator-displayname>suresht</D:creator-displayname>
+<S:date>2007-03-07T19:32:28.690076Z</S:date>
+</S:log-item>
+</S:log-report>

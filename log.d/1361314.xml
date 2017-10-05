@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1361314</D:version-name>
+<D:comment>SOLR-3620: attempt to address shutdown deadlock - once the CoreContainer starts shutting down, do not start any new recoveries - there was a small window this could happen in previously</D:comment>
+<D:creator-displayname>markrmiller</D:creator-displayname>
+<S:date>2012-07-13T18:08:44.290663Z</S:date>
+</S:log-item>
+</S:log-report>

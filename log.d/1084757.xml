@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1084757</D:version-name>
+<D:comment>DERBY-5121 Data corruption when executing an UPDATE trigger
+
+Put a comment explaining why DERBY-1482 changes are being backed out.
+
+Also, disabled all the tests pertaining to DERBY-1482 since the changes for that jira are being disabled.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2011-03-23T21:37:13.171473Z</S:date>
+</S:log-item>
+</S:log-report>

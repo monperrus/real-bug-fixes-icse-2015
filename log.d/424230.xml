@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>424230</D:version-name>
+<D:comment>- Moved IndexSearcher creation to setSpellIndex(Dictionary) method,
+  so IndexSearcher is not opened/closed for every suggestion
+- Fixed typo in method name: setAccuraty -&gt; setAccuracy
+- Cosmetics, comments and other cleanups
+
+</D:comment>
+<D:creator-displayname>otis</D:creator-displayname>
+<S:date>2006-07-21T08:39:02.301314Z</S:date>
+</S:log-item>
+</S:log-report>

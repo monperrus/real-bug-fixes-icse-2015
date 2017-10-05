@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>586596</D:version-name>
+<D:comment>DERBY-3046
+
+This commit fixes the null pointer exception by making sure that we do not try to access the object's elements if the object is null. I have also added a test case for this fix. 
+
+Additionally, while working on this, I found that we return different sql state for parameter being out of range for PreparedStatment.setObject and Preparedstatement.setXXX calls in Network Server. I have entered a Jira entry for that issue DERBY-3139.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-10-19T20:26:02.184701Z</S:date>
+</S:log-item>
+</S:log-report>

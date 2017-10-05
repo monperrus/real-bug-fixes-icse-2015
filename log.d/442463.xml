@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>442463</D:version-name>
+<D:comment>DERBY-1817: Race condition in network server's thread pool
+
+Clean-up of NetworkServerControlImpl:
+  - moves generation of connection number into addSession()
+  - adds new method removeThread() which can be used instead of
+    getThreadList().remove()
+  - removes methods that are no longer used
+  - makes methods that are only used by NetworkServerControlImpl private
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-09-12T05:57:41.566978Z</S:date>
+</S:log-item>
+</S:log-report>

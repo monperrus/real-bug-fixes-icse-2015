@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>888881</D:version-name>
+<D:comment>DERBY-4463 JMX test in nightly test suite failed with: JMXTest:clientjava.lang.InterruptedException:
+
+Patch derby-4463.diff, which moves the clearing of the interrupted
+flag in Derby151Test to the teardown method of the test so it will
+always be performed.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-12-09T17:25:28.027353Z</S:date>
+</S:log-item>
+</S:log-report>

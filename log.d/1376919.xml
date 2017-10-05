@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1376919</D:version-name>
+<D:comment>Fix test failure caused by additional disk space used by CFS files (CFS files are created here, because newLogMergePolicy now also randomized CFS ratio).</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2012-08-24T14:05:01.483985Z</S:date>
+</S:log-item>
+</S:log-report>

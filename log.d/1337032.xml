@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1337032</D:version-name>
+<D:comment>Backporting 2 jiras to 10.5
+
+DERBY-5681 When a foreign key constraint on a table is dropped, the associated statistics row for the conglomerate is not removed
+
+DERBY-4834 Add helper class for working with index statistics in JUnit tests
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2012-05-11T06:03:18.487338Z</S:date>
+</S:log-item>
+</S:log-report>

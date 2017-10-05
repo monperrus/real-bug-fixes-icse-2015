@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1023662</D:version-name>
+<D:comment>DERBY-4845: Improve the dependency tracking for our build targets
+
+- Compile iapi/tools before impl/tools to ensure that the iapi classes
+  are not compiled by the impl build targets
+
+- Make LocalizedResource compilable against the JSR-169 libraries
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-10-18T06:40:26.393138Z</S:date>
+</S:log-item>
+</S:log-report>

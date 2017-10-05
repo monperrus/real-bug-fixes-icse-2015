@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1125887</D:version-name>
+<D:comment>ARIES-660 Various build file updates including:
+
+1. Update the svn:ignore for application-distro, application-isolated-distro and application-tooling-repository-generator
+2. Update the pom for application-tooling-repository-generator to pull in 0.4-SNAPSHOT of proxy since 0.3.1-SNAPSHOT no longer exists
+3. Add some modules to the application pom.xml
+4. Update the application-isolated-distro pom.xml so its description is different to application-distro.
+5. Update the applciation-noop-resolver pom.xml so its description is different to application-obr-resolver.
+
+</D:comment>
+<D:creator-displayname>not</D:creator-displayname>
+<S:date>2011-05-22T09:06:22.767494Z</S:date>
+</S:log-item>
+</S:log-report>

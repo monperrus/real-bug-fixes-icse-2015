@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1082282</D:version-name>
+<D:comment>DERBY-5107: BasicInMemoryDbTest depends on implicit ordering of test cases
+
+Use helper methods that ensure created databases are dropped between each test case, and also load the JDBC driver explicitly in test cases that used to require that an earlier test case had already loaded the driver implicitly.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-03-16T19:56:27.015121Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>631534</D:version-name>
+<D:comment>DERBY-3364: Replication failover implementation must be modified to fail at the master after slave has been stopped
+Contributed by V Narayanan
+Changes:
+M java/engine/org/apache/derby/impl/services/replication/net/ReplicationMessageTransmit.java
+* Set a timeout on the socket that is translated as a timeout on the
+  reads on the I/P streams 
+M java/engine/org/apache/derby/impl/services/replication/master/MasterController.java
+* Stop log shipment and tear down network both with successful and
+  non-successful failover.
+</D:comment>
+<D:creator-displayname>oysteing</D:creator-displayname>
+<S:date>2008-02-27T10:10:21.376737Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1079377"/>
+<S:open-directory rev="1079376">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1079377/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1079377</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-08T14:44:56.311650Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="lucene" rev="1079376">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1079377/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1079377</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-08T14:44:56.311650Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="dev" rev="1079376">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1079377/lucene/dev</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1079377</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-08T14:44:56.311650Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="1079376">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1079377/lucene/dev/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1079377</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-08T14:44:56.311650Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/lucene/dev/branches/branch_3x:949730,957490,961612,979161,980654,982195,987811,988512,1025544,1026614,1034080,1039151,1050654,1056762,1060014,1060438,1060784,1061035,1063880,1063934,1065324,1066771,1067699,1067764,1070818,1075044,1079376
+/lucene/dev/branches/bulkpostings:1069647,1069925
+/lucene/dev/branches/preflexfixes:967125-979432</S:set-prop>
+<S:open-directory name="solr" rev="1079376">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1079377/lucene/dev/trunk/solr</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1079377</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-08T14:44:56.311650Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/lucene/dev/branches/branch_3x/solr:949730,957490*,961612,979161,980654,982195,987811,988512,1025544,1026614,1034080,1039151,1050654,1056762,1060014,1060438,1060784,1061035,1063880,1063934,1065324,1070818,1075044,1079376
+/lucene/dev/branches/bulkpostings/solr:1069647,1069925
+/lucene/dev/branches/preflexfixes/solr:967125-979432
+/lucene/java/branches/lucene_2_4/solr:748824
+/lucene/java/branches/lucene_2_9/solr:817269-818600,825998,829134,829881,831036,896850,909334
+/lucene/java/branches/lucene_2_9_back_compat_tests/solr:818601-821336
+/lucene/java/branches/lucene_3_0/solr:880793,896906
+/lucene/solr/trunk:922950-923910,923912-925091</S:set-prop>
+<S:open-directory name="example" rev="1079376">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1079377/lucene/dev/trunk/solr/example</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1079377</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-08T14:44:56.311650Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:remove-prop name="svn:mergeinfo"/>
+</S:open-directory>
+<S:open-file name="build.xml" rev="1079376">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1079377/lucene/dev/trunk/solr/build.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1079377</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-08T14:44:56.311650Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="80d53452d2f45d56cc21226b5031b89d" sha1-checksum="dd44f2971246eced8aa7e634a96da7b005df966a"/>
+<S:prop><V:md5-checksum>5a1026d65fb3452c724dcf956f1d35e8</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="lucene" rev="1079376">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1079377/lucene/dev/trunk/lucene</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1079377</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-03-08T14:44:56.311650Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">uschindler</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:mergeinfo">/lucene/dev/branches/branch_3x/lucene:943137,949730,957490,960490,961612,979161,980654,982195,987811,988512,1025544,1026614,1034080,1039151,1050654,1056762,1060014,1060438,1060784,1061035,1063880,1063934,1065324,1066771,1067699,1067764,1070818,1075044,1079376
+/lucene/dev/branches/bulkpostings/lucene:1069647,1069925
+/lucene/dev/branches/preflexfixes/lucene:967125-979432
+/lucene/java/branches/flex_1458:824912-931101
+/lucene/java/branches/lucene_2_4:748824
+/lucene/java/branches/lucene_2_9:817269-818600,829134,829881,831036,896850,909334,948516
+/lucene/java/branches/lucene_2_9_back_compat_tests:818601-821336
+/lucene/java/branches/lucene_3_0:880793,896906
+/lucene/java/trunk:924483-924731,924781,925176-925462</S:set-prop>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

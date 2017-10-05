@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1518533</D:version-name>
+<D:comment>DERBY-6306: XplainStatisticsTest.testSimpleQuery: BEGIN_COMP_TIME unexpectedly NULL
+
+Clear the statement cache between test cases so that statements from
+earlier test cases don't affect the results.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2013-08-29T08:01:10.628685Z</S:date>
+</S:log-item>
+</S:log-report>

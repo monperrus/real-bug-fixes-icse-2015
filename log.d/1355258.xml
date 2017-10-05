@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1355258</D:version-name>
+<D:comment>LUCENE-4160: Bring back the functional equivalent of tests.iters.min. Added two properties: -Dtests.maxfailures=M and -Dtests.failfast=[true/false/yes/no/on/off] which control skipping tests after the first M failures have been hit or after the first failure (failfast is an alias for tests.maxfailures=1).</D:comment>
+<D:creator-displayname>dweiss</D:creator-displayname>
+<S:date>2012-06-29T08:07:56.549591Z</S:date>
+</S:log-item>
+</S:log-report>

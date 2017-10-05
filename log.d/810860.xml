@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>810860</D:version-name>
+<D:comment>DERBY-4284: All Columns become Nullable when Using left join
+
+Only the columns from the right side of a left outer join, or
+from the left side of a right outer join, should be changed to
+nullable. This is done correctly in JoinNode.buildRCL(), but in
+addition SelectNode.bindResultColumns() makes all result columns
+nullable if the from list contains an outer join.
+
+This patch fixes the bug by removing the code in SelectNode that
+makes all columns nullable. This also made it possible to remove
+a method in FromList that became unused after the fix. Also, some
+test canons needed to be updated because IJ may change the
+formatting/spacing slightly depending on whether the result
+columns are nullable or not.
+
+The fix also exposed another manifestation of DERBY-2916, where
+some nodes saw the wrong nullability because they looked at the
+columns before JoinNode.buildRCL() had done its job. This was
+addressed by adding a workaround to JoinNode.getMatchingColumn().
+
+Also, changes that had been made to wisconsin.out as part of
+DERBY-2916 earlier in order to make the Wisconsin test run
+cleanly despite the bug, could now be reverted because of the
+workaround.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-09-03T10:13:17.516221Z</S:date>
+</S:log-item>
+</S:log-report>

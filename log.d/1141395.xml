@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1141395</D:version-name>
+<D:comment>Fixed dist-maven dependencies to be (jar-core,jar-src,javadocs) (since those are the artifacts to be copied and rechristened as maven artifacts).  Not sure why this ever worked before as (compile-core,jar-src)...  The new facet module was failing on 'ant generate-maven-artifacts' (from a clean'd checkout); this change fixes the problem.</D:comment>
+<D:creator-displayname>sarowe</D:creator-displayname>
+<S:date>2011-06-30T05:02:36.696611Z</S:date>
+</S:log-item>
+</S:log-report>

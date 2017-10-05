@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>634218</D:version-name>
+<D:comment>DERBY-3358: After an incorrect(unsuccesfull) startMaster comand, further correct startMaster attempts also fail.
+Contributed by V Narayanan.
+M java/engine/org/apache/derby/impl/services/replication/master/MasterController.java
+* Added a variable boolean that indicates whether the master controller is currently running or has
+  been stopped. I thought I could manage with the earlier boolean variable stopMasterController but
+  decided against it because it seemed more tied with the stopMaster operation.
+* moved start up parameter initialization from boot to startMaster method. 
+* changed the startMaster, stopMaster and the startFailover methods to take into account the boolean
+  active.
+* replaced the earlier uses of stopMasterController with active.
+  
+M java/engine/org/apache/derby/impl/store/raw/RawStore.java
+* The replication properties that are part of the bootServiceModule call no longer contain the
+  startup parameters. These have instead been moved to the startMaster method.
+* The replicationProps are empty and not null because a null passed to a bootServiceModule call
+  results in a NullPointerException.
+
+M java/engine/org/apache/derby/iapi/services/replication/master/MasterFactory.java
+* Changed the startMaster declaration to now accept the startup parameters as the method arguments.
+
+M java/engine/org/apache/derby/loc/messages.xml
+M java/shared/org/apache/derby/shared/common/reference/SQLState.java
+* Added a new messages for the case when the master has already been booted.
+</D:comment>
+<D:creator-displayname>oysteing</D:creator-displayname>
+<S:date>2008-03-06T10:53:07.857539Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>737948</D:version-name>
+<D:comment>DERBY-3420: Remove obsolete -ca option from ij.
+
+The -ca command-line-option for the ij command is obsolete and no longer
+needed, since the ij connection URL can now accept all the necessary
+connection attribute information.
+
+This change removes the implementation of the -ca option from the ij code,
+and removes the option from the ij "usage" message, and from the test output.
+
+There is a release note attached to DERBY-3420, noting that the option
+has been removed, and that users of this option (hopefully there are none)
+should instead pass connection attributes in the URL.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2009-01-27T00:34:00.654115Z</S:date>
+</S:log-item>
+</S:log-report>

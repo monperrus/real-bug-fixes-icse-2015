@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>619568</D:version-name>
+<D:comment>DERBY-3279: Add logic for execution-time sorting of IN list values
+into DESCENDING order when required.  This is necessary when doing
+IN-list "multi-probing" on some column C for which a DESC sort has
+been eliminated (by the optimizer). In such a case the row values
+will come back in the order in which they appear in the IN List,
+which means the IN list values must themselves be sorted in the
+correct (descending) order.
+
+Merge from 10.4 trunk to 10.3 branch:
+
+ svn merge -r 616125:616126 https://svn.apache.org/repos/asf/db/derby/code/trunk
+ svn merge -r 617547:617548 https://svn.apache.org/repos/asf/db/derby/code/trunk
+
+This commit encapsulates the above merge commands plus a two-line
+manual conflict resolution in JDBC.java; i.e. d3279_10_3_merge.patch
+as attached to the Jira.
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2008-02-07T18:58:10.035579Z</S:date>
+</S:log-item>
+</S:log-report>

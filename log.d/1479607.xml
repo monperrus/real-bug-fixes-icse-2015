@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1479607</D:version-name>
+<D:comment>DERBY-6045 (in list multi-probe by primary key not chosen on tables with &gt;256 rows)
+
+Commiting a test showing that we use index scan for DELETE statement on a table with appropriate indexes. This happens with or without update statistics and with or without parameterized statement.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-05-06T15:40:45.275747Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>595408</D:version-name>
+<D:comment>DERBY-3175: NullPointerException on INSERT after ALTER TABLE DROP COLUMN
+
+Merged change from the trunk via svn merge -r 594726:594727
+
+One conflict resolved in SYSCOLUMNSRowFactory.java.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2007-11-15T19:44:15.689262Z</S:date>
+</S:log-item>
+</S:log-report>

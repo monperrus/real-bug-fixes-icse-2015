@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1450363</D:version-name>
+<D:comment>DERBY-6045 (in list multi-probe by primary key not chosen on tables with &gt;256 rows)
+
+Adding another junit test which has following 2 test cases(the test is named such that it won't get run for now until we understand the impact of the 2nd unique index on the selection of table scan vs index scan for 10K rows)
+    //  1)If we insert 10K rows to an empty table with primary key on column
+    //    being used in the where clause, we use index scan for the queries
+    //    being tested
+    //  2)To the table above, if we add another unique index on 2 columns 
+    //    which are being used in the select clause, we stop using index scan
+    //    for SELECT queries with IN and OR clause on the primary key
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2013-02-26T19:05:56.395690Z</S:date>
+</S:log-item>
+</S:log-report>

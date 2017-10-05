@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1068842</D:version-name>
+<D:comment>DERBY-2905 Check-in deregister attribute option with shutdown. After shutdown and reloading the engine via Class.forName(...).newInstance(), AutoloadedDriver will get registered to DriverManager even if AutoloadedDriver40 was the original driver.
+</D:comment>
+<D:creator-displayname>lilywei</D:creator-displayname>
+<S:date>2011-02-09T11:03:36.412125Z</S:date>
+</S:log-item>
+</S:log-report>

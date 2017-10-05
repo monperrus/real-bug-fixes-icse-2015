@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="830235"/>
+<S:open-directory rev="830234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">830235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-27T16:29:45.908741Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="incubator" rev="830234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">830235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-27T16:29:45.908741Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="aries" rev="830234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">830235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-27T16:29:45.908741Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="trunk" rev="830234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">830235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-27T16:29:45.908741Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="blueprint" rev="830234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">830235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-27T16:29:45.908741Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="pom.xml" rev="830234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">830235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-27T16:29:45.908741Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="aad678e26153ad8eb615ae91646bd690" sha1-checksum="4353b85e942b402398c0aebbd8e0ac758385ea6f"/>
+<S:prop><V:md5-checksum>f82e37f0f243de1f4703e519c84267b7</V:md5-checksum></S:prop></S:open-file>
+<S:open-directory name="blueprint-helloworld" rev="830234">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">830235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-27T16:29:45.908741Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:delete-entry name="helloworldserver" rev="830235"/>
+<S:delete-entry name="helloworldclient" rev="830235"/>
+<S:add-file name="pom.xml" sha1-checksum="c449a73f958d7e08eb7981faae70fd3332a5414d">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">830235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-27T16:29:45.908741Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>f77e41c6ea435a38ece3359d3dc4696f</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="blueprint-helloworldclient" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">830235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-27T16:29:45.908741Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">.settings
+.classpath
+.project
+target
+</S:set-prop>
+<S:add-file name="pom.xml" sha1-checksum="02a47670079830494cce96c7c7080e16b18aced6">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">830235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-27T16:29:45.908741Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>c4936637f2d3df896532fa9598cdfd81</V:md5-checksum></S:prop></S:add-file>
+<S:add-directory name="src" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828780</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:47:59.046662Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="main" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828780</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:47:59.046662Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="resources" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main/resources">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main/resources</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828780</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:47:59.046662Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="OSGI-INF" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main/resources/OSGI-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main/resources/OSGI-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828780</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:47:59.046662Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="blueprint" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main/resources/OSGI-INF/blueprint">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main/resources/OSGI-INF/blueprint</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828780</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:47:59.046662Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="config.xml" sha1-checksum="6de24d9d113ae37dde6fbb4fc782a1afd6311bb5">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main/resources/OSGI-INF/blueprint/config.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828780</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:47:59.046662Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>821131fa04a926fa4442c5b4a15e6b8e</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="java" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main/java">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828780</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:47:59.046662Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main/java/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828780</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:47:59.046662Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main/java/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828780</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:47:59.046662Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main/java/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main/java/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828780</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:47:59.046662Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="blueprint" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main/java/org/apache/aries/blueprint">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main/java/org/apache/aries/blueprint</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828780</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:47:59.046662Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="helloworldclient" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main/java/org/apache/aries/blueprint/helloworldclient">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main/java/org/apache/aries/blueprint/helloworldclient</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828780</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:47:59.046662Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="HelloWorldClientImpl.java" sha1-checksum="89ad80aee263bef2bedf6d23b2226e271eb32659">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main/java/org/apache/aries/blueprint/helloworldclient/HelloWorldClientImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828780</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:47:59.046662Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>5cce1c1a06d83225b18bc8fc4ff13990</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="HelloWorldClient.java" sha1-checksum="61508c1536763950b1e6772b904cedf024954eff">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldclient/src/main/java/org/apache/aries/blueprint/helloworldclient/HelloWorldClient.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828780</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:47:59.046662Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>1fd20b9016da05189581c2142d1281c4</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="blueprint-helloworldserver" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">830235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-27T16:29:45.908741Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:set-prop name="svn:ignore">.settings
+target
+.classpath
+.project
+</S:set-prop>
+<S:add-directory name="src" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828784</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:52:12.620134Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="main" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828784</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:52:12.620134Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="resources" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main/resources">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main/resources</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828784</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:52:12.620134Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="OSGI-INF" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main/resources/OSGI-INF">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main/resources/OSGI-INF</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828784</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:52:12.620134Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="blueprint" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main/resources/OSGI-INF/blueprint">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main/resources/OSGI-INF/blueprint</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828784</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:52:12.620134Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="config.xml" sha1-checksum="a1bf31ad9551c5c26e6dc13da1981b86944782bd">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main/resources/OSGI-INF/blueprint/config.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828784</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:52:12.620134Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>fedd4a7732c3b73d1f6e74a984b9ffd6</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-directory name="java" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main/java">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main/java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828784</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:52:12.620134Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="org" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main/java/org">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main/java/org</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828784</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:52:12.620134Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="apache" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main/java/org/apache">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main/java/org/apache</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828784</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:52:12.620134Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="aries" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main/java/org/apache/aries">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main/java/org/apache/aries</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828784</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:52:12.620134Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="blueprint" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main/java/org/apache/aries/blueprint">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main/java/org/apache/aries/blueprint</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828784</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:52:12.620134Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-directory name="helloworldserver" bc-url="/repos/asf/!svn/bc/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main/java/org/apache/aries/blueprint/helloworldserver">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main/java/org/apache/aries/blueprint/helloworldserver</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828784</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:52:12.620134Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:add-file name="HelloWorldServerImpl.java" sha1-checksum="2030d31fdd49561dbba3cc5472f86921ca396dd6">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main/java/org/apache/aries/blueprint/helloworldserver/HelloWorldServerImpl.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828784</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:52:12.620134Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>9db5cf4daf3c2e181f6307104cd45c06</V:md5-checksum></S:prop></S:add-file>
+<S:add-file name="HelloWorldServer.java" sha1-checksum="f84768d0fcb5fe1c198e8a78a5af491adfeda900">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/src/main/java/org/apache/aries/blueprint/helloworldserver/HelloWorldServer.java</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">828784</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-22T16:52:12.620134Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>9833384bb6fe37a77dc73c0b00800c7d</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+</S:add-directory>
+<S:add-file name="pom.xml" sha1-checksum="812bf72948ece36dda0f7a8f9671f853460b161c">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/830235/incubator/aries/trunk/blueprint/blueprint-helloworld/blueprint-helloworldserver/pom.xml</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">830235</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2009-10-27T16:29:45.908741Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">zoe</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:prop><V:md5-checksum>a2b9f301bb87fb36a69be4cb68d61261</V:md5-checksum></S:prop></S:add-file>
+</S:add-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

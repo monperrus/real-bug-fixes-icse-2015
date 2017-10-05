@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1339281</D:version-name>
+<D:comment>DERBY-5749 Implicit cast of variable length values, e.g. as arguments to stored methods and generated columns values, silently truncate if too long
+
+Patches derby-5749b (stored procedures and functions) and
+derby-5749-2b (generated columns).
+
+Quote from releaseNote.html attached to the issue:
+
+Summary of Change
+
+SQL now does correct checking of the length of variable strings in
+these two cases:
+
+    Arguments to stored procedures and functions
+    Values assigned to generated columns
+
+Previously, if the actual value was longer than the datatype of the
+argument or column to which it was assigned, Derby would silently
+truncate the value and ignore the truncation. The SQL standard
+requires a truncation exception be thrown.
+
+Derby now throws an SQLException with SQL state 22001 in these cases.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2012-05-16T17:45:35.908243Z</S:date>
+</S:log-item>
+</S:log-report>

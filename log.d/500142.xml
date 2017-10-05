@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>500142</D:version-name>
+<D:comment>Fix DropDatabaseSetup to work even if the database was never created.
+Previously an assert would fail if the database did not exist at tearDown time.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2007-01-26T04:34:44.071712Z</S:date>
+</S:log-item>
+</S:log-report>

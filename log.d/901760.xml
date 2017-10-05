@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>901760</D:version-name>
+<D:comment>DERBY-4455: Prepared statement failure with CLOB: Stream has already been read and end-of-file reached and cannot be re-used.
+Don't materialize streams when transferring data values from one statement to another.
+The code causing the bug was/is only invoked when using XA.
+
+Patch file: derby-4455-1c.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-01-21T16:23:21.867252Z</S:date>
+</S:log-item>
+</S:log-report>

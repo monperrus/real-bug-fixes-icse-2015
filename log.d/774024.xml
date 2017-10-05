@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>774024</D:version-name>
+<D:comment>test to more reliably reproduce CME during range.  fix by locking out compact during range query.
+patch by jbellis; reviewed by Eric Evans for CASSANDRA-161</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2009-05-12T19:11:27.176191Z</S:date>
+</S:log-item>
+</S:log-report>

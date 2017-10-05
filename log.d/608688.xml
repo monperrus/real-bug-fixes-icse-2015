@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>608688</D:version-name>
+<D:comment>Clean up CommentTest to not use a field to hold a Statement object (no need).
+Also to use assertCompileError() instead of assertCallError() since that's actually what it being tested (a compile failure). This meant checking for the correct SQL state, not an incorrect one, this was previously hidden by a bug in assertCallError().</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2008-01-04T00:25:55.532828Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:update-report xmlns:S="svn:" xmlns:V="http://subversion.tigris.org/xmlns/dav/" xmlns:D="DAV:"  inline-props="true">
+<S:target-revision rev="1147937"/>
+<S:open-directory rev="1147936">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1147937/</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1147937</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-18T15:48:00.392460Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cassandra" rev="1147936">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1147937/cassandra</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1147937</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-18T15:48:00.392460Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="drivers" rev="1147936">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1147937/cassandra/drivers</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1147937</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-18T15:48:00.392460Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="py" rev="1147936">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1147937/cassandra/drivers/py</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1147937</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-18T15:48:00.392460Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-directory name="cql" rev="1147936">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1147937/cassandra/drivers/py/cql</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1147937</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-18T15:48:00.392460Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="decoders.py" rev="1147936">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1147937/cassandra/drivers/py/cql/decoders.py</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1147937</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-18T15:48:00.392460Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="55f01c0d8983795450ce06f6c26d1f2d" sha1-checksum="eedf64c96386ed161cd842dec2f9010b6ae022b1"/>
+<S:prop><V:md5-checksum>db1c804ef5f2a3e4107cedb389a5c874</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+<S:open-directory name="test" rev="1147936">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1147937/cassandra/drivers/py/test</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1147937</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-18T15:48:00.392460Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:open-file name="test_query_preparation.py" rev="1147936">
+<D:checked-in><D:href>/repos/asf/!svn/rvr/1147937/cassandra/drivers/py/test/test_query_preparation.py</D:href></D:checked-in>
+<S:set-prop name="svn:entry:committed-rev">1147937</S:set-prop>
+<S:set-prop name="svn:entry:committed-date">2011-07-18T15:48:00.392460Z</S:set-prop>
+<S:set-prop name="svn:entry:last-author">jbellis</S:set-prop>
+<S:set-prop name="svn:entry:uuid">13f79535-47bb-0310-9956-ffa450edef68</S:set-prop>
+<S:fetch-file base-checksum="6d162da9ff988a568d2975fc71f1ede5" sha1-checksum="f7ccf6c63032ac76c584cca269fef283eb3ace24"/>
+<S:prop><V:md5-checksum>f9e5f88c6a21dcd733d48e82165cf075</V:md5-checksum></S:prop></S:open-file>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:open-directory>
+</S:update-report>

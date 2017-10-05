@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>392439</D:version-name>
+<D:comment>DERBY-1187
+
+Defragment pass was not being committed properly, so when rows at
+front of table were being deleted and freeing pages the defragment
+pass did not move the rows to the free pages.  Longer term the 
+defragment pass should commit more often, see DERBY-1188.
+Added extra test to OnlineCompressTest.java for this case.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-04-07T22:30:55.519618Z</S:date>
+</S:log-item>
+</S:log-report>

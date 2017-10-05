@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>438942</D:version-name>
+<D:comment>DERBY-1583
+contributed by Bryan Pendleton
+
+If a particular
+ColumnDescriptor has no associated TableDescriptor at the
+time that CompilerContextImpl.addRequiredColumnPriv is
+called, then there is no column privilege that needs to be added. 
+
+
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-08-31T14:39:55.935140Z</S:date>
+</S:log-item>
+</S:log-report>

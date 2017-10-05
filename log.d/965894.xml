@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>965894</D:version-name>
+<D:comment>avoid replaying fully-flushed commitlog segments.  patch by jbellis; reviewed by mdennis for CASSANDRA-1298
+</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-07-20T16:23:03.045307Z</S:date>
+</S:log-item>
+</S:log-report>

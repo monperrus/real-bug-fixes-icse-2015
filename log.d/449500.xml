@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>449500</D:version-name>
+<D:comment>DERBY-1830
+contributed by Sunitha Kambhampati
+merging test only change from trunk to 10.2 branch:
+
+The testcase added for derby-1660 in optimizerOverrides.sql uses jdbc:default:co
+nnection and does not work with wctme5.7 foundation causing the diff mentioned i
+n this jira. This testcase needs to be excluded and should run only in environme
+nts that have support for DriverManager.
+
+This patch (derby1830.diff.txt) converts this particular testcase into a junit t
+est.
+
+1. Add a new Junit test in lang suite - VTITest.java
+2. Conditionally add the test fixture bulkInsertVtiTest if JDBC.vmSupportsJDBC2(
+) is true.
+3. Since the problematic testcase is converted to junit test, remove this test f
+rom optimizerOverrides.sql and update the master files for embedded and server f
+rameworks.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-09-24T21:57:54.215226Z</S:date>
+</S:log-item>
+</S:log-report>

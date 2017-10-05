@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1078108</D:version-name>
+<D:comment>Fix NPE in nodetool when gossip isn't initialized.
+Patch by brandonwilliams, reviewed by jbellis for CASSANDRA-2270</D:comment>
+<D:creator-displayname>brandonwilliams</D:creator-displayname>
+<S:date>2011-03-04T19:22:37.856668Z</S:date>
+</S:log-item>
+</S:log-report>

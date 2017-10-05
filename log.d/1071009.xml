@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1071009</D:version-name>
+<D:comment>ARIES-576 move the call to getMissingDependencies so it occurs prior to cleanup of ReferenceRecepies. The previous position occurred after the ReferenceRecepies had been stopped
+so they all reported themselves as missing, even if they had not been missing.</D:comment>
+<D:creator-displayname>not</D:creator-displayname>
+<S:date>2011-02-15T18:40:49.678250Z</S:date>
+</S:log-item>
+</S:log-report>

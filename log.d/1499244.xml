@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1499244</D:version-name>
+<D:comment>DERBY-5979: Part b: 1)  Make properties.dir absolute by prepending ${basedir}. This way the release-targets work even when cwd is not equal to ${basedir} (as could be the case when invoking those target from within an IDE). 2) Change the value of derby.junit.jvm from java to ${java.home}/bin/java. This ensures that junit-ant-tasks work even if invoked from an environment (such as an IDE) where the JAVA_HOME jvm may be different from the first jvm in PATH.</D:comment>
+<D:creator-displayname>dyre</D:creator-displayname>
+<S:date>2013-07-03T08:07:58.626091Z</S:date>
+</S:log-item>
+</S:log-report>

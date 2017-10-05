@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>658003</D:version-name>
+<D:comment>SOLR-470, SOLR-552, and SOLR-544: Multiple fixes to DateField regarding lenient parsing of optional milliseconds, and correct formating using the canonical representation.  LegacyDateField has been added for people who have come to depend on the existing broken behavior.</D:comment>
+<D:creator-displayname>hossman</D:creator-displayname>
+<S:date>2008-05-19T22:00:22.896234Z</S:date>
+</S:log-item>
+</S:log-report>

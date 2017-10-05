@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>759176</D:version-name>
+<D:comment>DERBY-4125: The in-memory storage back end doesn't work on Windows.
+Changed the in-memory storage factory to rely much more on java.io.File to
+handle paths and names.
+The data store now stores all files and directories with normalized paths.
+Also fixed a bug in DataStore.deleteEntry for deletion of directories.
+Added two more tests; testListChildren and testCreateRoot.
+
+Patch file: derby-4125-1a-improved_path_handling.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-03-27T15:26:39.993944Z</S:date>
+</S:log-item>
+</S:log-report>

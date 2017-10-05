@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>381553</D:version-name>
+<D:comment>DERBY-479 Fix linkage error when passing the value of a RETURNS NULL ON NULL INPUT function
+to another function. Fixed by only removing SQLToJava/JavaToSQL nodes for the function's
+return value when the function is a CALLED ON NULL INPUT function.
+
+Fix contributed by Mamta Satoor - msatoor@gmail.com
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-02-28T03:55:29.390228Z</S:date>
+</S:log-item>
+</S:log-report>

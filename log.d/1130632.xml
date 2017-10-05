@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1130632</D:version-name>
+<D:comment>DERBY-5249 A table created with 10.0.2.1 with constraints cannot be dropped with 10.5 due to NullPointerException with insane build or ASSERT FAILED Failed to find sharable conglomerate descriptor for index conglomerate with sane build
+
+Add a test for this issue. The test xtestDropTableAfterUpgradeWithConstraint()
+is not currently enabled because the issue is not yet fixed. 
+Remove the x to enable the test once the issue is fixed.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2011-06-02T16:23:32.753141Z</S:date>
+</S:log-item>
+</S:log-report>

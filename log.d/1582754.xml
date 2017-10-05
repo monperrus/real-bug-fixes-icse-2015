@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1582754</D:version-name>
+<D:comment>DERBY-5615: Permission problems with classpath subsubprotocol
+
+Change the structure of CPFile.getInputStream() back to what it was
+before the original fix for this issue (revision 1582655), but with
+doPrivileged() calls around all operations that require privileges.
+
+The restructuring in the original fix apparently prevented some
+resources from being freed, so that DatabaseClassLoadingTest and
+NativeAuthenticationServiceTest failed on Windows platforms because
+they could not delete the jar file that contained the classpath
+database.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2014-03-28T14:02:13.498928Z</S:date>
+</S:log-item>
+</S:log-report>

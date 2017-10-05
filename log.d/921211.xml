@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>921211</D:version-name>
+<D:comment>DERBY-4564 Replication tests do not pick up derby.tests.networkServerStartTimeout setting
+
+fix replication tests to use property as seconds, not milliseconds.
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2010-03-10T02:35:46.676286Z</S:date>
+</S:log-item>
+</S:log-report>

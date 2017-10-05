@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1448280</D:version-name>
+<D:comment>DERBY-6079: 100's of errors in nightly test run on weme after jacoco property/priviledges checkin
+
+Propagate jacoco.active on weme6.2 (1a).
+Always set jacoco.active and emma.active on weme6.2 (2a).
+
+Patch file: derby-6079-1a-propagate_jacocoactive_j9.diff, derby-6079-2a-set_props_j9.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2013-02-20T16:34:21.700588Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>958621</D:version-name>
+<D:comment>DERBY-4679 Several left outer joins causes unstable query with incorrect results
+
+Follow-up patch derby-4679-2a, which makes the new (tn, cn) based
+remapping work also for a CR to a subquery join participant being rebound
+after flattening, see detailed comments in the code.  Extra test cases
+are added to JoinTest#testDerby_4679.
+
+Merged to 10.6 branch as
+
+svn merge -c 958618 https://svn.apache.org/repos/asf/db/derby/code/trunk
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2010-06-28T16:20:59.757541Z</S:date>
+</S:log-item>
+</S:log-report>

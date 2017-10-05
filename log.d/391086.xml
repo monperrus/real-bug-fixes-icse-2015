@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>391086</D:version-name>
+<D:comment>DERBY-349: Re-enable parameterMapping batch tests for DerbyNetClient
+
+Due to bug DERBY-349, the parameterMapping tests of various data types
+in the executeBatch() configuration had been disabled, because those
+tests were hanging. The tests are no longer hanging, so this submission
+re-enables the tests.
+
+This change also modifies the parameterMapping test program so that it
+knows how to unwind the BatchUpdateException when looking for an
+underlying Invalid Conversion exception. This means that we can have
+simpler and easier-to-read master output files, which makes the test
+easier to maintain.
+
+This change also deletes the separate jdk14 master file, since it is
+identical to the primary master file.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2006-04-03T17:13:55.953935Z</S:date>
+</S:log-item>
+</S:log-report>

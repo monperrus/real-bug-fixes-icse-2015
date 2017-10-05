@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1328075</D:version-name>
+<D:comment>DERBY-5692; intermittent test failure in storetests/st_derby715.java
+  backport revision 1328061 from trunk - add st_derby715_derby.properties
+  to set derby.locks.waitTimeout to 60.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2012-04-19T18:38:54.158944Z</S:date>
+</S:log-item>
+</S:log-report>

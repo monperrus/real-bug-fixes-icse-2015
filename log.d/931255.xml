@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>931255</D:version-name>
+<D:comment>DERBY-4607: HeapScan test commits wrong connection
+
+Use BaseJDBCTestCase helper methods to ensure that the same connection
+is used all places in the HeapScan and in its sub-class
+CoveredIdxScan. (Previously, different connections were used when
+executing a statement and when committing.)
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-04-06T18:17:45.601106Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1151625</D:version-name>
+<D:comment>fix potential use of free'd native memory interface/SerializingCache
+patch by jbellis; reviewed by slebresne for CASSANDRA-2951</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2011-07-27T21:00:28.587007Z</S:date>
+</S:log-item>
+</S:log-report>

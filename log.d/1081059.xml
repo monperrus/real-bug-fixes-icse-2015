@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1081059</D:version-name>
+<D:comment>DERBY-5113: Intermittent failure in BlobSetMethodsTest on Java 7: Unable to set stream: 'Reached EOF prematurely; expected 1,024, got 0.'
+
+AccessTest should reset the database properties it modifies.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-03-13T08:34:05.920013Z</S:date>
+</S:log-item>
+</S:log-report>

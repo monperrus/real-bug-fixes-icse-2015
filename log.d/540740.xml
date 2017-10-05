@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>540740</D:version-name>
+<D:comment>DERBY-1816 (partial): Pre-patch "cleanup" that does the following:
+
+  1) Replaces each of the recyclable Date, Time, and Timestamp arguments
+     with a recyclable java.util.Calendar object in client/am/Cursor.java.
+
+  2) Modifies the relevant code in client/am/DateTime.java to call methods
+     on the recyclable Calendar object instead of on Date, Time, and
+     Timestamp objects. The benefit to doing this is that we are now using
+     non-deprecated methods.
+
+Note that even with this patch we are still creating a new instance of
+Time/Timestamp/Date for each method--the cleanup patch does not change that.
+Instead, the cleanup patch adds the instantiation of a new Calendar object
+(one per client/am/Cursor) and then (re-)uses that object to replace the
+deprecated calls.
+</D:comment>
+<D:creator-displayname>abrown</D:creator-displayname>
+<S:date>2007-05-22T20:38:08.026051Z</S:date>
+</S:log-item>
+</S:log-report>

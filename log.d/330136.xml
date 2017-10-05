@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>330136</D:version-name>
+<D:comment>DERBY-656 Use the size estimates from the catalog to avoid security
+issues in BackingStoreHashtable. This matches the other uses of the
+class size utilities, eg. for the DataValueDescriptors.
+
+Merge of 330133 from trunk.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-11-01T22:28:59.023420Z</S:date>
+</S:log-item>
+</S:log-report>

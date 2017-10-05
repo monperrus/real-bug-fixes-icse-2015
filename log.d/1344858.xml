@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1344858</D:version-name>
+<D:comment>DERBY-5494 Same value returned by successive calls to a sequence generator flanking an unorderly shutdown.
+DERBY-5780 identity column performance has degredated
+
+backporting change #1344065 from trunk to 10.9 branch.
+
+The previous patch for DERBY-5494 had the unintended affect of forcing a
+synchronous write for all nested user transactions at abort time.  This
+in turn caused identity column inserts to have one synchronous write per
+insert as the nested user transaction is destroyed for each insert which
+does an abort each time.
+
+To solve this interfaces were changed so that calling code could set the
+default commit sync behavior when the transaction was committed rather than
+count on the "type" of transaction.  Nested user transactions used for identity
+columns have default set to not sync, and the rest of the nested user 
+transactions default to syncing.  Behavior of other types of transactions 
+should not be affected.  User transactions still sync by default and internal 
+and ntt's still default to not sync.
+
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2012-05-31T18:40:24.265570Z</S:date>
+</S:log-item>
+</S:log-report>

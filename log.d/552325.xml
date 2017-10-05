@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>552325</D:version-name>
+<D:comment>DERBY-2885 (cleanup)
+
+Some more cleanup of EmbedConnection.clearLOBMapping():
+  1) Store the map in a local variable instead of calling
+     getlobHMObj() a number of times.
+  2) Replace two disjoint if statements with if/else-if + THROWASSERT
+     if none of them matches.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-07-01T15:23:53.901741Z</S:date>
+</S:log-item>
+</S:log-report>

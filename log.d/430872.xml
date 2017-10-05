@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>430872</D:version-name>
+<D:comment>Junit improvements - setup security manager (not yet enabled for standalone tests) to be driven
+by the test configuration, add openTestResource method in BaseTestCase that works with a security manager.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-08-11T19:36:04.041152Z</S:date>
+</S:log-item>
+</S:log-report>

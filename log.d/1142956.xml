@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1142956</D:version-name>
+<D:comment>DERBY-4137: OOM issue using XA with timeouts
+DERBY-5291: test failure: NullPointerException with J2ME (weme 6.2) in testDerby4137_TransactionTimeoutSpecifiedNotExceeded(org.apache.derbyTesting.functionTests.tests.memory.XAMemTest)
+
+Merged fix from trunk (revisions 1138341 and 1136363) with manual conflict
+resolution in memory/_Suite (conflict with
+'suite.addTest(MemoryLeakFixesTest.suite());').
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-07-05T10:05:36.692691Z</S:date>
+</S:log-item>
+</S:log-report>

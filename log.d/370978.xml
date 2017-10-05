@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>370978</D:version-name>
+<D:comment>DERBY-756: Close scan controller in DistinctScalarAggregateResultSet to avoid memory leak.
+
+Submitted by Manish Khettry (manish_khettry@yahoo.com)
+
+Here is more info from the contributor:
+It looks like the scan controller created in DistinctScalarAggregateResultSet is never closed. This causes the scanController instance variable in RAMTransaction to continue to grow with each open/close. 
+
+Shouldn't DistinctScalarAggregateRS implement a close or a finish method (not sure what the difference is) and close the scan controller there.
+</D:comment>
+<D:creator-displayname>bandaram</D:creator-displayname>
+<S:date>2006-01-21T04:32:17.323557Z</S:date>
+</S:log-item>
+</S:log-report>

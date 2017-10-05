@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1378993</D:version-name>
+<D:comment>Merged revision(s) 1378991 from lucene/dev/trunk:
+LUCENE-4337: For now (hopefully) fix problem on FreeBSD. The whole listen to 127.0.0.1 does not work alltogether, because Java allows binding to every port, just not accepting! See issue for details.</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2012-08-30T15:42:04.989682Z</S:date>
+</S:log-item>
+</S:log-report>

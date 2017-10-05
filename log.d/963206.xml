@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>963206</D:version-name>
+<D:comment>DERBY-4694: Build breaks on Mac OS X due to JDK classpath issues
+
+Relaxed verification criteria for Apple JDKs (skip check for Headers directory).
+Added flag -DprintCompilerPropertiesVerbose to aid debugging when the
+property setter fails to set the correct compile classpath(s).
+
+Patch file: derby-4694-2b-debugging_and_mac_fix.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2010-07-12T08:08:48.688185Z</S:date>
+</S:log-item>
+</S:log-report>

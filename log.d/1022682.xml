@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1022682</D:version-name>
+<D:comment>Backporting the fix into 10.5 codeline for DERBY-4835 Trigger plan does not recompile with upgrade from 10.5.3.0 to 10.6.1.0 causing java.lang.NoSuchMethodError
+
+Incremented the release number so that the code changes for upgrade path will be executed.
+
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2010-10-14T19:50:49.899384Z</S:date>
+</S:log-item>
+</S:log-report>

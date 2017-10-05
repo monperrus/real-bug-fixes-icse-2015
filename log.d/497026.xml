@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>497026</D:version-name>
+<D:comment>DERBY-2158 - ensure test.lang.UpdatableResultSetTest runs with JSR169 jvms
+- modified test to use JDBC.vmSupportsJSR169 rather than its own mechanisms to
+  check for existence of java.math.BigDecimal
+- added one more required check
+
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2007-01-17T14:22:45.244781Z</S:date>
+</S:log-item>
+</S:log-report>

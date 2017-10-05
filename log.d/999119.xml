@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>999119</D:version-name>
+<D:comment>DERBY-4786 (Shutdown command without username and password should work with mixed client and network server releases.)
+
+This change will send shutdown command with protocol level 2 whether there is username or password provided or not. If this command fails because of DRDA_InvalidReplyHead from server, then it will resend the shutdown command but this time with protocol level 1. The attempt with protocol level 1 will be made only if there was no username and password supplied with the shutdown command because shutdown command at protocol level 1 does not support username/password.
+
+If a client with these changes sends a shutdown command to a 10.3 server(which does not have DERBY-2109 changes) without the username and password, it will get 2 exceptions back from the server. 1st exception will be for sending the shutdown command at protocol level 2 and the 2nd will be for shutting down the server succesfully. Server will also have 2 messages, first indicating that an invalid protocol level command was received and 2nd message saying that the server is shutdown. I will create a release note for this behavior.
+
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2010-09-20T21:00:42.965324Z</S:date>
+</S:log-item>
+</S:log-report>

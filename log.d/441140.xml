@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>441140</D:version-name>
+<D:comment>DERBY-1729, contributed by Yip Ng
+committing derby1729-trunk-diff03.txt patch.
+
+The GrantNode and RevokeNode should have derived from DDLStatementNode instead
+of MiscellaneousStatementNode. Subclassing DDLStatementNode will generate a
+call to GenericResultSetFactory's getDDLResultSet() in the activation class
+and invokes the GenericAuthorizer's authorize() method with the proper
+parameters to enforce the correct semantics.
+
+public ResultSet getDDLResultSet (Activation activation) throws StandardExceptio
+n
+{
+        getAuthorizer(activation).authorize(activation, Authorizer.SQL_DDL_OP);
+            return getMiscResultSet( activation);
+}
+
+Also adding an additional sql file for derbylang. The reason I didn't include
+this in grantRevokeDDL.sql is because of name collision and this testcase is
+one of the many additonal grant/revoke tests that I wrote and I'll like to
+append the rest of those testcases to this file(grantRevokeDDL2.sql) when I
+submit my patch for DERBY-1736.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-09-07T16:54:09.011462Z</S:date>
+</S:log-item>
+</S:log-report>

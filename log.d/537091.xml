@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>537091</D:version-name>
+<D:comment>DERBY-2141
+
+Made BaseContainerHandle.close() synchronized as it may be called concurrently
+by a stream passed outside the store and an abort triggered concurrently.  
+Making it synchronized will allow the first close to do the proper work and
+the subsequent calls will just return with no work to do.
+Also made some of the fields private to convince myself no-one outside the
+class was counting on something being changed during close.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2007-05-11T04:43:51.196598Z</S:date>
+</S:log-item>
+</S:log-report>

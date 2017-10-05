@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>671619</D:version-name>
+<D:comment>Backporting (revision 670778 from trunk) for DERBY-3718 into 10.4 codeline. The fix involved using type
+name rather than it's Types.xxx value to construct the TypeId object. The reason for not using
+Types.xxx is that for internal Derby types like REF, we do not associated correct Types.xxx with it,
+instead we just use Types.OTHER for it. It is not enough to use Types.OTHER to find the correct
+TypeId and that's why we will be using the name rather than Types.xxx to construct TypeId. More
+information can be found in commit comments of revision 670778.
+
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2008-06-25T18:20:55.456715Z</S:date>
+</S:log-item>
+</S:log-report>

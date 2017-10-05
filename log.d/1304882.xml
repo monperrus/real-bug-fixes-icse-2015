@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1304882</D:version-name>
+<D:comment>DERBY-4544: Don't use the SQLClob.getLength() optimization on non-resetable streams--this fixes a data corruption.  
+
+backport change #1091172 from 10.8 branch to 10.5.  The new tests depended on 
+hibernate stream classes in the main source code (not just test classses) not
+in 10.6, so just backported the fix.  Reviewed change in 10.5 context and 
+verified it still applies in 10.5.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2012-03-24T18:24:26.129661Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1138263</D:version-name>
+<D:comment>DERBY-4744; Out of Memory resulting in heapdump and javacore in test derbynetclientmats (and derbynetmats) stress.multi with 10.1 with IBM 1.5 JVM after upgrade to SR11FP1 (from SR10).
+  preventing run of stress.multi altogether with ibm 1.5. (both embedded and client).
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2011-06-22T00:17:13.452690Z</S:date>
+</S:log-item>
+</S:log-report>

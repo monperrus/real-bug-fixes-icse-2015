@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>330592</D:version-name>
+<D:comment>Fix lang/dcl.sql which was failing due to an expired security certnificate.
+Signed the jar with a certificate valid for 100 years, and updated instructions
+in the lang/dcl.sql script.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2005-11-03T18:00:00.669980Z</S:date>
+</S:log-item>
+</S:log-report>

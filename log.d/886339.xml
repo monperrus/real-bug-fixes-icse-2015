@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>886339</D:version-name>
+<D:comment>Fix the NRQ TermsEnum test after merge. The count was wrong because after initializing the TermsEnum it is already on first term. So the first check must be !empty()</D:comment>
+<D:creator-displayname>uschindler</D:creator-displayname>
+<S:date>2009-12-02T23:27:49.185747Z</S:date>
+</S:log-item>
+</S:log-report>

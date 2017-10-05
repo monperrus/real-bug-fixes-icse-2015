@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>821226</D:version-name>
+<D:comment>DERBY-4376
+
+Merged changes into 10.4 codeline. The only error I got was for BlobClob4BlobTest.testLockingWithLongRowBlob and it looks like DERBY-3740 although my testing was on windows xp machine using IBM16 jdk
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2009-10-03T02:52:38.024004Z</S:date>
+</S:log-item>
+</S:log-report>

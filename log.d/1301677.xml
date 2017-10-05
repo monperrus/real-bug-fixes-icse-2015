@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1301677</D:version-name>
+<D:comment>DERBY-4779 NPE while inserting into a table which has a generated column and an insert trigger
+DERBY-5304 fix for DERBY-4779 test on jdk 142
+
+Contributed by Siddharth Srivastava akssps011 at gmail dot com
+merged revisions 1140222 , 140744 from trunk 
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2012-03-16T18:10:21.090204Z</S:date>
+</S:log-item>
+</S:log-report>

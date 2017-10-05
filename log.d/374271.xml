@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>374271</D:version-name>
+<D:comment>DERBY-877 zOS - with DerbyClient getDate(#) fails with IllegalArgumentException - unsupported date format - resultset.java
+
+The patch fixes issues with getString, getTimeStamp, getDate and getTime on TIMESTAMP, DATE and TIME columns when the client JVM encoding does not match the server encoding for the characters being evaluated in DateTime.java methods
+
+- Changes the following methods in DateTime.java to take encoding parameter and create string based on encoding.
+dateBytesToDate, timeBytesToTime, timeBytesToTimeStamp, dateBytesToTimeStamp, timestampBytesToDate, timestampBytesToTime
+
+- Changes calling code to pass column encoding and throw SQLExceptions for UnsupportedEncoding exceptions if thrown from the methods above.
+
+Tests: derbyall passed as did the repro attached to this issue on Windows with Sun JDK 1.5 . Verified on zOS
+
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2006-02-02T05:41:12.748419Z</S:date>
+</S:log-item>
+</S:log-report>

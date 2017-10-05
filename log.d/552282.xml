@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>552282</D:version-name>
+<D:comment>DERBY-2885: Wrong connection object used in EmbedConnection.clearLOBMapping()
+
+Check the value of lobHashMap for the correct EmbedConnection, and
+don't create a map if none is needed.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2007-07-01T11:24:35.710446Z</S:date>
+</S:log-item>
+</S:log-report>

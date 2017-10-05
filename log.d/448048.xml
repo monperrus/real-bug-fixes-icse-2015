@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>448048</D:version-name>
+<D:comment>DERBY-1772
+contributed by Army Brown
+
+Attaching the simplest patch possible for this issue--just changes SQLSTATE '42Z78' to a Derby-specific SQLSTATE, 'XML00'. I also moved SQLSTATE '42Z7Z' to 'XML01' since I believe it falls into the same category of "Derby-specific errors that are not covered by the SQLStandard."
+
+I read through the SQL standard definitions for SQLSTATES and none of them jumped out at me as being more appropriate than '42', so I just created a new set of SQLSTATEs, "XMLxx", for this particular issue. As I said, this was just the easiest way to go; if anyone can suggest a better SQLSTATE to fit the errors, please let me know. Otherwise, the d1772_v1.patch should be all it takes to resolve this issue.
+
+Note: Since we don't currently have any tests for cases where the classpath is missing the required Xalan/JAXP classes, there were no test/master files to update. The need to add tests for such scenarios is filed as part of DERBY-1758. 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-09-20T03:45:55.942214Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>779319</D:version-name>
+<D:comment>DERBY-4230 DatabaseMetaData.getColumns() returns extra column from view with group by and expression in SELECT list
+
+Changed CreateViewNode to only add visible columns to SYS.SYSCOLUMNS.
+
+Also added assertions that generated columns are at the end of the ResultColumnList.
+</D:comment>
+<D:creator-displayname>kmarsden</D:creator-displayname>
+<S:date>2009-05-27T21:37:56.513826Z</S:date>
+</S:log-item>
+</S:log-report>

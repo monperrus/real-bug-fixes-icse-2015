@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>602495</D:version-name>
+<D:comment>DERBY-3198: Using setQueryTimeout will leak sections
+Patch file: derby-3198.v6.diff
+Introduce a separate varable to track the Section object used by 
+writeSetSpecialRegister. The Section is allocated on demand and freed 
+when the Statement is closed or reset.
+Adds a new test case to StatementJDBC30Test to catch future regressions.
+</D:comment>
+<D:creator-displayname>dyre</D:creator-displayname>
+<S:date>2007-12-08T16:21:05.421932Z</S:date>
+</S:log-item>
+</S:log-report>

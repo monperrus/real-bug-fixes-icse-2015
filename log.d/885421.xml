@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>885421</D:version-name>
+<D:comment>DERBY-4442: Default value and identity in an INSERT result set evaluated too early
+
+Always add a ProjectRestrictNode on top of the source result set for an
+insert if the source columns are not ordered the same way as the target
+columns, or if inserting into a subset of the columns, and the source is not
+a table constructor. Then the adding of default values to the source result
+column list happens on top of the original source result node, and not
+inside that node. This means that the source result is produced before the
+default values are added, and the generation of the defaults happens at the
+correct time.
+
+As a side-effect, these other issues are fixed:
+
+DERBY-3 Identity column not filled consecutively with "insert ... select distinct"
+DERBY-4433 Cannot insert from EXCEPT/INTERSECT when target table has more columns than the source
+
+Much of the added code is actually old code revived from the Subversion
+history. Before DERBY-1644, we used to put a ProjectRestrictNode on top of
+the source result if it was a SetOperatorNode. The code that inserted the
+ProjectRestrictNode was added back and changed to operate on ResultSetNode
+instead of SetOperatorNode.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-11-30T13:32:53.686349Z</S:date>
+</S:log-item>
+</S:log-report>

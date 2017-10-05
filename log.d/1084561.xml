@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1084561</D:version-name>
+<D:comment>DERBY-3980: Conflicting select then update with REPEATABLE_READ gives lock timeout instead of deadlock
+DERBY-5073: Derby deadlocks without recourse on simultaneous correlated subqueries
+
+Added more comments describing the deadlock detection algorithm.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-03-23T12:21:05.506380Z</S:date>
+</S:log-item>
+</S:log-report>

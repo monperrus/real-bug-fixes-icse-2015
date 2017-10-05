@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>650783</D:version-name>
+<D:comment>DERBY-3397: Derby 10.3.1.4 and 10.3.2.1 break scrollable result sets? Hibernate Query.setFirstResult and/or setMaxResults.
+This change makes setMaxRows take effect by resetting the value in the result set object to the value held in the activation.
+Patch file: derby-3397.diff
+
+Patch contributed by Dag H. Wanvik.
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2008-04-23T08:38:11.672143Z</S:date>
+</S:log-item>
+</S:log-report>

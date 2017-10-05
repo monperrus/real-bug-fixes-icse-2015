@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>632527</D:version-name>
+<D:comment>DERBY-3484 build the shared constants in reference using jdk14 compile classpath as they include JDBC 3.0 constants. JSR169 can read the .class files.</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2008-03-01T01:24:22.688312Z</S:date>
+</S:log-item>
+</S:log-report>

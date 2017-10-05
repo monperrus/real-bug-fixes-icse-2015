@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1028494</D:version-name>
+<D:comment>fix ByteBuffer bug in ExpiringColumn.updateDigest.  patch by Sylvain Lebresne and Jake Luciani for CASSANDRA-1679</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-10-28T21:30:26.780143Z</S:date>
+</S:log-item>
+</S:log-report>

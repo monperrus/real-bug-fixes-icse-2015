@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>961049</D:version-name>
+<D:comment>DERBY-2992: getBinaryStream returns incorrect result (truncated value) if underlying blob is deleted
+
+backporting change #908586 from trunk to 10.5 branch.
+
+Made OverflowInputStream throw exception if the underlying value is deleted/modified.
+(i.e. if the next overflow page cannot be found/accessed).
+Added a new error message (D015).
+Incorporated repro (originally contributed by Kathey Marsden, kmarsdenderby at sbcglobal dot net).
+
+Patch file: DERBY-2992-1b-throw_exception_on_eof.diff 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2010-07-07T00:29:49.780330Z</S:date>
+</S:log-item>
+</S:log-report>

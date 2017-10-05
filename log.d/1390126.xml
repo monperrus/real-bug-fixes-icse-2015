@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1390126</D:version-name>
+<D:comment>DERBY-5775; Upgrade tests should print full IOException stack trace when it fails to access old versions 
+  slight modification of message and printing the stack trace in case of an IOException.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2012-09-25T20:51:46.727408Z</S:date>
+</S:log-item>
+</S:log-report>

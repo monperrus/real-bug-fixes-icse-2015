@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>956504</D:version-name>
+<D:comment>DERBY-4279: Statement cache deadlock
+
+When requesting a recompile of a statement, don't wait for other
+threads compiling the same statement, but instead create a new
+instance of the statement.
+
+Patch contributed by Brett Wooldridge &lt;brett.wooldridge@gmail.com&gt;.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2010-06-21T09:05:47.879989Z</S:date>
+</S:log-item>
+</S:log-report>

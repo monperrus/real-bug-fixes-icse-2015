@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1227016</D:version-name>
+<D:comment>DERBY-5558; NullPointerException in store.RecoveryTest launchRecoveryInsert and failure in testBasicRecovery with weme 6.2
+  working around this issue by tacking on emma.active value for this jvm forking.
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2012-01-04T01:35:07.240329Z</S:date>
+</S:log-item>
+</S:log-report>

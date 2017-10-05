@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1061516</D:version-name>
+<D:comment>DERBY-4741 Make Derby work reliably in the presence of thread interrupts
+
+Patch derby-4741-sleeps-waits-3, which modifies all actions when
+seeing interrupt in Object#wait and Thread#sleep inside
+"org.apache.derby.impl.store.*" as well as in one other instance.
+
+Thew new code just makes a note that an interrupt occured and then
+retry. The old code sometimes threw 08000 (CONN_INTERRUPT) or just
+ignored the interrupts.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2011-01-20T21:11:19.857433Z</S:date>
+</S:log-item>
+</S:log-report>

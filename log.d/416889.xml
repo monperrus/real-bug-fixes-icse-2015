@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>416889</D:version-name>
+<D:comment>DERBY-955: Get derbyall on jdk1.6
+
+This patch contains fixes to the following tests that are failing when
+running derbyall with jdk 1.6:
+
+* derbynetclientmats: tools/ieptests.sql
+
+  -updated master file for jdk16
+
+* derbynetclientmats: jdbcapi/parameterMapping.java
+
+  -REMOVED jdk16 specific master file
+
+* derbynetclientmats: jdbcapi/checkDataSource30.java
+
+  -updated checkDataSource30.java and checkDataSource.java to produce
+   output that is the same when running with jdk15 and jdk16
+  -updated master files to reflect changes in output
+
+* derbynetmats: tools/ieptests.sql
+
+  -updated master file for jdk16
+
+Patch contributed by Olav Sandstå.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-06-24T08:12:49.237404Z</S:date>
+</S:log-item>
+</S:log-report>

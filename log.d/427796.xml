@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>427796</D:version-name>
+<D:comment>DERBY-1241: When booting a database under security manager, boot may fail with
+message java.sql.SQLException: Java exception: 'access denied 
+(java.io.FilePermission for logmirror.ctrl if database was not shutdown cleanly
+after previous access. Fix uses existing privExists method to access the file,
+avoiding the SecurityException.
+
+Committed for Myrna Van Lunteren &lt;m.v.lunteren@gmail.com&gt;
+</D:comment>
+<D:creator-displayname>fuzzylogic</D:creator-displayname>
+<S:date>2006-08-01T23:44:49.049229Z</S:date>
+</S:log-item>
+</S:log-report>

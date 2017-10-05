@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>425719</D:version-name>
+<D:comment>DERBY-1563: derbynet/ShutDownDBWhenNSShutsDownTest.junit fails on
+Solaris sparc
+
+The attached patch (derby-1563.diff) fixes the problem by waiting
+before checking if the file exists.
+
+Patch contributed by Fernanda Pizzorno.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2006-07-26T12:19:42.662351Z</S:date>
+</S:log-item>
+</S:log-report>

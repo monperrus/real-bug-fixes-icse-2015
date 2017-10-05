@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>890692</D:version-name>
+<D:comment>DERBY-4472: [patch] non short circuit op, could cause eof problems
+Replaced non-short-circuiting bitwise operator with short-circuiting boolean
+operator (the right side might throw exception if evaluated when the left
+side is false).
+
+Patch contributed by Dave Brosius (dbrosius at mebigfatguy dot com).
+
+Patch file: sc.diff
+
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2009-12-15T08:47:36.531898Z</S:date>
+</S:log-item>
+</S:log-report>

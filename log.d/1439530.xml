@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1439530</D:version-name>
+<D:comment>Fix AppendingLongBuffer/Iterator.hasNext.
+
+This method failed to return the right result when the total number of values was a multiple of MAX_PENDING_COUNT = 1024.
+</D:comment>
+<D:creator-displayname>jpountz</D:creator-displayname>
+<S:date>2013-01-28T17:58:59.899266Z</S:date>
+</S:log-item>
+</S:log-report>

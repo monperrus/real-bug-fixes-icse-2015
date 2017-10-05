@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1465110</D:version-name>
+<D:comment>DERBY-6131 select from view with "upper" and "in" list throws a ClassCastException 
+
+backporting change #1464594 from trunk to 10.10 branch.
+
+Prior to this fix the following query on a view would throw a ClassCastException    select name from myView where upper(name) in ('AA', 'BB');
+This query got in code that was trying to "push" predicates down, and
+that code is only currently build to push constants and column references.
+In this case it was mistakenly trying to push down the "upper" call, and
+when it tried to cast it as a column reference it got the error.  The fix
+was to check the type of the node and not push in this case.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2013-04-05T20:11:17.722906Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>379620</D:version-name>
+<D:comment>DERBY-304 submitted on behalf of Suresh Thalamati
+Fix :
+
+1) Do not allow backup path to be any derby database directory. A directory is
+assumed to be a derby database directory if it has service.properties file in it.
+
+2) copy files needed from the database home into the backup one by one
+instead of recursive copy from the top directory.
+
+3) while copying the directories under jar directory, copy each sub directory
+separately without copying any subdirectories under them (There should not
+be any unless if user has created explicitly or created backup at that location).
+
+4) Log and Seg0 directory are NOT already copied recursively, this was changed as part of
+online backup work (DERBY-239). 
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-02-21T23:16:20.173765Z</S:date>
+</S:log-item>
+</S:log-report>

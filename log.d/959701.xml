@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>959701</D:version-name>
+<D:comment>DERBY-4690 Too few arguments when generating AM_RECORD_NOT_FOUND error
+
+Fixed up arguments to the AM_RECORD_NOT_FOUND exception, the page number argument was missing.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2010-07-01T15:46:54.194567Z</S:date>
+</S:log-item>
+</S:log-report>

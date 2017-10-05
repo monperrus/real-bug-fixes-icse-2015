@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>542269</D:version-name>
+<D:comment>DERBY-2868: Changed UTF8Reader to return 0 instead of -1 in skip when EOF is reached. Changed usages in EmbedClob accordingly.
+Patch file: derby-2686-2a-reader.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2007-05-28T16:41:54.708590Z</S:date>
+</S:log-item>
+</S:log-report>

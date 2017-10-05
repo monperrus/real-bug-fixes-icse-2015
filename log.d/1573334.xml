@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1573334</D:version-name>
+<D:comment>DERBY-5317: Detect attempts to reuse a connection that in the middle of sending a request to the server. Use this to provide a better error message and avoid the NPE.
+DERBY-6386 - Errors in jdbc4.LobStreamTest if derbyclient.jar is first in the classpath
+
+backported change #1530704 to fix DERBY-5317 from trunk to 10.10, needed some
+   hand merging to fix difference in argument ordering between 10.10 and trunk.
+backported change #1534425 to fix DERBY-6386 which was caused by DERBY5317 fix.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2014-03-02T18:05:49.020016Z</S:date>
+</S:log-item>
+</S:log-report>

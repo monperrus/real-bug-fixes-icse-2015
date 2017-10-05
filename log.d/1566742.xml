@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1566742</D:version-name>
+<D:comment>SOLR-5652: in cursor tests, don't sort on 'plain' docvalue fields (i.e., those using standard Lucene sorting for missing values) when the codec doesn't support missing docvalues. (merged trunk r1566741)</D:comment>
+<D:creator-displayname>sarowe</D:creator-displayname>
+<S:date>2014-02-10T20:59:48.480353Z</S:date>
+</S:log-item>
+</S:log-report>

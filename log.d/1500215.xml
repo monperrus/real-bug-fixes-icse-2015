@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1500215</D:version-name>
+<D:comment>Moved findbugs configuration from sourcechecks profile to default configuration, so that same configuration gets used on ad-hoc findbugs:findbugs runs, like one in MahoutQuality build job</D:comment>
+<D:creator-displayname>sslavic</D:creator-displayname>
+<S:date>2013-07-06T07:00:20.397872Z</S:date>
+</S:log-item>
+</S:log-report>

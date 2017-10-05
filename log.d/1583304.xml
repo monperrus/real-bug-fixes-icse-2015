@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1583304</D:version-name>
+<D:comment>DERBY-6107: Connection to classpath database fails when login timeout is set
+
+Don't cache threads used for connecting to the database when a login
+timeout is set, to prevent that the connection attempt uses the wrong
+context class loader.</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2014-03-31T11:42:30.778375Z</S:date>
+</S:log-item>
+</S:log-report>

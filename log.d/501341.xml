@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>501341</D:version-name>
+<D:comment>DERBY-1606 - derbyrunjartest hangs or uses wrong spawned jvm class 
+  if code no longer required as we only support foundation and have moved
+  the canons so only j9_foundation11 will run without failures; 
+  test passes cleanly with weme6.1 (j9 2.3/j2ME 1.1), so no need to skip
+</D:comment>
+<D:creator-displayname>myrnavl</D:creator-displayname>
+<S:date>2007-01-30T08:26:46.778925Z</S:date>
+</S:log-item>
+</S:log-report>

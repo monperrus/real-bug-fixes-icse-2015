@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>560289</D:version-name>
+<D:comment>DERBY-2973
+
+ALTER TABLE MODIFY COLUMN should maintain the collation info when the column being altered is character string type. The changes for this went into as a new method in ModifyColumnNode which gets called during the bind phase.
+
+</D:comment>
+<D:creator-displayname>mamta</D:creator-displayname>
+<S:date>2007-07-27T15:53:45.806341Z</S:date>
+</S:log-item>
+</S:log-report>

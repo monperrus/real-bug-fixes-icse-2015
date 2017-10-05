@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>411204</D:version-name>
+<D:comment>Ensure sanity check on stack depth of a generated method is only invoked
+if the generated class is error free. Checks against an invalid class file
+format can cause unexpected errors as the constant pool index values may be corrupt.
+Fixes the lang/largeCodeGen.java test in sanity mode.
+</D:comment>
+<D:creator-displayname>djd</D:creator-displayname>
+<S:date>2006-06-02T16:22:00.577799Z</S:date>
+</S:log-item>
+</S:log-report>

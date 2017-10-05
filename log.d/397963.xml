@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>397963</D:version-name>
+<D:comment>DERBY-170: Inserting large string into non-existing table causes comm failure
+
+This change moves the fix for DERBY-170 from the trunk to the 10.1 branch.
+
+The merge was straightforward, and testing was successful.
+
+</D:comment>
+<D:creator-displayname>bpendleton</D:creator-displayname>
+<S:date>2006-04-28T17:31:07.568502Z</S:date>
+</S:log-item>
+</S:log-report>

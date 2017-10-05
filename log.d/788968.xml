@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>788968</D:version-name>
+<D:comment>DERBY-4273: A lock could not be obtained within the time requested error in testBTreeForwardScan_fetchRows_resumeAfterWait_nonUnique_split
+
+Use DatabasePropertyTestSetup to set timeout in ResultSetMiscTest and
+SetTransactionIsolationTest, so that the values are reset before
+IndexSplitDeadlockTest starts.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2009-06-27T13:19:39.336022Z</S:date>
+</S:log-item>
+</S:log-report>

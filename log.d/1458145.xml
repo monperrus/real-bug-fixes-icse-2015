@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1458145</D:version-name>
+<D:comment>SOLR-4597: CachingDirectoryFactory#remove should not attempt to empty/remove the index right away but flag for removal after close. (Mark Miller)
+
+SOLR-4598: The Core Admin unload command's option 'deleteDataDir', should use the DirectoryFactory API to remove the data dir.
+
+SOLR-4599: CachingDirectoryFactory calls close(Directory) on forceNew if the Directory has a refCnt of 0, but it should call closeDirectory(CacheValue).</D:comment>
+<D:creator-displayname>markrmiller</D:creator-displayname>
+<S:date>2013-03-19T05:17:48.509304Z</S:date>
+</S:log-item>
+</S:log-report>

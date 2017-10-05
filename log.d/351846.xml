@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>351846</D:version-name>
+<D:comment>fix for DERBY-741.
+
+Insure that row estimates from btree cost function never return more rows than
+the btree thinks it has.  Before this change an ASSERT might fire where the
+fraction estimating the percentage of rows became larger than 1 (like 1.000001).
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2005-12-02T22:42:41.407555Z</S:date>
+</S:log-item>
+</S:log-report>

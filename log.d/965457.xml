@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>965457</D:version-name>
+<D:comment>if a fully-flushed commitlog segment is encountered, continue to the next instead of stopping replay entirely.  patch by jingfengtan; reviewed by jbellis for CASSANDRA-1297</D:comment>
+<D:creator-displayname>jbellis</D:creator-displayname>
+<S:date>2010-07-19T12:39:45.395625Z</S:date>
+</S:log-item>
+</S:log-report>

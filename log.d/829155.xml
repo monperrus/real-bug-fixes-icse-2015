@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>829155</D:version-name>
+<D:comment>DERBY-3634 Cannot use row_number() in ORDER BY clause
+
+Patch derby-3634-newimpl-4. This reimplements the ROW_NUMBER
+functionality after it was moved in svn 820483 and 820494. The patch
+makes ROW_NUMBER usable in all places it should be usable according to
+the standard (modulo the current Derby SQL subset).  So, DERBY-3634 is
+also fixed with this patch. The ordering problem seen in DERBY-4069 is
+also fixed. More test cases have been to OLAPTest for ROW_NUMBER
+usage.  The patch also adds some amount of generalizations to pave way
+for other window functionality, but this needs more work.
+
+</D:comment>
+<D:creator-displayname>dag</D:creator-displayname>
+<S:date>2009-10-23T18:05:03.090479Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1160593</D:version-name>
+<D:comment>DERBY-5336: Repeated database creation causes OutOfMemoryError 
+
+Clean up context when the daemon is shut down.
+Added regression test, more or less copied from patch provided by Aja Walker
+(aja at ajawalker dot com).
+
+Patch file: derby-5336-1a-remove_context_on_stop.diff
+            derby-5336-2a-regression_test.diff
+</D:comment>
+<D:creator-displayname>kristwaa</D:creator-displayname>
+<S:date>2011-08-23T09:18:43.920258Z</S:date>
+</S:log-item>
+</S:log-report>

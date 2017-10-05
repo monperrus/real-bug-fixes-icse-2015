@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>1070501</D:version-name>
+<D:comment>DERBY-5023: Cannot find Ant libraries when building from NetBeans
+
+Use the ant.core.lib property instead of ant.library.dir, which isn't
+guaranteed to be defined when Ant is invoked by an IDE.
+</D:comment>
+<D:creator-displayname>kahatlen</D:creator-displayname>
+<S:date>2011-02-14T14:20:33.127759Z</S:date>
+</S:log-item>
+</S:log-report>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<S:log-report xmlns:S="svn:" xmlns:D="DAV:">
+<S:log-item>
+<D:version-name>370967</D:version-name>
+<D:comment>DERBY-757
+
+Now that this routine can be called while concurrently with XA transactions
+being created and committed, checks have to be made to make sure the object
+being searched for does not go null while we are looking at it.  The search
+is for existing xacts, so skipping when we find a null is fine.
+
+</D:comment>
+<D:creator-displayname>mikem</D:creator-displayname>
+<S:date>2006-01-21T02:43:36.353139Z</S:date>
+</S:log-item>
+</S:log-report>
