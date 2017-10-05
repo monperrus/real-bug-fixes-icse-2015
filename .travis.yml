@@ -1,0 +1,3 @@
+script:
+  - python analyze-lists.py
+  - ./cassandra-dl-svn.sh
