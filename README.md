@@ -1,4 +1,6 @@
-This is an open-science Github repository.
+This is an open-science Github repository  [![DOI](https://zenodo.org/badge/105883524.svg)](https://zenodo.org/badge/latestdoi/105883524).
+
+
 
 It contains the bug fix commit dataset of [An Empirical Study on Real Bug Fixes (ICSE 2015)](http://stap.sjtu.edu.cn/images/8/86/Icse15-bugstudy.pdf).
 
