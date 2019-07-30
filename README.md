@@ -1,6 +1,19 @@
-This is an open-science Github repository  [![DOI](https://zenodo.org/badge/105883524.svg)](https://zenodo.org/badge/latestdoi/105883524).
 
+Citation
+--------
 
+```
+@misc{bfdataset,
+  author = {Martin Monperrus},
+  title = {Curated dataset of bug fix commits from "An Empirical Study on Real Bug Fixes"},
+  year = 2017,
+  doi = {10.5281/zenodo.1004734},
+  url = {https://doi.org/10.5281/zenodo.1004734}
+}
+```
+
+Content
+--------
 
 It contains the bug fix commit dataset of [An Empirical Study on Real Bug Fixes (ICSE 2015)](http://stap.sjtu.edu.cn/images/8/86/Icse15-bugstudy.pdf).
 
